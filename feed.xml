@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Test Feed</title><link>https://example.org</link><description>x</description>
+<item><title>Fresh opportunity</title><link>https://example.org/fresh/?utm_source=rss</link>
+<pubDate>{FRESH}</pubDate><description>Short summary</description></item>
+<item><title>Old opportunity</title><link>https://example.org/old/</link>
+<pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate><description>Too old</description></item>
+<item><title>No link item</title><description>broken</description></item>
+</channel></rss>

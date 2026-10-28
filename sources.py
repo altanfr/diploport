@@ -1,0 +1,85 @@
+"""RSS kaynaklarını doğrudan çeker (aracı birleştirme servisi yok), yeni olanları seçer."""
+from __future__ import annotations
+
+import logging
+import time
+from datetime import datetime, timedelta, timezone
+
+import feedparser
+import requests
+
+from .util import USER_AGENT, canonical_url, now_utc, short_hash
+
+log = logging.getLogger("diploport.sources")
+
+
+def _entry_date(entry) -> datetime:
+    for key in ("published_parsed", "updated_parsed"):
+        t = entry.get(key)
+        if t:
+            return datetime(*t[:6], tzinfo=timezone.utc)
+    return now_utc()  # tarihsiz kayıt: ilk görüldüğü an. Tekrar paylaşımı "seen" engeller.
+
+
+def fetch_feed(src: dict, timeout: int = 20) -> list[dict]:
+    try:
+        r = requests.get(src["url"], headers={"User-Agent": USER_AGENT}, timeout=timeout)
+        r.raise_for_status()
+    except requests.RequestException as e:
+        log.warning("Kaynak okunamadı (%s): %s", src["name"], e)
+        return []
+    parsed = feedparser.parse(r.content)
+    items = []
+    for e in parsed.entries:
+        link = (e.get("link") or "").strip()
+        title = (e.get("title") or "").strip()
+        if not link or not title:
+            continue
+        items.append(
+            {
+                "id": short_hash(canonical_url(link)),
+                "source": src["name"],
+                "source_cfg": {
+                    "assume_eligible": bool(src.get("assume_eligible")),
+                    "link_fallback_to_source": bool(src.get("link_fallback_to_source")),
+                },
+                "title": title,
+                "link": link,
+                "published": _entry_date(e).isoformat(),
+                "summary": (e.get("summary") or "")[:1500],
+            }
+        )
+    log.info("%s: %d kayıt", src["name"], len(items))
+    return items
+
+
+def collect_new(cfg: dict, state: dict) -> list[dict]:
+    """Görülmemiş ve yeterince yeni kayıtları, kaynaklar arasında dönüşümlü sırayla döndürür."""
+    max_age = timedelta(days=cfg["limits"]["max_age_days"])
+    per_source: list[list[dict]] = []
+    for src in cfg["sources"]:
+        fresh = [
+            it
+            for it in fetch_feed(src)
+            if it["id"] not in state["seen"]
+            and it["id"] not in state["pending"]
+            and not any(q["id"] == it["id"] for q in state["queue"])
+            and now_utc() - datetime.fromisoformat(it["published"]) <= max_age
+        ]
+        fresh.sort(key=lambda x: x["published"], reverse=True)
+        per_source.append(fresh)
+        time.sleep(0.5)
+
+    # Round-robin: tek bir kaynak tüm kotayı yemesin.
+    out: list[dict] = []
+    seen_ids: set[str] = set()
+    i = 0
+    while any(per_source):
+        for lst in per_source:
+            if lst:
+                it = lst.pop(0)
+                if it["id"] not in seen_ids:
+                    seen_ids.add(it["id"])
+                    out.append(it)
+        i += 1
+    return out

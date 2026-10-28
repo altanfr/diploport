@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diploport · Türk gençleri için burs, staj ve fırsatlar</title>
+<meta name="description" content="Türkiye'den başvurulabilen burs, staj, gönüllülük ve eğitim fırsatları. Resmî başvuru linkleriyle, her gün güncellenir.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%2314224F%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%276%27 fill=%27%23F5B83D%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><span class="dot"></span>diploport</a>
+    <p class="tag">Türkiye'den başvurulabilen burs, staj, gönüllülük ve eğitim fırsatları</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="controls">
+    <input id="q" type="search" placeholder="Ara: ülke, kurum, konu..." aria-label="Ara">
+    <div id="chips" class="chips" role="group" aria-label="Kategori"></div>
+  </div>
+  <p id="count" class="count" aria-live="polite"></p>
+  <section id="list" class="list"></section>
+  <p id="empty" class="empty" hidden>Henüz gösterilecek fırsat yok. Yakında yeni ilanlar eklenecek.</p>
+</main>
+
+<footer class="wrap foot">
+  <p>Her ilan resmî başvuru sayfasına bağlanır. Başvurmadan önce şartları kaynağında doğrula.</p>
+  <p><a href="https://instagram.com/" id="ig" rel="noopener">Instagram'da takip et</a></p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

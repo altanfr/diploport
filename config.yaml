@@ -1,0 +1,103 @@
+# Diploport Lite - tek ayar dosyası.
+# Kaynak eklemek/çıkarmak, limitleri ve metinleri değiştirmek için sadece bu dosyayı düzenle.
+
+brand:
+  name: Diploport
+  handle: "@diploport.tr"                    # Görselin altında görünür (Instagram kullanıcı adı)
+  site_url: "https://KULLANICI.github.io/diploport"   # docs/ klasörünün yayınlandığı adres (sonunda / olmasın)
+  footer_text: "DİPLOPORT.COM"                # Kartın en altında görünen yazı
+
+timezone: Europe/Istanbul
+
+# --- Kaynaklar -------------------------------------------------------------
+# assume_eligible:        Kaynak zaten Türkiye merkezli (ör. Youthall) -> "belirsiz" sonucu "uygun" sayılır.
+# link_fallback_to_source: Başvuru zaten kaynağın kendi sayfasında yapılıyorsa (SALTO, Youthall) ve sayfada
+#                          harici resmî link bulunamazsa kaynak sayfasının kendisi başvuru linki olur.
+#                          Diğer (aggregator) kaynaklarda KAPALI: resmî link bulunamazsa ilan paylaşılmaz.
+sources:
+  - name: Opportunities Corners
+    url: https://opportunitiescorners.com/feed
+  - name: Opportunities For Youth
+    url: https://opportunitiesforyouth.org/feed
+  - name: Erasmusgram
+    url: https://www.erasmusgram.com/feed
+  - name: Opportunities Circle
+    url: https://www.opportunitiescircle.com/feed
+  - name: AB İlan
+    url: https://ab-ilan.com/feed/
+  - name: SALTO-YOUTH Eğitim Takvimi
+    url: https://politepaul.com/fd/V6qxy9X12nL8.xml
+    link_fallback_to_source: true
+  - name: Youthall
+    url: https://politepaul.com/fd/bacPZOS3ACt8.xml
+    assume_eligible: true
+    link_fallback_to_source: true
+
+# Başvuru linki olarak ASLA kabul edilmeyecek siteler (aggregator + sosyal medya).
+# Kaynakların kendi alan adları otomatik olarak eklenir.
+blocked_link_domains:
+  - opportunitiescorners.com
+  - opportunitiesforyouth.org
+  - erasmusgram.com
+  - opportunitiescircle.com
+  - ab-ilan.com
+  - opportunitydesk.org
+  - scholarshipdb.net
+  - facebook.com
+  - instagram.com
+  - twitter.com
+  - x.com
+  - linkedin.com
+  - t.me
+  - telegram.me
+  - wa.me
+  - whatsapp.com
+  - pinterest.com
+  - tiktok.com
+  - youtube.com
+  - youtu.be
+
+# --- Limitler --------------------------------------------------------------
+limits:
+  max_age_days: 10               # Bundan eski RSS kayıtları yok sayılır
+  max_judge_per_run: 10          # Her çalışmada en fazla kaç ilan yapay zekâya gider
+  max_posts_per_day: 2           # Instagram + site için günlük üst sınır
+  min_hours_between_posts: 5
+  publish_window_tr: [9, 22]     # Türkiye saatiyle bu saatler arasında paylaş
+  queue_ttl_days: 14             # Kuyrukta bekleyen ilan bu kadar gün sonra düşer
+  pending_ttl_days: 7            # Onay bekleyen ilan bu kadar gün sonra düşer
+  site_max_posts: 300
+
+# --- Yapay zekâ ------------------------------------------------------------
+gemini:
+  model: gemini-3.1-flash-lite   # Ücretsiz katmanda var, en ucuz Flash-Lite. Gerekirse gemini-3.5-flash-lite
+  max_article_chars: 12000
+  seconds_between_calls: 4       # Ücretsiz katman dakika limitlerini aşmamak için
+
+# --- Kart arka planı: otomatik stok fotoğraf (Pexels) ------------------------
+# PEXELS_API_KEY secret'ı yoksa kart şablonun düz (beyaz zeminli) hâliyle üretilir.
+photo:
+  enabled: true
+  min_luma: 0.30          # Çok karanlık fotoğrafları ele (sol üstteki lacivert logo okunsun)
+  pick_from: 8            # Uygun sonuçların ilk kaçından biri seçilsin (ilan kimliğine göre sabit)
+  fallback_queries:       # Modelin sorguları sonuç vermezse kategoriye göre genel arama
+    burs: "university campus students"
+    staj: "young professionals office"
+    is: "business meeting office"
+    gonulluluk: "volunteers community outdoor"
+    egitim: "classroom workshop students"
+    yarisma: "students competition team"
+    hibe: "teamwork project startup"
+    diger: "city skyline travel"
+
+# --- Instagram yazısı -------------------------------------------------------
+hashtags:
+  common: ["#diploport", "#fırsat", "#türkgençler"]
+  burs: ["#burs", "#yurtdışıburs", "#üniversiteöğrencisi"]
+  staj: ["#staj", "#yurtdışıstaj", "#stajilanları"]
+  is: ["#işilanı", "#kariyer", "#yeniMezun"]
+  gonulluluk: ["#gönüllülük", "#erasmus", "#avrupagönüllülükhizmeti"]
+  egitim: ["#erasmusplus", "#gençlikprogramı", "#eğitim"]
+  yarisma: ["#yarışma", "#ödül", "#gençler"]
+  hibe: ["#hibe", "#fon", "#proje"]
+  diger: ["#fırsatlar"]

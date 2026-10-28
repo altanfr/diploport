@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<style>
+{{fonts_css}}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; background: #FFFFFF; font-family: 'PoppinsD', sans-serif; color: #FFFFFF; }
+.card { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #FFFFFF; }
+
+/* 1) Stok fotoğraf (yoksa şablonun beyaz zemini kalır) */
+.photo { position: absolute; inset: 0; background-size: cover; background-position: center; {{photo_style}} }
+
+/* 2) Kullanıcının şablonundan ölçülen lacivert gradyan: ~%50'den başlar, altta tam lacivert */
+.shade { position: absolute; inset: 0;
+  background: linear-gradient(180deg, {{gradient}}); }
+
+/* 3) Logo: sol üst (şablonda 36,30 → 144 px genişlik) */
+.logo { position: absolute; left: 36px; top: 30px; width: 144px; height: auto; }
+
+/* 4) Başlık: alttan hizalı, ortalı; uzunsa yukarı doğru büyür */
+.title { position: absolute; left: 84px; width: 912px; bottom: 272px; font-weight: 700; line-height: 1.2; text-align: center;
+  font-size: {{title_size}}px; letter-spacing: -.3px; text-shadow: 0 2px 14px rgba(10, 20, 50, .35);
+  display: flex; flex-direction: column; justify-content: flex-end; }
+.title span { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
+
+/* 5) "Ülke | destek" satırı: ortalı */
+.sub { position: absolute; left: 84px; width: 912px; top: 1122px; height: 44px; line-height: 44px; text-align: center;
+  font-weight: 500; font-size: 36px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* 6) Site adı: en altta ortalı */
+.site { position: absolute; left: -5px; width: 1080px; top: 1242px; height: 42px; line-height: 42px; text-align: center;
+  font-weight: 700; font-size: {{site_size}}px; letter-spacing: {{site_spacing}}px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="photo"></div>
+  <div class="shade"></div>
+  <img class="logo" alt="" src="{{logo_src}}">
+  <div class="title"><span>{{title}}</span></div>
+  <div class="sub">{{subtitle}}</div>
+  <div class="site">{{site_text}}</div>
+</div>
+</body>
+</html>
