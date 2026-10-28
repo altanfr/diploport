@@ -38,7 +38,7 @@ Gemini ücretsiz katmandan çıkarsa en kötü senaryo (günde 80 ilan okunur) y
 4. Settings → Actions → General → Workflow permissions → **Read and write permissions**.
 
 ### 2. Gemini anahtarı
-aistudio.google.com → *Get API key*. Anahtarı depoda Settings → Secrets and variables → Actions → **`GEMINI_API_KEY`** olarak ekle. (Ücretsiz katman limitleri AI Studio'da hesabına özel görünür; kod 429'larda kendiliğinden bekleyip dener.)
+aistudio.google.com → *Get API key*. Anahtarı depoda Settings → Secrets and variables → Actions → **`GEMINI_API_KEY`** olarak ekle. (Ücretsiz katman limitleri AI Studio'da hesabına özel görünür; kod 429'larda kendiliğinden bekleyip dener. Ana model "yoğun talep" (503) verirse `config.yaml > gemini.fallback_models` altındaki yedek modellere sırayla geçer; yoğun çıkan model 10 dakika atlanır.)
 
 ### 3. Pexels anahtarı (kart arka planındaki stok fotoğraf için)
 pexels.com/api → ücretsiz hesapla anahtar al → depoda **`PEXELS_API_KEY`** secret'ı olarak ekle. Anahtar yoksa kartlar fotoğrafsız, şablonun beyaz zeminli hâliyle çıkar (hat durmaz). Pexels yönergesi gereği kullanılan fotoğrafın sahibi açıklamaya "Görsel: İsim / Pexels" olarak eklenir.

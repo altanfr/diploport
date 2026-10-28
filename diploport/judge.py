@@ -102,11 +102,25 @@ def build_prompt(item: dict, art: Article, today: str) -> str:
     )
 
 
-def call_gemini(prompt: str, cfg: dict, api_key: str | None = None, retries: int = 4) -> dict:
-    api_key = api_key or os.environ.get("GEMINI_API_KEY", "")
-    if not api_key:
-        raise GeminiError("GEMINI_API_KEY tanımlı değil")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{cfg['gemini']['model']}:generateContent"
+class ModelUnavailable(GeminiError):
+    """Model aşırı yoğun / bulunamıyor: yedek modele geçmeye değer. (Anahtar/izin hataları bu sınıf değildir.)"""
+
+
+_FAILED_UNTIL: dict[str, float] = {}   # model -> bu zamana kadar (epoch) sorunlu say; aynı çalışmada boşuna beklemesin
+_COOLDOWN_SECONDS = 600
+
+
+def _models(cfg: dict) -> list[str]:
+    g = cfg["gemini"]
+    out = [g["model"]]
+    for m in g.get("fallback_models", []) or []:
+        if m not in out:
+            out.append(m)
+    return out
+
+
+def _call_model(model: str, prompt: str, api_key: str, retries: int) -> dict:
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.1, "responseMimeType": "application/json", "responseSchema": SCHEMA},
@@ -118,7 +132,7 @@ def call_gemini(prompt: str, cfg: dict, api_key: str | None = None, retries: int
             r = requests.post(url, headers=headers, json=body, timeout=90)
         except requests.RequestException as e:
             if attempt == retries:
-                raise GeminiError(f"ağ hatası: {e}") from e
+                raise ModelUnavailable(f"{model}: ağ hatası: {e}") from e
             time.sleep(delay); delay *= 2
             continue
         if r.status_code == 400 and "responseSchema" in body["generationConfig"]:
@@ -126,22 +140,46 @@ def call_gemini(prompt: str, cfg: dict, api_key: str | None = None, retries: int
             log.warning("Şema reddedildi, şemasız deneniyor: %s", r.text[:200])
             body["generationConfig"].pop("responseSchema")
             continue
+        if r.status_code == 404:
+            raise ModelUnavailable(f"{model}: HTTP 404 (model bulunamadı)")
         if r.status_code in (429, 500, 502, 503, 504):
             if attempt == retries:
-                raise GeminiError(f"HTTP {r.status_code}: {r.text[:200]}")
-            log.warning("Gemini %s, %ss bekleniyor", r.status_code, delay)
+                raise ModelUnavailable(f"{model}: HTTP {r.status_code}: {r.text[:160]}")
+            log.warning("%s: Gemini %s, %ss bekleniyor", model, r.status_code, delay)
             time.sleep(delay); delay *= 2
             continue
         if r.status_code != 200:
-            raise GeminiError(f"HTTP {r.status_code}: {r.text[:300]}")
+            raise GeminiError(f"{model}: HTTP {r.status_code}: {r.text[:300]}")
         try:
             text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
             return json.loads(text)
         except (KeyError, IndexError, ValueError, TypeError) as e:
             if attempt == retries:
-                raise GeminiError(f"Geçersiz yanıt: {e}") from e
+                raise GeminiError(f"{model}: geçersiz yanıt: {e}") from e
             time.sleep(delay); delay *= 2
-    raise GeminiError("beklenmeyen durum")
+    raise GeminiError(f"{model}: beklenmeyen durum")
+
+
+def call_gemini(prompt: str, cfg: dict, api_key: str | None = None, retries: int = 3) -> dict:
+    """Önce ayardaki model, aşırı yoğunsa sırayla yedek modeller (config: gemini.fallback_models).
+    Yoğun çıkan model 10 dakika boyunca atlanır. Anahtar/izin gibi hatalarda yedeğe geçilmez."""
+    api_key = api_key or os.environ.get("GEMINI_API_KEY", "")
+    if not api_key:
+        raise GeminiError("GEMINI_API_KEY tanımlı değil")
+    models = _models(cfg)
+    ready = [m for m in models if _FAILED_UNTIL.get(m, 0) <= time.time()] or models
+    last: Exception | None = None
+    for i, model in enumerate(ready):
+        try:
+            result = _call_model(model, prompt, api_key, retries if i == 0 else 2)
+            if model != models[0]:
+                log.info("Yedek model kullanıldı: %s", model)
+            return result
+        except ModelUnavailable as e:
+            _FAILED_UNTIL[model] = time.time() + _COOLDOWN_SECONDS
+            log.warning("Model kullanılamıyor, sıradakine geçiliyor: %s", e)
+            last = e
+    raise GeminiError(str(last))
 
 
 def evidence_in_text(evidence: str, text: str) -> bool:

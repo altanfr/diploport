@@ -277,3 +277,59 @@ def test_caption_credits_photographer_only_when_photo_used(cfg):
 def test_judge_schema_and_prompt_ask_for_image_queries():
     assert "image_queries" in judge.SCHEMA["properties"] and "image_queries" not in judge.SCHEMA["required"]
     assert "image_queries" in judge.PROMPT and "Pexels" in judge.PROMPT
+
+
+# --- Gemini yedek model ---------------------------------------------------------
+
+class _G:
+    def __init__(self, status, text="", payload=None):
+        self.status_code, self.text, self._p = status, text, payload
+
+    def json(self):
+        return self._p
+
+
+def _ok(d):
+    import json as _json
+    return _G(200, payload={"candidates": [{"content": {"parts": [{"text": _json.dumps(d)}]}}]})
+
+
+def _setup_gemini(cfg, monkeypatch, handler):
+    judge._FAILED_UNTIL.clear()
+    cfg["gemini"]["model"] = "ana"
+    cfg["gemini"]["fallback_models"] = ["yedek1", "yedek2"]
+    calls = []
+
+    def fake_post(url, headers=None, json=None, timeout=0):
+        model = url.split("/models/")[1].split(":")[0]
+        calls.append(model)
+        return handler(model)
+    monkeypatch.setattr(judge.requests, "post", fake_post)
+    monkeypatch.setattr(judge.time, "sleep", lambda s: None)
+    return calls
+
+
+def test_gemini_overloaded_primary_falls_back_and_is_skipped_next_time(cfg, monkeypatch):
+    calls = _setup_gemini(cfg, monkeypatch, lambda m: _G(503, "high demand") if m == "ana" else _ok({"x": m}))
+    assert judge.call_gemini("p", cfg, "key") == {"x": "yedek1"}
+    assert calls == ["ana", "ana", "ana", "yedek1"]            # ana 3 deneme, sonra yedek
+    calls.clear()
+    assert judge.call_gemini("p", cfg, "key") == {"x": "yedek1"}
+    assert calls == ["yedek1"]                                  # yoğun model 10 dk atlanır: boşuna beklenmez
+    judge._FAILED_UNTIL.clear()
+
+
+def test_gemini_missing_model_404_moves_on_and_all_failing_raises(cfg, monkeypatch):
+    calls = _setup_gemini(cfg, monkeypatch, lambda m: _G(404) if m == "yedek1" else _G(503, "busy"))
+    with pytest.raises(judge.GeminiError):
+        judge.call_gemini("p", cfg, "key")
+    assert set(calls) == {"ana", "yedek1", "yedek2"}
+    judge._FAILED_UNTIL.clear()
+
+
+def test_gemini_key_or_permission_error_does_not_try_fallbacks(cfg, monkeypatch):
+    calls = _setup_gemini(cfg, monkeypatch, lambda m: _G(403, "API key not valid"))
+    with pytest.raises(judge.GeminiError):
+        judge.call_gemini("p", cfg, "key")
+    assert calls == ["ana"]
+    judge._FAILED_UNTIL.clear()
