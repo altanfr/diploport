@@ -333,3 +333,21 @@ def test_gemini_key_or_permission_error_does_not_try_fallbacks(cfg, monkeypatch)
         judge.call_gemini("p", cfg, "key")
     assert calls == ["ana"]
     judge._FAILED_UNTIL.clear()
+
+
+# --- Kanıt cümlesi uygunluktan söz etmeli ------------------------------------------
+
+def test_evidence_must_talk_about_eligibility():
+    from diploport.judge import evidence_mentions_eligibility as ok
+    assert ok("Applications are open to international students from all nationalities")
+    assert ok("Katılımcı ülkeler: Hollanda, İtalya, Türkiye, Macaristan")
+    assert ok("Türk Vatandaşları için iyi bir fırsat")
+    assert not ok("The fellowship supports young professionals who want to develop innovative solutions to water-related problems.")
+    assert not ok("The fellowship will run from 16 August to 22 October 2027, with in-person sessions in Berlin.")
+    assert not ok("Erasmus+ Gençlik Değişimi") and not ok("")
+
+
+def test_yes_with_irrelevant_but_verbatim_evidence_goes_to_review(art):
+    sentence = next(x.strip() for x in art.text.split(".") if len(x.strip()) > 25 and not judge.evidence_mentions_eligibility(x))
+    v = judge.decide(base_result(eligibility_evidence=sentence), ITEM, art, TODAY)
+    assert v["status"] == "unclear" and "söz etmiyor" in v["reason"]

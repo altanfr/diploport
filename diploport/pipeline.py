@@ -130,7 +130,14 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
         if v["ok"]:
             official = v["url"]
     if not official:
-        reason = "resmî başvuru linki bulunamadı" + (f" ({note})" if note else "")
+        doms = []
+        for l in art.links:
+            d = domain_of(l["url"])
+            if d and d not in doms:
+                doms.append(d)
+        picked = "model link seçmedi" if not verdict["link"] else f"seçilen link reddedildi: {note or '?'}"
+        reason = (f"resmî başvuru linki bulunamadı ({picked}; sayfada {len(art.links)} aday link"
+                  + (f": {', '.join(doms[:6])}" if doms else "") + ")")
         mark(state, it["id"], "rejected", reason, title)
         report.append(("elendi", it["source"], title, reason))
         return "ok"

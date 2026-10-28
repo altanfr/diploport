@@ -21,14 +21,37 @@ def _entry_date(entry) -> datetime:
     return now_utc()  # tarihsiz kayıt: ilk görüldüğü an. Tekrar paylaşımı "seen" engeller.
 
 
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+              "Chrome/124.0 Safari/537.36")
+FEED_ERRORS: dict[str, str] = {}   # kaynak adı -> son hata (rapor için)
+
+
+def _get(url: str, ua: str, timeout: int) -> requests.Response:
+    r = requests.get(url, headers={"User-Agent": ua, "Accept": "application/rss+xml, application/xml, text/xml, */*"},
+                     timeout=timeout)
+    r.raise_for_status()
+    return r
+
+
 def fetch_feed(src: dict, timeout: int = 20) -> list[dict]:
+    FEED_ERRORS.pop(src["name"], None)
     try:
-        r = requests.get(src["url"], headers={"User-Agent": USER_AGENT}, timeout=timeout)
-        r.raise_for_status()
+        try:
+            r = _get(src["url"], USER_AGENT, timeout)
+        except requests.HTTPError as e:
+            # Bazı siteler botları 403/406 ile reddeder; sıradan bir tarayıcı kimliğiyle bir kez daha dene.
+            if e.response is not None and e.response.status_code in (403, 406):
+                r = _get(src["url"], BROWSER_UA, timeout)
+            else:
+                raise
     except requests.RequestException as e:
+        code = getattr(getattr(e, "response", None), "status_code", None)
+        FEED_ERRORS[src["name"]] = f"HTTP {code}" if code else type(e).__name__
         log.warning("Kaynak okunamadı (%s): %s", src["name"], e)
         return []
     parsed = feedparser.parse(r.content)
+    if not parsed.entries:
+        FEED_ERRORS[src["name"]] = "yanıt geldi ama RSS kaydı yok (" + (r.headers.get("content-type", "?").split(";")[0]) + ")"
     items = []
     for e in parsed.entries:
         link = (e.get("link") or "").strip()
@@ -72,7 +95,8 @@ def collect_new(cfg: dict, state: dict) -> list[dict]:
             and now_utc() - datetime.fromisoformat(it["published"]) <= max_age
         ]
         fresh.sort(key=lambda x: x["published"], reverse=True)
-        LAST_STATS[src["name"]] = f"{len(fresh)} yeni / {len(entries)} kayıt" if entries else "okunamadı veya boş"
+        LAST_STATS[src["name"]] = (f"{len(fresh)} yeni / {len(entries)} kayıt" if entries
+                                   else f"okunamadı: {FEED_ERRORS.get(src['name'], 'boş')}")
         per_source.append(fresh)
         time.sleep(0.5)
 

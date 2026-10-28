@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import time
 from datetime import date, datetime
 
@@ -192,6 +193,20 @@ def evidence_in_text(evidence: str, text: str) -> bool:
     return len(ev) >= 60 and ev[:40] in tx and ev[-40:] in tx
 
 
+# Kanıt cümlesi uygunluktan hiç söz etmiyorsa ("burs genç profesyonelleri destekler" gibi) "yes" geçerli sayılmaz.
+# Bilerek cömert bir süzgeç: amaç sadece alakasız cümleleri yakalamak; asıl karar yine modelde ve onay kanalında.
+_ELIGIBILITY_HINT = re.compile(
+    r"(t[uü]rk|nationalit|citizen|vatanda[sş]|uyruk|international|uluslararas|worldwide|world|global|dünya|dunya|"
+    r"countr|ülke|ulke|everyone|anyone|any\s+applicant|all\s+applicants|herkes|regardless|resident|ikamet|"
+    r"candidates\s+from|applicants\s+from|participants\s+from|open\s+to)",
+    re.IGNORECASE,
+)
+
+
+def evidence_mentions_eligibility(evidence: str) -> bool:
+    return bool(_ELIGIBILITY_HINT.search(evidence or ""))
+
+
 def parse_deadline(s: str) -> date | None:
     try:
         return datetime.strptime((s or "").strip(), "%Y-%m-%d").date()
@@ -217,6 +232,8 @@ def decide(result: dict, item: dict, art: Article, today: date) -> dict:
 
     if elig == "yes" and not evidence_in_text(evidence, art.text):
         elig, note = "unclear", "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı."
+    elif elig == "yes" and not evidence_mentions_eligibility(evidence):
+        elig, note = "unclear", "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor."
 
     if elig == "unclear" and item["source_cfg"].get("assume_eligible"):
         elig, evidence = "yes", f"Kaynak Türkiye merkezli ({item['source']})"
