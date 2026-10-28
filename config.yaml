@@ -4,7 +4,7 @@
 brand:
   name: Diploport
   handle: "@diploport.tr"                    # Görselin altında görünür (Instagram kullanıcı adı)
-  site_url: "https://KULLANICI.github.io/diploport"   # docs/ klasörünün yayınlandığı adres (sonunda / olmasın)
+  site_url: "https://altanfr.github.io/diploport"   # docs/ klasörünün yayınlandığı adres (sonunda / olmasın)
   footer_text: "DİPLOPORT.COM"                # Kartın en altında görünen yazı
 
 timezone: Europe/Istanbul

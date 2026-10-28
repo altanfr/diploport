@@ -27,7 +27,7 @@ GitHub Actions (ücretsiz, her 3 saatte bir)
 | Telegram botu | 0 |
 | Alan adı (isteğe bağlı) | ~10 $/yıl |
 
-Gemini ücretsiz katmandan çıkarsa en kötü senaryo (günde 80 ilan okunur) yaklaşık 4 $/ay; gerçekçi kullanım 1-2 $. Ücretsiz katmanda gönderilen veriler Google tarafından ürün geliştirmede kullanılabilir; burada işlenenler zaten herkese açık ilan metinleri.
+Gemini ücretsiz katmandan çıkarsa en kötü senaryo (günde 80 ilan okunur) yaklaşık 4 USD/ay; gerçekçi kullanım 1-2 USD. Ücretsiz katmanda gönderilen veriler Google tarafından ürün geliştirmede kullanılabilir; burada işlenenler zaten herkese açık ilan metinleri.
 
 ## Kurulum (yaklaşık 30-40 dakika, bir kez)
 
