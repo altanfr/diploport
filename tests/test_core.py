@@ -343,6 +343,7 @@ def test_evidence_must_talk_about_eligibility():
     assert ok("Katılımcı ülkeler: Hollanda, İtalya, Türkiye, Macaristan")
     assert ok("Türk Vatandaşları için iyi bir fırsat")
     assert not ok("The fellowship supports young professionals who want to develop innovative solutions to water-related problems.")
+    assert not ok("The European program for international students will help participants develop practical skills")
     assert not ok("The fellowship will run from 16 August to 22 October 2027, with in-person sessions in Berlin.")
     assert not ok("Erasmus+ Gençlik Değişimi") and not ok("")
 

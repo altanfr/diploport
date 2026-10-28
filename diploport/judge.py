@@ -124,7 +124,7 @@ def _call_model(model: str, prompt: str, api_key: str, retries: int) -> dict:
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.1, "responseMimeType": "application/json", "responseSchema": SCHEMA},
+        "generationConfig": {"temperature": 0, "responseMimeType": "application/json", "responseSchema": SCHEMA},
     }
     headers = {"x-goog-api-key": api_key, "Content-Type": "application/json"}
     delay = 8
@@ -196,7 +196,7 @@ def evidence_in_text(evidence: str, text: str) -> bool:
 # Kanıt cümlesi uygunluktan hiç söz etmiyorsa ("burs genç profesyonelleri destekler" gibi) "yes" geçerli sayılmaz.
 # Bilerek cömert bir süzgeç: amaç sadece alakasız cümleleri yakalamak; asıl karar yine modelde ve onay kanalında.
 _ELIGIBILITY_HINT = re.compile(
-    r"(t[uü]rk|nationalit|citizen|vatanda[sş]|uyruk|international|uluslararas|worldwide|world|global|dünya|dunya|"
+    r"(t[uü]rk|nationalit|citizen|vatanda[sş]|uyruk|worldwide|from\s+all|all\s+countries|any\s+country|dünya|dunya|"
     r"countr|ülke|ulke|everyone|anyone|any\s+applicant|all\s+applicants|herkes|regardless|resident|ikamet|"
     r"candidates\s+from|applicants\s+from|participants\s+from|open\s+to)",
     re.IGNORECASE,
