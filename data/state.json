@@ -1,0 +1,227 @@
+{
+  "fails": {},
+  "official_seen": [
+    "yinfo.org.tr/projeler/gaziantepte-genclik-degisimi",
+    "learnecohub.com",
+    "docs.google.com/forms/d/e/1FAIpQLSfgwKPQ4xfB8znTRu3bJ_HbpK2Vc_9p-6jL-MEwNSmlVJ_kqQ/viewform",
+    "enhancerpro.com.tr",
+    "youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58"
+  ],
+  "outbox": [],
+  "pending": {},
+  "published": [],
+  "queue": [
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.yinfo.org.tr/projeler/gaziantepte-genclik-degisimi",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Proje yeri: Gaziantep, Türkiye",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanır",
+      "highlights_tr": [
+        "18-30 yaş arası gençler katılabilir",
+        "21-27 Kasım 2026 tarihleri arasında",
+        "Beden farkındalığı ve stres yönetimi odaklı"
+      ],
+      "id": "a84f71057241",
+      "image_queries": [
+        "Gaziantep city center",
+        "Turkey youth workshop",
+        "diverse group students"
+      ],
+      "is_opportunity": true,
+      "organization": "Erasmus+",
+      "queued_at": "2026-10-28T20:12:37.311907+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/gaziantep-7-gun-genclik-degisimi/",
+      "summary_tr": "Gaziantep'te düzenlenecek 7 günlük Erasmus+ gençlik değişimi, 18-30 yaş arası gençlere beden farkındalığı, stres yönetimi ve duygusal iyi oluş konularında eğitim ve kültürlerarası etkileşim imkanı sunuyor.",
+      "title_tr": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı",
+      "turkey_eligible": "yes"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.learnecohub.com/",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "Türkiye'de sosyal duygusal öğrenme ve deneyimsel öğrenme alanında çalışmalar yürüten Learneco olarak",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz eğitim",
+      "highlights_tr": [
+        "Ücretsiz 2 saatlik çevrimiçi eğitim",
+        "Öğrencilere ve yeni mezunlara uygun",
+        "Sosyal duygusal öğrenme uzmanlığı"
+      ],
+      "id": "3983e03f5c2b",
+      "image_queries": [
+        "online education webinar",
+        "Turkey university students",
+        "students attending workshop"
+      ],
+      "is_opportunity": true,
+      "organization": "Learneco",
+      "queued_at": "2026-10-28T20:13:04.832626+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/learneco/sosyal-duygusal-ogrenme-uzmanlik-programi_5/",
+      "summary_tr": "Psikoloji, PDR, çocuk gelişimi ve öğretmenlik alanındaki öğrencilere ve yeni mezunlara yönelik, sosyal duygusal öğrenme becerileri üzerine ücretsiz çevrimiçi farkındalık eğitimi.",
+      "title_tr": "Sosyal Duygusal Öğrenme Uzmanlık Programı Farkındalık Eğitimi",
+      "turkey_eligible": "yes"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfgwKPQ4xfB8znTRu3bJ_HbpK2Vc_9p-6jL-MEwNSmlVJ_kqQ/viewform",
+      "category": "egitim",
+      "country_tr": "İtalya",
+      "deadline": "",
+      "eligibility_evidence": "Katılımcı ülkeler: Hollanda, İtalya, Yunanistan, Türkiye, Macaristan, Hırvatistan, Romanya ve Fransa",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek ve seyahat desteği sağlanmaktadır",
+      "highlights_tr": [
+        "1-9 Aralık tarihleri arasında gerçekleşecek",
+        "İngilizce iletişim kurabilecek düzeyde dil becerisi",
+        "Konaklama, yemek ve seyahat masrafları karşılanıyor"
+      ],
+      "id": "276be86740ef",
+      "image_queries": [
+        "Agrigento Italy landscape",
+        "Italy Erasmus youth project",
+        "students using artificial intelligence"
+      ],
+      "is_opportunity": true,
+      "queued_at": "2026-10-28T20:13:25.846626+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/italya-agrigento-9-gun-erasmus-projesi/",
+      "summary_tr": "İtalya'nın Agrigento kentinde düzenlenecek olan Erasmus+ eğitim kursu, gençlik çalışmalarında yapay zekâ kullanımı, etik ve dijital araçlar üzerine odaklanmaktadır. 1-9 Aralık tarihleri arasında gerçekleşecektir.",
+      "title_tr": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
+      "turkey_eligible": "yes"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.enhancerpro.com.tr/",
+      "category": "hibe",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-22",
+      "eligibility_evidence": "Hızlandırma Hibe Programının genel hedefi, Türkiye’nin yüksek mülteci nüfusuna sahip illerinde Geçici Koruma Altındaki Suriyeliler (GKAS), Uluslararası Koruma Altındaki Kişiler (UKAK) ve Türk Vatandaşları için iyileştirilmiş istihdam ve geçim fırsatlarını artırmaktır.",
+      "fee_required": false,
+      "funding_tr": "Mali destek sağlanmaktadır",
+      "highlights_tr": [
+        "Mikro ve orta ölçekli işletmelere yönelik",
+        "Proje uygulama süresi 8-12 ay",
+        "İstihdam ve kapasite artırımı odaklı"
+      ],
+      "id": "0ae1f90d4e4d",
+      "image_queries": [
+        "modern office workspace",
+        "Turkey business development",
+        "entrepreneur working office"
+      ],
+      "is_opportunity": true,
+      "queued_at": "2026-10-28T20:13:49.536159+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/enhancer-pro-projesi-hizlandirma-hibe-programi-ve-orta-olcekli-isletme-hibe-programi-ilan-edildi/",
+      "summary_tr": "ENHANCER PRO projesi kapsamında mikro ve orta ölçekli işletmelerin büyümesini, kapasite artırımını ve istihdam olanaklarını desteklemek amacıyla iki farklı hibe programı başvuruları başlamıştır.",
+      "title_tr": "ENHANCER PRO Hibe Programları",
+      "turkey_eligible": "yes"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "Tekirdağ veya Çorlu lokasyonunda çalışma",
+        "Haftada 5 gün tam zamanlı staj",
+        "İyi derecede İngilizce yeterliliği"
+      ],
+      "id": "690b61a17c08",
+      "image_queries": [
+        "ready mix concrete plant",
+        "Turkey construction industry",
+        "intern working office"
+      ],
+      "is_opportunity": true,
+      "organization": "Youthall",
+      "queued_at": "2026-10-28T20:14:03.218386+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
+      "summary_tr": "Tekirdağ veya Çorlu'daki hazır beton tesislerinde görev alacak, 4. sınıf veya yüksek lisans öğrencileri ile yeni mezunlar için uzun dönem staj fırsatı.",
+      "title_tr": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
+      "turkey_eligible": "yes"
+    }
+  ],
+  "seen": {
+    "0ae1f90d4e4d": {
+      "reason": "",
+      "status": "queued",
+      "title": "ENHANCER PRO Hibe Programları",
+      "ts": "2026-10-28T20:13:49.536171+00:00"
+    },
+    "276be86740ef": {
+      "reason": "",
+      "status": "queued",
+      "title": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
+      "ts": "2026-10-28T20:13:25.846638+00:00"
+    },
+    "3983e03f5c2b": {
+      "reason": "",
+      "status": "queued",
+      "title": "Sosyal Duygusal Öğrenme Uzmanlık Programı Farkındalık Eğitimi",
+      "ts": "2026-10-28T20:13:04.832639+00:00"
+    },
+    "5eac6a3404b3": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "rejected",
+      "title": "Kroc Institute Visiting Research Fellows Program 2027 | Up to $30,000",
+      "ts": "2026-10-28T20:12:43.781877+00:00"
+    },
+    "690b61a17c08": {
+      "reason": "",
+      "status": "queued",
+      "title": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
+      "ts": "2026-10-28T20:14:03.218401+00:00"
+    },
+    "898ecdbec2c7": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "rejected",
+      "title": "Impact AI Fellowship 2027 in Germany (Fully Funded)",
+      "ts": "2026-10-28T20:13:15.091749+00:00"
+    },
+    "a2deabeaa018": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "rejected",
+      "title": "SDG 6 Fellowship 2027 in UK, Denmark, Malaysia (Fully Funded)",
+      "ts": "2026-10-28T20:12:30.075510+00:00"
+    },
+    "a84f71057241": {
+      "reason": "",
+      "status": "queued",
+      "title": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı",
+      "ts": "2026-10-28T20:12:37.311919+00:00"
+    },
+    "a8dc58a4938c": {
+      "reason": "Türkiye'ye kapalı: Applicants must be female citizens of one of the ten eligible countries in Africa and Asia (Bangladesh, Kenya, Indonesia",
+      "status": "rejected",
+      "title": "SI Pioneering Women in STEM Scholarship 2027 in Sweden | Fully Funded",
+      "ts": "2026-10-28T20:13:38.305987+00:00"
+    },
+    "e4da285b4a60": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
+      "status": "rejected",
+      "title": "AB Hibe Programlarına Yönelik Proje Hazırlama Eğitimi (ONLINE) | 7 – 8 Kasım 2026",
+      "ts": "2026-10-28T20:12:55.336318+00:00"
+    }
+  },
+  "tg_offset": 0,
+  "titles": [
+    "gaziantep'te erasmus gençlik değişimi beden farkındalığı",
+    "sosyal duygusal öğrenme uzmanlık programı farkındalık eğitimi",
+    "i talya'da youth work in the age of ai erasmus eğitim kursu",
+    "enhancer pro hibe programları",
+    "ready mix concrete uzun dönem staj programı trakya"
+  ]
+}
