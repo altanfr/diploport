@@ -351,3 +351,25 @@ def test_yes_with_irrelevant_but_verbatim_evidence_goes_to_review(art):
     sentence = next(x.strip() for x in art.text.split(".") if len(x.strip()) > 25 and not judge.evidence_mentions_eligibility(x))
     v = judge.decide(base_result(eligibility_evidence=sentence), ITEM, art, TODAY)
     assert v["status"] == "unclear" and "söz etmiyor" in v["reason"]
+
+
+# --- Elementor sayfalarında düğme linkleri gürültü sayılıp silinmemeli -----------------
+
+ELEMENTOR_PAGE = """<html><head><title>SI Pioneering Women in STEM</title></head><body>
+<div class="elementor elementor-21079 elementor-location-single">
+ <section class="elementor-section"><div class="elementor-widget-wrap elementor-element-populated">
+   <p>""" + ("Pioneering Women in STEM scholarship for master's studies in Sweden. " * 12) + """</p>
+   <div class="elementor-element elementor-button-info"><a class="elementor-button" href="https://si.se/en/apply/scholarships/pioneeringwomeninstem/"><span>Apply Now</span></a></div>
+ </div></section>
+ <div class="sharedaddy share-buttons"><a href="https://twitter.com/intent/tweet?x=1">Tweet</a></div>
+ <div class="related-posts"><a href="https://example.org/other-scholarship">Related</a></div>
+</div>
+<article class="elementor-post"><h3>Related card</h3></article>
+</body></html>"""
+
+
+def test_elementor_apply_button_survives_noise_filter(cfg):
+    a = article.parse_article(ELEMENTOR_PAGE, "https://www.opportunitiescircle.com/si-pioneering/", cfg)
+    urls = [l["url"] for l in a.links]
+    assert "https://si.se/en/apply/scholarships/pioneeringwomeninstem/" in urls
+    assert not any("example.org" in u or "twitter.com" in u for u in urls)   # gerçek gürültü hâlâ silinir

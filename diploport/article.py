@@ -72,7 +72,13 @@ def parse_article(html: str, url: str, cfg: dict, max_chars: int = 7000, max_lin
     for tag in container.find_all(NOISE_TAGS):
         tag.decompose()
     for tag in container.find_all(class_=NOISE_CLASSES):
-        tag.decompose()
+        if tag.decomposed:
+            continue
+        # Elementor sayfalarında ana içerik ve "Apply Now" düğmeleri "elementor-widget-*" sınıflarının içindedir;
+        # onlar gürültü değildir. Sadece Elementor'a ait olmayan sınıflara bakılır.
+        classes = [c for c in (tag.get("class") or []) if not c.startswith("elementor")]
+        if any(NOISE_CLASSES.search(c) for c in classes):
+            tag.decompose()
 
     # Linkler: metne çevirmeden ÖNCE toplanır.
     page_domain = domain_of(url)
