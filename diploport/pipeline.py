@@ -21,6 +21,7 @@ from .card import render_card
 from .judge import GeminiError, judge_item
 from .publish import (build_caption, notify, poll_decisions, post_to_make, send_pending,
                       telegram_enabled, wait_public)
+from . import sources as sources_mod
 from .sources import collect_new
 from .state import age_days, load_state, mark, save_state
 from . import util
@@ -75,8 +76,21 @@ def _expire(state: dict, cfg: dict, today) -> None:
 
 # --- 1) tarama ---------------------------------------------------------------
 
+def _detail(post: dict, evidence: str = "") -> str:
+    """Rapor satırı için denetlenebilir özet: kanıt, son tarih, resmî link, fotoğraf arama ifadeleri."""
+    parts = []
+    if evidence:
+        parts.append(f"kanıt: {evidence[:170]}")
+    parts.append(f"son tarih: {post.get('deadline') or '-'}")
+    parts.append(f"link: {post.get('apply_url', '-')}")
+    qs = [q for q in (post.get("image_queries") or []) if isinstance(q, str)]
+    if qs:
+        parts.append("foto: " + " / ".join(qs[:3]))
+    return " · ".join(parts)
+
+
 def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: list) -> str:
-    """Tek ilanı işler. Dönüş: 'ok' | 'stop' (kota/limit hatası, bu çalışmayı bırak)."""
+    """Tek ilanı işler. Dönüş: 'ok' | 'fail' (Gemini geçici hata verdi: ilan işaretlenmez, sonraki çalışmada yeniden denenir)."""
     title = it["title"]
     try:
         art = fetch_article(it["link"], cfg)
@@ -91,9 +105,9 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
     try:
         verdict = judge_item(it, art, cfg, today)
     except GeminiError as e:
-        report.append(("hata", it["source"], title, f"Gemini: {e}"))
-        log.error("Gemini hatası, çalışma durduruluyor: %s", e)
-        return "stop"
+        report.append(("hata", it["source"], title, f"Gemini: {str(e)[:160]} (atlandı, sonra yeniden denenecek)"))
+        log.error("Gemini hatası, ilan atlandı: %s", e)
+        return "fail"
     finally:
         time.sleep(cfg["gemini"].get("seconds_between_calls", 0))
 
@@ -134,7 +148,7 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
             reason = (reason + " Katılım ücreti var.").strip()
         post["unclear_reason_tr"] = reason
         if dry:
-            report.append(("onaya düşerdi", it["source"], post["title_tr"], reason))
+            report.append(("onaya düşerdi", it["source"], post["title_tr"], f"{reason} · {_detail(post)}"))
         elif telegram_enabled():
             mid = send_pending(it, post)
             if mid is None:
@@ -144,18 +158,18 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
             state["pending"][it["id"]] = post
             mark(state, it["id"], "pending", reason, title)
             _remember(state, post)
-            report.append(("onayda", it["source"], post["title_tr"], reason))
+            report.append(("onayda", it["source"], post["title_tr"], f"{reason} · {_detail(post)}"))
         else:
             mark(state, it["id"], "rejected", f"onay kanalı yok: {reason}", title)
             report.append(("elendi", it["source"], title, f"belirsiz, Telegram ayarlı değil: {reason}"))
         return "ok"
 
     if dry:
-        report.append(("kuyruğa girerdi", it["source"], post["title_tr"], data.get("eligibility_evidence", "")[:120]))
+        report.append(("kuyruğa girerdi", it["source"], post["title_tr"], _detail(post, data.get("eligibility_evidence", ""))))
     else:
         _enqueue(state, post)
         _remember(state, post)
-        report.append(("kuyrukta", it["source"], post["title_tr"], data.get("eligibility_evidence", "")[:120]))
+        report.append(("kuyrukta", it["source"], post["title_tr"], _detail(post, data.get("eligibility_evidence", ""))))
     return "ok"
 
 
@@ -217,17 +231,24 @@ def run(cfg: dict, dry: bool = False) -> dict:
                 report.append(("reddedildi", post["source"], post["title_tr"], "Telegram"))
     _expire(state, cfg, today)
 
-    items = collect_new(cfg, state)[: cfg["limits"]["max_judge_per_run"]]
-    log.info("%d yeni ilan işlenecek", len(items))
+    found = collect_new(cfg, state)
+    items = found[: cfg["limits"]["max_judge_per_run"]]
+    log.info("%d yeni ilan bulundu, %d tanesi işlenecek", len(found), len(items))
+    fails = 0
     for it in items:
-        if _process_item(it, cfg, state, today, dry, report) == "stop":
-            break
+        if _process_item(it, cfg, state, today, dry, report) == "fail":
+            fails += 1
+            if fails >= 2:   # Gemini art arda hata veriyor (kota/yoğunluk): boşuna bekleme, sonra devam
+                log.error("Gemini art arda hata verdi, çalışma durduruluyor")
+                break
+        else:
+            fails = 0
 
     prepared = None if dry else _prepare_next(state, cfg, now, today)
     if not dry:
         save_state(state)
         site.write_site_config(cfg)
-    _write_report(report, state, prepared, dry, now)
+    _write_report(report, state, prepared, dry, now, found=len(found), limit=len(items))
     return {"processed": len(items), "prepared": prepared, "queue": len(state["queue"]),
             "pending": len(state["pending"]), "report": report}
 
@@ -265,11 +286,15 @@ def send(cfg: dict) -> int:
 
 # --- rapor -------------------------------------------------------------------
 
-def _write_report(report: list[tuple], state: dict, prepared: str | None, dry: bool, now) -> None:
+def _write_report(report: list[tuple], state: dict, prepared: str | None, dry: bool, now,
+                  found: int = 0, limit: int = 0) -> None:
     lines = [f"# Son çalışma ({now:%Y-%m-%d %H:%M} TR){' — DRY RUN' if dry else ''}", ""]
     lines.append(f"Kuyruk: {len(state['queue'])} · Onay bekleyen: {len(state['pending'])} · Hazırlanan: {prepared or '-'}")
-    lines += ["", "| Durum | Kaynak | İlan | Neden / kanıt |", "|---|---|---|---|"]
+    lines.append(f"Bulunan yeni ilan: {found} · Bu çalışmada işlenmesi planlanan: {limit} · Raporlanan: {len(report)}")
+    if sources_mod.LAST_STATS:
+        lines.append("Kaynaklar: " + " · ".join(f"{k}: {v}" for k, v in sources_mod.LAST_STATS.items()))
+    lines += ["", "| Durum | Kaynak | İlan | Neden / kanıt / link |", "|---|---|---|---|"]
     for status, source, title, why in report:
-        lines.append(f"| {status} | {source} | {title[:80].replace('|', '/')} | {why[:140].replace('|', '/').replace(chr(10), ' ')} |")
+        lines.append(f"| {status} | {source} | {title[:80].replace('|', '/')} | {why[:520].replace('|', '/').replace(chr(10), ' ')} |")
     util.DATA_DIR.mkdir(parents=True, exist_ok=True)
     (util.DATA_DIR / "last_run.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -156,6 +156,7 @@ def test_collect_new_filters_old_seen_and_dedupes(cfg, monkeypatch):
     items = sources.collect_new(cfg, state)
     # İki kaynak aynı linki verdi -> tekilleştirildi; eski ve linksiz kayıt yok; utm temizlenmiş kimlik
     assert [i["title"] for i in items] == ["Fresh opportunity"]
+    assert sources.LAST_STATS["A"].startswith("1 yeni") and "B" in sources.LAST_STATS   # rapor için kaynak özeti
     state["seen"][items[0]["id"]] = {"ts": "x"}
     assert sources.collect_new(cfg, state) == []
 

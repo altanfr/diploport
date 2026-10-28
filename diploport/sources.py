@@ -53,20 +53,26 @@ def fetch_feed(src: dict, timeout: int = 20) -> list[dict]:
     return items
 
 
+LAST_STATS: dict[str, str] = {}   # son çağrıda kaynak başına özet (rapor için): "3 yeni / 20 kayıt" ya da "okunamadı"
+
+
 def collect_new(cfg: dict, state: dict) -> list[dict]:
     """Görülmemiş ve yeterince yeni kayıtları, kaynaklar arasında dönüşümlü sırayla döndürür."""
     max_age = timedelta(days=cfg["limits"]["max_age_days"])
     per_source: list[list[dict]] = []
+    LAST_STATS.clear()
     for src in cfg["sources"]:
+        entries = fetch_feed(src)
         fresh = [
             it
-            for it in fetch_feed(src)
+            for it in entries
             if it["id"] not in state["seen"]
             and it["id"] not in state["pending"]
             and not any(q["id"] == it["id"] for q in state["queue"])
             and now_utc() - datetime.fromisoformat(it["published"]) <= max_age
         ]
         fresh.sort(key=lambda x: x["published"], reverse=True)
+        LAST_STATS[src["name"]] = f"{len(fresh)} yeni / {len(entries)} kayıt" if entries else "okunamadı veya boş"
         per_source.append(fresh)
         time.sleep(0.5)
 

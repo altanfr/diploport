@@ -191,6 +191,48 @@ def test_gemini_failure_stops_run_without_marking_items(world, cfg, monkeypatch)
     assert "id1" not in load_state()["seen"]    # sonraki çalışmada yeniden denenir
 
 
+def test_single_gemini_failure_skips_item_and_continues(world, cfg, monkeypatch):
+    calls = {"n": 0}
+
+    def flaky(prompt, c, key=None):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            raise judge.GeminiError("HTTP 503: high demand")
+        return result(title_tr="İkinci ilan")
+    monkeypatch.setattr(judge, "call_gemini", flaky)
+    world["items"] = [make_item(1), make_item(2)]
+    pipeline.run(cfg)
+    st = load_state()
+    assert "id1" not in st["seen"]                     # geçici hata: işaretlenmedi, sonra yeniden denenecek
+    assert st["seen"]["id2"]["status"] == "queued"     # ikinci ilan işlendi, çalışma durmadı
+    assert "atlandı" in (util.DATA_DIR / "last_run.md").read_text()
+
+
+def test_two_consecutive_gemini_failures_stop_the_run(world, cfg, monkeypatch):
+    calls = {"n": 0}
+
+    def down(prompt, c, key=None):
+        calls["n"] += 1
+        raise judge.GeminiError("HTTP 503")
+    monkeypatch.setattr(judge, "call_gemini", down)
+    world["items"] = [make_item(1), make_item(2), make_item(3)]
+    pipeline.run(cfg)
+    assert calls["n"] == 2 and load_state()["seen"] == {}
+
+
+def test_dry_run_report_shows_official_link_deadline_photo_queries_and_sources(world, cfg):
+    from diploport import sources
+    sources.LAST_STATS.clear(); sources.LAST_STATS["Kaynak A"] = "3 yeni / 10 kayıt"
+    world["items"] = [make_item(1)]
+    world["results"] = [result(image_queries=["Berlin city", "Germany university", "students campus"])]
+    pipeline.run(cfg, dry=True)
+    report = (util.DATA_DIR / "last_run.md").read_text()
+    assert "link: https://www2.daad.de/deutschland/studienangebote/" in report
+    assert "son tarih: 2026-11-30" in report and "foto: Berlin city / Germany university / students campus" in report
+    assert "Kaynaklar: Kaynak A: 3 yeni / 10 kayıt" in report and "Bulunan yeni ilan: 1" in report
+    sources.LAST_STATS.clear()
+
+
 def test_expiry(world, cfg):
     st = load_state()
     st["queue"] = [{"id": "x", "title_tr": "Geçmiş", "deadline": "2026-10-01", "queued_at": datetime.now(timezone.utc).isoformat()}]
