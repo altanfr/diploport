@@ -86,7 +86,9 @@ def _detail(post: dict, evidence: str = "") -> str:
         parts.append("ayrıntı metni alınamadı: özet yalnızca başlıktan")
     parts.append(f"link: {post.get('apply_url', '-')}")
     qs = [q for q in (post.get("image_queries") or []) if isinstance(q, str)]
-    if qs:
+    if post.get("visual_kind") == "institution":
+        parts.append("görsel: kuruma özel (stok foto yok, simge kartı)")
+    elif qs:
         parts.append("foto: " + " / ".join(qs[:3]))
     return " · ".join(parts)
 
@@ -150,6 +152,10 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
     post = {**data, "id": it["id"], "apply_url": official, "source": it["source"], "source_url": it["link"]}
     if art.degraded:
         post["detail_missing"] = True
+    # Kuruma özel ilan: stok fotoğraf yok, sade kart + simge. Model karar verir; kaynak ayarı bunu zorlayabilir.
+    post["visual_kind"] = it["source_cfg"].get("visual") or post.get("visual_kind") or "institution"
+    if it["source_cfg"].get("icon"):
+        post["icon"] = it["source_cfg"]["icon"]
     if canonical_url(official) in state["official_seen"] or _is_duplicate_title(state, post["title_tr"]):
         mark(state, it["id"], "rejected", "tekrar (başka kaynakta zaten işlendi)", title)
         report.append(("elendi", it["source"], title, "tekrar"))

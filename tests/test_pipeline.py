@@ -27,7 +27,7 @@ def result(**kw):
          "unclear_reason_tr": "", "category": "burs", "title_tr": "DAAD Yüksek Lisans Bursu", "organization": "DAAD",
          "country_tr": "Almanya", "deadline": "2026-11-30", "funding_tr": "Tam burs", "fee_required": False,
          "summary_tr": "Almanya'da tam burslu yüksek lisans.", "highlights_tr": ["12-24 ay", "İngilizce", "Aylık 992 €"],
-         "apply_link_id": 1}
+         "apply_link_id": 1, "visual_kind": "scene"}
     r.update(kw)
     return r
 
@@ -272,3 +272,20 @@ def test_kariyerkapisi_degraded_item_is_flagged_in_report(cfg, world, monkeypatc
     monkeypatch.setattr(pipeline, "validate_link", lambda url, c, **k: {"ok": True, "url": url, "status": 200, "soft": False, "reason": ""})
     pipeline.run(cfg, dry=True)
     assert "özet yalnızca başlıktan" in (util.DATA_DIR / "last_run.md").read_text()
+
+
+def test_visual_kind_defaults_to_institution_and_source_can_force_it(world, cfg, monkeypatch):
+    # model görsel türü vermediyse güvenli varsayılan: kuruma özel (yanlış stok fotoğraf konmaz)
+    r = result(); r.pop("visual_kind")
+    world["items"] = [make_item(1)]
+    world["results"] = [r]
+    pipeline.run(cfg, dry=True)
+    assert "görsel: kuruma özel" in (util.DATA_DIR / "last_run.md").read_text()
+    # model "scene" dese bile kaynak ayarı (Kariyer Kapısı) kuruma özel + simge zorlar
+    seen = {}
+    real = pipeline.render_card
+    monkeypatch.setattr(pipeline, "render_card", lambda post, c, out, today=None: (seen.update(post=dict(post)), real(post, c, out, today))[1])
+    world["items"] = [make_item(2, "Kariyer Kapısı", visual="institution", icon="landmark", link_fallback_to_source=True, assume_eligible=True)]
+    world["results"] = [result(visual_kind="scene")]
+    pipeline.run(cfg)
+    assert seen["post"]["visual_kind"] == "institution" and seen["post"]["icon"] == "landmark"

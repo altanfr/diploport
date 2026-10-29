@@ -70,6 +70,8 @@ def fetch_feed(src: dict, timeout: int = 20) -> list[dict]:
                     "assume_eligible": bool(src.get("assume_eligible")),
                     "link_fallback_to_source": bool(src.get("link_fallback_to_source")),
                     "fetcher": src.get("fetcher", ""),
+                    "visual": src.get("visual", ""),
+                    "icon": src.get("icon", ""),
                 },
                 "title": title,
                 "category": cats,

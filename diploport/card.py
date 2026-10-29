@@ -1,7 +1,7 @@
 """Instagram için 1080x1350 (4:5) JPEG kart. Diploport'un kendi şablonu: üstte stok fotoğraf, solda üstte logo,
 altta lacivert gradyan, beyaz başlık, "Ülke | destek" satırı ve en altta site adı.
 
-HTML/CSS şablonu + Playwright (Chromium). Fotoğraf yoksa şablonun beyaz zeminli hâli kullanılır.
+HTML/CSS şablonu + Playwright (Chromium). Fotoğraf yoksa (ya da ilan kuruma özelse) açık zeminli sade kart + ilan türü simgesi.
 """
 from __future__ import annotations
 
@@ -53,6 +53,40 @@ def _logo_src() -> str:
     return "data:image/png;base64," + data
 
 
+# Kuruma özel ilanlarda kullanılan sade simgeler (24x24 çizgi simgeleri, lacivert çizgi + altın vurgu)
+ICONS = {
+    "landmark": '<path d="M3 21h18"/><path d="M5 21V10M9.5 21V10M14.5 21V10M19 21V10"/><path d="M3 10l9-6.5 9 6.5z"/><path d="M2.5 21h19"/>',
+    "briefcase": '<rect x="3" y="7" width="18" height="13" rx="2.2"/><path d="M9 7V5.2A1.7 1.7 0 0 1 10.7 3.5h2.6A1.7 1.7 0 0 1 15 5.2V7"/><path d="M3 13h18"/><path d="M10.5 13v2h3v-2"/>',
+    "cap": '<path d="M2 9.5l10-5 10 5-10 5z"/><path d="M6 12v4.5c0 1.6 2.7 3 6 3s6-1.4 6-3V12"/><path d="M22 9.5v6"/>',
+    "heart": '<path d="M12 20.5s-7.5-4.6-7.5-10.4a4.2 4.2 0 0 1 7.5-2.6 4.2 4.2 0 0 1 7.5 2.6c0 5.8-7.5 10.4-7.5 10.4z"/>',
+    "trophy": '<path d="M8 4h8v5.2a4 4 0 0 1-8 0z"/><path d="M8 6H5v1.2A3 3 0 0 0 8 10.2M16 6h3v1.2a3 3 0 0 1-3 3"/><path d="M12 13.2V17M8.5 20.5h7M10 17h4"/>',
+    "plane": '<path d="M3 11.2L21 3.5 13.3 21.5l-2.3-7z"/><path d="M11 14.5L21 3.5"/>',
+}
+CATEGORY_ICONS = {"is": "briefcase", "staj": "briefcase", "burs": "cap", "egitim": "cap", "gonulluluk": "heart",
+                  "yarisma": "trophy", "hibe": "plane", "diger": "plane"}
+
+
+def icon_for(post: dict) -> str:
+    name = post.get("icon") or CATEGORY_ICONS.get(post.get("category", "diger"), "plane")
+    return name if name in ICONS else "plane"
+
+
+def is_institution(post: dict) -> bool:
+    return post.get("visual_kind") == "institution"
+
+
+def _plain_layer(post: dict) -> str:
+    icon = ICONS[icon_for(post)]
+    orbit = ('<svg class="orbit" viewBox="0 0 1080 760" fill="none">'
+             '<ellipse cx="540" cy="370" rx="330" ry="330" stroke="#1E2C55" stroke-opacity=".10" stroke-width="2"/>'
+             '<ellipse cx="540" cy="370" rx="440" ry="440" stroke="#1E2C55" stroke-opacity=".06" stroke-width="2"/>'
+             '<circle cx="872" cy="262" r="9" fill="#E0A526"/><circle cx="186" cy="520" r="7" fill="#E0A526" fill-opacity=".8"/>'
+             '<circle cx="808" cy="590" r="5" fill="#1E2C55" fill-opacity=".35"/></svg>')
+    svg = (f'<svg viewBox="0 0 24 24" fill="none" stroke="#1E2C55" stroke-width="1.35" stroke-linecap="round" '
+           f'stroke-linejoin="round">{icon}</svg>')
+    return f'<div class="plain"><div class="dots"></div>{orbit}<div class="badge">{svg}</div></div>'
+
+
 def _title_size(title: str) -> int:
     n = len(title)
     return 72 if n <= 38 else 66 if n <= 58 else 60 if n <= 76 else 54
@@ -77,6 +111,7 @@ def build_html(post: dict, cfg: dict, photo: bytes | None = None) -> str:
         "fonts_css": _fonts_css(),
         "gradient": GRADIENT,
         "photo_style": photo_style,
+        "plain_layer": "" if photo else _plain_layer(post),
         "logo_src": _logo_src(),
         "title": html.escape(title),
         "title_size": str(_title_size(title)),
@@ -98,7 +133,7 @@ def render_card(post: dict, cfg: dict, out_path: Path, today: date | None = None
 
     from .photo import find_background
 
-    if photo is None:
+    if photo is None and not is_institution(post):   # kuruma özel ilanda stok fotoğraf aranmaz
         bg = find_background(post, cfg)
         if bg:
             photo = bg["bytes"]

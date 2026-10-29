@@ -514,3 +514,19 @@ def test_kariyerkapisi_falls_back_to_rss_details_when_api_unreachable(cfg, monke
     assert "UZMAN YARDIMCILIĞI SINAVI" in a.text and "A Grubu Memur" in a.text and "2026-10-12" in a.text
     assert "vatandaşlarına yöneliktir" in a.text
     monkeypatch.setattr(kariyerkapisi, "_API_UNREACHABLE", False)
+
+
+# --- Kuruma özel sade kart ---------------------------------------------------------
+
+def test_institution_card_has_icon_layer_and_never_searches_stock_photo(cfg, monkeypatch, tmp_path):
+    from diploport import card, photo
+    post = {"id": "k1", "category": "is", "title_tr": "Kamu İhale Kurumu Uzman Yardımcılığı Giriş Sınavı", "country_tr": "Türkiye",
+            "funding_tr": "Belirtilmemiş", "visual_kind": "institution", "icon": "landmark"}
+    html_ = card.build_html(post, cfg, None)
+    assert 'class="plain"' in html_ and "M3 10l9-6.5 9 6.5z" in html_          # sütunlu bina simgesi
+    assert card.icon_for({"category": "staj"}) == "briefcase" and card.icon_for({"category": "x", "icon": "yok"}) == "plane"
+    monkeypatch.setattr(photo, "find_background", lambda *a, **k: (_ for _ in ()).throw(AssertionError("fotoğraf aranmamalı")))
+    out = card.render_card(post, cfg, tmp_path / "k.jpg")
+    assert out.read_bytes()[:3] == b"\xff\xd8\xff" and "photo_credit" not in post
+    # fotoğraflı kartta sade katman yok
+    assert 'class="plain"' not in card.build_html(dict(post, visual_kind="scene"), cfg, b"\xff\xd8" + b"x" * 50)

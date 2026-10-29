@@ -37,6 +37,8 @@ sources:
   - name: Kariyer Kapısı
     url: https://kariyerkapisi.gov.tr/RSS
     fetcher: kariyerkapisi
+    visual: institution            # kamu ilanına stok fotoğraf konmaz: sade kart + bina (sütunlu) simgesi
+    icon: landmark
     assume_eligible: true
     link_fallback_to_source: true
     skip_categories: ["Görevde Yükselme", "Merkezi Yerleştirme", "Hakim ve Savcı", "Askeri", "Öğretim Üyesi", "Tercih", "Belge Başvurusu", "Yeterlik"]

@@ -42,6 +42,7 @@ SCHEMA = {
         "highlights_tr": {"type": "ARRAY", "items": {"type": "STRING"}},
         "apply_link_id": {"type": "INTEGER"},
         "image_queries": {"type": "ARRAY", "items": {"type": "STRING"}},
+        "visual_kind": {"type": "STRING", "enum": ["scene", "institution"]},
     },
     "required": [
         "is_opportunity", "turkey_eligible", "eligibility_evidence", "category", "title_tr",
@@ -79,6 +80,8 @@ Return a single JSON object with exactly these keys:
   2) the country plus the theme, e.g. "Spain university students"
   3) a generic scene for the theme that works anywhere, e.g. "students walking campus", "volunteers planting trees"
   Describe only things that can be photographed (places, landscapes, buildings, activities). No brand names, person names, logos or text.
+
+- visual_kind: "scene" ONLY when the experience takes place in a specific, photogenic place and a stock photo of that place or activity would truthfully represent it: study, exchange, training course, volunteering or travel in a named foreign country or city (for example a Erasmus+ youth exchange in Germany, a scholarship in Sweden, a summer school in France). "institution" for everything where a generic stock photo would misrepresent it: a job, internship, exam or programme offered by one specific employer, company, ministry, agency or public body (for example a public-sector recruitment exam, a company internship), online-only programmes, and anything without a specific photogenic place. When unsure, answer "institution".
 
 Candidate links (id | anchor text | url):
 {links}
