@@ -540,7 +540,9 @@ def test_org_name_matching_is_strict_but_turkish_aware():
     assert not m("Orta Anadolu Kalkınma Ajansı", "Kalkınma Ajansları Genel Müdürlüğü", 1)   # genel sayfa: reddedilir
     assert not m("Türkiye İş Kurumu", "Türkiye İş Bankası", 2)
     assert m("UNHCR", "Birleşmiş Milletler Mülteciler Yüksek Komiserliği", 1, "... Mülteciler Yüksek Komiserliği (UNHCR) ...")
+    assert m("UNHCR", "Birleşmiş Milletler Mülteciler Yüksek Komiserliği", 1, "United Nations High Commissioner for Refugees")  # BÜYÜK HARFLİ kısaltma
     assert not m("UNHCR", "Birleşmiş Milletler Mülteciler Yüksek Komiserliği", 2, "... (UNHCR) ...")   # sadece ilk sonuç
+    assert not m("Keyo", "Pierre Maguelon", 1, "Fransız aktör")                                       # küçük harfli marka: tahmin yok
     assert not m("Keyo People", "Pierre Maguelon", 1, "Fransız aktör")
 
 

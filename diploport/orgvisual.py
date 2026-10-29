@@ -44,8 +44,12 @@ def name_matches(org: str, title: str, rank: int, extract: str = "") -> bool:
         return True                                   # kurum adının çoğu sayfa adında geçiyor
     if common and t <= o and (t - GENERIC):
         return True                                   # sayfa adı, kurum adının kısa hâli (Oyak-Renault / Oyak Renault Otomobil...)
-    # sayfa adı farklı ama (ör. UNHCR -> "Birleşmiş Milletler Mülteciler Yüksek Komiserliği"): ilk sonuç ve kısaltma girişte geçiyor
-    return rank == 1 and " ".join(fold(org)) in " ".join(fold(extract))
+    # sayfa adı farklı ama (ör. UNHCR -> "Birleşmiş Milletler Mülteciler Yüksek Komiserliği"): ilk sonuç ve
+    #   (kısaltma girişte geçiyor YA DA kurum adı BÜYÜK HARFLİ tek bir kısaltma: UNHCR, UNICEF, DAAD...)
+    if rank != 1:
+        return False
+    org = org.strip()
+    return " ".join(fold(org)) in " ".join(fold(extract)) or (len(o) == 1 and org.isupper() and len(org) >= 4)
 
 
 def classify(filename: str, w: int, h: int) -> str | None:

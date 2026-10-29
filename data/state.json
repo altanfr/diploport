@@ -72,9 +72,7 @@
       "icon": "landmark",
       "id": "7e64af0459a8",
       "image_queries": [
-        "modern office building",
-        "Turkey university students",
-        "students working office"
+        "Ankara city skyline"
       ],
       "is_opportunity": true,
       "queued_at": "2026-10-29T09:47:30.211971+00:00",
@@ -101,9 +99,7 @@
       ],
       "id": "1a09fc4eeebd",
       "image_queries": [
-        "cloud computing server",
-        "technology students online",
-        "students working laptop"
+        "Istanbul skyline"
       ],
       "is_opportunity": true,
       "organization": "Commencis",
@@ -190,9 +186,7 @@
       ],
       "id": "690b61a17c08",
       "image_queries": [
-        "ready mix concrete plant",
-        "Turkey construction industry",
-        "intern working office"
+        "Istanbul skyline"
       ],
       "is_opportunity": true,
       "organization": "Youthall",
@@ -249,9 +243,7 @@
       ],
       "id": "b1b40f7f780c",
       "image_queries": [
-        "Adana city skyline",
-        "Turkey business office",
-        "professional sales meeting"
+        "Istanbul skyline"
       ],
       "is_opportunity": true,
       "queued_at": "2026-10-29T00:47:33.208292+00:00",
@@ -278,9 +270,7 @@
       ],
       "id": "9e068ebdd446",
       "image_queries": [
-        "UNICEF office building",
-        "international students working",
-        "professional office environment"
+        "New York City skyline"
       ],
       "is_opportunity": true,
       "organization": "UNICEF",
@@ -308,9 +298,7 @@
       ],
       "id": "ae80b0962a3f",
       "image_queries": [
-        "UNHCR office building",
-        "international students working",
-        "office internship professional"
+        "Geneva city"
       ],
       "is_opportunity": true,
       "organization": "UNHCR",
@@ -367,9 +355,7 @@
       ],
       "id": "0833644949f7",
       "image_queries": [
-        "shipyard engineering office",
-        "Turkey industrial internship",
-        "students working office"
+        "Istanbul skyline"
       ],
       "is_opportunity": true,
       "queued_at": "2026-10-29T18:26:45.407300+00:00",
@@ -426,9 +412,7 @@
       ],
       "id": "e89dbb00faa9",
       "image_queries": [
-        "female engineer office",
-        "Turkey corporate office",
-        "young professional woman"
+        "Istanbul skyline"
       ],
       "is_opportunity": true,
       "queued_at": "2026-10-29T18:28:33.548946+00:00",
@@ -453,9 +437,7 @@
       ],
       "id": "5a0a979214b0",
       "image_queries": [
-        "Izmir Turkey city",
-        "Turkey young professionals office",
-        "students walking campus"
+        "Istanbul skyline"
       ],
       "organization": "Bilkom",
       "queued_at": "2026-10-29T22:56:52.084715+00:00",
@@ -479,9 +461,7 @@
       "icon": "cap",
       "id": "f969288f4d9b",
       "image_queries": [
-        "journalists newsroom",
-        "United States journalism students",
-        "reporters working laptop"
+        "Washington DC skyline"
       ],
       "organization": null,
       "queued_at": "2026-10-29T22:56:52.084715+00:00",
