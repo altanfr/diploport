@@ -49,11 +49,11 @@ def main(argv: list[str]) -> int:
         out.mkdir(parents=True, exist_ok=True)
         samples = [
             {"id": "t1", "category": "egitim", "title_tr": "Almanya'da Erasmus+ Gençlik Çalışanları Eğitimi", "country_tr": "Almanya",
-             "funding_tr": "Ücretsiz eğitim ve konaklama", "image_queries": ["Berlin Germany city", "Germany university students", "students walking campus"]},
+             "funding_tr": "Ücretsiz eğitim ve konaklama", "visual_kind": "scene", "image_queries": ["Berlin Germany city", "Germany university students", "students walking campus"]},
             {"id": "t2", "category": "burs", "title_tr": "EJN 2027 Gazetecilik Bursu", "country_tr": "ABD",
-             "funding_tr": "Tam burs", "image_queries": ["journalists newsroom", "United States journalism students", "reporters working laptop"]},
+             "funding_tr": "Tam burs", "visual_kind": "scene", "image_queries": ["journalists newsroom", "United States journalism students", "reporters working laptop"]},
             {"id": "t3", "category": "is", "title_tr": "Kamu İhale Kurumu Uzman Yardımcılığı Giriş Sınavı", "country_tr": "Türkiye",
-             "funding_tr": "Belirtilmemiş", "image_queries": ["Ankara government building", "Turkey office workers", "professional office meeting"]},
+             "funding_tr": "Belirtilmemiş", "visual_kind": "institution", "icon": "landmark", "image_queries": ["Ankara government building", "Turkey office workers", "professional office meeting"]},
         ]
         have = [n for n, _ in photo_mod._providers(cfg)]
         lines = [f"Anahtarı tanımlı sağlayıcılar: {', '.join(have) or 'YOK'}", ""]
@@ -70,7 +70,7 @@ def main(argv: list[str]) -> int:
         render_card(
             {"id": "sample", "category": "burs", "title_tr": "Almanya'da Erasmus+ Gençlik Çalışanları Eğitimi",
              "organization": "DAAD", "deadline": "2026-12-15", "country_tr": "Almanya",
-             "funding_tr": "Ücretsiz eğitim ve konaklama"},
+             "funding_tr": "Ücretsiz eğitim ve konaklama", "visual_kind": "scene"},
             cfg, out, date.today(), photo)
         print(out)
         return 0

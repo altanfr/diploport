@@ -72,7 +72,7 @@ def icon_for(post: dict) -> str:
 
 
 def is_institution(post: dict) -> bool:
-    return post.get("visual_kind") == "institution"
+    return post.get("visual_kind", "institution") != "scene"   # türü bilinmeyen/eski kayıt: güvenli varsayılan, stok foto yok
 
 
 def _plain_layer(post: dict) -> str:
