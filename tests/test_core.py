@@ -342,7 +342,7 @@ def test_caption_credits_photographer_only_when_photo_used(cfg):
 
 def test_judge_schema_and_prompt_ask_for_image_queries():
     assert "image_queries" in judge.SCHEMA["properties"] and "image_queries" not in judge.SCHEMA["required"]
-    assert "image_queries" in judge.PROMPT and "Pexels" in judge.PROMPT
+    assert "image_queries" in judge.PROMPT and "stock photo" in judge.PROMPT
 
 
 # --- Gemini yedek model ---------------------------------------------------------
