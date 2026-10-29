@@ -75,6 +75,7 @@
         "Ankara city skyline"
       ],
       "is_opportunity": true,
+      "organization": "Türkiye İş Kurumu",
       "queued_at": "2026-10-29T09:47:30.211971+00:00",
       "source": "Erasmusgram",
       "source_url": "https://www.erasmusgram.com/ulusal-staj-programi-2027-basvurulari-basladi/",
@@ -189,7 +190,7 @@
         "Istanbul skyline"
       ],
       "is_opportunity": true,
-      "organization": "Youthall",
+      "organization": "Akçansa",
       "queued_at": "2026-10-28T20:14:03.218386+00:00",
       "source": "Youthall",
       "source_url": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
@@ -246,6 +247,7 @@
         "Istanbul skyline"
       ],
       "is_opportunity": true,
+      "organization": "Aygaz",
       "queued_at": "2026-10-29T00:47:33.208292+00:00",
       "source": "Youthall",
       "source_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
@@ -358,6 +360,7 @@
         "Istanbul skyline"
       ],
       "is_opportunity": true,
+      "organization": "Sefine Shipyard",
       "queued_at": "2026-10-29T18:26:45.407300+00:00",
       "source": "Youthall",
       "source_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
@@ -415,6 +418,7 @@
         "Istanbul skyline"
       ],
       "is_opportunity": true,
+      "organization": "BSH Ev Aletleri",
       "queued_at": "2026-10-29T18:28:33.548946+00:00",
       "source": "Youthall",
       "source_url": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
@@ -463,7 +467,7 @@
       "image_queries": [
         "Washington DC skyline"
       ],
-      "organization": null,
+      "organization": "Earth Journalism Network",
       "queued_at": "2026-10-29T22:56:52.084715+00:00",
       "source": "Opportunities Circle",
       "summary_tr": "Profesyonel gazeteciler için New York'ta düzenlenecek BBNJ COP1 konferansını takip etmelerini sağlayan tam kapsamlı bir gazetecilik bursu programıdır.",
