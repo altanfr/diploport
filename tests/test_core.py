@@ -486,10 +486,31 @@ def test_kariyerkapisi_fetch_article_builds_text_from_api(cfg, monkeypatch):
             "ilanMetni": "[b]Şartlar[/b][br]Türk vatandaşı olmak"}})()
 
     monkeypatch.setattr(kariyerkapisi.requests, "post", fake_post)
-    art = kariyerkapisi.fetch_article("https://kariyerkapisi.gov.tr/IlanDetay?i=abc-123", "ham başlık", cfg)
+    art = kariyerkapisi.fetch_article({"link": "https://kariyerkapisi.gov.tr/IlanDetay?i=abc-123", "title": "ham başlık"}, cfg)
     assert posted["json"] == {"ilanGuid": "abc-123"} and posted["url"].startswith("https://api.kariyerkapisi.gov.tr/")
     assert art.title == "TMSF - FON UZMAN YARDIMCILIĞI" and art.links == []
     assert "Son başvuru tarihi: 2026-10-30" in art.text and "Türk vatandaşı olmak" in art.text and "[b]" not in art.text
     monkeypatch.setattr(kariyerkapisi.requests, "post", lambda *a, **k: type("R", (), {"status_code": 204})())
     with pytest.raises(ValueError):
-        kariyerkapisi.fetch_article("https://kariyerkapisi.gov.tr/IlanDetay?i=abc-123", "x", cfg)
+        kariyerkapisi.fetch_article({"link": "https://kariyerkapisi.gov.tr/IlanDetay?i=abc-123", "title": "x"}, cfg)
+
+
+def test_kariyerkapisi_falls_back_to_rss_details_when_api_unreachable(cfg, monkeypatch):
+    import requests as rq
+    from diploport import kariyerkapisi
+    calls = []
+
+    def boom(*a, **k):
+        calls.append(1)
+        raise rq.ConnectTimeout("zaman aşımı")
+
+    monkeypatch.setattr(kariyerkapisi.requests, "post", boom)
+    monkeypatch.setattr(kariyerkapisi, "_API_UNREACHABLE", False)
+    item = {"link": "https://kariyerkapisi.gov.tr/IlanDetay?i=a1", "title": "KURUM - UZMAN YARDIMCILIĞI SINAVI",
+            "category": "A Grubu Memur (Kariyer Meslek)", "published": "2026-10-12T05:00:00+00:00"}
+    a = kariyerkapisi.fetch_article(item, cfg)
+    b = kariyerkapisi.fetch_article(dict(item, link="https://kariyerkapisi.gov.tr/IlanDetay?i=a2"), cfg)
+    assert a.degraded and b.degraded and len(calls) == 1          # API bir kez denenir, sonra vazgeçilir
+    assert "UZMAN YARDIMCILIĞI SINAVI" in a.text and "A Grubu Memur" in a.text and "2026-10-12" in a.text
+    assert "vatandaşlarına yöneliktir" in a.text
+    monkeypatch.setattr(kariyerkapisi, "_API_UNREACHABLE", False)

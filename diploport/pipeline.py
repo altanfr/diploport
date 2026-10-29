@@ -82,6 +82,8 @@ def _detail(post: dict, evidence: str = "") -> str:
     if evidence:
         parts.append(f"kanıt: {evidence[:170]}")
     parts.append(f"son tarih: {post.get('deadline') or '-'}")
+    if post.get("detail_missing"):
+        parts.append("ayrıntı metni alınamadı: özet yalnızca başlıktan")
     parts.append(f"link: {post.get('apply_url', '-')}")
     qs = [q for q in (post.get("image_queries") or []) if isinstance(q, str)]
     if qs:
@@ -94,7 +96,7 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
     title = it["title"]
     try:
         if it["source_cfg"].get("fetcher") == "kariyerkapisi":
-            art = kariyerkapisi.fetch_article(it["link"], title, cfg)   # ilan metni sitenin API'sinden gelir
+            art = kariyerkapisi.fetch_article(it, cfg)   # ilan metni sitenin API'sinden gelir (ulaşılamazsa RSS künyesi)
         else:
             art = fetch_article(it["link"], cfg)
     except Exception as e:  # noqa: BLE001
@@ -146,6 +148,8 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
         return "ok"
 
     post = {**data, "id": it["id"], "apply_url": official, "source": it["source"], "source_url": it["link"]}
+    if art.degraded:
+        post["detail_missing"] = True
     if canonical_url(official) in state["official_seen"] or _is_duplicate_title(state, post["title_tr"]):
         mark(state, it["id"], "rejected", "tekrar (başka kaynakta zaten işlendi)", title)
         report.append(("elendi", it["source"], title, "tekrar"))

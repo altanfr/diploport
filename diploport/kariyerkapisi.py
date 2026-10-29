@@ -62,14 +62,38 @@ def to_text(d: dict, max_chars: int) -> str:
     return shorten("\n".join(head) + "\n\n" + body, max_chars)
 
 
-def fetch_article(link: str, title: str, cfg: dict) -> Article:
+_API_UNREACHABLE = False   # API (api.kariyerkapisi.gov.tr) yurt dışından bağlantıyı zaman aşımına uğratabilir; bir kez denenir
+
+
+def fallback_text(item: dict) -> str:
+    """API'ye ulaşılamazsa RSS'teki künyeyle yetinilir; modele hiçbir ayrıntı uydurmaması söylenir."""
+    lines = [f"İlan başlığı: {item.get('title', '')}"]
+    if item.get("category"):
+        lines.append(f"İlan türü: {item['category']}")
+    if item.get("published"):
+        lines.append(f"Yayın/başvuru başlangıç tarihi: {item['published'][:10]}")
+    lines.append("Not: Ayrıntılı ilan metni alınamadı; başvuru şartları ve son başvuru tarihi Kariyer Kapısı ilan sayfasındadır.")
+    lines.append("Başvuru Kariyer Kapısı üzerinden (e-Devlet girişiyle) yapılır; ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.")
+    return "\n".join(lines)
+
+
+def fetch_article(item: dict, cfg: dict) -> Article:
+    global _API_UNREACHABLE
+    link, title = item["link"], item.get("title", "")
     guid = guid_of(link)
     if not guid:
         raise ValueError("ilan kimliği yok")
-    r = requests.post(
-        API, json={"ilanGuid": guid}, timeout=30,
-        headers={"User-Agent": USER_AGENT, "Origin": SITE, "Referer": SITE + "/", "Accept": "application/json"},
-    )
+    if _API_UNREACHABLE:
+        return Article(url=link, final_url=link, title=title, text=fallback_text(item), links=[], degraded=True)
+    try:
+        r = requests.post(
+            API, json={"ilanGuid": guid}, timeout=(8, 20),
+            headers={"User-Agent": USER_AGENT, "Origin": SITE, "Referer": SITE + "/", "Accept": "application/json"},
+        )
+    except (requests.ConnectionError, requests.Timeout) as e:
+        _API_UNREACHABLE = True
+        log.warning("Kariyer Kapısı API'sine ulaşılamadı (%s); ilanlar yalnızca RSS künyesiyle işlenecek", type(e).__name__)
+        return Article(url=link, final_url=link, title=title, text=fallback_text(item), links=[], degraded=True)
     if r.status_code == 204:
         raise ValueError("ilan artık yayında değil")
     r.raise_for_status()

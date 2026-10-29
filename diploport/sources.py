@@ -59,8 +59,8 @@ def fetch_feed(src: dict, timeout: int = 20) -> list[dict]:
         title = (e.get("title") or "").strip()
         if not link or not title:
             continue
-        cats = " ".join(t.get("term", "") for t in e.get("tags") or []).lower()
-        if skip and any(x in cats for x in skip):   # kaynağın kendi kategorisine göre baştan ele (Gemini'ye gitmez)
+        cats = " ".join(t.get("term", "") for t in e.get("tags") or [])
+        if skip and any(x in cats.lower() for x in skip):   # kaynağın kendi kategorisine göre baştan ele (Gemini'ye gitmez)
             continue
         items.append(
             {
@@ -72,6 +72,7 @@ def fetch_feed(src: dict, timeout: int = 20) -> list[dict]:
                     "fetcher": src.get("fetcher", ""),
                 },
                 "title": title,
+                "category": cats,
                 "link": link,
                 "published": _entry_date(e).isoformat(),
                 "summary": (e.get("summary") or "")[:1500],

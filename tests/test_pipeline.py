@@ -252,10 +252,23 @@ def test_kariyerkapisi_item_uses_api_text_and_own_page_as_apply_link(world, cfg,
     world["items"] = [item]
     world["results"] = [result(category="is", title_tr="TMSF Fon Uzman Yardımcılığı", apply_link_id=None, country_tr="Türkiye",
                                eligibility_evidence="Türk vatandaşı olmak")]
-    monkeypatch.setattr(kariyerkapisi, "fetch_article", lambda l, t, c: article.Article(
-        url=l, final_url=l, title=t, text="Kurum: TMSF\nSon başvuru tarihi: 2026-10-30\nTürk vatandaşı olmak", links=[]))
+    monkeypatch.setattr(kariyerkapisi, "fetch_article", lambda it, c: article.Article(
+        url=it["link"], final_url=it["link"], title=it["title"], text="Kurum: TMSF\nSon başvuru tarihi: 2026-10-30\nTürk vatandaşı olmak", links=[]))
     monkeypatch.setattr(pipeline, "validate_link", lambda url, c, **k: {"ok": True, "url": url, "status": 200, "soft": False, "reason": ""})
     res = pipeline.run(cfg)
     assert res["prepared"] == "id1"
     posts = json.loads((util.DOCS_DIR / "posts.json").read_text())
     assert posts[0]["apply_url"] == link
+
+
+def test_kariyerkapisi_degraded_item_is_flagged_in_report(cfg, world, monkeypatch):
+    from diploport import kariyerkapisi
+    item = make_item(1, "Kariyer Kapısı", assume_eligible=True, link_fallback_to_source=True, fetcher="kariyerkapisi")
+    item["link"] = "https://kariyerkapisi.gov.tr/IlanDetay?i=zzz"
+    world["items"] = [item]
+    world["results"] = [result(category="is", apply_link_id=None, deadline="", eligibility_evidence="ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.")]
+    monkeypatch.setattr(kariyerkapisi, "fetch_article", lambda it, c: article.Article(
+        url=it["link"], final_url=it["link"], title=it["title"], text="İlan başlığı: X\nilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.", links=[], degraded=True))
+    monkeypatch.setattr(pipeline, "validate_link", lambda url, c, **k: {"ok": True, "url": url, "status": 200, "soft": False, "reason": ""})
+    pipeline.run(cfg, dry=True)
+    assert "özet yalnızca başlıktan" in (util.DATA_DIR / "last_run.md").read_text()

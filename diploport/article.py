@@ -38,6 +38,7 @@ class Article:
     title: str
     text: str
     links: list[dict] = field(default_factory=list)   # {"id","url","text","context","score"}
+    degraded: bool = False                            # ayrıntılı metin alınamadı, yalnızca başlık/künye var
 
 
 def _get(url: str, timeout: int = 20) -> requests.Response:
