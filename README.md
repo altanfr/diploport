@@ -10,7 +10,7 @@ GitHub Actions (ücretsiz, her 3 saatte bir)
  │      kod: kanıt sayfada var mı? link çalışıyor mu? aggregator'a mı çıkıyor? tekrar mı?
  ├─ 4. Kesin uygun → kuyruk · Belirsiz → Telegram'da Onayla/Reddet düğmesi · Uygun değil → elenir (nedeniyle)
  ├─ 5. Kotaya göre günde en fazla 2 ilan: Diploport şablonuyla 1080×1350 JPEG kart üret.
- │      Arka plan: Gemini'nin ilana özel verdiği İngilizce sorgularla Pexels'ten otomatik stok fotoğraf
+ │      Arka plan: Gemini'nin ilana özel verdiği İngilizce sorgularla Unsplash'tan (yedek: Pexels) otomatik stok fotoğraf
  │      (sorgu sonuçsuzsa kategoriye göre genel arama; hiçbiri yoksa şablonun düz hâli)
  ├─ 6. Siteye ekle (docs/posts.json) → GitHub Pages
  └─ 7. Görsel yayına girince Make webhook'u → Instagram'a paylaş
@@ -23,7 +23,7 @@ GitHub Actions (ücretsiz, her 3 saatte bir)
 | GitHub Actions + Pages (herkese açık depo) | 0 |
 | Gemini 3.1 Flash-Lite (Google'ın ücretsiz katmanı) | 0 |
 | Make (ücretsiz plan, post başına ~3 kredi → ~150/1000) | 0 |
-| Pexels API (ücretsiz anahtar, saatte 200 istek; biz günde ~2 kullanıyoruz) | 0 |
+| Unsplash API (ücretsiz anahtar, saatte 50 istek; biz günde ~2 kullanıyoruz) ya da Pexels | 0 |
 | Telegram botu | 0 |
 | Alan adı (isteğe bağlı) | ~10 $/yıl |
 
@@ -40,8 +40,8 @@ Gemini ücretsiz katmandan çıkarsa en kötü senaryo (günde 80 ilan okunur) y
 ### 2. Gemini anahtarı
 aistudio.google.com → *Get API key*. Anahtarı depoda Settings → Secrets and variables → Actions → **`GEMINI_API_KEY`** olarak ekle. (Ücretsiz katman limitleri AI Studio'da hesabına özel görünür; kod 429'larda kendiliğinden bekleyip dener. Ana model "yoğun talep" (503) verirse `config.yaml > gemini.fallback_models` altındaki yedek modellere sırayla geçer; yoğun çıkan model 10 dakika atlanır.)
 
-### 3. Pexels anahtarı (kart arka planındaki stok fotoğraf için)
-pexels.com/api → ücretsiz hesapla anahtar al → depoda **`PEXELS_API_KEY`** secret'ı olarak ekle. Anahtar yoksa kartlar fotoğrafsız, şablonun beyaz zeminli hâliyle çıkar (hat durmaz). Pexels yönergesi gereği kullanılan fotoğrafın sahibi açıklamaya "Görsel: İsim / Pexels" olarak eklenir.
+### 3. Stok fotoğraf anahtarı (kart arka planı için)
+unsplash.com/oauth/applications → *New Application* (ücretsiz, hesap gerekir) → **Access Key**'i depoda **`UNSPLASH_ACCESS_KEY`** secret'ı olarak ekle. (Pexels şu an yeni anahtar vermiyor; eski anahtarın varsa `PEXELS_API_KEY` olarak eklenebilir, Unsplash çalışmazsa yedek olarak kullanılır.) Anahtar yoksa kartlar fotoğrafsız, şablonun beyaz zeminli hâliyle çıkar (hat durmaz). Kullanım yönergesi gereği fotoğrafın sahibi açıklamaya "Görsel: İsim / Unsplash" olarak eklenir. Unsplash "demo" modunda saatte 50 istek verir; günde 1-2 ilan için fazlasıyla yeter.
 
 ### 3b. Telegram (onay mesajları için)
 1. Telegram'da `@BotFather` → `/newbot` → verdiği token'ı **`TELEGRAM_BOT_TOKEN`** secret'ı yap.
@@ -83,6 +83,6 @@ Actions sekmesi → **Diploport** → *Run workflow* → `dry_run` işaretli. Bi
 ## Geliştirme
 ```
 pip install -r requirements.txt pytest && python -m playwright install chromium
-python -m pytest tests          # 39 test, ağ gerektirmez
+python -m pytest tests          # ~50 test, ağ gerektirmez
 python -m diploport sample out.jpg [foto.jpg]   # tasarım önizleme (foto verilmezse Pexels/boş şablon)
 ```

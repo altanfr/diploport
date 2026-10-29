@@ -91,7 +91,7 @@ def build_html(post: dict, cfg: dict, photo: bytes | None = None) -> str:
 
 
 def render_card(post: dict, cfg: dict, out_path: Path, today: date | None = None, photo: bytes | None = None) -> Path:
-    """HTML'i JPEG'e çevirir. `photo` verilmezse Pexels'ten aranır; bulunamazsa fotoğrafsız üretilir.
+    """HTML'i JPEG'e çevirir. `photo` verilmezse Unsplash/Pexels'ten aranır; bulunamazsa fotoğrafsız üretilir.
     Kullanılan fotoğrafın künyesi post["photo_credit"/"photo_url"/"photo_query"] alanlarına yazılır.
     Playwright yoksa/başarısızsa istisna fırlatır (üst katman yakalar)."""
     from playwright.sync_api import sync_playwright

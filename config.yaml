@@ -78,10 +78,12 @@ gemini:
   max_article_chars: 12000
   seconds_between_calls: 4       # Ücretsiz katman dakika limitlerini aşmamak için
 
-# --- Kart arka planı: otomatik stok fotoğraf (Pexels) ------------------------
-# PEXELS_API_KEY secret'ı yoksa kart şablonun düz (beyaz zeminli) hâliyle üretilir.
+# --- Kart arka planı: otomatik stok fotoğraf (Unsplash / Pexels) --------------
+# Anahtarı (secret) tanımlı olan ilk sağlayıcı kullanılır: UNSPLASH_ACCESS_KEY, PEXELS_API_KEY.
+# Hiçbiri yoksa kart şablonun düz (beyaz zeminli) hâliyle üretilir.
 photo:
   enabled: true
+  providers: [unsplash, pexels]
   min_luma: 0.30          # Çok karanlık fotoğrafları ele (sol üstteki lacivert logo okunsun)
   pick_from: 8            # Uygun sonuçların ilk kaçından biri seçilsin (ilan kimliğine göre sabit)
   fallback_queries:       # Modelin sorguları sonuç vermezse kategoriye göre genel arama

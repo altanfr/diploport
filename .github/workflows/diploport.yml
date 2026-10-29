@@ -24,6 +24,7 @@ jobs:
     env:
       DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

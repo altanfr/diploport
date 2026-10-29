@@ -39,7 +39,7 @@ def build_caption(post: dict, cfg: dict) -> str:
     lines.append(f"Başvuru: {post['apply_url']}")
     lines.append(f"Tüm fırsatlar: {site}/#{post['id']}")
     lines += ["", f"Kaynak: {post['source']}"]
-    if post.get("photo_credit"):  # Pexels kullanım yönergesi: fotoğrafçıyı ve Pexels'i an
+    if post.get("photo_credit"):  # Unsplash/Pexels kullanım yönergesi: fotoğrafçıyı ve siteyi an
         lines.append(f"Görsel: {post['photo_credit']}")
     lines += ["", build_hashtags(post, cfg)]
     caption = "\n".join(lines)

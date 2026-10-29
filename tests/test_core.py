@@ -178,11 +178,22 @@ def test_hashtags_deduped(cfg):
 
 # --- Kart ve otomatik stok fotoğraf -------------------------------------------
 
-def _photo(pid, w=2400, h=3600, color="#8899aa", photographer="Ada"):
+def _pexels_raw(pid, w=2400, h=3600, color="#8899aa", photographer="Ada"):
     base = f"https://images.pexels.com/photos/{pid}/pexels-photo-{pid}.jpeg"
     return {"id": pid, "width": w, "height": h, "avg_color": color, "photographer": photographer,
             "url": f"https://www.pexels.com/photo/{pid}/",
             "src": {"original": base, "portrait": base + "?h=1200&w=800", "large2x": base + "?w=940"}}
+
+
+def _photo(pid, **kw):
+    from diploport import photo
+    return photo.normalize_pexels(_pexels_raw(pid, **kw))
+
+
+def _unsplash_raw(pid, w=4000, h=6000, color="#8899aa", name="Can Demir"):
+    return {"id": pid, "width": w, "height": h, "color": color, "user": {"name": name},
+            "urls": {"raw": f"https://images.unsplash.com/photo-{pid}?ixid=abc", "regular": f"https://images.unsplash.com/photo-{pid}?w=1080"},
+            "links": {"html": f"https://unsplash.com/photos/{pid}", "download_location": f"https://api.unsplash.com/photos/{pid}/download?ixid=abc"}}
 
 
 def test_photo_queries_use_model_then_category_fallback(cfg):
@@ -214,6 +225,7 @@ class _Resp:
 
 def test_find_background_falls_back_to_next_query_and_records_credit(cfg, monkeypatch):
     from diploport import photo
+    monkeypatch.delenv("UNSPLASH_ACCESS_KEY", raising=False)
     monkeypatch.setenv("PEXELS_API_KEY", "k")
     calls = []
 
@@ -221,7 +233,7 @@ def test_find_background_falls_back_to_next_query_and_records_credit(cfg, monkey
         if "api.pexels.com" in url:
             calls.append(params["query"])
             assert headers["Authorization"] == "k" and params["orientation"] == "portrait"
-            return _Resp(js={"photos": [] if params["query"] == "nowhere" else [_photo(7, photographer="Ayşe Yılmaz")]})
+            return _Resp(js={"photos": [] if params["query"] == "nowhere" else [_pexels_raw(7, photographer="Ayşe Yılmaz")]})
         assert "w=1080" in url and "h=1350" in url and "fit=crop" in url   # tam kart boyutunda kırpım istenir
         return _Resp(content=b"\xff\xd8" + b"x" * 30000, ctype="image/jpeg")
 
@@ -234,12 +246,66 @@ def test_find_background_falls_back_to_next_query_and_records_credit(cfg, monkey
 def test_find_background_is_none_without_key_or_on_errors(cfg, monkeypatch):
     from diploport import photo
     post = {"id": "a", "category": "burs", "image_queries": ["x"]}
+    monkeypatch.delenv("UNSPLASH_ACCESS_KEY", raising=False)
+    monkeypatch.delenv("PEXELS_API_KEY", raising=False)
     assert photo.find_background(post, cfg) is None             # anahtar yok
     monkeypatch.setenv("PEXELS_API_KEY", "k")
     monkeypatch.setattr(photo.requests, "get", lambda *a, **k: _Resp(status=429))
     assert photo.find_background(post, cfg) is None             # kota/hata: hat durmaz, fotoğrafsız devam
     cfg2 = dict(cfg, photo=dict(cfg["photo"], enabled=False))
     assert photo.find_background(post, cfg2) is None
+
+
+def test_unsplash_normalization_and_filters(cfg):
+    from diploport import photo
+    n = photo.normalize_unsplash(_unsplash_raw("p1"))
+    assert n["urls"][0].startswith("https://images.unsplash.com/photo-p1?ixid=abc&") and "w=1080" in n["urls"][0] and "h=1350" in n["urls"][0]
+    assert n["credit"] == "Can Demir / Unsplash" and "utm_source=diploport" in n["url"] and n["track"].endswith("download?ixid=abc")
+    good = photo.usable([n, photo.normalize_unsplash(_unsplash_raw("p2", w=900, h=1300)),
+                         photo.normalize_unsplash(_unsplash_raw("p3", color="#050505"))], cfg)
+    assert [g["id"] for g in good] == ["p1"]
+
+
+def test_find_background_uses_unsplash_first_and_reports_download(cfg, monkeypatch):
+    from diploport import photo
+    monkeypatch.setenv("UNSPLASH_ACCESS_KEY", "uk")
+    monkeypatch.setenv("PEXELS_API_KEY", "pk")
+    seen = []
+
+    def fake_get(url, params=None, headers=None, timeout=0):
+        seen.append(url)
+        if url.startswith("https://api.unsplash.com/search/photos"):
+            assert headers["Authorization"] == "Client-ID uk" and params["orientation"] == "portrait"
+            return _Resp(js={"results": [_unsplash_raw("p9", name="Ayşe Yılmaz")]})
+        if "api.unsplash.com/photos/p9/download" in url:
+            assert headers["Authorization"] == "Client-ID uk"
+            return _Resp(js={"url": "x"})
+        assert "api.pexels.com" not in url
+        return _Resp(content=b"\xff\xd8" + b"x" * 30000, ctype="image/jpeg")
+
+    monkeypatch.setattr(photo.requests, "get", fake_get)
+    bg = photo.find_background({"id": "a", "category": "burs", "image_queries": ["spain city"]}, cfg)
+    assert bg["credit"] == "Ayşe Yılmaz / Unsplash" and bg["provider"] == "unsplash"
+    assert any("/photos/p9/download" in u for u in seen)           # Unsplash kuralı: kullanım bildirimi
+
+
+def test_find_background_falls_to_pexels_when_unsplash_key_rejected(cfg, monkeypatch):
+    from diploport import photo
+    monkeypatch.setenv("UNSPLASH_ACCESS_KEY", "bad")
+    monkeypatch.setenv("PEXELS_API_KEY", "pk")
+    unsplash_calls = []
+
+    def fake_get(url, params=None, headers=None, timeout=0):
+        if url.startswith("https://api.unsplash.com/search"):
+            unsplash_calls.append(params["query"])
+            return _Resp(status=401)
+        if "api.pexels.com" in url:
+            return _Resp(js={"photos": [_pexels_raw(3, photographer="Ada")]})
+        return _Resp(content=b"\xff\xd8" + b"x" * 30000, ctype="image/jpeg")
+
+    monkeypatch.setattr(photo.requests, "get", fake_get)
+    bg = photo.find_background({"id": "a", "category": "burs", "image_queries": ["a", "b", "c"]}, cfg)
+    assert bg["provider"] == "pexels" and len(unsplash_calls) == 1     # 401'de aynı sağlayıcıda sorgu tekrarlanmaz
 
 
 def test_card_subtitle_and_html(cfg):
