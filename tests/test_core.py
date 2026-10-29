@@ -198,11 +198,11 @@ def _unsplash_raw(pid, w=4000, h=6000, color="#8899aa", name="Can Demir"):
 
 def test_photo_queries_use_model_then_category_fallback(cfg):
     from diploport import photo
-    post = {"category": "burs", "image_queries": ["Zaragoza Spain city", " Spain university ", "", "zaragoza spain city", 5]}
+    post = {"category": "burs", "visual_kind": "scene", "image_queries": ["Zaragoza Spain city", " Spain university ", "", "zaragoza spain city", 5]}
     qs = photo.build_queries(post, cfg)
     assert qs[0] == "Zaragoza Spain city" and qs[1] == "Spain university" and qs[-1] == "university campus students"
     assert len(qs) == len(set(q.lower() for q in qs))
-    assert photo.build_queries({"category": "yok"}, cfg)[-1] == cfg["photo"]["fallback_queries"]["diger"]
+    assert photo.build_queries({"category": "yok", "visual_kind": "scene"}, cfg)[-1] == cfg["photo"]["fallback_queries"]["diger"]
 
 
 def test_photo_filters_small_and_dark_and_pick_is_stable(cfg):
@@ -617,3 +617,36 @@ def test_too_light_logo_detection_and_institution_fallback_query(cfg):
     assert qs == ["Kayseri city", "Ankara city skyline"]
     qs = photo.build_queries({"category": "burs", "visual_kind": "scene", "image_queries": ["Berlin city"]}, cfg)
     assert qs[-1] == "university campus students"
+
+
+def test_logo_zone_rejects_dark_or_busy_top_left_and_next_candidate_is_tried(cfg, monkeypatch):
+    import io, random
+    from PIL import Image
+    from diploport import photo
+
+    def jpg(img):
+        b = io.BytesIO(); img.save(b, "JPEG", quality=90); return b.getvalue()
+
+    light = jpg(Image.new("RGB", (1200, 1600), (200, 210, 225)))
+    dark = jpg(Image.new("RGB", (1200, 1600), (20, 25, 40)))
+    rnd = random.Random(1)
+    noisy_im = Image.new("L", (1200, 1600))
+    noisy_im.putdata([rnd.choice((10, 250)) for _ in range(1200 * 1600)])
+    noisy = jpg(noisy_im.convert("RGB"))
+    assert photo.logo_zone_ok(light) and not photo.logo_zone_ok(dark) and not photo.logo_zone_ok(noisy)
+    assert photo.logo_zone_ok(b"bozuk veri")            # okunamazsa engellenmez
+
+    monkeypatch.setenv("UNSPLASH_ACCESS_KEY", "uk"); monkeypatch.delenv("PEXELS_API_KEY", raising=False)
+    served = {"p0": dark, "p1": dark, "p2": light}
+
+    def fake_get(url, params=None, headers=None, timeout=0):
+        if url.startswith("https://api.unsplash.com/search"):
+            return _Resp(js={"results": [_unsplash_raw(f"p{i}") for i in range(3)]})
+        if "api.unsplash.com/photos" in url:
+            return _Resp(js={})
+        pid = url.split("photo-")[1].split("?")[0]
+        return _Resp(content=served[pid] + b"0" * 25000, ctype="image/jpeg")
+
+    monkeypatch.setattr(photo.requests, "get", fake_get)
+    bg = photo.find_background({"id": "z", "category": "burs", "visual_kind": "scene", "image_queries": ["x"]}, cfg)
+    assert bg and bg["bytes"].startswith(light[:100])   # iki koyu aday atlandı, açık olan seçildi

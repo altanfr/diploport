@@ -99,10 +99,11 @@ def too_light(data: bytes) -> bool:
 
         im = Image.open(io.BytesIO(data)).convert("RGBA")
         im.thumbnail((120, 120))
-        px = [p for p in im.getdata() if p[3] > 40]
+        raw = im.tobytes()
+        px = [(raw[i], raw[i + 1], raw[i + 2]) for i in range(0, len(raw), 4) if raw[i + 3] > 40]
         if not px:
             return True
-        lum = sum(0.2126 * r + 0.7152 * g + 0.0722 * b for r, g, b, _ in px) / (255 * len(px))
+        lum = sum(0.2126 * r + 0.7152 * g + 0.0722 * b for r, g, b in px) / (255 * len(px))
         return lum > 0.88
     except Exception:  # noqa: BLE001 - Pillow yoksa/bozuk dosya: kontrol atlanır
         return False

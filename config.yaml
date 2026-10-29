@@ -96,6 +96,7 @@ photo:
   providers: [unsplash, pexels]
   min_luma: 0.30          # Çok karanlık fotoğrafları ele (sol üstteki lacivert logo okunsun)
   institution_fallback: "Ankara city skyline"   # kuruma özel ilanda logo/kurum fotoğrafı yoksa son çare genel sorgu
+  logo_zone_min_luma: 0.42  # Sol üstteki logo bölgesi bundan koyuysa (ya da çok karmaşıksa) o fotoğraf atlanır
   pick_from: 8            # Uygun sonuçların ilk kaçından biri seçilsin (ilan kimliğine göre sabit)
   fallback_queries:       # Modelin sorguları sonuç vermezse kategoriye göre genel arama
     burs: "university campus students"
