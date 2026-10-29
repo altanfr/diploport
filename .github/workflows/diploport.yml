@@ -9,6 +9,10 @@ on:
         description: "Deneme modu: hiçbir şey kaydetme/paylaşma, sadece ne yapacağını raporla"
         type: boolean
         default: false
+      photo_test:
+        description: "Fotoğraf denemesi: 3 örnek kartı gerçek stok fotoğrafla üret (data/photo_test/), ilan taraması yapma"
+        type: boolean
+        default: false
 
 concurrency:
   group: diploport
@@ -43,10 +47,25 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
+      - name: Fotoğraf denemesi (sadece photo_test işaretliyse)
+        if: ${{ inputs.photo_test }}
+        run: |
+          python -m diploport phototest
+          git config user.name "diploport-bot"
+          git config user.email "diploport-bot@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "veri: fotoğraf denemesi"
+            git pull --rebase
+            git push
+          fi
+
       - name: 1) Tara, yargıla, sıradaki ilanın görselini hazırla
+        if: ${{ !inputs.photo_test }}
         run: python -m diploport run
 
       - name: Değişiklikleri kaydet (görsel + site yayına girsin)
+        if: ${{ !inputs.photo_test }}
         run: |
           git config user.name "diploport-bot"
           git config user.email "diploport-bot@users.noreply.github.com"
@@ -58,9 +77,11 @@ jobs:
           fi
 
       - name: 2) Instagram'a gönder (Make webhook)
+        if: ${{ !inputs.photo_test }}
         run: python -m diploport send
 
       - name: Gönderim durumunu kaydet
+        if: ${{ !inputs.photo_test }}
         run: |
           git add -A
           if ! git diff --cached --quiet; then
