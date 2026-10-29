@@ -21,26 +21,7 @@
     "docs.google.com/forms/d/e/1FAIpQLSe0gUjwVqOL2Yh5JHMgNgfgK-xriFWa7F7vk_SrhKpZMxkmJA/viewform",
     "youthall.com/en/Bshik/we-power-2026_8"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
-      "attempts": 2,
-      "caption": "EJN 2027 Gazetecilik Bursu - ABD\n\nProfesyonel gazeteciler için New York'ta düzenlenecek BBNJ COP1 konferansını takip etmelerini sağlayan tam kapsamlı bir gazetecilik bursu programıdır.\n\n- Tam kapsamlı finansal destek\n- Okyanus ve çevre haberciliği odaklı\n- New York'ta uluslararası deneyim\n\nSon başvuru: 29 Ekim 2026\nBaşvuru: https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa\nTüm fırsatlar: https://altanfr.github.io/diploport/#f969288f4d9b\n\nKaynak: Opportunities Circle\n\n#diploport #fırsat #türkgençler #fırsatlar",
-      "id": "f969288f4d9b",
-      "photo_query": "",
-      "title": "EJN 2027 Gazetecilik Bursu - ABD",
-      "ts": "2026-10-29T09:48:46.551068+00:00"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
-      "attempts": 1,
-      "caption": "Bilkom Digital Leader Genç Yetenek Programı\n\nBilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.\n\n- 6-12 ay süreli profesyonel gelişim\n- Haftada en az 3 gün çalışma imkanı\n- İzmir'de ikamet zorunluluğu\n\nSon başvuru: 6 Kasım 2026\nBaşvuru: https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/\nTüm fırsatlar: https://altanfr.github.io/diploport/#5a0a979214b0\n\nKaynak: Youthall\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
-      "id": "5a0a979214b0",
-      "photo_query": "",
-      "title": "Bilkom Digital Leader Genç Yetenek Programı",
-      "ts": "2026-10-29T18:29:31.834575+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {},
   "published": [],
   "queue": [
@@ -529,6 +510,54 @@
       "summary_tr": "BSH tarafından düzenlenen WE Power programı, mühendislik ve satış alanlarında kariyer hedefleyen kadın öğrencilere yönelik uzun dönemli bir staj fırsatıdır.",
       "title_tr": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı",
       "turkey_eligible": "yes"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-06",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "6-12 ay süreli profesyonel gelişim",
+        "Haftada en az 3 gün çalışma imkanı",
+        "İzmir'de ikamet zorunluluğu"
+      ],
+      "id": "5a0a979214b0",
+      "organization": "Bilkom",
+      "source": "Youthall",
+      "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
+      "title_tr": "Bilkom Digital Leader Genç Yetenek Programı",
+      "image_queries": [
+        "Izmir Turkey city",
+        "Turkey young professionals office",
+        "students walking campus"
+      ],
+      "queued_at": "2026-10-29T22:56:52.084715+00:00"
+    },
+    {
+      "apply_url": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+      "category": "diger",
+      "country_tr": "ABD",
+      "deadline": "2026-10-29",
+      "fee_required": false,
+      "funding_tr": "Tam burs (Ulaşım, konaklama, yemek ve vize masrafları dahil)",
+      "highlights_tr": [
+        "Tam kapsamlı finansal destek",
+        "Okyanus ve çevre haberciliği odaklı",
+        "New York'ta uluslararası deneyim"
+      ],
+      "id": "f969288f4d9b",
+      "organization": null,
+      "source": "Opportunities Circle",
+      "summary_tr": "Profesyonel gazeteciler için New York'ta düzenlenecek BBNJ COP1 konferansını takip etmelerini sağlayan tam kapsamlı bir gazetecilik bursu programıdır.",
+      "title_tr": "EJN 2027 Gazetecilik Bursu - ABD",
+      "image_queries": [
+        "journalists newsroom",
+        "United States journalism students",
+        "reporters working laptop"
+      ],
+      "queued_at": "2026-10-29T22:56:52.084715+00:00"
     }
   ],
   "seen": {
