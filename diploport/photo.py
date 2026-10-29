@@ -84,8 +84,11 @@ def build_queries(post: dict, cfg: dict) -> list[str]:
     for q in list(post.get("image_queries") or [])[:3]:
         if isinstance(q, str) and q.strip():
             out.append(q.strip()[:80])
-    fb = (cfg.get("photo") or {}).get("fallback_queries") or {}
+    pc = cfg.get("photo") or {}
+    fb = pc.get("fallback_queries") or {}
     generic = fb.get(post.get("category")) or fb.get("diger")
+    if post.get("visual_kind", "institution") != "scene" and pc.get("institution_fallback"):
+        generic = pc["institution_fallback"]   # kuruma özel: kişi/bayrak/hayvan çıkarmayan, ülkeye uygun genel şehir görüntüsü
     if generic:
         out.append(generic)
     seen, uniq = set(), []

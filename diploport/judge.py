@@ -81,7 +81,9 @@ Return a single JSON object with exactly these keys:
   2) the country plus the theme, e.g. "Spain university students"
   3) a generic scene for the theme that works anywhere, e.g. "students walking campus", "volunteers planting trees"
   Describe only things that can be photographed (places, landscapes, buildings, activities). No brand names, person names, logos or text.
-  If visual_kind is "institution", the phrases must show the kind of workplace or sector instead of a place: 1) the type of building or facility ("government building", "car factory", "software office"), 2) the work or field ("engineers working factory", "civil servants office"), 3) a generic modern building or office scene.
+  If visual_kind is "institution", describe a related PLACE instead, never people, flags, animals or logos:
+  - workplace in Türkiye: 1) the Turkish city named in the text plus "city" (e.g. "Kayseri city"; if no city is named, "Ankara city skyline" for public bodies or "Istanbul skyline" for companies), 2) "Istanbul skyline" or "Ankara city skyline", 3) "Turkey landscape".
+  - workplace abroad or international organisation: 1) the city or the type of building ("Geneva city", "modern office building"), 2) the sector as a place ("research laboratory", "factory exterior"), 3) "modern office building".
 
 - visual_kind: "scene" ONLY when the experience takes place in a specific, photogenic place and a stock photo of that place or activity would truthfully represent it: study, exchange, training course, volunteering or travel in a named foreign country or city (for example a Erasmus+ youth exchange in Germany, a scholarship in Sweden, a summer school in France). "institution" for everything where a generic stock photo would misrepresent it: a job, internship, exam or programme offered by one specific employer, company, ministry, agency or public body (for example a public-sector recruitment exam, a company internship), online-only programmes, and anything without a specific photogenic place. When unsure, answer "institution".
 

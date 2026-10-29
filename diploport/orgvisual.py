@@ -90,6 +90,24 @@ def _download(url: str) -> bytes:
     return r.content
 
 
+def too_light(data: bytes) -> bool:
+    """Beyaz panelde kaybolacak (beyaz yazılı/çok açık) logo mu? Saydam piksellere bakılmaz."""
+    try:
+        import io
+
+        from PIL import Image
+
+        im = Image.open(io.BytesIO(data)).convert("RGBA")
+        im.thumbnail((120, 120))
+        px = [p for p in im.getdata() if p[3] > 40]
+        if not px:
+            return True
+        lum = sum(0.2126 * r + 0.7152 * g + 0.0722 * b for r, g, b, _ in px) / (255 * len(px))
+        return lum > 0.88
+    except Exception:  # noqa: BLE001 - Pillow yoksa/bozuk dosya: kontrol atlanır
+        return False
+
+
 def find_org_visual(org: str, cfg: dict) -> dict | None:
     """Dönüş: {"kind": "logo"|"photo", "bytes", "credit", "url", "title", "lang"} ya da None."""
     if not (org or "").strip() or not (cfg.get("org_visual") or {}).get("enabled", True):
@@ -118,6 +136,9 @@ def find_org_visual(org: str, cfg: dict) -> dict | None:
                 data = _download(thumb)
             except (requests.RequestException, ValueError) as e:
                 log.warning("Vikipedi görseli alınamadı (%s): %s", fname, e)
+                continue
+            if kind == "logo" and too_light(data):
+                log.info("Logo beyaz panelde okunmaz (çok açık): %s", fname)
                 continue
             return {"kind": kind, "bytes": data, "credit": credit, "title": p.get("title", ""), "lang": lang,
                     "url": f"https://{lang}.wikipedia.org/wiki/" + p.get("title", "").replace(" ", "_")}

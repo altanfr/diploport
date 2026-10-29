@@ -603,3 +603,17 @@ def test_card_uses_logo_panel_then_falls_back_to_stock(cfg, monkeypatch, tmp_pat
     post2 = dict(post, id="k3")
     card.render_card(post2, cfg, tmp_path / "b.jpg")
     assert post2["photo_credit"] == "Ada / Unsplash" and post2["photo_query"] == "government building"
+
+
+def test_too_light_logo_detection_and_institution_fallback_query(cfg):
+    import io
+    from PIL import Image
+    from diploport import orgvisual, photo
+    def png(color, alpha=255):
+        b = io.BytesIO(); Image.new("RGBA", (60, 30), color + (alpha,)).save(b, "PNG"); return b.getvalue()
+    assert orgvisual.too_light(png((255, 255, 255))) and orgvisual.too_light(png((10, 10, 10), alpha=0))
+    assert not orgvisual.too_light(png((30, 44, 85)))
+    qs = photo.build_queries({"category": "is", "visual_kind": "institution", "image_queries": ["Kayseri city"]}, cfg)
+    assert qs == ["Kayseri city", "Ankara city skyline"]
+    qs = photo.build_queries({"category": "burs", "visual_kind": "scene", "image_queries": ["Berlin city"]}, cfg)
+    assert qs[-1] == "university campus students"

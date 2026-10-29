@@ -61,13 +61,14 @@ def main(argv: list[str]) -> int:
             inst("i1", "KAMU İHALE KURUMU", "Kamu İhale Kurumu Uzman Yardımcılığı Giriş Sınavı", "is",
                  ["government building", "civil servants office", "modern office building"], "landmark"),
             inst("i2", "ORTA ANADOLU KALKINMA AJANSI", "Orta Anadolu Kalkınma Ajansı Personel Alımı", "is",
-                 ["government building", "civil servants office", "modern office building"], "landmark"),
-            inst("i3", "UNHCR", "UNHCR 2027 Staj Programı", "staj", ["United Nations office building", "humanitarian aid workers", "modern office building"]),
+                 ["Kayseri city", "Ankara city skyline", "Turkey landscape"], "landmark"),
+            inst("i3", "UNHCR", "UNHCR 2027 Staj Programı", "staj", ["Geneva city", "modern office building", "modern office building"]),
             inst("i4", "Oyak Renault", "Oyak Renault 4 Seasons Proje Stajyerliği", "staj", ["car factory", "engineers working factory", "modern office building"]),
             inst("i5", "Bilkom", "Bilkom Digital Leader Genç Yetenek Programı", "staj", ["software office", "developers working laptop", "modern office building"]),
             inst("i6", "TÜRKİYE İŞ KURUMU", "İŞKUR Uzman Yardımcısı Alımı", "is", ["government building", "civil servants office", "modern office building"], "landmark"),
-            inst("i7", "Commencis", "Commencis Cloud Camp 2027", "egitim", ["software office", "developers working laptop", "modern office building"]),
-            inst("i8", "ORMAN GENEL MÜDÜRLÜĞÜ", "Orman Genel Müdürlüğü Müfettiş Yardımcısı Alımı", "is", ["forest ranger", "forest trees", "modern office building"], "landmark"),
+            inst("i7", "Commencis", "Commencis Cloud Camp 2027", "egitim", ["Istanbul skyline", "Istanbul skyline", "Turkey landscape"]),
+            inst("i8", "ORMAN GENEL MÜDÜRLÜĞÜ", "Orman Genel Müdürlüğü Müfettiş Yardımcısı Alımı", "is", ["Ankara city skyline", "Istanbul skyline", "Turkey landscape"], "landmark"),
+            inst("i9", "Keyo People", "Keyo People Campus Kampüs Temsilciliği Programı", "staj", ["Istanbul skyline", "Istanbul skyline", "Turkey landscape"]),
         ]
         have = [n for n, _ in photo_mod._providers(cfg)]
         lines = [f"Anahtarı tanımlı sağlayıcılar: {', '.join(have) or 'YOK'}", ""]
