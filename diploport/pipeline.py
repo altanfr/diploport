@@ -156,6 +156,10 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
     post["visual_kind"] = it["source_cfg"].get("visual") or post.get("visual_kind") or "institution"
     if it["source_cfg"].get("icon"):
         post["icon"] = it["source_cfg"]["icon"]
+    if it["source_cfg"].get("fetcher") == "kariyerkapisi" and " - " in title:
+        post["organization"] = title.split(" - ", 1)[0].strip()   # "KAMU İHALE KURUMU - ..." -> kurum adı kesin
+    if post.get("visual_kind") == "institution" and not post.get("organization"):
+        post["organization"] = ""
     if canonical_url(official) in state["official_seen"] or _is_duplicate_title(state, post["title_tr"]):
         mark(state, it["id"], "rejected", "tekrar (başka kaynakta zaten işlendi)", title)
         report.append(("elendi", it["source"], title, "tekrar"))

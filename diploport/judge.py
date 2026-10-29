@@ -75,11 +75,13 @@ Return a single JSON object with exactly these keys:
 - highlights_tr: exactly 3 short Turkish facts (max 60 chars each) that a student would care about (age limit, language, duration, stipend...).
 - apply_link_id: the id of the candidate link below that leads to the OFFICIAL application or information page of the organization offering the opportunity. Not another aggregator, not social media. Omit if none of them fits.
 
+- organization: the exact, official name of the employer / organizer / institution behind the opportunity, as it is written on its own website (for example "Kamu İhale Kurumu", "Oyak Renault", "UNHCR", "DAAD"). Empty string if there is none.
 - image_queries: exactly 3 English search phrases (2-4 words each) for a free stock photo site (Unsplash) to find a background photo that FITS this opportunity, ordered from most specific to most generic:
   1) the concrete place or subject (city/landmark/campus/field), e.g. "Zaragoza Spain city", "solar panels field"
   2) the country plus the theme, e.g. "Spain university students"
   3) a generic scene for the theme that works anywhere, e.g. "students walking campus", "volunteers planting trees"
   Describe only things that can be photographed (places, landscapes, buildings, activities). No brand names, person names, logos or text.
+  If visual_kind is "institution", the phrases must show the kind of workplace or sector instead of a place: 1) the type of building or facility ("government building", "car factory", "software office"), 2) the work or field ("engineers working factory", "civil servants office"), 3) a generic modern building or office scene.
 
 - visual_kind: "scene" ONLY when the experience takes place in a specific, photogenic place and a stock photo of that place or activity would truthfully represent it: study, exchange, training course, volunteering or travel in a named foreign country or city (for example a Erasmus+ youth exchange in Germany, a scholarship in Sweden, a summer school in France). "institution" for everything where a generic stock photo would misrepresent it: a job, internship, exam or programme offered by one specific employer, company, ministry, agency or public body (for example a public-sector recruitment exam, a company internship), online-only programmes, and anything without a specific photogenic place. When unsure, answer "institution".
 

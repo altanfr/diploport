@@ -75,16 +75,22 @@ def is_institution(post: dict) -> bool:
     return post.get("visual_kind", "institution") != "scene"   # türü bilinmeyen/eski kayıt: güvenli varsayılan, stok foto yok
 
 
-def _plain_layer(post: dict) -> str:
+def _plain_layer(post: dict, logo: bytes | None = None) -> str:
+    from .photo import data_uri
+
     icon = ICONS[icon_for(post)]
     orbit = ('<svg class="orbit" viewBox="0 0 1080 760" fill="none">'
              '<ellipse cx="540" cy="370" rx="330" ry="330" stroke="#1E2C55" stroke-opacity=".10" stroke-width="2"/>'
              '<ellipse cx="540" cy="370" rx="440" ry="440" stroke="#1E2C55" stroke-opacity=".06" stroke-width="2"/>'
              '<circle cx="872" cy="262" r="9" fill="#E0A526"/><circle cx="186" cy="520" r="7" fill="#E0A526" fill-opacity=".8"/>'
              '<circle cx="808" cy="590" r="5" fill="#1E2C55" fill-opacity=".35"/></svg>')
-    svg = (f'<svg viewBox="0 0 24 24" fill="none" stroke="#1E2C55" stroke-width="1.35" stroke-linecap="round" '
-           f'stroke-linejoin="round">{icon}</svg>')
-    return f'<div class="plain"><div class="dots"></div>{orbit}<div class="badge">{svg}</div></div>'
+    if logo:   # kurumun logosu: beyaz panel içinde, oranı korunarak
+        centre = f'<div class="panel"><img alt="" src="{data_uri(logo)}"></div>'
+    else:
+        svg = (f'<svg viewBox="0 0 24 24" fill="none" stroke="#1E2C55" stroke-width="1.35" stroke-linecap="round" '
+               f'stroke-linejoin="round">{icon}</svg>')
+        centre = f'<div class="badge">{svg}</div>'
+    return f'<div class="plain"><div class="dots"></div>{orbit}{centre}</div>'
 
 
 def _title_size(title: str) -> int:
@@ -101,7 +107,7 @@ def subtitle(post: dict) -> str:
     return f"{country} | {support}" if country else support
 
 
-def build_html(post: dict, cfg: dict, photo: bytes | None = None) -> str:
+def build_html(post: dict, cfg: dict, photo: bytes | None = None, logo: bytes | None = None) -> str:
     from .photo import data_uri
 
     tpl = (ROOT / "templates" / "card.html").read_text(encoding="utf-8")
@@ -111,7 +117,7 @@ def build_html(post: dict, cfg: dict, photo: bytes | None = None) -> str:
         "fonts_css": _fonts_css(),
         "gradient": GRADIENT,
         "photo_style": photo_style,
-        "plain_layer": "" if photo else _plain_layer(post),
+        "plain_layer": "" if photo else _plain_layer(post, logo),
         "logo_src": _logo_src(),
         "title": html.escape(title),
         "title_size": str(_title_size(title)),
@@ -125,22 +131,35 @@ def build_html(post: dict, cfg: dict, photo: bytes | None = None) -> str:
     return tpl
 
 
-def render_card(post: dict, cfg: dict, out_path: Path, today: date | None = None, photo: bytes | None = None) -> Path:
+def render_card(post: dict, cfg: dict, out_path: Path, today: date | None = None, photo: bytes | None = None,
+                logo: bytes | None = None) -> Path:
     """HTML'i JPEG'e çevirir. `photo` verilmezse Unsplash/Pexels'ten aranır; bulunamazsa fotoğrafsız üretilir.
     Kullanılan fotoğrafın künyesi post["photo_credit"/"photo_url"/"photo_query"] alanlarına yazılır.
     Playwright yoksa/başarısızsa istisna fırlatır (üst katman yakalar)."""
     from playwright.sync_api import sync_playwright
 
+    from .orgvisual import find_org_visual
     from .photo import find_background
 
-    if photo is None and not is_institution(post):   # kuruma özel ilanda stok fotoğraf aranmaz
-        bg = find_background(post, cfg)
-        if bg:
-            photo = bg["bytes"]
-            post["photo_credit"], post["photo_url"], post["photo_query"] = bg["credit"], bg["url"], bg["query"]
+    if photo is None and logo is None:
+        if is_institution(post):
+            # Kuruma özel ilan: önce kurumun kendi görseli (Vikipedi logosu / kurum fotoğrafı), sonra sektöre uygun stok fotoğraf
+            ov = find_org_visual(post.get("organization", ""), cfg)
+            if ov and ov["kind"] == "logo":
+                logo = ov["bytes"]
+                post["photo_query"], post["photo_url"] = f"logo: {ov['title']} ({ov['lang']}.wikipedia)", ov["url"]
+            elif ov:
+                photo = ov["bytes"]
+                post["photo_credit"], post["photo_url"] = ov["credit"], ov["url"]
+                post["photo_query"] = f"wiki foto: {ov['title']} ({ov['lang']}.wikipedia)"
+        if photo is None and logo is None:
+            bg = find_background(post, cfg)
+            if bg:
+                photo = bg["bytes"]
+                post["photo_credit"], post["photo_url"], post["photo_query"] = bg["credit"], bg["url"], bg["query"]
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    doc = build_html(post, cfg, photo)
+    doc = build_html(post, cfg, photo, logo)
     exe = os.environ.get("CHROMIUM_PATH") or None
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe, args=["--no-sandbox"])

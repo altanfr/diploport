@@ -106,6 +106,10 @@ photo:
     hibe: "teamwork project startup"
     diger: "city skyline travel"
 
+# --- Kuruma özel ilanlar: kurumun kendi görseli (Vikipedi logosu / kurum fotoğrafı), yoksa sektöre uygun stok fotoğraf ---
+org_visual:
+  enabled: true
+
 # --- Instagram yazısı -------------------------------------------------------
 hashtags:
   common: ["#diploport", "#fırsat", "#türkgençler"]

@@ -47,19 +47,33 @@ def main(argv: list[str]) -> int:
         from . import photo as photo_mod, util
         out = util.DATA_DIR / "photo_test"
         out.mkdir(parents=True, exist_ok=True)
+        def inst(i, org, title, cat, qs, icon=""):
+            d = {"id": i, "category": cat, "title_tr": title, "country_tr": "Türkiye", "funding_tr": "Belirtilmemiş",
+                 "visual_kind": "institution", "organization": org, "image_queries": qs}
+            if icon:
+                d["icon"] = icon
+            return d
+
         samples = [
             {"id": "t1", "category": "egitim", "title_tr": "Almanya'da Erasmus+ Gençlik Çalışanları Eğitimi", "country_tr": "Almanya",
-             "funding_tr": "Ücretsiz eğitim ve konaklama", "visual_kind": "scene", "image_queries": ["Berlin Germany city", "Germany university students", "students walking campus"]},
-            {"id": "t2", "category": "burs", "title_tr": "EJN 2027 Gazetecilik Bursu", "country_tr": "ABD",
-             "funding_tr": "Tam burs", "visual_kind": "scene", "image_queries": ["journalists newsroom", "United States journalism students", "reporters working laptop"]},
-            {"id": "t3", "category": "is", "title_tr": "Kamu İhale Kurumu Uzman Yardımcılığı Giriş Sınavı", "country_tr": "Türkiye",
-             "funding_tr": "Belirtilmemiş", "visual_kind": "institution", "icon": "landmark", "image_queries": ["Ankara government building", "Turkey office workers", "professional office meeting"]},
+             "funding_tr": "Ücretsiz eğitim ve konaklama", "visual_kind": "scene",
+             "image_queries": ["Berlin Germany city", "Germany university students", "students walking campus"]},
+            inst("i1", "KAMU İHALE KURUMU", "Kamu İhale Kurumu Uzman Yardımcılığı Giriş Sınavı", "is",
+                 ["government building", "civil servants office", "modern office building"], "landmark"),
+            inst("i2", "ORTA ANADOLU KALKINMA AJANSI", "Orta Anadolu Kalkınma Ajansı Personel Alımı", "is",
+                 ["government building", "civil servants office", "modern office building"], "landmark"),
+            inst("i3", "UNHCR", "UNHCR 2027 Staj Programı", "staj", ["United Nations office building", "humanitarian aid workers", "modern office building"]),
+            inst("i4", "Oyak Renault", "Oyak Renault 4 Seasons Proje Stajyerliği", "staj", ["car factory", "engineers working factory", "modern office building"]),
+            inst("i5", "Bilkom", "Bilkom Digital Leader Genç Yetenek Programı", "staj", ["software office", "developers working laptop", "modern office building"]),
+            inst("i6", "TÜRKİYE İŞ KURUMU", "İŞKUR Uzman Yardımcısı Alımı", "is", ["government building", "civil servants office", "modern office building"], "landmark"),
+            inst("i7", "Commencis", "Commencis Cloud Camp 2027", "egitim", ["software office", "developers working laptop", "modern office building"]),
+            inst("i8", "ORMAN GENEL MÜDÜRLÜĞÜ", "Orman Genel Müdürlüğü Müfettiş Yardımcısı Alımı", "is", ["forest ranger", "forest trees", "modern office building"], "landmark"),
         ]
         have = [n for n, _ in photo_mod._providers(cfg)]
         lines = [f"Anahtarı tanımlı sağlayıcılar: {', '.join(have) or 'YOK'}", ""]
         for sp in samples:
             render_card(sp, cfg, out / f"{sp['id']}.jpg", date.today())
-            lines.append(f"- {sp['id']}: sağlayıcı/künye={sp.get('photo_credit') or 'FOTOĞRAF YOK'} · arama={sp.get('photo_query') or '-'} · {sp.get('photo_url') or ''}")
+            lines.append(f"- {sp['id']} ({sp.get('organization') or sp['title_tr']}): kaynak={sp.get('photo_query') or 'SİMGE KARTI'} · künye={sp.get('photo_credit') or '-'} · {sp.get('photo_url') or ''}")
         (out / "report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
         print("\n".join(lines))
         return 0
