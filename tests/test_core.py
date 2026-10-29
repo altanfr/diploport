@@ -440,3 +440,56 @@ def test_elementor_apply_button_survives_noise_filter(cfg):
     urls = [l["url"] for l in a.links]
     assert "https://si.se/en/apply/scholarships/pioneeringwomeninstem/" in urls
     assert not any("example.org" in u or "twitter.com" in u for u in urls)   # gerçek gürültü hâlâ silinir
+
+
+# --- Kariyer Kapısı ---------------------------------------------------------------
+
+KK_RSS = """<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Kariyer Kapısı</title>
+<item><guid>https://kariyerkapisi.gov.tr/IlanDetay?i=aaa</guid><link>https://kariyerkapisi.gov.tr/IlanDetay?i=aaa</link>
+<category>Sözleşmeli Personel İlanları</category><title>KURUM A - SÖZLEŞMELİ BİLİŞİM PERSONELİ</title><pubDate>{now}</pubDate></item>
+<item><guid>https://kariyerkapisi.gov.tr/IlanDetay?i=bbb</guid><link>https://kariyerkapisi.gov.tr/IlanDetay?i=bbb</link>
+<category>Görevde Yükselme ve Unvan Değişikliği İlanları</category><title>KURUM B - GÖREVDE YÜKSELME</title><pubDate>{now}</pubDate></item>
+</channel></rss>"""
+
+
+def test_feed_skip_categories_and_unique_ids_per_guid(cfg, monkeypatch):
+    from email.utils import format_datetime
+    from datetime import datetime, timezone
+    from diploport import sources
+    body = KK_RSS.format(now=format_datetime(datetime.now(timezone.utc))).encode()
+    monkeypatch.setattr(sources.requests, "get", lambda *a, **k: type("R", (), {
+        "content": body, "headers": {"content-type": "application/rss+xml"}, "raise_for_status": lambda s: None})())
+    src = next(s for s in cfg["sources"] if s["name"] == "Kariyer Kapısı")
+    items = sources.fetch_feed(src)
+    assert [i["title"] for i in items] == ["KURUM A - SÖZLEŞMELİ BİLİŞİM PERSONELİ"]   # görevde yükselme baştan elendi
+    assert items[0]["source_cfg"]["fetcher"] == "kariyerkapisi" and items[0]["source_cfg"]["assume_eligible"]
+    assert items[0]["id"] != sources.fetch_feed(dict(src, skip_categories=[]))[1]["id"]   # ?i= farklı → farklı kimlik
+
+
+def test_kariyerkapisi_bbcode_to_text():
+    from diploport.kariyerkapisi import bbcode_to_text
+    raw = "[justify][size=14pt][b] TMSF Personel Alım İlanı[/b][/size][/justify][br][list][*]KPSS P3 puanı&nbsp;en az 70[*]Türk vatandaşı olmak[/list]"
+    out = bbcode_to_text(raw)
+    assert "[" not in out and "TMSF Personel Alım İlanı" in out
+    assert out.splitlines()[-2:] == ["KPSS P3 puanı en az 70", "Türk vatandaşı olmak"]
+
+
+def test_kariyerkapisi_fetch_article_builds_text_from_api(cfg, monkeypatch):
+    from diploport import kariyerkapisi
+    posted = {}
+
+    def fake_post(url, json=None, headers=None, timeout=0):
+        posted.update(url=url, json=json)
+        return type("R", (), {"status_code": 200, "raise_for_status": lambda s: None, "json": lambda s: {
+            "ilanBaslik": "TMSF - FON UZMAN YARDIMCILIĞI", "kurumAdi": "TASARRUF MEVDUATI SİGORTA FONU", "ilanTuru": "A Grubu Memur",
+            "ilN_NO": "ILN1", "basTarih": "2026-10-12T08:00:00", "bitTarih": "2026-10-30T17:00:00",
+            "ilanMetni": "[b]Şartlar[/b][br]Türk vatandaşı olmak"}})()
+
+    monkeypatch.setattr(kariyerkapisi.requests, "post", fake_post)
+    art = kariyerkapisi.fetch_article("https://kariyerkapisi.gov.tr/IlanDetay?i=abc-123", "ham başlık", cfg)
+    assert posted["json"] == {"ilanGuid": "abc-123"} and posted["url"].startswith("https://api.kariyerkapisi.gov.tr/")
+    assert art.title == "TMSF - FON UZMAN YARDIMCILIĞI" and art.links == []
+    assert "Son başvuru tarihi: 2026-10-30" in art.text and "Türk vatandaşı olmak" in art.text and "[b]" not in art.text
+    monkeypatch.setattr(kariyerkapisi.requests, "post", lambda *a, **k: type("R", (), {"status_code": 204})())
+    with pytest.raises(ValueError):
+        kariyerkapisi.fetch_article("https://kariyerkapisi.gov.tr/IlanDetay?i=abc-123", "x", cfg)

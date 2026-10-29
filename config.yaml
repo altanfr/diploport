@@ -32,6 +32,14 @@ sources:
     url: https://politepaul.com/fd/bacPZOS3ACt8.xml
     assume_eligible: true
     link_fallback_to_source: true
+  # Kamu ilanları (resmî site). İlan metni sitenin API'sinden alınır; başvuru linki ilanın kendi Kariyer Kapısı sayfasıdır.
+  # skip_categories: bu türdeki ilanlar hiç değerlendirilmez (gençlere/öğrencilere yönelik olmayanlar).
+  - name: Kariyer Kapısı
+    url: https://kariyerkapisi.gov.tr/RSS
+    fetcher: kariyerkapisi
+    assume_eligible: true
+    link_fallback_to_source: true
+    skip_categories: ["Görevde Yükselme", "Merkezi Yerleştirme", "Hakim ve Savcı", "Askeri", "Öğretim Üyesi", "Tercih", "Belge Başvurusu", "Yeterlik"]
 
 # Başvuru linki olarak ASLA kabul edilmeyecek siteler (aggregator + sosyal medya).
 # Kaynakların kendi alan adları otomatik olarak eklenir.

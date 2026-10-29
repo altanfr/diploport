@@ -57,6 +57,14 @@ def blocked_domains(cfg: dict, extra: str = "") -> set[str]:
     return blocked
 
 
+def shorten(text: str, max_chars: int) -> str:
+    """Uygunluk bilgisi genelde sondaki "Eligibility" bölümünde olur: baş + son birlikte tutulur."""
+    if len(text) <= max_chars:
+        return text
+    head, tail = int(max_chars * 0.65), int(max_chars * 0.35)
+    return text[:head] + "\n[...]\n" + text[-tail:]
+
+
 def parse_article(html: str, url: str, cfg: dict, max_chars: int = 7000, max_links: int = 20) -> Article:
     soup = BeautifulSoup(html, "html.parser")
     title = (soup.title.get_text(strip=True) if soup.title else "")[:200]
@@ -111,11 +119,7 @@ def parse_article(html: str, url: str, cfg: dict, max_chars: int = 7000, max_lin
         l["id"] = i
 
     text = container.get_text("\n", strip=True)
-    text = re.sub(r"\n{2,}", "\n", text)
-    if len(text) > max_chars:
-        # Uygunluk bilgisi genelde sondaki "Eligibility" bölümünde olur: baş + son birlikte tutulur.
-        head, tail = int(max_chars * 0.65), int(max_chars * 0.35)
-        text = text[:head] + "\n[...]\n" + text[-tail:]
+    text = shorten(re.sub(r"\n{2,}", "\n", text), max_chars)
     return Article(url=url, final_url=url, title=title, text=text, links=links)
 
 

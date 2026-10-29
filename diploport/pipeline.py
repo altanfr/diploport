@@ -15,7 +15,7 @@ import time
 from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 
-from . import site
+from . import kariyerkapisi, site
 from .article import fetch_article, validate_link
 from .card import render_card
 from .judge import GeminiError, judge_item
@@ -93,7 +93,10 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
     """Tek ilanı işler. Dönüş: 'ok' | 'fail' (Gemini geçici hata verdi: ilan işaretlenmez, sonraki çalışmada yeniden denenir)."""
     title = it["title"]
     try:
-        art = fetch_article(it["link"], cfg)
+        if it["source_cfg"].get("fetcher") == "kariyerkapisi":
+            art = kariyerkapisi.fetch_article(it["link"], title, cfg)   # ilan metni sitenin API'sinden gelir
+        else:
+            art = fetch_article(it["link"], cfg)
     except Exception as e:  # noqa: BLE001
         n = state["fails"].get(it["id"], 0) + 1
         state["fails"][it["id"]] = n

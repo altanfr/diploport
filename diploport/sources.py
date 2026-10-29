@@ -53,10 +53,14 @@ def fetch_feed(src: dict, timeout: int = 20) -> list[dict]:
     if not parsed.entries:
         FEED_ERRORS[src["name"]] = "yanıt geldi ama RSS kaydı yok (" + (r.headers.get("content-type", "?").split(";")[0]) + ")"
     items = []
+    skip = [x.lower() for x in src.get("skip_categories") or []]
     for e in parsed.entries:
         link = (e.get("link") or "").strip()
         title = (e.get("title") or "").strip()
         if not link or not title:
+            continue
+        cats = " ".join(t.get("term", "") for t in e.get("tags") or []).lower()
+        if skip and any(x in cats for x in skip):   # kaynağın kendi kategorisine göre baştan ele (Gemini'ye gitmez)
             continue
         items.append(
             {
@@ -65,6 +69,7 @@ def fetch_feed(src: dict, timeout: int = 20) -> list[dict]:
                 "source_cfg": {
                     "assume_eligible": bool(src.get("assume_eligible")),
                     "link_fallback_to_source": bool(src.get("link_fallback_to_source")),
+                    "fetcher": src.get("fetcher", ""),
                 },
                 "title": title,
                 "link": link,

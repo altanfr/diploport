@@ -242,3 +242,20 @@ def test_expiry(world, cfg):
     pipeline.run(cfg)
     s = load_state()
     assert s["queue"] == [] and s["seen"]["x"]["status"] == "expired"
+
+
+def test_kariyerkapisi_item_uses_api_text_and_own_page_as_apply_link(world, cfg, monkeypatch):
+    from diploport import kariyerkapisi
+    link = "https://kariyerkapisi.gov.tr/IlanDetay?i=abc-123"
+    item = make_item(1, "Kariyer Kapısı", assume_eligible=True, link_fallback_to_source=True, fetcher="kariyerkapisi")
+    item["link"] = link
+    world["items"] = [item]
+    world["results"] = [result(category="is", title_tr="TMSF Fon Uzman Yardımcılığı", apply_link_id=None, country_tr="Türkiye",
+                               eligibility_evidence="Türk vatandaşı olmak")]
+    monkeypatch.setattr(kariyerkapisi, "fetch_article", lambda l, t, c: article.Article(
+        url=l, final_url=l, title=t, text="Kurum: TMSF\nSon başvuru tarihi: 2026-10-30\nTürk vatandaşı olmak", links=[]))
+    monkeypatch.setattr(pipeline, "validate_link", lambda url, c, **k: {"ok": True, "url": url, "status": 200, "soft": False, "reason": ""})
+    res = pipeline.run(cfg)
+    assert res["prepared"] == "id1"
+    posts = json.loads((util.DOCS_DIR / "posts.json").read_text())
+    assert posts[0]["apply_url"] == link
