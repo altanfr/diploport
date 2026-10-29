@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
+    "category": "staj",
+    "country_tr": "Türkiye",
+    "deadline": "2026-11-06",
+    "fee_required": false,
+    "funding_tr": "Ücretli staj",
+    "highlights_tr": [
+      "6-12 ay süreli profesyonel gelişim",
+      "Haftada en az 3 gün çalışma imkanı",
+      "İzmir'de ikamet zorunluluğu"
+    ],
+    "id": "5a0a979214b0",
+    "image": "images/5a0a979214b0.jpg",
+    "organization": "Bilkom",
+    "published_at": "2026-10-29T18:29:31.833597+00:00",
+    "source": "Youthall",
+    "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
+    "title_tr": "Bilkom Digital Leader Genç Yetenek Programı"
+  },
+  {
     "apply_url": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
     "category": "diger",
     "country_tr": "ABD",

@@ -13,7 +13,13 @@
     "ulusalstajprogrami.iskur.gov.tr",
     "unicef.org/careers/internships",
     "unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships",
-    "youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6"
+    "youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6",
+    "summer.epfl.ch/apply.html",
+    "www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183",
+    "docs.google.com/forms/d/e/1FAIpQLSdXu0oX8_655UhxvFPUg9xNUnkcq0Stth0voheoJXLz7448-w/viewform",
+    "youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5",
+    "docs.google.com/forms/d/e/1FAIpQLSe0gUjwVqOL2Yh5JHMgNgfgK-xriFWa7F7vk_SrhKpZMxkmJA/viewform",
+    "youthall.com/en/Bshik/we-power-2026_8"
   ],
   "outbox": [
     {
@@ -24,37 +30,47 @@
       "photo_query": "",
       "title": "EJN 2027 Gazetecilik Bursu - ABD",
       "ts": "2026-10-29T09:48:46.551068+00:00"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
+      "attempts": 0,
+      "caption": "Bilkom Digital Leader Genç Yetenek Programı\n\nBilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.\n\n- 6-12 ay süreli profesyonel gelişim\n- Haftada en az 3 gün çalışma imkanı\n- İzmir'de ikamet zorunluluğu\n\nSon başvuru: 6 Kasım 2026\nBaşvuru: https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/\nTüm fırsatlar: https://altanfr.github.io/diploport/#5a0a979214b0\n\nKaynak: Youthall\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "5a0a979214b0",
+      "photo_query": "",
+      "title": "Bilkom Digital Leader Genç Yetenek Programı",
+      "ts": "2026-10-29T18:29:31.834575+00:00"
     }
   ],
   "pending": {},
   "published": [],
   "queue": [
     {
-      "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
+      "apply_link_id": 1,
+      "apply_url": "https://summer.epfl.ch/apply.html",
       "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-06",
-      "eligibility_evidence": "İzmir'de ikamet ediyor olmanı (Çalışma lokasyonu Bilkom İzmir Genel Merkez Ofisi olacaktır)",
+      "country_tr": "İsviçre",
+      "deadline": "2026-11-29",
+      "eligibility_evidence": "The EPFL Summer Program is open to students worldwide.",
       "fee_required": false,
-      "funding_tr": "Ücretli staj",
+      "funding_tr": "Tam burslu (yaşam masrafları ve ulaşım karşılanır)",
       "highlights_tr": [
-        "6-12 ay süreli profesyonel gelişim",
-        "Haftada en az 3 gün çalışma imkanı",
-        "İzmir'de ikamet zorunluluğu"
+        "Dünya genelinden tüm öğrencilere açık",
+        "IELTS şartı aranmıyor",
+        "3 ay süreli tam burslu program"
       ],
-      "id": "5a0a979214b0",
+      "id": "1571e08017b2",
       "image_queries": [
-        "Izmir office building",
-        "Turkey office professional",
-        "young professionals working"
+        "EPFL campus Lausanne",
+        "Switzerland university research",
+        "students working in laboratory"
       ],
       "is_opportunity": true,
-      "organization": "Bilkom",
-      "queued_at": "2026-10-29T09:48:45.808329+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
-      "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
-      "title_tr": "Bilkom Digital Leader Genç Yetenek Programı",
+      "organization": "École Polytechnique fédérale de Lausanne (EPFL)",
+      "queued_at": "2026-10-29T18:25:11.353502+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/epfl-summer-internship-2027/",
+      "summary_tr": "İsviçre'deki EPFL bünyesinde bilgisayar ve iletişim bilimleri alanında lisans ve yüksek lisans öğrencilerine yönelik 3 aylık tam burslu yaz araştırma stajı.",
+      "title_tr": "EPFL Yaz Araştırma Stajı Programı 2027",
       "turkey_eligible": "yes"
     },
     {
@@ -371,14 +387,174 @@
       "title_tr": "UNHCR 2027 Staj Programı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": ""
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183",
+      "category": "burs",
+      "country_tr": "Almanya",
+      "deadline": "",
+      "eligibility_evidence": "It welcomes applicants from around the world who have a strong academic background in Artificial Intelligence or a related field.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (aylık 2.800€, sigorta ve seyahat desteği)",
+      "highlights_tr": [
+        "Aylık 2.800€ burs desteği",
+        "1-12 ay arası araştırma süresi",
+        "Doktora öğrencileri ve doktora sonrası araştırmacılar için"
+      ],
+      "id": "ab17b962f612",
+      "image_queries": [
+        "Heilbronn Bildungscampus architecture",
+        "Germany university research lab",
+        "researchers working on computer"
+      ],
+      "is_opportunity": true,
+      "queued_at": "2026-10-29T18:25:56.658573+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/daad-heilbronn-ai-fellowships-in-germany/",
+      "summary_tr": "Almanya'daki Bildungscampus Heilbronn'da yapay zeka alanında araştırma yapmak isteyen doktora öğrencileri ve doktora sonrası araştırmacılar için tam kapsamlı burs programı.",
+      "title_tr": "DAAD Heilbronn Yapay Zeka Araştırma Bursu",
+      "turkey_eligible": "yes"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdXu0oX8_655UhxvFPUg9xNUnkcq0Stth0voheoJXLz7448-w/viewform",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "UNICEF Türkiye’nin desteğiyle yürüttüğümüz “Akran Zorbalığına Karşı Güvenli Okul Ağı Projesi” kapsamında",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Öğretmenlere yönelik çevrim içi seminer",
+        "Katılım belgesi verilecektir",
+        "Zoom üzerinden gerçekleşecek"
+      ],
+      "id": "3c5f9496a75e",
+      "image_queries": [
+        "online teacher webinar",
+        "Turkey education seminar",
+        "students in classroom"
+      ],
+      "is_opportunity": true,
+      "organization": "Ulusal Çocuk Hakları Derneği (UDER)",
+      "queued_at": "2026-10-29T18:26:38.157511+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/ogretmenlere-yonelik-akran-zorbaligi-semineri-katilimcilarini-bekliyor/",
+      "summary_tr": "Ulusal Çocuk Hakları Derneği tarafından düzenlenen, akran zorbalığı farkındalığı ve güvenli okul ortamı üzerine öğretmenlere yönelik çevrim içi seminer.",
+      "title_tr": "Öğretmenlere Yönelik Akran Zorbalığı Semineri",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": ""
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Yalova, Kocaeli veya İstanbul Anadolu Yakası’nda ikamet edebilecek imkanlarda olmalısın.",
+      "fee_required": false,
+      "funding_tr": "Servis ve yemek imkanı",
+      "highlights_tr": [
+        "Şubat-Haziran 2027 dönemi",
+        "Haftada 5 gün staj imkanı",
+        "Lisans son sınıf öğrencileri için"
+      ],
+      "id": "0833644949f7",
+      "image_queries": [
+        "shipyard engineering office",
+        "Turkey industrial internship",
+        "students working office"
+      ],
+      "is_opportunity": true,
+      "queued_at": "2026-10-29T18:26:45.407300+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
+      "summary_tr": "Sefine Tersanesi'nin 2026-2027 Bahar dönemi için üniversite öğrencilerine yönelik sunduğu, Yalova, Kocaeli veya İstanbul'da ikamet edenlerin başvurabileceği uzun dönem staj programıdır.",
+      "title_tr": "Sefine SKY Uzun Dönem Staj Programı",
+      "turkey_eligible": "yes"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe0gUjwVqOL2Yh5JHMgNgfgK-xriFWa7F7vk_SrhKpZMxkmJA/viewform",
+      "category": "egitim",
+      "country_tr": "Almanya",
+      "deadline": "",
+      "eligibility_evidence": "Programda Almanya, Norveç, Türkiye, Litvanya, İspanya ve Kuzey Makedonya temsil edilecek.",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek ve seyahat desteği sağlanır",
+      "highlights_tr": [
+        "20-28 Kasım 2026 tarihleri arasında",
+        "18-30 yaş arası gençlere açık",
+        "Almanya, Norveç, Türkiye ve diğer ülkelerden katılım"
+      ],
+      "id": "6fa619234ecc",
+      "image_queries": [
+        "Uelzen Germany nature",
+        "Germany youth exchange",
+        "students in nature"
+      ],
+      "is_opportunity": true,
+      "organization": "Erasmus+",
+      "queued_at": "2026-10-29T18:26:52.011335+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/almanya-8-gun-genclik-degisimi/",
+      "summary_tr": "Almanya'nın Uelzen kentinde düzenlenecek olan Roots of Wellbeing Erasmus+ gençlik değişimi; ruhsal iyi oluş, doğa, sürdürülebilirlik ve sosyal kapsayıcılık konularına odaklanmaktadır.",
+      "title_tr": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": ""
+    },
+    {
+      "apply_url": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "You’re flexible and open to working in İstanbul or Çerkezköy (Tekirdağ).",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "İstanbul veya Çerkezköy lokasyonları",
+        "Haftada en az 3 gün çalışma imkanı",
+        "Mühendislik ve satış alanlarında gelişim"
+      ],
+      "id": "e89dbb00faa9",
+      "image_queries": [
+        "female engineer office",
+        "Turkey corporate office",
+        "young professional woman"
+      ],
+      "is_opportunity": true,
+      "queued_at": "2026-10-29T18:28:33.548946+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
+      "summary_tr": "BSH tarafından düzenlenen WE Power programı, mühendislik ve satış alanlarında kariyer hedefleyen kadın öğrencilere yönelik uzun dönemli bir staj fırsatıdır.",
+      "title_tr": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı",
+      "turkey_eligible": "yes"
     }
   ],
   "seen": {
+    "0833644949f7": {
+      "reason": "",
+      "status": "queued",
+      "title": "Sefine SKY Uzun Dönem Staj Programı",
+      "ts": "2026-10-29T18:26:45.407317+00:00"
+    },
     "0ae1f90d4e4d": {
       "reason": "",
       "status": "queued",
       "title": "ENHANCER PRO Hibe Programları",
       "ts": "2026-10-28T20:13:49.536171+00:00"
+    },
+    "1571e08017b2": {
+      "reason": "",
+      "status": "queued",
+      "title": "EPFL Yaz Araştırma Stajı Programı 2027",
+      "ts": "2026-10-29T18:25:11.353519+00:00"
+    },
+    "17bdce05aea2": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "rejected",
+      "title": "Bosna Hersek’te Uzun Dönem ESC Gönüllülük Projesi Fırsatı",
+      "ts": "2026-10-29T18:28:25.520387+00:00"
     },
     "1a09fc4eeebd": {
       "reason": "",
@@ -422,6 +598,18 @@
       "title": "Sosyal Duygusal Öğrenme Uzmanlık Programı Farkındalık Eğitimi",
       "ts": "2026-10-28T20:13:04.832639+00:00"
     },
+    "3c5f9496a75e": {
+      "reason": "",
+      "status": "queued",
+      "title": "Öğretmenlere Yönelik Akran Zorbalığı Semineri",
+      "ts": "2026-10-29T18:26:38.157529+00:00"
+    },
+    "3d89b0d2c276": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "UNHCR Internship Program 2027",
+      "ts": "2026-10-29T18:29:30.618033+00:00"
+    },
     "3f549960b55b": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -446,6 +634,12 @@
       "title": "Kroc Institute Visiting Research Fellows Program 2027 | Up to $30,000",
       "ts": "2026-10-28T20:12:43.781877+00:00"
     },
+    "60d053027288": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "rejected",
+      "title": "Geleceğe Eşit Başlangıç Derneği Burs Duyurusu",
+      "ts": "2026-10-29T18:25:27.896414+00:00"
+    },
     "65cebc911b56": {
       "reason": "Türkiye'ye kapalı: Applicants must hold citizenship in an African country.",
       "status": "rejected",
@@ -457,6 +651,12 @@
       "status": "queued",
       "title": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
       "ts": "2026-10-28T20:14:03.218401+00:00"
+    },
+    "6fa619234ecc": {
+      "reason": "",
+      "status": "queued",
+      "title": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
+      "ts": "2026-10-29T18:26:52.011355+00:00"
     },
     "7c14a96f39d6": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -488,6 +688,12 @@
       "title": "UNICEF 2026 Ücretli Staj Programı",
       "ts": "2026-10-29T09:47:37.208460+00:00"
     },
+    "9ed7989e5167": {
+      "reason": "Türkiye'ye kapalı: The international scholarship is open to students from 25 developing countries, including Africa, Asia, and Latin Americ",
+      "status": "rejected",
+      "title": "VLIR-UOS Scholarships 2027 in Belgium | Study Free in Europe",
+      "ts": "2026-10-29T18:28:17.787732+00:00"
+    },
     "a2deabeaa018": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "rejected",
@@ -505,6 +711,12 @@
       "status": "rejected",
       "title": "SI Pioneering Women in STEM Scholarship 2027 in Sweden | Fully Funded",
       "ts": "2026-10-28T20:13:38.305987+00:00"
+    },
+    "ab17b962f612": {
+      "reason": "",
+      "status": "queued",
+      "title": "DAAD Heilbronn Yapay Zeka Araştırma Bursu",
+      "ts": "2026-10-29T18:25:56.658592+00:00"
     },
     "ae80b0962a3f": {
       "reason": "",
@@ -542,6 +754,12 @@
       "title": "AB Hibe Programlarına Yönelik Proje Hazırlama Eğitimi (ONLINE) | 7 – 8 Kasım 2026",
       "ts": "2026-10-28T20:12:55.336318+00:00"
     },
+    "e89dbb00faa9": {
+      "reason": "",
+      "status": "queued",
+      "title": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı",
+      "ts": "2026-10-29T18:28:33.548962+00:00"
+    },
     "f969288f4d9b": {
       "reason": "",
       "status": "queued",
@@ -569,6 +787,12 @@
     "ulusal staj programı 2027 başvuruları",
     "unicef 2026 ücretli staj programı",
     "unhcr 2027 staj programı",
-    "bilkom digital leader genç yetenek programı"
+    "bilkom digital leader genç yetenek programı",
+    "epfl yaz araştırma stajı programı 2027",
+    "daad heilbronn yapay zeka araştırma bursu",
+    "öğretmenlere yönelik akran zorbalığı semineri",
+    "sefine sky uzun dönem staj programı",
+    "almanya'da roots of wellbeing erasmus gençlik değişimi",
+    "bsh we power kadın mühendislik ve satış staj programı"
   ]
 }
