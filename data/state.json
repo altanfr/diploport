@@ -5,7 +5,11 @@
     "learnecohub.com",
     "docs.google.com/forms/d/e/1FAIpQLSfgwKPQ4xfB8znTRu3bJ_HbpK2Vc_9p-6jL-MEwNSmlVJ_kqQ/viewform",
     "enhancerpro.com.tr",
-    "youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58"
+    "youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58",
+    "commencis.com/cloud-camp-2027",
+    "docs.google.com/forms/d/e/1FAIpQLSeolkocew5_402vKonam-htEY9Nrj1X_4LG3V-tS841MHuwjQ/viewform",
+    "earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+    "youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74"
   ],
   "outbox": [],
   "pending": {},
@@ -152,6 +156,120 @@
       "summary_tr": "Tekirdağ veya Çorlu'daki hazır beton tesislerinde görev alacak, 4. sınıf veya yüksek lisans öğrencileri ile yeni mezunlar için uzun dönem staj fırsatı.",
       "title_tr": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
       "turkey_eligible": "yes"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.commencis.com/cloud-camp-2027/",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-12-31",
+      "eligibility_evidence": "The program is free of charge and open to all university students in their 3rd year and beyond.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz eğitim",
+      "highlights_tr": [
+        "6 haftalık online eğitim",
+        "AWS onaylı sertifika imkanı",
+        "Staj ve işe alım fırsatı"
+      ],
+      "id": "1a09fc4eeebd",
+      "image_queries": [
+        "cloud computing server",
+        "technology students online",
+        "students working laptop"
+      ],
+      "is_opportunity": true,
+      "organization": "Commencis",
+      "queued_at": "2026-10-29T00:46:49.734366+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/Commencis/commencis-cloud-camp-2027_50/",
+      "summary_tr": "Commencis tarafından düzenlenen, 6 hafta sürecek AWS sertifikalı uygulamalı bulut teknolojileri eğitim programı.",
+      "title_tr": "Commencis Cloud Camp 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": ""
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeolkocew5_402vKonam-htEY9Nrj1X_4LG3V-tS841MHuwjQ/viewform",
+      "category": "egitim",
+      "country_tr": "Polonya",
+      "deadline": "",
+      "eligibility_evidence": "Polonya, İspanya, İtalya, Bulgaristan, Romanya, Bosna-Hersek, Türkiye ve Sırbistan’dan katılımcıları bir araya getirecek eğitimde",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında konaklama ve seyahat desteği",
+      "highlights_tr": [
+        "11-19 Ocak 2027 tarihleri arasında",
+        "Tleń, Polonya'da gerçekleşecek",
+        "Çevre ve oyun tasarımı odaklı eğitim"
+      ],
+      "id": "22349d20505b",
+      "image_queries": [
+        "Tlen Poland forest",
+        "Poland youth workshop",
+        "students playing games"
+      ],
+      "is_opportunity": true,
+      "organization": "Green Games Lab",
+      "queued_at": "2026-10-29T00:47:04.860413+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/polonya-8-gun-erasmus-projesi/",
+      "summary_tr": "Polonya'da düzenlenecek Green Games Lab Erasmus+ eğitim kursu, çevre bilinci ve sürdürülebilirlik konularını oyun temelli öğrenme yöntemleriyle ele almayı amaçlayan 8 günlük bir programdır.",
+      "title_tr": "Green Games Lab Erasmus+ Eğitim Kursu",
+      "turkey_eligible": "yes"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+      "category": "diger",
+      "country_tr": "ABD",
+      "deadline": "2026-10-29",
+      "eligibility_evidence": "Applicants must be professional journalists from or representing an established media house and report from a coastal country.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (Ulaşım, konaklama, yemek ve vize masrafları dahil)",
+      "highlights_tr": [
+        "Tam kapsamlı finansal destek",
+        "Okyanus ve çevre haberciliği odaklı",
+        "New York'ta uluslararası deneyim"
+      ],
+      "id": "f969288f4d9b",
+      "image_queries": [
+        "New York City press conference",
+        "USA professional journalists",
+        "journalists reporting outdoors"
+      ],
+      "is_opportunity": true,
+      "queued_at": "2026-10-29T00:47:14.731119+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/ejn-reporting-fellowship/",
+      "summary_tr": "Profesyonel gazeteciler için New York'ta düzenlenecek BBNJ COP1 konferansını takip etmelerini sağlayan tam kapsamlı bir gazetecilik bursu programıdır.",
+      "title_tr": "EJN 2027 Gazetecilik Bursu - ABD",
+      "turkey_eligible": "yes"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Adana’da ikamet eden / edebilecek olan.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı pozisyon",
+      "highlights_tr": [
+        "Adana lokasyonunda çalışma imkanı",
+        "0-3 yıl arası satış tecrübesi",
+        "İşletme, İktisat veya Mühendislik mezuniyeti"
+      ],
+      "id": "b1b40f7f780c",
+      "image_queries": [
+        "Adana city skyline",
+        "Turkey business office",
+        "professional sales meeting"
+      ],
+      "is_opportunity": true,
+      "queued_at": "2026-10-29T00:47:33.208292+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
+      "summary_tr": "Adana'da görevlendirilmek üzere, üniversitelerin ilgili bölümlerinden mezun, satış tecrübesi olan ve SAP bilgisine sahip Satış Yöneticisi aranmaktadır.",
+      "title_tr": "Satış Yöneticisi (Adana)",
+      "turkey_eligible": "yes"
     }
   ],
   "seen": {
@@ -160,6 +278,24 @@
       "status": "queued",
       "title": "ENHANCER PRO Hibe Programları",
       "ts": "2026-10-28T20:13:49.536171+00:00"
+    },
+    "1a09fc4eeebd": {
+      "reason": "",
+      "status": "queued",
+      "title": "Commencis Cloud Camp 2027",
+      "ts": "2026-10-29T00:46:49.734379+00:00"
+    },
+    "1f187515b03d": {
+      "reason": "resmî başvuru linki bulunamadı (seçilen link reddedildi: bağlantı hatası: SSLError; sayfada 1 aday link: mpg.de)",
+      "status": "rejected",
+      "title": "CaCTuS Summer Internship 2027 in Germany (Fully Funded)",
+      "ts": "2026-10-29T00:46:56.752531+00:00"
+    },
+    "22349d20505b": {
+      "reason": "",
+      "status": "queued",
+      "title": "Green Games Lab Erasmus+ Eğitim Kursu",
+      "ts": "2026-10-29T00:47:04.860429+00:00"
     },
     "276be86740ef": {
       "reason": "",
@@ -172,6 +308,12 @@
       "status": "queued",
       "title": "Sosyal Duygusal Öğrenme Uzmanlık Programı Farkındalık Eğitimi",
       "ts": "2026-10-28T20:13:04.832639+00:00"
+    },
+    "54e247c0f1a8": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
+      "status": "rejected",
+      "title": "Proje Hazırlama Eğitimi (Proje Döngüsü Yönetimi / PCM Eğitimi)",
+      "ts": "2026-10-29T00:46:42.757297+00:00"
     },
     "5eac6a3404b3": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -209,11 +351,47 @@
       "title": "SI Pioneering Women in STEM Scholarship 2027 in Sweden | Fully Funded",
       "ts": "2026-10-28T20:13:38.305987+00:00"
     },
+    "b1b40f7f780c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Satış Yöneticisi (Adana)",
+      "ts": "2026-10-29T00:47:33.208307+00:00"
+    },
+    "c4668d5585a2": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
+      "status": "rejected",
+      "title": "Katılımcı Çağrısı: Macaristan’da Uzun Dönem ESC Gönüllülük Projesi",
+      "ts": "2026-10-29T00:47:24.987398+00:00"
+    },
+    "c4be9f2a3c95": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "rejected",
+      "title": "Yuva Vakfı Burs Duyurusu",
+      "ts": "2026-10-29T00:46:27.904376+00:00"
+    },
+    "d2e728210b76": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "rejected",
+      "title": "WHO Summer School 2027 in France",
+      "ts": "2026-10-29T00:46:35.432705+00:00"
+    },
     "e4da285b4a60": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "status": "rejected",
       "title": "AB Hibe Programlarına Yönelik Proje Hazırlama Eğitimi (ONLINE) | 7 – 8 Kasım 2026",
       "ts": "2026-10-28T20:12:55.336318+00:00"
+    },
+    "f969288f4d9b": {
+      "reason": "",
+      "status": "queued",
+      "title": "EJN 2027 Gazetecilik Bursu - ABD",
+      "ts": "2026-10-29T00:47:14.731133+00:00"
+    },
+    "ff6568bdf019": {
+      "reason": "Türkiye'ye kapalı: Applicants must be nationals of one of the 44 Least Developed Countries listed by the programme.",
+      "status": "rejected",
+      "title": "UN Journalism Fellowship 2027 in Qatar (Fully Funded)",
+      "ts": "2026-10-29T00:46:17.136784+00:00"
     }
   },
   "tg_offset": 0,
@@ -222,6 +400,10 @@
     "sosyal duygusal öğrenme uzmanlık programı farkındalık eğitimi",
     "i talya'da youth work in the age of ai erasmus eğitim kursu",
     "enhancer pro hibe programları",
-    "ready mix concrete uzun dönem staj programı trakya"
+    "ready mix concrete uzun dönem staj programı trakya",
+    "commencis cloud camp 2027",
+    "green games lab erasmus eğitim kursu",
+    "ejn 2027 gazetecilik bursu abd",
+    "satış yöneticisi adana"
   ]
 }
