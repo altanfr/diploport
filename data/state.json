@@ -52,7 +52,8 @@
       "source_url": "https://opportunitiescorners.com/epfl-summer-internship-2027/",
       "summary_tr": "İsviçre'deki EPFL bünyesinde bilgisayar ve iletişim bilimleri alanında lisans ve yüksek lisans öğrencilerine yönelik 3 aylık tam burslu yaz araştırma stajı.",
       "title_tr": "EPFL Yaz Araştırma Stajı Programı 2027",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -68,6 +69,7 @@
         "Kamu ve özel sektörde staj imkanı",
         "Not ortalaması şartı (istisnalar mevcut)"
       ],
+      "icon": "landmark",
       "id": "7e64af0459a8",
       "image_queries": [
         "modern office building",
@@ -80,35 +82,8 @@
       "source_url": "https://www.erasmusgram.com/ulusal-staj-programi-2027-basvurulari-basladi/",
       "summary_tr": "Cumhurbaşkanlığı himayelerinde yürütülen Ulusal Staj Programı, üniversite öğrencilerine kamu ve özel sektörde staj, iş gölgeleme ve eğitim fırsatları sunan bir kariyer gelişim programıdır.",
       "title_tr": "Ulusal Staj Programı 2027 Başvuruları",
-      "turkey_eligible": "yes"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.enhancerpro.com.tr/",
-      "category": "hibe",
-      "country_tr": "Türkiye",
-      "deadline": "2026-12-22",
-      "eligibility_evidence": "Hızlandırma Hibe Programının genel hedefi, Türkiye’nin yüksek mülteci nüfusuna sahip illerinde Geçici Koruma Altındaki Suriyeliler (GKAS), Uluslararası Koruma Altındaki Kişiler (UKAK) ve Türk Vatandaşları için iyileştirilmiş istihdam ve geçim fırsatlarını artırmaktır.",
-      "fee_required": false,
-      "funding_tr": "Mali destek sağlanmaktadır",
-      "highlights_tr": [
-        "Mikro ve orta ölçekli işletmelere yönelik",
-        "Proje uygulama süresi 8-12 ay",
-        "İstihdam ve kapasite artırımı odaklı"
-      ],
-      "id": "0ae1f90d4e4d",
-      "image_queries": [
-        "modern office workspace",
-        "Turkey business development",
-        "entrepreneur working office"
-      ],
-      "is_opportunity": true,
-      "queued_at": "2026-10-28T20:13:49.536159+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/enhancer-pro-projesi-hizlandirma-hibe-programi-ve-orta-olcekli-isletme-hibe-programi-ilan-edildi/",
-      "summary_tr": "ENHANCER PRO projesi kapsamında mikro ve orta ölçekli işletmelerin büyümesini, kapasite artırımını ve istihdam olanaklarını desteklemek amacıyla iki farklı hibe programı başvuruları başlamıştır.",
-      "title_tr": "ENHANCER PRO Hibe Programları",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     },
     {
       "apply_link_id": 1,
@@ -138,7 +113,8 @@
       "summary_tr": "Commencis tarafından düzenlenen, 6 hafta sürecek AWS sertifikalı uygulamalı bulut teknolojileri eğitim programı.",
       "title_tr": "Commencis Cloud Camp 2027",
       "turkey_eligible": "yes",
-      "unclear_reason_tr": ""
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     },
     {
       "apply_link_id": 1,
@@ -167,36 +143,8 @@
       "source_url": "https://www.erasmusgram.com/gaziantep-7-gun-genclik-degisimi/",
       "summary_tr": "Gaziantep'te düzenlenecek 7 günlük Erasmus+ gençlik değişimi, 18-30 yaş arası gençlere beden farkındalığı, stres yönetimi ve duygusal iyi oluş konularında eğitim ve kültürlerarası etkileşim imkanı sunuyor.",
       "title_tr": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı",
-      "turkey_eligible": "yes"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.learnecohub.com/",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "Türkiye'de sosyal duygusal öğrenme ve deneyimsel öğrenme alanında çalışmalar yürüten Learneco olarak",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz eğitim",
-      "highlights_tr": [
-        "Ücretsiz 2 saatlik çevrimiçi eğitim",
-        "Öğrencilere ve yeni mezunlara uygun",
-        "Sosyal duygusal öğrenme uzmanlığı"
-      ],
-      "id": "3983e03f5c2b",
-      "image_queries": [
-        "online education webinar",
-        "Turkey university students",
-        "students attending workshop"
-      ],
-      "is_opportunity": true,
-      "organization": "Learneco",
-      "queued_at": "2026-10-28T20:13:04.832626+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/learneco/sosyal-duygusal-ogrenme-uzmanlik-programi_5/",
-      "summary_tr": "Psikoloji, PDR, çocuk gelişimi ve öğretmenlik alanındaki öğrencilere ve yeni mezunlara yönelik, sosyal duygusal öğrenme becerileri üzerine ücretsiz çevrimiçi farkındalık eğitimi.",
-      "title_tr": "Sosyal Duygusal Öğrenme Uzmanlık Programı Farkındalık Eğitimi",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     },
     {
       "apply_link_id": 2,
@@ -224,7 +172,8 @@
       "source_url": "https://www.erasmusgram.com/italya-agrigento-9-gun-erasmus-projesi/",
       "summary_tr": "İtalya'nın Agrigento kentinde düzenlenecek olan Erasmus+ eğitim kursu, gençlik çalışmalarında yapay zekâ kullanımı, etik ve dijital araçlar üzerine odaklanmaktadır. 1-9 Aralık tarihleri arasında gerçekleşecektir.",
       "title_tr": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     },
     {
       "apply_url": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
@@ -252,7 +201,8 @@
       "source_url": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
       "summary_tr": "Tekirdağ veya Çorlu'daki hazır beton tesislerinde görev alacak, 4. sınıf veya yüksek lisans öğrencileri ile yeni mezunlar için uzun dönem staj fırsatı.",
       "title_tr": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     },
     {
       "apply_link_id": 1,
@@ -281,7 +231,8 @@
       "source_url": "https://www.erasmusgram.com/polonya-8-gun-erasmus-projesi/",
       "summary_tr": "Polonya'da düzenlenecek Green Games Lab Erasmus+ eğitim kursu, çevre bilinci ve sürdürülebilirlik konularını oyun temelli öğrenme yöntemleriyle ele almayı amaçlayan 8 günlük bir programdır.",
       "title_tr": "Green Games Lab Erasmus+ Eğitim Kursu",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     },
     {
       "apply_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
@@ -308,7 +259,8 @@
       "source_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
       "summary_tr": "Adana'da görevlendirilmek üzere, üniversitelerin ilgili bölümlerinden mezun, satış tecrübesi olan ve SAP bilgisine sahip Satış Yöneticisi aranmaktadır.",
       "title_tr": "Satış Yöneticisi (Adana)",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     },
     {
       "apply_link_id": 2,
@@ -337,7 +289,8 @@
       "source_url": "https://www.opportunitiescircle.com/unicef-internship-program/",
       "summary_tr": "UNICEF, dünya genelindeki ofislerinde lisans, yüksek lisans ve doktora öğrencileri ile yeni mezunlar için ücretli staj imkanları sunmaktadır.",
       "title_tr": "UNICEF 2026 Ücretli Staj Programı",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     },
     {
       "apply_link_id": 1,
@@ -367,7 +320,8 @@
       "summary_tr": "UNHCR, dünya genelinde lisans/yüksek lisans öğrencileri ve yeni mezunlar için 2-6 ay süreli, yol ve yaşam masraflarını karşılayan staj programı sunuyor.",
       "title_tr": "UNHCR 2027 Staj Programı",
       "turkey_eligible": "yes",
-      "unclear_reason_tr": ""
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     },
     {
       "apply_link_id": 1,
@@ -395,37 +349,8 @@
       "source_url": "https://www.opportunitiescircle.com/daad-heilbronn-ai-fellowships-in-germany/",
       "summary_tr": "Almanya'daki Bildungscampus Heilbronn'da yapay zeka alanında araştırma yapmak isteyen doktora öğrencileri ve doktora sonrası araştırmacılar için tam kapsamlı burs programı.",
       "title_tr": "DAAD Heilbronn Yapay Zeka Araştırma Bursu",
-      "turkey_eligible": "yes"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdXu0oX8_655UhxvFPUg9xNUnkcq0Stth0voheoJXLz7448-w/viewform",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "UNICEF Türkiye’nin desteğiyle yürüttüğümüz “Akran Zorbalığına Karşı Güvenli Okul Ağı Projesi” kapsamında",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Öğretmenlere yönelik çevrim içi seminer",
-        "Katılım belgesi verilecektir",
-        "Zoom üzerinden gerçekleşecek"
-      ],
-      "id": "3c5f9496a75e",
-      "image_queries": [
-        "online teacher webinar",
-        "Turkey education seminar",
-        "students in classroom"
-      ],
-      "is_opportunity": true,
-      "organization": "Ulusal Çocuk Hakları Derneği (UDER)",
-      "queued_at": "2026-10-29T18:26:38.157511+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/ogretmenlere-yonelik-akran-zorbaligi-semineri-katilimcilarini-bekliyor/",
-      "summary_tr": "Ulusal Çocuk Hakları Derneği tarafından düzenlenen, akran zorbalığı farkındalığı ve güvenli okul ortamı üzerine öğretmenlere yönelik çevrim içi seminer.",
-      "title_tr": "Öğretmenlere Yönelik Akran Zorbalığı Semineri",
       "turkey_eligible": "yes",
-      "unclear_reason_tr": ""
+      "visual_kind": "scene"
     },
     {
       "apply_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
@@ -452,7 +377,8 @@
       "source_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
       "summary_tr": "Sefine Tersanesi'nin 2026-2027 Bahar dönemi için üniversite öğrencilerine yönelik sunduğu, Yalova, Kocaeli veya İstanbul'da ikamet edenlerin başvurabileceği uzun dönem staj programıdır.",
       "title_tr": "Sefine SKY Uzun Dönem Staj Programı",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     },
     {
       "apply_link_id": 2,
@@ -482,7 +408,8 @@
       "summary_tr": "Almanya'nın Uelzen kentinde düzenlenecek olan Roots of Wellbeing Erasmus+ gençlik değişimi; ruhsal iyi oluş, doğa, sürdürülebilirlik ve sosyal kapsayıcılık konularına odaklanmaktadır.",
       "title_tr": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
       "turkey_eligible": "yes",
-      "unclear_reason_tr": ""
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     },
     {
       "apply_url": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
@@ -509,7 +436,8 @@
       "source_url": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
       "summary_tr": "BSH tarafından düzenlenen WE Power programı, mühendislik ve satış alanlarında kariyer hedefleyen kadın öğrencilere yönelik uzun dönemli bir staj fırsatıdır.",
       "title_tr": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı",
-      "turkey_eligible": "yes"
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     },
     {
       "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
@@ -524,16 +452,17 @@
         "İzmir'de ikamet zorunluluğu"
       ],
       "id": "5a0a979214b0",
-      "organization": "Bilkom",
-      "source": "Youthall",
-      "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
-      "title_tr": "Bilkom Digital Leader Genç Yetenek Programı",
       "image_queries": [
         "Izmir Turkey city",
         "Turkey young professionals office",
         "students walking campus"
       ],
-      "queued_at": "2026-10-29T22:56:52.084715+00:00"
+      "organization": "Bilkom",
+      "queued_at": "2026-10-29T22:56:52.084715+00:00",
+      "source": "Youthall",
+      "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
+      "title_tr": "Bilkom Digital Leader Genç Yetenek Programı",
+      "visual_kind": "institution"
     },
     {
       "apply_url": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
@@ -547,17 +476,19 @@
         "Okyanus ve çevre haberciliği odaklı",
         "New York'ta uluslararası deneyim"
       ],
+      "icon": "cap",
       "id": "f969288f4d9b",
-      "organization": null,
-      "source": "Opportunities Circle",
-      "summary_tr": "Profesyonel gazeteciler için New York'ta düzenlenecek BBNJ COP1 konferansını takip etmelerini sağlayan tam kapsamlı bir gazetecilik bursu programıdır.",
-      "title_tr": "EJN 2027 Gazetecilik Bursu - ABD",
       "image_queries": [
         "journalists newsroom",
         "United States journalism students",
         "reporters working laptop"
       ],
-      "queued_at": "2026-10-29T22:56:52.084715+00:00"
+      "organization": null,
+      "queued_at": "2026-10-29T22:56:52.084715+00:00",
+      "source": "Opportunities Circle",
+      "summary_tr": "Profesyonel gazeteciler için New York'ta düzenlenecek BBNJ COP1 konferansını takip etmelerini sağlayan tam kapsamlı bir gazetecilik bursu programıdır.",
+      "title_tr": "EJN 2027 Gazetecilik Bursu - ABD",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -568,10 +499,10 @@
       "ts": "2026-10-29T18:26:45.407317+00:00"
     },
     "0ae1f90d4e4d": {
-      "reason": "",
-      "status": "queued",
+      "reason": "şirket/KOBİ hibesi, gençlere yönelik değil",
+      "status": "rejected",
       "title": "ENHANCER PRO Hibe Programları",
-      "ts": "2026-10-28T20:13:49.536171+00:00"
+      "ts": "2026-10-29T23:04:17.957136+00:00"
     },
     "1571e08017b2": {
       "reason": "",
@@ -622,16 +553,16 @@
       "ts": "2026-10-29T09:47:44.747753+00:00"
     },
     "3983e03f5c2b": {
-      "reason": "",
-      "status": "queued",
+      "reason": "ücretli program reklamı",
+      "status": "rejected",
       "title": "Sosyal Duygusal Öğrenme Uzmanlık Programı Farkındalık Eğitimi",
-      "ts": "2026-10-28T20:13:04.832639+00:00"
+      "ts": "2026-10-29T23:04:17.957151+00:00"
     },
     "3c5f9496a75e": {
-      "reason": "",
-      "status": "queued",
+      "reason": "sadece öğretmenlere yönelik",
+      "status": "rejected",
       "title": "Öğretmenlere Yönelik Akran Zorbalığı Semineri",
-      "ts": "2026-10-29T18:26:38.157529+00:00"
+      "ts": "2026-10-29T23:04:17.957158+00:00"
     },
     "3d89b0d2c276": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
