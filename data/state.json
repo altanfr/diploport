@@ -46,7 +46,8 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=793cd518-1ca4-4e15-90ee-58989b15bd08",
     "genclikcalismalari.org/ilan/esc-1626-almanya-gonulluluk-faaliyeti-katilimci-cagrisi",
     "kariyerkapisi.gov.tr/IlanDetay?i=af46c544-8728-4ab2-beed-937fe050035c",
-    "kariyerkapisi.gov.tr/IlanDetay?i=7726dd9c-56dd-49e0-a0b2-a098e6c57b8a"
+    "kariyerkapisi.gov.tr/IlanDetay?i=7726dd9c-56dd-49e0-a0b2-a098e6c57b8a",
+    "kariyerkapisi.gov.tr/IlanDetay?i=5976effc-ff4b-49b1-a5d7-c08d82d81636"
   ],
   "outbox": [],
   "pending": {},
@@ -1168,6 +1169,33 @@
       "title_tr": "Galatasaray Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5976effc-ff4b-49b1-a5d7-c08d82d81636",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli bilişim personeli pozisyonu"
+      ],
+      "icon": "landmark",
+      "id": "ccde45e24ae6",
+      "is_opportunity": true,
+      "organization": "TARIM VE ORMAN BAKANLIĞI",
+      "organization_domain": "tarimorman.gov.tr",
+      "queued_at": "2026-10-30T22:13:37.516257+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5976effc-ff4b-49b1-a5d7-c08d82d81636",
+      "summary_tr": "Tarım ve Orman Bakanlığı bünyesinde sözleşmeli bilişim personeli alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Tarım ve Orman Bakanlığı Sözleşmeli Bilişim Personeli Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -1555,6 +1583,12 @@
       "title": "Yuva Vakfı Burs Duyurusu",
       "ts": "2026-10-29T00:46:27.904376+00:00"
     },
+    "ccde45e24ae6": {
+      "reason": "",
+      "status": "queued",
+      "title": "Tarım ve Orman Bakanlığı Sözleşmeli Bilişim Personeli Alımı",
+      "ts": "2026-10-30T22:13:37.516275+00:00"
+    },
     "d2e728210b76": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "rejected",
@@ -1699,6 +1733,7 @@
     "orman genel müdürlüğü müfettiş yardımcılığı giriş sınavı",
     "almanya'da uzun dönem esc gönüllülük projesi",
     "marmara üniversitesi sözleşmeli personel alımı",
-    "galatasaray üniversitesi sözleşmeli bilişim personeli alımı"
+    "galatasaray üniversitesi sözleşmeli bilişim personeli alımı",
+    "tarım ve orman bakanlığı sözleşmeli bilişim personeli alımı"
   ]
 }
