@@ -35,6 +35,7 @@ Gemini ücretsiz katmandan çıkarsa en kötü senaryo (günde 80 ilan okunur) y
 1. Yeni **herkese açık (public)** bir depo aç (ör. `diploport`) ve bu klasörün içeriğini yükle. Public olması Pages ve Actions'ın ücretsiz olması için gerekli.
 2. `config.yaml` içinde `brand.site_url` (örn. `https://KULLANICI.github.io/diploport`) ve `brand.handle` alanlarını düzenle.
 3. Settings → Pages → *Deploy from a branch* → Branch: `main`, klasör: `/docs`.
+   Kendi alan adın varsa (bu depoda `diploport.dev`): DNS'te apex için GitHub'ın 4 A kaydı (`185.199.108-111.153`) ve `www` için `kullanici.github.io` CNAME'i; `docs/CNAME` dosyasına alan adı yazılır, `config.yaml > brand.site_url` ve `footer_text` buna göre ayarlanır, Pages ayarında *Enforce HTTPS* açılır.
 4. Settings → Actions → General → Workflow permissions → **Read and write permissions**.
 
 ### 2. Gemini anahtarı

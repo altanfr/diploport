@@ -315,7 +315,7 @@ def test_card_subtitle_and_html(cfg):
     assert card.subtitle(dict(post, funding_tr="Belirtilmemiş")) == "Almanya | Burs"
     assert card.subtitle({"category": "staj", "funding_tr": ""}) == "Staj"
     doc = card.build_html(post, cfg)
-    assert "&lt;b&gt;Burs&lt;/b&gt;" in doc and "DİPLOPORT.COM" in doc and "{{" not in doc
+    assert "&lt;b&gt;Burs&lt;/b&gt;" in doc and "DİPLOPORT.DEV" in doc and "{{" not in doc
     assert "data:image/jpeg" not in doc                             # fotoğraf yoksa şablonun düz hâli
     with_photo = card.build_html(post, cfg, photo=b"\xff\xd8" + b"x" * 50)
     assert "data:image/jpeg;base64," in with_photo

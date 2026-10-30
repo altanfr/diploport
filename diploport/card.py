@@ -144,7 +144,7 @@ def build_html(post: dict, cfg: dict, photo: bytes | None = None, logo: bytes | 
         "title": html.escape(title),
         "title_size": str(_title_size(title)),
         "subtitle": html.escape(subtitle(post)),
-        "site_text": html.escape(cfg["brand"].get("footer_text", "DİPLOPORT.COM")),
+        "site_text": html.escape(cfg["brand"].get("footer_text", "DİPLOPORT.DEV")),
         "site_size": "34",
         "site_spacing": "0",
     }
