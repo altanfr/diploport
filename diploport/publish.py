@@ -110,27 +110,33 @@ def notify(text: str) -> None:
         log.warning("Telegram bildirimi gönderilemedi: %s", e)
 
 
-def send_pending(item: dict, post: dict) -> int | None:
-    """Uygunluğu belirsiz ilanı onay düğmeleriyle gönderir. message_id döndürür."""
+def pending_text(item: dict, post: dict) -> str:
+    """Onay mesajı: başlık, özet, resmî link; altında neden sorulduğu ve künye."""
     e = html.escape
-    text = (
-        f"<b>Onay bekliyor</b> · {e(category_label(post['category']))}\n\n"
-        f"<b>{e(post['title_tr'])}</b>\n{e(post['summary_tr'])}\n\n"
-        f"<b>Neden belirsiz:</b> {e(post.get('unclear_reason_tr', ''))}\n"
-        f"Son başvuru: {e(fmt_date_tr(post.get('deadline', '')) or 'belirtilmemiş')} · Ülke: {e(post.get('country_tr', ''))}\n"
-        f"Resmî link: {e(post['apply_url'])}\n"
-        f"Kaynak: {e(item['source'])} — {e(item['link'])}"
+    why = (post.get("unclear_reason_tr") or "").strip()
+    return (
+        f"<b>{e(post['title_tr'])}</b>\n\n"
+        f"{e(post['summary_tr'])}\n\n"
+        f"🔗 {e(post['apply_url'])}\n\n"
+        + (f"❓ <b>Neden soruyorum:</b> {e(why)}\n" if why else "")
+        + f"{e(category_label(post['category']))} · {e(post.get('country_tr', ''))} · "
+        f"Son başvuru: {e(fmt_date_tr(post.get('deadline', '')) or 'belirtilmemiş')}\n"
+        f"Kaynak: {e(item['source'])}"
     )
+
+
+def send_pending(item: dict, post: dict) -> int | None:
+    """Uygunluğu belirsiz ilanı iki düğmeyle (Yayınla / Yayınlama) gönderir. message_id döndürür."""
     try:
         res = _tg(
             "sendMessage",
             chat_id=os.environ["TELEGRAM_CHAT_ID"],
-            text=text[:4000],
+            text=pending_text(item, post)[:4000],
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup={"inline_keyboard": [[
-                {"text": "Onayla", "callback_data": f"ok:{item['id']}"},
-                {"text": "Reddet", "callback_data": f"no:{item['id']}"},
+                {"text": "✅ Yayınla", "callback_data": f"ok:{item['id']}"},
+                {"text": "❌ Yayınlama", "callback_data": f"no:{item['id']}"},
             ]]},
         )
         return res["message_id"]
@@ -160,9 +166,11 @@ def poll_decisions(state: dict) -> list[tuple[str, str]]:
             continue
         out.append((action, item_id))
         try:
-            _tg("answerCallbackQuery", callback_query_id=cb["id"], text="Onaylandı, sıraya alındı" if action == "ok" else "Reddedildi")
-            msg = cb.get("message") or {}
-            _tg("editMessageReplyMarkup", chat_id=chat_id, message_id=msg.get("message_id"), reply_markup={"inline_keyboard": []})
+            done = "✅ Yayın sırasına alındı" if action == "ok" else "❌ Yayınlanmayacak"
+            _tg("answerCallbackQuery", callback_query_id=cb["id"], text=done)
+            msg = cb.get("message") or {}     # düğmeler kalkar, yerine verilen karar görünür
+            _tg("editMessageReplyMarkup", chat_id=chat_id, message_id=msg.get("message_id"),
+                reply_markup={"inline_keyboard": [[{"text": done, "callback_data": "done"}]]})
         except Exception as e:
             log.debug("Telegram yanıt düzenlenemedi: %s", e)
     return out

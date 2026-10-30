@@ -316,3 +316,43 @@ def test_post_without_logo_waits_and_is_reported_once_while_next_post_is_publish
     st["outbox"].clear(); st["published"].clear()
     assert pipeline._prepare_next(st, cfg, NOW, NOW.date()) is None and len(sent) == 1
     assert pipeline.NO_LOGO and "Logosuz Kurum" in pipeline.NO_LOGO[-1]
+
+
+def test_telegram_pending_message_has_title_summary_link_and_two_buttons(monkeypatch):
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "t"); monkeypatch.setenv("TELEGRAM_CHAT_ID", "42")
+    calls = []
+
+    def fake_tg(method, **params):
+        calls.append((method, params))
+        return {"message_id": 9}
+
+    monkeypatch.setattr(publish, "_tg", fake_tg)
+    post = {"category": "burs", "title_tr": "DAAD <Bursu>", "summary_tr": "Özet & detay", "apply_url": "https://daad.de/x?a=1&b=2",
+            "unclear_reason_tr": "Ülke listesi yok", "country_tr": "Almanya", "deadline": "2026-12-15"}
+    assert publish.send_pending({"id": "id1", "source": "AB İlan", "link": "https://ab-ilan.com/x"}, post) == 9
+    method, p = calls[0]
+    assert method == "sendMessage" and p["parse_mode"] == "HTML"
+    assert "DAAD &lt;Bursu&gt;" in p["text"] and "Özet &amp; detay" in p["text"] and "https://daad.de/x?a=1&amp;b=2" in p["text"]
+    assert "Ülke listesi yok" in p["text"]
+    row = p["reply_markup"]["inline_keyboard"][0]
+    assert [b["text"] for b in row] == ["✅ Yayınla", "❌ Yayınlama"] and [b["callback_data"] for b in row] == ["ok:id1", "no:id1"]
+
+
+def test_pressing_a_button_returns_the_decision_and_shows_it_on_the_message(monkeypatch):
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "t"); monkeypatch.setenv("TELEGRAM_CHAT_ID", "42")
+    calls = []
+
+    def fake_tg(method, **params):
+        calls.append((method, params))
+        if method == "getUpdates":
+            return [{"update_id": 5, "callback_query": {"id": "c1", "from": {"id": 42}, "data": "ok:id1", "message": {"message_id": 9}}},
+                    {"update_id": 6, "callback_query": {"id": "c2", "from": {"id": 999}, "data": "ok:id2", "message": {"message_id": 10}}},   # başkası: yok sayılır
+                    {"update_id": 7, "callback_query": {"id": "c3", "from": {"id": 42}, "data": "no:id3", "message": {"message_id": 11}}}]
+        return {}
+
+    monkeypatch.setattr(publish, "_tg", fake_tg)
+    state = {"tg_offset": 0}
+    assert publish.poll_decisions(state) == [("ok", "id1"), ("no", "id3")] and state["tg_offset"] == 8
+    edits = [p for m, p in calls if m == "editMessageReplyMarkup"]
+    assert edits[0]["reply_markup"]["inline_keyboard"][0][0]["text"] == "✅ Yayın sırasına alındı"
+    assert edits[1]["reply_markup"]["inline_keyboard"][0][0]["text"] == "❌ Yayınlanmayacak"

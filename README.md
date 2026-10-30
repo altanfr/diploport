@@ -8,7 +8,7 @@ GitHub Actions (ücretsiz, her 3 saatte bir)
  ├─ 2. İlanın sayfasını aç → temiz metin + sayfadaki GERÇEK harici linkler
  ├─ 3. Tek Gemini çağrısı → uygunluk + kanıt cümlesi + Türkçe özet + başvuru linki SEÇİMİ
  │      kod: kanıt sayfada var mı? link çalışıyor mu? aggregator'a mı çıkıyor? tekrar mı?
- ├─ 4. Kesin uygun → kuyruk · Belirsiz → Telegram'da Onayla/Reddet düğmesi · Uygun değil → elenir (nedeniyle)
+ ├─ 4. Kesin uygun → kuyruk · Belirsiz → Telegram'da Yayınla/Yayınlama düğmesi · Uygun değil → elenir (nedeniyle)
  ├─ 5. Kotaya göre günde en fazla 2 ilan: Diploport şablonuyla 1080×1350 JPEG kart üret.
  │      Arka plan: Gemini'nin ilana özel verdiği İngilizce sorgularla Unsplash'tan (yedek: Pexels) otomatik stok fotoğraf
  │      (sorgu sonuçsuzsa kategoriye göre genel arama; hiçbiri yoksa şablonun düz hâli)
@@ -58,7 +58,7 @@ Yeni bir senaryo, **2 modül**:
 Actions sekmesi → **Diploport** → *Run workflow* → `dry_run` işaretli. Bitince `data/last_run.md` dosyasını aç: hangi ilan neden elendi/kuyruğa girdi/onaya düştü, kanıt cümlesiyle birlikte görünür. Karardan memnunsan `dry_run` olmadan tekrar çalıştır; sonrası otomatik.
 
 ## Gündelik kullanım
-- **Hiçbir şey yapman gerekmiyor.** Belirsiz ilan olursa Telegram'a bir mesaj gelir: Onayla / Reddet. Karar, bir sonraki çalışmada (en fazla 3 saat) işlenir.
+- **Hiçbir şey yapman gerekmiyor.** Belirsiz ilan olursa Telegram'a başlık, özet ve linkle bir mesaj gelir; altında Yayınla / Yayınlama düğmeleri var. Karar, bir sonraki çalışmada (en fazla 3 saat) işlenir.
 - Neden elendiğini görmek için `data/last_run.md` (son çalışma) ve `data/state.json` (`seen` altında her ilanın durumu ve nedeni).
 - Kaynak eklemek/çıkarmak, günlük paylaşım sayısı, saat penceresi, hashtag'ler: sadece `config.yaml`.
 

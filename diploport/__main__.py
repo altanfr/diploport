@@ -41,6 +41,20 @@ def main(argv: list[str]) -> int:
         from .publish import notify
         notify(" ".join(argv[2:]) or "Diploport uyarısı")
         return 0
+    if cmd == "telegramtest":
+        # Telegram kurulumunu dener: bir bildirim + örnek onay mesajı (Yayınla / Yayınlama düğmeleriyle) gönderir.
+        from .publish import notify, send_pending, telegram_enabled
+        if not telegram_enabled():
+            print("Telegram ayarlı değil: TELEGRAM_BOT_TOKEN ve TELEGRAM_CHAT_ID secret'ları gerekli")
+            return 1
+        notify("Diploport: Telegram bağlantısı çalışıyor ✅")
+        mid = send_pending({"id": "test", "source": "Deneme", "link": ""}, {
+            "category": "burs", "title_tr": "Örnek: Almanya'da Yüksek Lisans Bursu (deneme mesajı)",
+            "summary_tr": "Bu bir deneme mesajıdır; belirsiz bir ilan geldiğinde mesaj böyle görünecek. Düğmelere basabilirsiniz, bir şey yayınlanmaz.",
+            "apply_url": "https://example.org/basvuru", "unclear_reason_tr": "Başvurabilecek ülkeler listesi metinde yok.",
+            "country_tr": "Almanya", "deadline": "2026-12-15"})
+        print("örnek onay mesajı gönderildi" if mid else "örnek onay mesajı GÖNDERİLEMEDİ (token / chat id kontrol edin)")
+        return 0 if mid else 1
     if cmd == "phototest":
         # Gerçek ağda deneme: örnek ilanların kartlarını üretir (data/photo_test/) ve her kurum için logonun NEREDEN geldiğini
         # (ya da neden bulunamadığını) adım adım raporlar.

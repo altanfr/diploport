@@ -10,7 +10,11 @@ on:
         type: boolean
         default: false
       photo_test:
-        description: "Fotoğraf denemesi: 3 örnek kartı gerçek stok fotoğrafla üret (data/photo_test/), ilan taraması yapma"
+        description: "Logo/fotoğraf denemesi: örnek kartları gerçek ağda üret (data/photo_test/), ilan taraması yapma"
+        type: boolean
+        default: false
+      telegram_test:
+        description: "Telegram denemesi: bir bildirim ve örnek onay mesajı (Yayınla / Yayınlama düğmeleri) gönder"
         type: boolean
         default: false
 
@@ -47,6 +51,10 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
+      - name: Telegram denemesi (sadece telegram_test işaretliyse)
+        if: ${{ inputs.telegram_test }}
+        run: python -m diploport telegramtest
+
       - name: Fotoğraf denemesi (sadece photo_test işaretliyse)
         if: ${{ inputs.photo_test }}
         run: |
@@ -61,11 +69,11 @@ jobs:
           fi
 
       - name: 1) Tara, yargıla, sıradaki ilanın görselini hazırla
-        if: ${{ !inputs.photo_test }}
+        if: ${{ !inputs.photo_test && !inputs.telegram_test }}
         run: python -m diploport run
 
       - name: Değişiklikleri kaydet (görsel + site yayına girsin)
-        if: ${{ !inputs.photo_test }}
+        if: ${{ !inputs.photo_test && !inputs.telegram_test }}
         run: |
           git config user.name "diploport-bot"
           git config user.email "diploport-bot@users.noreply.github.com"
@@ -77,11 +85,11 @@ jobs:
           fi
 
       - name: 2) Instagram'a gönder (Make webhook)
-        if: ${{ !inputs.photo_test }}
+        if: ${{ !inputs.photo_test && !inputs.telegram_test }}
         run: python -m diploport send
 
       - name: Gönderim durumunu kaydet
-        if: ${{ !inputs.photo_test }}
+        if: ${{ !inputs.photo_test && !inputs.telegram_test }}
         run: |
           git add -A
           if ! git diff --cached --quiet; then
