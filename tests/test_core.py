@@ -849,7 +849,7 @@ def test_strong_name_match_protects_an_accurate_source_logo_from_parent_brand_pa
     assert not m("UNHCR", "Birleşmiş Milletler Mülteciler Yüksek Komiserliği", 1, "(UNHCR)", strong=True)
 
 
-def test_site_logo_tries_www_variant_and_prefers_balanced_logo_over_wide_banner(monkeypatch):
+def test_site_logo_tries_www_variant_and_takes_the_pages_own_header_logo_first(monkeypatch):
     from diploport import orgvisual as ov
     tried = []
     doc = "<html><head><title>ORAN - Orta Anadolu Kalkınma Ajansı</title></head><body><img class='logo' src='/wide.png'><img class='navbar-brand' src='/logo.png'></body></html>"
@@ -858,10 +858,11 @@ def test_site_logo_tries_www_variant_and_prefers_balanced_logo_over_wide_banner(
         tried.append(url)
         return (url, doc) if url.startswith("https://www.oran.org.tr") else None          # çıplak alan adı açılmıyor (SSL)
 
-    banner, square = _png(size=(1200, 150)), _png(size=(400, 300))
+    wide, square = _png(size=(1200, 150)), _png(size=(400, 300))
     monkeypatch.setattr(ov, "_page", fake_page)
-    monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: banner if "wide" in url else square if "logo.png" in url else None)
+    monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: wide if "wide" in url else square if "logo.png" in url else None)
     r = ov.site_logo("Orta Anadolu Kalkınma Ajansı", "https://oran.org.tr/")
-    assert tried[:2] == ["https://oran.org.tr/", "https://www.oran.org.tr/"] and r["bytes"] == square
-    monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: banner if "wide" in url else None)
-    assert ov.site_logo("Orta Anadolu Kalkınma Ajansı", "https://oran.org.tr/")["bytes"] == banner   # başka aday yoksa şerit de kullanılır
+    assert tried[:2] == ["https://oran.org.tr/", "https://www.oran.org.tr/"] and r["bytes"] == wide     # sitenin kendi (üstbilgi) logosu önce
+    monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: square if "logo.png" in url else None)
+    assert ov.site_logo("Orta Anadolu Kalkınma Ajansı", "https://oran.org.tr/")["bytes"] == square
+    assert ov.site_logo("Orta Anadolu Kalkınma Ajansı", "") is None

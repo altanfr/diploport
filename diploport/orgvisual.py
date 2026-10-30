@@ -641,16 +641,11 @@ def site_logo(org: str, site: str, strict: bool = True) -> dict | None:
     host = urlsplit(final).netloc
     _t(f"site doğrulandı: {host}; {len(cands)} logo adayı")
     first = None
-    for u in cands[:8]:
+    for u in cands[:8]:                                  # sayfanın kendi sırası: JSON-LD logo, üstbilgi logosu, ikonlar
         data = _fetch(u, min_side=100)
-        if not data:
-            continue
-        w, h = image_size(data)
-        if max(w, h) / max(1.0, min(w, h)) <= 4.5:      # birkaç logonun yan yana durduğu geniş şeritler yerine dengeli oranlı logo
+        if data:
             first = (data, u)
             break
-        first = first or (data, u)
-        _t(f"çok geniş şerit (oran {max(w, h) / max(1.0, min(w, h)):.1f}), daha uygunu aranıyor: {u[:80]}")
     if first:
         return {"kind": "logo", "bytes": first[0], "credit": "", "title": host, "source": f"web sitesi ({host})", "url": final}
     data = _fetch(f"https://www.google.com/s2/favicons?domain={host}&sz=256", min_side=100)   # son çare: büyük favicon
