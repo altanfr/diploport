@@ -36,3 +36,14 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 def fixture_text(name: str) -> str:
     return (FIXTURES / name).read_text(encoding="utf-8")
+
+
+@pytest.fixture(autouse=True)
+def no_network(monkeypatch):
+    """Testler ağa çıkmaz (logo/Vikipedi/site aramaları dahil). Ağ gerektiren testler requests.get'i kendisi taklit eder."""
+    import requests
+
+    def blocked(*a, **k):
+        raise requests.ConnectionError("testlerde ağ kapalı")
+
+    monkeypatch.setattr(requests, "get", blocked)

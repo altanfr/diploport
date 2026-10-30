@@ -17,7 +17,7 @@ from difflib import SequenceMatcher
 
 from . import kariyerkapisi, site
 from .article import fetch_article, validate_link
-from .card import render_card
+from .card import NoOrgVisual, render_card
 from .judge import GeminiError, judge_item
 from .publish import (build_caption, notify, poll_decisions, post_to_make, send_pending,
                       telegram_enabled, wait_public)
@@ -25,9 +25,12 @@ from . import sources as sources_mod
 from .sources import collect_new
 from .state import age_days, load_state, mark, save_state
 from . import util
+from .orgvisual import slug as slugify_org
 from .util import canonical_url, domain_of, norm_text, now_tr, now_utc
 
 log = logging.getLogger("diploport.pipeline")
+
+NO_LOGO: list[str] = []      # bu çalışmada logosu bulunamayıp bekletilen ilanlar (rapora yazılır)
 
 
 # --- yardımcılar -------------------------------------------------------------
@@ -87,7 +90,7 @@ def _detail(post: dict, evidence: str = "") -> str:
     parts.append(f"link: {post.get('apply_url', '-')}")
     qs = [q for q in (post.get("image_queries") or []) if isinstance(q, str)]
     if post.get("visual_kind") == "institution":
-        parts.append("görsel: kuruma özel (stok foto yok, simge kartı)")
+        parts.append(f"görsel: kurum logosu aranacak ({post.get('organization') or 'kurum adı yok'}; stok foto yok)")
     elif qs:
         parts.append("foto: " + " / ".join(qs[:3]))
     return " · ".join(parts)
@@ -216,15 +219,29 @@ def _prepare_next(state: dict, cfg: dict, now, today) -> str | None:
             return None
 
     state["queue"].sort(key=lambda q: (q.get("deadline") or "9999-12-31", q["queued_at"]))
-    post = state["queue"][0]
-    image = util.DOCS_DIR / "images" / f"{post['id']}.jpg"
-    try:
-        render_card(post, cfg, image, today)
-    except Exception as e:  # noqa: BLE001 - görsel üretilemediyse ilan kuyrukta kalsın, kaybolmasın
-        log.error("Görsel üretilemedi (%s): %s", post["id"], e)
-        notify(f"Diploport: görsel üretilemedi ({post['title_tr']}): {type(e).__name__}")
+    post = image = None
+    for idx, cand in enumerate(list(state["queue"])[:6]):      # logosu bulunamayan ilan beklesin, sıradaki denensin
+        img = util.DOCS_DIR / "images" / f"{cand['id']}.jpg"
+        try:
+            render_card(cand, cfg, img, today)
+        except NoOrgVisual:
+            org = cand.get("organization") or cand["title_tr"]
+            NO_LOGO.append(f"{org} — {cand['title_tr']}")
+            log.warning("Logo bulunamadı, ilan beklemede: %s", org)
+            if not cand.get("visual_alerted"):
+                cand["visual_alerted"] = True
+                notify(f"Diploport: «{org}» için logo bulunamadı, «{cand['title_tr']}» ilanı beklemede. "
+                       f"Logoyu depoya assets/org_logos/{slugify_org(org)}.png adıyla eklersen sonraki çalışmada kullanılır.")
+            continue
+        except Exception as e:  # noqa: BLE001 - görsel üretilemediyse ilan kuyrukta kalsın, kaybolmasın
+            log.error("Görsel üretilemedi (%s): %s", cand["id"], e)
+            notify(f"Diploport: görsel üretilemedi ({cand['title_tr']}): {type(e).__name__}")
+            return None
+        post, image = cand, img
+        state["queue"].pop(idx)
+        break
+    if post is None:
         return None
-    state["queue"].pop(0)
     site.add_post(post, cfg["limits"]["site_max_posts"])
     site.prune_images()
     state["outbox"].append(
@@ -235,6 +252,7 @@ def _prepare_next(state: dict, cfg: dict, now, today) -> str | None:
 
 
 def run(cfg: dict, dry: bool = False) -> dict:
+    NO_LOGO.clear()
     state = load_state()
     if dry:
         state = copy.deepcopy(state)
@@ -314,6 +332,8 @@ def _write_report(report: list[tuple], state: dict, prepared: str | None, dry: b
                   found: int = 0, limit: int = 0) -> None:
     lines = [f"# Son çalışma ({now:%Y-%m-%d %H:%M} TR){' — DRY RUN' if dry else ''}", ""]
     lines.append(f"Kuyruk: {len(state['queue'])} · Onay bekleyen: {len(state['pending'])} · Hazırlanan: {prepared or '-'}")
+    if NO_LOGO:
+        lines.append("Logosu bulunamadığı için bekleyen ilanlar (assets/org_logos/ altına logo eklenebilir): " + " · ".join(NO_LOGO))
     lines.append(f"Bulunan yeni ilan: {found} · Bu çalışmada işlenmesi planlanan: {limit} · Raporlanan: {len(report)}")
     if sources_mod.LAST_STATS:
         lines.append("Kaynaklar: " + " · ".join(f"{k}: {v}" for k, v in sources_mod.LAST_STATS.items()))

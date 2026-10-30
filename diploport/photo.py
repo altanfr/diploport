@@ -87,8 +87,6 @@ def build_queries(post: dict, cfg: dict) -> list[str]:
     pc = cfg.get("photo") or {}
     fb = pc.get("fallback_queries") or {}
     generic = fb.get(post.get("category")) or fb.get("diger")
-    if post.get("visual_kind", "institution") != "scene" and pc.get("institution_fallback"):
-        generic = pc["institution_fallback"]   # kuruma özel: kişi/bayrak/hayvan çıkarmayan, ülkeye uygun genel şehir görüntüsü
     if generic:
         out.append(generic)
     seen, uniq = set(), []
@@ -121,25 +119,6 @@ def pick(photos: list[dict], post_id: str, pick_from: int = 8) -> dict | None:
         return None
     n = int(hashlib.sha1(post_id.encode("utf-8")).hexdigest()[:8], 16)
     return pool[n % len(pool)]
-
-
-def logo_zone_ok(data: bytes, min_luma: float = 0.42, max_std: float = 0.20) -> bool:
-    """Kartın sol üstündeki (lacivert Diploport logosunun duracağı) bölge yeterince açık ve sade mi?
-    Kart, fotoğrafı 'cover' ile 1080x1350'ye yerleştirir; aynı kırpma burada taklit edilir. Pillow yoksa/okunamazsa True."""
-    try:
-        import io
-
-        from PIL import Image, ImageStat
-
-        im = Image.open(io.BytesIO(data)).convert("L")
-        scale = max(W / im.width, H / im.height)
-        im = im.resize((max(W, round(im.width * scale)), max(H, round(im.height * scale))))
-        left, top = (im.width - W) // 2, (im.height - H) // 2
-        zone = im.crop((left + 30, top + 25, left + 195, top + 185))
-        st = ImageStat.Stat(zone)
-        return st.mean[0] / 255 >= min_luma and st.stddev[0] / 255 <= max_std
-    except Exception:  # noqa: BLE001
-        return True
 
 
 def search_pexels(query: str, key: str, per_page: int = 20) -> list[dict]:
@@ -216,7 +195,6 @@ def find_background(post: dict, cfg: dict) -> dict | None:
         return None
     pc = cfg.get("photo") or {}
     pick_from = int(pc.get("pick_from", 8))
-    min_zone = float(pc.get("logo_zone_min_luma", 0.42))
     queries = build_queries(post, cfg)
     for name, key in providers:
         for q in queries:
@@ -226,16 +204,8 @@ def find_background(post: dict, cfg: dict) -> dict | None:
                     log.info("%s: sonuç yok/uygun değil: %r", name, q)
                     continue
                 start = int(hashlib.sha1(str(post.get("id", "")).encode("utf-8")).hexdigest()[:8], 16) % len(pool)
-                chosen = data = None
-                for k in range(min(4, len(pool))):          # logo bölgesi koyu/karmaşık olanı atla, sıradakini dene
-                    cand = pool[(start + k) % len(pool)]
-                    img = download(cand)
-                    if logo_zone_ok(img, min_zone):
-                        chosen, data = cand, img
-                        break
-                    log.info("%s: %r fotoğrafı logo bölgesinde koyu/karmaşık, sıradaki deneniyor", name, q)
-                if not chosen:
-                    continue
+                chosen = pool[start]
+                data = download(chosen)
             except (PhotoError, requests.RequestException, ValueError, KeyError) as e:
                 log.warning("%s: fotoğraf aranamadı (%r): %s", name, q, e)
                 if isinstance(e, PhotoError) and any(c in str(e) for c in ("HTTP 401", "HTTP 403", "HTTP 429")):
@@ -248,5 +218,8 @@ def find_background(post: dict, cfg: dict) -> dict | None:
 
 
 def data_uri(img: bytes) -> str:
-    mime = "image/png" if img[:4] == b"\x89PNG" else "image/jpeg"
+    if b"<svg" in img[:3000].lower():
+        mime = "image/svg+xml"
+    else:
+        mime = "image/png" if img[:4] == b"\x89PNG" else "image/jpeg"
     return f"data:{mime};base64," + base64.b64encode(img).decode()

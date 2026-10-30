@@ -37,7 +37,7 @@ sources:
   - name: Kariyer Kapısı
     url: https://kariyerkapisi.gov.tr/RSS
     fetcher: kariyerkapisi
-    visual: institution            # kamu ilanına stok fotoğraf konmaz: sade kart + bina (sütunlu) simgesi
+    visual: institution            # kamu ilanına stok fotoğraf konmaz: kartın arkasında kurumun logosu
     icon: landmark
     assume_eligible: true
     link_fallback_to_source: true
@@ -95,8 +95,6 @@ photo:
   enabled: true
   providers: [unsplash, pexels]
   min_luma: 0.30          # Çok karanlık fotoğrafları ele (sol üstteki lacivert logo okunsun)
-  institution_fallback: "Ankara city skyline"   # kuruma özel ilanda logo/kurum fotoğrafı yoksa son çare genel sorgu
-  logo_zone_min_luma: 0.42  # Sol üstteki logo bölgesi bundan koyuysa (ya da çok karmaşıksa) o fotoğraf atlanır
   pick_from: 8            # Uygun sonuçların ilk kaçından biri seçilsin (ilan kimliğine göre sabit)
   fallback_queries:       # Modelin sorguları sonuç vermezse kategoriye göre genel arama
     burs: "university campus students"
@@ -108,9 +106,12 @@ photo:
     hibe: "teamwork project startup"
     diger: "city skyline travel"
 
-# --- Kuruma özel ilanlar: kurumun kendi görseli (Vikipedi logosu / kurum fotoğrafı), yoksa sektöre uygun stok fotoğraf ---
+# --- Kuruma özel ilanlar: kartın arkasında KURUMUN LOGOSU (stok/şehir fotoğrafı konmaz) ---
+# Logo sırayla aranır: assets/org_logos/<kurum-adı>.png (elle) -> Youthall sayfası -> Vikipedi -> Wikidata -> kurumun kendi sitesi.
+# Bulunamazsa ilan yayımlanmaz, kuyrukta bekler ve Telegram'dan haber verilir (when_missing: icon yaparsan simge kartı basılır).
 org_visual:
   enabled: true
+  when_missing: skip
 
 # --- Instagram yazısı -------------------------------------------------------
 hashtags:

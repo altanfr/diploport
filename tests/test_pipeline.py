@@ -280,7 +280,7 @@ def test_visual_kind_defaults_to_institution_and_source_can_force_it(world, cfg,
     world["items"] = [make_item(1)]
     world["results"] = [r]
     pipeline.run(cfg, dry=True)
-    assert "görsel: kuruma özel" in (util.DATA_DIR / "last_run.md").read_text()
+    assert "görsel: kurum logosu aranacak" in (util.DATA_DIR / "last_run.md").read_text()
     # model "scene" dese bile kaynak ayarı (Kariyer Kapısı) kuruma özel + simge zorlar
     seen = {}
     real = pipeline.render_card
@@ -289,3 +289,30 @@ def test_visual_kind_defaults_to_institution_and_source_can_force_it(world, cfg,
     world["results"] = [result(visual_kind="scene")]
     pipeline.run(cfg)
     assert seen["post"]["visual_kind"] == "institution" and seen["post"]["icon"] == "landmark"
+
+
+def test_post_without_logo_waits_and_is_reported_once_while_next_post_is_published(cfg, monkeypatch):
+    from diploport import orgvisual, photo
+    from diploport.state import load_state
+    monkeypatch.setattr(orgvisual, "find_org_visual", lambda *a, **k: None)
+    monkeypatch.setattr(orgvisual, "hints_for", lambda *a, **k: {})
+    monkeypatch.setattr(photo, "find_background", lambda *a, **k: None)
+    sent = []
+    monkeypatch.setattr(pipeline, "notify", lambda msg: sent.append(msg))
+
+    def post(i, kind, deadline, org=""):
+        return {"id": i, "title_tr": f"İlan {i}", "summary_tr": "s", "highlights_tr": [], "category": "is", "country_tr": "Türkiye",
+                "funding_tr": "Belirtilmemiş", "visual_kind": kind, "organization": org, "deadline": deadline,
+                "apply_url": f"https://example.org/{i}", "source": "Youthall"}
+
+    st = load_state()
+    pipeline._enqueue(st, post("a", "institution", "2026-11-01", "Logosuz Kurum"))   # son tarihi yakın: sırada ilk
+    pipeline._enqueue(st, post("b", "scene", "2026-12-01"))
+    assert pipeline._prepare_next(st, cfg, NOW, NOW.date()) == "b"                    # a atlandı, b yayına hazırlandı
+    assert [q["id"] for q in st["queue"]] == ["a"] and st["queue"][0]["visual_alerted"]
+    assert len(sent) == 1 and "Logosuz Kurum" in sent[0] and "assets/org_logos/logosuz-kurum.png" in sent[0]
+    assert util.DOCS_DIR.joinpath("images", "b.jpg").exists() and not util.DOCS_DIR.joinpath("images", "a.jpg").exists()
+    # sonraki çalışma: yalnızca a kaldı, yine logo yok -> hazırlık yok, ikinci kez bildirim YOK
+    st["outbox"].clear(); st["published"].clear()
+    assert pipeline._prepare_next(st, cfg, NOW, NOW.date()) is None and len(sent) == 1
+    assert pipeline.NO_LOGO and "Logosuz Kurum" in pipeline.NO_LOGO[-1]

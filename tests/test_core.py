@@ -323,7 +323,7 @@ def test_card_subtitle_and_html(cfg):
 
 def test_card_renders_1080x1350_jpeg_with_and_without_photo(cfg, tmp_path):
     from diploport import card
-    post = {"title_tr": "Almanya'da Erasmus+ Gençlik Çalışanları Eğitimi", "category": "egitim",
+    post = {"title_tr": "Almanya'da Erasmus+ Gençlik Çalışanları Eğitimi", "category": "egitim", "visual_kind": "scene",
             "country_tr": "Almanya", "funding_tr": "Ücretsiz eğitim ve konaklama"}
     plain = card.render_card(post, cfg, tmp_path / "a.jpg")
     with_photo = card.render_card(post, cfg, tmp_path / "b.jpg", photo=plain.read_bytes())
@@ -516,20 +516,37 @@ def test_kariyerkapisi_falls_back_to_rss_details_when_api_unreachable(cfg, monke
     monkeypatch.setattr(kariyerkapisi, "_API_UNREACHABLE", False)
 
 
-# --- Kuruma özel sade kart ---------------------------------------------------------
+# --- Kuruma özel kart: LOGO (stok/şehir fotoğrafı yok) ------------------------------------------
 
-def test_institution_card_icon_layer_when_no_visual_found(cfg, monkeypatch, tmp_path):
+import io  # noqa: E402
+
+
+def _png(color=(30, 44, 85), size=(240, 120), alpha=255):
+    from PIL import Image
+    b = io.BytesIO()
+    Image.new("RGBA", size, color + (alpha,)).save(b, "PNG")
+    return b.getvalue()
+
+
+INST = {"id": "k1", "category": "is", "title_tr": "Kamu İhale Kurumu Uzman Yardımcılığı Giriş Sınavı", "country_tr": "Türkiye",
+        "funding_tr": "Belirtilmemiş", "visual_kind": "institution", "icon": "landmark", "organization": "Kamu İhale Kurumu"}
+
+
+def test_institution_card_without_logo_is_not_made_unless_icon_fallback_enabled(cfg, monkeypatch, tmp_path):
     from diploport import card, orgvisual, photo
-    post = {"id": "k1", "category": "is", "title_tr": "Kamu İhale Kurumu Uzman Yardımcılığı Giriş Sınavı", "country_tr": "Türkiye",
-            "funding_tr": "Belirtilmemiş", "visual_kind": "institution", "icon": "landmark", "organization": "Kamu İhale Kurumu"}
-    html_ = card.build_html(post, cfg, None)
-    assert 'class="plain"' in html_ and "M3 10l9-6.5 9 6.5z" in html_          # sütunlu bina simgesi
+    html_ = card.build_html(INST, cfg, None)
+    assert 'class="plain"' in html_ and "M3 10l9-6.5 9 6.5z" in html_          # eski simge kartı hâlâ üretilebilir (yalnızca isteğe bağlı)
     assert card.icon_for({"category": "staj"}) == "briefcase" and card.icon_for({"category": "x", "icon": "yok"}) == "plane"
     monkeypatch.setattr(orgvisual, "find_org_visual", lambda *a, **k: None)
-    monkeypatch.setattr(photo, "find_background", lambda *a, **k: None)
-    out = card.render_card(post, cfg, tmp_path / "k.jpg")
+    monkeypatch.setattr(orgvisual, "hints_for", lambda *a, **k: {})
+    monkeypatch.setattr(photo, "find_background", lambda *a, **k: (_ for _ in ()).throw(AssertionError("stok/şehir fotoğrafı aranmamalı")))
+    with pytest.raises(card.NoOrgVisual):
+        card.render_card(dict(INST), cfg, tmp_path / "k.jpg")
+    assert not (tmp_path / "k.jpg").exists()
+    cfg2 = dict(cfg, org_visual={"enabled": True, "when_missing": "icon"})
+    post = dict(INST)
+    out = card.render_card(post, cfg2, tmp_path / "k2.jpg")
     assert out.read_bytes()[:3] == b"\xff\xd8\xff" and "photo_credit" not in post
-    assert 'class="plain"' not in card.build_html(dict(post, visual_kind="scene"), cfg, b"\xff\xd8" + b"x" * 50)
 
 
 def test_org_name_matching_is_strict_but_turkish_aware():
@@ -544,6 +561,7 @@ def test_org_name_matching_is_strict_but_turkish_aware():
     assert not m("UNHCR", "Birleşmiş Milletler Mülteciler Yüksek Komiserliği", 2, "... (UNHCR) ...")   # sadece ilk sonuç
     assert not m("Keyo", "Pierre Maguelon", 1, "Fransız aktör")                                       # küçük harfli marka: tahmin yok
     assert not m("Keyo People", "Pierre Maguelon", 1, "Fransız aktör")
+    assert m("UNHCR", "UNHCR", 3)                                                                     # birebir aynı ad: sıra önemsiz
 
 
 def test_org_visual_classification():
@@ -554,101 +572,201 @@ def test_org_visual_classification():
     assert classify("Refugee_population_map.svg", 850, 557) is None            # harita/diyagram kullanılmaz
 
 
-def _wiki_pages(title, fname, w, h, extract=""):
-    return {"query": {"pages": {"1": {"index": 1, "title": title, "pageimage": fname, "extract": extract,
-                                      "original": {"width": w, "height": h}, "thumbnail": {"source": "https://upload.wikimedia.org/x.png"}}}}}
-
-
-def test_find_org_visual_logo_photo_and_licence_rules(cfg, monkeypatch):
-    from diploport import orgvisual
-    img = b"\x89PNG" + b"x" * 5000
-    state = {"pages": _wiki_pages("Kamu İhale Kurumu", "Kamu_İhale_Kurumu_logo.svg", 170, 283), "lic": {}}
-
-    def fake_get(url, params=None, headers=None, timeout=0):
-        if "wikipedia.org/w/api.php" in url:
-            if params.get("prop") == "imageinfo":
-                return type("R", (), {"raise_for_status": lambda s: None, "json": lambda s: {"query": {"pages": {"1": {"imageinfo": [{"extmetadata": state["lic"]}]}}}}})()
-            return type("R", (), {"raise_for_status": lambda s: None, "json": lambda s: state["pages"]})()
-        return type("R", (), {"status_code": 200, "headers": {"content-type": "image/png"}, "content": img})()
-
-    monkeypatch.setattr(orgvisual.requests, "get", fake_get)
-    v = orgvisual.find_org_visual("KAMU İHALE KURUMU", cfg)
-    assert v["kind"] == "logo" and v["credit"] == "" and v["lang"] == "tr" and v["url"].endswith("/Kamu_%C4%B0hale_Kurumu".replace("%C4%B0", "İ"))
-    # fotoğraf: serbest lisans -> kullanılır, yazar/lisans künyesi yazılır
-    state["pages"] = _wiki_pages("Orman Genel Müdürlüğü", "OGM_binasi.jpg", 3000, 2000)
-    state["lic"] = {"Artist": {"value": '<a href="x">Ada Yılmaz</a>'}, "LicenseShortName": {"value": "CC BY-SA 3.0"}}
-    v = orgvisual.find_org_visual("Orman Genel Müdürlüğü", cfg)
-    assert v["kind"] == "photo" and v["credit"] == "Ada Yılmaz / Wikimedia Commons (CC BY-SA 3.0)"
-    # fotoğraf: serbest olmayan lisans -> kullanılmaz
-    state["lic"] = {"LicenseShortName": {"value": "Fair use"}, "NonFree": {"value": "1"}}
-    assert orgvisual.find_org_visual("Orman Genel Müdürlüğü", cfg) is None
-    # kurum adı tutmuyorsa kullanılmaz
-    state["pages"] = _wiki_pages("Kalkınma Ajansları Genel Müdürlüğü", "x_logo.svg", 100, 100)
-    assert orgvisual.find_org_visual("Orta Anadolu Kalkınma Ajansı", cfg) is None
-    assert orgvisual.find_org_visual("", cfg) is None
-
-
-def test_card_uses_logo_panel_then_falls_back_to_stock(cfg, monkeypatch, tmp_path):
-    from diploport import card, orgvisual, photo
-    post = {"id": "k2", "category": "is", "title_tr": "Kamu İhale Kurumu Uzman Yardımcılığı", "country_tr": "Türkiye",
-            "visual_kind": "institution", "organization": "Kamu İhale Kurumu"}
-    png = card.ROOT / "assets" / "logo.png"
-    monkeypatch.setattr(orgvisual, "find_org_visual", lambda *a, **k: {"kind": "logo", "bytes": png.read_bytes(), "credit": "",
-                                                                    "title": "Kamu İhale Kurumu", "lang": "tr", "url": "https://tr.wikipedia.org/wiki/x"})
-    monkeypatch.setattr(photo, "find_background", lambda *a, **k: (_ for _ in ()).throw(AssertionError("stok aranmamalı")))
-    assert 'class="panel"' in card.build_html(post, cfg, None, png.read_bytes())
-    card.render_card(post, cfg, tmp_path / "a.jpg")
-    assert post["photo_query"].startswith("logo: Kamu İhale Kurumu") and "photo_credit" not in post
-    # kurum görseli yoksa sektöre uygun stok fotoğraf aranır
-    monkeypatch.setattr(orgvisual, "find_org_visual", lambda *a, **k: None)
-    monkeypatch.setattr(photo, "find_background", lambda *a, **k: {"bytes": png.read_bytes(), "credit": "Ada / Unsplash", "url": "u", "query": "government building"})
-    post2 = dict(post, id="k3")
-    card.render_card(post2, cfg, tmp_path / "b.jpg")
-    assert post2["photo_credit"] == "Ada / Unsplash" and post2["photo_query"] == "government building"
-
-
-def test_too_light_logo_detection_and_institution_fallback_query(cfg):
-    import io
+def test_image_validation_and_light_logo_detection():
+    from diploport import orgvisual as ov
+    assert ov.norm_image(b"<html>404</html>") is None and ov.norm_image(b"") is None
+    assert ov.norm_image(_png(size=(40, 40)), min_side=100) is None                # çok küçük favicon
+    assert ov.norm_image(_png(size=(2000, 100)), min_side=50) is None              # aşırı yatay şerit
+    assert ov.norm_image(_png(size=(300, 120)), min_side=100) is not None
+    svg = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50"><rect fill="#1E2C55" width="200" height="50"/></svg>'
+    assert ov.norm_image(svg) == svg and ov.image_size(svg) == (200.0, 50.0)
+    # beyaz logo (saydam zeminli) -> lacivert panel; koyu logo ya da beyaz zeminli JPEG -> beyaz panel
+    assert ov.too_light(_png((255, 255, 255), alpha=0) ) is True                    # tamamen saydam: görünmez
     from PIL import Image
-    from diploport import orgvisual, photo
-    def png(color, alpha=255):
-        b = io.BytesIO(); Image.new("RGBA", (60, 30), color + (alpha,)).save(b, "PNG"); return b.getvalue()
-    assert orgvisual.too_light(png((255, 255, 255))) and orgvisual.too_light(png((10, 10, 10), alpha=0))
-    assert not orgvisual.too_light(png((30, 44, 85)))
-    qs = photo.build_queries({"category": "is", "visual_kind": "institution", "image_queries": ["Kayseri city"]}, cfg)
-    assert qs == ["Kayseri city", "Ankara city skyline"]
+    im = Image.new("RGBA", (100, 40), (0, 0, 0, 0))
+    for x in range(20, 80):
+        for y in range(10, 30):
+            im.putpixel((x, y), (255, 255, 255, 255))
+    b = io.BytesIO(); im.save(b, "PNG")
+    assert ov.too_light(b.getvalue())
+    assert not ov.too_light(_png((30, 44, 85), alpha=255))                         # opak: zemin kendi içinde
+    jb = io.BytesIO(); Image.new("RGB", (80, 80), (255, 255, 255)).save(jb, "JPEG")
+    assert not ov.too_light(jb.getvalue())                                         # beyaz zeminli JPEG logo beyaz panelde kalır
+    assert ov.too_light(b'<svg viewBox="0 0 10 10"><path fill="#fff" d="M0 0h10v10z"/><path fill="white" d="M1 1"/></svg>')
+    assert not ov.too_light(b'<svg viewBox="0 0 10 10"><path fill="#123" d="M0 0h10v10z"/></svg>')
+
+
+def _site(title, extra=""):
+    return f"<html><head><title>{title}</title>{extra}</head><body><header><a class='navbar-brand'><img src='/img/logo.svg' alt='logo'></a></header></body></html>"
+
+
+def test_site_must_match_the_organization_before_its_logo_is_used():
+    from diploport.orgvisual import site_matches as sm
+    assert sm("Akçansa", _site("Akçansa | Çimento ve Beton"), "https://www.akcansa.com.tr/")
+    assert sm("Orta Anadolu Kalkınma Ajansı", _site("ORAN - Orta Anadolu Kalkınma Ajansı"), "https://oran.org.tr/")
+    assert sm("UNHCR", _site("Home"), "https://www.unhcr.org/")                    # alan adında geçiyor
+    assert not sm("Keyo People", _site("Satılık Alan Adı - domain parking"), "https://www.keyo.com/")
+    assert not sm("Orta Anadolu Kalkınma Ajansı", _site("Orta Anadolu Spor Kulübü"), "https://x.org/")   # kelimelerin yarısı yetmez
+
+
+def test_logo_candidates_prefer_jsonld_then_page_logo_then_touch_icon_and_skip_partner_logos():
+    from diploport.orgvisual import logo_candidates
+    doc = """<html><head>
+      <script type="application/ld+json">{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://cdn.x.com/org.png"}}</script>
+      <link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/touch.png">
+      <meta property="og:image" content="/img/hero-photo.jpg">
+    </head><body>
+      <div class="partners"><img src="/p/partner-logo.png" alt="partner logo"></div>
+      <a class="navbar-brand"><img src="/assets/site-logo.svg" alt="Org"></a>
+    </body></html>"""
+    c = logo_candidates(doc, "https://www.x.com/tr/")
+    assert c[0] == "https://cdn.x.com/org.png" and c[1] == "https://www.x.com/assets/site-logo.svg"
+    assert "https://www.x.com/touch.png" in c and all("partner" not in u and "favicon" not in u and "hero" not in u for u in c)
+
+
+def test_youthall_page_gives_company_logo_and_site():
+    from diploport import orgvisual as ov
+    page = ('<img src="https://cdn.youthall.com/media/images/company/image/9_x.jpg" class="bg-white">'
+            '<img src="https://cdn.youthall.com/media/images/company/image/1859_x.jpg" alt="Akçansa logo">'
+            '<a href="https://blog.youthall.com">b</a><a href="http://www.akcansa.com.tr">site</a><a href="https://x.com/youthallcom">t</a>')
+    orig = ov._page
+    ov._page = lambda url, timeout=12: (url, page)
+    try:
+        h = ov.source_hints("https://www.youthall.com/tr/Akcansa/x_58/", "Akçansa")
+        assert h["logo_url"].endswith("1859_x.jpg") and h["sites"] == ["http://www.akcansa.com.tr/"]   # alt metni kurumla eşleşen görsel seçilir
+        assert h["org_name"] == "Akçansa"
+        assert ov.resolve_org("Akaryakıt Dışı Gelirler", "Shell") == "Shell" and ov.resolve_org("Aygaz", "Aygaz'da Kariyer") == "Aygaz"
+        assert ov.resolve_org("", "Henkel") == "Henkel" and ov.resolve_org("Youthall", "Henkel") == "Henkel" and ov.resolve_org("X", "") == "X"
+        assert ov.source_hints("https://www.erasmusgram.com/x/", "Akçansa") == {}
+    finally:
+        ov._page = orig
+
+
+def test_wikidata_lookup_checks_name_and_returns_logo_and_site(monkeypatch):
+    from diploport import orgvisual as ov
+    ent = {"Q1": {"labels": {"tr": {"value": "Aygaz"}}, "descriptions": {"tr": {"value": "Türk doğalgaz şirketi"}}, "aliases": {},
+                  "claims": {"P154": [{"mainsnak": {"datavalue": {"value": "Aygaz logo.svg"}}, "rank": "normal"}],
+                             "P856": [{"mainsnak": {"datavalue": {"value": "http://www.aygaz.com.tr/en-US/Corporate/"}}, "rank": "normal"}]}},
+           "Q2": {"labels": {"en": {"value": "Aygaz 3"}}, "descriptions": {"en": {"value": "ship built in 1976"}}, "aliases": {}, "claims": {"P154": [
+               {"mainsnak": {"datavalue": {"value": "gemi.png"}}, "rank": "normal"}]}}}
+
+    def fake_api(host, params):
+        if params["action"] == "wbsearchentities":
+            return {"search": [{"id": "Q2"}, {"id": "Q1"}]}
+        return {"entities": ent}
+
+    monkeypatch.setattr(ov, "_api", fake_api)
+    r = ov.wikidata_lookup("Aygaz")
+    assert r == {"logo_file": "Aygaz logo.svg", "site": "http://www.aygaz.com.tr/en-US/Corporate/"}   # gemi girdisi elendi
+    ent["Q1"]["labels"] = {"tr": {"value": "Başka Şirket"}}
+    assert ov.wikidata_lookup("Aygaz") == {"logo_file": None, "site": None}                          # ad tutmuyor: kullanılmaz
+
+
+def test_find_org_visual_order_and_never_uses_stock(cfg, monkeypatch, tmp_path):
+    from diploport import orgvisual as ov
+    logo = _png()
+    calls = []
+    monkeypatch.setattr(ov, "ORG_LOGO_DIR", tmp_path / "logos")
+    monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: (calls.append(url), logo if "good" in url else None)[1])
+    monkeypatch.setattr(ov, "_wikipedia", lambda org: (calls.append("wiki"), (None, None))[1])
+    monkeypatch.setattr(ov, "wikidata_lookup", lambda org: (calls.append("wd"), {"logo_file": None, "site": "https://www.org.com/x"})[1])
+    monkeypatch.setattr(ov, "site_logo", lambda org, site: (calls.append("site:" + site), None)[1])
+    monkeypatch.setattr(ov, "_page", lambda url, timeout=12: None)
+    # 1) kaynak sayfa logosu ilk sırada: Vikipedi'ye hiç gidilmez
+    r = ov.find_org_visual("Org", cfg, {"logo_url": "https://good/l.png"})
+    assert r["kind"] == "logo" and r["bytes"] == logo and "wiki" not in calls
+    # 2) logo yoksa: Vikipedi -> Wikidata -> siteler (ipucu + Wikidata sitesi) denenir; hiçbiri yoksa None
+    calls.clear()
+    assert ov.find_org_visual("Org", cfg, {"logo_url": "https://bad/l.png", "sites": ["org.org.tr"]}) is None
+    assert calls == ["https://bad/l.png", "wiki", "wd", "site:https://org.org.tr/", "site:https://www.org.com/"]
+    # 3) elle eklenen logo her şeyden önce gelir
+    (tmp_path / "logos").mkdir()
+    (tmp_path / "logos" / "orta-anadolu-kalkinma-ajansi.png").write_bytes(logo)
+    calls.clear()
+    r = ov.find_org_visual("ORTA ANADOLU KALKINMA AJANSI", cfg, {"logo_url": "https://good/l.png"})
+    assert r["source"] == "elle eklenen logo" and calls == []
+    assert ov.find_org_visual("", cfg) is None
+    calls.clear()                                       # kurum adı yok ama kaynak sayfa logosu var: yine de kullanılır
+    assert ov.find_org_visual("", cfg, {"logo_url": "https://good/l.png"})["bytes"] == logo and calls == ["https://good/l.png"]
+    assert ov.find_org_visual("Org", {"org_visual": {"enabled": False}}) is None
+
+
+def test_wikipedia_logo_from_page_images_and_photo_licence(cfg, monkeypatch):
+    from diploport import orgvisual as ov
+    img = _png(size=(600, 300))
+    state = {"page": {"index": 1, "title": "Orman Genel Müdürlüğü", "pageimage": "OGM_binasi.jpg", "extract": "",
+                      "original": {"width": 3000, "height": 2000}, "thumbnail": {"source": "https://upload.wikimedia.org/ogm_binasi.jpg"}},
+             "images": [{"title": "Dosya:Commons-logo.svg"}, {"title": "Dosya:OGM logo.svg"}], "lic": {}}
+
+    def fake_api(host, params):
+        if params.get("generator") == "search":
+            return {"query": {"pages": {"1": state["page"]}}}
+        if params.get("prop") == "images":
+            return {"query": {"pages": {"1": {"images": state["images"]}}}}
+        if params.get("prop") == "imageinfo" and "iiurlwidth" in params:
+            return {"query": {"pages": {"1": {"imageinfo": [{"thumburl": "https://upload.wikimedia.org/ogm_logo.png"}]}}}}
+        return {"query": {"pages": {"1": {"imageinfo": [{"extmetadata": state["lic"]}]}}}}
+
+    monkeypatch.setattr(ov, "_api", fake_api)
+    monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: img if "ogm_logo" in url else None)
+    # ana görsel bina fotoğrafı, ama sayfada logo dosyası var -> logo tercih edilir (Commons-logo.svg gibi şablon dosyaları atlanır)
+    found, photo = ov._wikipedia("Orman Genel Müdürlüğü")
+    assert found["kind"] == "logo" and found["bytes"] == img and found["source"].startswith("Vikipedi (tr)")
+    # logo dosyası yoksa fotoğraf yalnızca serbest lisansla kullanılır, yazar/lisans künyesi yazılır
+    state["images"] = []
+    found, photo = ov._wikipedia("Orman Genel Müdürlüğü")
+    assert found is None and photo["fname"] == "OGM_binasi.jpg"
+    state["lic"] = {"Artist": {"value": '<a href="x">Ada Yılmaz</a>'}, "LicenseShortName": {"value": "CC BY-SA 3.0"}}
+    monkeypatch.setattr(ov.requests, "get", lambda *a, **k: type("R", (), {"status_code": 200, "headers": {"content-type": "image/jpeg"}, "content": b"x" * 30000})())
+    v = ov._wikipedia_photo(photo)
+    assert v["kind"] == "photo" and v["credit"] == "Ada Yılmaz / Wikimedia Commons (CC BY-SA 3.0)"
+    state["lic"] = {"LicenseShortName": {"value": "Fair use"}, "NonFree": {"value": "1"}}
+    assert ov._wikipedia_photo(photo) is None
+    # kurum adı tutmuyorsa hiçbir şey kullanılmaz
+    state["page"]["title"] = "Kalkınma Ajansları Genel Müdürlüğü"
+    assert ov._wikipedia("Orta Anadolu Kalkınma Ajansı") == (None, None)
+
+
+def test_card_puts_logo_on_panel_dark_for_white_logo_and_never_searches_stock(cfg, monkeypatch, tmp_path):
+    from diploport import card, orgvisual, photo
+    monkeypatch.setattr(orgvisual, "hints_for", lambda *a, **k: {})
+    monkeypatch.setattr(photo, "find_background", lambda *a, **k: (_ for _ in ()).throw(AssertionError("stok aranmamalı")))
+    dark_logo = _png((30, 44, 85), size=(300, 150))
+    monkeypatch.setattr(orgvisual, "find_org_visual", lambda *a, **k: {"kind": "logo", "bytes": dark_logo, "credit": "",
+                                                                    "title": "Kamu İhale Kurumu", "source": "Vikipedi (tr)", "url": "https://tr.wikipedia.org/wiki/x"})
+    post = dict(INST)
+    assert 'class="panel"' in card.build_html(post, cfg, None, dark_logo)
+    card.render_card(post, cfg, tmp_path / "a.jpg")
+    assert post["photo_query"] == "logo: Kamu İhale Kurumu (Vikipedi (tr))" and "photo_credit" not in post
+    assert 'class="panel dark"' in card.build_html(post, cfg, None, _png((255, 255, 255), alpha=0))
+    # boyut: oran korunur, küçük raster en fazla 2.5x büyür, SVG panele sığacak kadar büyür
+    assert card._logo_style(_png(size=(100, 50))) == "width:250px;height:125px"
+    assert card._logo_style(_png(size=(1000, 100))) == "width:500px;height:50px"
+    assert card._logo_style(b'<svg viewBox="0 0 100 100"></svg>') == "width:310px;height:310px"
+
+
+def test_photo_search_has_no_logo_zone_rule_and_no_institution_fallback(cfg):
+    from diploport import photo
+    assert not hasattr(photo, "logo_zone_ok")
+    assert "logo_zone_min_luma" not in cfg["photo"] and "institution_fallback" not in cfg["photo"]
     qs = photo.build_queries({"category": "burs", "visual_kind": "scene", "image_queries": ["Berlin city"]}, cfg)
     assert qs[-1] == "university campus students"
 
 
-def test_logo_zone_rejects_dark_or_busy_top_left_and_next_candidate_is_tried(cfg, monkeypatch):
-    import io, random
+def test_find_background_accepts_dark_top_left_photo(cfg, monkeypatch):
     from PIL import Image
     from diploport import photo
-
-    def jpg(img):
-        b = io.BytesIO(); img.save(b, "JPEG", quality=90); return b.getvalue()
-
-    light = jpg(Image.new("RGB", (1200, 1600), (200, 210, 225)))
-    dark = jpg(Image.new("RGB", (1200, 1600), (20, 25, 40)))
-    rnd = random.Random(1)
-    noisy_im = Image.new("L", (1200, 1600))
-    noisy_im.putdata([rnd.choice((10, 250)) for _ in range(1200 * 1600)])
-    noisy = jpg(noisy_im.convert("RGB"))
-    assert photo.logo_zone_ok(light) and not photo.logo_zone_ok(dark) and not photo.logo_zone_ok(noisy)
-    assert photo.logo_zone_ok(b"bozuk veri")            # okunamazsa engellenmez
-
+    b = io.BytesIO(); Image.new("RGB", (1200, 1600), (20, 25, 40)).save(b, "JPEG", quality=90)
+    dark_top_left = b.getvalue() + b"0" * 25000
     monkeypatch.setenv("UNSPLASH_ACCESS_KEY", "uk"); monkeypatch.delenv("PEXELS_API_KEY", raising=False)
-    served = {"p0": dark, "p1": dark, "p2": light}
 
     def fake_get(url, params=None, headers=None, timeout=0):
         if url.startswith("https://api.unsplash.com/search"):
-            return _Resp(js={"results": [_unsplash_raw(f"p{i}") for i in range(3)]})
+            return _Resp(js={"results": [_unsplash_raw("p0", color="#aab4c8")]})
         if "api.unsplash.com/photos" in url:
             return _Resp(js={})
-        pid = url.split("photo-")[1].split("?")[0]
-        return _Resp(content=served[pid] + b"0" * 25000, ctype="image/jpeg")
+        return _Resp(content=dark_top_left, ctype="image/jpeg")
 
     monkeypatch.setattr(photo.requests, "get", fake_get)
     bg = photo.find_background({"id": "z", "category": "burs", "visual_kind": "scene", "image_queries": ["x"]}, cfg)
-    assert bg and bg["bytes"].startswith(light[:100])   # iki koyu aday atlandı, açık olan seçildi
+    assert bg and bg["bytes"] == dark_top_left      # sol üst logo bölgesi koyu diye atlanmaz: kural kaldırıldı

@@ -42,39 +42,56 @@ def main(argv: list[str]) -> int:
         notify(" ".join(argv[2:]) or "Diploport uyarısı")
         return 0
     if cmd == "phototest":
-        # Gerçek stok fotoğraf sağlayıcısını dener: 3 örnek ilan için kart üretir, data/photo_test/ altına yazar.
-        from .card import render_card
-        from . import photo as photo_mod, util
+        # Gerçek ağda deneme: örnek ilanların kartlarını üretir (data/photo_test/) ve her kurum için logonun NEREDEN geldiğini
+        # (ya da neden bulunamadığını) adım adım raporlar.
+        from .card import NoOrgVisual, render_card
+        from . import orgvisual, util
         out = util.DATA_DIR / "photo_test"
         out.mkdir(parents=True, exist_ok=True)
-        def inst(i, org, title, cat, qs, icon=""):
-            d = {"id": i, "category": cat, "title_tr": title, "country_tr": "Türkiye", "funding_tr": "Belirtilmemiş",
-                 "visual_kind": "institution", "organization": org, "image_queries": qs}
-            if icon:
-                d["icon"] = icon
-            return d
+        yt = "https://www.youthall.com/tr/"
+
+        def inst(i, org, title="Staj ve Kariyer Programı", cat="staj", **extra):
+            return {"id": i, "category": cat, "title_tr": title, "country_tr": "Türkiye", "funding_tr": "Belirtilmemiş",
+                    "visual_kind": "institution", "organization": org, **extra}
 
         samples = [
             {"id": "t1", "category": "egitim", "title_tr": "Almanya'da Erasmus+ Gençlik Çalışanları Eğitimi", "country_tr": "Almanya",
              "funding_tr": "Ücretsiz eğitim ve konaklama", "visual_kind": "scene",
              "image_queries": ["Berlin Germany city", "Germany university students", "students walking campus"]},
-            inst("i1", "KAMU İHALE KURUMU", "Kamu İhale Kurumu Uzman Yardımcılığı Giriş Sınavı", "is",
-                 ["government building", "civil servants office", "modern office building"], "landmark"),
-            inst("i2", "ORTA ANADOLU KALKINMA AJANSI", "Orta Anadolu Kalkınma Ajansı Personel Alımı", "is",
-                 ["Kayseri city", "Ankara city skyline", "Turkey landscape"], "landmark"),
-            inst("i3", "UNHCR", "UNHCR 2027 Staj Programı", "staj", ["Geneva city", "modern office building", "modern office building"]),
-            inst("i4", "Oyak Renault", "Oyak Renault 4 Seasons Proje Stajyerliği", "staj", ["car factory", "engineers working factory", "modern office building"]),
-            inst("i5", "Bilkom", "Bilkom Digital Leader Genç Yetenek Programı", "staj", ["software office", "developers working laptop", "modern office building"]),
-            inst("i6", "TÜRKİYE İŞ KURUMU", "İŞKUR Uzman Yardımcısı Alımı", "is", ["government building", "civil servants office", "modern office building"], "landmark"),
-            inst("i7", "Commencis", "Commencis Cloud Camp 2027", "egitim", ["Istanbul skyline", "Istanbul skyline", "Turkey landscape"]),
-            inst("i8", "ORMAN GENEL MÜDÜRLÜĞÜ", "Orman Genel Müdürlüğü Müfettiş Yardımcısı Alımı", "is", ["Ankara city skyline", "Istanbul skyline", "Turkey landscape"], "landmark"),
-            inst("i9", "Keyo People", "Keyo People Campus Kampüs Temsilciliği Programı", "staj", ["Istanbul skyline", "Istanbul skyline", "Turkey landscape"]),
+            # kamu kurumları (Kariyer Kapısı): kurum adı ilan başlığından gelir, başka ipucu yok
+            inst("k1", "KAMU İHALE KURUMU", cat="is"), inst("k2", "ORTA ANADOLU KALKINMA AJANSI", cat="is"),
+            inst("k3", "TÜRKİYE İŞ KURUMU", cat="is"), inst("k4", "ORMAN GENEL MÜDÜRLÜĞÜ", cat="is"),
+            inst("k5", "MEVLANA KALKINMA AJANSI", cat="is"), inst("k6", "İSTANBUL KALKINMA AJANSI", cat="is"),
+            inst("k7", "ORTA KARADENİZ KALKINMA AJANSI (OKA)", cat="is"), inst("k8", "MİLLİ SARAYLAR İDARESİ BAŞKANLIĞI", cat="is"),
+            inst("k9", "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ REKTÖRLÜĞÜ", cat="is"),
+            # uluslararası kuruluşlar / üniversite
+            inst("o1", "UNHCR"), inst("o2", "UNICEF"), inst("o3", "United Nations Development Programme (UNDP)"),
+            inst("o4", "United Nations Institute for Training and Research"), inst("o5", "Stanford University"),
+            inst("o6", "Earth Journalism Network", organization_domain="earthjournalism.net"),
+            # şirketler: Youthall ilan sayfasındaki şirket logosu
+            inst("y1", "Akçansa", source_url=yt + "Akcansa/ready-mix-concrete-long-term-intern-thrace_58/"),
+            inst("y2", "Aygaz", source_url=yt + "aygazdakariyer/satis-yoneticisi-adana_74/"),
+            inst("y3", "Sefine Shipyard", source_url=yt + "sefine/sky-uzun-donem-staj-programi_5/"),
+            inst("y4", "BSH Ev Aletleri", source_url="https://www.youthall.com/en/Bshik/we-power-2026_8/"),
+            inst("y5", "Commencis", source_url="https://www.youthall.com/en/Commencis/commencis-cloud-camp-2027_50/"),
+            inst("y6", "Akaryakıt Dışı Gelirler", source_url=yt + "Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/"),
+            inst("y7", "Henkel", source_url=yt + "Henkel/step-up-inclusive-engelli-bireylere-ozel_28/"),
+            inst("y8", "Boehringer Ingelheim", source_url="https://www.youthall.com/en/boehringeringelheim/hr-intern_60/"),
+            inst("y9", "Hyundai Motor Türkiye", source_url=yt + "hyundaimotorturkiye/hyundai-ideathon_5/"),
+            # Youthall sayfası olmayan şirketler: Vikipedi/Wikidata/site/tahmin
+            inst("c1", "Oyak Renault"), inst("c2", "Bilkom", organization_domain="bilkom.com.tr"), inst("c3", "Keyo People Campus"),
         ]
-        have = [n for n, _ in photo_mod._providers(cfg)]
-        lines = [f"Anahtarı tanımlı sağlayıcılar: {', '.join(have) or 'YOK'}", ""]
+        lines = []
         for sp in samples:
-            render_card(sp, cfg, out / f"{sp['id']}.jpg", date.today())
-            lines.append(f"- {sp['id']} ({sp.get('organization') or sp['title_tr']}): kaynak={sp.get('photo_query') or 'SİMGE KARTI'} · künye={sp.get('photo_credit') or '-'} · {sp.get('photo_url') or ''}")
+            sp["source_url"] = sp.get("source_url", "")
+            try:
+                render_card(sp, cfg, out / f"{sp['id']}.jpg", date.today())
+                res = f"kaynak={sp.get('photo_query') or '-'} · künye={sp.get('photo_credit') or '-'} · {sp.get('photo_url') or ''}"
+            except NoOrgVisual:
+                res = "**LOGO BULUNAMADI (ilan yayımlanmaz)**"
+            lines.append(f"- {sp['id']} ({sp.get('organization') or sp['title_tr']}): {res}")
+            if sp["visual_kind"] != "scene":
+                lines += [f"    · {t}" for t in orgvisual.TRACE]
         (out / "report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
         print("\n".join(lines))
         return 0

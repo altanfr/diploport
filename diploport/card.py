@@ -1,7 +1,10 @@
 """Instagram için 1080x1350 (4:5) JPEG kart. Diploport'un kendi şablonu: üstte stok fotoğraf, solda üstte logo,
 altta lacivert gradyan, beyaz başlık, "Ülke | destek" satırı ve en altta site adı.
 
-HTML/CSS şablonu + Playwright (Chromium). Fotoğraf yoksa (ya da ilan kuruma özelse) açık zeminli sade kart + ilan türü simgesi.
+HTML/CSS şablonu + Playwright (Chromium).
+  * Sahne ilanı (belirli bir yer/etkinlik): arkaya stok fotoğraf.
+  * Kuruma/işverene özel ilan: arkaya KURUMUN LOGOSU (beyaz panel; logo beyazsa lacivert panel). Stok/şehir fotoğrafı konmaz.
+    Logo bulunamazsa NoOrgVisual fırlatılır ve ilan yayımlanmaz (org_visual.when_missing: icon ile eski simge kartına dönülebilir).
 """
 from __future__ import annotations
 
@@ -15,6 +18,12 @@ from pathlib import Path
 from .util import ROOT
 
 WIDTH, HEIGHT = 1080, 1350
+LOGO_BOX = (500.0, 310.0)       # beyaz panelde logonun sığacağı alan
+MAX_UPSCALE = 2.5               # küçük rasterler en fazla bu kadar büyütülür (bulanıklaşmasın)
+
+
+class NoOrgVisual(RuntimeError):
+    """Kuruma özel ilan için logo (ya da kurum fotoğrafı) bulunamadı: kart üretilmez, ilan kuyrukta bekler."""
 
 # Şablon PNG'sinden ölçülen gradyan (yukarıdan aşağıya): ~%50'ye kadar saydam, sonra lacivert (30,44,85)
 GRADIENT = (
@@ -75,7 +84,19 @@ def is_institution(post: dict) -> bool:
     return post.get("visual_kind", "institution") != "scene"   # türü bilinmeyen/eski kayıt: güvenli varsayılan, stok foto yok
 
 
+def _logo_style(logo: bytes) -> str:
+    """Logoyu oranını koruyarak panele sığdıran boyut (SVG'ler ve küçük görseller dahil)."""
+    from .orgvisual import image_size, is_svg
+
+    w, h = image_size(logo)
+    scale = min(LOGO_BOX[0] / w, LOGO_BOX[1] / h)
+    if not is_svg(logo):
+        scale = min(scale, MAX_UPSCALE)
+    return f"width:{max(1, round(w * scale))}px;height:{max(1, round(h * scale))}px"
+
+
 def _plain_layer(post: dict, logo: bytes | None = None) -> str:
+    from .orgvisual import too_light
     from .photo import data_uri
 
     icon = ICONS[icon_for(post)]
@@ -84,8 +105,9 @@ def _plain_layer(post: dict, logo: bytes | None = None) -> str:
              '<ellipse cx="540" cy="370" rx="440" ry="440" stroke="#1E2C55" stroke-opacity=".06" stroke-width="2"/>'
              '<circle cx="872" cy="262" r="9" fill="#E0A526"/><circle cx="186" cy="520" r="7" fill="#E0A526" fill-opacity=".8"/>'
              '<circle cx="808" cy="590" r="5" fill="#1E2C55" fill-opacity=".35"/></svg>')
-    if logo:   # kurumun logosu: beyaz panel içinde, oranı korunarak
-        centre = f'<div class="panel"><img alt="" src="{data_uri(logo)}"></div>'
+    if logo:   # kurumun logosu: panel içinde, oranı korunarak; beyaz/çok açık logo lacivert panelde okunur
+        cls = "panel dark" if too_light(logo) else "panel"
+        centre = f'<div class="{cls}"><img alt="" style="{_logo_style(logo)}" src="{data_uri(logo)}"></div>'
     else:
         svg = (f'<svg viewBox="0 0 24 24" fill="none" stroke="#1E2C55" stroke-width="1.35" stroke-linecap="round" '
                f'stroke-linejoin="round">{icon}</svg>')
@@ -133,26 +155,33 @@ def build_html(post: dict, cfg: dict, photo: bytes | None = None, logo: bytes | 
 
 def render_card(post: dict, cfg: dict, out_path: Path, today: date | None = None, photo: bytes | None = None,
                 logo: bytes | None = None) -> Path:
-    """HTML'i JPEG'e çevirir. `photo` verilmezse Unsplash/Pexels'ten aranır; bulunamazsa fotoğrafsız üretilir.
-    Kullanılan fotoğrafın künyesi post["photo_credit"/"photo_url"/"photo_query"] alanlarına yazılır.
+    """HTML'i JPEG'e çevirir.
+    * Sahne ilanı: `photo` verilmezse Unsplash/Pexels'ten aranır; bulunamazsa fotoğrafsız (düz şablon) üretilir.
+    * Kuruma özel ilan: kurumun logosu aranır (orgvisual); bulunamazsa NoOrgVisual fırlatılır (stok fotoğraf YOK).
+    Kullanılan görselin künyesi post["photo_credit"/"photo_url"/"photo_query"] alanlarına yazılır.
     Playwright yoksa/başarısızsa istisna fırlatır (üst katman yakalar)."""
     from playwright.sync_api import sync_playwright
 
-    from .orgvisual import find_org_visual
+    from .orgvisual import find_org_visual, hints_for, resolve_org
     from .photo import find_background
 
     if photo is None and logo is None:
         if is_institution(post):
-            # Kuruma özel ilan: önce kurumun kendi görseli (Vikipedi logosu / kurum fotoğrafı), sonra sektöre uygun stok fotoğraf
-            ov = find_org_visual(post.get("organization", ""), cfg)
+            hints = hints_for(post, cfg)
+            org = resolve_org(post.get("organization", ""), hints.get("org_name", ""))
+            if org != (post.get("organization") or "").strip():
+                post["organization"] = org                      # kaynak sayfadaki şirket adı modelinkinden daha güvenilir
+            ov = find_org_visual(org, cfg, hints)
             if ov and ov["kind"] == "logo":
                 logo = ov["bytes"]
-                post["photo_query"], post["photo_url"] = f"logo: {ov['title']} ({ov['lang']}.wikipedia)", ov["url"]
+                post["photo_query"], post["photo_url"] = f"logo: {ov['title']} ({ov['source']})", ov["url"]
             elif ov:
                 photo = ov["bytes"]
                 post["photo_credit"], post["photo_url"] = ov["credit"], ov["url"]
-                post["photo_query"] = f"wiki foto: {ov['title']} ({ov['lang']}.wikipedia)"
-        if photo is None and logo is None:
+                post["photo_query"] = f"kurum fotoğrafı: {ov['title']} ({ov['source']})"
+            elif (cfg.get("org_visual") or {}).get("when_missing", "skip") != "icon":
+                raise NoOrgVisual(org or post.get("title_tr", ""))
+        else:
             bg = find_background(post, cfg)
             if bg:
                 photo = bg["bytes"]
