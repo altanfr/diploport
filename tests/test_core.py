@@ -674,8 +674,8 @@ def test_find_org_visual_order_and_never_uses_stock(cfg, monkeypatch, tmp_path):
     calls = []
     monkeypatch.setattr(ov, "ORG_LOGO_DIR", tmp_path / "logos")
     monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: (calls.append(url), logo if "good" in url else None)[1])
-    monkeypatch.setattr(ov, "_wikipedia", lambda org: (calls.append("wiki"), (None, None))[1])
-    monkeypatch.setattr(ov, "wikidata_lookup", lambda org: (calls.append("wd"), {"logo_file": None, "site": "https://www.org.com/x"})[1])
+    monkeypatch.setattr(ov, "_wikipedia", lambda org, strong=False: (calls.append("wiki"), (None, None))[1])
+    monkeypatch.setattr(ov, "wikidata_lookup", lambda org, strong=False: (calls.append("wd"), {"logo_file": None, "site": "https://www.org.com/x"})[1])
     monkeypatch.setattr(ov, "site_logo", lambda org, site, strict=True: (calls.append(f"site:{site}:{'strict' if strict else 'trusted'}"), None)[1])
     monkeypatch.setattr(ov, "_page", lambda url, timeout=12: None)
     # 1) kaynak sayfa logosu ilk sırada: Vikipedi'ye hiç gidilmez
@@ -806,12 +806,12 @@ def test_small_source_logo_yields_to_a_better_source_but_is_the_last_resort(cfg,
     small, big = _png(size=(150, 60)), _png(size=(1200, 400))
     monkeypatch.setattr(ov, "ORG_LOGO_DIR", tmp_path / "none")
     monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: small if "youthall" in url else None)
-    monkeypatch.setattr(ov, "wikidata_lookup", lambda org: {"logo_file": None, "site": None})
+    monkeypatch.setattr(ov, "wikidata_lookup", lambda org, strong=False: {"logo_file": None, "site": None})
     monkeypatch.setattr(ov, "_page", lambda url, timeout=12: None)
     hints = {"logo_url": "https://cdn.youthall.com/l.jpg"}
-    monkeypatch.setattr(ov, "_wikipedia", lambda org: ({"kind": "logo", "bytes": big, "credit": "", "title": org, "source": "Vikipedi (tr)", "url": ""}, None))
+    monkeypatch.setattr(ov, "_wikipedia", lambda org, strong=False: ({"kind": "logo", "bytes": big, "credit": "", "title": org, "source": "Vikipedi (tr)", "url": ""}, None))
     assert ov.find_org_visual("Aygaz", cfg, hints)["bytes"] == big                          # küçük Youthall logosu yerine Vikipedi'deki büyük logo
-    monkeypatch.setattr(ov, "_wikipedia", lambda org: (None, None))
+    monkeypatch.setattr(ov, "_wikipedia", lambda org, strong=False: (None, None))
     r = ov.find_org_visual("Aygaz", cfg, hints)
     assert r["bytes"] == small and r["source"] == "ilan sayfasındaki şirket logosu"         # başka kaynak yoksa küçük olan kullanılır
     assert ov.find_org_visual("", cfg, hints)["bytes"] == small                             # kurum adı yoksa da
@@ -839,3 +839,29 @@ def test_wikipedia_page_logo_must_belong_to_the_organization():
     assert rel("UNHCR logo.svg", "UNHCR") and rel("OGM logo.svg", "Orman Genel Müdürlüğü")
     assert not rel("Emblem of the United Nations.svg", "UNHCR")                             # başka kuruluşun amblemi
     assert rel("Kamu İhale Kurumu logo.png", "KAMU İHALE KURUMU") and not rel("Flag logo.svg", "Akçansa")
+
+
+def test_strong_name_match_protects_an_accurate_source_logo_from_parent_brand_pages():
+    from diploport.orgvisual import name_matches as m
+    assert m("Hyundai Motor Türkiye", "Hyundai", 1)                                  # normalde kabul (kısa hâl kuralı)
+    assert not m("Hyundai Motor Türkiye", "Hyundai", 1, strong=True)                 # ama ilan sayfasında doğru logo varken ana marka sayfası onu değiştirmez
+    assert m("Shell", "Shell plc", 1, strong=True) and m("Aygaz", "Aygaz", 2, strong=True)
+    assert not m("UNHCR", "Birleşmiş Milletler Mülteciler Yüksek Komiserliği", 1, "(UNHCR)", strong=True)
+
+
+def test_site_logo_tries_www_variant_and_prefers_balanced_logo_over_wide_banner(monkeypatch):
+    from diploport import orgvisual as ov
+    tried = []
+    doc = "<html><head><title>ORAN - Orta Anadolu Kalkınma Ajansı</title></head><body><img class='logo' src='/wide.png'><img class='navbar-brand' src='/logo.png'></body></html>"
+
+    def fake_page(url, timeout=12):
+        tried.append(url)
+        return (url, doc) if url.startswith("https://www.oran.org.tr") else None          # çıplak alan adı açılmıyor (SSL)
+
+    banner, square = _png(size=(1200, 150)), _png(size=(400, 300))
+    monkeypatch.setattr(ov, "_page", fake_page)
+    monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: banner if "wide" in url else square if "logo.png" in url else None)
+    r = ov.site_logo("Orta Anadolu Kalkınma Ajansı", "https://oran.org.tr/")
+    assert tried[:2] == ["https://oran.org.tr/", "https://www.oran.org.tr/"] and r["bytes"] == square
+    monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: banner if "wide" in url else None)
+    assert ov.site_logo("Orta Anadolu Kalkınma Ajansı", "https://oran.org.tr/")["bytes"] == banner   # başka aday yoksa şerit de kullanılır

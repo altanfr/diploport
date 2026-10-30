@@ -74,7 +74,9 @@ def slug(org: str) -> str:
     return "-".join(fold(org))
 
 
-def name_matches(org: str, title: str, rank: int, extract: str = "") -> bool:
+def name_matches(org: str, title: str, rank: int, extract: str = "", strong: bool = False) -> bool:
+    """strong=True: yalnızca birebir ya da kurum adının çoğunun (>=%75) başlıkta geçtiği eşleşmeler (başlığın kurum adının kısa
+    hâli olması ya da kısaltma kuralı sayılmaz). Elde zaten doğru bir kaynak logosu varken onu değiştirmek için kullanılır."""
     o, t = set(fold(org)), set(fold(title))
     if not o or not t:
         return False
@@ -83,6 +85,8 @@ def name_matches(org: str, title: str, rank: int, extract: str = "") -> bool:
     common = o & t
     if common and len(common) / len(o) >= 0.75:
         return True                                   # kurum adının çoğu sayfa adında geçiyor
+    if strong:
+        return False
     if common and t <= o and (t - GENERIC):
         return True                                   # sayfa adı, kurum adının kısa hâli (Oyak-Renault / Oyak Renault Otomobil...)
     # sayfa adı farklı ama (ör. UNHCR -> "Birleşmiş Milletler Mülteciler Yüksek Komiserliği"): ilk sonuç ve
@@ -419,7 +423,7 @@ def file_license(host: str, filename: str) -> dict:
     return {"artist": artist, "license": val("LicenseShortName").strip(), "nonfree": str(val("NonFree")).lower() in ("true", "1", "yes")}
 
 
-def _wikipedia(org: str) -> tuple[dict | None, dict | None]:
+def _wikipedia(org: str, strong: bool = False) -> tuple[dict | None, dict | None]:
     """Dönüş: (logo sonucu | None, fotoğraf adayı | None)."""
     photo_cand = None
     for lang in LANGS:
@@ -428,7 +432,7 @@ def _wikipedia(org: str) -> tuple[dict | None, dict | None]:
         except (requests.RequestException, ValueError) as e:
             _t(f"Vikipedi ({lang}) aranamadı: {type(e).__name__}")
             continue
-        matched = [p for p in pages if name_matches(org, p.get("title", ""), p.get("index", 99), p.get("extract", ""))]
+        matched = [p for p in pages if name_matches(org, p.get("title", ""), p.get("index", 99), p.get("extract", ""), strong)]
         _t(f"Vikipedi ({lang}): {len(pages)} sayfa, {len(matched)} tanesi kurum adıyla eşleşti" +
            (f" ({matched[0].get('title')})" if matched else ""))
         for p in matched:
@@ -492,7 +496,7 @@ def _claim(claims: dict, pid: str) -> str | None:
     return best[0] if best else None
 
 
-def wikidata_lookup(org: str) -> dict:
+def wikidata_lookup(org: str, strong: bool = False) -> dict:
     """{"logo_file": Commons dosya adı | None, "site": resmî site | None}. Ad eşleşmesi kodla doğrulanır."""
     for lang in LANGS:
         try:
@@ -513,7 +517,7 @@ def wikidata_lookup(org: str) -> dict:
                 continue
             names = [v["value"] for v in (e.get("labels") or {}).values()]
             names += [a["value"] for lst in (e.get("aliases") or {}).values() for a in lst]
-            if not any(name_matches(org, n, rank) for n in names):
+            if not any(name_matches(org, n, rank, "", strong) for n in names):
                 continue
             claims = e.get("claims") or {}
             logo, site = _claim(claims, "P154"), _claim(claims, "P856")
@@ -608,13 +612,25 @@ def logo_candidates(page_html: str, base: str) -> list[str]:
     return out
 
 
+def _variants(site: str) -> list[str]:
+    """Bazı sitelerde yalnızca www'li (ya da www'siz) adres sertifikalı/çalışır: sırayla denenir."""
+    sp = urlsplit(site)
+    host = sp.netloc
+    alt = host[4:] if host.startswith("www.") else "www." + host
+    return [f"{sp.scheme}://{host}/", f"{sp.scheme}://{alt}/", f"http://{host}/", f"http://{alt}/"]
+
+
 def site_logo(org: str, site: str, strict: bool = True) -> dict | None:
     site = (site or "").strip()
     if not site:
         return None
     if not site.startswith("http"):
         site = "https://" + site
-    pg = _page(site)
+    pg = None
+    for v in _variants(site):
+        pg = _page(v)
+        if pg:
+            break
     if not pg:
         return None
     final, doc = pg
@@ -624,10 +640,19 @@ def site_logo(org: str, site: str, strict: bool = True) -> dict | None:
     cands = logo_candidates(doc, final)
     host = urlsplit(final).netloc
     _t(f"site doğrulandı: {host}; {len(cands)} logo adayı")
+    first = None
     for u in cands[:8]:
         data = _fetch(u, min_side=100)
-        if data:
-            return {"kind": "logo", "bytes": data, "credit": "", "title": host, "source": f"web sitesi ({host})", "url": final}
+        if not data:
+            continue
+        w, h = image_size(data)
+        if max(w, h) / max(1.0, min(w, h)) <= 4.5:      # birkaç logonun yan yana durduğu geniş şeritler yerine dengeli oranlı logo
+            first = (data, u)
+            break
+        first = first or (data, u)
+        _t(f"çok geniş şerit (oran {max(w, h) / max(1.0, min(w, h)):.1f}), daha uygunu aranıyor: {u[:80]}")
+    if first:
+        return {"kind": "logo", "bytes": first[0], "credit": "", "title": host, "source": f"web sitesi ({host})", "url": final}
     data = _fetch(f"https://www.google.com/s2/favicons?domain={host}&sz=256", min_side=100)   # son çare: büyük favicon
     if data:
         return {"kind": "logo", "bytes": data, "credit": "", "title": host, "source": f"web sitesi ikonu ({host})", "url": final}
@@ -693,13 +718,14 @@ def find_org_visual(org: str, cfg: dict, hints: dict | None = None) -> dict | No
     if not org:
         _t("kurum adı yok, logo yalnızca kaynak sayfadan denenebilirdi")
         return best()
-    found, photo_cand = _wikipedia(org)                                             # 3
+    strong = weak is not None          # elde ilan sayfasının (doğru ama küçük) logosu var: yalnızca güçlü ad eşleşmeleri onu değiştirir
+    found, photo_cand = _wikipedia(org, strong)                                     # 3
     if found:
         return found
 
     wd = {"logo_file": None, "site": None}                                          # 4
     try:
-        wd = wikidata_lookup(org)
+        wd = wikidata_lookup(org, strong)
     except Exception as e:  # noqa: BLE001
         _t(f"Wikidata hatası: {type(e).__name__}")
     if wd["logo_file"]:
