@@ -693,7 +693,8 @@
       "title_tr": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026",
       "turkey_eligible": "yes",
       "visual_kind": "institution",
-      "image_queries": []
+      "image_queries": [],
+      "organization_domain": "oran.org.tr"
     },
     {
       "apply_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-electrical-electronics-engineer_57/",
@@ -745,7 +746,8 @@
       "title_tr": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution",
-      "image_queries": []
+      "image_queries": [],
+      "organization_domain": "mevka.org.tr"
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
@@ -772,7 +774,8 @@
       "title_tr": "Orta Karadeniz Kalkınma Ajansı (OKA) Personel Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution",
-      "image_queries": []
+      "image_queries": [],
+      "organization_domain": "oka.org.tr"
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
