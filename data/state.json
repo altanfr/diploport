@@ -26,12 +26,114 @@
     "youthall.com/tr/keyopeoplecampus/kampus-temsilcisi_1",
     "kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
     "youthall.com/tr/Akcansa/long-term-intern-electrical-electronics-engineer_57",
-    "kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4"
+    "kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4",
+    "unitar.org/vacancy-announcements/traineeship-multilateral-diplomacy-programme-field-visits-and-online-training-programmes/437",
+    "youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320",
+    "kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
+    "youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5",
+    "kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
+    "youthall.com/en/Shell/pioneers-in-progress-long-term-internship-marketing_1319",
+    "kariyerkapisi.gov.tr/IlanDetay?i=39c5ca3c-3571-485b-b226-2ff559360a0a"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
+      "attempts": 0,
+      "caption": "Pioneers In Progress Uzun Dönem Staj Programı\n\nAkaryakıt dışı gelirler ve tedarik zinciri operasyonlarında görev alacak, veri analizi ve raporlama süreçlerine destek verecek uzun dönem stajyer aranıyor.\n\n- Haftada en az 4 gün çalışma imkanı\n- Veri analizi ve raporlama odaklı görevler\n- Yapay zeka araçlarını kullanma fırsatı\n\nSon başvuru: 31 Ekim 2026\nBaşvuru: https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/\nTüm fırsatlar: https://altanfr.github.io/diploport/#d31682b3c6e6\n\nKaynak: Youthall\nGörsel: ‪Salah Darwish / Unsplash\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "d31682b3c6e6",
+      "photo_query": "Ankara city skyline",
+      "title": "Pioneers In Progress Uzun Dönem Staj Programı",
+      "ts": "2026-10-30T09:54:13.331188+00:00"
+    }
+  ],
   "pending": {},
   "published": [],
   "queue": [
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+      "category": "yarisma",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-02",
+      "eligibility_evidence": "Hyundai Motor Türkiye olarak, mimarlık öğrencilerini yaratıcılıklarını ortaya koyabilecekleri, gerçek bir proje deneyimi yaşayabilecekleri ve profesyonellerle bir araya gelebilecekleri mimari tasarım fikir yarışmasına davet ediyoruz.",
+      "fee_required": false,
+      "funding_tr": "Para ödülü (30.000 TL'ye kadar)",
+      "highlights_tr": [
+        "Mimarlık öğrencilerine özel",
+        "30.000 TL'ye varan ödüller",
+        "Hyundai yöneticileriyle tanışma fırsatı"
+      ],
+      "id": "79818efb00a9",
+      "image_queries": [
+        "Istanbul city skyline",
+        "Ankara city skyline",
+        "Turkey landscape"
+      ],
+      "is_opportunity": true,
+      "organization": "Hyundai Motor Türkiye",
+      "queued_at": "2026-10-30T09:53:41.737248+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+      "summary_tr": "Hyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.",
+      "title_tr": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-06",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "6-12 ay süreli profesyonel gelişim",
+        "Haftada en az 3 gün çalışma imkanı",
+        "İzmir'de ikamet zorunluluğu"
+      ],
+      "id": "5a0a979214b0",
+      "image_queries": [
+        "Istanbul skyline"
+      ],
+      "organization": "Bilkom",
+      "queued_at": "2026-10-29T22:56:52.084715+00:00",
+      "source": "Youthall",
+      "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
+      "title_tr": "Bilkom Digital Leader Genç Yetenek Programı",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://unitar.org/vacancy-announcements/traineeship-multilateral-diplomacy-programme-field-visits-and-online-training-programmes/437",
+      "category": "staj",
+      "country_tr": "İsviçre",
+      "deadline": "2026-11-15",
+      "eligibility_evidence": "The UN training program is open to students and recent graduates.",
+      "fee_required": false,
+      "funding_tr": "Aylık 900 CHF ödenek",
+      "highlights_tr": [
+        "Öğrenciler ve yeni mezunlara açık",
+        "Aylık 900 CHF staj ödeneği",
+        "3-12 ay arası program süresi"
+      ],
+      "id": "a65b5a8253e4",
+      "image_queries": [
+        "Geneva city",
+        "modern office building",
+        "research laboratory"
+      ],
+      "is_opportunity": true,
+      "organization": "United Nations Institute for Training and Research",
+      "queued_at": "2026-10-30T09:52:34.261387+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/unitar-field-visits-and-online-training-program/",
+      "summary_tr": "Birleşmiş Milletler Eğitim ve Araştırma Enstitüsü (UNITAR), öğrenciler ve yeni mezunlar için İsviçre'de saha ziyaretleri ve çevrimiçi eğitim içeren profesyonel bir staj programı sunmaktadır.",
+      "title_tr": "UNITAR Saha Ziyaretleri ve Çevrimiçi Eğitim Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
     {
       "apply_link_id": 1,
       "apply_url": "https://summer.epfl.ch/apply.html",
@@ -116,6 +218,37 @@
       "source_url": "https://www.youthall.com/en/Commencis/commencis-cloud-camp-2027_50/",
       "summary_tr": "Commencis tarafından düzenlenen, 6 hafta sürecek AWS sertifikalı uygulamalı bulut teknolojileri eğitim programı.",
       "title_tr": "Commencis Cloud Camp 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://cddrl.fsi.stanford.edu/summerfellows/apply",
+      "category": "diger",
+      "country_tr": "ABD",
+      "deadline": "2027-01-12",
+      "eligibility_evidence": "Participants are selected from a large pool of applicants worldwide.",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek ve ulaşım karşılanır",
+      "highlights_tr": [
+        "En az 10-12 yıl mesleki deneyim şartı",
+        "28 yaş ve üzeri olma zorunluluğu",
+        "İleri düzey İngilizce yeterliliği"
+      ],
+      "id": "90b299851cba",
+      "image_queries": [
+        "Stanford University campus",
+        "USA university library",
+        "modern office building"
+      ],
+      "is_opportunity": true,
+      "organization": "Stanford University",
+      "queued_at": "2026-10-30T00:47:36.381217+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/stanford-fisher-family-summer-fellows-program/",
+      "summary_tr": "Stanford Üniversitesi tarafından düzenlenen, demokrasi ve kalkınma alanında çalışan orta düzey profesyonellere yönelik üç haftalık profesyonel eğitim programıdır.",
+      "title_tr": "Stanford Fisher Family Yaz Bursiyerleri Programı 2027",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
@@ -435,60 +568,6 @@
       "visual_kind": "institution"
     },
     {
-      "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-06",
-      "fee_required": false,
-      "funding_tr": "Ücretli staj",
-      "highlights_tr": [
-        "6-12 ay süreli profesyonel gelişim",
-        "Haftada en az 3 gün çalışma imkanı",
-        "İzmir'de ikamet zorunluluğu"
-      ],
-      "id": "5a0a979214b0",
-      "image_queries": [
-        "Istanbul skyline"
-      ],
-      "organization": "Bilkom",
-      "queued_at": "2026-10-29T22:56:52.084715+00:00",
-      "source": "Youthall",
-      "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
-      "title_tr": "Bilkom Digital Leader Genç Yetenek Programı",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://cddrl.fsi.stanford.edu/summerfellows/apply",
-      "category": "diger",
-      "country_tr": "ABD",
-      "deadline": "2027-01-12",
-      "eligibility_evidence": "Participants are selected from a large pool of applicants worldwide.",
-      "fee_required": false,
-      "funding_tr": "Konaklama, yemek ve ulaşım karşılanır",
-      "highlights_tr": [
-        "En az 10-12 yıl mesleki deneyim şartı",
-        "28 yaş ve üzeri olma zorunluluğu",
-        "İleri düzey İngilizce yeterliliği"
-      ],
-      "id": "90b299851cba",
-      "image_queries": [
-        "Stanford University campus",
-        "USA university library",
-        "modern office building"
-      ],
-      "is_opportunity": true,
-      "organization": "Stanford University",
-      "queued_at": "2026-10-30T00:47:36.381217+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/stanford-fisher-family-summer-fellows-program/",
-      "summary_tr": "Stanford Üniversitesi tarafından düzenlenen, demokrasi ve kalkınma alanında çalışan orta düzey profesyonellere yönelik üç haftalık profesyonel eğitim programıdır.",
-      "title_tr": "Stanford Fisher Family Yaz Bursiyerleri Programı 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
       "apply_url": "https://www.youthall.com/tr/OyakRenault/4-seasons-proje-stajyerligi_61/",
       "category": "staj",
       "country_tr": "Türkiye",
@@ -637,6 +716,109 @@
       "title_tr": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel pozisyonu"
+      ],
+      "icon": "landmark",
+      "id": "ede70dd447b0",
+      "is_opportunity": true,
+      "organization": "ORTA KARADENİZ KALKINMA AJANSI (OKA)",
+      "queued_at": "2026-10-30T09:52:56.332143+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
+      "summary_tr": "Orta Karadeniz Kalkınma Ajansı (OKA) tarafından 2026 yılı için sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Orta Karadeniz Kalkınma Ajansı (OKA) Personel Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "5 uzman personel alımı",
+        "Kariyer Kapısı üzerinden başvuru",
+        "T.C. vatandaşlarına özel"
+      ],
+      "icon": "landmark",
+      "id": "9620e2d42ee9",
+      "is_opportunity": true,
+      "organization": "İSTANBUL KALKINMA AJANSI",
+      "queued_at": "2026-10-30T09:53:48.278118+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
+      "summary_tr": "İstanbul Kalkınma Ajansı bünyesinde sözleşmeli olarak görevlendirilmek üzere 5 uzman personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "İstanbul Kalkınma Ajansı 5 Uzman Personel Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/en/Shell/pioneers-in-progress-long-term-internship-marketing_1319/",
+      "category": "staj",
+      "country_tr": "Belirtilmemiş",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "En az 6 ay çalışma süresi",
+        "İleri seviye İngilizce şartı",
+        "3. veya 4. sınıf öğrencisi ya da yeni mezun"
+      ],
+      "id": "67e3ab3f0174",
+      "is_opportunity": true,
+      "organization": "Youthall",
+      "queued_at": "2026-10-30T09:54:01.733348+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/Shell/pioneers-in-progress-long-term-internship-marketing_1319/",
+      "summary_tr": "Pazarlama alanında deneyim kazanmak isteyen, 3. veya 4. sınıf üniversite öğrencileri veya yeni mezunlar için uzun dönem staj programı.",
+      "title_tr": "Pioneers In Progress Uzun Dönem Pazarlama Stajı",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "İlanın hangi ülkede veya hangi şirket bünyesinde gerçekleştiği belirtilmemiştir.",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=39c5ca3c-3571-485b-b226-2ff559360a0a",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Sözleşmeli personel statüsü",
+        "3 müze görevlisi alımı",
+        "Kariyer Kapısı üzerinden başvuru"
+      ],
+      "icon": "landmark",
+      "id": "597559930cd7",
+      "is_opportunity": true,
+      "organization": "MİLLİ SARAYLAR İDARESİ BAŞKANLIĞI",
+      "queued_at": "2026-10-30T09:54:07.401725+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=39c5ca3c-3571-485b-b226-2ff559360a0a",
+      "summary_tr": "Milli Saraylar İdaresi Başkanlığı bünyesinde sözleşmeli statüde çalışacak 3 müze görevlisi (kazı görevlisi) alımı yapılacaktır.",
+      "title_tr": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Müze Görevlisi Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -657,6 +839,12 @@
       "status": "queued",
       "title": "EPFL Yaz Araştırma Stajı Programı 2027",
       "ts": "2026-10-29T18:25:11.353519+00:00"
+    },
+    "1760f8288825": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Fund for Innovation in Development (FID) Open Call for Proposals 2026: Development Grants for Innovative Solutions in 12",
+      "ts": "2026-10-30T09:53:19.421516+00:00"
     },
     "17bdce05aea2": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -693,6 +881,12 @@
       "status": "queued",
       "title": "Green Games Lab Erasmus+ Eğitim Kursu",
       "ts": "2026-10-29T00:47:04.860429+00:00"
+    },
+    "2397e6feda6a": {
+      "reason": "Türkiye'ye kapalı: Interested candidates from Cambodia, Indonesia, Malaysia, the Philippines, Thailand, and Viet Nam should carefully revie",
+      "status": "rejected",
+      "title": "UNDP Online Volunteer Opportunity 2026: 12 Research Support Positions in Biodiversity and Ecosystem Services Across Sout",
+      "ts": "2026-10-30T09:52:27.706218+00:00"
     },
     "276be86740ef": {
       "reason": "",
@@ -748,6 +942,12 @@
       "title": "Proje Hazırlama Eğitimi (Proje Döngüsü Yönetimi / PCM Eğitimi)",
       "ts": "2026-10-29T00:46:42.757297+00:00"
     },
+    "597559930cd7": {
+      "reason": "",
+      "status": "queued",
+      "title": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Müze Görevlisi Alımı",
+      "ts": "2026-10-30T09:54:07.401739+00:00"
+    },
     "5a0a979214b0": {
       "reason": "",
       "status": "queued",
@@ -772,6 +972,12 @@
       "title": "Sciences Po Mastercard Foundation Scholarship 2027 in France | Fully Funded",
       "ts": "2026-10-29T09:48:29.672159+00:00"
     },
+    "67e3ab3f0174": {
+      "reason": "",
+      "status": "queued",
+      "title": "Pioneers In Progress Uzun Dönem Pazarlama Stajı",
+      "ts": "2026-10-30T09:54:01.733364+00:00"
+    },
     "690b61a17c08": {
       "reason": "",
       "status": "queued",
@@ -783,6 +989,12 @@
       "status": "queued",
       "title": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
       "ts": "2026-10-29T18:26:52.011355+00:00"
+    },
+    "79818efb00a9": {
+      "reason": "",
+      "status": "queued",
+      "title": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
+      "ts": "2026-10-30T09:53:41.737261+00:00"
     },
     "79f8ad5822c1": {
       "reason": "",
@@ -826,6 +1038,12 @@
       "title": "Stanford Fisher Family Yaz Bursiyerleri Programı 2027",
       "ts": "2026-10-30T00:47:36.381229+00:00"
     },
+    "9620e2d42ee9": {
+      "reason": "",
+      "status": "queued",
+      "title": "İstanbul Kalkınma Ajansı 5 Uzman Personel Alımı",
+      "ts": "2026-10-30T09:53:48.278133+00:00"
+    },
     "9e068ebdd446": {
       "reason": "",
       "status": "queued",
@@ -843,6 +1061,12 @@
       "status": "rejected",
       "title": "SDG 6 Fellowship 2027 in UK, Denmark, Malaysia (Fully Funded)",
       "ts": "2026-10-28T20:12:30.075510+00:00"
+    },
+    "a65b5a8253e4": {
+      "reason": "",
+      "status": "queued",
+      "title": "UNITAR Saha Ziyaretleri ve Çevrimiçi Eğitim Programı 2027",
+      "ts": "2026-10-30T09:52:34.261403+00:00"
     },
     "a84f71057241": {
       "reason": "",
@@ -874,6 +1098,12 @@
       "title": "Satış Yöneticisi (Adana)",
       "ts": "2026-10-29T00:47:33.208307+00:00"
     },
+    "b4da40a8d69f": {
+      "reason": "onay kanalı yok: Metinde başvuru için vatandaşlık veya ikamet kısıtlaması olup olmadığı belirtilmemiştir.",
+      "status": "rejected",
+      "title": "Stanford University GLAM Postdoctoral Fellowships 2027–2029: Earn $80,000 Annually with Additional Research Funding",
+      "ts": "2026-10-30T09:53:53.978739+00:00"
+    },
     "c4668d5585a2": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
       "status": "rejected",
@@ -891,6 +1121,12 @@
       "status": "rejected",
       "title": "WHO Summer School 2027 in France",
       "ts": "2026-10-29T00:46:35.432705+00:00"
+    },
+    "d31682b3c6e6": {
+      "reason": "",
+      "status": "queued",
+      "title": "Pioneers In Progress Uzun Dönem Staj Programı",
+      "ts": "2026-10-30T09:52:41.039162+00:00"
     },
     "d3ce9b530538": {
       "reason": "",
@@ -927,6 +1163,12 @@
       "status": "queued",
       "title": "Keyo People Campus Kampüs Temsilciliği Programı",
       "ts": "2026-10-30T00:48:51.158380+00:00"
+    },
+    "ede70dd447b0": {
+      "reason": "",
+      "status": "queued",
+      "title": "Orta Karadeniz Kalkınma Ajansı (OKA) Personel Alımı",
+      "ts": "2026-10-30T09:52:56.332159+00:00"
     },
     "f969288f4d9b": {
       "reason": "son başvuru geçti",
@@ -968,6 +1210,13 @@
     "keyo people campus kampüs temsilciliği programı",
     "orta anadolu kalkınma ajansı personel alımı 2026",
     "elektrik ve elektronik mühendisi uzun dönem stajyeri",
-    "mevlana kalkınma ajansı i nşaat mühendisi alımı"
+    "mevlana kalkınma ajansı i nşaat mühendisi alımı",
+    "unitar saha ziyaretleri ve çevrimiçi eğitim programı 2027",
+    "pioneers in progress uzun dönem staj programı",
+    "orta karadeniz kalkınma ajansı oka personel alımı",
+    "hyundai ideathon mimari tasarım fikir yarışması",
+    "i stanbul kalkınma ajansı 5 uzman personel alımı",
+    "pioneers in progress uzun dönem pazarlama stajı",
+    "milli saraylar i daresi başkanlığı sözleşmeli müze görevlisi alımı"
   ]
 }
