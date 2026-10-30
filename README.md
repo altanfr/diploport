@@ -12,7 +12,7 @@ GitHub Actions (ücretsiz, her 3 saatte bir)
  ├─ 5. Kotaya göre günde en fazla 2 ilan: Diploport şablonuyla 1080×1350 JPEG kart üret.
  │      Arka plan: Gemini'nin ilana özel verdiği İngilizce sorgularla Unsplash'tan (yedek: Pexels) otomatik stok fotoğraf
  │      (sorgu sonuçsuzsa kategoriye göre genel arama; hiçbiri yoksa şablonun düz hâli)
- ├─ 6. Siteye ekle (docs/posts.json) → GitHub Pages
+ ├─ 6. Siteye ekle (docs/posts.json + küçük kart görseli) → GitHub Pages; ana sayfada kartlar yana kayar
  └─ 7. Görsel yayına girince Make webhook'u → Instagram'a paylaş
 ```
 

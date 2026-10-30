@@ -866,3 +866,25 @@ def test_site_logo_tries_www_variant_and_takes_the_pages_own_header_logo_first(m
     monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: square if "logo.png" in url else None)
     assert ov.site_logo("Orta Anadolu Kalkınma Ajansı", "https://oran.org.tr/")["bytes"] == square
     assert ov.site_logo("Orta Anadolu Kalkınma Ajansı", "") is None
+
+
+def test_site_thumb_and_prune(tmp_path):
+    """add_post küçük görseli üretir; prune_images yayında olmayan görselleri ve küçüklerini siler."""
+    from PIL import Image
+
+    from diploport import site, util
+
+    img_dir = util.DOCS_DIR / "images"
+    for pid in ("a1", "b2"):
+        Image.new("RGB", (1080, 1350), (30, 44, 85)).save(img_dir / f"{pid}.jpg", "JPEG")
+    post = {"id": "a1", "title_tr": "T", "category": "burs", "apply_url": "https://x.org"}
+    site.add_post(post)
+    entry = site.load_posts()[0]
+    assert entry["thumb"] == "images/t/a1.jpg" and (util.DOCS_DIR / entry["thumb"]).exists()
+    (img_dir / "t").mkdir(exist_ok=True)
+    Image.new("RGB", (540, 675)).save(img_dir / "t" / "b2.jpg", "JPEG")
+    assert site.prune_images() == 2                        # b2.jpg ve b2'nin küçük sürümü
+    assert (img_dir / "a1.jpg").exists() and not (img_dir / "b2.jpg").exists() and not (img_dir / "t" / "b2.jpg").exists()
+    # görsel yoksa ilan yine yayımlanır, sadece thumb alanı olmaz
+    site.add_post({"id": "c3", "title_tr": "U", "category": "staj", "apply_url": "https://y.org"})
+    assert "thumb" not in site.load_posts()[0]

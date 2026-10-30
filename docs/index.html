@@ -2,34 +2,89 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Diploport · Türk gençleri için burs, staj ve fırsatlar</title>
-<meta name="description" content="Türkiye'den başvurulabilen burs, staj, gönüllülük ve eğitim fırsatları. Resmî başvuru linkleriyle, her gün güncellenir.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%2314224F%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%276%27 fill=%27%23F5B83D%27/%3E%3C/svg%3E">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diploport | Burs, staj ve gönüllülük ilanları</title>
+<meta name="description" content="Türkiye'den başvurulabilen burs, staj, gönüllülük ve eğitim ilanları. Her ilan resmî başvuru sayfasına bağlanır.">
+<meta name="theme-color" content="#1E2C55">
+<link rel="canonical" href="https://diploport.dev/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="Diploport">
+<meta property="og:title" content="Diploport | Burs, staj ve gönüllülük ilanları">
+<meta property="og:description" content="Türkiye'den başvurulabilen burs, staj, gönüllülük ve eğitim ilanları.">
+<meta property="og:url" content="https://diploport.dev/">
+<meta property="og:image" content="https://diploport.dev/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/poppins-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
-    <a class="brand" href="./"><span class="dot"></span>diploport</a>
-    <p class="tag">Türkiye'den başvurulabilen burs, staj, gönüllülük ve eğitim fırsatları</p>
+<a class="skip" href="#liste">İlanlara geç</a>
+
+<header class="bar">
+  <div class="wrap bar-in">
+    <a class="logo" href="./" aria-label="Diploport ana sayfa"><img src="logo-wordmark.png" width="340" height="79" alt="Diploport"></a>
+    <a class="ig" id="ig" href="https://instagram.com/diploport.tr" rel="noopener">Instagram</a>
   </div>
 </header>
 
-<main class="wrap">
-  <div class="controls">
-    <input id="q" type="search" placeholder="Ara: ülke, kurum, konu..." aria-label="Ara">
-    <div id="chips" class="chips" role="group" aria-label="Kategori"></div>
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <h1>Başvurabileceğin burs, staj ve gönüllülük ilanları</h1>
+      <p>Hepsi Türkiye'den başvuruya açık. Her ilan, resmî başvuru sayfasına bağlanır.</p>
+    </div>
+    <div class="rail" id="rail" hidden>
+      <div class="rail-view" id="railView" role="region" aria-roledescription="kaydırılabilir galeri" aria-label="Son eklenen ilanlar" tabindex="-1">
+        <ul class="rail-track" id="railTrack"></ul>
+      </div>
+      <div class="rail-foot">
+        <div class="rail-line" aria-hidden="true"><span id="railThumb"></span></div>
+        <div class="rail-btns">
+          <button type="button" class="rbtn" id="prev" aria-label="Önceki ilan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button type="button" class="rbtn" id="next" aria-label="Sonraki ilan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="soon" id="soon" hidden>
+      <p class="soon-t">İlk ilanlar çok yakında burada.</p>
+      <p class="soon-s">Yeni ilanları önce Instagram'da paylaşıyoruz.</p>
+      <a class="soon-a" id="soonIg" href="https://instagram.com/diploport.tr" rel="noopener">Instagram'da takip et</a>
+    </div>
   </div>
-  <p id="count" class="count" aria-live="polite"></p>
-  <section id="list" class="list"></section>
-  <p id="empty" class="empty" hidden>Henüz gösterilecek fırsat yok. Yakında yeni ilanlar eklenecek.</p>
+</section>
+
+<main id="liste" class="main" tabindex="-1">
+  <div class="wrap searchbox" id="searchBox" hidden>
+    <form class="search" role="search" onsubmit="return false">
+      <label class="sr" for="q">İlanlarda ara</label>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input id="q" type="search" placeholder="Ülke, kurum veya konu ara" autocomplete="off" enterkeyhint="search">
+    </form>
+  </div>
+  <nav class="tabs" id="tabsNav" aria-label="Kategori" hidden>
+    <div class="wrap"><div class="tabs-in" id="tabs" role="group"></div></div>
+  </nav>
+
+  <div class="wrap">
+    <p class="count" id="count" aria-live="polite"></p>
+    <ul class="list" id="list"></ul>
+    <div class="none" id="none" hidden>
+      <p>Aramanla eşleşen ilan yok.</p>
+      <button type="button" id="clear">Filtreleri temizle</button>
+    </div>
+  </div>
 </main>
 
-<footer class="wrap foot">
-  <p>Her ilan resmî başvuru sayfasına bağlanır. Başvurmadan önce şartları kaynağında doğrula.</p>
-  <p><a href="https://instagram.com/" id="ig" rel="noopener">Instagram'da takip et</a></p>
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p>Başvurmadan önce şartları resmî sayfada doğrula.</p>
+    <a id="ig2" href="https://instagram.com/diploport.tr" rel="noopener">@diploport.tr</a>
+  </div>
 </footer>
-<script src="app.js"></script>
+<script src="app.js" defer></script>
 </body>
 </html>

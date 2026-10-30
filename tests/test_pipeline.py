@@ -56,6 +56,11 @@ def test_eligible_item_flows_to_site_and_outbox(world, cfg):
     assert img.exists() and img.read_bytes()[:3] == b"\xff\xd8\xff"          # gerçek JPEG
     posts = json.loads((docs / "posts.json").read_text())
     assert posts[0]["apply_url"] == "https://www2.daad.de/deutschland/studienangebote/"   # aggregator linki DEĞİL
+    thumb = docs / posts[0]["thumb"]                                          # sitedeki kayan kartlar için küçük sürüm
+    assert thumb.exists() and thumb.stat().st_size < img.stat().st_size
+    from PIL import Image
+    with Image.open(thumb) as im:
+        assert im.width == 540 and im.height == 675
     assert "opportunitiescorners" not in posts[0]["apply_url"]
     ob = st["outbox"][0]
     assert "Başvuru: https://www2.daad.de" in ob["caption"]

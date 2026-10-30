@@ -1,82 +1,293 @@
 (function () {
-  const CATS = { burs: "Burs", staj: "Staj", is: "İş", gonulluluk: "Gönüllülük", egitim: "Eğitim", yarisma: "Yarışma", hibe: "Hibe", diger: "Fırsat" };
-  const MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
-  const $ = (id) => document.getElementById(id);
-  let posts = [], cat = "all";
+  "use strict";
 
-  function el(tag, props, children) {
-    const n = document.createElement(tag);
-    Object.assign(n, props || {});
-    (children || []).forEach((c) => n.append(c));
+  var CATS = { burs: "Burs", staj: "Staj", is: "İş", gonulluluk: "Gönüllülük", egitim: "Eğitim", yarisma: "Yarışma", hibe: "Hibe", diger: "Fırsat" };
+  var ORDER = ["burs", "staj", "is", "gonulluluk", "egitim", "yarisma", "hibe", "diger"];
+  var MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
+  var SHORT = ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"];
+  var RAIL_MAX = 12;
+  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  var $ = function (id) { return document.getElementById(id); };
+  var posts = [], cat = "all", query = "";
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
     return n;
   }
-  function fmt(iso) { const [y, m, d] = iso.split("-").map(Number); return d + " " + MONTHS[m - 1] + " " + y; }
+  function fold(s) {
+    return String(s || "").toLocaleLowerCase("tr").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ı/g, "i");
+  }
+  function parts(iso) { var a = iso.split("-").map(Number); return { y: a[0], m: a[1], d: a[2] }; }
   function daysLeft(iso) {
-    const t = new Date(); t.setHours(0, 0, 0, 0);
-    const [y, m, d] = iso.split("-").map(Number);
-    return Math.round((new Date(y, m - 1, d) - t) / 86400000);
+    var t = new Date(); t.setHours(0, 0, 0, 0);
+    var p = parts(iso);
+    return Math.round((new Date(p.y, p.m - 1, p.d) - t) / 86400000);
+  }
+  function longDate(iso) { var p = parts(iso); return p.d + " " + MONTHS[p.m - 1] + " " + p.y; }
+  function leftText(n) { return n === 0 ? "Bugün son gün" : n === 1 ? "Yarın son gün" : n + " gün kaldı"; }
+  function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
+  function smooth() { return reduceMotion ? "auto" : "smooth"; }
+
+  /* ---------- Liste ---------- */
+
+  function chevron() {
+    var ns = "http://www.w3.org/2000/svg";
+    var s = document.createElementNS(ns, "svg");
+    s.setAttribute("viewBox", "0 0 24 24");
+    s.setAttribute("class", "v");
+    s.setAttribute("aria-hidden", "true");
+    var p = document.createElementNS(ns, "path");
+    p.setAttribute("d", "M6 9l6 6 6-6");
+    s.appendChild(p);
+    return s;
   }
 
-  function card(p) {
-    const left = p.deadline ? daysLeft(p.deadline) : null;
-    const item = el("article", { className: "item", id: p.id });
-    item.style.setProperty("--c", "var(--" + (CATS[p.category] ? p.category : "diger") + ")");
-    const meta = el("div", { className: "meta" }, [el("span", { className: "pill", textContent: CATS[p.category] || "Fırsat" })]);
-    if (p.country_tr) meta.append(el("span", { textContent: p.country_tr }));
-    if (p.organization) meta.append(el("span", { textContent: p.organization }));
-    item.append(meta, el("h2", { textContent: p.title_tr }), el("p", { textContent: p.summary_tr }));
-    if (p.highlights_tr && p.highlights_tr.length) {
-      item.append(el("ul", {}, p.highlights_tr.map((h) => el("li", { textContent: h }))));
-    }
-    const dl = el("p", {});
+  function dateBlock(p) {
+    var box = el("div", "d");
     if (p.deadline) {
-      const soon = left <= 7;
-      dl.append("Son başvuru: ", el("span", { className: "deadline" + (soon ? " soon" : ""), textContent: fmt(p.deadline) + (left >= 0 ? " (" + (left === 0 ? "bugün" : left + " gün kaldı") + ")" : "") }));
+      var pr = parts(p.deadline);
+      box.appendChild(el("b", "", String(pr.d)));
+      box.appendChild(el("span", "", SHORT[pr.m - 1]));
+      var left = daysLeft(p.deadline);
+      if (left <= 7) box.classList.add("soon7");
+      box.setAttribute("role", "img");
+      box.setAttribute("aria-label", "Son başvuru " + longDate(p.deadline));
     } else {
-      dl.append("Son başvuru: ", el("span", { className: "deadline", textContent: "belirtilmemiş / açık başvuru" }));
+      box.classList.add("open");
+      box.appendChild(el("b", "", "Açık"));
+      box.setAttribute("role", "img");
+      box.setAttribute("aria-label", "Son başvuru tarihi belirtilmemiş");
     }
-    item.append(dl);
-    const a = el("a", { className: "apply", href: p.apply_url, target: "_blank", rel: "noopener noreferrer", textContent: "Resmî sayfada başvur" });
-    item.append(a, el("span", { className: "src", textContent: "Kaynak: " + p.source }));
-    return item;
+    return box;
+  }
+
+  function panel(p) {
+    var box = el("div", "more");
+    box.appendChild(el("p", "sum", p.summary_tr || ""));
+    if (p.highlights_tr && p.highlights_tr.length) {
+      var ul = el("ul");
+      p.highlights_tr.forEach(function (h) { ul.appendChild(el("li", "", h)); });
+      box.appendChild(ul);
+    }
+    var dl = el("dl", "facts");
+    function fact(k, v) { dl.appendChild(el("dt", "", k)); dl.appendChild(el("dd", "", v)); }
+    fact("Son başvuru", p.deadline ? longDate(p.deadline) : "Belirtilmemiş, açık başvuru");
+    if (p.funding_tr && !/^belirtilmemi/i.test(p.funding_tr)) fact("Destek", p.funding_tr);
+    if (p.fee_required) fact("Ücret", "Başvuru için ücret var");
+    box.appendChild(dl);
+    var url = safeUrl(p.apply_url);
+    if (url) {
+      var a = el("a", "go", "Resmî sayfada başvur");
+      a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      box.appendChild(a);
+    }
+    if (p.source) box.appendChild(el("p", "src", "Kaynak: " + p.source));
+    return box;
+  }
+
+  function item(p) {
+    var li = el("li", "item");
+    li.id = p.id;
+    var row = el("button", "row");
+    row.type = "button";
+    row.setAttribute("aria-expanded", "false");
+    var pid = "more-" + p.id;
+    row.setAttribute("aria-controls", pid);
+
+    var t = el("div", "t");
+    t.appendChild(el("h3", "", p.title_tr));
+    if (p.organization) t.appendChild(el("p", "", p.organization));
+
+    var m = el("div", "m");
+    if (p.country_tr) m.appendChild(el("span", "c", p.country_tr));
+    m.appendChild(el("span", "k", CATS[p.category] || CATS.diger));
+    if (p.deadline) {
+      var left = daysLeft(p.deadline);
+      m.appendChild(el("span", left <= 7 ? "l left" : "l", leftText(left)));
+    }
+    row.append(dateBlock(p), t, m, chevron());
+    li.appendChild(row);
+
+    var more = panel(p);
+    more.id = pid;
+    more.hidden = true;
+    li.appendChild(more);
+    row.addEventListener("click", function () { toggle(li, row.getAttribute("aria-expanded") !== "true"); });
+    return li;
+  }
+
+  function toggle(li, open) {
+    var list = $("list");
+    list.querySelectorAll('.row[aria-expanded="true"]').forEach(function (r) {
+      if (r.parentNode !== li) {
+        r.setAttribute("aria-expanded", "false");
+        r.parentNode.querySelector(".more").hidden = true;
+      }
+    });
+    li.querySelector(".row").setAttribute("aria-expanded", String(open));
+    li.querySelector(".more").hidden = !open;
+  }
+
+  function matches(p) {
+    if (cat !== "all" && p.category !== cat) return false;
+    if (!query) return true;
+    var hay = fold([p.title_tr, p.summary_tr, p.country_tr, p.organization, CATS[p.category], (p.highlights_tr || []).join(" ")].join(" "));
+    return query.split(/\s+/).every(function (w) { return hay.indexOf(w) !== -1; });
   }
 
   function render() {
-    const q = $("q").value.trim().toLocaleLowerCase("tr");
-    const list = $("list");
+    var list = $("list");
     list.replaceChildren();
-    const shown = posts.filter((p) => {
-      if (cat !== "all" && p.category !== cat) return false;
-      if (!q) return true;
-      return [p.title_tr, p.summary_tr, p.country_tr, p.organization].join(" ").toLocaleLowerCase("tr").includes(q);
-    });
-    shown.forEach((p) => list.append(card(p)));
-    $("count").textContent = shown.length + " fırsat";
-    $("empty").hidden = posts.length > 0;
-    if (location.hash) { const t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); }
+    var shown = posts.filter(matches);
+    shown.forEach(function (p) { list.appendChild(item(p)); });
+    $("count").textContent = shown.length ? shown.length + " ilan" : "";
+    $("none").hidden = shown.length > 0;
+    list.hidden = shown.length === 0;
   }
 
-  function chips() {
-    const present = ["all"].concat(Object.keys(CATS).filter((k) => posts.some((p) => p.category === k)));
-    $("chips").replaceChildren(...present.map((k) => {
-      const b = el("button", { className: "chip", type: "button", textContent: k === "all" ? "Tümü" : CATS[k] });
+  function tabs() {
+    var present = ["all"].concat(ORDER.filter(function (k) { return posts.some(function (p) { return p.category === k; }); }));
+    $("tabs").replaceChildren.apply($("tabs"), present.map(function (k) {
+      var b = el("button", "tab", k === "all" ? "Tümü" : CATS[k]);
+      b.type = "button";
       b.setAttribute("aria-pressed", String(k === cat));
-      b.addEventListener("click", () => { cat = k; chips(); render(); });
+      b.addEventListener("click", function () {
+        cat = k; tabs(); render();
+        var nav = $("tabsNav");
+        if (nav.getBoundingClientRect().top <= 1) $("count").scrollIntoView({ block: "start" });
+      });
       return b;
     }));
+    var sel = $("tabs").querySelector('[aria-pressed="true"]');
+    if (sel && sel.scrollIntoView) { var box = $("tabs"); box.scrollLeft = Math.max(0, sel.offsetLeft - 24); }
   }
 
-  fetch("posts.json", { cache: "no-cache" })
-    .then((r) => (r.ok ? r.json() : []))
-    .catch(() => [])
-    .then((data) => {
-      const today = new Date().toISOString().slice(0, 10);
-      // Süresi geçenleri gizle
-      posts = data.filter((p) => !p.deadline || p.deadline >= today);
-      chips(); render();
+  function openPost(id, fromHash) {
+    var target = document.getElementById(id);
+    if (!target || !target.classList.contains("item")) {
+      if (!posts.some(function (p) { return p.id === id; })) return;
+      cat = "all"; query = ""; $("q").value = "";
+      tabs(); render();
+      target = document.getElementById(id);
+      if (!target) return;
+    }
+    toggle(target, true);
+    if (history.replaceState) history.replaceState(null, "", "#" + id);
+    target.scrollIntoView({ behavior: fromHash ? "auto" : smooth(), block: "start" });
+  }
+
+  /* ---------- Kayan kartlar ---------- */
+
+  function rail() {
+    var withImg = posts.filter(function (p) { return p.thumb || p.image; }).slice(0, RAIL_MAX);
+    var wrap = $("rail");
+    if (!withImg.length) return;
+    var track = $("railTrack"), view = $("railView"), thumb = $("railThumb"), line = thumb.parentNode;
+
+    withImg.forEach(function (p, i) {
+      var li = el("li", "slide");
+      var a = el("a");
+      a.href = "#" + p.id;
+      a.setAttribute("aria-label", p.title_tr);
+      var img = el("img");
+      img.src = p.thumb || p.image;
+      img.width = 540; img.height = 675;
+      img.alt = "";
+      img.decoding = "async";
+      if (i > 2) img.loading = "lazy";
+      a.appendChild(img);
+      a.addEventListener("click", function (e) { e.preventDefault(); openPost(p.id); });
+      li.appendChild(a);
+      track.appendChild(li);
     });
-  $("q").addEventListener("input", render);
-  fetch("site.json").then((r) => (r.ok ? r.json() : null)).then((c) => {
-    if (c && c.instagram) $("ig").href = c.instagram; else $("ig").hidden = true;
-  }).catch(() => { $("ig").hidden = true; });
+    wrap.hidden = false;
+
+    var slides = Array.prototype.slice.call(track.children);
+    function maxScroll() { return view.scrollWidth - view.clientWidth; }
+    function slideLeft(i) { return slides[i].offsetLeft - slides[0].offsetLeft; }
+    function current() {
+      var best = 0, d = Infinity;
+      for (var i = 0; i < slides.length; i++) {
+        var x = Math.abs(slideLeft(i) - view.scrollLeft);
+        if (x < d) { d = x; best = i; }
+      }
+      return best;
+    }
+    function goto(i) {
+      i = Math.max(0, Math.min(slides.length - 1, i));
+      view.scrollTo({ left: Math.min(slideLeft(i), maxScroll()), behavior: smooth() });
+    }
+
+    var frame = 0;
+    function paint() {
+      frame = 0;
+      var total = view.scrollWidth, shown = view.clientWidth;
+      var ratio = total > 0 ? Math.min(1, shown / total) : 1;
+      var travel = line.clientWidth * (1 - ratio);
+      var p = maxScroll() > 0 ? view.scrollLeft / maxScroll() : 0;
+      thumb.style.transform = "translateX(" + (travel * p).toFixed(1) + "px) scaleX(" + ratio.toFixed(4) + ")";
+    }
+    function queuePaint() { if (!frame) frame = requestAnimationFrame(paint); }
+    view.addEventListener("scroll", queuePaint, { passive: true });
+    window.addEventListener("resize", queuePaint);
+    paint();
+
+    $("prev").addEventListener("click", function () { pause(10000); goto(current() - 1); });
+    $("next").addEventListener("click", function () { pause(10000); goto(current() + 1); });
+
+    /* Kendiliğinden ilerleme: dokunma, fare üstünde, odak ve görünmeyen sekmede durur. */
+    var holdUntil = 0, hovering = false, focused = false, visible = true;
+    function pause(ms) { holdUntil = Date.now() + ms; }
+    ["pointerdown", "touchstart", "wheel", "keydown"].forEach(function (ev) {
+      view.addEventListener(ev, function () { pause(9000); }, { passive: true });
+    });
+    wrap.addEventListener("mouseenter", function () { hovering = true; });
+    wrap.addEventListener("mouseleave", function () { hovering = false; });
+    wrap.addEventListener("focusin", function () { focused = true; });
+    wrap.addEventListener("focusout", function () { focused = false; });
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(function (es) { visible = es[0].isIntersecting; }, { threshold: 0.4 }).observe(wrap);
+    }
+    if (!reduceMotion && slides.length > 1) {
+      setInterval(function () {
+        if (document.hidden || hovering || focused || !visible || Date.now() < holdUntil) return;
+        if (maxScroll() < 4) return;
+        if (view.scrollLeft >= maxScroll() - 4) view.scrollTo({ left: 0, behavior: "smooth" });
+        else goto(current() + 1);
+      }, 4200);
+    }
+  }
+
+  /* ---------- Başlangıç ---------- */
+
+  function links(cfg) {
+    var url = cfg && cfg.instagram;
+    ["ig", "ig2", "soonIg"].forEach(function (id) {
+      var a = $(id);
+      if (!a) return;
+      if (url) a.href = url;
+    });
+  }
+
+  function start(data) {
+    var today = new Date().toISOString().slice(0, 10);
+    posts = (Array.isArray(data) ? data : []).filter(function (p) { return p && p.id && (!p.deadline || p.deadline >= today); });
+    if (!posts.length) { $("soon").hidden = false; $("liste").hidden = true; return; }
+    $("searchBox").hidden = false;
+    $("tabsNav").hidden = false;
+    tabs(); render(); rail();
+    if (location.hash.length > 1) openPost(decodeURIComponent(location.hash.slice(1)), true);
+  }
+
+  $("q").addEventListener("input", function () { query = fold(this.value).trim(); render(); });
+  $("clear").addEventListener("click", function () { cat = "all"; query = ""; $("q").value = ""; tabs(); render(); });
+
+  fetch("site.json").then(function (r) { return r.ok ? r.json() : null; }).then(links).catch(function () {});
+  fetch("posts.json", { cache: "no-cache" })
+    .then(function (r) { return r.ok ? r.json() : []; })
+    .catch(function () { return []; })
+    .then(start);
 })();
