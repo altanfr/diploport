@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+    "category": "yarisma",
+    "country_tr": "Türkiye",
+    "deadline": "2026-11-02",
+    "fee_required": false,
+    "funding_tr": "Para ödülü (30.000 TL'ye kadar)",
+    "highlights_tr": [
+      "Mimarlık öğrencilerine özel",
+      "30.000 TL'ye varan ödüller",
+      "Hyundai yöneticileriyle tanışma fırsatı"
+    ],
+    "id": "79818efb00a9",
+    "image": "images/79818efb00a9.jpg",
+    "organization": "Hyundai Motor Türkiye",
+    "published_at": "2026-10-30T17:59:13.623437+00:00",
+    "source": "Youthall",
+    "summary_tr": "Hyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.",
+    "title_tr": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması"
+  },
+  {
     "apply_url": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
     "category": "staj",
     "country_tr": "Türkiye",

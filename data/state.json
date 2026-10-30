@@ -33,7 +33,13 @@
     "youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5",
     "kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
     "youthall.com/en/Shell/pioneers-in-progress-long-term-internship-marketing_1319",
-    "kariyerkapisi.gov.tr/IlanDetay?i=39c5ca3c-3571-485b-b226-2ff559360a0a"
+    "kariyerkapisi.gov.tr/IlanDetay?i=39c5ca3c-3571-485b-b226-2ff559360a0a",
+    "faspe-ethics.org/how-to-apply",
+    "salto-youth.net/tools/european-training-calendar/training/the-playbook-for-inclusion-socio-sports-leadership.15414",
+    "youthall.com/en/boehringeringelheim/hr-intern_60",
+    "kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
+    "estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37492?keyword=internship&location=Thailand&locationId=300000000447010&locationLevel=country&mode=location",
+    "youthall.com/tr/Henkel/step-up-inclusive-engelli-bireylere-ozel_28"
   ],
   "outbox": [
     {
@@ -44,42 +50,20 @@
       "photo_query": "Ankara city skyline",
       "title": "Pioneers In Progress Uzun Dönem Staj Programı",
       "ts": "2026-10-30T09:54:13.331188+00:00"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+      "attempts": 0,
+      "caption": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması\n\nHyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.\n\n- Mimarlık öğrencilerine özel\n- 30.000 TL'ye varan ödüller\n- Hyundai yöneticileriyle tanışma fırsatı\n\nSon başvuru: 2 Kasım 2026\nBaşvuru: https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/\nTüm fırsatlar: https://altanfr.github.io/diploport/#79818efb00a9\n\nKaynak: Youthall\nGörsel: selcuk sarikoz / Unsplash\n\n#diploport #fırsat #türkgençler #yarışma #ödül #gençler",
+      "id": "79818efb00a9",
+      "photo_query": "Istanbul city skyline",
+      "title": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
+      "ts": "2026-10-30T17:59:13.624332+00:00"
     }
   ],
   "pending": {},
   "published": [],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
-      "category": "yarisma",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-02",
-      "eligibility_evidence": "Hyundai Motor Türkiye olarak, mimarlık öğrencilerini yaratıcılıklarını ortaya koyabilecekleri, gerçek bir proje deneyimi yaşayabilecekleri ve profesyonellerle bir araya gelebilecekleri mimari tasarım fikir yarışmasına davet ediyoruz.",
-      "fee_required": false,
-      "funding_tr": "Para ödülü (30.000 TL'ye kadar)",
-      "highlights_tr": [
-        "Mimarlık öğrencilerine özel",
-        "30.000 TL'ye varan ödüller",
-        "Hyundai yöneticileriyle tanışma fırsatı"
-      ],
-      "id": "79818efb00a9",
-      "image_queries": [
-        "Istanbul city skyline",
-        "Ankara city skyline",
-        "Turkey landscape"
-      ],
-      "is_opportunity": true,
-      "organization": "Hyundai Motor Türkiye",
-      "queued_at": "2026-10-30T09:53:41.737248+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
-      "summary_tr": "Hyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.",
-      "title_tr": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
     {
       "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
       "category": "staj",
@@ -136,6 +120,37 @@
     },
     {
       "apply_link_id": 1,
+      "apply_url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37492/?keyword=internship&location=Thailand&locationId=300000000447010&locationLevel=country&mode=location",
+      "category": "staj",
+      "country_tr": "Tayland",
+      "deadline": "2026-11-16",
+      "eligibility_evidence": "Applications are open to currently enrolled bachelor’s and master’s degree students, as well as recent graduates who have completed their bachelor’s or master’s degree within the past year.",
+      "fee_required": false,
+      "funding_tr": "Aylık 8302 THB maaş",
+      "highlights_tr": [
+        "6 ay süreli ücretli staj",
+        "Lisans/yüksek lisans öğrencisi veya yeni mezun",
+        "İletişim ve sosyal medya deneyimi"
+      ],
+      "id": "5ee0d91f06c3",
+      "image_queries": [
+        "Bangkok city skyline",
+        "modern office building",
+        "research laboratory"
+      ],
+      "is_opportunity": true,
+      "organization": "United Nations Development Programme (UNDP)",
+      "queued_at": "2026-10-30T17:58:47.334425+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/undp-internship-2027-in-bangkok/",
+      "summary_tr": "UNDP Tayland ofisinde 6 ay sürecek, iletişim ve sosyal medya içerik üretimi odaklı ücretli staj programı.",
+      "title_tr": "UNDP Tayland İletişim Stajı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
       "apply_url": "https://summer.epfl.ch/apply.html",
       "category": "staj",
       "country_tr": "İsviçre",
@@ -162,6 +177,37 @@
       "summary_tr": "İsviçre'deki EPFL bünyesinde bilgisayar ve iletişim bilimleri alanında lisans ve yüksek lisans öğrencilerine yönelik 3 aylık tam burslu yaz araştırma stajı.",
       "title_tr": "EPFL Yaz Araştırma Stajı Programı 2027",
       "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/the-playbook-for-inclusion-socio-sports-leadership.15414/",
+      "category": "egitim",
+      "country_tr": "İspanya",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Türkiye, başvuruya açık ülkeler arasında yer alıyor.",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
+      "highlights_tr": [
+        "Tarih: 8-15 Ocak 2027",
+        "Genç eğitmenler ve STK temsilcileri için",
+        "Spor yoluyla sosyal kapsayıcılık odaklı"
+      ],
+      "id": "91ce4022bba5",
+      "image_queries": [
+        "Llinars del Valles Spain",
+        "Spain outdoor sports training",
+        "group of people playing sports outdoors"
+      ],
+      "is_opportunity": true,
+      "organization": "Erasmus+",
+      "queued_at": "2026-10-30T17:58:03.824519+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/ispanya-llinars-del-valles-7-gun-erasmus-projesi/",
+      "summary_tr": "İspanya'nın Llinars del Vallès kentinde düzenlenecek olan, spor yoluyla sosyal kapsayıcılık ve liderlik becerilerini geliştirmeyi hedefleyen Erasmus+ eğitim kursu.",
+      "title_tr": "İspanya'da Erasmus+ Eğitim Kursu: Sosyal Kapsayıcılık ve Spor",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
       "visual_kind": "scene"
     },
     {
@@ -221,6 +267,32 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.faspe-ethics.org/how-to-apply/",
+      "category": "egitim",
+      "country_tr": "Almanya ve Polonya",
+      "deadline": "2027-01-03",
+      "eligibility_evidence": "The Fellowship is open to enrolled students, recent graduates, and early career professionals from around the world.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (Ulaşım, konaklama ve yemekler dahil)",
+      "highlights_tr": [
+        "Tam burslu (uçak, konaklama, yemek dahil)",
+        "Öğrenciler ve genç profesyonellere açık",
+        "Berlin ve Polonya'da 2 haftalık program"
+      ],
+      "id": "f8ca5d4840e8",
+      "is_opportunity": true,
+      "organization": "Fellowships at Auschwitz for the Study of Professional Ethics (FASPE)",
+      "queued_at": "2026-10-30T17:57:56.413322+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/faspe-fellowship-2027/",
+      "summary_tr": "FASPE Fellowship, öğrencilerin ve genç profesyonellerin mesleki etik sorumluluklarını tarihsel perspektifle inceledikleri, Berlin ve Polonya'da gerçekleşen iki haftalık tam burslu bir eğitim programıdır.",
+      "title_tr": "FASPE Fellowship 2027: Berlin ve Polonya'da Etik Çalışma Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -819,6 +891,80 @@
       "title_tr": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Müze Görevlisi Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/en/boehringeringelheim/hr-intern_60/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Haftada 5 gün tam zamanlı çalışma",
+        "İlgili bölümlerden öğrenci veya mezun",
+        "İyi seviyede İngilizce bilgisi"
+      ],
+      "id": "4964de0862b8",
+      "is_opportunity": true,
+      "organization": "Boehringer Ingelheim",
+      "queued_at": "2026-10-30T17:58:24.737715+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/boehringeringelheim/hr-intern_60/",
+      "summary_tr": "Boehringer Ingelheim, İnsan Kaynakları süreçlerinde görev alacak, analitik düşünme becerisine sahip, haftada 5 gün çalışabilecek stajyer arıyor.",
+      "title_tr": "Boehringer Ingelheim İnsan Kaynakları Stajyeri",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli bilişim personeli pozisyonu"
+      ],
+      "icon": "landmark",
+      "id": "3ba044acba21",
+      "is_opportunity": true,
+      "organization": "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+      "queued_at": "2026-10-30T17:58:40.039148+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
+      "summary_tr": "Burdur Mehmet Akif Ersoy Üniversitesi Rektörlüğü bünyesinde çalıştırılmak üzere sözleşmeli bilişim personeli alımı yapılacaktır.",
+      "title_tr": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Henkel/step-up-inclusive-engelli-bireylere-ozel_28/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "En az %40 engel seviyesine sahip olma şartı",
+        "Lisans veya yüksek lisans öğrencisi olma",
+        "Haftada en az 2 gün çalışma imkanı"
+      ],
+      "id": "fa6ef29ed62d",
+      "is_opportunity": true,
+      "organization": "Henkel",
+      "queued_at": "2026-10-30T17:59:09.660339+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/Henkel/step-up-inclusive-engelli-bireylere-ozel_28/",
+      "summary_tr": "Henkel'in engelli bireylere özel uzun dönemli staj programı; İstanbul, Ankara ve Dilovası'ndaki lokasyonlarda öğrencilere profesyonel iş deneyimi ve gelişim fırsatı sunuyor.",
+      "title_tr": "Henkel Step Up Inclusive Uzun Dönemli Staj Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -912,6 +1058,12 @@
       "title": "Sosyal Duygusal Öğrenme Uzmanlık Programı Farkındalık Eğitimi",
       "ts": "2026-10-29T23:04:17.957151+00:00"
     },
+    "3ba044acba21": {
+      "reason": "",
+      "status": "queued",
+      "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli",
+      "ts": "2026-10-30T17:58:40.039165+00:00"
+    },
     "3c5f9496a75e": {
       "reason": "sadece öğretmenlere yönelik",
       "status": "rejected",
@@ -936,6 +1088,24 @@
       "title": "İtalyanca Konuşma Kulübü Katılımcı Çağrısı",
       "ts": "2026-10-30T00:47:43.767471+00:00"
     },
+    "4223ff6f1eae": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "İspanya’da Erasmus+ Eğitim Kursu Fırsatı",
+      "ts": "2026-10-30T17:58:17.323026+00:00"
+    },
+    "460fe6a3dd9f": {
+      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "rejected",
+      "title": "Kültürel Miras Genç Liderler Mentörlük Programı Başvurularınızı Bekliyor",
+      "ts": "2026-10-30T17:59:02.212579+00:00"
+    },
+    "4964de0862b8": {
+      "reason": "",
+      "status": "queued",
+      "title": "Boehringer Ingelheim İnsan Kaynakları Stajyeri",
+      "ts": "2026-10-30T17:58:24.737730+00:00"
+    },
     "54e247c0f1a8": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "status": "rejected",
@@ -959,6 +1129,12 @@
       "status": "rejected",
       "title": "Kroc Institute Visiting Research Fellows Program 2027 | Up to $30,000",
       "ts": "2026-10-28T20:12:43.781877+00:00"
+    },
+    "5ee0d91f06c3": {
+      "reason": "",
+      "status": "queued",
+      "title": "UNDP Tayland İletişim Stajı",
+      "ts": "2026-10-30T17:58:47.334445+00:00"
     },
     "60d053027288": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -989,6 +1165,12 @@
       "status": "queued",
       "title": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
       "ts": "2026-10-29T18:26:52.011355+00:00"
+    },
+    "70fa11467998": {
+      "reason": "resmî başvuru linki bulunamadı (seçilen link reddedildi: bağlantı hatası: SSLError; sayfada 5 aday link: mpg.de, opcircleacademy.com, nextgenyouthcamp.com, bit.ly)",
+      "status": "rejected",
+      "title": "CaCTuS Summer Internship 2027 in Germany | Fully Funded",
+      "ts": "2026-10-30T17:58:10.290586+00:00"
     },
     "79818efb00a9": {
       "reason": "",
@@ -1037,6 +1219,12 @@
       "status": "queued",
       "title": "Stanford Fisher Family Yaz Bursiyerleri Programı 2027",
       "ts": "2026-10-30T00:47:36.381229+00:00"
+    },
+    "91ce4022bba5": {
+      "reason": "",
+      "status": "queued",
+      "title": "İspanya'da Erasmus+ Eğitim Kursu: Sosyal Kapsayıcılık ve Spor",
+      "ts": "2026-10-30T17:58:03.824538+00:00"
     },
     "9620e2d42ee9": {
       "reason": "",
@@ -1170,11 +1358,29 @@
       "title": "Orta Karadeniz Kalkınma Ajansı (OKA) Personel Alımı",
       "ts": "2026-10-30T09:52:56.332159+00:00"
     },
+    "f4be6bd28f53": {
+      "reason": "onay kanalı yok: Katılım ücreti var.",
+      "status": "rejected",
+      "title": "Royal Thai Government Scholarships 2027 | Funded",
+      "ts": "2026-10-30T17:58:54.775520+00:00"
+    },
+    "f8ca5d4840e8": {
+      "reason": "",
+      "status": "queued",
+      "title": "FASPE Fellowship 2027: Berlin ve Polonya'da Etik Çalışma Programı",
+      "ts": "2026-10-30T17:57:56.413338+00:00"
+    },
     "f969288f4d9b": {
       "reason": "son başvuru geçti",
       "status": "expired",
       "title": "EJN 2027 Gazetecilik Bursu - ABD",
       "ts": "2026-10-30T00:47:16.306782+00:00"
+    },
+    "fa6ef29ed62d": {
+      "reason": "",
+      "status": "queued",
+      "title": "Henkel Step Up Inclusive Uzun Dönemli Staj Programı",
+      "ts": "2026-10-30T17:59:09.660357+00:00"
     },
     "ff6568bdf019": {
       "reason": "Türkiye'ye kapalı: Applicants must be nationals of one of the 44 Least Developed Countries listed by the programme.",
@@ -1217,6 +1423,12 @@
     "hyundai ideathon mimari tasarım fikir yarışması",
     "i stanbul kalkınma ajansı 5 uzman personel alımı",
     "pioneers in progress uzun dönem pazarlama stajı",
-    "milli saraylar i daresi başkanlığı sözleşmeli müze görevlisi alımı"
+    "milli saraylar i daresi başkanlığı sözleşmeli müze görevlisi alımı",
+    "faspe fellowship 2027 berlin ve polonya'da etik çalışma programı",
+    "i spanya'da erasmus eğitim kursu sosyal kapsayıcılık ve spor",
+    "boehringer ingelheim i nsan kaynakları stajyeri",
+    "burdur mehmet akif ersoy üniversitesi sözleşmeli bilişim personeli",
+    "undp tayland i letişim stajı",
+    "henkel step up inclusive uzun dönemli staj programı"
   ]
 }
