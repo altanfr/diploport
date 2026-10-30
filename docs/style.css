@@ -124,8 +124,17 @@ a { color: inherit; }
 .foot { margin-top: auto; background: var(--paper); padding: 28px 0 calc(28px + env(safe-area-inset-bottom)); }
 .foot-in { display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: var(--mute); }
 .foot p { margin: 0; }
+.foot-links { display: flex; flex-wrap: wrap; gap: 0 24px; }
 .foot a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 500; color: var(--navy); text-decoration: none; width: max-content; }
 .foot a:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+/* Yasal sayfa */
+.doc { padding-top: 32px; padding-bottom: 64px; }
+.doc h1 { margin: 0; font-size: clamp(26px, 7vw, 38px); line-height: 1.15; font-weight: 700; letter-spacing: -0.02em; }
+.doc .upd { margin: 10px 0 30px; font-size: 14px; color: var(--mute); }
+.doc h2 { margin: 30px 0 8px; font-size: 18px; line-height: 1.35; font-weight: 700; }
+.doc p { max-width: 68ch; margin: 0 0 12px; }
+.doc a { color: var(--navy); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
 
 /* Geniş ekran */
 @media (min-width: 900px) {
