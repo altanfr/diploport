@@ -607,6 +607,12 @@ def test_site_must_match_the_organization_before_its_logo_is_used():
     assert sm("UNHCR", _site("Home"), "https://www.unhcr.org/")                    # alan adında geçiyor
     assert not sm("Keyo People", _site("Satılık Alan Adı - domain parking"), "https://www.keyo.com/")
     assert not sm("Orta Anadolu Kalkınma Ajansı", _site("Orta Anadolu Spor Kulübü"), "https://x.org/")   # kelimelerin yarısı yetmez
+    # tahmin edilen/önerilen alan adı (strict): 2+ kelimeli adda HEPSİ geçmeli -> başka kurumun sitesi (Mevlana Tasavvuf Vakfı) reddedilir
+    assert not sm("Mevlana Kalkınma Ajansı", _site("Mevlana Tasavvuf Vakfı"), "https://mevlana.org.tr/")
+    assert sm("Mevlana Kalkınma Ajansı", _site("MEVKA | Mevlana Kalkınma Ajansı"), "https://mevka.org.tr/")
+    assert sm("Keyo People Campus", _site("Keyo | Yetenek"), "https://keyo.com.tr/")                  # people/campus gibi yumuşak kelimeler zorunlu değil
+    # güvenilir kaynaktan (Wikidata/Youthall) gelen sitede ölçüt gevşek
+    assert sm("Mevlana Kalkınma Ajansı", _site("Mevlana Tasavvuf Vakfı"), "https://mevlana.org.tr/", strict=False)
 
 
 def test_logo_candidates_prefer_jsonld_then_page_logo_then_touch_icon_and_skip_partner_logos():
@@ -664,13 +670,13 @@ def test_wikidata_lookup_checks_name_and_returns_logo_and_site(monkeypatch):
 
 def test_find_org_visual_order_and_never_uses_stock(cfg, monkeypatch, tmp_path):
     from diploport import orgvisual as ov
-    logo = _png()
+    logo = _png(size=(600, 300))
     calls = []
     monkeypatch.setattr(ov, "ORG_LOGO_DIR", tmp_path / "logos")
     monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: (calls.append(url), logo if "good" in url else None)[1])
     monkeypatch.setattr(ov, "_wikipedia", lambda org: (calls.append("wiki"), (None, None))[1])
     monkeypatch.setattr(ov, "wikidata_lookup", lambda org: (calls.append("wd"), {"logo_file": None, "site": "https://www.org.com/x"})[1])
-    monkeypatch.setattr(ov, "site_logo", lambda org, site: (calls.append("site:" + site), None)[1])
+    monkeypatch.setattr(ov, "site_logo", lambda org, site, strict=True: (calls.append(f"site:{site}:{'strict' if strict else 'trusted'}"), None)[1])
     monkeypatch.setattr(ov, "_page", lambda url, timeout=12: None)
     # 1) kaynak sayfa logosu ilk sırada: Vikipedi'ye hiç gidilmez
     r = ov.find_org_visual("Org", cfg, {"logo_url": "https://good/l.png"})
@@ -678,7 +684,7 @@ def test_find_org_visual_order_and_never_uses_stock(cfg, monkeypatch, tmp_path):
     # 2) logo yoksa: Vikipedi -> Wikidata -> siteler (ipucu + Wikidata sitesi) denenir; hiçbiri yoksa None
     calls.clear()
     assert ov.find_org_visual("Org", cfg, {"logo_url": "https://bad/l.png", "sites": ["org.org.tr"]}) is None
-    assert calls == ["https://bad/l.png", "wiki", "wd", "site:https://org.org.tr/", "site:https://www.org.com/"]
+    assert calls == ["https://bad/l.png", "wiki", "wd", "site:https://www.org.com/:trusted", "site:https://org.org.tr/:strict"]   # güvenilir site önce
     # 3) elle eklenen logo her şeyden önce gelir
     (tmp_path / "logos").mkdir()
     (tmp_path / "logos" / "orta-anadolu-kalkinma-ajansi.png").write_bytes(logo)
@@ -770,3 +776,66 @@ def test_find_background_accepts_dark_top_left_photo(cfg, monkeypatch):
     monkeypatch.setattr(photo.requests, "get", fake_get)
     bg = photo.find_background({"id": "z", "category": "burs", "visual_kind": "scene", "image_queries": ["x"]}, cfg)
     assert bg and bg["bytes"] == dark_top_left      # sol üst logo bölgesi koyu diye atlanmaz: kural kaldırıldı
+
+
+def test_autocrop_trims_blank_margins_and_keeps_full_bleed_images():
+    from PIL import Image
+    from diploport import orgvisual as ov
+    im = Image.new("RGB", (248, 248), (255, 255, 255))
+    for x in range(60, 190):
+        for y in range(110, 140):
+            im.putpixel((x, y), (0, 90, 60))
+    b = io.BytesIO(); im.save(b, "JPEG", quality=92)
+    out = ov.norm_image(b.getvalue(), min_side=100)
+    w, h = ov.image_size(out)
+    assert out[:4] == b"\x89PNG" and w < 170 and h < 60 and w / h > 2.2                     # boşluk kırpıldı, oran korundu
+    full = Image.new("RGB", (200, 200), (10, 20, 30))
+    b2 = io.BytesIO(); full.save(b2, "PNG")
+    assert ov.image_size(ov.norm_image(b2.getvalue())) == (200.0, 200.0)                    # tam dolu görsel: dokunulmaz
+    tr = Image.new("RGBA", (300, 300), (0, 0, 0, 0))
+    for x in range(100, 200):
+        for y in range(120, 180):
+            tr.putpixel((x, y), (200, 0, 0, 255))
+    b3 = io.BytesIO(); tr.save(b3, "PNG")
+    w3, h3 = ov.image_size(ov.norm_image(b3.getvalue()))
+    assert 100 <= w3 < 130 and 60 <= h3 < 90
+
+
+def test_small_source_logo_yields_to_a_better_source_but_is_the_last_resort(cfg, monkeypatch, tmp_path):
+    from diploport import orgvisual as ov
+    small, big = _png(size=(150, 60)), _png(size=(1200, 400))
+    monkeypatch.setattr(ov, "ORG_LOGO_DIR", tmp_path / "none")
+    monkeypatch.setattr(ov, "_fetch", lambda url, min_side=100, timeout=20: small if "youthall" in url else None)
+    monkeypatch.setattr(ov, "wikidata_lookup", lambda org: {"logo_file": None, "site": None})
+    monkeypatch.setattr(ov, "_page", lambda url, timeout=12: None)
+    hints = {"logo_url": "https://cdn.youthall.com/l.jpg"}
+    monkeypatch.setattr(ov, "_wikipedia", lambda org: ({"kind": "logo", "bytes": big, "credit": "", "title": org, "source": "Vikipedi (tr)", "url": ""}, None))
+    assert ov.find_org_visual("Aygaz", cfg, hints)["bytes"] == big                          # küçük Youthall logosu yerine Vikipedi'deki büyük logo
+    monkeypatch.setattr(ov, "_wikipedia", lambda org: (None, None))
+    r = ov.find_org_visual("Aygaz", cfg, hints)
+    assert r["bytes"] == small and r["source"] == "ilan sayfasındaki şirket logosu"         # başka kaynak yoksa küçük olan kullanılır
+    assert ov.find_org_visual("", cfg, hints)["bytes"] == small                             # kurum adı yoksa da
+
+
+def test_wikimedia_requests_use_descriptive_agent_and_retry_on_429(monkeypatch):
+    from diploport import orgvisual as ov
+    seen, codes = [], [429, 429, 200]
+
+    def fake_get(url, params=None, headers=None, timeout=0, **kw):
+        seen.append(headers["User-Agent"])
+        return type("R", (), {"status_code": codes.pop(0), "headers": {"retry-after": "1"}, "content": b"x"})()
+
+    monkeypatch.setattr(ov.requests, "get", fake_get)
+    slept = []
+    monkeypatch.setattr(ov.time, "sleep", lambda t: slept.append(t))
+    assert ov._get("https://upload.wikimedia.org/a.png").status_code == 200
+    assert seen == [ov.UA] * 3 and slept == [1.0, 1.0]
+    codes[:] = [429, 200]; seen.clear()
+    assert ov._get("https://www.ogm.gov.tr/").status_code == 429 and seen == [ov.BROWSER_UA]    # Wikimedia dışında tekrar yok
+
+
+def test_wikipedia_page_logo_must_belong_to_the_organization():
+    from diploport.orgvisual import _relevant_file as rel
+    assert rel("UNHCR logo.svg", "UNHCR") and rel("OGM logo.svg", "Orman Genel Müdürlüğü")
+    assert not rel("Emblem of the United Nations.svg", "UNHCR")                             # başka kuruluşun amblemi
+    assert rel("Kamu İhale Kurumu logo.png", "KAMU İHALE KURUMU") and not rel("Flag logo.svg", "Akçansa")

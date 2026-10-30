@@ -59,10 +59,10 @@ def main(argv: list[str]) -> int:
              "funding_tr": "Ücretsiz eğitim ve konaklama", "visual_kind": "scene",
              "image_queries": ["Berlin Germany city", "Germany university students", "students walking campus"]},
             # kamu kurumları (Kariyer Kapısı): kurum adı ilan başlığından gelir, başka ipucu yok
-            inst("k1", "KAMU İHALE KURUMU", cat="is"), inst("k2", "ORTA ANADOLU KALKINMA AJANSI", cat="is"),
+            inst("k1", "KAMU İHALE KURUMU", cat="is"), inst("k2", "ORTA ANADOLU KALKINMA AJANSI", cat="is", organization_domain="oran.org.tr"),
             inst("k3", "TÜRKİYE İŞ KURUMU", cat="is"), inst("k4", "ORMAN GENEL MÜDÜRLÜĞÜ", cat="is"),
-            inst("k5", "MEVLANA KALKINMA AJANSI", cat="is"), inst("k6", "İSTANBUL KALKINMA AJANSI", cat="is"),
-            inst("k7", "ORTA KARADENİZ KALKINMA AJANSI (OKA)", cat="is"), inst("k8", "MİLLİ SARAYLAR İDARESİ BAŞKANLIĞI", cat="is"),
+            inst("k5", "MEVLANA KALKINMA AJANSI", cat="is", organization_domain="mevka.org.tr"), inst("k6", "İSTANBUL KALKINMA AJANSI", cat="is"),
+            inst("k7", "ORTA KARADENİZ KALKINMA AJANSI (OKA)", cat="is", organization_domain="oka.org.tr"), inst("k8", "MİLLİ SARAYLAR İDARESİ BAŞKANLIĞI", cat="is"),
             inst("k9", "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ REKTÖRLÜĞÜ", cat="is"),
             # uluslararası kuruluşlar / üniversite
             inst("o1", "UNHCR"), inst("o2", "UNICEF"), inst("o3", "United Nations Development Programme (UNDP)"),

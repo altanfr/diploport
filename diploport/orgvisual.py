@@ -18,6 +18,7 @@ import io
 import json
 import logging
 import re
+import time
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urljoin, urlsplit
@@ -42,6 +43,8 @@ OK_LICENSE = re.compile(r"^(cc[ -]?by|cc0|public domain|pd\b)", re.I)
 GENERIC = {"genel", "mudurlugu", "baskanligi", "ajansi", "kurumu", "universitesi", "rektorlugu", "bakanligi", "fonu",
            "university", "agency", "foundation", "ministry", "institute", "the", "of", "ve", "and", "for", "company",
            "inc", "ltd", "as", "sti", "a", "s", "group", "holding", "grup", "ve"}
+SOFT = {"turkiye", "turkey", "people", "campus", "kariyer", "career", "careers", "international", "global", "sirketi",
+        "sanayi", "ticaret", "anonim", "limited", "kampus", "tr", "com"}      # site doğrulamada zorunlu sayılmayan kelimeler
 BAD_WIKIDATA = re.compile(r"(asteroi|ship built|gemi|hadis|ambassador|elçisi|elcisi|album|albüm|film|song|şarkı|surname|"
                           r"given name|family name|soyadı|first name|village|köy|person|insan)", re.I)
 BAD_LOGO_CTX = re.compile(r"(partner|client|sponsor|customer|referans|ortak|footer|award|social|payment|certif|banner|"
@@ -106,6 +109,31 @@ def is_svg(data: bytes) -> bool:
     return b"<svg" in data[:3000].lower()
 
 
+def _autocrop(im):
+    """Logonun etrafındaki düz (beyaz/saydam) boşluğu kırpar: küçük logo panelde daha büyük görünür."""
+    from PIL import Image, ImageChops
+
+    rgba = im.convert("RGBA")
+    w, h = rgba.size
+    px = rgba.load()
+    corners = [px[0, 0], px[w - 1, 0], px[0, h - 1], px[w - 1, h - 1]]
+    if all(c[3] < 20 for c in corners):
+        bbox = rgba.getchannel("A").point(lambda a: 255 if a > 20 else 0).getbbox()
+    else:
+        ref = corners[0]
+        if any(sum(abs(a - b) for a, b in zip(ref[:3], c[:3])) > 60 for c in corners):
+            return im                                          # zemin tek renk değil: kırpma
+        diff = ImageChops.difference(rgba.convert("RGB"), Image.new("RGB", rgba.size, ref[:3])).convert("L")
+        bbox = diff.point(lambda v: 255 if v > 40 else 0).getbbox()
+    if not bbox:
+        return im
+    pad = max(4, round(0.06 * max(bbox[2] - bbox[0], bbox[3] - bbox[1])))
+    box = (max(0, bbox[0] - pad), max(0, bbox[1] - pad), min(w, bbox[2] + pad), min(h, bbox[3] + pad))
+    if (box[2] - box[0]) * (box[3] - box[1]) >= 0.85 * w * h or min(box[2] - box[0], box[3] - box[1]) < 16:
+        return im
+    return im.crop(box)
+
+
 def norm_image(data: bytes, min_side: int = 0) -> bytes | None:
     """Kullanılabilir bir logo görseli mi? PNG/JPEG/SVG olarak döner (diğer biçimler PNG'ye çevrilir), değilse None."""
     if not data or len(data) > 8_000_000:
@@ -122,11 +150,20 @@ def norm_image(data: bytes, min_side: int = 0) -> bytes | None:
     w, h = im.size
     if min(w, h) < max(min_side, 16) or max(w, h) / max(1, min(w, h)) > 8:
         return None
-    if data[:4] == b"\x89PNG" or data[:3] == b"\xff\xd8\xff":
+    cropped = _autocrop(im)
+    if cropped is im and (data[:4] == b"\x89PNG" or data[:3] == b"\xff\xd8\xff"):
         return data
     out = io.BytesIO()
-    im.convert("RGBA").save(out, "PNG")
+    cropped.convert("RGBA").save(out, "PNG")
     return out.getvalue()
+
+
+def low_res(data: bytes) -> bool:
+    """Küçük raster logo (büyütülünce bulanık): daha iyi bir kaynak varsa o tercih edilir."""
+    if is_svg(data):
+        return False
+    w, h = image_size(data)
+    return max(w, h) < 300
 
 
 def image_size(data: bytes) -> tuple[float, float]:
@@ -192,9 +229,30 @@ def too_light(data: bytes) -> bool:
 
 # --- ağ yardımcıları ------------------------------------------------------------------------
 
+def _wm(url: str) -> bool:
+    host = urlsplit(url).netloc.lower()
+    return host.endswith(("wikimedia.org", "wikipedia.org", "wikidata.org"))
+
+
+def _get(url: str, params: dict | None = None, timeout: int = 20, **kw) -> requests.Response:
+    """GET; Wikimedia sunucuları için açıklayıcı User-Agent, 429/503'te kısa bekleyip en çok 3 deneme."""
+    headers = {"User-Agent": UA if _wm(url) else BROWSER_UA, **kw.pop("headers", {})}
+    r = requests.get(url, params=params, headers=headers, timeout=timeout, **kw)
+    for attempt in (1, 2):
+        if r.status_code not in (429, 503) or not _wm(url):
+            break
+        try:
+            wait = min(float(r.headers.get("retry-after", "") or 0), 8.0)
+        except (TypeError, ValueError):
+            wait = 0.0
+        time.sleep(wait or 2.0 * attempt)
+        r = requests.get(url, params=params, headers=headers, timeout=timeout, **kw)
+    return r
+
+
 def _fetch(url: str, min_side: int = 100, timeout: int = 20) -> bytes | None:
     try:
-        r = requests.get(url, headers={"User-Agent": BROWSER_UA, "Accept": "image/*,*/*;q=0.5"}, timeout=timeout, allow_redirects=True)
+        r = _get(url, timeout=timeout, headers={"Accept": "image/*,*/*;q=0.5"}, allow_redirects=True)
     except requests.RequestException as e:
         _t(f"indirilemedi {url[:90]}: {type(e).__name__}")
         return None
@@ -213,7 +271,7 @@ def _fetch(url: str, min_side: int = 100, timeout: int = 20) -> bytes | None:
 
 def _page(url: str, timeout: int = 12) -> tuple[str, str] | None:
     try:
-        r = requests.get(url, headers={"User-Agent": BROWSER_UA, "Accept-Language": "tr,en;q=0.8"}, timeout=timeout, allow_redirects=True)
+        r = _get(url, timeout=timeout, headers={"Accept-Language": "tr,en;q=0.8"}, allow_redirects=True)
     except requests.RequestException as e:
         _t(f"site açılmadı {url[:70]}: {type(e).__name__}")
         return None
@@ -224,7 +282,7 @@ def _page(url: str, timeout: int = 12) -> tuple[str, str] | None:
 
 
 def _api(host: str, params: dict) -> dict:
-    r = requests.get(f"https://{host}/w/api.php", params={"format": "json", **params}, headers={"User-Agent": UA}, timeout=25)
+    r = _get(f"https://{host}/w/api.php", params={"format": "json", **params}, timeout=25)
     r.raise_for_status()
     return r.json()
 
@@ -293,7 +351,7 @@ def hints_for(post: dict, cfg: dict) -> dict:
 
     TRACE.clear()                      # her ilan için yeni günlük (find_org_visual'dan önce çağrılır)
     org = post.get("organization", "")
-    hints: dict = {"logo_url": post.get("org_logo_url") or "", "sites": []}
+    hints: dict = {"logo_url": post.get("org_logo_url") or "", "sites": [], "trusted_sites": []}
     if post.get("organization_domain"):
         hints["sites"].append(post["organization_domain"])
     try:
@@ -303,7 +361,7 @@ def hints_for(post: dict, cfg: dict) -> dict:
         sh = {}
     hints["logo_url"] = hints["logo_url"] or sh.get("logo_url", "")
     hints["org_name"] = sh.get("org_name", "")
-    hints["sites"] += sh.get("sites", [])
+    hints["trusted_sites"] += sh.get("sites", [])          # Youthall şirket sayfasındaki bağlantılar: güvenilir kaynak
     apply, blocked = post.get("apply_url") or "", blocked_domains(cfg, post.get("source_url", ""))
     if apply and domain_of(apply) not in blocked and not any(s in urlsplit(apply).netloc.lower() for s in SKIP_HOSTS):
         hints["sites"].append(apply)
@@ -329,14 +387,24 @@ def file_thumb(host: str, filename: str) -> str | None:
     return ii.get("thumburl") or ii.get("url")
 
 
-def page_logo_file(lang: str, title: str) -> str | None:
-    """Sayfanın ana görseli logo değilse: sayfadaki görseller arasında adı "logo" içeren dosya."""
+def _relevant_file(filename: str, org: str) -> bool:
+    """Dosya adı kurumla ilgili mi? (kurum adının ayırt edici kelimelerinden biri ya da baş harfleri). Başka kuruluşların
+    amblemi (ör. UNHCR sayfasındaki BM amblemi) bu sayede elenir."""
+    toks = [t for t in fold(org) if t not in GENERIC and len(t) >= 2]
+    f = fold(re.sub(r"\.\w+$", "", filename))
+    initials = "".join(t[0] for t in fold(org)) if len(fold(org)) >= 3 else ""
+    return any(t in f or (len(t) >= 4 and any(w.startswith(t) or t.startswith(w) and len(w) >= 4 for w in f)) for t in toks) or (
+        len(initials) >= 3 and initials in f)
+
+
+def page_logo_file(lang: str, title: str, org: str = "") -> str | None:
+    """Sayfanın ana görseli logo değilse: sayfadaki görseller arasında adı "logo" içeren VE kurumla ilgili dosya."""
     j = _api(f"{lang}.wikipedia.org", {"action": "query", "titles": title, "prop": "images", "imlimit": 80})
     page = next(iter(((j.get("query") or {}).get("pages") or {}).values()), {})
     for im in page.get("images") or []:
         f = (im.get("title") or "").split(":", 1)[-1]
         if (LOGO_HINT.search(f) and not NOT_VISUAL.search(f) and not WIKI_BOILER.search(f)
-                and f.lower().endswith((".svg", ".png", ".jpg", ".jpeg"))):
+                and f.lower().endswith((".svg", ".png", ".jpg", ".jpeg")) and _relevant_file(f, org or title)):
             return f
     return None
 
@@ -373,7 +441,7 @@ def _wikipedia(org: str) -> tuple[dict | None, dict | None]:
                     return {"kind": "logo", "bytes": data, "credit": "", "title": p.get("title", ""),
                             "source": f"Vikipedi ({lang})", "url": url}, photo_cand
             try:                                    # ana görsel logo değil: sayfadaki "logo" dosyası var mı?
-                lf = page_logo_file(lang, p.get("title", ""))
+                lf = page_logo_file(lang, p.get("title", ""), org)
                 lthumb = file_thumb(f"{lang}.wikipedia.org", lf) if lf else None
             except (requests.RequestException, ValueError) as e:
                 _t(f"Vikipedi sayfa görselleri alınamadı: {type(e).__name__}")
@@ -399,7 +467,7 @@ def _wikipedia_photo(cand: dict) -> dict | None:
         _t(f"Vikipedi fotoğrafı lisansı uygun değil ({lic['license'] or '?'}): {cand['fname']}")
         return None
     try:
-        r = requests.get(cand["thumb"], headers={"User-Agent": UA}, timeout=60)
+        r = _get(cand["thumb"], timeout=60)
     except requests.RequestException as e:
         _t(f"Vikipedi fotoğrafı indirilemedi: {type(e).__name__}")
         return None
@@ -457,9 +525,11 @@ def wikidata_lookup(org: str) -> dict:
 
 # --- 5) kurumun kendi sitesi ----------------------------------------------------------------
 
-def site_matches(org: str, page_html: str, url: str) -> bool:
-    """Sayfa gerçekten bu kuruma mı ait? Başlık/site adı/açıklama/alan adında kurum adının ayırt edici kelimeleri aranır."""
-    toks = [t for t in fold(org) if t not in GENERIC and len(t) >= 2] or fold(org)
+def site_matches(org: str, page_html: str, url: str, strict: bool = True) -> bool:
+    """Sayfa gerçekten bu kuruma mı ait? Başlık/site adı/açıklama/alan adında kurum adının ayırt edici kelimeleri aranır.
+    strict=True (tahmin edilen ya da modelin önerdiği alan adı): 2+ kelimeli adlarda HEPSİ geçmeli (ör. "Mevlana Kalkınma Ajansı"
+    için sadece "Mevlana" geçen başka bir site kabul edilmez). strict=False (Wikidata/Youthall gibi güvenilir kaynaktan gelen site)."""
+    toks = [t for t in fold(org) if t not in GENERIC and t not in SOFT and len(t) >= 2] or fold(org)
     if not toks:
         return False
     soup = BeautifulSoup(page_html, "html.parser")
@@ -474,7 +544,9 @@ def site_matches(org: str, page_html: str, url: str) -> bool:
     if " ".join(fold(org)) in joined:
         return True
     hit = sum(1 for t in toks if t in words or (len(t) >= 4 and any(w.startswith(t) for w in words)))
-    return hit >= 1 if len(toks) <= 2 else hit / len(toks) >= 0.75   # uzun adlarda (3+ kelime) neredeyse hepsi geçmeli
+    if strict:
+        return hit == len(toks)
+    return hit >= 1 if len(toks) <= 2 else hit / len(toks) >= 0.75
 
 
 def logo_candidates(page_html: str, base: str) -> list[str]:
@@ -536,7 +608,7 @@ def logo_candidates(page_html: str, base: str) -> list[str]:
     return out
 
 
-def site_logo(org: str, site: str) -> dict | None:
+def site_logo(org: str, site: str, strict: bool = True) -> dict | None:
     site = (site or "").strip()
     if not site:
         return None
@@ -546,7 +618,7 @@ def site_logo(org: str, site: str) -> dict | None:
     if not pg:
         return None
     final, doc = pg
-    if not site_matches(org, doc, final):
+    if not site_matches(org, doc, final, strict):
         _t(f"site kurumla eşleşmedi, atlandı: {urlsplit(final).netloc}")
         return None
     cands = logo_candidates(doc, final)
@@ -603,15 +675,24 @@ def find_org_visual(org: str, cfg: dict, hints: dict | None = None) -> dict | No
         _t("elle eklenen logo kullanıldı")
         return logo(data, "elle eklenen logo")
 
-    if hints.get("logo_url"):                                                       # 2
+    weak = None                                                                     # 2
+    if hints.get("logo_url"):
         data = _fetch(hints["logo_url"], min_side=100)
-        if data:
+        if data and low_res(data):
+            _t(f"kaynak sayfa logosu küçük ({int(image_size(data)[0])}px), daha iyisi aranacak: {hints['logo_url'][:80]}")
+            weak = logo(data, "ilan sayfasındaki şirket logosu", hints["logo_url"])
+        elif data:
             _t(f"kaynak sayfa logosu: {hints['logo_url'][:90]}")
             return logo(data, "ilan sayfasındaki şirket logosu", hints["logo_url"])
 
+    def best() -> dict | None:
+        if weak:
+            _t("daha iyi logo bulunamadı, küçük kaynak sayfa logosu kullanılıyor")
+        return weak
+
     if not org:
         _t("kurum adı yok, logo yalnızca kaynak sayfadan denenebilirdi")
-        return None
+        return best()
     found, photo_cand = _wikipedia(org)                                             # 3
     if found:
         return found
@@ -631,21 +712,24 @@ def find_org_visual(org: str, cfg: dict, hints: dict | None = None) -> dict | No
         if data:
             return logo(data, "Wikidata logosu", "https://www.wikidata.org/")
 
-    sites = _sites_from(list(hints.get("sites") or []) + ([wd["site"]] if wd["site"] else []))      # 5
-    for s in sites:
-        res = site_logo(org, s)
+    trusted = _sites_from(list(hints.get("trusted_sites") or []) + ([wd["site"]] if wd["site"] else []))   # 5
+    others = [o for o in _sites_from(list(hints.get("sites") or [])) if o not in trusted]
+    for origin, strict in [(o, False) for o in trusted] + [(o, True) for o in others]:
+        res = site_logo(org, origin, strict)
         if res:
             return res
-    guesses = [g for g in guess_sites(org) if g not in sites]
+    guesses = [g for g in guess_sites(org) if g not in trusted + others]
     if guesses:
         with ThreadPoolExecutor(max_workers=6) as ex:
             pages = list(ex.map(lambda g: _page(g, timeout=8), guesses))
         for g, pg in zip(guesses, pages):
-            if pg and site_matches(org, pg[1], pg[0]):
-                res = site_logo(org, g)
+            if pg and site_matches(org, pg[1], pg[0], strict=True):
+                res = site_logo(org, g, strict=True)
                 if res:
                     return res
 
+    if weak:
+        return best()
     if photo_cand:                                                                  # 6
         res = _wikipedia_photo(photo_cand)
         if res:
