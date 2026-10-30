@@ -41,26 +41,7 @@
     "estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37492?keyword=internship&location=Thailand&locationId=300000000447010&locationLevel=country&mode=location",
     "youthall.com/tr/Henkel/step-up-inclusive-engelli-bireylere-ozel_28"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
-      "attempts": 2,
-      "caption": "Pioneers In Progress Uzun Dönem Staj Programı\n\nAkaryakıt dışı gelirler ve tedarik zinciri operasyonlarında görev alacak, veri analizi ve raporlama süreçlerine destek verecek uzun dönem stajyer aranıyor.\n\n- Haftada en az 4 gün çalışma imkanı\n- Veri analizi ve raporlama odaklı görevler\n- Yapay zeka araçlarını kullanma fırsatı\n\nSon başvuru: 31 Ekim 2026\nBaşvuru: https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/\nTüm fırsatlar: https://altanfr.github.io/diploport/#d31682b3c6e6\n\nKaynak: Youthall\nGörsel: ‪Salah Darwish / Unsplash\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
-      "id": "d31682b3c6e6",
-      "photo_query": "Ankara city skyline",
-      "title": "Pioneers In Progress Uzun Dönem Staj Programı",
-      "ts": "2026-10-30T09:54:13.331188+00:00"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
-      "attempts": 1,
-      "caption": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması\n\nHyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.\n\n- Mimarlık öğrencilerine özel\n- 30.000 TL'ye varan ödüller\n- Hyundai yöneticileriyle tanışma fırsatı\n\nSon başvuru: 2 Kasım 2026\nBaşvuru: https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/\nTüm fırsatlar: https://altanfr.github.io/diploport/#79818efb00a9\n\nKaynak: Youthall\nGörsel: selcuk sarikoz / Unsplash\n\n#diploport #fırsat #türkgençler #yarışma #ödül #gençler",
-      "id": "79818efb00a9",
-      "photo_query": "Istanbul city skyline",
-      "title": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
-      "ts": "2026-10-30T17:59:13.624332+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {},
   "published": [],
   "queue": [
@@ -77,15 +58,14 @@
         "İzmir'de ikamet zorunluluğu"
       ],
       "id": "5a0a979214b0",
-      "image_queries": [
-        "Istanbul skyline"
-      ],
+      "image_queries": [],
       "organization": "Bilkom",
       "queued_at": "2026-10-29T22:56:52.084715+00:00",
       "source": "Youthall",
       "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
       "title_tr": "Bilkom Digital Leader Genç Yetenek Programı",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "organization_domain": "bilkom.com.tr"
     },
     {
       "apply_link_id": 1,
@@ -102,11 +82,7 @@
         "3-12 ay arası program süresi"
       ],
       "id": "a65b5a8253e4",
-      "image_queries": [
-        "Geneva city",
-        "modern office building",
-        "research laboratory"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "United Nations Institute for Training and Research",
       "queued_at": "2026-10-30T09:52:34.261387+00:00",
@@ -133,11 +109,7 @@
         "İletişim ve sosyal medya deneyimi"
       ],
       "id": "5ee0d91f06c3",
-      "image_queries": [
-        "Bangkok city skyline",
-        "modern office building",
-        "research laboratory"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "United Nations Development Programme (UNDP)",
       "queued_at": "2026-10-30T17:58:47.334425+00:00",
@@ -226,9 +198,7 @@
       ],
       "icon": "landmark",
       "id": "7e64af0459a8",
-      "image_queries": [
-        "Ankara city skyline"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "Türkiye İş Kurumu",
       "queued_at": "2026-10-29T09:47:30.211971+00:00",
@@ -254,9 +224,7 @@
         "Staj ve işe alım fırsatı"
       ],
       "id": "1a09fc4eeebd",
-      "image_queries": [
-        "Istanbul skyline"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "Commencis",
       "queued_at": "2026-10-29T00:46:49.734366+00:00",
@@ -309,11 +277,7 @@
         "İleri düzey İngilizce yeterliliği"
       ],
       "id": "90b299851cba",
-      "image_queries": [
-        "Stanford University campus",
-        "USA university library",
-        "modern office building"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "Stanford University",
       "queued_at": "2026-10-30T00:47:36.381217+00:00",
@@ -398,9 +362,7 @@
         "İyi derecede İngilizce yeterliliği"
       ],
       "id": "690b61a17c08",
-      "image_queries": [
-        "Istanbul skyline"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "Akçansa",
       "queued_at": "2026-10-28T20:14:03.218386+00:00",
@@ -455,9 +417,7 @@
         "İşletme, İktisat veya Mühendislik mezuniyeti"
       ],
       "id": "b1b40f7f780c",
-      "image_queries": [
-        "Istanbul skyline"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "Aygaz",
       "queued_at": "2026-10-29T00:47:33.208292+00:00",
@@ -483,9 +443,7 @@
         "İngilizce, İspanyolca veya Fransızca dillerinden biri şart"
       ],
       "id": "9e068ebdd446",
-      "image_queries": [
-        "New York City skyline"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "UNICEF",
       "queued_at": "2026-10-29T09:47:37.208442+00:00",
@@ -511,9 +469,7 @@
         "Dil sınavı şartı aranmıyor"
       ],
       "id": "ae80b0962a3f",
-      "image_queries": [
-        "Geneva city"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "UNHCR",
       "queued_at": "2026-10-29T09:48:02.723616+00:00",
@@ -568,9 +524,7 @@
         "Lisans son sınıf öğrencileri için"
       ],
       "id": "0833644949f7",
-      "image_queries": [
-        "Istanbul skyline"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "Sefine Shipyard",
       "queued_at": "2026-10-29T18:26:45.407300+00:00",
@@ -626,9 +580,7 @@
         "Mühendislik ve satış alanlarında gelişim"
       ],
       "id": "e89dbb00faa9",
-      "image_queries": [
-        "Istanbul skyline"
-      ],
+      "image_queries": [],
       "is_opportunity": true,
       "organization": "BSH Ev Aletleri",
       "queued_at": "2026-10-29T18:28:33.548946+00:00",
@@ -661,7 +613,8 @@
       "summary_tr": "Oyak Renault, Bursa'daki kampüsünde çeşitli departmanlarda görev alacak, haftada 3-4 gün çalışabilecek üniversite veya yüksek lisans öğrencileri için proje stajı programı düzenliyor.",
       "title_tr": "Oyak Renault 4 Seasons Proje Stajyerliği",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f657a20b-5132-4e3a-8b1e-131e031f065b",
@@ -687,7 +640,8 @@
       "summary_tr": "Kamu İhale Kurumu bünyesinde A Grubu kariyer meslek uzman yardımcısı alımı için giriş sınavı duyurusu yapılmıştır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilecektir.",
       "title_tr": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://www.youthall.com/tr/keyopeoplecampus/kampus-temsilcisi_1/",
@@ -711,7 +665,8 @@
       "summary_tr": "Keyo People Campus, üniversitelerde markayı temsil edecek, etkinlikler düzenleyecek ve kariyer gelişim fırsatlarından yararlanacak kampüs temsilcileri arıyor.",
       "title_tr": "Keyo People Campus Kampüs Temsilciliği Programı",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
@@ -737,7 +692,8 @@
       "summary_tr": "Orta Anadolu Kalkınma Ajansı tarafından 2026 yılı için sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilecektir.",
       "title_tr": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-electrical-electronics-engineer_57/",
@@ -761,7 +717,8 @@
       "summary_tr": "Büyükçekmece Teknoloji Merkezi'nde görevlendirilmek üzere, endüstriyel otomasyon ve elektrik bakım süreçlerinde destek verecek uzun dönem stajyer aranıyor.",
       "title_tr": "Elektrik ve Elektronik Mühendisi Uzun Dönem Stajyeri",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4",
@@ -787,7 +744,8 @@
       "summary_tr": "Mevlana Kalkınma Ajansı bünyesinde görevlendirilmek üzere 1 inşaat mühendisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
       "title_tr": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
@@ -813,7 +771,8 @@
       "summary_tr": "Orta Karadeniz Kalkınma Ajansı (OKA) tarafından 2026 yılı için sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
       "title_tr": "Orta Karadeniz Kalkınma Ajansı (OKA) Personel Alımı",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
@@ -839,7 +798,8 @@
       "summary_tr": "İstanbul Kalkınma Ajansı bünyesinde sözleşmeli olarak görevlendirilmek üzere 5 uzman personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
       "title_tr": "İstanbul Kalkınma Ajansı 5 Uzman Personel Alımı",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://www.youthall.com/en/Shell/pioneers-in-progress-long-term-internship-marketing_1319/",
@@ -864,7 +824,8 @@
       "title_tr": "Pioneers In Progress Uzun Dönem Pazarlama Stajı",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "İlanın hangi ülkede veya hangi şirket bünyesinde gerçekleştiği belirtilmemiştir.",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=39c5ca3c-3571-485b-b226-2ff559360a0a",
@@ -890,7 +851,8 @@
       "summary_tr": "Milli Saraylar İdaresi Başkanlığı bünyesinde sözleşmeli statüde çalışacak 3 müze görevlisi (kazı görevlisi) alımı yapılacaktır.",
       "title_tr": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Müze Görevlisi Alımı",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://www.youthall.com/en/boehringeringelheim/hr-intern_60/",
@@ -914,7 +876,8 @@
       "summary_tr": "Boehringer Ingelheim, İnsan Kaynakları süreçlerinde görev alacak, analitik düşünme becerisine sahip, haftada 5 gün çalışabilecek stajyer arıyor.",
       "title_tr": "Boehringer Ingelheim İnsan Kaynakları Stajyeri",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
@@ -940,7 +903,8 @@
       "summary_tr": "Burdur Mehmet Akif Ersoy Üniversitesi Rektörlüğü bünyesinde çalıştırılmak üzere sözleşmeli bilişim personeli alımı yapılacaktır.",
       "title_tr": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
     },
     {
       "apply_url": "https://www.youthall.com/tr/Henkel/step-up-inclusive-engelli-bireylere-ozel_28/",
@@ -964,7 +928,52 @@
       "summary_tr": "Henkel'in engelli bireylere özel uzun dönemli staj programı; İstanbul, Ankara ve Dilovası'ndaki lokasyonlarda öğrencilere profesyonel iş deneyimi ve gelişim fırsatı sunuyor.",
       "title_tr": "Henkel Step Up Inclusive Uzun Dönemli Staj Programı",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
+      "visual_kind": "institution",
+      "image_queries": []
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "2026-10-31",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Haftada en az 4 gün çalışma imkanı",
+        "Veri analizi ve raporlama odaklı görevler",
+        "Yapay zeka araçlarını kullanma fırsatı"
+      ],
+      "id": "d31682b3c6e6",
+      "organization": "Akaryakıt Dışı Gelirler",
+      "source": "Youthall",
+      "summary_tr": "Akaryakıt dışı gelirler ve tedarik zinciri operasyonlarında görev alacak, veri analizi ve raporlama süreçlerine destek verecek uzun dönem stajyer aranıyor.",
+      "title_tr": "Pioneers In Progress Uzun Dönem Staj Programı",
+      "visual_kind": "institution",
+      "source_url": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
+      "image_queries": [],
+      "queued_at": "2026-10-30T20:35:36.491684+00:00"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+      "category": "yarisma",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-02",
+      "fee_required": false,
+      "funding_tr": "Para ödülü (30.000 TL'ye kadar)",
+      "highlights_tr": [
+        "Mimarlık öğrencilerine özel",
+        "30.000 TL'ye varan ödüller",
+        "Hyundai yöneticileriyle tanışma fırsatı"
+      ],
+      "id": "79818efb00a9",
+      "organization": "Hyundai Motor Türkiye",
+      "source": "Youthall",
+      "summary_tr": "Hyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.",
+      "title_tr": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
+      "visual_kind": "institution",
+      "source_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+      "image_queries": [],
+      "queued_at": "2026-10-30T20:35:36.491789+00:00"
     }
   ],
   "seen": {
