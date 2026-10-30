@@ -55,6 +55,18 @@ def main(argv: list[str]) -> int:
             "country_tr": "Almanya", "deadline": "2026-12-15"})
         print("örnek onay mesajı gönderildi" if mid else "örnek onay mesajı GÖNDERİLEMEDİ (token / chat id kontrol edin)")
         return 0 if mid else 1
+    if cmd == "maketest":
+        # Make'e YAPI TANITMA verisi gönderir: secret bilerek yanlış, bu yüzden filtre Instagram modülünü çalıştırmaz (paylaşım olmaz).
+        import requests
+        url = os.environ.get("MAKE_WEBHOOK_URL", "")
+        if not url:
+            print("MAKE_WEBHOOK_URL secret'ı tanımlı değil")
+            return 1
+        site = cfg["brand"]["site_url"].rstrip("/")
+        r = requests.post(url, json={"id": "deneme", "image_url": f"{site}/images/deneme.jpg", "caption": "Yapı tanıtma denemesi (paylaşılmaz)",
+                                     "title": "Deneme", "apply_url": "https://example.org", "secret": "yapi-tanitma-paylasma"}, timeout=60)
+        print(f"Make yanıtı: HTTP {r.status_code} {r.text[:80]}")
+        return 0 if r.status_code == 200 else 1
     if cmd == "phototest":
         # Gerçek ağda deneme: örnek ilanların kartlarını üretir (data/photo_test/) ve her kurum için logonun NEREDEN geldiğini
         # (ya da neden bulunamadığını) adım adım raporlar.
