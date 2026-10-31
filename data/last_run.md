@@ -1,11 +1,14 @@
-# Son çalışma (2026-10-31 15:10 TR)
+# Son çalışma (2026-10-31 22:13 TR)
 
-Kuyruk: 42 · Onay bekleyen: 0 · Hazırlanan: d31682b3c6e6
-Bulunan yeni ilan: 3 · Bu çalışmada işlenmesi planlanan: 3 · Raporlanan: 3
-Kaynaklar: Opportunities Corners: 2 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 19 kayıt
+Kuyruk: 44 · Onay bekleyen: 1 · Hazırlanan: -
+Bulunan yeni ilan: 6 · Bu çalışmada işlenmesi planlanan: 6 · Raporlanan: 6
+Kaynaklar: Opportunities Corners: 2 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 2 yeni / 8 kayıt · Opportunities Circle: 2 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 19 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| elendi | Opportunities Corners | MIT Summer Research Program 2027 in USA (Fully Funded) | Türkiye'ye kapalı: Not eligible if completing a bachelor’s degree at institutions outside the U.S., or if they are exchange students. |
-| elendi | Opportunities Circle | AAAS Mass Media Fellowship 2027 in USA | Türkiye'ye kapalı: Applicants must be US citizens or hold valid visas that allow them to receive paid work during the summer. |
-| elendi | Opportunities Corners | Community Solutions Program 2027 in USA (Fully Funded) | Türkiye'ye kapalı: The Community Solutions Program is open to the following countries: |
+| kuyrukta | Opportunities Corners | Erasmus PlantHealth3 Yüksek Lisans Bursu 2027/29 | kanıt: The Scholarship is open to Nationals of all countries. · son tarih: 2026-12-31 · link: https://www.planthealth.upv.es/web/programme/the-master-programme/ · foto: European university campus / Europe agriculture research / students in laboratory |
+| kuyrukta | Erasmusgram | İspanya, Alicante: Erasmus+ Gençlik Değişimi | kanıt: Katılımcı ülkeler: İtalya, İspanya, Almanya, Türkiye, Estonya ve Kuzey Makedonya · son tarih: 2026-11-06 · link: https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform |
+| elendi | Opportunities Circle | Google Forward Deployed Engineering Internship 2027 / Paid | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 3 aday link: opcircleacademy.com, nextgenyouthcamp.com, bit.ly) |
+| onayda | Opportunities Corners | Universal Youth Leadership Summit Malezya 2027 | Katılım ücreti var. · son tarih: 2026-11-08 · link: https://universalyouthmovement.org/uyls-malaysia-2027/ |
+| elendi | Erasmusgram | Yunanistan , Selanik : Kısa Dönem Erasmus+ Projesi | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link) |
+| elendi | Opportunities Circle | DAAD-MUBAS Scholarship 2027 / Fully Funded | Türkiye'ye kapalı: They must be nationals or permanent residents of a Sub-Saharan African country. |

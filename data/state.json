@@ -47,10 +47,42 @@
     "genclikcalismalari.org/ilan/esc-1626-almanya-gonulluluk-faaliyeti-katilimci-cagrisi",
     "kariyerkapisi.gov.tr/IlanDetay?i=af46c544-8728-4ab2-beed-937fe050035c",
     "kariyerkapisi.gov.tr/IlanDetay?i=7726dd9c-56dd-49e0-a0b2-a098e6c57b8a",
-    "kariyerkapisi.gov.tr/IlanDetay?i=5976effc-ff4b-49b1-a5d7-c08d82d81636"
+    "kariyerkapisi.gov.tr/IlanDetay?i=5976effc-ff4b-49b1-a5d7-c08d82d81636",
+    "planthealth.upv.es/web/programme/the-master-programme",
+    "docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
+    "universalyouthmovement.org/uyls-malaysia-2027"
   ],
   "outbox": [],
-  "pending": {},
+  "pending": {
+    "27289da2aca9": {
+      "apply_link_id": 1,
+      "apply_url": "https://universalyouthmovement.org/uyls-malaysia-2027/",
+      "category": "egitim",
+      "country_tr": "Malezya",
+      "deadline": "2026-11-08",
+      "eligibility_evidence": "Open to all nationalities.",
+      "fee_required": true,
+      "funding_tr": "Tam ve kısmi burs imkanları",
+      "highlights_tr": [
+        "18-40 yaş arası başvuruya açık",
+        "Tam ve kısmi burs seçenekleri",
+        "Kuala Lumpur'da 4 günlük zirve"
+      ],
+      "id": "27289da2aca9",
+      "is_opportunity": true,
+      "message_id": 5,
+      "organization": "Universal Youth Movement",
+      "organization_domain": "universalyouthmovement.org",
+      "queued_at": "2026-10-31T19:14:12.718296+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/universal-youth-leadership-summit-malaysia-2027/",
+      "summary_tr": "Kuala Lumpur'da düzenlenecek olan Universal Youth Leadership Summit, genç liderleri sürdürülebilir kalkınma ve liderlik konularında bir araya getiren uluslararası bir zirvedir.",
+      "title_tr": "Universal Youth Leadership Summit Malezya 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Katılım ücreti var.",
+      "visual_kind": "scene"
+    }
+  },
   "published": [
     {
       "id": "d31682b3c6e6",
@@ -1181,6 +1213,64 @@
       "title_tr": "Tarım ve Orman Bakanlığı Sözleşmeli Bilişim Personeli Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.planthealth.upv.es/web/programme/the-master-programme/",
+      "category": "burs",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2026-12-31",
+      "eligibility_evidence": "The Scholarship is open to Nationals of all countries.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti, sigorta ve aylık 1400 Euro)",
+      "highlights_tr": [
+        "Tüm ülkelerden başvurulara açık",
+        "24 ay süreli tam burslu program",
+        "İki farklı Avrupa üniversitesinden çift diploma"
+      ],
+      "id": "56a1b38aff04",
+      "image_queries": [
+        "European university campus",
+        "Europe agriculture research",
+        "students in laboratory"
+      ],
+      "is_opportunity": true,
+      "organization": "Universitat Politècnica de València",
+      "organization_domain": "upv.es",
+      "queued_at": "2026-10-31T19:13:52.642417+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/erasmus-planthealth3-scholarship/",
+      "summary_tr": "Avrupa Birliği tarafından finanse edilen Erasmus Mundus PlantHealth3 programı, bitki sağlığı alanında 2 yıllık tam burslu yüksek lisans imkanı sunmaktadır.",
+      "title_tr": "Erasmus PlantHealth3 Yüksek Lisans Bursu 2027/29",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
+      "category": "egitim",
+      "country_tr": "İspanya",
+      "deadline": "2026-11-06",
+      "eligibility_evidence": "Katılımcı ülkeler: İtalya, İspanya, Almanya, Türkiye, Estonya ve Kuzey Makedonya",
+      "fee_required": false,
+      "funding_tr": "Seyahat, konaklama ve yemek masrafları karşılanır",
+      "highlights_tr": [
+        "18-30 yaş arası gençlere açık",
+        "13-21 Aralık 2026 tarihleri arasında",
+        "Tüm temel masraflar Erasmus+ tarafından karşılanır"
+      ],
+      "id": "5107c2437858",
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-10-31T19:13:59.179478+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/ispanya-alicante-8-gun-erasmus-genclik-degisimi/",
+      "summary_tr": "İspanya'nın Alicante kentinde 13-21 Aralık 2026 tarihleri arasında düzenlenecek olan, demokrasi ve gençlik katılımı odaklı Erasmus+ gençlik değişimi programı.",
+      "title_tr": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -1262,6 +1352,12 @@
       "title": "UNDP Online Volunteer Opportunity 2026: 12 Research Support Positions in Biodiversity and Ecosystem Services Across Sout",
       "ts": "2026-10-30T09:52:27.706218+00:00"
     },
+    "27289da2aca9": {
+      "reason": "Katılım ücreti var.",
+      "status": "pending",
+      "title": "Universal Youth Leadership Summit Malaysia 2027 (Fully Funded)",
+      "ts": "2026-10-31T19:14:12.718315+00:00"
+    },
     "276be86740ef": {
       "reason": "",
       "status": "queued",
@@ -1340,11 +1436,23 @@
       "title": "Boehringer Ingelheim İnsan Kaynakları Stajyeri",
       "ts": "2026-10-30T17:58:24.737730+00:00"
     },
+    "5107c2437858": {
+      "reason": "",
+      "status": "queued",
+      "title": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
+      "ts": "2026-10-31T19:13:59.179497+00:00"
+    },
     "54e247c0f1a8": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "status": "rejected",
       "title": "Proje Hazırlama Eğitimi (Proje Döngüsü Yönetimi / PCM Eğitimi)",
       "ts": "2026-10-29T00:46:42.757297+00:00"
+    },
+    "56a1b38aff04": {
+      "reason": "",
+      "status": "queued",
+      "title": "Erasmus PlantHealth3 Yüksek Lisans Bursu 2027/29",
+      "ts": "2026-10-31T19:13:52.642434+00:00"
     },
     "597559930cd7": {
       "reason": "",
@@ -1586,6 +1694,18 @@
       "title": "Yuva Vakfı Burs Duyurusu",
       "ts": "2026-10-29T00:46:27.904376+00:00"
     },
+    "c4e86cb18736": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Yunanistan , Selanik : Kısa Dönem Erasmus+ Projesi",
+      "ts": "2026-10-31T19:14:19.113586+00:00"
+    },
+    "c75316d002fa": {
+      "reason": "Türkiye'ye kapalı: They must be nationals or permanent residents of a Sub-Saharan African country.",
+      "status": "rejected",
+      "title": "DAAD-MUBAS Scholarship 2027 | Fully Funded",
+      "ts": "2026-10-31T19:14:24.979056+00:00"
+    },
     "ccde45e24ae6": {
       "reason": "",
       "status": "queued",
@@ -1676,6 +1796,12 @@
       "title": "EJN 2027 Gazetecilik Bursu - ABD",
       "ts": "2026-10-30T00:47:16.306782+00:00"
     },
+    "f97758a59aaa": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 3 aday link: opcircleacademy.com, nextgenyouthcamp.com, bit.ly)",
+      "status": "rejected",
+      "title": "Google Forward Deployed Engineering Internship 2027 | Paid",
+      "ts": "2026-10-31T19:14:04.947486+00:00"
+    },
     "fa6ef29ed62d": {
       "reason": "",
       "status": "queued",
@@ -1737,6 +1863,9 @@
     "almanya'da uzun dönem esc gönüllülük projesi",
     "marmara üniversitesi sözleşmeli personel alımı",
     "galatasaray üniversitesi sözleşmeli bilişim personeli alımı",
-    "tarım ve orman bakanlığı sözleşmeli bilişim personeli alımı"
+    "tarım ve orman bakanlığı sözleşmeli bilişim personeli alımı",
+    "erasmus planthealth3 yüksek lisans bursu 2027 29",
+    "i spanya alicante erasmus gençlik değişimi",
+    "universal youth leadership summit malezya 2027"
   ]
 }
