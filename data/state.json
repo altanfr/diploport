@@ -49,19 +49,16 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=7726dd9c-56dd-49e0-a0b2-a098e6c57b8a",
     "kariyerkapisi.gov.tr/IlanDetay?i=5976effc-ff4b-49b1-a5d7-c08d82d81636"
   ],
-  "outbox": [
+  "outbox": [],
+  "pending": {},
+  "published": [
     {
-      "apply_url": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
-      "attempts": 0,
-      "caption": "Pioneers In Progress Uzun Dönem Staj Programı\n\nAkaryakıt dışı gelirler ve tedarik zinciri operasyonlarında görev alacak, veri analizi ve raporlama süreçlerine destek verecek uzun dönem stajyer aranıyor.\n\n- Haftada en az 4 gün çalışma imkanı\n- Veri analizi ve raporlama odaklı görevler\n- Yapay zeka araçlarını kullanma fırsatı\n\nSon başvuru: 31 Ekim 2026\nBaşvuru: https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/\nTüm fırsatlar: https://diploport.dev/#d31682b3c6e6\n\nKaynak: Youthall\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
       "id": "d31682b3c6e6",
+      "official": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
       "photo_query": "logo: Shell plc (Vikipedi (tr) sayfa logosu)",
-      "title": "Pioneers In Progress Uzun Dönem Staj Programı",
-      "ts": "2026-10-31T12:11:01.790219+00:00"
+      "ts": "2026-10-31T12:11:34.853593+00:00"
     }
   ],
-  "pending": {},
-  "published": [],
   "queue": [
     {
       "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
@@ -1603,9 +1600,9 @@
     },
     "d31682b3c6e6": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Pioneers In Progress Uzun Dönem Staj Programı",
-      "ts": "2026-10-30T09:52:41.039162+00:00"
+      "ts": "2026-10-31T12:11:34.853611+00:00"
     },
     "d3ce9b530538": {
       "reason": "",
