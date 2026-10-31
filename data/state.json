@@ -49,10 +49,42 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=7726dd9c-56dd-49e0-a0b2-a098e6c57b8a",
     "kariyerkapisi.gov.tr/IlanDetay?i=5976effc-ff4b-49b1-a5d7-c08d82d81636"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
+      "attempts": 0,
+      "caption": "Pioneers In Progress Uzun Dönem Staj Programı\n\nAkaryakıt dışı gelirler ve tedarik zinciri operasyonlarında görev alacak, veri analizi ve raporlama süreçlerine destek verecek uzun dönem stajyer aranıyor.\n\n- Haftada en az 4 gün çalışma imkanı\n- Veri analizi ve raporlama odaklı görevler\n- Yapay zeka araçlarını kullanma fırsatı\n\nSon başvuru: 31 Ekim 2026\nBaşvuru: https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/\nTüm fırsatlar: https://diploport.dev/#d31682b3c6e6\n\nKaynak: Youthall\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "d31682b3c6e6",
+      "photo_query": "logo: Shell plc (Vikipedi (tr) sayfa logosu)",
+      "title": "Pioneers In Progress Uzun Dönem Staj Programı",
+      "ts": "2026-10-31T12:11:01.790219+00:00"
+    }
+  ],
   "pending": {},
   "published": [],
   "queue": [
+    {
+      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+      "category": "yarisma",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-02",
+      "fee_required": false,
+      "funding_tr": "Para ödülü (30.000 TL'ye kadar)",
+      "highlights_tr": [
+        "Mimarlık öğrencilerine özel",
+        "30.000 TL'ye varan ödüller",
+        "Hyundai yöneticileriyle tanışma fırsatı"
+      ],
+      "id": "79818efb00a9",
+      "image_queries": [],
+      "organization": "Hyundai Motor Türkiye",
+      "queued_at": "2026-10-30T20:35:36.491789+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+      "summary_tr": "Hyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.",
+      "title_tr": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
+      "visual_kind": "institution"
+    },
     {
       "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
       "category": "staj",
@@ -73,6 +105,57 @@
       "source": "Youthall",
       "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
       "title_tr": "Bilkom Digital Leader Genç Yetenek Programı",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://genclikcalismalari.org/ilan/esc-1626-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/",
+      "category": "gonulluluk",
+      "country_tr": "Almanya",
+      "deadline": "2026-11-06",
+      "eligibility_evidence": "Projeye, Türkiye Cumhuriyeti vatandaşı olan 18-30 yaş arası (bu yaşlar dahil) herkes başvurabilir.",
+      "fee_required": false,
+      "funding_tr": "ESC kapsamında konaklama, yemek ve yol desteği",
+      "highlights_tr": [
+        "18-30 yaş arası başvuru imkanı",
+        "12 aylık uzun dönem gönüllülük",
+        "Türkiye Cumhuriyeti vatandaşlarına açık"
+      ],
+      "id": "f3e9a405a88c",
+      "is_opportunity": true,
+      "organization": "Pi Gençlik Derneği",
+      "organization_domain": "pigenc.org",
+      "queued_at": "2026-10-30T20:56:05.515828+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/katilimci-cagrisi-almanyada-uzun-donem-esc-gonulluluk-projesi-6/",
+      "summary_tr": "Almanya'nın Emden şehrinde 1 Aralık 2026 - 30 Kasım 2027 tarihleri arasında gerçekleşecek Avrupa Dayanışma Programı (ESC) gönüllülük projesi için 18-30 yaş arası katılımcılar aranmaktadır.",
+      "title_tr": "Almanya'da Uzun Dönem ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/aygazdakariyer/kurumsal-iletisim-ic-tasarim-destek-uzun-donem-stajyer_73/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-08",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Üniversite 4. sınıf öğrencileri için",
+        "Tasarım araçları (Canva, Photoshop) kullanımı",
+        "Kurumsal iletişim ve içerik üretimi odaklı"
+      ],
+      "id": "b67a02db7bff",
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-10-30T20:55:50.664113+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/aygazdakariyer/kurumsal-iletisim-ic-tasarim-destek-uzun-donem-stajyer_73/",
+      "summary_tr": "Şirketin İnsan Kaynakları departmanında görev alacak, kurum içi iletişim ve görsel tasarım süreçlerine destek verecek uzun dönem stajyer aranıyor.",
+      "title_tr": "Kurumsal İletişim ve İç Tasarım Uzun Dönem Stajyeri",
+      "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
     {
@@ -943,50 +1026,6 @@
       "visual_kind": "institution"
     },
     {
-      "apply_url": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-10-31",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Haftada en az 4 gün çalışma imkanı",
-        "Veri analizi ve raporlama odaklı görevler",
-        "Yapay zeka araçlarını kullanma fırsatı"
-      ],
-      "id": "d31682b3c6e6",
-      "image_queries": [],
-      "organization": "Akaryakıt Dışı Gelirler",
-      "queued_at": "2026-10-30T20:35:36.491684+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
-      "summary_tr": "Akaryakıt dışı gelirler ve tedarik zinciri operasyonlarında görev alacak, veri analizi ve raporlama süreçlerine destek verecek uzun dönem stajyer aranıyor.",
-      "title_tr": "Pioneers In Progress Uzun Dönem Staj Programı",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
-      "category": "yarisma",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-02",
-      "fee_required": false,
-      "funding_tr": "Para ödülü (30.000 TL'ye kadar)",
-      "highlights_tr": [
-        "Mimarlık öğrencilerine özel",
-        "30.000 TL'ye varan ödüller",
-        "Hyundai yöneticileriyle tanışma fırsatı"
-      ],
-      "id": "79818efb00a9",
-      "image_queries": [],
-      "organization": "Hyundai Motor Türkiye",
-      "queued_at": "2026-10-30T20:35:36.491789+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
-      "summary_tr": "Hyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.",
-      "title_tr": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
-      "visual_kind": "institution"
-    },
-    {
       "apply_url": "https://www.youthall.com/en/etstur/pricing-data-entry-assistant-specialist_14/",
       "category": "is",
       "country_tr": "Türkiye",
@@ -1039,31 +1078,6 @@
       "visual_kind": "institution"
     },
     {
-      "apply_url": "https://www.youthall.com/tr/aygazdakariyer/kurumsal-iletisim-ic-tasarim-destek-uzun-donem-stajyer_73/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-08",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Üniversite 4. sınıf öğrencileri için",
-        "Tasarım araçları (Canva, Photoshop) kullanımı",
-        "Kurumsal iletişim ve içerik üretimi odaklı"
-      ],
-      "id": "b67a02db7bff",
-      "is_opportunity": true,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-10-30T20:55:50.664113+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/aygazdakariyer/kurumsal-iletisim-ic-tasarim-destek-uzun-donem-stajyer_73/",
-      "summary_tr": "Şirketin İnsan Kaynakları departmanında görev alacak, kurum içi iletişim ve görsel tasarım süreçlerine destek verecek uzun dönem stajyer aranıyor.",
-      "title_tr": "Kurumsal İletişim ve İç Tasarım Uzun Dönem Stajyeri",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=793cd518-1ca4-4e15-90ee-58989b15bd08",
       "category": "is",
       "country_tr": "Türkiye",
@@ -1089,32 +1103,6 @@
       "title_tr": "Orman Genel Müdürlüğü Müfettiş Yardımcılığı Giriş Sınavı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://genclikcalismalari.org/ilan/esc-1626-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/",
-      "category": "gonulluluk",
-      "country_tr": "Almanya",
-      "deadline": "2026-11-06",
-      "eligibility_evidence": "Projeye, Türkiye Cumhuriyeti vatandaşı olan 18-30 yaş arası (bu yaşlar dahil) herkes başvurabilir.",
-      "fee_required": false,
-      "funding_tr": "ESC kapsamında konaklama, yemek ve yol desteği",
-      "highlights_tr": [
-        "18-30 yaş arası başvuru imkanı",
-        "12 aylık uzun dönem gönüllülük",
-        "Türkiye Cumhuriyeti vatandaşlarına açık"
-      ],
-      "id": "f3e9a405a88c",
-      "is_opportunity": true,
-      "organization": "Pi Gençlik Derneği",
-      "organization_domain": "pigenc.org",
-      "queued_at": "2026-10-30T20:56:05.515828+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/katilimci-cagrisi-almanyada-uzun-donem-esc-gonulluluk-projesi-6/",
-      "summary_tr": "Almanya'nın Emden şehrinde 1 Aralık 2026 - 30 Kasım 2027 tarihleri arasında gerçekleşecek Avrupa Dayanışma Programı (ESC) gönüllülük projesi için 18-30 yaş arası katılımcılar aranmaktadır.",
-      "title_tr": "Almanya'da Uzun Dönem ESC Gönüllülük Projesi",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
     },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=af46c544-8728-4ab2-beed-937fe050035c",
@@ -1247,6 +1235,12 @@
       "title": "Orman Genel Müdürlüğü Müfettiş Yardımcısı Alımı Duyurusu",
       "ts": "2026-10-30T00:48:44.059536+00:00"
     },
+    "1ed92e8e9a6e": {
+      "reason": "Türkiye'ye kapalı: Not eligible if completing a bachelor’s degree at institutions outside the U.S., or if they are exchange students.",
+      "status": "rejected",
+      "title": "MIT Summer Research Program 2027 in USA (Fully Funded)",
+      "ts": "2026-10-31T12:10:30.913612+00:00"
+    },
     "1f187515b03d": {
       "reason": "resmî başvuru linki bulunamadı (seçilen link reddedildi: bağlantı hatası: SSLError; sayfada 1 aday link: mpg.de)",
       "status": "rejected",
@@ -1336,6 +1330,12 @@
       "status": "rejected",
       "title": "Kültürel Miras Genç Liderler Mentörlük Programı Başvurularınızı Bekliyor",
       "ts": "2026-10-30T17:59:02.212579+00:00"
+    },
+    "48299a758094": {
+      "reason": "Türkiye'ye kapalı: Applicants must be US citizens or hold valid visas that allow them to receive paid work during the summer.",
+      "status": "rejected",
+      "title": "AAAS Mass Media Fellowship 2027 in USA",
+      "ts": "2026-10-31T12:10:38.328503+00:00"
     },
     "4964de0862b8": {
       "reason": "",
@@ -1432,6 +1432,12 @@
       "status": "rejected",
       "title": "Polonya’da ESC Gönüllülük Projesi Fırsatı",
       "ts": "2026-10-29T09:48:38.260549+00:00"
+    },
+    "7c8d8300e79e": {
+      "reason": "Türkiye'ye kapalı: The Community Solutions Program is open to the following countries:",
+      "status": "rejected",
+      "title": "Community Solutions Program 2027 in USA (Fully Funded)",
+      "ts": "2026-10-31T12:10:58.356933+00:00"
     },
     "7e64af0459a8": {
       "reason": "",
