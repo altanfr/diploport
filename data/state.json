@@ -58,17 +58,7 @@
     "governance.ai/post/uk-summer-fellowship-2027-research-track",
     "futurelearn.com/partners/dcu"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
-      "attempts": 0,
-      "caption": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması\n\nHyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.\n\n- Mimarlık öğrencilerine özel\n- 30.000 TL'ye varan ödüller\n- Hyundai yöneticileriyle tanışma fırsatı\n\nSon başvuru: 2 Kasım 2026\nBaşvuru: https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/\nTüm fırsatlar: https://diploport.dev/#79818efb00a9\n\nKaynak: Youthall\n\n#diploport #fırsat #türkgençler #yarışma #ödül #gençler",
-      "id": "79818efb00a9",
-      "photo_query": "logo: Hyundai Motor Türkiye (ilan sayfasındaki şirket logosu)",
-      "title": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
-      "ts": "2026-11-01T13:13:46.850857+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -133,6 +123,12 @@
       "official": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
       "photo_query": "logo: Shell plc (Vikipedi (tr) sayfa logosu)",
       "ts": "2026-10-31T12:11:34.853593+00:00"
+    },
+    {
+      "id": "79818efb00a9",
+      "official": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+      "photo_query": "logo: Hyundai Motor Türkiye (ilan sayfasındaki şirket logosu)",
+      "ts": "2026-11-01T13:14:50.352817+00:00"
     }
   ],
   "queue": [
@@ -1685,9 +1681,9 @@
     },
     "79818efb00a9": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
-      "ts": "2026-10-30T09:53:41.737261+00:00"
+      "ts": "2026-11-01T13:14:50.352836+00:00"
     },
     "79f8ad5822c1": {
       "reason": "",
