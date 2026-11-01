@@ -50,7 +50,9 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=5976effc-ff4b-49b1-a5d7-c08d82d81636",
     "planthealth.upv.es/web/programme/the-master-programme",
     "docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
-    "universalyouthmovement.org/uyls-malaysia-2027"
+    "universalyouthmovement.org/uyls-malaysia-2027",
+    "youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154",
+    "youthall.com/tr/OtokocOtomotiv/uzun-donem-genel-stajyer-ilani_31"
   ],
   "outbox": [],
   "pending": {
@@ -1271,6 +1273,56 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-09",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "İstanbul Kadıköy ofisinde çalışma",
+        "En az 6 ay devam zorunluluğu",
+        "Adobe Photoshop ve Illustrator yetkinliği"
+      ],
+      "id": "36e80af2e4c0",
+      "is_opportunity": true,
+      "organization": "Youthall",
+      "organization_domain": "youthall.com",
+      "queued_at": "2026-11-01T00:01:54.928170+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
+      "summary_tr": "Youthall, İstanbul Kadıköy ofisinde görevlendirilmek üzere, üniversitelerin 3. veya 4. sınıfında okuyan, Adobe programlarına hakim grafik tasarım stajyeri arıyor.",
+      "title_tr": "Youthall Grafik Tasarım Stajyeri",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/OtokocOtomotiv/uzun-donem-genel-stajyer-ilani_31/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "Haftada en az 3 gün çalışma imkanı",
+        "3. sınıf, 4. sınıf veya yüksek lisans öğrencileri",
+        "Farklı departmanlarda kariyer deneyimi"
+      ],
+      "id": "777402a5a29b",
+      "is_opportunity": true,
+      "organization": "Otokoç Otomotiv",
+      "organization_domain": "otokocotomotiv.com.tr",
+      "queued_at": "2026-11-01T00:02:02.697178+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/OtokocOtomotiv/uzun-donem-genel-stajyer-ilani_31/",
+      "summary_tr": "Otokoç Otomotiv bünyesinde farklı departmanlarda görev alacak, haftada en az 3 gün çalışabilecek 3. ve 4. sınıf veya yüksek lisans öğrencileri için uzun dönem staj programı.",
+      "title_tr": "Otokoç Otomotiv Uzun Dönem Genel Stajyer İlanı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -1369,6 +1421,12 @@
       "status": "queued",
       "title": "Elektrik ve Elektronik Mühendisi Uzun Dönem Stajyeri",
       "ts": "2026-10-30T00:49:04.951735+00:00"
+    },
+    "36e80af2e4c0": {
+      "reason": "",
+      "status": "queued",
+      "title": "Youthall Grafik Tasarım Stajyeri",
+      "ts": "2026-11-01T00:01:54.928187+00:00"
     },
     "386808f218be": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -1519,6 +1577,12 @@
       "status": "rejected",
       "title": "CaCTuS Summer Internship 2027 in Germany | Fully Funded",
       "ts": "2026-10-30T17:58:10.290586+00:00"
+    },
+    "777402a5a29b": {
+      "reason": "",
+      "status": "queued",
+      "title": "Otokoç Otomotiv Uzun Dönem Genel Stajyer İlanı",
+      "ts": "2026-11-01T00:02:02.697194+00:00"
     },
     "79818efb00a9": {
       "reason": "",
@@ -1866,6 +1930,8 @@
     "tarım ve orman bakanlığı sözleşmeli bilişim personeli alımı",
     "erasmus planthealth3 yüksek lisans bursu 2027 29",
     "i spanya alicante erasmus gençlik değişimi",
-    "universal youth leadership summit malezya 2027"
+    "universal youth leadership summit malezya 2027",
+    "youthall grafik tasarım stajyeri",
+    "otokoç otomotiv uzun dönem genel stajyer i lanı"
   ]
 }
