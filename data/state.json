@@ -52,9 +52,23 @@
     "docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
     "universalyouthmovement.org/uyls-malaysia-2027",
     "youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154",
-    "youthall.com/tr/OtokocOtomotiv/uzun-donem-genel-stajyer-ilani_31"
+    "youthall.com/tr/OtokocOtomotiv/uzun-donem-genel-stajyer-ilani_31",
+    "docs.google.com/forms/d/e/1FAIpQLSfCdsHIVdioIuwmqW924iGa__5aeHI0gSnVdzgzjPcA38rMcA/viewform",
+    "admission.vistec.ac.th",
+    "governance.ai/post/uk-summer-fellowship-2027-research-track",
+    "futurelearn.com/partners/dcu"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
+      "attempts": 0,
+      "caption": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması\n\nHyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.\n\n- Mimarlık öğrencilerine özel\n- 30.000 TL'ye varan ödüller\n- Hyundai yöneticileriyle tanışma fırsatı\n\nSon başvuru: 2 Kasım 2026\nBaşvuru: https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/\nTüm fırsatlar: https://diploport.dev/#79818efb00a9\n\nKaynak: Youthall\n\n#diploport #fırsat #türkgençler #yarışma #ödül #gençler",
+      "id": "79818efb00a9",
+      "photo_query": "logo: Hyundai Motor Türkiye (ilan sayfasındaki şirket logosu)",
+      "title": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
+      "ts": "2026-11-01T13:13:46.850857+00:00"
+    }
+  ],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -83,6 +97,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "d05a06e143d4": {
+      "apply_link_id": 2,
+      "apply_url": "https://www.futurelearn.com/partners/dcu",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "These free online courses for international students cover subjects such as Irish language and culture, digital learning, healthcare, and European affairs.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Tamamen online ve esnek öğrenme",
+        "1-4 hafta arası kısa süreli kurslar",
+        "İrlanda dili, sağlık ve dijital eğitim"
+      ],
+      "id": "d05a06e143d4",
+      "is_opportunity": true,
+      "message_id": 6,
+      "organization": "Dublin City University",
+      "organization_domain": "dcu.ie",
+      "queued_at": "2026-11-01T13:11:22.032023+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/dublin-city-university-online-courses/",
+      "summary_tr": "Dublin City University, FutureLearn platformu üzerinden İrlanda dili, dijital öğrenme, sağlık ve Avrupa Birliği konularında çeşitli ücretsiz online kurslar sunmaktadır.",
+      "title_tr": "Dublin City University Ücretsiz Online Kurslar",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
     }
   },
   "published": [
@@ -94,28 +136,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
-      "category": "yarisma",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-02",
-      "fee_required": false,
-      "funding_tr": "Para ödülü (30.000 TL'ye kadar)",
-      "highlights_tr": [
-        "Mimarlık öğrencilerine özel",
-        "30.000 TL'ye varan ödüller",
-        "Hyundai yöneticileriyle tanışma fırsatı"
-      ],
-      "id": "79818efb00a9",
-      "image_queries": [],
-      "organization": "Hyundai Motor Türkiye",
-      "queued_at": "2026-10-30T20:35:36.491789+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
-      "summary_tr": "Hyundai Motor Türkiye tarafından düzenlenen bu yarışma, mimarlık öğrencilerine gerçek bir proje üzerinde çalışma, profesyonellerle tanışma ve kariyer fırsatları keşfetme imkanı sunuyor.",
-      "title_tr": "Hyundai Ideathon Mimari Tasarım Fikir Yarışması",
-      "visual_kind": "institution"
-    },
     {
       "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
       "category": "staj",
@@ -165,6 +185,33 @@
       "visual_kind": "scene"
     },
     {
+      "apply_link_id": 2,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
+      "category": "egitim",
+      "country_tr": "İspanya",
+      "deadline": "2026-11-06",
+      "eligibility_evidence": "Katılımcı ülkeler: İtalya, İspanya, Almanya, Türkiye, Estonya ve Kuzey Makedonya",
+      "fee_required": false,
+      "funding_tr": "Seyahat, konaklama ve yemek masrafları karşılanır",
+      "highlights_tr": [
+        "18-30 yaş arası gençlere açık",
+        "13-21 Aralık 2026 tarihleri arasında",
+        "Tüm temel masraflar Erasmus+ tarafından karşılanır"
+      ],
+      "id": "5107c2437858",
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-10-31T19:13:59.179478+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/ispanya-alicante-8-gun-erasmus-genclik-degisimi/",
+      "summary_tr": "İspanya'nın Alicante kentinde 13-21 Aralık 2026 tarihleri arasında düzenlenecek olan, demokrasi ve gençlik katılımı odaklı Erasmus+ gençlik değişimi programı.",
+      "title_tr": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
       "apply_url": "https://www.youthall.com/tr/aygazdakariyer/kurumsal-iletisim-ic-tasarim-destek-uzun-donem-stajyer_73/",
       "category": "staj",
       "country_tr": "Türkiye",
@@ -187,6 +234,58 @@
       "summary_tr": "Şirketin İnsan Kaynakları departmanında görev alacak, kurum içi iletişim ve görsel tasarım süreçlerine destek verecek uzun dönem stajyer aranıyor.",
       "title_tr": "Kurumsal İletişim ve İç Tasarım Uzun Dönem Stajyeri",
       "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-09",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "İstanbul Kadıköy ofisinde çalışma",
+        "En az 6 ay devam zorunluluğu",
+        "Adobe Photoshop ve Illustrator yetkinliği"
+      ],
+      "id": "36e80af2e4c0",
+      "is_opportunity": true,
+      "organization": "Youthall",
+      "organization_domain": "youthall.com",
+      "queued_at": "2026-11-01T00:01:54.928170+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
+      "summary_tr": "Youthall, İstanbul Kadıköy ofisinde görevlendirilmek üzere, üniversitelerin 3. veya 4. sınıfında okuyan, Adobe programlarına hakim grafik tasarım stajyeri arıyor.",
+      "title_tr": "Youthall Grafik Tasarım Stajyeri",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfCdsHIVdioIuwmqW924iGa__5aeHI0gSnVdzgzjPcA38rMcA/viewform",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-13",
+      "eligibility_evidence": "DIPLOMOSAIC: Yapay Zekâ Çağında Siber Diplomasi” projesi, Türkiye’den katılımcıların başvurularına açılıyor.",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek ve seyahat desteği",
+      "highlights_tr": [
+        "18 yaş ve üzeri katılımcılar için",
+        "Çalışma dili İngilizce",
+        "7-14 Aralık 2026 tarihleri arasında"
+      ],
+      "id": "f71cb8b35a49",
+      "is_opportunity": true,
+      "organization": "Divan Araştırma ve Eğitim Derneği",
+      "organization_domain": "",
+      "queued_at": "2026-11-01T13:11:00.981388+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/istanbul-7-gun-erasmus-projesi/",
+      "summary_tr": "Divan Araştırma ve Eğitim Derneği tarafından İstanbul'da düzenlenecek olan Erasmus+ projesi, yapay zekâ ve siber diplomasi konularında uygulamalı eğitimler ve simülasyonlar sunuyor.",
+      "title_tr": "DIPLOMOSAIC: Yapay Zekâ Çağında Siber Diplomasi Eğitimi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
       "visual_kind": "institution"
     },
     {
@@ -241,6 +340,32 @@
       "title_tr": "UNDP Tayland İletişim Stajı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.governance.ai/post/uk-summer-fellowship-2027-research-track",
+      "category": "diger",
+      "country_tr": "İngiltere",
+      "deadline": "2026-11-22",
+      "eligibility_evidence": "The Fellowship is open to all nationals.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (14.000 £ burs, ulaşım ve yemek dahil)",
+      "highlights_tr": [
+        "14.000 £ tutarında burs desteği",
+        "Ulaşım ve yemek masrafları karşılanır",
+        "Tüm ülkelerden başvurulara açık"
+      ],
+      "id": "dde79a3b0121",
+      "is_opportunity": true,
+      "organization": "GovAI",
+      "organization_domain": "governance.ai",
+      "queued_at": "2026-11-01T13:11:15.411217+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/govai-summer-fellowship-2027-in-london/",
+      "summary_tr": "Londra'da gerçekleşecek 3 aylık GovAI Yaz Araştırma Bursu, yapay zeka yönetişimi alanında çalışmak isteyen tüm dünyadan adaylara açıktır. Program tam kapsamlı finansal destek ve vize sponsorluğu sunmaktadır.",
+      "title_tr": "GovAI Yaz Araştırma Bursu 2027 - Londra",
+      "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
     {
@@ -360,6 +485,37 @@
     },
     {
       "apply_link_id": 1,
+      "apply_url": "https://www.planthealth.upv.es/web/programme/the-master-programme/",
+      "category": "burs",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2026-12-31",
+      "eligibility_evidence": "The Scholarship is open to Nationals of all countries.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti, sigorta ve aylık 1400 Euro)",
+      "highlights_tr": [
+        "Tüm ülkelerden başvurulara açık",
+        "24 ay süreli tam burslu program",
+        "İki farklı Avrupa üniversitesinden çift diploma"
+      ],
+      "id": "56a1b38aff04",
+      "image_queries": [
+        "European university campus",
+        "Europe agriculture research",
+        "students in laboratory"
+      ],
+      "is_opportunity": true,
+      "organization": "Universitat Politècnica de València",
+      "organization_domain": "upv.es",
+      "queued_at": "2026-10-31T19:13:52.642417+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/erasmus-planthealth3-scholarship/",
+      "summary_tr": "Avrupa Birliği tarafından finanse edilen Erasmus Mundus PlantHealth3 programı, bitki sağlığı alanında 2 yıllık tam burslu yüksek lisans imkanı sunmaktadır.",
+      "title_tr": "Erasmus PlantHealth3 Yüksek Lisans Bursu 2027/29",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
       "apply_url": "https://www.faspe-ethics.org/how-to-apply/",
       "category": "egitim",
       "country_tr": "Almanya ve Polonya",
@@ -409,6 +565,32 @@
       "title_tr": "Stanford Fisher Family Yaz Bursiyerleri Programı 2027",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 3,
+      "apply_url": "https://admission.vistec.ac.th/",
+      "category": "burs",
+      "country_tr": "Tayland",
+      "deadline": "2027-02-15",
+      "eligibility_evidence": "International students from all over the world are eligible to apply for VISTEC Scholarships 2027 in Thailand.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti muafiyeti, aylık burs, konaklama ve araştırma desteği)",
+      "highlights_tr": [
+        "Fen ve mühendislik alanlarında lisansüstü eğitim",
+        "Aylık 20.000 THB'ye varan yaşam desteği",
+        "Ücretsiz kampüs içi konaklama imkanı"
+      ],
+      "id": "7cd5d6c89e36",
+      "is_opportunity": true,
+      "organization": "Vidyasirimedhi Institute of Science and Technology",
+      "organization_domain": "vistec.ac.th",
+      "queued_at": "2026-11-01T13:11:09.097530+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/vidyasirimedhi-institute-scholarship/",
+      "summary_tr": "Tayland'daki Vidyasirimedhi Bilim ve Teknoloji Enstitüsü (VISTEC), fen ve mühendislik alanlarında yüksek lisans ve doktora yapmak isteyen uluslararası öğrenciler için tam burslu programlar sunmaktadır.",
+      "title_tr": "Vidyasirimedhi Institute (VISTEC) Yüksek Lisans ve Doktora Bursu",
+      "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
     {
@@ -1217,89 +1399,6 @@
       "visual_kind": "institution"
     },
     {
-      "apply_link_id": 1,
-      "apply_url": "https://www.planthealth.upv.es/web/programme/the-master-programme/",
-      "category": "burs",
-      "country_tr": "Çok ülkeli",
-      "deadline": "2026-12-31",
-      "eligibility_evidence": "The Scholarship is open to Nationals of all countries.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (öğrenim ücreti, sigorta ve aylık 1400 Euro)",
-      "highlights_tr": [
-        "Tüm ülkelerden başvurulara açık",
-        "24 ay süreli tam burslu program",
-        "İki farklı Avrupa üniversitesinden çift diploma"
-      ],
-      "id": "56a1b38aff04",
-      "image_queries": [
-        "European university campus",
-        "Europe agriculture research",
-        "students in laboratory"
-      ],
-      "is_opportunity": true,
-      "organization": "Universitat Politècnica de València",
-      "organization_domain": "upv.es",
-      "queued_at": "2026-10-31T19:13:52.642417+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/erasmus-planthealth3-scholarship/",
-      "summary_tr": "Avrupa Birliği tarafından finanse edilen Erasmus Mundus PlantHealth3 programı, bitki sağlığı alanında 2 yıllık tam burslu yüksek lisans imkanı sunmaktadır.",
-      "title_tr": "Erasmus PlantHealth3 Yüksek Lisans Bursu 2027/29",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 2,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
-      "category": "egitim",
-      "country_tr": "İspanya",
-      "deadline": "2026-11-06",
-      "eligibility_evidence": "Katılımcı ülkeler: İtalya, İspanya, Almanya, Türkiye, Estonya ve Kuzey Makedonya",
-      "fee_required": false,
-      "funding_tr": "Seyahat, konaklama ve yemek masrafları karşılanır",
-      "highlights_tr": [
-        "18-30 yaş arası gençlere açık",
-        "13-21 Aralık 2026 tarihleri arasında",
-        "Tüm temel masraflar Erasmus+ tarafından karşılanır"
-      ],
-      "id": "5107c2437858",
-      "is_opportunity": true,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-10-31T19:13:59.179478+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/ispanya-alicante-8-gun-erasmus-genclik-degisimi/",
-      "summary_tr": "İspanya'nın Alicante kentinde 13-21 Aralık 2026 tarihleri arasında düzenlenecek olan, demokrasi ve gençlik katılımı odaklı Erasmus+ gençlik değişimi programı.",
-      "title_tr": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-09",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "İstanbul Kadıköy ofisinde çalışma",
-        "En az 6 ay devam zorunluluğu",
-        "Adobe Photoshop ve Illustrator yetkinliği"
-      ],
-      "id": "36e80af2e4c0",
-      "is_opportunity": true,
-      "organization": "Youthall",
-      "organization_domain": "youthall.com",
-      "queued_at": "2026-11-01T00:01:54.928170+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
-      "summary_tr": "Youthall, İstanbul Kadıköy ofisinde görevlendirilmek üzere, üniversitelerin 3. veya 4. sınıfında okuyan, Adobe programlarına hakim grafik tasarım stajyeri arıyor.",
-      "title_tr": "Youthall Grafik Tasarım Stajyeri",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
       "apply_url": "https://www.youthall.com/tr/OtokocOtomotiv/uzun-donem-genel-stajyer-ilani_31/",
       "category": "staj",
       "country_tr": "Türkiye",
@@ -1608,6 +1707,12 @@
       "title": "Community Solutions Program 2027 in USA (Fully Funded)",
       "ts": "2026-10-31T12:10:58.356933+00:00"
     },
+    "7cd5d6c89e36": {
+      "reason": "",
+      "status": "queued",
+      "title": "Vidyasirimedhi Institute (VISTEC) Yüksek Lisans ve Doktora Bursu",
+      "ts": "2026-11-01T13:11:09.097547+00:00"
+    },
     "7e64af0459a8": {
       "reason": "",
       "status": "queued",
@@ -1673,6 +1778,12 @@
       "status": "rejected",
       "title": "SDG 6 Fellowship 2027 in UK, Denmark, Malaysia (Fully Funded)",
       "ts": "2026-10-28T20:12:30.075510+00:00"
+    },
+    "a3dff2a05e20": {
+      "reason": "Türkiye'ye kapalı: Students from Asia can apply from here (Enrolled in an Asian university pursuing a bachelor’s degree).",
+      "status": "rejected",
+      "title": "UTokyo Amgen Scholars Program 2027 in Japan (Fully Funded Internship)",
+      "ts": "2026-11-01T13:10:17.106010+00:00"
     },
     "a52c02979e31": {
       "reason": "",
@@ -1776,6 +1887,12 @@
       "title": "Tarım ve Orman Bakanlığı Sözleşmeli Bilişim Personeli Alımı",
       "ts": "2026-10-30T22:13:37.516275+00:00"
     },
+    "d05a06e143d4": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Dublin City University Online Courses",
+      "ts": "2026-11-01T13:11:22.032041+00:00"
+    },
     "d2e728210b76": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "rejected",
@@ -1799,6 +1916,12 @@
       "status": "queued",
       "title": "Oyak Renault 4 Seasons Proje Stajyerliği",
       "ts": "2026-10-30T00:47:50.699722+00:00"
+    },
+    "dde79a3b0121": {
+      "reason": "",
+      "status": "queued",
+      "title": "GovAI Yaz Araştırma Bursu 2027 - Londra",
+      "ts": "2026-11-01T13:11:15.411232+00:00"
     },
     "e29ed9b23db2": {
       "reason": "",
@@ -1847,6 +1970,12 @@
       "status": "rejected",
       "title": "Royal Thai Government Scholarships 2027 | Funded",
       "ts": "2026-10-30T17:58:54.775520+00:00"
+    },
+    "f71cb8b35a49": {
+      "reason": "",
+      "status": "queued",
+      "title": "DIPLOMOSAIC: Yapay Zekâ Çağında Siber Diplomasi Eğitimi",
+      "ts": "2026-11-01T13:11:00.981405+00:00"
     },
     "f8ca5d4840e8": {
       "reason": "",
@@ -1932,6 +2061,10 @@
     "i spanya alicante erasmus gençlik değişimi",
     "universal youth leadership summit malezya 2027",
     "youthall grafik tasarım stajyeri",
-    "otokoç otomotiv uzun dönem genel stajyer i lanı"
+    "otokoç otomotiv uzun dönem genel stajyer i lanı",
+    "diplomosaic yapay zekâ çağında siber diplomasi eğitimi",
+    "vidyasirimedhi institute vistec yüksek lisans ve doktora bursu",
+    "govai yaz araştırma bursu 2027 londra",
+    "dublin city university ücretsiz online kurslar"
   ]
 }
