@@ -56,7 +56,9 @@
     "docs.google.com/forms/d/e/1FAIpQLSfCdsHIVdioIuwmqW924iGa__5aeHI0gSnVdzgzjPcA38rMcA/viewform",
     "admission.vistec.ac.th",
     "governance.ai/post/uk-summer-fellowship-2027-research-track",
-    "futurelearn.com/partners/dcu"
+    "futurelearn.com/partners/dcu",
+    "sfp.caltech.edu/undergraduate-research/programs/surf/application_information",
+    "visitfinland.com/en/have-some-finnish"
   ],
   "outbox": [],
   "pending": {
@@ -1418,9 +1420,72 @@
       "title_tr": "Otokoç Otomotiv Uzun Dönem Genel Stajyer İlanı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information",
+      "category": "staj",
+      "country_tr": "ABD",
+      "deadline": "2027-02-22",
+      "eligibility_evidence": "applicants from all over the world are eligible to apply.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (8.354$ ödenek)",
+      "highlights_tr": [
+        "10 haftalık tam kapsamlı araştırma stajı",
+        "8.354$ tutarında ödenek desteği",
+        "Lisans öğrencilerine açık"
+      ],
+      "id": "a19d915340a2",
+      "is_opportunity": true,
+      "organization": "California Institute of Technology",
+      "organization_domain": "caltech.edu",
+      "queued_at": "2026-11-01T19:30:52.828678+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/caltech-summer-research-program-2027/",
+      "summary_tr": "California Institute of Technology (Caltech) bünyesinde 10 hafta sürecek, lisans öğrencilerine yönelik tam kapsamlı yaz araştırma staj programı.",
+      "title_tr": "Caltech Yaz Araştırma Programı (SURF) 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.visitfinland.com/en/have-some-finnish/",
+      "category": "diger",
+      "country_tr": "Finlandiya",
+      "deadline": "2026-11-10",
+      "eligibility_evidence": "Programa dünyanın farklı ülkelerinden bekâr kişiler başvuru yapabiliyor.",
+      "fee_required": false,
+      "funding_tr": "Uçak bileti, konaklama, yemek ve aktiviteler karşılanır",
+      "highlights_tr": [
+        "18 yaşını doldurmuş olma şartı",
+        "İngilizce video hazırlama gerekliliği",
+        "Uçak, konaklama ve yemekler ücretsiz"
+      ],
+      "id": "024a83bbca8c",
+      "image_queries": [
+        "Helsinki Finland city",
+        "Finland winter travel",
+        "people dining together"
+      ],
+      "is_opportunity": true,
+      "organization": "Visit Finland",
+      "organization_domain": "visitfinland.com",
+      "queued_at": "2026-11-01T19:31:00.453663+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/finlandiyada-belki-burada-bulursun-uygulamasi-16-bekar-icin-ucretsiz-tatil/",
+      "summary_tr": "Visit Finland, dünyanın farklı ülkelerinden 16 bekâr katılımcıyı Şubat 2027'de Finlandiya'da dört günlük ücretsiz bir seyahat programına davet ediyor.",
+      "title_tr": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
+    "024a83bbca8c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
+      "ts": "2026-11-01T19:31:00.453680+00:00"
+    },
     "0833644949f7": {
       "reason": "",
       "status": "queued",
@@ -1769,6 +1834,18 @@
       "title": "VLIR-UOS Scholarships 2027 in Belgium | Study Free in Europe",
       "ts": "2026-10-29T18:28:17.787732+00:00"
     },
+    "a19d915340a2": {
+      "reason": "",
+      "status": "queued",
+      "title": "Caltech Yaz Araştırma Programı (SURF) 2027",
+      "ts": "2026-11-01T19:30:52.828695+00:00"
+    },
+    "a1aab97a17bc": {
+      "reason": "Türkiye'ye kapalı: Applicants must be at least 18 years old and nationals of one of the 44 eligible Least Developed Countries.",
+      "status": "rejected",
+      "title": "UN Journalism Fellowship 2027 in Qatar | Fully Funded",
+      "ts": "2026-11-01T19:31:07.022135+00:00"
+    },
     "a2deabeaa018": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "rejected",
@@ -2061,6 +2138,8 @@
     "diplomosaic yapay zekâ çağında siber diplomasi eğitimi",
     "vidyasirimedhi institute vistec yüksek lisans ve doktora bursu",
     "govai yaz araştırma bursu 2027 londra",
-    "dublin city university ücretsiz online kurslar"
+    "dublin city university ücretsiz online kurslar",
+    "caltech yaz araştırma programı surf 2027",
+    "visit finland'dan 16 kişiye ücretsiz finlandiya seyahati"
   ]
 }
