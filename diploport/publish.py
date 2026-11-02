@@ -184,12 +184,15 @@ def diagnose() -> list[str]:
     lines.append(f"bot: @{me.get('username')}")
     wh = _tg("getWebhookInfo")
     lines.append(f"webhook tanımlı: {bool(wh.get('url'))} · bekleyen: {wh.get('pending_update_count')} · son hata: {wh.get('last_error_message') or '-'}")
-    ups = _tg("getUpdates", timeout=0, limit=100)      # offset verilmez: güncellemeleri tüketmez
+    ups = _tg("getUpdates", timeout=0, limit=100,      # offset verilmez: güncellemeleri tüketmez
+              allowed_updates=["message", "edited_message", "callback_query"])
     lines.append(f"getUpdates: {len(ups)} güncelleme")
     for u in ups[-10:]:
         kind = [k for k in u if k != "update_id"]
         cb = u.get("callback_query") or {}
         extra = ""
+        if u.get("message"):
+            extra = f" · metin_uzunluğu={len(u['message'].get('text') or '')} · yanıt_mı={bool(u['message'].get('reply_to_message'))}"
         if cb:
             extra = f" · veri={cb.get('data')} · sahibi_mi={cb.get('from', {}).get('id') == chat_id}"
         lines.append(f"  update {u['update_id']}: {kind}{extra}")
