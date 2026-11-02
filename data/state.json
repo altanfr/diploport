@@ -58,7 +58,8 @@
     "governance.ai/post/uk-summer-fellowship-2027-research-track",
     "futurelearn.com/partners/dcu",
     "sfp.caltech.edu/undergraduate-research/programs/surf/application_information",
-    "visitfinland.com/en/have-some-finnish"
+    "visitfinland.com/en/have-some-finnish",
+    "kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755"
   ],
   "outbox": [],
   "pending": {
@@ -1477,6 +1478,33 @@
       "title_tr": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşı olma şartı",
+        "Eski hükümlü veya TMY statüsü",
+        "Kariyer Kapısı üzerinden başvuru"
+      ],
+      "icon": "landmark",
+      "id": "2c49f34b9c7b",
+      "is_opportunity": true,
+      "organization": "AYDIN ADNAN MENDERES ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+      "organization_domain": "adu.edu.tr",
+      "queued_at": "2026-11-02T00:32:16.767736+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
+      "summary_tr": "Aydın Adnan Menderes Üniversitesi Rektörlüğü bünyesinde eski hükümlü veya TMY statüsünde tarım işçisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilmektedir.",
+      "title_tr": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -1575,6 +1603,12 @@
       "status": "queued",
       "title": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
       "ts": "2026-10-28T20:13:25.846638+00:00"
+    },
+    "2c49f34b9c7b": {
+      "reason": "",
+      "status": "queued",
+      "title": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
+      "ts": "2026-11-02T00:32:16.767753+00:00"
     },
     "2dc3f8e0f293": {
       "reason": "",
@@ -2079,6 +2113,12 @@
       "status": "rejected",
       "title": "UN Journalism Fellowship 2027 in Qatar (Fully Funded)",
       "ts": "2026-10-29T00:46:17.136784+00:00"
+    },
+    "ff802dc84075": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "DOĞU KARADENİZ KALKINMA AJANSI - PERSONEL ALIM İLANI-2026",
+      "ts": "2026-11-02T00:32:10.205321+00:00"
     }
   },
   "tg_offset": 0,
@@ -2140,6 +2180,7 @@
     "govai yaz araştırma bursu 2027 londra",
     "dublin city university ücretsiz online kurslar",
     "caltech yaz araştırma programı surf 2027",
-    "visit finland'dan 16 kişiye ücretsiz finlandiya seyahati"
+    "visit finland'dan 16 kişiye ücretsiz finlandiya seyahati",
+    "aydın adnan menderes üniversitesi eski hükümlü tarım i şçisi alımı"
   ]
 }
