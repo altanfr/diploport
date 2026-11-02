@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 
 from . import kariyerkapisi, site
-from .article import fetch_article, validate_link
+from .article import blocked_domains, fetch_article, validate_link
 from .card import NoOrgVisual, render_card
 from .judge import GeminiError, judge_item
 from .publish import (build_caption, notify, poll_decisions, post_to_make, send_pending,
@@ -26,7 +26,7 @@ from .sources import collect_new
 from .state import age_days, load_state, mark, save_state
 from . import util
 from .orgvisual import slug as slugify_org
-from .util import canonical_url, domain_of, norm_text, now_tr, now_utc
+from .util import canonical_url, clean_url, domain_of, norm_text, now_tr, now_utc
 
 log = logging.getLogger("diploport.pipeline")
 
@@ -128,13 +128,17 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
         return "ok"
 
     # Resmî başvuru linki: modelin seçtiği adayı doğrula; olmazsa (sadece izinli kaynaklarda) kaynak sayfası.
-    official, note = None, ""
+    official, note, link_unverified = None, "", ""
     if verdict["link"]:
         v = validate_link(verdict["link"]["url"], cfg)
         if v["ok"]:
             official = v["url"]
         else:
             note = v["reason"]
+            # Sunucu hatası/SSL gibi bağlantı sorunu (HTTP yanıtı yok): link sahte değil, sadece bizden açılamadı.
+            # Sessizce eleme; engelli alan adı değilse insan onayına (Telegram) gönder.
+            if v["status"] is None and domain_of(v["url"]) not in blocked_domains(cfg):
+                official, link_unverified = clean_url(v["url"]), note
     if not official and it["source_cfg"].get("link_fallback_to_source"):
         v = validate_link(art.final_url, cfg, allow_domains={domain_of(art.final_url)})
         if v["ok"]:
@@ -168,9 +172,11 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
         report.append(("elendi", it["source"], title, "tekrar"))
         return "ok"
 
-    needs_review = status == "unclear" or bool(post.get("fee_required"))
+    needs_review = status == "unclear" or bool(post.get("fee_required")) or bool(link_unverified)
     if needs_review:
         reason = post.get("unclear_reason_tr") or ""
+        if link_unverified:
+            reason = (reason + f" Resmî başvuru linki bizden açılamadı ({link_unverified}); tarayıcıda kontrol et.").strip()
         if post.get("fee_required"):
             reason = (reason + " Katılım ücreti var.").strip()
         post["unclear_reason_tr"] = reason
@@ -202,6 +208,29 @@ def _process_item(it: dict, cfg: dict, state: dict, today, dry: bool, report: li
 
 # --- 2) yayına hazırlık ------------------------------------------------------
 
+def _publish_order(state: dict, cfg: dict) -> list[dict]:
+    """Kuyruğu yayın sırasına dizer: son paylaşımlarda az görünen kaynak önce, sonra en yakın son tarih.
+
+    Sadece "en yakın tarih" kuralı olsaydı, çok sayıda ilan getiren ve tarihi hep yakın olan bir kaynak
+    (Youthall) bütün paylaşımları alırdı. Son 3 paylaşımdaki kaynak sayısı ceza puanı olur, böylece kaynaklar
+    sırayla öne geçer. Son tarihi olmayan ilan, kuyruğa girdiği günden 10 gün sonrası gibi sıralanır;
+    yoksa hep en sona kalır.
+    """
+    recent = sorted(state["published"] + state["outbox"], key=lambda p: p["ts"])[-3:]
+    used = [p.get("source", "") for p in recent if p.get("source")]
+
+    def key(q: dict):
+        eff = q.get("deadline") or (q["queued_at"][:10] if q.get("queued_at") else "9999-12-31")
+        if not q.get("deadline") and q.get("queued_at"):
+            try:
+                eff = (datetime.fromisoformat(q["queued_at"]) + timedelta(days=10)).date().isoformat()
+            except ValueError:
+                pass
+        return (used.count(q.get("source", "")), eff, q.get("queued_at", ""))
+
+    return sorted(state["queue"], key=key)
+
+
 def _prepare_next(state: dict, cfg: dict, now, today) -> str | None:
     lim = cfg["limits"]
     lo, hi = lim["publish_window_tr"]
@@ -218,9 +247,9 @@ def _prepare_next(state: dict, cfg: dict, now, today) -> str | None:
         if now_utc() - last < timedelta(hours=lim["min_hours_between_posts"]):
             return None
 
-    state["queue"].sort(key=lambda q: (q.get("deadline") or "9999-12-31", q["queued_at"]))
+    order = _publish_order(state, cfg)
     post = image = None
-    for idx, cand in enumerate(list(state["queue"])[:6]):      # logosu bulunamayan ilan beklesin, sıradaki denensin
+    for cand in order[:6]:      # logosu bulunamayan ilan beklesin, sıradaki denensin
         img = util.DOCS_DIR / "images" / f"{cand['id']}.jpg"
         try:
             render_card(cand, cfg, img, today)
@@ -238,14 +267,15 @@ def _prepare_next(state: dict, cfg: dict, now, today) -> str | None:
             notify(f"Diploport: görsel üretilemedi ({cand['title_tr']}): {type(e).__name__}")
             return None
         post, image = cand, img
-        state["queue"].pop(idx)
+        state["queue"].remove(cand)
         break
     if post is None:
         return None
     site.add_post(post, cfg["limits"]["site_max_posts"])
     site.prune_images()
     state["outbox"].append(
-        {"id": post["id"], "ts": now_utc().isoformat(), "attempts": 0, "caption": build_caption(post, cfg),
+        {"id": post["id"], "ts": now_utc().isoformat(), "attempts": 0, "source": post.get("source", ""),
+         "caption": build_caption(post, cfg),
          "title": post["title_tr"], "apply_url": post["apply_url"], "photo_query": post.get("photo_query", "")}
     )
     return post["id"]
@@ -261,7 +291,9 @@ def run(cfg: dict, dry: bool = False) -> dict:
     report: list[tuple] = []
 
     if not dry:
-        for action, iid in poll_decisions(state):
+        decisions = poll_decisions(state)
+        log.info("Telegram: %d karar okundu, %d ilan onay bekliyor", len(decisions), len(state["pending"]))
+        for action, iid in decisions:
             post = state["pending"].pop(iid, None)
             if post is None:
                 continue
@@ -319,6 +351,7 @@ def send(cfg: dict) -> int:
             continue
         state["outbox"].remove(ob)
         state["published"].append({"id": ob["id"], "ts": now_utc().isoformat(), "official": ob["apply_url"],
+                                   "source": ob.get("source", ""),
                                    "photo_query": ob.get("photo_query", "")})
         mark(state, ob["id"], "published", "", ob["title"])
         sent += 1

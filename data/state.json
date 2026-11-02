@@ -74,6 +74,7 @@
       "caption": "Bilkom Digital Leader Genç Yetenek Programı\n\nBilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.\n\n- 6-12 ay süreli profesyonel gelişim\n- Haftada en az 3 gün çalışma imkanı\n- İzmir'de ikamet zorunluluğu\n\nSon başvuru: 6 Kasım 2026\nBaşvuru: https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/\nTüm fırsatlar: https://diploport.dev/#5a0a979214b0\n\nKaynak: Youthall\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
       "id": "5a0a979214b0",
       "photo_query": "logo: Bilkom (Vikipedi (tr))",
+      "source": "Youthall",
       "title": "Bilkom Digital Leader Genç Yetenek Programı",
       "ts": "2026-11-02T10:56:43.402872+00:00"
     }
@@ -141,12 +142,14 @@
       "id": "d31682b3c6e6",
       "official": "https://www.youthall.com/tr/Shell/pioneers-in-progress-long-term-internship-akaryakit-disi-gelirler_1320/",
       "photo_query": "logo: Shell plc (Vikipedi (tr) sayfa logosu)",
+      "source": "Youthall",
       "ts": "2026-10-31T12:11:34.853593+00:00"
     },
     {
       "id": "79818efb00a9",
       "official": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
       "photo_query": "logo: Hyundai Motor Türkiye (ilan sayfasındaki şirket logosu)",
+      "source": "Youthall",
       "ts": "2026-11-01T13:14:50.352817+00:00"
     }
   ],
@@ -1701,12 +1704,6 @@
       "title": "Fund for Innovation in Development (FID) Open Call for Proposals 2026: Development Grants for Innovative Solutions in 12",
       "ts": "2026-10-30T09:53:19.421516+00:00"
     },
-    "17bdce05aea2": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "Bosna Hersek’te Uzun Dönem ESC Gönüllülük Projesi Fırsatı",
-      "ts": "2026-10-29T18:28:25.520387+00:00"
-    },
     "1a09fc4eeebd": {
       "reason": "",
       "status": "queued",
@@ -1724,12 +1721,6 @@
       "status": "rejected",
       "title": "MIT Summer Research Program 2027 in USA (Fully Funded)",
       "ts": "2026-10-31T12:10:30.913612+00:00"
-    },
-    "1f187515b03d": {
-      "reason": "resmî başvuru linki bulunamadı (seçilen link reddedildi: bağlantı hatası: SSLError; sayfada 1 aday link: mpg.de)",
-      "status": "rejected",
-      "title": "CaCTuS Summer Internship 2027 in Germany (Fully Funded)",
-      "ts": "2026-10-29T00:46:56.752531+00:00"
     },
     "2112c840dffb": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -1791,12 +1782,6 @@
       "title": "Youthall Grafik Tasarım Stajyeri",
       "ts": "2026-11-01T00:01:54.928187+00:00"
     },
-    "386808f218be": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "“Her Yerde Turizme Erişiyoruz” Projesi İçin Genç Katılımcılar Aranıyor",
-      "ts": "2026-10-29T09:47:44.747753+00:00"
-    },
     "3983e03f5c2b": {
       "reason": "ücretli program reklamı",
       "status": "rejected",
@@ -1827,23 +1812,11 @@
       "title": "Özkaraduman İnşaat Burs Başvuru Duyurusu",
       "ts": "2026-10-29T09:48:17.218454+00:00"
     },
-    "414e84c030dc": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "İtalyanca Konuşma Kulübü Katılımcı Çağrısı",
-      "ts": "2026-10-30T00:47:43.767471+00:00"
-    },
     "4223ff6f1eae": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
       "title": "İspanya’da Erasmus+ Eğitim Kursu Fırsatı",
       "ts": "2026-10-30T17:58:17.323026+00:00"
-    },
-    "460fe6a3dd9f": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "Kültürel Miras Genç Liderler Mentörlük Programı Başvurularınızı Bekliyor",
-      "ts": "2026-10-30T17:59:02.212579+00:00"
     },
     "48299a758094": {
       "reason": "Türkiye'ye kapalı: Applicants must be US citizens or hold valid visas that allow them to receive paid work during the summer.",
@@ -1863,12 +1836,6 @@
       "title": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
       "ts": "2026-10-31T19:13:59.179497+00:00"
     },
-    "54e247c0f1a8": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
-      "status": "rejected",
-      "title": "Proje Hazırlama Eğitimi (Proje Döngüsü Yönetimi / PCM Eğitimi)",
-      "ts": "2026-10-29T00:46:42.757297+00:00"
-    },
     "56a1b38aff04": {
       "reason": "",
       "status": "queued",
@@ -1887,23 +1854,11 @@
       "title": "Bilkom Digital Leader Genç Yetenek Programı",
       "ts": "2026-10-29T09:48:45.808347+00:00"
     },
-    "5eac6a3404b3": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "Kroc Institute Visiting Research Fellows Program 2027 | Up to $30,000",
-      "ts": "2026-10-28T20:12:43.781877+00:00"
-    },
     "5ee0d91f06c3": {
       "reason": "",
       "status": "queued",
       "title": "UNDP Tayland İletişim Stajı",
       "ts": "2026-10-30T17:58:47.334445+00:00"
-    },
-    "60d053027288": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "Geleceğe Eşit Başlangıç Derneği Burs Duyurusu",
-      "ts": "2026-10-29T18:25:27.896414+00:00"
     },
     "6227d3d4868a": {
       "reason": "",
@@ -1941,12 +1896,6 @@
       "title": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
       "ts": "2026-10-29T18:26:52.011355+00:00"
     },
-    "70fa11467998": {
-      "reason": "resmî başvuru linki bulunamadı (seçilen link reddedildi: bağlantı hatası: SSLError; sayfada 5 aday link: mpg.de, opcircleacademy.com, nextgenyouthcamp.com, bit.ly)",
-      "status": "rejected",
-      "title": "CaCTuS Summer Internship 2027 in Germany | Fully Funded",
-      "ts": "2026-10-30T17:58:10.290586+00:00"
-    },
     "777402a5a29b": {
       "reason": "",
       "status": "queued",
@@ -1964,12 +1913,6 @@
       "status": "queued",
       "title": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026",
       "ts": "2026-10-30T00:48:57.823862+00:00"
-    },
-    "7c14a96f39d6": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "Polonya’da ESC Gönüllülük Projesi Fırsatı",
-      "ts": "2026-10-29T09:48:38.260549+00:00"
     },
     "7c8d8300e79e": {
       "reason": "Türkiye'ye kapalı: The Community Solutions Program is open to the following countries:",
@@ -1995,23 +1938,11 @@
       "title": "Galatasaray Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
       "ts": "2026-10-30T20:56:22.581083+00:00"
     },
-    "898ecdbec2c7": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "Impact AI Fellowship 2027 in Germany (Fully Funded)",
-      "ts": "2026-10-28T20:13:15.091749+00:00"
-    },
     "8cc51e5ccb3b": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
       "title": "Aranan meslekler AI Developer ve Data Scientist…",
       "ts": "2026-10-29T09:47:54.685040+00:00"
-    },
-    "8fe225dc3a8f": {
-      "reason": "onay kanalı yok: Metinde Türkiye'nin 34 uygun ülke listesinde olup olmadığı belirtilmemiştir.",
-      "status": "rejected",
-      "title": "Swedish Institute Scholarships 2027-28 | Fully Funded",
-      "ts": "2026-10-30T00:48:18.773371+00:00"
     },
     "90b299851cba": {
       "reason": "",
@@ -2066,12 +1997,6 @@
       "status": "rejected",
       "title": "UN Journalism Fellowship 2027 in Qatar | Fully Funded",
       "ts": "2026-11-01T19:31:07.022135+00:00"
-    },
-    "a2deabeaa018": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "SDG 6 Fellowship 2027 in UK, Denmark, Malaysia (Fully Funded)",
-      "ts": "2026-10-28T20:12:30.075510+00:00"
     },
     "a3dff2a05e20": {
       "reason": "Türkiye'ye kapalı: Students from Asia can apply from here (Enrolled in an Asian university pursuing a bachelor’s degree).",
@@ -2133,41 +2058,17 @@
       "title": "Satış Yöneticisi (Adana)",
       "ts": "2026-10-29T00:47:33.208307+00:00"
     },
-    "b4da40a8d69f": {
-      "reason": "onay kanalı yok: Metinde başvuru için vatandaşlık veya ikamet kısıtlaması olup olmadığı belirtilmemiştir.",
-      "status": "rejected",
-      "title": "Stanford University GLAM Postdoctoral Fellowships 2027–2029: Earn $80,000 Annually with Additional Research Funding",
-      "ts": "2026-10-30T09:53:53.978739+00:00"
-    },
     "b67a02db7bff": {
       "reason": "",
       "status": "queued",
       "title": "Kurumsal İletişim ve İç Tasarım Uzun Dönem Stajyeri",
       "ts": "2026-10-30T20:55:50.664130+00:00"
     },
-    "b8d9757ae6b2": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "Asr-ı Saadet Derneği Burs Duyurusu",
-      "ts": "2026-10-30T20:55:08.072430+00:00"
-    },
     "bb0202a353f8": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
       "title": "YÜKSEKÖĞRETİM KURULU BAŞKANLIĞI (YÖK) - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI",
       "ts": "2026-11-02T10:55:27.737427+00:00"
-    },
-    "c4668d5585a2": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
-      "status": "rejected",
-      "title": "Katılımcı Çağrısı: Macaristan’da Uzun Dönem ESC Gönüllülük Projesi",
-      "ts": "2026-10-29T00:47:24.987398+00:00"
-    },
-    "c4be9f2a3c95": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "Yuva Vakfı Burs Duyurusu",
-      "ts": "2026-10-29T00:46:27.904376+00:00"
     },
     "c4e86cb18736": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -2192,12 +2093,6 @@
       "status": "pending",
       "title": "Dublin City University Online Courses",
       "ts": "2026-11-01T13:11:22.032041+00:00"
-    },
-    "d2e728210b76": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "rejected",
-      "title": "WHO Summer School 2027 in France",
-      "ts": "2026-10-29T00:46:35.432705+00:00"
     },
     "d31682b3c6e6": {
       "reason": "",
@@ -2241,12 +2136,6 @@
       "title": "Oxford Pershing Square Yüksek Lisans Bursu 2027-2028",
       "ts": "2026-11-02T10:54:52.623880+00:00"
     },
-    "e4da285b4a60": {
-      "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
-      "status": "rejected",
-      "title": "AB Hibe Programlarına Yönelik Proje Hazırlama Eğitimi (ONLINE) | 7 – 8 Kasım 2026",
-      "ts": "2026-10-28T20:12:55.336318+00:00"
-    },
     "e8827e4a4f59": {
       "reason": "",
       "status": "queued",
@@ -2276,12 +2165,6 @@
       "status": "queued",
       "title": "Almanya'da Uzun Dönem ESC Gönüllülük Projesi",
       "ts": "2026-10-30T20:56:05.515846+00:00"
-    },
-    "f4be6bd28f53": {
-      "reason": "onay kanalı yok: Katılım ücreti var.",
-      "status": "rejected",
-      "title": "Royal Thai Government Scholarships 2027 | Funded",
-      "ts": "2026-10-30T17:58:54.775520+00:00"
     },
     "f71cb8b35a49": {
       "reason": "",

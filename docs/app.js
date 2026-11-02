@@ -27,7 +27,8 @@
     return Math.round((new Date(p.y, p.m - 1, p.d) - t) / 86400000);
   }
   function longDate(iso) { var p = parts(iso); return p.d + " " + MONTHS[p.m - 1] + " " + p.y; }
-  function leftText(n) { return n === 0 ? "Bugün son gün" : n === 1 ? "Yarın son gün" : n + " gün kaldı"; }
+  function leftText(n) { return n < 0 ? "Süresi doldu" : n === 0 ? "Bugün son gün" : n === 1 ? "Yarın son gün" : n + " gün kaldı"; }
+  function isPast(p) { return !!p.deadline && daysLeft(p.deadline) < 0; }
   function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
   function smooth() { return reduceMotion ? "auto" : "smooth"; }
 
@@ -52,9 +53,10 @@
       box.appendChild(el("b", "", String(pr.d)));
       box.appendChild(el("span", "", SHORT[pr.m - 1]));
       var left = daysLeft(p.deadline);
-      if (left <= 7) box.classList.add("soon7");
+      if (left < 0) box.classList.add("past");
+      else if (left <= 7) box.classList.add("soon7");
       box.setAttribute("role", "img");
-      box.setAttribute("aria-label", "Son başvuru " + longDate(p.deadline));
+      box.setAttribute("aria-label", (left < 0 ? "Süresi dolmuş, son başvuru " : "Son başvuru ") + longDate(p.deadline));
     } else {
       box.classList.add("open");
       box.appendChild(el("b", "", "Açık"));
@@ -74,13 +76,15 @@
     }
     var dl = el("dl", "facts");
     function fact(k, v) { dl.appendChild(el("dt", "", k)); dl.appendChild(el("dd", "", v)); }
-    fact("Son başvuru", p.deadline ? longDate(p.deadline) : "Belirtilmemiş, açık başvuru");
+    var past = isPast(p);
+    fact("Son başvuru", p.deadline ? longDate(p.deadline) + (past ? " (süresi doldu)" : "") : "Belirtilmemiş, açık başvuru");
     if (p.funding_tr && !/^belirtilmemi/i.test(p.funding_tr)) fact("Destek", p.funding_tr);
     if (p.fee_required) fact("Ücret", "Başvuru için ücret var");
     box.appendChild(dl);
+    if (past) box.appendChild(el("p", "ended-note", "Bu ilanın son başvuru tarihi geçti. Güncel durumu resmî sayfadan kontrol edebilirsin."));
     var url = safeUrl(p.apply_url);
     if (url) {
-      var a = el("a", "go", "Resmî sayfada başvur");
+      var a = el("a", past ? "go alt" : "go", past ? "Resmî sayfayı gör" : "Resmî sayfada başvur");
       a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer";
       box.appendChild(a);
     }
@@ -89,7 +93,7 @@
   }
 
   function item(p) {
-    var li = el("li", "item");
+    var li = el("li", isPast(p) ? "item past" : "item");
     li.id = p.id;
     var row = el("button", "row");
     row.type = "button";
@@ -106,7 +110,7 @@
     m.appendChild(el("span", "k", CATS[p.category] || CATS.diger));
     if (p.deadline) {
       var left = daysLeft(p.deadline);
-      m.appendChild(el("span", left <= 7 ? "l left" : "l", leftText(left)));
+      m.appendChild(el("span", left < 0 ? "l ended" : left <= 7 ? "l left" : "l", leftText(left)));
     }
     row.append(dateBlock(p), t, m, chevron());
     li.appendChild(row);
@@ -142,8 +146,17 @@
     var list = $("list");
     list.replaceChildren();
     var shown = posts.filter(matches);
-    shown.forEach(function (p) { list.appendChild(item(p)); });
-    $("count").textContent = shown.length ? shown.length + " ilan" : "";
+    var open = shown.filter(function (p) { return !isPast(p); }).length;
+    var sepDone = false;
+    shown.forEach(function (p) {
+      if (!sepDone && isPast(p)) {      // posts zaten "açık olanlar önce" sıralı: ilk süresi dolmuş ilanın önüne başlık
+        sepDone = true;
+        list.appendChild(el("li", "sep", "Süresi dolanlar"));
+      }
+      list.appendChild(item(p));
+    });
+    $("count").textContent = !shown.length ? "" : open < shown.length && open > 0
+      ? shown.length + " ilan · başvuruya açık: " + open : shown.length + " ilan";
     $("none").hidden = shown.length > 0;
     list.hidden = shown.length === 0;
   }
@@ -188,7 +201,7 @@
     var track = $("railTrack"), view = $("railView"), thumb = $("railThumb"), line = thumb.parentNode;
 
     withImg.forEach(function (p, i) {
-      var li = el("li", "slide");
+      var li = el("li", isPast(p) ? "slide past" : "slide");
       var a = el("a");
       a.href = "#" + p.id;
       a.setAttribute("aria-label", p.title_tr);
@@ -273,8 +286,11 @@
   }
 
   function start(data) {
-    var today = new Date().toISOString().slice(0, 10);
-    posts = (Array.isArray(data) ? data : []).filter(function (p) { return p && p.id && (!p.deadline || p.deadline >= today); });
+    // Süresi geçen ilanlar silinmez: açık olanlar önce (kendi sıralarını koruyarak), süresi dolanlar altta soluk görünür.
+    var all = (Array.isArray(data) ? data : []).filter(function (p) { return p && p.id; });
+    posts = all.map(function (p, i) { return { p: p, i: i }; })
+      .sort(function (a, b) { return (isPast(a.p) - isPast(b.p)) || (a.i - b.i); })
+      .map(function (x) { return x.p; });
     if (!posts.length) { $("soon").hidden = false; $("liste").hidden = true; return; }
     $("searchBox").hidden = false;
     $("tabsNav").hidden = false;

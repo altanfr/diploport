@@ -3,7 +3,7 @@
 Türk gençleri için burs, staj, gönüllülük ve eğitim fırsatlarını **otomatik** tarar, Türkiye'den başvurulabilir olanları seçer, Instagram'a ve web sitesine koyar. Hedef: minimum maliyet, minimum parça.
 
 ```
-GitHub Actions (ücretsiz, her 3 saatte bir)
+GitHub Actions (ücretsiz, saat başı tetiklenir)
  ├─ 1. 7 RSS kaynağını doğrudan oku, görülenleri/eskileri kodla ele
  ├─ 2. İlanın sayfasını aç → temiz metin + sayfadaki GERÇEK harici linkler
  ├─ 3. Tek Gemini çağrısı → uygunluk + kanıt cümlesi + Türkçe özet + başvuru linki SEÇİMİ
@@ -12,7 +12,7 @@ GitHub Actions (ücretsiz, her 3 saatte bir)
  ├─ 5. Kotaya göre günde en fazla 2 ilan: Diploport şablonuyla 1080×1350 JPEG kart üret.
  │      Arka plan: Gemini'nin ilana özel verdiği İngilizce sorgularla Unsplash'tan (yedek: Pexels) otomatik stok fotoğraf
  │      (sorgu sonuçsuzsa kategoriye göre genel arama; hiçbiri yoksa şablonun düz hâli)
- ├─ 6. Siteye ekle (docs/posts.json + küçük kart görseli) → GitHub Pages; ana sayfada kartlar yana kayar
+ ├─ 6. Siteye ekle (docs/posts.json + küçük kart görseli) → GitHub Pages; ana sayfada kartlar yana kayar; son başvurusu geçen ilanlar silinmez, listenin altında "Süresi dolanlar" başlığıyla soluk görünür
  └─ 7. Görsel yayına girince Make webhook'u → Instagram'a paylaş
 ```
 
@@ -59,7 +59,7 @@ Yeni bir senaryo, **2 modül**:
 Actions sekmesi → **Diploport** → *Run workflow* → `dry_run` işaretli. Bitince `data/last_run.md` dosyasını aç: hangi ilan neden elendi/kuyruğa girdi/onaya düştü, kanıt cümlesiyle birlikte görünür. Karardan memnunsan `dry_run` olmadan tekrar çalıştır; sonrası otomatik.
 
 ## Gündelik kullanım
-- **Hiçbir şey yapman gerekmiyor.** Belirsiz ilan olursa Telegram'a başlık, özet ve linkle bir mesaj gelir; altında Yayınla / Yayınlama düğmeleri var. Karar, bir sonraki çalışmada (en fazla 3 saat) işlenir.
+- **Hiçbir şey yapman gerekmiyor.** Belirsiz ilan olursa Telegram'a başlık, özet ve linkle bir mesaj gelir; altında Yayınla / Yayınlama düğmeleri var. Karar, bir sonraki çalışmada işlenir (çalışma saat başı tetiklenir; GitHub bazen birkaçını atlayabilir, o yüzden gecikme birkaç saati bulabilir).
 - Neden elendiğini görmek için `data/last_run.md` (son çalışma) ve `data/state.json` (`seen` altında her ilanın durumu ve nedeni).
 - Kaynak eklemek/çıkarmak, günlük paylaşım sayısı, saat penceresi, hashtag'ler: sadece `config.yaml`.
 

@@ -361,3 +361,53 @@ def test_pressing_a_button_returns_the_decision_and_shows_it_on_the_message(monk
     edits = [p for m, p in calls if m == "editMessageReplyMarkup"]
     assert edits[0]["reply_markup"]["inline_keyboard"][0][0]["text"] == "✅ Yayın sırasına alındı"
     assert edits[1]["reply_markup"]["inline_keyboard"][0][0]["text"] == "❌ Yayınlanmayacak"
+
+
+def test_publish_order_rotates_sources_instead_of_nearest_deadline_only(cfg):
+    """Eski hata: en yakın son tarih kuralı yüzünden 3 paylaşımın 3'ü de Youthall'dan çıktı."""
+    st = load_state()
+
+    def q(i, source, deadline, queued="2026-10-30T10:00:00+00:00"):
+        return {"id": i, "source": source, "deadline": deadline, "queued_at": queued, "title_tr": i}
+
+    st["queue"] = [q("y1", "Youthall", "2026-11-05"), q("y2", "Youthall", "2026-11-06"),
+                   q("e1", "Erasmusgram", "2026-11-20"), q("k1", "Kariyer Kapısı", "")]
+    st["published"] = [{"id": "p1", "ts": "2026-10-31T10:00:00+00:00", "source": "Youthall"},
+                       {"id": "p2", "ts": "2026-11-01T10:00:00+00:00", "source": "Youthall"}]
+    order = [x["id"] for x in pipeline._publish_order(st, cfg)]
+    assert order[:2] == ["e1", "k1"] or order[:2] == ["k1", "e1"]        # Youthall en sona: son iki paylaşım zaten onun
+    assert order[-2:] == ["y1", "y2"]
+    # tarihsiz ilan (kamu ilanı) sonsuza kadar en sonda kalmaz: kuyruğa girdiği günden 10 gün sonrası gibi sıralanır
+    st["published"] = []
+    st["queue"] = [q("n", "Kariyer Kapısı", "", "2026-10-20T10:00:00+00:00"), q("d", "AB İlan", "2026-11-25")]
+    assert [x["id"] for x in pipeline._publish_order(st, cfg)] == ["n", "d"]
+
+
+def test_outbox_and_published_keep_the_source(world, cfg, monkeypatch):
+    world["items"] = [make_item(1, "Erasmusgram")]; world["results"] = [result()]
+    pipeline.run(cfg)
+    assert load_state()["outbox"][0]["source"] == "Erasmusgram"
+    monkeypatch.setattr(pipeline, "wait_public", lambda url: True)
+    monkeypatch.setattr(pipeline, "post_to_make", lambda payload: None)
+    pipeline.send(cfg)
+    assert load_state()["published"][-1]["source"] == "Erasmusgram"
+
+
+def test_link_that_cannot_be_opened_goes_to_telegram_instead_of_silent_rejection(world, cfg, monkeypatch):
+    """Eski hata: resmî sitenin SSL/bağlantı hatası ilanı sessizce eledi (ör. mpg.de)."""
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "t"); monkeypatch.setenv("TELEGRAM_CHAT_ID", "1")
+    msgs = []
+    monkeypatch.setattr(pipeline, "send_pending", lambda it, post: msgs.append(post["unclear_reason_tr"]) or 9)
+    world["link_status"] = {"ok": False, "url": "https://www.mpg.de/apply", "status": None, "soft": False,
+                            "reason": "bağlantı hatası: SSLError"}
+    world["items"] = [make_item(1)]; world["results"] = [result()]
+    pipeline.run(cfg)
+    st = load_state()
+    assert "id1" in st["pending"] and st["pending"]["id1"]["apply_url"] == "https://www.mpg.de/apply"
+    assert msgs and "SSLError" in msgs[0]
+    # engelli (aggregator) alan adı bağlantı hatası verirse yine elenir
+    world["link_status"] = {"ok": False, "url": "https://opportunitiescorners.com/x", "status": None, "soft": False,
+                            "reason": "bağlantı hatası: Timeout"}
+    world["items"] = [make_item(2)]; world["results"] = [result()]
+    pipeline.run(cfg)
+    assert load_state()["seen"]["id2"]["status"] == "rejected"

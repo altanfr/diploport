@@ -21,10 +21,12 @@ sources:
     url: https://opportunitiesforyouth.org/feed
   - name: Erasmusgram
     url: https://www.erasmusgram.com/feed
+    assume_eligible: true        # Türkçe yayın, Türkiye'den başvuruya yönelik; "Türkiye'ye kapalı" diyen ilan yine elenir
   - name: Opportunities Circle
     url: https://www.opportunitiescircle.com/feed
   - name: AB İlan
     url: https://ab-ilan.com/feed/
+    assume_eligible: true        # Türkçe yayın, Türkiye'den başvuruya yönelik; "Türkiye'ye kapalı" diyen ilan yine elenir
   - name: SALTO-YOUTH Eğitim Takvimi
     url: https://politepaul.com/fd/V6qxy9X12nL8.xml
     link_fallback_to_source: true
