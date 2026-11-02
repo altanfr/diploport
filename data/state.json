@@ -59,9 +59,25 @@
     "futurelearn.com/partners/dcu",
     "sfp.caltech.edu/undergraduate-research/programs/surf/application_information",
     "visitfinland.com/en/have-some-finnish",
-    "kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755"
+    "kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
+    "ayfnhq.org/event/scholarship-opportunity-winter-japan-culture-camp-2027-by-ayfn-academy",
+    "sbs.ox.ac.uk/oxford-experience/scholarships-and-funding/oxford-pershing-square-graduate-scholarships",
+    "tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+    "youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119",
+    "kariyerkapisi.gov.tr/IlanDetay?i=bb1814b5-f9dd-47b3-8006-900a7b8098c5",
+    "kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
+      "attempts": 0,
+      "caption": "Bilkom Digital Leader Genç Yetenek Programı\n\nBilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.\n\n- 6-12 ay süreli profesyonel gelişim\n- Haftada en az 3 gün çalışma imkanı\n- İzmir'de ikamet zorunluluğu\n\nSon başvuru: 6 Kasım 2026\nBaşvuru: https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/\nTüm fırsatlar: https://diploport.dev/#5a0a979214b0\n\nKaynak: Youthall\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "5a0a979214b0",
+      "photo_query": "logo: Bilkom (Vikipedi (tr))",
+      "title": "Bilkom Digital Leader Genç Yetenek Programı",
+      "ts": "2026-11-02T10:56:43.402872+00:00"
+    }
+  ],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -135,28 +151,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-06",
-      "fee_required": false,
-      "funding_tr": "Ücretli staj",
-      "highlights_tr": [
-        "6-12 ay süreli profesyonel gelişim",
-        "Haftada en az 3 gün çalışma imkanı",
-        "İzmir'de ikamet zorunluluğu"
-      ],
-      "id": "5a0a979214b0",
-      "image_queries": [],
-      "organization": "Bilkom",
-      "organization_domain": "bilkom.com.tr",
-      "queued_at": "2026-10-29T22:56:52.084715+00:00",
-      "source": "Youthall",
-      "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
-      "title_tr": "Bilkom Digital Leader Genç Yetenek Programı",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://genclikcalismalari.org/ilan/esc-1626-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/",
@@ -257,6 +251,89 @@
       "source_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
       "summary_tr": "Youthall, İstanbul Kadıköy ofisinde görevlendirilmek üzere, üniversitelerin 3. veya 4. sınıfında okuyan, Adobe programlarına hakim grafik tasarım stajyeri arıyor.",
       "title_tr": "Youthall Grafik Tasarım Stajyeri",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.visitfinland.com/en/have-some-finnish/",
+      "category": "diger",
+      "country_tr": "Finlandiya",
+      "deadline": "2026-11-10",
+      "eligibility_evidence": "Programa dünyanın farklı ülkelerinden bekâr kişiler başvuru yapabiliyor.",
+      "fee_required": false,
+      "funding_tr": "Uçak bileti, konaklama, yemek ve aktiviteler karşılanır",
+      "highlights_tr": [
+        "18 yaşını doldurmuş olma şartı",
+        "İngilizce video hazırlama gerekliliği",
+        "Uçak, konaklama ve yemekler ücretsiz"
+      ],
+      "id": "024a83bbca8c",
+      "image_queries": [
+        "Helsinki Finland city",
+        "Finland winter travel",
+        "people dining together"
+      ],
+      "is_opportunity": true,
+      "organization": "Visit Finland",
+      "organization_domain": "visitfinland.com",
+      "queued_at": "2026-11-01T19:31:00.453663+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/finlandiyada-belki-burada-bulursun-uygulamasi-16-bekar-icin-ucretsiz-tatil/",
+      "summary_tr": "Visit Finland, dünyanın farklı ülkelerinden 16 bekâr katılımcıyı Şubat 2027'de Finlandiya'da dört günlük ücretsiz bir seyahat programına davet ediyor.",
+      "title_tr": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://ayfnhq.org/event/scholarship-opportunity-winter-japan-culture-camp-2027-by-ayfn-academy/",
+      "category": "egitim",
+      "country_tr": "Japonya",
+      "deadline": "2026-11-10",
+      "eligibility_evidence": "The Program is open to all Nationalities.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (uçuş desteği, konaklama, yemek ve vize ücretleri dahil)",
+      "highlights_tr": [
+        "17-40 yaş arası herkese açık",
+        "IELTS şartı aranmıyor",
+        "Uçuş, konaklama ve yemek masrafları karşılanıyor"
+      ],
+      "id": "66bfb9cc5ea9",
+      "is_opportunity": true,
+      "organization": "ASEAN Youth Friendship Network",
+      "organization_domain": "ayfnhq.org",
+      "queued_at": "2026-11-02T10:54:41.305939+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/japan-winter-culture-camp-2027/",
+      "summary_tr": "AYFN tarafından Osaka, Kyoto ve Nara'da düzenlenen 6 günlük tam burslu Japonya kültür değişim programı.",
+      "title_tr": "AYFN Japonya Kış Kültür Kampı 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-12",
+      "eligibility_evidence": "TÜBİTAK Temel Bilimler Araştırma Enstitüsü (TBAE), temel bilimin çeşitli dallarında ve disiplinler arası alanlarda oldukça geniş bir yelpazede nitelikli bilgi üretmek, uluslararası düzeyde bilimsel etkinlikler gerçekleştirmek ve Türkiye’ye bilimsel rekabet gücü kazandırmak yönündeki çabalarını arttırmak amacıyla önemli adımlar atmaya devam ediyor.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz konaklama ve ulaşım desteği",
+      "highlights_tr": [
+        "Yüksek lisans ve doktora öğrencilerine öncelik",
+        "Ücretsiz konaklama ve ulaşım desteği",
+        "Yüz yüze ve çevrim içi katılım imkanı"
+      ],
+      "id": "9f0f80cfa80f",
+      "is_opportunity": true,
+      "organization": "TÜBİTAK Temel Bilimler Araştırma Enstitüsü",
+      "organization_domain": "tubitak.gov.tr",
+      "queued_at": "2026-11-02T10:55:00.890683+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tubitak-butunlesik-algilama-ve-haberlesme-kis-okulu-basvurulari-acildi/",
+      "summary_tr": "TÜBİTAK TBAE tarafından düzenlenen Bütünleşik Algılama ve Haberleşme (ISAC) Kış Okulu, 23-25 Kasım 2026 tarihlerinde Gebze'de gerçekleşecek. Yüksek lisans, doktora öğrencileri ve araştırmacılar yüz yüze veya çevrim içi katılabilir.",
+      "title_tr": "TÜBİTAK Bütünleşik Algılama ve Haberleşme Kış Okulu",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -541,6 +618,32 @@
     },
     {
       "apply_link_id": 1,
+      "apply_url": "https://www.sbs.ox.ac.uk/oxford-experience/scholarships-and-funding/oxford-pershing-square-graduate-scholarships",
+      "category": "burs",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "2027-01-08",
+      "eligibility_evidence": "Students from all over the world with any nationality can apply for the Oxford University Pershing scholarship.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti ve yaşam masrafları)",
+      "highlights_tr": [
+        "Tam burslu eğitim imkanı",
+        "MBA ve yüksek lisans birleşimi",
+        "Dünya genelinden tüm öğrencilere açık"
+      ],
+      "id": "e4a654486ed3",
+      "is_opportunity": true,
+      "organization": "University of Oxford",
+      "organization_domain": "ox.ac.uk",
+      "queued_at": "2026-11-02T10:54:52.623866+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/oxford-pershing-square-graduate-scholarships-in-uk/",
+      "summary_tr": "Oxford Üniversitesi'nde 1+1 MBA programı kapsamında sunulan, dünya genelinden öğrencilere açık, tam kapsamlı yüksek lisans ve MBA burs programıdır.",
+      "title_tr": "Oxford Pershing Square Yüksek Lisans Bursu 2027-2028",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
       "apply_url": "https://cddrl.fsi.stanford.edu/summerfellows/apply",
       "category": "diger",
       "country_tr": "ABD",
@@ -589,6 +692,32 @@
       "source_url": "https://www.opportunitiescircle.com/vidyasirimedhi-institute-scholarship/",
       "summary_tr": "Tayland'daki Vidyasirimedhi Bilim ve Teknoloji Enstitüsü (VISTEC), fen ve mühendislik alanlarında yüksek lisans ve doktora yapmak isteyen uluslararası öğrenciler için tam burslu programlar sunmaktadır.",
       "title_tr": "Vidyasirimedhi Institute (VISTEC) Yüksek Lisans ve Doktora Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information",
+      "category": "staj",
+      "country_tr": "ABD",
+      "deadline": "2027-02-22",
+      "eligibility_evidence": "applicants from all over the world are eligible to apply.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (8.354$ ödenek)",
+      "highlights_tr": [
+        "10 haftalık tam kapsamlı araştırma stajı",
+        "8.354$ tutarında ödenek desteği",
+        "Lisans öğrencilerine açık"
+      ],
+      "id": "a19d915340a2",
+      "is_opportunity": true,
+      "organization": "California Institute of Technology",
+      "organization_domain": "caltech.edu",
+      "queued_at": "2026-11-01T19:30:52.828678+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/caltech-summer-research-program-2027/",
+      "summary_tr": "California Institute of Technology (Caltech) bünyesinde 10 hafta sürecek, lisans öğrencilerine yönelik tam kapsamlı yaz araştırma staj programı.",
+      "title_tr": "Caltech Yaz Araştırma Programı (SURF) 2027",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -1423,63 +1552,6 @@
       "visual_kind": "institution"
     },
     {
-      "apply_link_id": 1,
-      "apply_url": "https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information",
-      "category": "staj",
-      "country_tr": "ABD",
-      "deadline": "2027-02-22",
-      "eligibility_evidence": "applicants from all over the world are eligible to apply.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (8.354$ ödenek)",
-      "highlights_tr": [
-        "10 haftalık tam kapsamlı araştırma stajı",
-        "8.354$ tutarında ödenek desteği",
-        "Lisans öğrencilerine açık"
-      ],
-      "id": "a19d915340a2",
-      "is_opportunity": true,
-      "organization": "California Institute of Technology",
-      "organization_domain": "caltech.edu",
-      "queued_at": "2026-11-01T19:30:52.828678+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/caltech-summer-research-program-2027/",
-      "summary_tr": "California Institute of Technology (Caltech) bünyesinde 10 hafta sürecek, lisans öğrencilerine yönelik tam kapsamlı yaz araştırma staj programı.",
-      "title_tr": "Caltech Yaz Araştırma Programı (SURF) 2027",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.visitfinland.com/en/have-some-finnish/",
-      "category": "diger",
-      "country_tr": "Finlandiya",
-      "deadline": "2026-11-10",
-      "eligibility_evidence": "Programa dünyanın farklı ülkelerinden bekâr kişiler başvuru yapabiliyor.",
-      "fee_required": false,
-      "funding_tr": "Uçak bileti, konaklama, yemek ve aktiviteler karşılanır",
-      "highlights_tr": [
-        "18 yaşını doldurmuş olma şartı",
-        "İngilizce video hazırlama gerekliliği",
-        "Uçak, konaklama ve yemekler ücretsiz"
-      ],
-      "id": "024a83bbca8c",
-      "image_queries": [
-        "Helsinki Finland city",
-        "Finland winter travel",
-        "people dining together"
-      ],
-      "is_opportunity": true,
-      "organization": "Visit Finland",
-      "organization_domain": "visitfinland.com",
-      "queued_at": "2026-11-01T19:31:00.453663+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/finlandiyada-belki-burada-bulursun-uygulamasi-16-bekar-icin-ucretsiz-tatil/",
-      "summary_tr": "Visit Finland, dünyanın farklı ülkelerinden 16 bekâr katılımcıyı Şubat 2027'de Finlandiya'da dört günlük ücretsiz bir seyahat programına davet ediyor.",
-      "title_tr": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
       "category": "is",
       "country_tr": "Türkiye",
@@ -1505,6 +1577,85 @@
       "title_tr": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "If you are interested in being part of AbbVie Turkey Customer Exellence Team, leave your application here.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Haftada en az 3 gün çalışma imkanı",
+        "3. veya 4. sınıf lisans/yüksek lisans öğrencileri",
+        "İyi derecede İngilizce bilgisi"
+      ],
+      "id": "2ff19304ace3",
+      "is_opportunity": true,
+      "organization": "AbbVie",
+      "organization_domain": "abbvie.com",
+      "queued_at": "2026-11-02T10:55:11.485333+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119/",
+      "summary_tr": "AbbVie Türkiye bünyesinde, müşteri ve omnichannel pazarlama stratejilerine destek verecek 3. veya 4. sınıf lisans ya da yüksek lisans öğrencileri için uzun dönem staj programı.",
+      "title_tr": "AbbVie Uzun Dönem Staj Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bb1814b5-f9dd-47b3-8006-900a7b8098c5",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "99a520eb1bf3",
+      "is_opportunity": true,
+      "organization": "JANDARMA VE SAHİL GÜVENLİK AKADEMİSİ BAŞKANLIĞI",
+      "organization_domain": "jsga.edu.tr",
+      "queued_at": "2026-11-02T10:55:43.891210+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bb1814b5-f9dd-47b3-8006-900a7b8098c5",
+      "summary_tr": "Jandarma Genel Komutanlığı bünyesinde sözleşmeli devlet memuru alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Jandarma ve Sahil Güvenlik Akademisi Devlet Memuru Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Sözleşmeli personel statüsü",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Türkiye Cumhuriyeti vatandaşlarına açık"
+      ],
+      "icon": "landmark",
+      "id": "04ebc83cc50c",
+      "is_opportunity": true,
+      "organization": "YILDIZ TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+      "organization_domain": "yildiz.edu.tr",
+      "queued_at": "2026-11-02T10:56:27.547532+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd",
+      "summary_tr": "Yıldız Teknik Üniversitesi Rektörlüğü tarafından sözleşmeli bilişim personeli alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Yıldız Teknik Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -1513,6 +1664,12 @@
       "status": "queued",
       "title": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
       "ts": "2026-11-01T19:31:00.453680+00:00"
+    },
+    "04ebc83cc50c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Yıldız Teknik Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
+      "ts": "2026-11-02T10:56:27.547551+00:00"
     },
     "0833644949f7": {
       "reason": "",
@@ -1574,6 +1731,12 @@
       "title": "CaCTuS Summer Internship 2027 in Germany (Fully Funded)",
       "ts": "2026-10-29T00:46:56.752531+00:00"
     },
+    "2112c840dffb": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "İtalya’da Uzun Dönem ESC Gönüllülük Projesi Katılımcı Çağrısı",
+      "ts": "2026-11-02T10:56:40.902884+00:00"
+    },
     "21c74fe967ae": {
       "reason": "Türkiye'ye kapalı: Eligible Countries for the SI Global Scholarship 33 Countries: Armenia, Azerbaijan, Bangladesh, Belarus, Bolivia, Brazil",
       "status": "rejected",
@@ -1615,6 +1778,12 @@
       "status": "queued",
       "title": "Elektrik ve Elektronik Mühendisi Uzun Dönem Stajyeri",
       "ts": "2026-10-30T00:49:04.951735+00:00"
+    },
+    "2ff19304ace3": {
+      "reason": "",
+      "status": "queued",
+      "title": "AbbVie Uzun Dönem Staj Programı",
+      "ts": "2026-11-02T10:55:11.485349+00:00"
     },
     "36e80af2e4c0": {
       "reason": "",
@@ -1748,6 +1917,12 @@
       "title": "Sciences Po Mastercard Foundation Scholarship 2027 in France | Fully Funded",
       "ts": "2026-10-29T09:48:29.672159+00:00"
     },
+    "66bfb9cc5ea9": {
+      "reason": "",
+      "status": "queued",
+      "title": "AYFN Japonya Kış Kültür Kampı 2027",
+      "ts": "2026-11-02T10:54:41.305960+00:00"
+    },
     "67e3ab3f0174": {
       "reason": "",
       "status": "queued",
@@ -1856,6 +2031,12 @@
       "title": "İstanbul Kalkınma Ajansı 5 Uzman Personel Alımı",
       "ts": "2026-10-30T09:53:48.278133+00:00"
     },
+    "99a520eb1bf3": {
+      "reason": "",
+      "status": "queued",
+      "title": "Jandarma ve Sahil Güvenlik Akademisi Devlet Memuru Alımı",
+      "ts": "2026-11-02T10:55:43.891228+00:00"
+    },
     "9e068ebdd446": {
       "reason": "",
       "status": "queued",
@@ -1867,6 +2048,12 @@
       "status": "rejected",
       "title": "VLIR-UOS Scholarships 2027 in Belgium | Study Free in Europe",
       "ts": "2026-10-29T18:28:17.787732+00:00"
+    },
+    "9f0f80cfa80f": {
+      "reason": "",
+      "status": "queued",
+      "title": "TÜBİTAK Bütünleşik Algılama ve Haberleşme Kış Okulu",
+      "ts": "2026-11-02T10:55:00.890701+00:00"
     },
     "a19d915340a2": {
       "reason": "",
@@ -1964,6 +2151,12 @@
       "title": "Asr-ı Saadet Derneği Burs Duyurusu",
       "ts": "2026-10-30T20:55:08.072430+00:00"
     },
+    "bb0202a353f8": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "YÜKSEKÖĞRETİM KURULU BAŞKANLIĞI (YÖK) - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI",
+      "ts": "2026-11-02T10:55:27.737427+00:00"
+    },
     "c4668d5585a2": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
       "status": "rejected",
@@ -2018,6 +2211,12 @@
       "title": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-10-30T00:48:12.165513+00:00"
     },
+    "dbc179fb2253": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Kültür ve Turizm Bakanlığı Sözleşmeli Kütüphaneci Alımı Duyurusu",
+      "ts": "2026-11-02T10:55:34.759482+00:00"
+    },
     "dc852ae18f0a": {
       "reason": "",
       "status": "queued",
@@ -2035,6 +2234,12 @@
       "status": "queued",
       "title": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı",
       "ts": "2026-10-30T00:49:13.109123+00:00"
+    },
+    "e4a654486ed3": {
+      "reason": "",
+      "status": "queued",
+      "title": "Oxford Pershing Square Yüksek Lisans Bursu 2027-2028",
+      "ts": "2026-11-02T10:54:52.623880+00:00"
     },
     "e4da285b4a60": {
       "reason": "onay kanalı yok: Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
@@ -2089,6 +2294,12 @@
       "status": "queued",
       "title": "FASPE Fellowship 2027: Berlin ve Polonya'da Etik Çalışma Programı",
       "ts": "2026-10-30T17:57:56.413338+00:00"
+    },
+    "f8d2d1549d87": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Litvanya’da Uzun Dönem ESC Projesi Gönüllülerini Arıyor",
+      "ts": "2026-11-02T10:56:18.258856+00:00"
     },
     "f969288f4d9b": {
       "reason": "son başvuru geçti",
@@ -2181,6 +2392,12 @@
     "dublin city university ücretsiz online kurslar",
     "caltech yaz araştırma programı surf 2027",
     "visit finland'dan 16 kişiye ücretsiz finlandiya seyahati",
-    "aydın adnan menderes üniversitesi eski hükümlü tarım i şçisi alımı"
+    "aydın adnan menderes üniversitesi eski hükümlü tarım i şçisi alımı",
+    "ayfn japonya kış kültür kampı 2027",
+    "oxford pershing square yüksek lisans bursu 2027 2028",
+    "tübi tak bütünleşik algılama ve haberleşme kış okulu",
+    "abbvie uzun dönem staj programı",
+    "jandarma ve sahil güvenlik akademisi devlet memuru alımı",
+    "yıldız teknik üniversitesi sözleşmeli bilişim personeli alımı"
   ]
 }

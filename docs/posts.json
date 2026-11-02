@@ -1,5 +1,26 @@
 [
   {
+    "apply_url": "https://www.youthall.com/tr/bilkom/bilkom-digital-leader-genc-yetenek_6/",
+    "category": "staj",
+    "country_tr": "Türkiye",
+    "deadline": "2026-11-06",
+    "fee_required": false,
+    "funding_tr": "Ücretli staj",
+    "highlights_tr": [
+      "6-12 ay süreli profesyonel gelişim",
+      "Haftada en az 3 gün çalışma imkanı",
+      "İzmir'de ikamet zorunluluğu"
+    ],
+    "id": "5a0a979214b0",
+    "image": "images/5a0a979214b0.jpg",
+    "organization": "Bilkom",
+    "published_at": "2026-11-02T10:56:43.363144+00:00",
+    "source": "Youthall",
+    "summary_tr": "Bilkom'un İzmir ofisinde gerçekleşecek, 6-12 ay süren, üniversite son sınıf öğrencileri veya yeni mezunlara yönelik gerçek iş deneyimi ve eğitim odaklı genç yetenek programı.",
+    "thumb": "images/t/5a0a979214b0.jpg",
+    "title_tr": "Bilkom Digital Leader Genç Yetenek Programı"
+  },
+  {
     "apply_url": "https://www.youthall.com/tr/hyundaimotorturkiye/hyundai-ideathon_5/",
     "category": "yarisma",
     "country_tr": "Türkiye",
