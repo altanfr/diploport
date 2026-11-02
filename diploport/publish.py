@@ -174,3 +174,23 @@ def poll_decisions(state: dict) -> list[tuple[str, str]]:
         except Exception as e:
             log.debug("Telegram yanıt düzenlenemedi: %s", e)
     return out
+
+
+def diagnose() -> list[str]:
+    """Telegram düğme basışları neden gelmiyor? Sır içermeyen özet döndürür (onaylama/offset ilerletme YAPMAZ)."""
+    lines: list[str] = []
+    chat_id = int(os.environ["TELEGRAM_CHAT_ID"])
+    me = _tg("getMe")
+    lines.append(f"bot: @{me.get('username')}")
+    wh = _tg("getWebhookInfo")
+    lines.append(f"webhook tanımlı: {bool(wh.get('url'))} · bekleyen: {wh.get('pending_update_count')} · son hata: {wh.get('last_error_message') or '-'}")
+    ups = _tg("getUpdates", timeout=0, limit=100)      # offset verilmez: güncellemeleri tüketmez
+    lines.append(f"getUpdates: {len(ups)} güncelleme")
+    for u in ups[-10:]:
+        kind = [k for k in u if k != "update_id"]
+        cb = u.get("callback_query") or {}
+        extra = ""
+        if cb:
+            extra = f" · veri={cb.get('data')} · sahibi_mi={cb.get('from', {}).get('id') == chat_id}"
+        lines.append(f"  update {u['update_id']}: {kind}{extra}")
+    return lines

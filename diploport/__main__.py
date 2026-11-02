@@ -41,6 +41,13 @@ def main(argv: list[str]) -> int:
         from .publish import notify
         notify(" ".join(argv[2:]) or "Diploport uyarısı")
         return 0
+    if cmd == "telegramdiag":
+        from .publish import diagnose, telegram_enabled
+        if not telegram_enabled():
+            print("Telegram ayarlı değil")
+            return 1
+        print("\n".join(diagnose()))
+        return 0
     if cmd == "telegramtest":
         # Telegram kurulumunu dener: bir bildirim + örnek onay mesajı (Yayınla / Yayınlama düğmeleriyle) gönderir.
         from .publish import notify, send_pending, telegram_enabled

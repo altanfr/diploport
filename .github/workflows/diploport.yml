@@ -22,6 +22,10 @@ on:
         description: "Telegram denemesi: bir bildirim ve örnek onay mesajı (Yayınla / Yayınlama düğmeleri) gönder"
         type: boolean
         default: false
+      telegram_diag:
+        description: "Telegram teşhisi: düğme basışları bota ulaşıyor mu? (mesaj göndermez, hiçbir şeyi onaylamaz)"
+        type: boolean
+        default: false
 
 concurrency:
   group: diploport
@@ -64,6 +68,10 @@ jobs:
         if: ${{ inputs.telegram_test }}
         run: python -m diploport telegramtest
 
+      - name: Telegram teşhisi (sadece telegram_diag işaretliyse)
+        if: ${{ inputs.telegram_diag }}
+        run: python -m diploport telegramdiag
+
       - name: Fotoğraf denemesi (sadece photo_test işaretliyse)
         if: ${{ inputs.photo_test }}
         run: |
@@ -78,11 +86,11 @@ jobs:
           fi
 
       - name: 1) Tara, yargıla, sıradaki ilanın görselini hazırla
-        if: ${{ !inputs.photo_test && !inputs.telegram_test && !inputs.make_test }}
+        if: ${{ !inputs.photo_test && !inputs.telegram_test && !inputs.make_test && !inputs.telegram_diag }}
         run: python -m diploport run
 
       - name: Değişiklikleri kaydet (görsel + site yayına girsin)
-        if: ${{ !inputs.photo_test && !inputs.telegram_test && !inputs.make_test }}
+        if: ${{ !inputs.photo_test && !inputs.telegram_test && !inputs.make_test && !inputs.telegram_diag }}
         run: |
           git config user.name "diploport-bot"
           git config user.email "diploport-bot@users.noreply.github.com"
@@ -94,11 +102,11 @@ jobs:
           fi
 
       - name: 2) Instagram'a gönder (Make webhook)
-        if: ${{ !inputs.photo_test && !inputs.telegram_test && !inputs.make_test }}
+        if: ${{ !inputs.photo_test && !inputs.telegram_test && !inputs.make_test && !inputs.telegram_diag }}
         run: python -m diploport send
 
       - name: Gönderim durumunu kaydet
-        if: ${{ !inputs.photo_test && !inputs.telegram_test && !inputs.make_test }}
+        if: ${{ !inputs.photo_test && !inputs.telegram_test && !inputs.make_test && !inputs.telegram_diag }}
         run: |
           git add -A
           if ! git diff --cached --quiet; then
