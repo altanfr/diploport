@@ -88,7 +88,6 @@
       a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer";
       box.appendChild(a);
     }
-    if (p.source) box.appendChild(el("p", "src", "Kaynak: " + p.source));
     return box;
   }
 

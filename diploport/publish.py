@@ -38,9 +38,8 @@ def build_caption(post: dict, cfg: dict) -> str:
         lines.append(f"Son başvuru: {fmt_date_tr(post['deadline'])}")
     lines.append(f"Başvuru: {post['apply_url']}")
     lines.append(f"Tüm fırsatlar: {site}/#{post['id']}")
-    lines += ["", f"Kaynak: {post['source']}"]
     if post.get("photo_credit"):  # Unsplash/Pexels kullanım yönergesi: fotoğrafçıyı ve siteyi an
-        lines.append(f"Görsel: {post['photo_credit']}")
+        lines += ["", f"Görsel: {post['photo_credit']}"]
     lines += ["", build_hashtags(post, cfg)]
     caption = "\n".join(lines)
     if len(caption) > 2200:  # çok uzunsa önce vurguları at
@@ -132,7 +131,8 @@ def pending_text(item: dict, post: dict) -> str:
         + (f"❓ <b>Neden soruyorum:</b> {e(why)}\n" if why else "")
         + f"{e(category_label(post['category']))} · {e(post.get('country_tr', ''))} · "
         f"Son başvuru: {e(fmt_date_tr(post.get('deadline', '')) or 'belirtilmemiş')}\n"
-        f"Kaynak: {e(item['source'])}"
+        f"Kaynak: {e(item['source'])}\n\n"
+        "<i>Düğmeye basınca hemen tepki vermez: kararın bir sonraki otomatik çalışmada işlenir ve düğmeler o zaman değişir.</i>"
     )
 
 

@@ -168,6 +168,7 @@ def test_caption_has_official_link_and_limits(cfg):
     cap = build_caption(post, cfg)
     assert "Başvuru: https://www2.daad.de/x" in cap and "diploport/#abc" in cap and "30 Kasım 2026" in cap
     assert len(cap) <= 2200 and cap.count("#") <= 8
+    assert "Kaynak" not in cap and "Opportunities Corners" not in cap          # kaynak adı yazıda yer almaz
     long_post = dict(post, summary_tr="x" * 3000)
     assert len(build_caption(long_post, cfg)) <= 2200
 

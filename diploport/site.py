@@ -10,7 +10,7 @@ THUMB_WIDTH = 540          # sitedeki kayan kartlar için küçük sürüm (tele
 
 PUBLIC_FIELDS = [
     "id", "title_tr", "summary_tr", "highlights_tr", "category", "organization", "country_tr",
-    "deadline", "funding_tr", "fee_required", "apply_url", "source",
+    "deadline", "funding_tr", "fee_required", "apply_url",
 ]
 
 

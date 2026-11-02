@@ -56,6 +56,7 @@ def test_eligible_item_flows_to_site_and_outbox(world, cfg):
     assert img.exists() and img.read_bytes()[:3] == b"\xff\xd8\xff"          # gerçek JPEG
     posts = json.loads((docs / "posts.json").read_text())
     assert posts[0]["apply_url"] == "https://www2.daad.de/deutschland/studienangebote/"   # aggregator linki DEĞİL
+    assert "source" not in posts[0]                                          # kaynak adı sitede yayımlanmaz
     thumb = docs / posts[0]["thumb"]                                          # sitedeki kayan kartlar için küçük sürüm
     assert thumb.exists() and thumb.stat().st_size < img.stat().st_size
     from PIL import Image
