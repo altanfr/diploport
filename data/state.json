@@ -75,7 +75,8 @@
     "inf.ethz.ch/studies/summer-research-fellowship.html",
     "mundusjournalism.com/admissions/application-process",
     "rotary-ikm.web.app/basvur/mentee",
-    "projects.tuebingen.mpg.de/apply"
+    "projects.tuebingen.mpg.de/apply",
+    "burs.e-ditib.org"
   ],
   "outbox": [],
   "pending": {
@@ -106,34 +107,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "scene"
-    },
-    "70fa11467998": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.projects.tuebingen.mpg.de/apply",
-      "category": "staj",
-      "country_tr": "Almanya",
-      "deadline": "2026-11-16",
-      "eligibility_evidence": "The CaCTuS Summer Internship offers students from around the world the opportunity to gain hands-on research experience at leading Max Planck Institutes in Germany.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (aylık 1.350€ maaş, konaklama, sağlık sigortası ve ulaşım dahil)",
-      "highlights_tr": [
-        "Aylık yaklaşık 1.350€ maaş desteği",
-        "Lisans ve yüksek lisans öğrencileri için",
-        "1 Temmuz - 30 Eylül 2027 tarihleri arasında"
-      ],
-      "id": "70fa11467998",
-      "is_opportunity": true,
-      "message_id": 7,
-      "organization": "Max Planck Institute",
-      "organization_domain": "tuebingen.mpg.de",
-      "queued_at": "2026-11-02T18:25:05.285404+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/cactus-summer-internship/",
-      "summary_tr": "Almanya'daki Max Planck Enstitüleri'nde yapay zeka, sinirbilim ve bilişsel bilimler alanlarında lisans ve yüksek lisans öğrencilerine yönelik 3 aylık tam burslu araştırma stajı.",
-      "title_tr": "CaCTuS 2027 Yaz Stajı - Almanya",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
-      "visual_kind": "institution"
     },
     "d05a06e143d4": {
       "apply_link_id": 2,
@@ -1920,6 +1893,62 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.projects.tuebingen.mpg.de/apply",
+      "category": "staj",
+      "country_tr": "Almanya",
+      "deadline": "2026-11-16",
+      "eligibility_evidence": "The CaCTuS Summer Internship offers students from around the world the opportunity to gain hands-on research experience at leading Max Planck Institutes in Germany.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (aylık 1.350€ maaş, konaklama, sağlık sigortası ve ulaşım dahil)",
+      "highlights_tr": [
+        "Aylık yaklaşık 1.350€ maaş desteği",
+        "Lisans ve yüksek lisans öğrencileri için",
+        "1 Temmuz - 30 Eylül 2027 tarihleri arasında"
+      ],
+      "id": "70fa11467998",
+      "is_opportunity": true,
+      "message_id": 7,
+      "organization": "Max Planck Institute",
+      "organization_domain": "tuebingen.mpg.de",
+      "queued_at": "2026-11-02T20:04:33.430467+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/cactus-summer-internship/",
+      "summary_tr": "Almanya'daki Max Planck Enstitüleri'nde yapay zeka, sinirbilim ve bilişsel bilimler alanlarında lisans ve yüksek lisans öğrencilerine yönelik 3 aylık tam burslu araştırma stajı.",
+      "title_tr": "CaCTuS 2027 Yaz Stajı - Almanya",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://burs.e-ditib.org/",
+      "category": "burs",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-15",
+      "eligibility_evidence": "Diyanet İşleri Türk İslam Birliği (DİTİB), Türkiye’de yükseköğrenim gören üniversite öğrencilerine yönelik 2026–2027 eğitim öğretim dönemi öğrenim yardımı başvurularını kabul ediyor.",
+      "fee_required": false,
+      "funding_tr": "400 Euro tek seferlik destek",
+      "highlights_tr": [
+        "Türkiye'de üniversite öğrencisi olma şartı",
+        "Tek seferlik 400 Euro destek",
+        "Son başvuru tarihi 15 Kasım 2026"
+      ],
+      "id": "0fcadae6e8e4",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "Diyanet İşleri Türk İslam Birliği",
+      "organization_domain": "ditib.org",
+      "queued_at": "2026-11-02T20:04:58.624874+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/ditib-burs-duyurusu-2026-2027/",
+      "summary_tr": "DİTİB, Türkiye'deki üniversitelerde ön lisans, lisans, yüksek lisans ve doktora düzeyinde eğitim gören öğrencilere tek seferlik 400 Euro tutarında öğrenim yardımı sağlıyor.",
+      "title_tr": "DİTİB 2026-2027 Eğitim Öğretim Dönemi Öğrenim Yardımı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -1952,6 +1981,12 @@
       "status": "rejected",
       "title": "Milli Saraylar İdaresi Başkanlığı Müze Görevlisi Alımı Duyurusu",
       "ts": "2026-10-30T20:55:43.417408+00:00"
+    },
+    "0fcadae6e8e4": {
+      "reason": "",
+      "status": "queued",
+      "title": "DİTİB 2026-2027 Eğitim Öğretim Dönemi Öğrenim Yardımı",
+      "ts": "2026-11-02T20:04:58.624893+00:00"
     },
     "1571e08017b2": {
       "reason": "",
@@ -2200,10 +2235,10 @@
       "ts": "2026-10-29T18:26:52.011355+00:00"
     },
     "70fa11467998": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
-      "status": "pending",
-      "title": "CaCTuS Summer Internship 2027 in Germany | Fully Funded",
-      "ts": "2026-11-02T18:25:05.285423+00:00"
+      "reason": "",
+      "status": "queued",
+      "title": "CaCTuS 2027 Yaz Stajı - Almanya",
+      "ts": "2026-11-02T20:04:33.430487+00:00"
     },
     "777402a5a29b": {
       "reason": "",
@@ -2385,6 +2420,12 @@
       "title": "Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu",
       "ts": "2026-11-02T18:23:29.714310+00:00"
     },
+    "b9992d90c95e": {
+      "reason": "resmî başvuru linki bulunamadı (seçilen link reddedildi: HTTP 404; sayfada 1 aday link: farkyaratanlar.org)",
+      "status": "rejected",
+      "title": "Sabancı Vakfı, Fark Yaratanlar Programı Kapsamında Türkiye’nin Fark Yaratanları’nı Arıyor!",
+      "ts": "2026-11-02T20:05:06.618182+00:00"
+    },
     "bb0202a353f8": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -2536,7 +2577,7 @@
       "ts": "2026-11-02T00:32:10.205321+00:00"
     }
   },
-  "tg_offset": 0,
+  "tg_offset": 85657187,
   "titles": [
     "gaziantep'te erasmus gençlik değişimi beden farkındalığı",
     "sosyal duygusal öğrenme uzmanlık programı farkındalık eğitimi",
@@ -2612,6 +2653,7 @@
     "eth zurich yaz araştırma bursu 2027",
     "erasmus mundus gazetecilik yüksek lisans bursu 2027 2029",
     "kültürel miras genç liderler mentörlük programı",
-    "cactus 2027 yaz stajı almanya"
+    "cactus 2027 yaz stajı almanya",
+    "di ti b 2026 2027 eğitim öğretim dönemi öğrenim yardımı"
   ]
 }
