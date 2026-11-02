@@ -13,7 +13,7 @@ from urllib.parse import urljoin, urlsplit
 import requests
 from bs4 import BeautifulSoup
 
-from .util import USER_AGENT, clean_url, domain_of
+from .util import USER_AGENT, clean_url, domain_of, unsafe_url
 
 log = logging.getLogger("diploport.article")
 
@@ -42,7 +42,12 @@ class Article:
 
 
 def _get(url: str, timeout: int = 20) -> requests.Response:
+    if unsafe_url(url):
+        raise requests.RequestException(f"güvenli olmayan adres reddedildi: {domain_of(url) or url[:40]}")
     r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "en,tr;q=0.8"}, timeout=timeout, allow_redirects=True)
+    if unsafe_url(r.url):      # yönlendirme iç ağa çıktıysa içeriği hiç kullanma
+        r.close()
+        raise requests.RequestException("yönlendirme güvenli olmayan adrese çıktı")
     r.raise_for_status()
     return r
 
@@ -137,10 +142,14 @@ def validate_link(url: str, cfg: dict, timeout: int = 15, allow_domains: set[str
     Dönüş: {"ok": bool, "url": nihai temiz url, "status": int|None, "soft": bool, "reason": str}
     soft=True: site botlara 403/429 veriyor; link muhtemelen sağlam ama doğrulanamadı.
     """
+    if unsafe_url(url):
+        return {"ok": False, "url": url, "status": 0, "soft": False, "reason": "güvenli olmayan adres (iç ağ/yerel)"}
     try:
         r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=timeout, allow_redirects=True, stream=True)
         status, final = r.status_code, clean_url(r.url)
         r.close()
+        if unsafe_url(r.url):
+            return {"ok": False, "url": final, "status": 0, "soft": False, "reason": "yönlendirme güvenli olmayan adrese çıktı"}
     except requests.RequestException as e:
         return {"ok": False, "url": url, "status": None, "soft": False, "reason": f"bağlantı hatası: {type(e).__name__}"}
 

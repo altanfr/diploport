@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import ipaddress
 import json
 import os
 import re
@@ -117,3 +118,22 @@ def fmt_date_tr(iso: str) -> str:
     except (ValueError, TypeError):
         return ""
     return f"{d.day} {TR_MONTHS[d.month - 1]} {d.year}"
+
+
+def unsafe_url(url: str) -> bool:
+    """True: http(s) dışı şema, localhost/iç ağ adı veya özel/yerel IP. Dış içerikten gelen link bu yollarla
+    GitHub çalıştırıcısının iç ağına/metadata adresine yönlendirilemesin."""
+    try:
+        parts = urlsplit((url or "").strip())
+        host = (parts.hostname or "").lower().rstrip(".")
+    except ValueError:
+        return True
+    if parts.scheme not in ("http", "https") or not host:
+        return True
+    if host == "localhost" or host.endswith((".localhost", ".local", ".internal", ".lan", ".home")) or "." not in host and ":" not in host:
+        return True
+    try:
+        ip = ipaddress.ip_address(host)
+    except ValueError:
+        return False
+    return not ip.is_global

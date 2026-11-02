@@ -64,9 +64,9 @@ def post_to_make(payload: dict, retries: int = 3) -> None:
                 return
             last = f"HTTP {r.status_code}: {r.text[:150]}"
         except requests.RequestException as e:
-            last = str(e)
+            last = _redact(str(e), url)
         time.sleep(5 * (i + 1))
-    raise RuntimeError(f"Make webhook başarısız: {last}")
+    raise RuntimeError(f"Make webhook başarısız: {_redact(last, url, os.environ.get('MAKE_SECRET', ''))}")
 
 
 def wait_public(url: str, timeout: int = 480, interval: int = 15) -> bool:
@@ -91,10 +91,21 @@ def telegram_enabled() -> bool:
     return bool(os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
 
 
+def _redact(text: str, *secrets: str) -> str:
+    """Hata mesajlarında (herkese açık Actions loglarına düşebilir) token/URL gibi sırları gizler."""
+    for sec in secrets:
+        if sec:
+            text = text.replace(sec, "***")
+    return text
+
+
 def _tg(method: str, **params) -> dict:
     token = os.environ["TELEGRAM_BOT_TOKEN"]
-    r = requests.post(f"https://api.telegram.org/bot{token}/{method}", json=params, timeout=30)
-    data = r.json()
+    try:
+        r = requests.post(f"https://api.telegram.org/bot{token}/{method}", json=params, timeout=30)
+        data = r.json()
+    except (requests.RequestException, ValueError) as e:
+        raise RuntimeError(f"Telegram {method}: {_redact(str(e), token)}") from None
     if not data.get("ok"):
         raise RuntimeError(f"Telegram {method}: {data.get('description')}")
     return data["result"]

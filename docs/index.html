@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Diploport | Burs, staj ve gönüllülük ilanları</title>
 <meta name="description" content="Türkiye'den başvurulabilen burs, staj, gönüllülük ve eğitim ilanları. Her ilan resmî başvuru sayfasına bağlanır.">
 <meta name="theme-color" content="#1E2C55">
@@ -19,7 +21,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preload" href="fonts/poppins-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="style.css?v=4">
+<link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
 <a class="skip" href="#liste">İlanlara geç</a>
@@ -59,7 +61,7 @@
 
 <main id="liste" class="main" tabindex="-1">
   <div class="wrap searchbox" id="searchBox" hidden>
-    <form class="search" role="search" onsubmit="return false">
+    <form class="search" role="search">
       <label class="sr" for="q">İlanlarda ara</label>
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
       <input id="q" type="search" placeholder="Ülke, kurum veya konu ara" autocomplete="off" enterkeyhint="search">
@@ -88,6 +90,6 @@
     </div>
   </div>
 </footer>
-<script src="app.js?v=3" defer></script>
+<script src="app.js?v=4" defer></script>
 </body>
 </html>

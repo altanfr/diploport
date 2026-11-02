@@ -47,3 +47,4 @@ def no_network(monkeypatch):
         raise requests.ConnectionError("testlerde ağ kapalı")
 
     monkeypatch.setattr(requests, "get", blocked)
+    monkeypatch.setattr(requests, "post", blocked)

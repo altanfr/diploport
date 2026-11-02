@@ -888,3 +888,42 @@ def test_site_thumb_and_prune(tmp_path):
     # görsel yoksa ilan yine yayımlanır, sadece thumb alanı olmaz
     site.add_post({"id": "c3", "title_tr": "U", "category": "staj", "apply_url": "https://y.org"})
     assert "thumb" not in site.load_posts()[0]
+
+
+def test_unsafe_urls_are_rejected_without_a_request(monkeypatch):
+    """Dış içerikten gelen link iç ağa/metadata adresine çıkamaz."""
+    from diploport import article
+    for bad in ("http://169.254.169.254/latest/meta-data", "http://127.0.0.1:8080/x", "http://localhost/a",
+                "http://10.0.0.5/", "http://[::1]/", "file:///etc/passwd", "ftp://example.org/x", "http://intranet/x",
+                "http://printer.local/"):
+        assert util.unsafe_url(bad), bad
+    for good in ("https://www.daad.de/en/", "http://example.org/a?b=1", "https://8.8.8.8/"):
+        assert not util.unsafe_url(good), good
+
+    def boom(*a, **k):
+        raise AssertionError("istek atılmamalıydı")
+    monkeypatch.setattr(article.requests, "get", boom)
+    v = article.validate_link("http://169.254.169.254/latest/meta-data", {"blocked_link_domains": [], "sources": []})
+    assert not v["ok"] and v["status"] == 0
+    import requests
+    with pytest.raises(requests.RequestException):
+        article.fetch_article("http://127.0.0.1/admin", {"gemini": {"max_article_chars": 1000}})
+
+
+def test_secrets_are_redacted_from_error_messages(monkeypatch):
+    import requests
+    from diploport import publish
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "123456:SECRETTOKEN")
+    monkeypatch.setenv("MAKE_WEBHOOK_URL", "https://hook.eu1.make.com/abcdef123456")
+    monkeypatch.setenv("MAKE_SECRET", "s3cr3t")
+
+    def boom(url, **k):
+        raise requests.ConnectionError(f"Max retries exceeded with url: {url}")
+    monkeypatch.setattr(publish.requests, "post", boom)
+    monkeypatch.setattr(publish.time, "sleep", lambda s: None)
+    with pytest.raises(RuntimeError) as e1:
+        publish._tg("getUpdates")
+    assert "SECRETTOKEN" not in str(e1.value)
+    with pytest.raises(RuntimeError) as e2:
+        publish.post_to_make({"id": "x"})
+    assert "abcdef123456" not in str(e2.value)

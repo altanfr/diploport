@@ -298,6 +298,7 @@
     if (location.hash.length > 1) openPost(decodeURIComponent(location.hash.slice(1)), true);
   }
 
+  $("q").form.addEventListener("submit", function (e) { e.preventDefault(); });
   $("q").addEventListener("input", function () { query = fold(this.value).trim(); render(); });
   $("clear").addEventListener("click", function () { cat = "all"; query = ""; $("q").value = ""; tabs(); render(); });
 
