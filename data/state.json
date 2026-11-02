@@ -65,7 +65,17 @@
     "tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
     "youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119",
     "kariyerkapisi.gov.tr/IlanDetay?i=bb1814b5-f9dd-47b3-8006-900a7b8098c5",
-    "kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd"
+    "kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd",
+    "mpiib-berlin.mpg.de/mpiib-isi?s=09",
+    "asrisaadet.org/burs-basvuru-formu",
+    "nytco.com/careers/early-career-opportunities/newsroom-fellowship",
+    "ecoledulouvre.fr/fr/actualites/appel-candidatures-prix-marc-de-montalembert-2027",
+    "youthall.com/tr/YGA/birbirini-gelistiren-kadinlar_14",
+    "kariyerkapisi.gov.tr/IlanDetay?i=a9f4af35-682a-4030-b699-68d7e4ad1546",
+    "inf.ethz.ch/studies/summer-research-fellowship.html",
+    "mundusjournalism.com/admissions/application-process",
+    "rotary-ikm.web.app/basvur/mentee",
+    "projects.tuebingen.mpg.de/apply"
   ],
   "outbox": [
     {
@@ -77,6 +87,16 @@
       "source": "Youthall",
       "title": "Bilkom Digital Leader Genç Yetenek Programı",
       "ts": "2026-11-02T10:56:43.402872+00:00"
+    },
+    {
+      "apply_url": "https://genclikcalismalari.org/ilan/esc-1626-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/",
+      "attempts": 0,
+      "caption": "Almanya'da Uzun Dönem ESC Gönüllülük Projesi\n\nAlmanya'nın Emden şehrinde 1 Aralık 2026 - 30 Kasım 2027 tarihleri arasında gerçekleşecek Avrupa Dayanışma Programı (ESC) gönüllülük projesi için 18-30 yaş arası katılımcılar aranmaktadır.\n\n- 18-30 yaş arası başvuru imkanı\n- 12 aylık uzun dönem gönüllülük\n- Türkiye Cumhuriyeti vatandaşlarına açık\n\nSon başvuru: 6 Kasım 2026\nBaşvuru: https://genclikcalismalari.org/ilan/esc-1626-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/\nTüm fırsatlar: https://diploport.dev/#f3e9a405a88c\n\nKaynak: AB İlan\nGörsel: Daniel Delgado / Unsplash\n\n#diploport #fırsat #türkgençler #gönüllülük #erasmus #avrupagönüllülükhizmeti",
+      "id": "f3e9a405a88c",
+      "photo_query": "volunteers community outdoor",
+      "source": "AB İlan",
+      "title": "Almanya'da Uzun Dönem ESC Gönüllülük Projesi",
+      "ts": "2026-11-02T18:25:09.067579+00:00"
     }
   ],
   "pending": {
@@ -107,6 +127,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "70fa11467998": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.projects.tuebingen.mpg.de/apply",
+      "category": "staj",
+      "country_tr": "Almanya",
+      "deadline": "2026-11-16",
+      "eligibility_evidence": "The CaCTuS Summer Internship offers students from around the world the opportunity to gain hands-on research experience at leading Max Planck Institutes in Germany.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (aylık 1.350€ maaş, konaklama, sağlık sigortası ve ulaşım dahil)",
+      "highlights_tr": [
+        "Aylık yaklaşık 1.350€ maaş desteği",
+        "Lisans ve yüksek lisans öğrencileri için",
+        "1 Temmuz - 30 Eylül 2027 tarihleri arasında"
+      ],
+      "id": "70fa11467998",
+      "is_opportunity": true,
+      "message_id": 7,
+      "organization": "Max Planck Institute",
+      "organization_domain": "tuebingen.mpg.de",
+      "queued_at": "2026-11-02T18:25:05.285404+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/cactus-summer-internship/",
+      "summary_tr": "Almanya'daki Max Planck Enstitüleri'nde yapay zeka, sinirbilim ve bilişsel bilimler alanlarında lisans ve yüksek lisans öğrencilerine yönelik 3 aylık tam burslu araştırma stajı.",
+      "title_tr": "CaCTuS 2027 Yaz Stajı - Almanya",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
+      "visual_kind": "institution"
     },
     "d05a06e143d4": {
       "apply_link_id": 2,
@@ -154,32 +202,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://genclikcalismalari.org/ilan/esc-1626-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/",
-      "category": "gonulluluk",
-      "country_tr": "Almanya",
-      "deadline": "2026-11-06",
-      "eligibility_evidence": "Projeye, Türkiye Cumhuriyeti vatandaşı olan 18-30 yaş arası (bu yaşlar dahil) herkes başvurabilir.",
-      "fee_required": false,
-      "funding_tr": "ESC kapsamında konaklama, yemek ve yol desteği",
-      "highlights_tr": [
-        "18-30 yaş arası başvuru imkanı",
-        "12 aylık uzun dönem gönüllülük",
-        "Türkiye Cumhuriyeti vatandaşlarına açık"
-      ],
-      "id": "f3e9a405a88c",
-      "is_opportunity": true,
-      "organization": "Pi Gençlik Derneği",
-      "organization_domain": "pigenc.org",
-      "queued_at": "2026-10-30T20:56:05.515828+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/katilimci-cagrisi-almanyada-uzun-donem-esc-gonulluluk-projesi-6/",
-      "summary_tr": "Almanya'nın Emden şehrinde 1 Aralık 2026 - 30 Kasım 2027 tarihleri arasında gerçekleşecek Avrupa Dayanışma Programı (ESC) gönüllülük projesi için 18-30 yaş arası katılımcılar aranmaktadır.",
-      "title_tr": "Almanya'da Uzun Dönem ESC Gönüllülük Projesi",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
     {
       "apply_link_id": 2,
       "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
@@ -1659,6 +1681,252 @@
       "title_tr": "Yıldız Teknik Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.mpiib-berlin.mpg.de/mpiib-isi?s=09",
+      "category": "staj",
+      "country_tr": "Almanya",
+      "deadline": "2026-11-27",
+      "eligibility_evidence": "Applicants from all around the world are eligible to apply.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (aylık 1300€ maaş, konaklama ve ulaşım desteği)",
+      "highlights_tr": [
+        "3 ay süreli tam burslu staj",
+        "Aylık 1300€ maaş ve konaklama desteği",
+        "Lisans ve yüksek lisans öğrencilerine açık"
+      ],
+      "id": "1ee5a9b9cfb1",
+      "is_opportunity": true,
+      "organization": "Max Planck Institute of Infection Biology",
+      "organization_domain": "mpiib-berlin.mpg.de",
+      "queued_at": "2026-11-02T18:22:34.844585+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/max-planck-mpiib-internship-2027/",
+      "summary_tr": "Max Planck Enfeksiyon Biyolojisi Enstitüsü'nde biyoloji, tıp ve ilgili alanlarda lisans ve yüksek lisans öğrencileri için 3 aylık tam burslu yaz stajı programı.",
+      "title_tr": "Max Planck MPIIB Yaz Stajı 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://asrisaadet.org/burs-basvuru-formu",
+      "category": "burs",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-06",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Ön lisans, lisans ve lisansüstü öğrencileri başvurabilir",
+        "7 ay boyunca burs desteği sağlanacak",
+        "Başka kurumdan burs almak başvuruya engel değil"
+      ],
+      "id": "b8d9757ae6b2",
+      "is_opportunity": true,
+      "organization": "Asr-ı Saadet Derneği",
+      "organization_domain": "asrisaadet.org",
+      "queued_at": "2026-11-02T18:23:29.714292+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/asr-i-saadet-dernegi-burs-duyurusu/",
+      "summary_tr": "Asr-ı Saadet Derneği, maddi desteğe ihtiyaç duyan ön lisans, lisans ve lisansüstü öğrencilerine 7 ay süreli burs desteği sağlayacaktır.",
+      "title_tr": "Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.nytco.com/careers/early-career-opportunities/newsroom-fellowship/",
+      "category": "is",
+      "country_tr": "ABD",
+      "deadline": "2026-11-20",
+      "eligibility_evidence": "Candidates from around the world are eligible to apply with different backgrounds.",
+      "fee_required": false,
+      "funding_tr": "Ücretli fellowship",
+      "highlights_tr": [
+        "Gazetecilik ve medya alanında kariyer fırsatı",
+        "Bir yıl süreli tam zamanlı ücretli çalışma",
+        "Editörlerden mentorluk ve eğitim desteği"
+      ],
+      "id": "2b1ede9e6f61",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "The New York Times",
+      "organization_domain": "nytco.com",
+      "queued_at": "2026-11-02T18:23:39.173447+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/new-york-times-fellowship/",
+      "summary_tr": "New York Times tarafından düzenlenen, gazetecilik ve medya alanında kariyerinin başındaki profesyonellere yönelik bir yıllık ücretli çalışma ve eğitim programıdır.",
+      "title_tr": "New York Times Gazetecilik Bursu ve Fellowship Programı 2026",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.ecoledulouvre.fr/fr/actualites/appel-candidatures-prix-marc-de-montalembert-2027",
+      "category": "hibe",
+      "country_tr": "Fransa ve Yunanistan",
+      "deadline": "2026-12-13",
+      "eligibility_evidence": "Akdeniz’e kıyısı bulunan bir ülkede doğmuş olmak veya bu ülkelerden birinin vatandaşı olmak (Türkiye’den başvurular kabul edilmektedir).",
+      "fee_required": false,
+      "funding_tr": "9.000 Avro destek ve konaklama",
+      "highlights_tr": [
+        "9.000 Avro araştırma desteği",
+        "36 yaşından küçük olma şartı",
+        "Doktora derecesi gereklidir"
+      ],
+      "id": "612f18e45782",
+      "is_opportunity": true,
+      "organization": "Marc de Montalembert Vakfı",
+      "organization_domain": "fondationmdm.com",
+      "queued_at": "2026-11-02T18:23:58.027970+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/marc-de-montalembert-2027-odulu-9-000-avro-arastirma-destegi/",
+      "summary_tr": "Marc de Montalembert Vakfı ve École du Louvre, Akdeniz sanat ve kültür tarihi üzerine araştırma yapan doktora dereceli araştırmacılara 9.000 Avro değerinde destek ve Fransa/Yunanistan'da çalışma imkânı sunuyor.",
+      "title_tr": "Marc de Montalembert 2027 Araştırma Ödülü",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/YGA/birbirini-gelistiren-kadinlar_14/",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Türkiye'nin dört bir yanından seninle aynı heyecanı paylaşan binlerce kız kardeşinle tanış, ilham al ve ilham ol.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz eğitim ve mentorluk",
+      "highlights_tr": [
+        "Üniversite hazırlık, 1. ve 2. sınıf kadın öğrenciler",
+        "Yapay zeka ve teknoloji odaklı eğitimler",
+        "Ford Otosan tesislerinde saha gezileri ve mentorluk"
+      ],
+      "id": "34a97395a09a",
+      "is_opportunity": true,
+      "organization": "Ford Otosan",
+      "organization_domain": "fordotosan.com.tr",
+      "queued_at": "2026-11-02T18:24:06.973425+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/YGA/birbirini-gelistiren-kadinlar_14/",
+      "summary_tr": "Üniversite hazırlık, 1. ve 2. sınıf kadın öğrencilere yönelik; yapay zeka, mentorluk ve teknoloji odaklı saha gezilerini içeren gelişim programı.",
+      "title_tr": "Birbirini Geliştiren Kadınlar Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a9f4af35-682a-4030-b699-68d7e4ad1546",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "T.C. vatandaşı olma şartı",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "856bbd4d4028",
+      "is_opportunity": true,
+      "organization": "KÜLTÜR VE TURİZM BAKANLIĞI",
+      "organization_domain": "ktb.gov.tr",
+      "queued_at": "2026-11-02T18:24:24.144945+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a9f4af35-682a-4030-b699-68d7e4ad1546",
+      "summary_tr": "Kültür ve Turizm Bakanlığı bünyesinde istihdam edilmek üzere 162 sözleşmeli kütüphaneci alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Kültür ve Turizm Bakanlığı 162 Sözleşmeli Kütüphaneci Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
+      "category": "staj",
+      "country_tr": "İsviçre",
+      "deadline": "2026-12-16",
+      "eligibility_evidence": "The Fellowship is open to all students worldwide.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (konaklama, yaşam masrafları, uçak bileti ve vize)",
+      "highlights_tr": [
+        "Lisans ve yüksek lisans öğrencilerine açık",
+        "IELTS şartı aranmıyor",
+        "2 ay süreli tam kapsamlı burslu staj"
+      ],
+      "id": "2b93f398a0fc",
+      "image_queries": [
+        "ETH Zurich campus",
+        "Switzerland university students",
+        "research laboratory students"
+      ],
+      "is_opportunity": true,
+      "organization": "ETH Zurich",
+      "organization_domain": "ethz.ch",
+      "queued_at": "2026-11-02T18:24:34.175822+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/eth-summer-fellowship-2027-in-switzerland/",
+      "summary_tr": "ETH Zurich Bilgisayar Bilimleri Bölümü tarafından düzenlenen, lisans ve yüksek lisans öğrencilerine yönelik 2 aylık tam kapsamlı yaz araştırma staj programıdır.",
+      "title_tr": "ETH Zurich Yaz Araştırma Bursu 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://mundusjournalism.com/admissions/application-process",
+      "category": "burs",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2027-01-10",
+      "eligibility_evidence": "Students from all countries (EU and non-EU) are eligible to apply.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti muafiyeti ve aylık 1.400€ burs)",
+      "highlights_tr": [
+        "Aylık 1.400€ yaşam desteği",
+        "Tam öğrenim ücreti muafiyeti",
+        "İki farklı Avrupa ülkesinde eğitim"
+      ],
+      "id": "4db405661b62",
+      "image_queries": [
+        "Aarhus University campus",
+        "Europe university students",
+        "students walking campus"
+      ],
+      "is_opportunity": true,
+      "organization": "Erasmus Mundus",
+      "organization_domain": "mundusjournalism.com",
+      "queued_at": "2026-11-02T18:24:45.203086+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/erasmus-mundus-journalism-scholarship/",
+      "summary_tr": "Avrupa'da gazetecilik, medya ve iletişim alanında 2 yıllık tam burslu yüksek lisans programı. Program, öğrencilere iki farklı Avrupa ülkesinde eğitim alma ve uzmanlaşma imkanı sunmaktadır.",
+      "title_tr": "Erasmus Mundus Gazetecilik Yüksek Lisans Bursu 2027-2029",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://rotary-ikm.web.app/basvur/mentee",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-20",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "18-30 yaş arası gençler için",
+        "İki ay süren mentörlük desteği",
+        "Kültürel miras ve sürdürülebilirlik odaklı"
+      ],
+      "id": "460fe6a3dd9f",
+      "is_opportunity": true,
+      "organization": "İzmir Kültürel Miras Rotary Kulübü",
+      "organization_domain": "",
+      "queued_at": "2026-11-02T18:24:54.049861+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/kulturel-miras-genc-liderler-mentorluk-programi-basvurularinizi-bekliyor/",
+      "summary_tr": "İzmir Kültürel Miras Rotary Kulübü tarafından düzenlenen, 18-30 yaş arası gençlere yönelik liderlik, iletişim ve kültürel miras odaklı iki aylık mentörlük programı.",
+      "title_tr": "Kültürel Miras Genç Liderler Mentörlük Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -1722,6 +1990,12 @@
       "title": "MIT Summer Research Program 2027 in USA (Fully Funded)",
       "ts": "2026-10-31T12:10:30.913612+00:00"
     },
+    "1ee5a9b9cfb1": {
+      "reason": "",
+      "status": "queued",
+      "title": "Max Planck MPIIB Yaz Stajı 2027",
+      "ts": "2026-11-02T18:22:34.844609+00:00"
+    },
     "2112c840dffb": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -1758,6 +2032,18 @@
       "title": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
       "ts": "2026-10-28T20:13:25.846638+00:00"
     },
+    "2b1ede9e6f61": {
+      "reason": "",
+      "status": "queued",
+      "title": "New York Times Gazetecilik Bursu ve Fellowship Programı 2026",
+      "ts": "2026-11-02T18:23:39.173459+00:00"
+    },
+    "2b93f398a0fc": {
+      "reason": "",
+      "status": "queued",
+      "title": "ETH Zurich Yaz Araştırma Bursu 2027",
+      "ts": "2026-11-02T18:24:34.175840+00:00"
+    },
     "2c49f34b9c7b": {
       "reason": "",
       "status": "queued",
@@ -1775,6 +2061,12 @@
       "status": "queued",
       "title": "AbbVie Uzun Dönem Staj Programı",
       "ts": "2026-11-02T10:55:11.485349+00:00"
+    },
+    "34a97395a09a": {
+      "reason": "",
+      "status": "queued",
+      "title": "Birbirini Geliştiren Kadınlar Programı",
+      "ts": "2026-11-02T18:24:06.973442+00:00"
     },
     "36e80af2e4c0": {
       "reason": "",
@@ -1818,6 +2110,12 @@
       "title": "İspanya’da Erasmus+ Eğitim Kursu Fırsatı",
       "ts": "2026-10-30T17:58:17.323026+00:00"
     },
+    "460fe6a3dd9f": {
+      "reason": "",
+      "status": "queued",
+      "title": "Kültürel Miras Genç Liderler Mentörlük Programı",
+      "ts": "2026-11-02T18:24:54.049879+00:00"
+    },
     "48299a758094": {
       "reason": "Türkiye'ye kapalı: Applicants must be US citizens or hold valid visas that allow them to receive paid work during the summer.",
       "status": "rejected",
@@ -1829,6 +2127,12 @@
       "status": "queued",
       "title": "Boehringer Ingelheim İnsan Kaynakları Stajyeri",
       "ts": "2026-10-30T17:58:24.737730+00:00"
+    },
+    "4db405661b62": {
+      "reason": "",
+      "status": "queued",
+      "title": "Erasmus Mundus Gazetecilik Yüksek Lisans Bursu 2027-2029",
+      "ts": "2026-11-02T18:24:45.203103+00:00"
     },
     "5107c2437858": {
       "reason": "",
@@ -1859,6 +2163,12 @@
       "status": "queued",
       "title": "UNDP Tayland İletişim Stajı",
       "ts": "2026-10-30T17:58:47.334445+00:00"
+    },
+    "612f18e45782": {
+      "reason": "",
+      "status": "queued",
+      "title": "Marc de Montalembert 2027 Araştırma Ödülü",
+      "ts": "2026-11-02T18:23:58.027985+00:00"
     },
     "6227d3d4868a": {
       "reason": "",
@@ -1896,6 +2206,12 @@
       "title": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
       "ts": "2026-10-29T18:26:52.011355+00:00"
     },
+    "70fa11467998": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
+      "status": "pending",
+      "title": "CaCTuS Summer Internship 2027 in Germany | Fully Funded",
+      "ts": "2026-11-02T18:25:05.285423+00:00"
+    },
     "777402a5a29b": {
       "reason": "",
       "status": "queued",
@@ -1931,6 +2247,12 @@
       "status": "queued",
       "title": "Ulusal Staj Programı 2027 Başvuruları",
       "ts": "2026-10-29T09:47:30.212091+00:00"
+    },
+    "856bbd4d4028": {
+      "reason": "",
+      "status": "queued",
+      "title": "Kültür ve Turizm Bakanlığı 162 Sözleşmeli Kütüphaneci Alımı",
+      "ts": "2026-11-02T18:24:24.144964+00:00"
     },
     "883ec17a80da": {
       "reason": "",
@@ -2063,6 +2385,12 @@
       "status": "queued",
       "title": "Kurumsal İletişim ve İç Tasarım Uzun Dönem Stajyeri",
       "ts": "2026-10-30T20:55:50.664130+00:00"
+    },
+    "b8d9757ae6b2": {
+      "reason": "",
+      "status": "queued",
+      "title": "Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu",
+      "ts": "2026-11-02T18:23:29.714310+00:00"
     },
     "bb0202a353f8": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -2281,6 +2609,16 @@
     "tübi tak bütünleşik algılama ve haberleşme kış okulu",
     "abbvie uzun dönem staj programı",
     "jandarma ve sahil güvenlik akademisi devlet memuru alımı",
-    "yıldız teknik üniversitesi sözleşmeli bilişim personeli alımı"
+    "yıldız teknik üniversitesi sözleşmeli bilişim personeli alımı",
+    "max planck mpiib yaz stajı 2027",
+    "asr ı saadet derneği 2026 2027 eğitim dönemi bursu",
+    "new york times gazetecilik bursu ve fellowship programı 2026",
+    "marc de montalembert 2027 araştırma ödülü",
+    "birbirini geliştiren kadınlar programı",
+    "kültür ve turizm bakanlığı 162 sözleşmeli kütüphaneci alımı",
+    "eth zurich yaz araştırma bursu 2027",
+    "erasmus mundus gazetecilik yüksek lisans bursu 2027 2029",
+    "kültürel miras genç liderler mentörlük programı",
+    "cactus 2027 yaz stajı almanya"
   ]
 }
