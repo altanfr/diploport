@@ -187,6 +187,27 @@ def poll_decisions(state: dict) -> list[tuple[str, str]]:
     return out
 
 
+def watch(seconds: int = 300, every: int = 4) -> None:
+    """Teşhis: belirli süre boyunca bekleyen güncellemeleri izler (onaylamaz); değişiklik olunca satır yazar."""
+    chat_id = int(os.environ["TELEGRAM_CHAT_ID"])
+    start, last = time.time(), None
+    print(f"izleme başladı ({seconds} sn)", flush=True)
+    while time.time() - start < seconds:
+        try:
+            ups = _tg("getUpdates", timeout=0, limit=100, allowed_updates=["message", "edited_message", "callback_query"])
+        except Exception as e:  # noqa: BLE001
+            ups, now = [], f"HATA {str(e)[:100]}"
+        else:
+            now = [(u["update_id"], list(k for k in u if k != "update_id"),
+                    (u.get("callback_query") or {}).get("data"), (u.get("callback_query") or {}).get("from", {}).get("id") == chat_id)
+                   for u in ups]
+        if now != last:
+            print(f"  t+{int(time.time() - start)} sn: {now}", flush=True)
+            last = now
+        time.sleep(every)
+    print("izleme bitti", flush=True)
+
+
 def diagnose() -> list[str]:
     """Telegram düğme basışları neden gelmiyor? Sır içermeyen özet döndürür (onaylama/offset ilerletme YAPMAZ)."""
     lines: list[str] = []
