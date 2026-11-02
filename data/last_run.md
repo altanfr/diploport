@@ -1,18 +1,8 @@
-# Son çalışma (2026-11-02 21:22 TR)
+# Son çalışma (2026-11-02 21:35 TR)
 
-Kuyruk: 64 · Onay bekleyen: 3 · Hazırlanan: f3e9a405a88c
-Bulunan yeni ilan: 10 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
-Kaynaklar: Opportunities Corners: 2 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 1 yeni / 8 kayıt · Opportunities Circle: 3 yeni / 10 kayıt · AB İlan: 2 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 1 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 23 kayıt
+Kuyruk: 64 · Onay bekleyen: 3 · Hazırlanan: -
+Bulunan yeni ilan: 0 · Bu çalışmada işlenmesi planlanan: 0 · Raporlanan: 0
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 23 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| kuyrukta | Opportunities Corners | Max Planck MPIIB Yaz Stajı 2027 | kanıt: Applicants from all around the world are eligible to apply. · son tarih: 2026-11-27 · link: https://www.mpiib-berlin.mpg.de/mpiib-isi?s=09 · görsel: kurum logosu aranacak (Max Planck Institute of Infection Biology; stok foto yok) |
-| kuyrukta | Erasmusgram | Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu | kanıt: Kaynak Türkiye merkezli (Erasmusgram) · son tarih: 2026-11-06 · link: https://asrisaadet.org/burs-basvuru-formu · görsel: kurum logosu aranacak (Asr-ı Saadet Derneği; stok foto yok) |
-| kuyrukta | Opportunities Circle | New York Times Gazetecilik Bursu ve Fellowship Programı 2026 | kanıt: Candidates from around the world are eligible to apply with different backgrounds. · son tarih: 2026-11-20 · link: https://www.nytco.com/careers/early-career-opportunities/newsroom-fellowship/ · görsel: kurum logosu aranacak (The New York Times; stok foto yok) |
-| kuyrukta | AB İlan | Marc de Montalembert 2027 Araştırma Ödülü | kanıt: Akdeniz’e kıyısı bulunan bir ülkede doğmuş olmak veya bu ülkelerden birinin vatandaşı olmak (Türkiye’den başvurular kabul edilmektedir). · son tarih: 2026-12-13 · link: https://www.ecoledulouvre.fr/fr/actualites/appel-candidatures-prix-marc-de-montalembert-2027 |
-| kuyrukta | Youthall | Birbirini Geliştiren Kadınlar Programı | kanıt: Türkiye'nin dört bir yanından seninle aynı heyecanı paylaşan binlerce kız kardeşinle tanış, ilham al ve ilham ol. · son tarih: 2026-11-30 · link: https://www.youthall.com/tr/YGA/birbirini-gelistiren-kadinlar_14/ · görsel: kurum logosu aranacak (Ford Otosan; stok foto yok) |
-| kuyrukta | Kariyer Kapısı | Kültür ve Turizm Bakanlığı 162 Sözleşmeli Kütüphaneci Alımı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=a9f4af35-682a-4030-b699-68d7e4ad1546 · görsel: kurum logosu aranacak (KÜLTÜR VE TURİZM BAKANLIĞI; stok foto yok) |
-| kuyrukta | Opportunities Corners | ETH Zurich Yaz Araştırma Bursu 2027 | kanıt: The Fellowship is open to all students worldwide. · son tarih: 2026-12-16 · link: https://inf.ethz.ch/studies/summer-research-fellowship.html · görsel: kurum logosu aranacak (ETH Zurich; stok foto yok) |
-| kuyrukta | Opportunities Circle | Erasmus Mundus Gazetecilik Yüksek Lisans Bursu 2027-2029 | kanıt: Students from all countries (EU and non-EU) are eligible to apply. · son tarih: 2027-01-10 · link: https://mundusjournalism.com/admissions/application-process · foto: Aarhus University campus / Europe university students / students walking campus |
-| kuyrukta | AB İlan | Kültürel Miras Genç Liderler Mentörlük Programı | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2026-11-20 · link: https://rotary-ikm.web.app/basvur/mentee · görsel: kurum logosu aranacak (İzmir Kültürel Miras Rotary Kulübü; stok foto yok) |
-| onayda | Opportunities Circle | CaCTuS 2027 Yaz Stajı - Almanya | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et. · son tarih: 2026-11-16 · link: https://www.projects.tuebingen.mpg.de/apply · görsel: kurum logosu aranacak (Max Planck Institute; stok foto yok) |
