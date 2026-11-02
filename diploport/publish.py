@@ -196,6 +196,18 @@ def diagnose() -> list[str]:
     ups = _tg("getUpdates", timeout=0, limit=100,      # offset verilmez: güncellemeleri tüketmez
               allowed_updates=["message", "edited_message", "callback_query"])
     lines.append(f"getUpdates: {len(ups)} güncelleme")
+    # poll_decisions'ın kullandığı çağrı biçimlerini tek tek dene (hangisi güncellemeyi göremiyor?)
+    variants = {
+        "yalnız allowed_updates=[callback_query]": dict(timeout=0, allowed_updates=["callback_query"]),
+        "offset=0 + allowed_updates=[callback_query] (mevcut kod)": dict(offset=0, timeout=0, allowed_updates=["callback_query"]),
+        "parametresiz": dict(timeout=0),
+        "offset=0 parametresiz": dict(offset=0, timeout=0),
+    }
+    for label, params in variants.items():
+        try:
+            lines.append(f"  deneme [{label}]: {len(_tg('getUpdates', **params))} güncelleme")
+        except Exception as e:  # noqa: BLE001
+            lines.append(f"  deneme [{label}]: HATA {str(e)[:120]}")
     for u in ups[-10:]:
         kind = [k for k in u if k != "update_id"]
         cb = u.get("callback_query") or {}
