@@ -48,7 +48,7 @@ def main(argv: list[str]) -> int:
             return 1
         print("\n".join(diagnose()), flush=True)
         from .publish import watch
-        watch(int(os.environ.get("WATCH_SECONDS", "300")))
+        watch(int(os.environ.get("WATCH_SECONDS", "540")))
         return 0
     if cmd == "telegramtest":
         # Telegram kurulumunu dener: bir bildirim + örnek onay mesajı (Yayınla / Yayınlama düğmeleriyle) gönderir.
