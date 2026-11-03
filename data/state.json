@@ -80,18 +80,7 @@
     "careers.bat.com/en/why-bat",
     "kariyerkapisi.gov.tr/IlanDetay?i=51fd7921-cfbe-482f-8e2f-b8a569a605d0"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
-      "attempts": 0,
-      "caption": "İspanya, Alicante: Erasmus+ Gençlik Değişimi\n\nİspanya'nın Alicante kentinde 13-21 Aralık 2026 tarihleri arasında düzenlenecek olan, demokrasi ve gençlik katılımı odaklı Erasmus+ gençlik değişimi programı.\n\n- 18-30 yaş arası gençlere açık\n- 13-21 Aralık 2026 tarihleri arasında\n- Tüm temel masraflar Erasmus+ tarafından karşılanır\n\nSon başvuru: 6 Kasım 2026\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform\nTüm fırsatlar: https://diploport.dev/#5107c2437858\n\nGörsel: Fred Kloet / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "5107c2437858",
-      "photo_query": "classroom workshop students",
-      "source": "Erasmusgram",
-      "title": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
-      "ts": "2026-11-03T09:29:32.332976+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -178,6 +167,13 @@
       "photo_query": "volunteers community outdoor",
       "source": "AB İlan",
       "ts": "2026-11-02T18:25:57.575647+00:00"
+    },
+    {
+      "id": "5107c2437858",
+      "official": "https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
+      "photo_query": "classroom workshop students",
+      "source": "Erasmusgram",
+      "ts": "2026-11-03T09:30:20.967611+00:00"
     }
   ],
   "queue": [
@@ -2215,9 +2211,9 @@
     },
     "5107c2437858": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
-      "ts": "2026-10-31T19:13:59.179497+00:00"
+      "ts": "2026-11-03T09:30:20.967628+00:00"
     },
     "56a1b38aff04": {
       "reason": "",
