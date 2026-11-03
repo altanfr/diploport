@@ -78,9 +78,26 @@
     "projects.tuebingen.mpg.de/apply",
     "burs.e-ditib.org",
     "careers.bat.com/en/why-bat",
-    "kariyerkapisi.gov.tr/IlanDetay?i=51fd7921-cfbe-482f-8e2f-b8a569a605d0"
+    "kariyerkapisi.gov.tr/IlanDetay?i=51fd7921-cfbe-482f-8e2f-b8a569a605d0",
+    "youth.europa.eu/solidarity/opportunity/55024_en",
+    "tdk.gov.tr/icerik/duyurular/2027-yili-burs-duyurusu",
+    "youth.europa.eu/solidarity/opportunity/55080_en",
+    "ertegun.ox.ac.uk/scholarships",
+    "tev.org.tr/burs/tr/29/fransa-buyukelciligi-fransa-burslari",
+    "dbs.nus.edu.sg/outreach/amgen-scholars-program"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.unicef.org/careers/internships",
+      "attempts": 0,
+      "caption": "UNICEF 2026 Ücretli Staj Programı\n\nUNICEF, dünya genelindeki ofislerinde lisans, yüksek lisans ve doktora öğrencileri ile yeni mezunlar için ücretli staj imkanları sunmaktadır.\n\n- Lisans, yüksek lisans ve doktora öğrencilerine açık\n- 6-26 hafta arası staj süresi\n- İngilizce, İspanyolca veya Fransızca dillerinden biri şart\n\nBaşvuru: https://www.unicef.org/careers/internships\nTüm fırsatlar: https://diploport.dev/#9e068ebdd446\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "9e068ebdd446",
+      "photo_query": "logo: UNICEF (Vikipedi (tr) sayfa logosu)",
+      "source": "Opportunities Circle",
+      "title": "UNICEF 2026 Ücretli Staj Programı",
+      "ts": "2026-11-03T17:50:06.331472+00:00"
+    }
+  ],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -109,6 +126,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "8bd808bd7c66": {
+      "apply_link_id": 1,
+      "apply_url": "https://tdk.gov.tr/icerik/duyurular/2027-yili-burs-duyurusu/",
+      "category": "burs",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-13",
+      "eligibility_evidence": "T.C. Kültür ve Turizm Bakanlığı Atatürk Kültür, Dil ve Tarih Yüksek Kurumu’nun 2027 Yılı Lisans ve Lisansüstü Burs Desteği için başvurular açılıyor.",
+      "fee_required": false,
+      "funding_tr": "Eğitim bursu",
+      "highlights_tr": [
+        "Lisans ve lisansüstü öğrencilerine yönelik",
+        "Yurt içi eğitim bursu desteği",
+        "Başvurular 13 Kasım 2026 saat 17.00'de sona eriyor"
+      ],
+      "id": "8bd808bd7c66",
+      "is_opportunity": true,
+      "message_id": 8,
+      "organization": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu",
+      "organization_domain": "ayk.gov.tr",
+      "queued_at": "2026-11-03T17:48:56.073946+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/ataturk-kultur-dil-ve-tarih-yuksek-kurumu-2027-yili-lisans-ve-lisansustu-burs-destegi/",
+      "summary_tr": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu bünyesindeki merkezler tarafından 2027 yılı için verilecek yurt içi lisans ve lisansüstü eğitim burs başvuruları başladı.",
+      "title_tr": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu 2027 Burs Desteği",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectionError); tarayıcıda kontrol et.",
+      "visual_kind": "institution"
     },
     "d05a06e143d4": {
       "apply_link_id": 2,
@@ -830,32 +875,6 @@
       "source_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
       "summary_tr": "Adana'da görevlendirilmek üzere, üniversitelerin ilgili bölümlerinden mezun, satış tecrübesi olan ve SAP bilgisine sahip Satış Yöneticisi aranmaktadır.",
       "title_tr": "Satış Yöneticisi (Adana)",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 2,
-      "apply_url": "https://www.unicef.org/careers/internships",
-      "category": "staj",
-      "country_tr": "Çok ülkeli",
-      "deadline": "",
-      "eligibility_evidence": "Applicants must be International Undergraduate or Graduate students from any country to apply for UNICEF internship 2026 fully funded.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (staj ücreti, vize ve seyahat desteği)",
-      "highlights_tr": [
-        "Lisans, yüksek lisans ve doktora öğrencilerine açık",
-        "6-26 hafta arası staj süresi",
-        "İngilizce, İspanyolca veya Fransızca dillerinden biri şart"
-      ],
-      "id": "9e068ebdd446",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "UNICEF",
-      "queued_at": "2026-10-29T09:47:37.208442+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/unicef-internship-program/",
-      "summary_tr": "UNICEF, dünya genelindeki ofislerinde lisans, yüksek lisans ve doktora öğrencileri ile yeni mezunlar için ücretli staj imkanları sunmaktadır.",
-      "title_tr": "UNICEF 2026 Ücretli Staj Programı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -1984,6 +2003,150 @@
       "title_tr": "Dokuz Eylül Üniversitesi Sözleşmeli Personel Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55024_en",
+      "category": "gonulluluk",
+      "country_tr": "Yunanistan",
+      "deadline": "",
+      "eligibility_evidence": "Katılımcı ülkesi: Türkiye",
+      "fee_required": false,
+      "funding_tr": "ESC programı kapsamında konaklama, yemek ve ulaşım desteği",
+      "highlights_tr": [
+        "15 Kasım 2026 - 15 Ocak 2027 tarihleri arasında",
+        "Sosyal içerme ve çevre koruma odaklı gönüllülük",
+        "Atina'da 2 aylık ESC projesi"
+      ],
+      "id": "a640651a2bb3",
+      "image_queries": [
+        "Athens Greece city",
+        "Greece youth volunteers",
+        "volunteers working outdoors"
+      ],
+      "is_opportunity": true,
+      "organization": "KEAN",
+      "organization_domain": "",
+      "queued_at": "2026-11-03T17:48:35.590485+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/yunanistan-kisa-donem-erasmus-projesi/",
+      "summary_tr": "Yunanistan'ın Atina şehrinde KEAN bünyesinde gerçekleşecek 2 aylık Avrupa Dayanışma Programı (ESC) kapsamında sosyal içerme ve çevre koruma alanlarında gönüllülük fırsatı.",
+      "title_tr": "Atina'da Kısa Dönem ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55080_en",
+      "category": "gonulluluk",
+      "country_tr": "Almanya",
+      "deadline": "2028-01-14",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek, cep harçlığı ve ulaşım desteği",
+      "highlights_tr": [
+        "52 hafta süreli gönüllülük projesi",
+        "Konaklama, yemek ve cep harçlığı karşılanır",
+        "Almanca dil kursu desteği sağlanır"
+      ],
+      "id": "ab2e390d8fda",
+      "image_queries": [
+        "Osnabrück Germany city",
+        "Germany youth center",
+        "volunteers working with youth"
+      ],
+      "is_opportunity": true,
+      "organization": "Heinz-Fitschen-Haus",
+      "organization_domain": "",
+      "queued_at": "2026-11-03T17:49:26.285184+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/almanya-osnabruck-uzun-donem-erasmus-programi/",
+      "summary_tr": "Almanya'nın Osnabrück kentindeki Heinz-Fitschen-Haus merkezinde, çocuk ve gençlerle sosyal faaliyetler yürütmek üzere 52 haftalık ESC gönüllülük projesi.",
+      "title_tr": "Almanya Osnabrück'te Uzun Dönem ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.ertegun.ox.ac.uk/scholarships",
+      "category": "burs",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "2027-01-01",
+      "eligibility_evidence": "Students from all countries and backgrounds are eligible to apply for the Ertegun Scholarship.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti ve yaşam masrafları)",
+      "highlights_tr": [
+        "Beşeri bilimler alanında yüksek lisans ve doktora",
+        "Tam öğrenim ücreti ve yıllık yaşam desteği",
+        "Oxford Üniversitesi'nde araştırma imkanı"
+      ],
+      "id": "093f17f46a64",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "University of Oxford",
+      "organization_domain": "ox.ac.uk",
+      "queued_at": "2026-11-03T17:49:35.116775+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/oxford-ertegun-scholarship-program/",
+      "summary_tr": "Oxford Üniversitesi'nde beşeri bilimler alanında yüksek lisans veya doktora yapmak isteyen uluslararası öğrenciler için sunulan, öğrenim ücretini ve yaşam masraflarını karşılayan prestijli bir burs programıdır.",
+      "title_tr": "Oxford Ertegun Lisansüstü Burs Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.tev.org.tr/burs/tr/29/fransa-buyukelciligi-fransa-burslari",
+      "category": "burs",
+      "country_tr": "Fransa",
+      "deadline": "2027-02-08",
+      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
+      "fee_required": false,
+      "funding_tr": "Aylık 900 Euro burs ve kısmi kayıt ücreti desteği",
+      "highlights_tr": [
+        "35 yaş altı T.C. vatandaşları başvurabilir",
+        "Aylık 900 Euro burs desteği",
+        "İngilizce veya Fransızca dil yeterliliği şartı"
+      ],
+      "id": "49bd515fd3d4",
+      "is_opportunity": true,
+      "organization": "Türk Eğitim Vakfı",
+      "organization_domain": "tev.org.tr",
+      "queued_at": "2026-11-03T17:49:45.572572+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tev-fransa-buyukelciligi-fransa-burslari-basvurulari-basliyor/",
+      "summary_tr": "TEV ve Fransa Büyükelçiliği iş birliğiyle, Fransa'da yüksek lisans eğitimi alacak başarılı öğrencilere yönelik 22 aya kadar burs desteği sağlanmaktadır.",
+      "title_tr": "TEV-Fransa Büyükelçiliği Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.dbs.nus.edu.sg/outreach/amgen-scholars-program/",
+      "category": "staj",
+      "country_tr": "Singapur",
+      "deadline": "2027-02-01",
+      "eligibility_evidence": "Western Asia: Armenia; Azerbaijan; Bahrain; Cyprus; Georgia; Iraq; Israel; Jordan; Kuwait; Lebanon; Oman; Qatar; Saudi Arabia; State of Palestine; Syrian Arab Republic; Türkiye; United Arab Emirates; Yemen.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (konaklama, ulaşım ve harçlık dahil)",
+      "highlights_tr": [
+        "8 haftalık tam burslu staj",
+        "6.000 SGD tutarında staj ücreti",
+        "Ulaşım, konaklama ve vize masrafları karşılanır"
+      ],
+      "id": "fd4a76690f14",
+      "is_opportunity": true,
+      "organization": "National University of Singapore",
+      "organization_domain": "nus.edu.sg",
+      "queued_at": "2026-11-03T17:49:55.714685+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/nus-amgen-scholars-program-2027/",
+      "summary_tr": "Singapur'daki National University of Singapore'da 8 haftalık tam burslu yaz stajı programı. Katılımcılar biyolojik bilimler alanında araştırma projelerinde yer alacak ve Japonya'daki sempozyuma katılacaklardır.",
+      "title_tr": "NUS Amgen Scholars Program 2027 - Singapur",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -2004,6 +2167,12 @@
       "status": "queued",
       "title": "Sefine SKY Uzun Dönem Staj Programı",
       "ts": "2026-10-29T18:26:45.407317+00:00"
+    },
+    "093f17f46a64": {
+      "reason": "",
+      "status": "queued",
+      "title": "Oxford Ertegun Lisansüstü Burs Programı 2027",
+      "ts": "2026-11-03T17:49:35.116796+00:00"
     },
     "0ae1f90d4e4d": {
       "reason": "şirket/KOBİ hibesi, gençlere yönelik değil",
@@ -2125,6 +2294,12 @@
       "title": "Elektrik ve Elektronik Mühendisi Uzun Dönem Stajyeri",
       "ts": "2026-10-30T00:49:04.951735+00:00"
     },
+    "2deef25a05dc": {
+      "reason": "Türkiye'ye kapalı: Candidates should be enrolled full-time in a degree-granting program at a US based college or university located in the ",
+      "status": "rejected",
+      "title": "MIT Summer Research Program 2027 in USA | Fully Funded",
+      "ts": "2026-11-03T17:48:41.970855+00:00"
+    },
     "2ff19304ace3": {
       "reason": "",
       "status": "queued",
@@ -2148,6 +2323,12 @@
       "status": "rejected",
       "title": "Sosyal Duygusal Öğrenme Uzmanlık Programı Farkındalık Eğitimi",
       "ts": "2026-10-29T23:04:17.957151+00:00"
+    },
+    "3adaf9d79437": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Finnish Dinner Date 2027 in Finland (Fully Funded Trip)",
+      "ts": "2026-11-03T17:48:25.269737+00:00"
     },
     "3ba044acba21": {
       "reason": "",
@@ -2203,6 +2384,12 @@
       "title": "Boehringer Ingelheim İnsan Kaynakları Stajyeri",
       "ts": "2026-10-30T17:58:24.737730+00:00"
     },
+    "49bd515fd3d4": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEV-Fransa Büyükelçiliği Yüksek Lisans Bursu",
+      "ts": "2026-11-03T17:49:45.572591+00:00"
+    },
     "4db405661b62": {
       "reason": "",
       "status": "queued",
@@ -2220,6 +2407,12 @@
       "status": "queued",
       "title": "Erasmus PlantHealth3 Yüksek Lisans Bursu 2027/29",
       "ts": "2026-10-31T19:13:52.642434+00:00"
+    },
+    "578e6d05a3d0": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Fransa Büyükelçiliği FSMP Yüksek Lisans Bursu Başvurularınızı Bekliyor",
+      "ts": "2026-11-03T17:50:04.889232+00:00"
     },
     "597559930cd7": {
       "reason": "",
@@ -2347,6 +2540,12 @@
       "title": "Galatasaray Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
       "ts": "2026-10-30T20:56:22.581083+00:00"
     },
+    "8bd808bd7c66": {
+      "reason": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectionError); tarayıcıda kontrol et.",
+      "status": "pending",
+      "title": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu 2027 Yılı Lisans ve Lisansüstü Burs Desteği",
+      "ts": "2026-11-03T17:48:56.073964+00:00"
+    },
     "8cc51e5ccb3b": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -2370,6 +2569,12 @@
       "status": "queued",
       "title": "İstanbul Kalkınma Ajansı 5 Uzman Personel Alımı",
       "ts": "2026-10-30T09:53:48.278133+00:00"
+    },
+    "984b86faeb90": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Purdue University Summer Fellowship 2027 in USA (Fully Funded)",
+      "ts": "2026-11-03T17:49:03.106022+00:00"
     },
     "99a520eb1bf3": {
       "reason": "",
@@ -2419,6 +2624,12 @@
       "title": "İŞKUR Sözleşmeli Bilişim Personeli Alımı",
       "ts": "2026-10-30T20:55:36.464448+00:00"
     },
+    "a640651a2bb3": {
+      "reason": "",
+      "status": "queued",
+      "title": "Atina'da Kısa Dönem ESC Gönüllülük Projesi",
+      "ts": "2026-11-03T17:48:35.590506+00:00"
+    },
     "a65b5a8253e4": {
       "reason": "",
       "status": "queued",
@@ -2442,6 +2653,12 @@
       "status": "queued",
       "title": "DAAD Heilbronn Yapay Zeka Araştırma Bursu",
       "ts": "2026-10-29T18:25:56.658592+00:00"
+    },
+    "ab2e390d8fda": {
+      "reason": "",
+      "status": "queued",
+      "title": "Almanya Osnabrück'te Uzun Dönem ESC Gönüllülük Projesi",
+      "ts": "2026-11-03T17:49:26.285205+00:00"
     },
     "ae80b0962a3f": {
       "reason": "",
@@ -2623,6 +2840,12 @@
       "title": "Henkel Step Up Inclusive Uzun Dönemli Staj Programı",
       "ts": "2026-10-30T17:59:09.660357+00:00"
     },
+    "fd4a76690f14": {
+      "reason": "",
+      "status": "queued",
+      "title": "NUS Amgen Scholars Program 2027 - Singapur",
+      "ts": "2026-11-03T17:49:55.714703+00:00"
+    },
     "ff6568bdf019": {
       "reason": "Türkiye'ye kapalı: Applicants must be nationals of one of the 44 Least Developed Countries listed by the programme.",
       "status": "rejected",
@@ -2715,6 +2938,12 @@
     "cactus 2027 yaz stajı almanya",
     "di ti b 2026 2027 eğitim öğretim dönemi öğrenim yardımı",
     "british american tobacco türkiye üretim stajı",
-    "dokuz eylül üniversitesi sözleşmeli personel alımı"
+    "dokuz eylül üniversitesi sözleşmeli personel alımı",
+    "atina'da kısa dönem esc gönüllülük projesi",
+    "atatürk kültür dil ve tarih yüksek kurumu 2027 burs desteği",
+    "almanya osnabrück'te uzun dönem esc gönüllülük projesi",
+    "oxford ertegun lisansüstü burs programı 2027",
+    "tev fransa büyükelçiliği yüksek lisans bursu",
+    "nus amgen scholars program 2027 singapur"
   ]
 }
