@@ -76,9 +76,22 @@
     "mundusjournalism.com/admissions/application-process",
     "rotary-ikm.web.app/basvur/mentee",
     "projects.tuebingen.mpg.de/apply",
-    "burs.e-ditib.org"
+    "burs.e-ditib.org",
+    "careers.bat.com/en/why-bat",
+    "kariyerkapisi.gov.tr/IlanDetay?i=51fd7921-cfbe-482f-8e2f-b8a569a605d0"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
+      "attempts": 0,
+      "caption": "İspanya, Alicante: Erasmus+ Gençlik Değişimi\n\nİspanya'nın Alicante kentinde 13-21 Aralık 2026 tarihleri arasında düzenlenecek olan, demokrasi ve gençlik katılımı odaklı Erasmus+ gençlik değişimi programı.\n\n- 18-30 yaş arası gençlere açık\n- 13-21 Aralık 2026 tarihleri arasında\n- Tüm temel masraflar Erasmus+ tarafından karşılanır\n\nSon başvuru: 6 Kasım 2026\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform\nTüm fırsatlar: https://diploport.dev/#5107c2437858\n\nGörsel: Fred Kloet / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "5107c2437858",
+      "photo_query": "classroom workshop students",
+      "source": "Erasmusgram",
+      "title": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
+      "ts": "2026-11-03T09:29:32.332976+00:00"
+    }
+  ],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -168,33 +181,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 2,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
-      "category": "egitim",
-      "country_tr": "İspanya",
-      "deadline": "2026-11-06",
-      "eligibility_evidence": "Katılımcı ülkeler: İtalya, İspanya, Almanya, Türkiye, Estonya ve Kuzey Makedonya",
-      "fee_required": false,
-      "funding_tr": "Seyahat, konaklama ve yemek masrafları karşılanır",
-      "highlights_tr": [
-        "18-30 yaş arası gençlere açık",
-        "13-21 Aralık 2026 tarihleri arasında",
-        "Tüm temel masraflar Erasmus+ tarafından karşılanır"
-      ],
-      "id": "5107c2437858",
-      "is_opportunity": true,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-10-31T19:13:59.179478+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/ispanya-alicante-8-gun-erasmus-genclik-degisimi/",
-      "summary_tr": "İspanya'nın Alicante kentinde 13-21 Aralık 2026 tarihleri arasında düzenlenecek olan, demokrasi ve gençlik katılımı odaklı Erasmus+ gençlik değişimi programı.",
-      "title_tr": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
     {
       "apply_url": "https://www.youthall.com/tr/aygazdakariyer/kurumsal-iletisim-ic-tasarim-destek-uzun-donem-stajyer_73/",
       "category": "staj",
@@ -1949,6 +1935,59 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://careers.bat.com/en/why-bat",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "British American Tobacco Türkiye has an exciting opportunity for an Internship in Operations in Samsun.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Mühendislik öğrencileri için",
+        "Haftada en az 3 gün çalışma",
+        "Samsun lokasyonunda"
+      ],
+      "id": "440932cc6804",
+      "is_opportunity": true,
+      "organization": "British American Tobacco",
+      "organization_domain": "bat.com",
+      "queued_at": "2026-11-03T09:28:42.767981+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/batturkeycareers/production-intern_173/",
+      "summary_tr": "British American Tobacco Türkiye, Samsun lokasyonunda görevlendirilmek üzere mühendislik bölümlerinde 3. sınıfı tamamlamış öğrencilere yönelik üretim stajı programı sunuyor.",
+      "title_tr": "British American Tobacco Türkiye Üretim Stajı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=51fd7921-cfbe-482f-8e2f-b8a569a605d0",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel pozisyonu"
+      ],
+      "icon": "landmark",
+      "id": "657bed6f5141",
+      "is_opportunity": true,
+      "organization": "DOKUZ EYLÜL ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+      "organization_domain": "deu.edu.tr",
+      "queued_at": "2026-11-03T09:29:23.373353+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=51fd7921-cfbe-482f-8e2f-b8a569a605d0",
+      "summary_tr": "Dokuz Eylül Üniversitesi Rektörlüğü tarafından yayımlanan sözleşmeli personel alım ilanıdır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile yapılmaktadır.",
+      "title_tr": "Dokuz Eylül Üniversitesi Sözleşmeli Personel Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -2060,6 +2099,12 @@
       "title": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
       "ts": "2026-10-28T20:13:25.846638+00:00"
     },
+    "2a43048e6795": {
+      "reason": "Türkiye'ye kapalı: Candidates must be legally authorized to work in the country where the position is based.",
+      "status": "rejected",
+      "title": "Gates Foundation AI Fellows Program 2027",
+      "ts": "2026-11-03T09:28:26.017236+00:00"
+    },
     "2b1ede9e6f61": {
       "reason": "",
       "status": "queued",
@@ -2138,6 +2183,12 @@
       "title": "İspanya’da Erasmus+ Eğitim Kursu Fırsatı",
       "ts": "2026-10-30T17:58:17.323026+00:00"
     },
+    "440932cc6804": {
+      "reason": "",
+      "status": "queued",
+      "title": "British American Tobacco Türkiye Üretim Stajı",
+      "ts": "2026-11-03T09:28:42.767993+00:00"
+    },
     "460fe6a3dd9f": {
       "reason": "",
       "status": "queued",
@@ -2204,6 +2255,12 @@
       "title": "Etstur - Pricing Data Entry Assistant Specialist",
       "ts": "2026-10-30T20:55:21.418000+00:00"
     },
+    "657bed6f5141": {
+      "reason": "",
+      "status": "queued",
+      "title": "Dokuz Eylül Üniversitesi Sözleşmeli Personel Alımı",
+      "ts": "2026-11-03T09:29:23.373372+00:00"
+    },
     "65cebc911b56": {
       "reason": "Türkiye'ye kapalı: Applicants must hold citizenship in an African country.",
       "status": "rejected",
@@ -2221,6 +2278,12 @@
       "status": "queued",
       "title": "Pioneers In Progress Uzun Dönem Pazarlama Stajı",
       "ts": "2026-10-30T09:54:01.733364+00:00"
+    },
+    "68a2f9b7fca4": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Global Graduate in Operations",
+      "ts": "2026-11-03T09:29:30.188310+00:00"
     },
     "690b61a17c08": {
       "reason": "",
@@ -2654,6 +2717,8 @@
     "erasmus mundus gazetecilik yüksek lisans bursu 2027 2029",
     "kültürel miras genç liderler mentörlük programı",
     "cactus 2027 yaz stajı almanya",
-    "di ti b 2026 2027 eğitim öğretim dönemi öğrenim yardımı"
+    "di ti b 2026 2027 eğitim öğretim dönemi öğrenim yardımı",
+    "british american tobacco türkiye üretim stajı",
+    "dokuz eylül üniversitesi sözleşmeli personel alımı"
   ]
 }

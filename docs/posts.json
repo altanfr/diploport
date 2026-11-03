@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScTY1V3vyNvwXFxYwZJCNHJFXRiBMkQpmvqkS4cjpmeY3XQbQ/viewform",
+    "category": "egitim",
+    "country_tr": "İspanya",
+    "deadline": "2026-11-06",
+    "fee_required": false,
+    "funding_tr": "Seyahat, konaklama ve yemek masrafları karşılanır",
+    "highlights_tr": [
+      "18-30 yaş arası gençlere açık",
+      "13-21 Aralık 2026 tarihleri arasında",
+      "Tüm temel masraflar Erasmus+ tarafından karşılanır"
+    ],
+    "id": "5107c2437858",
+    "image": "images/5107c2437858.jpg",
+    "organization": "",
+    "published_at": "2026-11-03T09:29:32.290671+00:00",
+    "summary_tr": "İspanya'nın Alicante kentinde 13-21 Aralık 2026 tarihleri arasında düzenlenecek olan, demokrasi ve gençlik katılımı odaklı Erasmus+ gençlik değişimi programı.",
+    "thumb": "images/t/5107c2437858.jpg",
+    "title_tr": "İspanya, Alicante: Erasmus+ Gençlik Değişimi"
+  },
+  {
     "apply_url": "https://genclikcalismalari.org/ilan/esc-1626-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/",
     "category": "gonulluluk",
     "country_tr": "Almanya",
