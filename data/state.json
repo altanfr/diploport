@@ -86,18 +86,7 @@
     "tev.org.tr/burs/tr/29/fransa-buyukelciligi-fransa-burslari",
     "dbs.nus.edu.sg/outreach/amgen-scholars-program"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.unicef.org/careers/internships",
-      "attempts": 0,
-      "caption": "UNICEF 2026 Ücretli Staj Programı\n\nUNICEF, dünya genelindeki ofislerinde lisans, yüksek lisans ve doktora öğrencileri ile yeni mezunlar için ücretli staj imkanları sunmaktadır.\n\n- Lisans, yüksek lisans ve doktora öğrencilerine açık\n- 6-26 hafta arası staj süresi\n- İngilizce, İspanyolca veya Fransızca dillerinden biri şart\n\nBaşvuru: https://www.unicef.org/careers/internships\nTüm fırsatlar: https://diploport.dev/#9e068ebdd446\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
-      "id": "9e068ebdd446",
-      "photo_query": "logo: UNICEF (Vikipedi (tr) sayfa logosu)",
-      "source": "Opportunities Circle",
-      "title": "UNICEF 2026 Ücretli Staj Programı",
-      "ts": "2026-11-03T17:50:06.331472+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -219,6 +208,13 @@
       "photo_query": "classroom workshop students",
       "source": "Erasmusgram",
       "ts": "2026-11-03T09:30:20.967611+00:00"
+    },
+    {
+      "id": "9e068ebdd446",
+      "official": "https://www.unicef.org/careers/internships",
+      "photo_query": "logo: UNICEF (Vikipedi (tr) sayfa logosu)",
+      "source": "Opportunities Circle",
+      "ts": "2026-11-03T17:50:45.283449+00:00"
     }
   ],
   "queue": [
@@ -2584,9 +2580,9 @@
     },
     "9e068ebdd446": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "UNICEF 2026 Ücretli Staj Programı",
-      "ts": "2026-10-29T09:47:37.208460+00:00"
+      "ts": "2026-11-03T17:50:45.283464+00:00"
     },
     "9ed7989e5167": {
       "reason": "Türkiye'ye kapalı: The international scholarship is open to students from 25 developing countries, including Africa, Asia, and Latin Americ",
