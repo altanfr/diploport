@@ -84,7 +84,8 @@
     "youth.europa.eu/solidarity/opportunity/55080_en",
     "ertegun.ox.ac.uk/scholarships",
     "tev.org.tr/burs/tr/29/fransa-buyukelciligi-fransa-burslari",
-    "dbs.nus.edu.sg/outreach/amgen-scholars-program"
+    "dbs.nus.edu.sg/outreach/amgen-scholars-program",
+    "airtable.com/appZDMolWcd5LKQrF/pagNRmRNSfnea9G6n/form"
   ],
   "outbox": [],
   "pending": {
@@ -2143,6 +2144,33 @@
       "title_tr": "NUS Amgen Scholars Program 2027 - Singapur",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://airtable.com/appZDMolWcd5LKQrF/pagNRmRNSfnea9G6n/form",
+      "category": "diger",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-16",
+      "eligibility_evidence": "Nurol Holding ve Türkiye Girişimcilik Vakfı iş birliğiyle hayata geçirilen Terra Future Labs’in yeni dönem başvuruları devam ediyor!",
+      "fee_required": false,
+      "funding_tr": "Mentorluk, iş geliştirme ve yatırım hazırlığı desteği",
+      "highlights_tr": [
+        "8 aylık girişimcilik destek programı",
+        "Tarım ve gıda teknolojilerine odaklanıyor",
+        "Kadın hissedar veya yönetici şartı bulunuyor"
+      ],
+      "id": "6b6f56694b5f",
+      "is_opportunity": true,
+      "organization": "Terra Future Labs",
+      "organization_domain": "",
+      "queued_at": "2026-11-03T23:16:18.398237+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/terra-future-labs-basvurulari-devam-ediyor/",
+      "summary_tr": "Tarım, gıda ve döngüsel üretim teknolojileri alanında çözüm geliştiren, MVP aşamasını tamamlamış girişimlere yönelik 8 aylık destek programı.",
+      "title_tr": "Terra Future Labs Girişimcilik Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -2211,6 +2239,12 @@
       "status": "rejected",
       "title": "Orman Genel Müdürlüğü Müfettiş Yardımcısı Alımı Duyurusu",
       "ts": "2026-10-30T00:48:44.059536+00:00"
+    },
+    "1e5ec320b681": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Political Leadership Excellence Program (PLEP) 2027 Başvuruları Açıldı",
+      "ts": "2026-11-03T23:16:26.602749+00:00"
     },
     "1ed92e8e9a6e": {
       "reason": "Türkiye'ye kapalı: Not eligible if completing a bachelor’s degree at institutions outside the U.S., or if they are exchange students.",
@@ -2476,6 +2510,12 @@
       "title": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
       "ts": "2026-10-28T20:14:03.218401+00:00"
     },
+    "6b6f56694b5f": {
+      "reason": "",
+      "status": "queued",
+      "title": "Terra Future Labs Girişimcilik Programı",
+      "ts": "2026-11-03T23:16:18.398257+00:00"
+    },
     "6fa619234ecc": {
       "reason": "",
       "status": "queued",
@@ -2722,6 +2762,12 @@
       "title": "Tarım ve Orman Bakanlığı Sözleşmeli Bilişim Personeli Alımı",
       "ts": "2026-10-30T22:13:37.516275+00:00"
     },
+    "ce58ab356365": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Türk Dil Kurumu – TDK Burs Duyurusu",
+      "ts": "2026-11-03T23:16:11.123345+00:00"
+    },
     "d05a06e143d4": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "pending",
@@ -2940,6 +2986,7 @@
     "almanya osnabrück'te uzun dönem esc gönüllülük projesi",
     "oxford ertegun lisansüstü burs programı 2027",
     "tev fransa büyükelçiliği yüksek lisans bursu",
-    "nus amgen scholars program 2027 singapur"
+    "nus amgen scholars program 2027 singapur",
+    "terra future labs girişimcilik programı"
   ]
 }
