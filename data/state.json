@@ -93,7 +93,14 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
     "ayfnhq.org/event/scholarship-opportunity-winter-korean-culture-camp-2027-by-ayfn-academy",
     "doka.org.tr/announcement-detail.php?id=1221",
-    "kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0"
+    "kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0",
+    "ceps.eu/ceps-news/call-for-applications-climate-leadership-programme",
+    "docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform",
+    "sites.google.com/view/asiiprogram/apply-for-asii-2022?authuser=0",
+    "tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
+    "docs.google.com/forms/d/e/1FAIpQLSeKGawXddYaiMUJ_LZ2QCX_95RBGQHzAfZ1X4w5XF4mce8vDg/viewform",
+    "program.izmirkisafilm.org",
+    "genclikcalismalari.org/ilan/esc-1632-almanya-gonulluluk-faaliyeti-katilimci-cagrisi"
   ],
   "outbox": [],
   "pending": {
@@ -240,6 +247,34 @@
       "title_tr": "Dublin City University Ücretsiz Online Kurslar",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "ddb447c307ab": {
+      "apply_link_id": 1,
+      "apply_url": "https://sites.google.com/view/asiiprogram/apply-for-asii-2022?authuser=0",
+      "category": "staj",
+      "country_tr": "ABD",
+      "deadline": "2027-02-26",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "Doktora öğrencileri için",
+        "12 hafta süreli tam zamanlı staj",
+        "R, Python ve SQL yetkinliği gereklidir"
+      ],
+      "id": "ddb447c307ab",
+      "is_opportunity": true,
+      "message_id": 11,
+      "organization": "Google",
+      "organization_domain": "google.com",
+      "queued_at": "2026-11-04T21:52:15.348248+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/google-people-analytics-internship/",
+      "summary_tr": "Google'ın ABD ofislerinde 12 hafta sürecek, doktora öğrencilerine yönelik veri analizi ve örgütsel psikoloji odaklı tam zamanlı ücretli staj programıdır.",
+      "title_tr": "Google People Analytics Staj Programı 2027",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metinde Türkiye vatandaşlarının başvurabileceğine dair açık bir ifade bulunmamaktadır; sadece ABD'de bulunma şartı belirtilmiştir.",
       "visual_kind": "institution"
     }
   },
@@ -2381,6 +2416,181 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.ceps.eu/ceps-news/call-for-applications-climate-leadership-programme/",
+      "category": "egitim",
+      "country_tr": "Belçika",
+      "deadline": "2026-11-10",
+      "eligibility_evidence": "Applications are open to candidates worldwide.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (yol, vize ve konaklama karşılanır)",
+      "highlights_tr": [
+        "20-30 yaş arası gençler için",
+        "Tam burslu (yol, vize ve konaklama dahil)",
+        "Aralık 2026 - Mart 2027 arası program"
+      ],
+      "id": "c47d8d3864f4",
+      "image_queries": [
+        "Brussels European Parliament",
+        "Belgium city architecture",
+        "young people climate activism"
+      ],
+      "is_opportunity": true,
+      "organization": "Centre for European Policy Studies",
+      "organization_domain": "ceps.eu",
+      "queued_at": "2026-11-04T21:51:14.053142+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/ceps-climate-leadership-program-2027-in-belgium-fully-funded/",
+      "summary_tr": "CEPS ve Heinrich-Böll-Stiftung tarafından düzenlenen bu program, iklim politikalarıyla ilgilenen gençlere Brüksel'de eğitim ve ağ kurma fırsatı sunuyor.",
+      "title_tr": "CEPS İklim Liderliği Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform",
+      "category": "egitim",
+      "country_tr": "Kuzey Makedonya",
+      "deadline": "",
+      "eligibility_evidence": "Kuzey Makedonya’nın Gostivar şehrinde gerçekleştirilecek Erasmus+ gençlik değişimi projesi için Türkiye’den katılımcı başvuruları alınmaktadır.",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek ve seyahat masrafları karşılanır",
+      "highlights_tr": [
+        "18-29 yaş arası gençler başvurabilir",
+        "Konaklama, yemek ve ulaşım masrafları karşılanır",
+        "7 günlük uluslararası gençlik değişimi"
+      ],
+      "id": "33515330ea08",
+      "image_queries": [
+        "Gostivar North Macedonia",
+        "North Macedonia youth exchange",
+        "international youth project"
+      ],
+      "is_opportunity": true,
+      "organization": "Sosyal Atlas Gençlik Derneği",
+      "organization_domain": "",
+      "queued_at": "2026-11-04T21:51:20.815387+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/k-makedonya-gostivar-7-gun-erasmus-genclik-degisimi/",
+      "summary_tr": "Kuzey Makedonya'nın Gostivar şehrinde 1-7 Şubat 2027 tarihleri arasında düzenlenecek, kültür ve kent yaşamı temalı Erasmus+ gençlik değişimi projesi için Türkiye'den katılımcılar aranıyor.",
+      "title_tr": "Kuzey Makedonya'da Erasmus+ Gençlik Değişimi",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
+      "category": "burs",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-16",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Burs desteği",
+      "highlights_tr": [
+        "Lisans öğrencileri ve öğretmenlere açık",
+        "Araştırma projelerinde görev alma imkanı",
+        "Son başvuru tarihi 16 Kasım 2026"
+      ],
+      "id": "61c45a1ae54b",
+      "is_opportunity": true,
+      "organization": "TÜBİTAK",
+      "organization_domain": "tubitak.gov.tr",
+      "queued_at": "2026-11-04T21:52:24.384449+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tubitak-2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-basvurularinizi-bekliyor/",
+      "summary_tr": "TÜBİTAK tarafından yürütülen STAR programı kapsamında, lisans öğrencileri ve öğretmenler araştırma projelerinde görev almak üzere bursiyer olarak başvuruda bulunabilirler.",
+      "title_tr": "TÜBİTAK 2247-C STAR Lisans ve Öğretmen Burs Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeKGawXddYaiMUJ_LZ2QCX_95RBGQHzAfZ1X4w5XF4mce8vDg/viewform",
+      "category": "burs",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-13",
+      "eligibility_evidence": "Derneğin üniversite burs programına Türkiye genelindeki üniversitelerde öğrenim gören öğrenciler başvuru yapabilmektedir.",
+      "fee_required": false,
+      "funding_tr": "Geri ödemesiz burs",
+      "highlights_tr": [
+        "Bölüm ve sınıf kısıtlaması yok",
+        "Yaş şartı aranmıyor",
+        "Yılda 12 ay ödeme"
+      ],
+      "id": "2bc696a32358",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "Güneşin Çocuklarını Üşütmeyelim Derneği",
+      "organization_domain": "gcudernegi.org.tr",
+      "queued_at": "2026-11-04T21:54:33.947190+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/gcu-dernegi-universite-burs-duyurusu/",
+      "summary_tr": "Güneşin Çocuklarını Üşütmeyelim Derneği, Türkiye'deki üniversitelerde öğrenim gören öğrencilere karşılıksız burs desteği sağlamaktadır.",
+      "title_tr": "Güneşin Çocuklarını Üşütmeyelim Derneği Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://program.izmirkisafilm.org/",
+      "category": "yarisma",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "İzmir Sinema Kültür ve Eğitim Derneği tarafından düzenlenen festival, farklı ülkelerden yönetmenlerin ve kısa film üreticilerinin çalışmalarını İzmir’de bir araya getiriyor.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz katılım",
+      "highlights_tr": [
+        "Ulusal ve uluslararası film yarışmaları",
+        "Genç sinemacılar için mentorluk ve atölyeler",
+        "Tüm film gösterimleri ücretsiz"
+      ],
+      "id": "3b25ca31b3cb",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "İzmir Sinema Kültür ve Eğitim Derneği",
+      "organization_domain": "izmirkisafilm.org",
+      "queued_at": "2026-11-04T21:54:40.704282+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/27-izmir-uluslararasi-kisa-film-festivali-basladi/",
+      "summary_tr": "İzmir'de düzenlenen 27. Uluslararası Kısa Film Festivali, film gösterimleri, yarışmalar ve genç sinemacılara yönelik İzmir Film Lab etkinlikleri ile sinemaseverleri bir araya getiriyor.",
+      "title_tr": "27. İzmir Uluslararası Kısa Film Festivali",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://genclikcalismalari.org/ilan/esc-1632-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/",
+      "category": "gonulluluk",
+      "country_tr": "Almanya",
+      "deadline": "2026-11-10",
+      "eligibility_evidence": "Projeye, Türkiye Cumhuriyeti vatandaşı olan 18-30 yaş arası (bu yaşlar dahil) herkes başvurabilir",
+      "fee_required": false,
+      "funding_tr": "ESC kapsamında konaklama, yemek ve yol desteği",
+      "highlights_tr": [
+        "18-30 yaş arası başvuru imkanı",
+        "Saarbrücken, Almanya'da gönüllülük",
+        "10 ay süreli ESC projesi"
+      ],
+      "id": "9cd5e42b6401",
+      "image_queries": [
+        "Saarbrücken Germany city",
+        "Germany youth volunteering",
+        "volunteers working together"
+      ],
+      "is_opportunity": true,
+      "organization": "Pi Gençlik Derneği",
+      "organization_domain": "pigenc.org",
+      "queued_at": "2026-11-04T21:55:12.562417+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/almanyada-esc-gonulluluk-projesi-firsati-4/",
+      "summary_tr": "Almanya'nın Saarbrücken şehrinde 01.12.2026 – 01.10.2027 tarihleri arasında gerçekleşecek ESC gönüllülük projesi için 18-30 yaş arası katılımcılar aranmaktadır.",
+      "title_tr": "Almanya'da ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -2407,6 +2617,12 @@
       "status": "queued",
       "title": "Oxford Ertegun Lisansüstü Burs Programı 2027",
       "ts": "2026-11-03T17:49:35.116796+00:00"
+    },
+    "0a8ba774fa41": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Summer Internship 2027: Finance & Accounting",
+      "ts": "2026-11-04T21:54:27.573489+00:00"
     },
     "0ae1f90d4e4d": {
       "reason": "şirket/KOBİ hibesi, gençlere yönelik değil",
@@ -2528,6 +2744,12 @@
       "title": "ETH Zurich Yaz Araştırma Bursu 2027",
       "ts": "2026-11-02T18:24:34.175840+00:00"
     },
+    "2bc696a32358": {
+      "reason": "",
+      "status": "queued",
+      "title": "Güneşin Çocuklarını Üşütmeyelim Derneği Bursu",
+      "ts": "2026-11-04T21:54:33.947203+00:00"
+    },
     "2c49f34b9c7b": {
       "reason": "",
       "status": "queued",
@@ -2552,6 +2774,12 @@
       "title": "AbbVie Uzun Dönem Staj Programı",
       "ts": "2026-11-02T10:55:11.485349+00:00"
     },
+    "33515330ea08": {
+      "reason": "",
+      "status": "queued",
+      "title": "Kuzey Makedonya'da Erasmus+ Gençlik Değişimi",
+      "ts": "2026-11-04T21:51:20.815399+00:00"
+    },
     "34a97395a09a": {
       "reason": "",
       "status": "queued",
@@ -2575,6 +2803,12 @@
       "status": "rejected",
       "title": "Finnish Dinner Date 2027 in Finland (Fully Funded Trip)",
       "ts": "2026-11-03T17:48:25.269737+00:00"
+    },
+    "3b25ca31b3cb": {
+      "reason": "",
+      "status": "queued",
+      "title": "27. İzmir Uluslararası Kısa Film Festivali",
+      "ts": "2026-11-04T21:54:40.704296+00:00"
     },
     "3ba044acba21": {
       "reason": "",
@@ -2696,6 +2930,12 @@
       "title": "Marc de Montalembert 2027 Araştırma Ödülü",
       "ts": "2026-11-02T18:23:58.027985+00:00"
     },
+    "61c45a1ae54b": {
+      "reason": "",
+      "status": "queued",
+      "title": "TÜBİTAK 2247-C STAR Lisans ve Öğretmen Burs Programı",
+      "ts": "2026-11-04T21:52:24.384461+00:00"
+    },
     "61f030b0b9d4": {
       "reason": "",
       "status": "queued",
@@ -2810,6 +3050,18 @@
       "title": "Kültür ve Turizm Bakanlığı 162 Sözleşmeli Kütüphaneci Alımı",
       "ts": "2026-11-02T18:24:24.144964+00:00"
     },
+    "8765d0866515": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "New Graduates 2027: Finance Manager",
+      "ts": "2026-11-04T21:54:47.641432+00:00"
+    },
+    "87bcf262b071": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Summer Internship 2027: Information Technology",
+      "ts": "2026-11-04T21:55:46.098561+00:00"
+    },
     "883ec17a80da": {
       "reason": "",
       "status": "queued",
@@ -2863,6 +3115,12 @@
       "status": "queued",
       "title": "Jandarma ve Sahil Güvenlik Akademisi Devlet Memuru Alımı",
       "ts": "2026-11-02T10:55:43.891228+00:00"
+    },
+    "9cd5e42b6401": {
+      "reason": "",
+      "status": "queued",
+      "title": "Almanya'da ESC Gönüllülük Projesi",
+      "ts": "2026-11-04T21:55:12.562433+00:00"
     },
     "9e068ebdd446": {
       "reason": "",
@@ -3014,6 +3272,12 @@
       "title": "Doğu Karadeniz Kalkınma Ajansı (DOKA) Uzman Alımı",
       "ts": "2026-11-04T15:26:34.365860+00:00"
     },
+    "c47d8d3864f4": {
+      "reason": "",
+      "status": "queued",
+      "title": "CEPS İklim Liderliği Programı 2027",
+      "ts": "2026-11-04T21:51:14.053155+00:00"
+    },
     "c4e86cb18736": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -3073,6 +3337,12 @@
       "status": "queued",
       "title": "Oyak Renault 4 Seasons Proje Stajyerliği",
       "ts": "2026-10-30T00:47:50.699722+00:00"
+    },
+    "ddb447c307ab": {
+      "reason": "Metinde Türkiye vatandaşlarının başvurabileceğine dair açık bir ifade bulunmamaktadır; sadece ABD'de bulunma şartı belirtilmiştir.",
+      "status": "pending",
+      "title": "Google People Analytics Internship 2027 in USA | Paid",
+      "ts": "2026-11-04T21:52:15.348267+00:00"
     },
     "dde79a3b0121": {
       "reason": "",
@@ -3271,6 +3541,13 @@
     "karabağlar belediyesi çevre mühendisi alımı",
     "ayfn kış kore kültür kampı 2027 tam burslu",
     "doğu karadeniz kalkınma ajansı doka uzman alımı",
-    "nükleer düzenleme kurumu sözleşmeli bilişim personeli giriş sınavı"
+    "nükleer düzenleme kurumu sözleşmeli bilişim personeli giriş sınavı",
+    "ceps i klim liderliği programı 2027",
+    "kuzey makedonya'da erasmus gençlik değişimi",
+    "google people analytics staj programı 2027",
+    "tübi tak 2247 c star lisans ve öğretmen burs programı",
+    "güneşin çocuklarını üşütmeyelim derneği bursu",
+    "27 i zmir uluslararası kısa film festivali",
+    "almanya'da esc gönüllülük projesi"
   ]
 }
