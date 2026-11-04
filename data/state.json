@@ -95,18 +95,7 @@
     "doka.org.tr/announcement-detail.php?id=1221",
     "kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships",
-      "attempts": 0,
-      "caption": "UNHCR 2027 Staj Programı\n\nUNHCR, dünya genelinde lisans/yüksek lisans öğrencileri ve yeni mezunlar için 2-6 ay süreli, yol ve yaşam masraflarını karşılayan staj programı sunuyor.\n\n- Dünya genelinden tüm öğrencilere açık\n- 2-6 ay arası staj süresi\n- Dil sınavı şartı aranmıyor\n\nBaşvuru: https://www.unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships\nTüm fırsatlar: https://diploport.dev/#ae80b0962a3f\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
-      "id": "ae80b0962a3f",
-      "photo_query": "logo: UNHCR (Wikidata logosu)",
-      "source": "Opportunities Corners",
-      "title": "UNHCR 2027 Staj Programı",
-      "ts": "2026-11-04T15:26:52.752400+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -303,6 +292,13 @@
       "photo_query": "logo: www.akcansa.com.tr (web sitesi (www.akcansa.com.tr))",
       "source": "Youthall",
       "ts": "2026-11-04T06:09:39.272565+00:00"
+    },
+    {
+      "id": "ae80b0962a3f",
+      "official": "https://www.unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships",
+      "photo_query": "logo: UNHCR (Wikidata logosu)",
+      "source": "Opportunities Corners",
+      "ts": "2026-11-04T15:27:56.392294+00:00"
     }
   ],
   "queue": [
@@ -2960,9 +2956,9 @@
     },
     "ae80b0962a3f": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "UNHCR 2027 Staj Programı",
-      "ts": "2026-10-29T09:48:02.723634+00:00"
+      "ts": "2026-11-04T15:27:56.392317+00:00"
     },
     "aff80a67b189": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
