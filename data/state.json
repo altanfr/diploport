@@ -85,9 +85,21 @@
     "ertegun.ox.ac.uk/scholarships",
     "tev.org.tr/burs/tr/29/fransa-buyukelciligi-fransa-burslari",
     "dbs.nus.edu.sg/outreach/amgen-scholars-program",
-    "airtable.com/appZDMolWcd5LKQrF/pagNRmRNSfnea9G6n/form"
+    "airtable.com/appZDMolWcd5LKQrF/pagNRmRNSfnea9G6n/form",
+    "kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
+      "attempts": 0,
+      "caption": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya\n\nTekirdağ veya Çorlu'daki hazır beton tesislerinde görev alacak, 4. sınıf veya yüksek lisans öğrencileri ile yeni mezunlar için uzun dönem staj fırsatı.\n\n- Tekirdağ veya Çorlu lokasyonunda çalışma\n- Haftada 5 gün tam zamanlı staj\n- İyi derecede İngilizce yeterliliği\n\nBaşvuru: https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/\nTüm fırsatlar: https://diploport.dev/#690b61a17c08\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "690b61a17c08",
+      "photo_query": "logo: www.akcansa.com.tr (web sitesi (www.akcansa.com.tr))",
+      "source": "Youthall",
+      "title": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
+      "ts": "2026-11-04T06:08:34.830982+00:00"
+    }
+  ],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -794,31 +806,6 @@
       "title_tr": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Ücretli staj",
-      "highlights_tr": [
-        "Tekirdağ veya Çorlu lokasyonunda çalışma",
-        "Haftada 5 gün tam zamanlı staj",
-        "İyi derecede İngilizce yeterliliği"
-      ],
-      "id": "690b61a17c08",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Akçansa",
-      "queued_at": "2026-10-28T20:14:03.218386+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
-      "summary_tr": "Tekirdağ veya Çorlu'daki hazır beton tesislerinde görev alacak, 4. sınıf veya yüksek lisans öğrencileri ile yeni mezunlar için uzun dönem staj fırsatı.",
-      "title_tr": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
     },
     {
       "apply_link_id": 1,
@@ -2171,6 +2158,33 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "178db66dd187",
+      "is_opportunity": true,
+      "organization": "ZAFER KALKINMA AJANSI",
+      "organization_domain": "zafer.gov.tr",
+      "queued_at": "2026-11-04T06:08:28.518422+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0",
+      "summary_tr": "Zafer Kalkınma Ajansı tarafından sözleşmeli uzman personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilecektir.",
+      "title_tr": "Zafer Kalkınma Ajansı Uzman Personel Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -2227,6 +2241,12 @@
       "status": "rejected",
       "title": "Fund for Innovation in Development (FID) Open Call for Proposals 2026: Development Grants for Innovative Solutions in 12",
       "ts": "2026-10-30T09:53:19.421516+00:00"
+    },
+    "178db66dd187": {
+      "reason": "",
+      "status": "queued",
+      "title": "Zafer Kalkınma Ajansı Uzman Personel Alımı",
+      "ts": "2026-11-04T06:08:28.518442+00:00"
     },
     "1a09fc4eeebd": {
       "reason": "",
@@ -2987,6 +3007,7 @@
     "oxford ertegun lisansüstü burs programı 2027",
     "tev fransa büyükelçiliği yüksek lisans bursu",
     "nus amgen scholars program 2027 singapur",
-    "terra future labs girişimcilik programı"
+    "terra future labs girişimcilik programı",
+    "zafer kalkınma ajansı uzman personel alımı"
   ]
 }
