@@ -88,18 +88,7 @@
     "airtable.com/appZDMolWcd5LKQrF/pagNRmRNSfnea9G6n/form",
     "kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
-      "attempts": 0,
-      "caption": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya\n\nTekirdağ veya Çorlu'daki hazır beton tesislerinde görev alacak, 4. sınıf veya yüksek lisans öğrencileri ile yeni mezunlar için uzun dönem staj fırsatı.\n\n- Tekirdağ veya Çorlu lokasyonunda çalışma\n- Haftada 5 gün tam zamanlı staj\n- İyi derecede İngilizce yeterliliği\n\nBaşvuru: https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/\nTüm fırsatlar: https://diploport.dev/#690b61a17c08\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
-      "id": "690b61a17c08",
-      "photo_query": "logo: www.akcansa.com.tr (web sitesi (www.akcansa.com.tr))",
-      "source": "Youthall",
-      "title": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
-      "ts": "2026-11-04T06:08:34.830982+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -228,6 +217,13 @@
       "photo_query": "logo: UNICEF (Vikipedi (tr) sayfa logosu)",
       "source": "Opportunities Circle",
       "ts": "2026-11-03T17:50:45.283449+00:00"
+    },
+    {
+      "id": "690b61a17c08",
+      "official": "https://www.youthall.com/tr/Akcansa/ready-mix-concrete-long-term-intern-thrace_58/",
+      "photo_query": "logo: www.akcansa.com.tr (web sitesi (www.akcansa.com.tr))",
+      "source": "Youthall",
+      "ts": "2026-11-04T06:09:39.272565+00:00"
     }
   ],
   "queue": [
@@ -2526,9 +2522,9 @@
     },
     "690b61a17c08": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
-      "ts": "2026-10-28T20:14:03.218401+00:00"
+      "ts": "2026-11-04T06:09:39.272586+00:00"
     },
     "6b6f56694b5f": {
       "reason": "",
