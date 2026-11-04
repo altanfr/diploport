@@ -86,9 +86,27 @@
     "tev.org.tr/burs/tr/29/fransa-buyukelciligi-fransa-burslari",
     "dbs.nus.edu.sg/outreach/amgen-scholars-program",
     "airtable.com/appZDMolWcd5LKQrF/pagNRmRNSfnea9G6n/form",
-    "kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0"
+    "kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0",
+    "newgenerationleaderssubmit.bwcngo.org",
+    "berlinschoolofeconomics.de/phd-program",
+    "pgcareers.com/global/en/hiring-process",
+    "kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
+    "ayfnhq.org/event/scholarship-opportunity-winter-korean-culture-camp-2027-by-ayfn-academy",
+    "doka.org.tr/announcement-detail.php?id=1221",
+    "kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships",
+      "attempts": 0,
+      "caption": "UNHCR 2027 Staj Programı\n\nUNHCR, dünya genelinde lisans/yüksek lisans öğrencileri ve yeni mezunlar için 2-6 ay süreli, yol ve yaşam masraflarını karşılayan staj programı sunuyor.\n\n- Dünya genelinden tüm öğrencilere açık\n- 2-6 ay arası staj süresi\n- Dil sınavı şartı aranmıyor\n\nBaşvuru: https://www.unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships\nTüm fırsatlar: https://diploport.dev/#ae80b0962a3f\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "ae80b0962a3f",
+      "photo_query": "logo: UNHCR (Wikidata logosu)",
+      "source": "Opportunities Corners",
+      "title": "UNHCR 2027 Staj Programı",
+      "ts": "2026-11-04T15:26:52.752400+00:00"
+    }
+  ],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -145,6 +163,67 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectionError); tarayıcıda kontrol et.",
       "visual_kind": "institution"
+    },
+    "a73d6d0605e3": {
+      "apply_link_id": 1,
+      "apply_url": "https://berlinschoolofeconomics.de/phd-program",
+      "category": "burs",
+      "country_tr": "Almanya",
+      "deadline": "2027-01-15",
+      "eligibility_evidence": "The Berlin School of Economics PhD Program is an excellent opportunity for international students who want to pursue doctoral studies in Economics, Accounting, Finance, or Management.",
+      "fee_required": true,
+      "funding_tr": "Kısmi burslu (aylık 1.650€ stipend ve çalışma imkanı)",
+      "highlights_tr": [
+        "Aylık 1.650€ stipend desteği",
+        "Ekonomi, finans ve yönetim alanları",
+        "Öğrenim ücreti yok (sadece dönemlik harç)"
+      ],
+      "id": "a73d6d0605e3",
+      "image_queries": [
+        "Berlin university campus",
+        "Germany university students",
+        "students studying library"
+      ],
+      "is_opportunity": true,
+      "message_id": 10,
+      "organization": "Berlin School of Economics",
+      "organization_domain": "berlinschoolofeconomics.de",
+      "queued_at": "2026-11-04T15:24:51.488228+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/berlin-school-of-economics-phd-program/",
+      "summary_tr": "Berlin School of Economics, ekonomi, muhasebe, finans ve yönetim alanlarında doktora yapmak isteyen uluslararası öğrenciler için 2027 yılı doktora programı başvurularını kabul ediyor.",
+      "title_tr": "Berlin School of Economics Doktora Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
+      "visual_kind": "scene"
+    },
+    "b6fbd91a219a": {
+      "apply_link_id": 1,
+      "apply_url": "https://newgenerationleaderssubmit.bwcngo.org/",
+      "category": "egitim",
+      "country_tr": "Tayland",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Applicants from all countries are eligible.",
+      "fee_required": true,
+      "funding_tr": "Tam burs (uçak bileti, konaklama, yemek ve vize ücreti)",
+      "highlights_tr": [
+        "18-40 yaş arası başvuruya açık",
+        "Tam burs imkanı mevcut",
+        "3 günlük uluslararası liderlik zirvesi"
+      ],
+      "id": "b6fbd91a219a",
+      "is_opportunity": true,
+      "message_id": 9,
+      "organization": "Better World Charity",
+      "organization_domain": "bwcngo.org",
+      "queued_at": "2026-11-04T15:23:54.795872+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/new-generation-leaders-summit-2027-in-thailand/",
+      "summary_tr": "Bangkok'ta düzenlenecek olan New Generation Leaders Summit 2027, dünya genelinden genç liderleri sürdürülebilir kalkınma ve küresel sorunları tartışmak üzere bir araya getiriyor.",
+      "title_tr": "New Generation Leaders Summit 2027 - Tayland",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Katılım ücreti var.",
+      "visual_kind": "scene"
     },
     "d05a06e143d4": {
       "apply_link_id": 2,
@@ -856,33 +935,6 @@
       "summary_tr": "Adana'da görevlendirilmek üzere, üniversitelerin ilgili bölümlerinden mezun, satış tecrübesi olan ve SAP bilgisine sahip Satış Yöneticisi aranmaktadır.",
       "title_tr": "Satış Yöneticisi (Adana)",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships",
-      "category": "staj",
-      "country_tr": "Çok ülkeli",
-      "deadline": "",
-      "eligibility_evidence": "Applicants from all countries can apply.",
-      "fee_required": false,
-      "funding_tr": "Yol masrafları ve aylık kısmi burs",
-      "highlights_tr": [
-        "Dünya genelinden tüm öğrencilere açık",
-        "2-6 ay arası staj süresi",
-        "Dil sınavı şartı aranmıyor"
-      ],
-      "id": "ae80b0962a3f",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "UNHCR",
-      "queued_at": "2026-10-29T09:48:02.723616+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/unhcr-internship-program-2027/",
-      "summary_tr": "UNHCR, dünya genelinde lisans/yüksek lisans öğrencileri ve yeni mezunlar için 2-6 ay süreli, yol ve yaşam masraflarını karşılayan staj programı sunuyor.",
-      "title_tr": "UNHCR 2027 Staj Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
       "visual_kind": "institution"
     },
     {
@@ -2181,6 +2233,158 @@
       "title_tr": "Zafer Kalkınma Ajansı Uzman Personel Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.pgcareers.com/global/en/hiring-process",
+      "category": "is",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "We put our mark on brands you know, sold in hundreds of countries around the world.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "2027 mezunları veya yeni mezunlar",
+        "Mükemmel yazılı ve sözlü İngilizce",
+        "Liderlik ve analitik düşünme becerileri"
+      ],
+      "id": "d993ef285a9d",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "Procter & Gamble",
+      "organization_domain": "pgcareers.com",
+      "queued_at": "2026-11-04T15:25:55.310134+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/pgcareersturkey/new-graduates-2027-human-resources-manager_111/",
+      "summary_tr": "Procter & Gamble, 2027'de mezun olacak veya yeni mezun olmuş, iyi derecede İngilizce bilen, analitik düşünme ve liderlik becerilerine sahip adaylar için İnsan Kaynakları Yöneticisi pozisyonu açıyor. İşe alım süreci başvuru, online değerlendirmeler ve mülakatlardan oluşuyor.",
+      "title_tr": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Sözleşmeli personel alımı",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Türkiye Cumhuriyeti vatandaşı olmak"
+      ],
+      "icon": "landmark",
+      "id": "8a8db25c2bbc",
+      "image_queries": [
+        "Karabağlar municipality building",
+        "Turkey city hall",
+        "government building"
+      ],
+      "is_opportunity": true,
+      "organization": "KARABAĞLAR BELEDİYE BAŞKANLIĞI",
+      "organization_domain": "karabaglar.bel.tr",
+      "queued_at": "2026-11-04T15:26:10.092178+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
+      "summary_tr": "Karabağlar Belediye Başkanlığı, 2 adet Çevre Mühendisi alımı yapacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişiyle yapılacaktır.",
+      "title_tr": "Karabağlar Belediyesi Çevre Mühendisi Alımı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://ayfnhq.org/event/scholarship-opportunity-winter-korean-culture-camp-2027-by-ayfn-academy/",
+      "category": "egitim",
+      "country_tr": "Güney Kore",
+      "deadline": "2026-11-10",
+      "eligibility_evidence": "Open to all nationalities.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (seyahat, konaklama, yemek, aktiviteler dahil)",
+      "highlights_tr": [
+        "Tüm uluslara açık",
+        "17-40 yaş arası",
+        "Tam burslu"
+      ],
+      "id": "61f030b0b9d4",
+      "image_queries": [
+        "Seoul South Korea winter",
+        "South Korea culture",
+        "winter cultural exchange"
+      ],
+      "is_opportunity": true,
+      "organization": "ASEAN Youth Friendship Network (AYFN)",
+      "organization_domain": "ayfnhq.org",
+      "queued_at": "2026-11-04T15:26:17.221381+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/korean-winter-culture-camp-2027/",
+      "summary_tr": "ASEAN Gençlik Dostluk Ağı (AYFN) tarafından Seul, Güney Kore'de düzenlenen, Kore kültürünü deneyimlemek isteyen 17-40 yaş arası uluslararası gençlere yönelik tam burslu bir haftalık kültürel kamp.",
+      "title_tr": "AYFN Kış Kore Kültür Kampı 2027 (Tam Burslu)",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://doka.org.tr/announcement-detail.php?id=1221",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-06",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "1 Uzman personel alımı",
+        "Başvuru: 23.11.2026-06.12.2026",
+        "Görev yeri Trabzon veya Rize"
+      ],
+      "id": "c159003011e5",
+      "is_opportunity": true,
+      "organization": "Doğu Karadeniz Kalkınma Ajansı",
+      "organization_domain": "doka.org.tr",
+      "queued_at": "2026-11-04T15:26:34.365841+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/dogu-karadeniz-kalkinma-ajansi-doka-personel-alimi-duyurusu/",
+      "summary_tr": "Doğu Karadeniz Kalkınma Ajansı (DOKA), Artvin, Giresun, Gümüşhane, Ordu, Rize ve Trabzon illerinin kalkınmasına hizmet edecek 1 Uzman personel alımı yapacaktır. Başvurular 23 Kasım - 6 Aralık 2026 tarihleri arasındadır.",
+      "title_tr": "Doğu Karadeniz Kalkınma Ajansı (DOKA) Uzman Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına yönelik",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sınavla personel alımı"
+      ],
+      "icon": "landmark",
+      "id": "81ace53e56f6",
+      "image_queries": [
+        "nuclear regulation authority building",
+        "Turkey government building",
+        "government office interior"
+      ],
+      "is_opportunity": true,
+      "organization": "NÜKLEER DÜZENLEME KURUMU BAŞKANLIĞI",
+      "organization_domain": "ndim.gov.tr",
+      "queued_at": "2026-11-04T15:26:48.930825+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0",
+      "summary_tr": "Nükleer Düzenleme Kurumu Başkanlığı, sözleşmeli bilişim personeli alımı için giriş sınavı düzenleyecektir. Başvurular Kariyer Kapısı üzerinden e-Devlet girişiyle yapılacaktır.",
+      "title_tr": "Nükleer Düzenleme Kurumu: Sözleşmeli Bilişim Personeli Giriş Sınavı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -2394,6 +2598,12 @@
       "title": "UNHCR Internship Program 2027",
       "ts": "2026-10-29T18:29:30.618033+00:00"
     },
+    "3e41d917364f": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "NUS Amgen Scholars Program 2027 in Singapore and Japan",
+      "ts": "2026-11-04T15:26:26.864994+00:00"
+    },
     "3f549960b55b": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -2411,6 +2621,12 @@
       "status": "queued",
       "title": "British American Tobacco Türkiye Üretim Stajı",
       "ts": "2026-11-03T09:28:42.767993+00:00"
+    },
+    "455ec206e4ec": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Summer Internship 2027: Human Resources",
+      "ts": "2026-11-04T15:26:42.088840+00:00"
     },
     "460fe6a3dd9f": {
       "reason": "",
@@ -2483,6 +2699,12 @@
       "status": "queued",
       "title": "Marc de Montalembert 2027 Araştırma Ödülü",
       "ts": "2026-11-02T18:23:58.027985+00:00"
+    },
+    "61f030b0b9d4": {
+      "reason": "",
+      "status": "queued",
+      "title": "AYFN Kış Kore Kültür Kampı 2027 (Tam Burslu)",
+      "ts": "2026-11-04T15:26:17.221398+00:00"
     },
     "6227d3d4868a": {
       "reason": "",
@@ -2580,6 +2802,12 @@
       "title": "Ulusal Staj Programı 2027 Başvuruları",
       "ts": "2026-10-29T09:47:30.212091+00:00"
     },
+    "81ace53e56f6": {
+      "reason": "",
+      "status": "queued",
+      "title": "Nükleer Düzenleme Kurumu: Sözleşmeli Bilişim Personeli Giriş Sınavı",
+      "ts": "2026-11-04T15:26:48.930846+00:00"
+    },
     "856bbd4d4028": {
       "reason": "",
       "status": "queued",
@@ -2591,6 +2819,12 @@
       "status": "queued",
       "title": "Galatasaray Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
       "ts": "2026-10-30T20:56:22.581083+00:00"
+    },
+    "8a8db25c2bbc": {
+      "reason": "",
+      "status": "queued",
+      "title": "Karabağlar Belediyesi Çevre Mühendisi Alımı",
+      "ts": "2026-11-04T15:26:10.092197+00:00"
     },
     "8bd808bd7c66": {
       "reason": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectionError); tarayıcıda kontrol et.",
@@ -2676,6 +2910,12 @@
       "title": "İŞKUR Sözleşmeli Bilişim Personeli Alımı",
       "ts": "2026-10-30T20:55:36.464448+00:00"
     },
+    "a5e6c90e8530": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Zafer Kalkınma Ajansı Personel Alımı Yapacak",
+      "ts": "2026-11-04T15:25:48.143803+00:00"
+    },
     "a640651a2bb3": {
       "reason": "",
       "status": "queued",
@@ -2687,6 +2927,12 @@
       "status": "queued",
       "title": "UNITAR Saha Ziyaretleri ve Çevrimiçi Eğitim Programı 2027",
       "ts": "2026-10-30T09:52:34.261403+00:00"
+    },
+    "a73d6d0605e3": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
+      "status": "pending",
+      "title": "Berlin School of Economics PhD Program 2027 in Germany",
+      "ts": "2026-11-04T15:24:51.488250+00:00"
     },
     "a84f71057241": {
       "reason": "",
@@ -2742,6 +2988,12 @@
       "title": "Kurumsal İletişim ve İç Tasarım Uzun Dönem Stajyeri",
       "ts": "2026-10-30T20:55:50.664130+00:00"
     },
+    "b6fbd91a219a": {
+      "reason": "Katılım ücreti var.",
+      "status": "pending",
+      "title": "New Generation Leaders Summit 2027 in Thailand (Fully Funded)",
+      "ts": "2026-11-04T15:23:54.795894+00:00"
+    },
     "b8d9757ae6b2": {
       "reason": "",
       "status": "queued",
@@ -2759,6 +3011,12 @@
       "status": "rejected",
       "title": "YÜKSEKÖĞRETİM KURULU BAŞKANLIĞI (YÖK) - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI",
       "ts": "2026-11-02T10:55:27.737427+00:00"
+    },
+    "c159003011e5": {
+      "reason": "",
+      "status": "queued",
+      "title": "Doğu Karadeniz Kalkınma Ajansı (DOKA) Uzman Alımı",
+      "ts": "2026-11-04T15:26:34.365860+00:00"
     },
     "c4e86cb18736": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -2801,6 +3059,12 @@
       "status": "queued",
       "title": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-10-30T00:48:12.165513+00:00"
+    },
+    "d993ef285a9d": {
+      "reason": "",
+      "status": "queued",
+      "title": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım",
+      "ts": "2026-11-04T15:25:55.310154+00:00"
     },
     "dbc179fb2253": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -3004,6 +3268,13 @@
     "tev fransa büyükelçiliği yüksek lisans bursu",
     "nus amgen scholars program 2027 singapur",
     "terra future labs girişimcilik programı",
-    "zafer kalkınma ajansı uzman personel alımı"
+    "zafer kalkınma ajansı uzman personel alımı",
+    "new generation leaders summit 2027 tayland",
+    "berlin school of economics doktora programı 2027",
+    "procter gamble i nsan kaynakları yöneticisi i şe alım",
+    "karabağlar belediyesi çevre mühendisi alımı",
+    "ayfn kış kore kültür kampı 2027 tam burslu",
+    "doğu karadeniz kalkınma ajansı doka uzman alımı",
+    "nükleer düzenleme kurumu sözleşmeli bilişim personeli giriş sınavı"
   ]
 }
