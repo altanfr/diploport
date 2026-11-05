@@ -1,18 +1,19 @@
-# Son çalışma (2026-11-05 05:21 TR)
+# Son çalışma (2026-11-05 13:46 TR)
 
-Kuyruk: 84 · Onay bekleyen: 9 · Hazırlanan: -
-Bulunan yeni ilan: 24 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 10 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 1 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 13 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 24 kayıt
+Kuyruk: 85 · Onay bekleyen: 9 · Hazırlanan: a84f71057241
+Logosu bulunamadığı için bekleyen ilanlar (assets/org_logos/ altına logo eklenebilir): Asr-ı Saadet Derneği — Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu
+Bulunan yeni ilan: 13 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 2 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 9 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 25 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| kuyrukta | Opportunities For Youth | CRG Uluslararası Doktora Programı 2027 | kanıt: The CRG International PhD Programme is open to candidates of all nationalities who satisfy the academic, research and language requirements. · son tarih: 2026-11-22 · link: https://www.crg.eu/en/node/1414765 · görsel: kurum logosu aranacak (Centre for Genomic Regulation; stok foto yok) |
-| kuyrukta | AB İlan | ILA Talks Uluslararası Gönüllüler Yılı Ücretsiz Webinar Serisi | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: - · link: https://ilatalks.com/webinars · görsel: kurum logosu aranacak (ILA Talks; stok foto yok) |
-| elendi | Youthall | New Graduates 2027: Information Technology Manager | tekrar |
-| onayda | Opportunities For Youth | University of Vienna Hukuk Fakültesi Burs Programı 2027 | Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı. · son tarih: 2026-11-30 · link: https://juridicum.univie.ac.at/news-detailasnicht/ausschreibung-fellowship-programm-sommersemester-2027 |
-| elendi | Youthall | Summer Internship 2027: Manufacturing / Gebze Plant | tekrar |
-| elendi | Opportunities For Youth | GCB Bank Eaglet Management Trainee Programme 2026: Apply for a 24-Month Graduate | Türkiye'ye kapalı: The programme is intended to help participants understand the different functions of a modern banking institution while  |
-| elendi | Youthall | New Graduates 2027: Manufacturing Manager / Gebze Plant | tekrar |
-| onayda | Opportunities For Youth | University of Nebraska at Omaha'da Kamu Yönetimi Doktora Programı | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var. · son tarih: 2027-03-15 · link: https://www.unomaha.edu/admissions/apply/index.php · görsel: kurum logosu aranacak (University of Nebraska at Omaha; stok foto yok) |
-| elendi | Youthall | New Graduates 2027: Commercial Sales Manager | tekrar |
-| onayda | Opportunities For Youth | NYU Küresel Burs Programları 2027-2028 | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2027-01-15 · link: https://docket.law.nyu.edu/global/announcing-global-fellowships-for-the-2027-2028-academic-year/58119/ · görsel: kurum logosu aranacak (New York University School of Law; stok foto yok) |
+| elendi | Opportunities Circle | Max Planck MPIIB Summer Internship 2027 in Germany / Fully Funded | tekrar |
+| kuyrukta | AB İlan | TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: - · link: https://form.jotform.com/243093631988972 · görsel: kurum logosu aranacak (Toplum Gönüllüleri Vakfı; stok foto yok) |
+| elendi | Youthall | Summer Internship 2027: Sales | tekrar |
+| kuyrukta | Kariyer Kapısı | Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3 · görsel: kurum logosu aranacak (TÜRKİYE ŞEKER FABRİKALARI A.Ş. GENEL MÜDÜRLÜĞÜ; stok foto yok) |
+| elendi | AB İlan | Katılımcı Çağrısı: Almanya’da Uzun Dönem ESC Gönüllülük Projesi | tekrar |
+| elendi | Youthall | New Graduates 2027: Brand Manager | tekrar |
+| elendi | Youthall | Summer Internship 2027: Brand Management | tekrar |
+| elendi | Youthall | Summer Internship 2027: Analytics & Insights | tekrar |
+| elendi | Youthall | Summer Internship 2027: Supply Chain | tekrar |
+| elendi | Youthall | Summer Internship 2027: Purchases | tekrar |

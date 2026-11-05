@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://www.yinfo.org.tr/projeler/gaziantepte-genclik-degisimi",
+    "category": "egitim",
+    "country_tr": "Türkiye",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "Erasmus+ kapsamında karşılanır",
+    "highlights_tr": [
+      "18-30 yaş arası gençler katılabilir",
+      "21-27 Kasım 2026 tarihleri arasında",
+      "Beden farkındalığı ve stres yönetimi odaklı"
+    ],
+    "id": "a84f71057241",
+    "image": "images/a84f71057241.jpg",
+    "organization": "Erasmus+",
+    "published_at": "2026-11-05T10:47:34.566216+00:00",
+    "summary_tr": "Gaziantep'te düzenlenecek 7 günlük Erasmus+ gençlik değişimi, 18-30 yaş arası gençlere beden farkındalığı, stres yönetimi ve duygusal iyi oluş konularında eğitim ve kültürlerarası etkileşim imkanı sunuyor.",
+    "thumb": "images/t/a84f71057241.jpg",
+    "title_tr": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı"
+  },
+  {
     "apply_url": "https://www.unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships",
     "category": "staj",
     "country_tr": "Çok ülkeli",

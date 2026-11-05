@@ -105,9 +105,22 @@
     "ilatalks.com/webinars",
     "juridicum.univie.ac.at/news-detailasnicht/ausschreibung-fellowship-programm-sommersemester-2027",
     "unomaha.edu/admissions/apply/index.php",
-    "docket.law.nyu.edu/global/announcing-global-fellowships-for-the-2027-2028-academic-year/58119"
+    "docket.law.nyu.edu/global/announcing-global-fellowships-for-the-2027-2028-academic-year/58119",
+    "form.jotform.com/243093631988972",
+    "kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.yinfo.org.tr/projeler/gaziantepte-genclik-degisimi",
+      "attempts": 0,
+      "caption": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı\n\nGaziantep'te düzenlenecek 7 günlük Erasmus+ gençlik değişimi, 18-30 yaş arası gençlere beden farkındalığı, stres yönetimi ve duygusal iyi oluş konularında eğitim ve kültürlerarası etkileşim imkanı sunuyor.\n\n- 18-30 yaş arası gençler katılabilir\n- 21-27 Kasım 2026 tarihleri arasında\n- Beden farkındalığı ve stres yönetimi odaklı\n\nBaşvuru: https://www.yinfo.org.tr/projeler/gaziantepte-genclik-degisimi\nTüm fırsatlar: https://diploport.dev/#a84f71057241\n\nGörsel: Imad Alassiry / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "a84f71057241",
+      "photo_query": "Turkey youth workshop",
+      "source": "Erasmusgram",
+      "title": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı",
+      "ts": "2026-11-05T10:47:34.627349+00:00"
+    }
+  ],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -947,36 +960,6 @@
       "title_tr": "Caltech Yaz Araştırma Programı (SURF) 2027",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.yinfo.org.tr/projeler/gaziantepte-genclik-degisimi",
-      "category": "egitim",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Proje yeri: Gaziantep, Türkiye",
-      "fee_required": false,
-      "funding_tr": "Erasmus+ kapsamında karşılanır",
-      "highlights_tr": [
-        "18-30 yaş arası gençler katılabilir",
-        "21-27 Kasım 2026 tarihleri arasında",
-        "Beden farkındalığı ve stres yönetimi odaklı"
-      ],
-      "id": "a84f71057241",
-      "image_queries": [
-        "Gaziantep city center",
-        "Turkey youth workshop",
-        "diverse group students"
-      ],
-      "is_opportunity": true,
-      "organization": "Erasmus+",
-      "queued_at": "2026-10-28T20:12:37.311907+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/gaziantep-7-gun-genclik-degisimi/",
-      "summary_tr": "Gaziantep'te düzenlenecek 7 günlük Erasmus+ gençlik değişimi, 18-30 yaş arası gençlere beden farkındalığı, stres yönetimi ve duygusal iyi oluş konularında eğitim ve kültürlerarası etkileşim imkanı sunuyor.",
-      "title_tr": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 2,
@@ -1856,6 +1839,7 @@
       "summary_tr": "Asr-ı Saadet Derneği, maddi desteğe ihtiyaç duyan ön lisans, lisans ve lisansüstü öğrencilerine 7 ay süreli burs desteği sağlayacaktır.",
       "title_tr": "Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu",
       "turkey_eligible": "yes",
+      "visual_alerted": true,
       "visual_kind": "institution"
     },
     {
@@ -2738,6 +2722,61 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://form.jotform.com/243093631988972",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "15-35 yaş arası tüm gençlere açık",
+        "İstanbul'da yüz yüze ücretsiz atölyeler",
+        "Katılım belgeli etkinlikler"
+      ],
+      "id": "043d92636a09",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "Toplum Gönüllüleri Vakfı",
+      "organization_domain": "tog.org.tr",
+      "queued_at": "2026-11-05T10:46:28.613395+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tog-x-starbucks-ortak-alanda-kasim-ayi-etkinliklerine-davetlisiniz/",
+      "summary_tr": "Toplum Gönüllüleri Vakfı ve Starbucks iş birliğiyle İstanbul Ümraniye'de düzenlenen, 15-35 yaş arası gençlere yönelik ücretsiz kişisel gelişim ve hobi atölyeleri.",
+      "title_tr": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Sözleşmeli personel statüsü",
+        "Mühendis ve tekniker pozisyonları",
+        "Kariyer Kapısı üzerinden başvuru"
+      ],
+      "icon": "landmark",
+      "id": "536a82b273b9",
+      "is_opportunity": true,
+      "organization": "TÜRKİYE ŞEKER FABRİKALARI A.Ş. GENEL MÜDÜRLÜĞÜ",
+      "organization_domain": "turkseker.gov.tr",
+      "queued_at": "2026-11-05T10:46:50.381071+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3",
+      "summary_tr": "Türkiye Şeker Fabrikaları A.Ş. taşra teşkilatında istihdam edilmek üzere sözleşmeli mühendis ve tekniker alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilecektir.",
+      "title_tr": "Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -2746,6 +2785,12 @@
       "status": "queued",
       "title": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
       "ts": "2026-11-01T19:31:00.453680+00:00"
+    },
+    "043d92636a09": {
+      "reason": "",
+      "status": "queued",
+      "title": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri",
+      "ts": "2026-11-05T10:46:28.613415+00:00"
     },
     "04ebc83cc50c": {
       "reason": "",
@@ -2879,6 +2924,12 @@
       "title": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
       "ts": "2026-10-28T20:13:25.846638+00:00"
     },
+    "28e95850d472": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Summer Internship 2027: Analytics & Insights",
+      "ts": "2026-11-05T10:47:17.180867+00:00"
+    },
     "2a43048e6795": {
       "reason": "Türkiye'ye kapalı: Candidates must be legally authorized to work in the country where the position is based.",
       "status": "rejected",
@@ -2956,6 +3007,12 @@
       "status": "pending",
       "title": "University of Vienna Faculty of Law Fellowship 2027: Research Fellowships in Austria with Monthly Funding of Up to €1,05",
       "ts": "2026-11-05T02:24:50.756603+00:00"
+    },
+    "3940e7140baf": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "New Graduates 2027: Brand Manager",
+      "ts": "2026-11-05T10:47:04.167445+00:00"
     },
     "3983e03f5c2b": {
       "reason": "ücretli program reklamı",
@@ -3059,6 +3116,12 @@
       "title": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
       "ts": "2026-11-03T09:30:20.967628+00:00"
     },
+    "536a82b273b9": {
+      "reason": "",
+      "status": "queued",
+      "title": "Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı",
+      "ts": "2026-11-05T10:46:50.381092+00:00"
+    },
     "56a1b38aff04": {
       "reason": "",
       "status": "queued",
@@ -3082,6 +3145,12 @@
       "status": "published",
       "title": "Bilkom Digital Leader Genç Yetenek Programı",
       "ts": "2026-11-02T18:25:11.672417+00:00"
+    },
+    "5db6d1139356": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Summer Internship 2027: Sales",
+      "ts": "2026-11-05T10:46:35.281773+00:00"
     },
     "5ee0d91f06c3": {
       "reason": "",
@@ -3184,6 +3253,18 @@
       "status": "queued",
       "title": "CaCTuS 2027 Yaz Stajı - Almanya",
       "ts": "2026-11-02T20:04:33.430487+00:00"
+    },
+    "74208b18be4b": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Summer Internship 2027: Supply Chain",
+      "ts": "2026-11-05T10:47:23.820229+00:00"
+    },
+    "754797dd13a2": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Summer Internship 2027: Brand Management",
+      "ts": "2026-11-05T10:47:10.577336+00:00"
     },
     "777402a5a29b": {
       "reason": "",
@@ -3461,6 +3542,12 @@
       "title": "YÜKSEKÖĞRETİM KURULU BAŞKANLIĞI (YÖK) - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI",
       "ts": "2026-11-02T10:55:27.737427+00:00"
     },
+    "be8c3aac8640": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Katılımcı Çağrısı: Almanya’da Uzun Dönem ESC Gönüllülük Projesi",
+      "ts": "2026-11-05T10:46:57.802247+00:00"
+    },
     "bf1d24059375": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "status": "pending",
@@ -3515,6 +3602,12 @@
       "title": "Dublin City University Online Courses",
       "ts": "2026-11-01T13:11:22.032041+00:00"
     },
+    "d133f69a3c88": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Max Planck MPIIB Summer Internship 2027 in Germany | Fully Funded",
+      "ts": "2026-11-05T10:46:22.187057+00:00"
+    },
     "d31682b3c6e6": {
       "reason": "",
       "status": "published",
@@ -3526,6 +3619,12 @@
       "status": "queued",
       "title": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-10-30T00:48:12.165513+00:00"
+    },
+    "d7bb1e4791ab": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Summer Internship 2027: Purchases",
+      "ts": "2026-11-05T10:47:30.413733+00:00"
     },
     "d993ef285a9d": {
       "reason": "",
@@ -3760,6 +3859,8 @@
     "ila talks uluslararası gönüllüler yılı ücretsiz webinar serisi",
     "university of vienna hukuk fakültesi burs programı 2027",
     "university of nebraska at omaha'da kamu yönetimi doktora programı",
-    "nyu küresel burs programları 2027 2028"
+    "nyu küresel burs programları 2027 2028",
+    "tog x starbucks ortak alan kasım ayı atölyeleri",
+    "türkiye şeker fabrikaları a ş sözleşmeli mühendis ve tekniker alımı"
   ]
 }
