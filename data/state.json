@@ -116,7 +116,7 @@
   "outbox": [
     {
       "apply_url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183",
-      "attempts": 0,
+      "attempts": 1,
       "caption": "DAAD Heilbronn Yapay Zeka Araştırma Bursu\n\nAlmanya'daki Bildungscampus Heilbronn'da yapay zeka alanında araştırma yapmak isteyen doktora öğrencileri ve doktora sonrası araştırmacılar için tam kapsamlı burs programı.\n\n- Aylık 2.800€ burs desteği\n- 1-12 ay arası araştırma süresi\n- Doktora öğrencileri ve doktora sonrası araştırmacılar için\n\nBaşvuru: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183\nTüm fırsatlar: https://diploport.dev/#ab17b962f612\n\nGörsel: Felix Janßen / Unsplash\n\n#diploport #fırsat #türkgençler #burs #yurtdışıburs #üniversiteöğrencisi",
       "id": "ab17b962f612",
       "photo_query": "Heilbronn Bildungscampus architecture",
