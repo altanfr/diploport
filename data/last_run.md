@@ -1,18 +1,18 @@
-# Son çalışma (2026-11-05 00:50 TR)
+# Son çalışma (2026-11-05 05:21 TR)
 
-Kuyruk: 82 · Onay bekleyen: 6 · Hazırlanan: -
+Kuyruk: 84 · Onay bekleyen: 9 · Hazırlanan: -
 Bulunan yeni ilan: 24 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
-Kaynaklar: Opportunities Corners: 1 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 2 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 4 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 16 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 24 kayıt
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 10 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 1 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 13 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 24 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| kuyrukta | Opportunities Corners | CEPS İklim Liderliği Programı 2027 | kanıt: Applications are open to candidates worldwide. · son tarih: 2026-11-10 · link: https://www.ceps.eu/ceps-news/call-for-applications-climate-leadership-programme/ · foto: Brussels European Parliament / Belgium city architecture / young people climate activism |
-| kuyrukta | Erasmusgram | Kuzey Makedonya'da Erasmus+ Gençlik Değişimi | kanıt: Kuzey Makedonya’nın Gostivar şehrinde gerçekleştirilecek Erasmus+ gençlik değişimi projesi için Türkiye’den katılımcı başvuruları alınmaktadır. · son tarih: - · link: https://docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform · foto: Gostivar North Macedonia / North Macedonia youth exchange / international youth project |
-| onayda | Opportunities Circle | Google People Analytics Staj Programı 2027 | Metinde Türkiye vatandaşlarının başvurabileceğine dair açık bir ifade bulunmamaktadır; sadece ABD'de bulunma şartı belirtilmiştir. · son tarih: 2027-02-26 · link: https://sites.google.com/view/asiiprogram/apply-for-asii-2022?authuser=0 · görsel: kurum logosu aranacak (Google; stok foto yok) |
-| kuyrukta | AB İlan | TÜBİTAK 2247-C STAR Lisans ve Öğretmen Burs Programı | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2026-11-16 · link: https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi · görsel: kurum logosu aranacak (TÜBİTAK; stok foto yok) |
-| elendi | Youthall | Summer Internship 2027: Finance & Accounting | tekrar |
-| kuyrukta | Erasmusgram | Güneşin Çocuklarını Üşütmeyelim Derneği Bursu | kanıt: Derneğin üniversite burs programına Türkiye genelindeki üniversitelerde öğrenim gören öğrenciler başvuru yapabilmektedir. · son tarih: 2026-11-13 · link: https://docs.google.com/forms/d/e/1FAIpQLSeKGawXddYaiMUJ_LZ2QCX_95RBGQHzAfZ1X4w5XF4mce8vDg/viewform · görsel: kurum logosu aranacak (Güneşin Çocuklarını Üşütmeyelim Derneği; stok foto yok) |
-| kuyrukta | AB İlan | 27. İzmir Uluslararası Kısa Film Festivali | kanıt: İzmir Sinema Kültür ve Eğitim Derneği tarafından düzenlenen festival, farklı ülkelerden yönetmenlerin ve kısa film üreticilerinin çalışmalarını İzmir’de bir araya getiriy · son tarih: - · link: https://program.izmirkisafilm.org/ · görsel: kurum logosu aranacak (İzmir Sinema Kültür ve Eğitim Derneği; stok foto yok) |
-| elendi | Youthall | New Graduates 2027: Finance Manager | tekrar |
-| kuyrukta | AB İlan | Almanya'da ESC Gönüllülük Projesi | kanıt: Projeye, Türkiye Cumhuriyeti vatandaşı olan 18-30 yaş arası (bu yaşlar dahil) herkes başvurabilir · son tarih: 2026-11-10 · link: https://genclikcalismalari.org/ilan/esc-1632-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/ · foto: Saarbrücken Germany city / Germany youth volunteering / volunteers working together |
-| elendi | Youthall | Summer Internship 2027: Information Technology | tekrar |
+| kuyrukta | Opportunities For Youth | CRG Uluslararası Doktora Programı 2027 | kanıt: The CRG International PhD Programme is open to candidates of all nationalities who satisfy the academic, research and language requirements. · son tarih: 2026-11-22 · link: https://www.crg.eu/en/node/1414765 · görsel: kurum logosu aranacak (Centre for Genomic Regulation; stok foto yok) |
+| kuyrukta | AB İlan | ILA Talks Uluslararası Gönüllüler Yılı Ücretsiz Webinar Serisi | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: - · link: https://ilatalks.com/webinars · görsel: kurum logosu aranacak (ILA Talks; stok foto yok) |
+| elendi | Youthall | New Graduates 2027: Information Technology Manager | tekrar |
+| onayda | Opportunities For Youth | University of Vienna Hukuk Fakültesi Burs Programı 2027 | Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı. · son tarih: 2026-11-30 · link: https://juridicum.univie.ac.at/news-detailasnicht/ausschreibung-fellowship-programm-sommersemester-2027 |
+| elendi | Youthall | Summer Internship 2027: Manufacturing / Gebze Plant | tekrar |
+| elendi | Opportunities For Youth | GCB Bank Eaglet Management Trainee Programme 2026: Apply for a 24-Month Graduate | Türkiye'ye kapalı: The programme is intended to help participants understand the different functions of a modern banking institution while  |
+| elendi | Youthall | New Graduates 2027: Manufacturing Manager / Gebze Plant | tekrar |
+| onayda | Opportunities For Youth | University of Nebraska at Omaha'da Kamu Yönetimi Doktora Programı | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var. · son tarih: 2027-03-15 · link: https://www.unomaha.edu/admissions/apply/index.php · görsel: kurum logosu aranacak (University of Nebraska at Omaha; stok foto yok) |
+| elendi | Youthall | New Graduates 2027: Commercial Sales Manager | tekrar |
+| onayda | Opportunities For Youth | NYU Küresel Burs Programları 2027-2028 | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2027-01-15 · link: https://docket.law.nyu.edu/global/announcing-global-fellowships-for-the-2027-2028-academic-year/58119/ · görsel: kurum logosu aranacak (New York University School of Law; stok foto yok) |

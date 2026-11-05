@@ -100,7 +100,12 @@
     "tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
     "docs.google.com/forms/d/e/1FAIpQLSeKGawXddYaiMUJ_LZ2QCX_95RBGQHzAfZ1X4w5XF4mce8vDg/viewform",
     "program.izmirkisafilm.org",
-    "genclikcalismalari.org/ilan/esc-1632-almanya-gonulluluk-faaliyeti-katilimci-cagrisi"
+    "genclikcalismalari.org/ilan/esc-1632-almanya-gonulluluk-faaliyeti-katilimci-cagrisi",
+    "crg.eu/en/node/1414765",
+    "ilatalks.com/webinars",
+    "juridicum.univie.ac.at/news-detailasnicht/ausschreibung-fellowship-programm-sommersemester-2027",
+    "unomaha.edu/admissions/apply/index.php",
+    "docket.law.nyu.edu/global/announcing-global-fellowships-for-the-2027-2028-academic-year/58119"
   ],
   "outbox": [],
   "pending": {
@@ -131,6 +136,62 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "3871c062601f": {
+      "apply_link_id": 3,
+      "apply_url": "https://juridicum.univie.ac.at/news-detailasnicht/ausschreibung-fellowship-programm-sommersemester-2027",
+      "category": "hibe",
+      "country_tr": "Avusturya",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "The programme is open to both established academics and early-career researchers, including professors, doctoral students and postdoctoral researchers, to pursue research projects, collaborate with faculty members and establish valuable international academic connections.",
+      "fee_required": false,
+      "funding_tr": "Aylık 800-1050 €",
+      "highlights_tr": [
+        "Uluslararası araştırmacılara açık",
+        "Aylık 800-1050 € burs imkanı",
+        "Son başvuru 30 Kasım 2026"
+      ],
+      "id": "3871c062601f",
+      "is_opportunity": true,
+      "message_id": 12,
+      "organization": "University of Vienna Faculty of Law",
+      "organization_domain": "univie.ac.at",
+      "queued_at": "2026-11-05T02:24:50.756584+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/04/university-of-vienna-faculty-of-law-fellowship-2027-research-fellowships-in-austria-with-monthly-funding-of-up-to-e1050/",
+      "summary_tr": "University of Vienna Hukuk Fakültesi, uluslararası araştırmacılar için 2027 Yaz Dönemi Burs Programı'na başvuruları kabul ediyor. Program, profesörler için aylık 1050 €, doktora ve doktora sonrası araştırmacılar için ise aylık 800 € destek sunuyor.",
+      "title_tr": "University of Vienna Hukuk Fakültesi Burs Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
+      "visual_kind": "scene"
+    },
+    "69ae4f68838d": {
+      "apply_link_id": 1,
+      "apply_url": "https://docket.law.nyu.edu/global/announcing-global-fellowships-for-the-2027-2028-academic-year/58119/",
+      "category": "egitim",
+      "country_tr": "ABD",
+      "deadline": "2027-01-15",
+      "eligibility_evidence": "The NYU Global Fellowship Programs are academic opportunities offered through New York University School of Law for the 2027–2028 academic year. They provide eligible international scholars, researchers, doctoral candidates and professionals with opportunities to conduct research and engage with NYU’s academic community.",
+      "fee_required": false,
+      "funding_tr": "Aylık 70.000 USD'ye kadar burs",
+      "highlights_tr": [
+        "Uluslararası araştırmacılar ve akademisyenler için",
+        "Akademik yıl başına 70.000 USD'ye kadar burs",
+        "Son başvuru tarihi 15 Ocak 2027"
+      ],
+      "id": "69ae4f68838d",
+      "is_opportunity": true,
+      "message_id": 14,
+      "organization": "New York University School of Law",
+      "organization_domain": "nyu.edu",
+      "queued_at": "2026-11-05T02:25:32.564330+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/04/nyu-global-fellowship-programs-2027-2028-apply-for-international-research-opportunities-in-the-usa-with-stipends-of-up-to-70000/",
+      "summary_tr": "New York Üniversitesi Hukuk Fakültesi, 2027-2028 akademik yılı için uluslararası akademisyen, araştırmacı, doktora adayı ve profesyonellere yönelik Küresel Burs Programları'na başvuruları kabul ediyor. Seçilenlere akademik yıl başına 70.000 USD'ye kadar burs verilebilir.",
+      "title_tr": "NYU Küresel Burs Programları 2027-2028",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
     },
     "8bd808bd7c66": {
       "apply_link_id": 1,
@@ -220,6 +281,39 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "bf1d24059375": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.unomaha.edu/admissions/apply/index.php",
+      "category": "egitim",
+      "country_tr": "Amerika Birleşik Devletleri",
+      "deadline": "2027-03-15",
+      "eligibility_evidence": "International applicants are welcome to apply, provided they satisfy the university’s academic and English-language requirements.",
+      "fee_required": true,
+      "funding_tr": "Tam burslu (asistanlık ile)",
+      "highlights_tr": [
+        "Tam burslu asistanlık imkanı",
+        "GRE şartı yok",
+        "Başvuru ücreti 50$"
+      ],
+      "id": "bf1d24059375",
+      "image_queries": [
+        "University of Nebraska Omaha campus",
+        "USA university campus",
+        "public administration building"
+      ],
+      "is_opportunity": true,
+      "message_id": 13,
+      "organization": "University of Nebraska at Omaha",
+      "organization_domain": "unomaha.edu",
+      "queued_at": "2026-11-05T02:25:19.617999+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/04/university-of-nebraska-at-omaha-phd-in-public-administration-2027-admission-requirements-fully-funded-graduate-assistantships-scholarships-and-application-deadlines/",
+      "summary_tr": "University of Nebraska at Omaha, Kamu Yönetimi alanında doktora programı sunmaktadır. Program, tam burslu öğretim üyeliği asistanlıkları, 20.000$ yıllık burs ve sağlık sigortası gibi olanaklar sağlamaktadır. Başvurular için GRE şartı aranmamaktadır.",
+      "title_tr": "University of Nebraska at Omaha'da Kamu Yönetimi Doktora Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
+      "visual_kind": "institution"
     },
     "d05a06e143d4": {
       "apply_link_id": 2,
@@ -2591,6 +2685,59 @@
       "title_tr": "Almanya'da ESC Gönüllülük Projesi",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.crg.eu/en/node/1414765",
+      "category": "egitim",
+      "country_tr": "İspanya",
+      "deadline": "2026-11-22",
+      "eligibility_evidence": "The CRG International PhD Programme is open to candidates of all nationalities who satisfy the academic, research and language requirements.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı ve sigortalı dört yıllık iş sözleşmesi",
+      "highlights_tr": [
+        "Tüm milletlerden adaylara açık",
+        "Dört yıllık maaşlı iş sözleşmesi",
+        "Barselona'da araştırma imkanı"
+      ],
+      "id": "619bd2caab31",
+      "is_opportunity": true,
+      "organization": "Centre for Genomic Regulation",
+      "organization_domain": "crg.eu",
+      "queued_at": "2026-11-05T02:22:30.239343+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/04/crg-international-phd-programme-2027/",
+      "summary_tr": "Barselona'daki Centre for Genomic Regulation (CRG) bünyesinde biyomedikal bilimler ve genomik alanlarında tam zamanlı, maaşlı dört yıllık doktora pozisyonları.",
+      "title_tr": "CRG Uluslararası Doktora Programı 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://ilatalks.com/webinars",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Ücretsiz katılım ve belge",
+        "Her oturum 60 dakika",
+        "Türkçe ve İngilizce katılım belgesi"
+      ],
+      "id": "1bd5aca751b2",
+      "is_opportunity": true,
+      "organization": "ILA Talks",
+      "organization_domain": "ilatalks.com",
+      "queued_at": "2026-11-05T02:24:34.709092+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/davetlisiniz-ila-talks-uluslararasi-gonulluler-yili-ucretsiz-surekli-webinar-serisi/",
+      "summary_tr": "ILA Talks, Uluslararası Gönüllüler Yılı kapsamında gönüllülüğün toplumsal dayanışma, sosyal kapsayıcılık, eğitimde fırsat eşitliği ve koruyucu sağlık alanlarındaki rolünü ele alan ücretsiz webinar serisi düzenliyor. Katılımcılara Türkçe-İngilizce dijital katılım belgesi verilecek.",
+      "title_tr": "ILA Talks Uluslararası Gönüllüler Yılı Ücretsiz Webinar Serisi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -2671,6 +2818,12 @@
       "status": "rejected",
       "title": "Orman Genel Müdürlüğü Müfettiş Yardımcısı Alımı Duyurusu",
       "ts": "2026-10-30T00:48:44.059536+00:00"
+    },
+    "1bd5aca751b2": {
+      "reason": "",
+      "status": "queued",
+      "title": "ILA Talks Uluslararası Gönüllüler Yılı Ücretsiz Webinar Serisi",
+      "ts": "2026-11-05T02:24:34.709109+00:00"
     },
     "1e5ec320b681": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -2786,11 +2939,23 @@
       "title": "Birbirini Geliştiren Kadınlar Programı",
       "ts": "2026-11-02T18:24:06.973442+00:00"
     },
+    "35edced7d461": {
+      "reason": "Türkiye'ye kapalı: The programme is intended to help participants understand the different functions of a modern banking institution while ",
+      "status": "rejected",
+      "title": "GCB Bank Eaglet Management Trainee Programme 2026: Apply for a 24-Month Graduate Development Opportunity in Ghana",
+      "ts": "2026-11-05T02:25:04.653696+00:00"
+    },
     "36e80af2e4c0": {
       "reason": "",
       "status": "queued",
       "title": "Youthall Grafik Tasarım Stajyeri",
       "ts": "2026-11-01T00:01:54.928187+00:00"
+    },
+    "3871c062601f": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
+      "status": "pending",
+      "title": "University of Vienna Faculty of Law Fellowship 2027: Research Fellowships in Austria with Monthly Funding of Up to €1,05",
+      "ts": "2026-11-05T02:24:50.756603+00:00"
     },
     "3983e03f5c2b": {
       "reason": "ücretli program reklamı",
@@ -2930,6 +3095,12 @@
       "title": "Marc de Montalembert 2027 Araştırma Ödülü",
       "ts": "2026-11-02T18:23:58.027985+00:00"
     },
+    "619bd2caab31": {
+      "reason": "",
+      "status": "queued",
+      "title": "CRG Uluslararası Doktora Programı 2027",
+      "ts": "2026-11-05T02:22:30.239361+00:00"
+    },
     "61c45a1ae54b": {
       "reason": "",
       "status": "queued",
@@ -2947,6 +3118,12 @@
       "status": "queued",
       "title": "Etstur - Pricing Data Entry Assistant Specialist",
       "ts": "2026-10-30T20:55:21.418000+00:00"
+    },
+    "627bb577386c": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "New Graduates 2027: Commercial Sales Manager",
+      "ts": "2026-11-05T02:25:25.935748+00:00"
     },
     "657bed6f5141": {
       "reason": "",
@@ -2983,6 +3160,12 @@
       "status": "published",
       "title": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
       "ts": "2026-11-04T06:09:39.272586+00:00"
+    },
+    "69ae4f68838d": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "NYU Global Fellowship Programs 2027–2028: Apply for International Research Opportunities in the USA with Stipends of Up ",
+      "ts": "2026-11-05T02:25:32.564348+00:00"
     },
     "6b6f56694b5f": {
       "reason": "",
@@ -3116,6 +3299,12 @@
       "title": "Jandarma ve Sahil Güvenlik Akademisi Devlet Memuru Alımı",
       "ts": "2026-11-02T10:55:43.891228+00:00"
     },
+    "9c4b77d0e397": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Summer Internship 2027: Manufacturing | Gebze Plant",
+      "ts": "2026-11-05T02:24:57.200729+00:00"
+    },
     "9cd5e42b6401": {
       "reason": "",
       "status": "queued",
@@ -3151,6 +3340,12 @@
       "status": "rejected",
       "title": "UN Journalism Fellowship 2027 in Qatar | Fully Funded",
       "ts": "2026-11-01T19:31:07.022135+00:00"
+    },
+    "a28c9083452a": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "New Graduates 2027: Information Technology Manager",
+      "ts": "2026-11-05T02:24:41.869105+00:00"
     },
     "a3dff2a05e20": {
       "reason": "Türkiye'ye kapalı: Students from Asia can apply from here (Enrolled in an Asian university pursuing a bachelor’s degree).",
@@ -3266,6 +3461,12 @@
       "title": "YÜKSEKÖĞRETİM KURULU BAŞKANLIĞI (YÖK) - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI",
       "ts": "2026-11-02T10:55:27.737427+00:00"
     },
+    "bf1d24059375": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
+      "status": "pending",
+      "title": "University of Nebraska at Omaha PhD in Public Administration 2027: Admission Requirements, Fully Funded Graduate Assista",
+      "ts": "2026-11-05T02:25:19.618017+00:00"
+    },
     "c159003011e5": {
       "reason": "",
       "status": "queued",
@@ -3301,6 +3502,12 @@
       "status": "rejected",
       "title": "Türk Dil Kurumu – TDK Burs Duyurusu",
       "ts": "2026-11-03T23:16:11.123345+00:00"
+    },
+    "cfa02720b0d4": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "New Graduates 2027: Manufacturing Manager | Gebze Plant",
+      "ts": "2026-11-05T02:25:12.125346+00:00"
     },
     "d05a06e143d4": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -3548,6 +3755,11 @@
     "tübi tak 2247 c star lisans ve öğretmen burs programı",
     "güneşin çocuklarını üşütmeyelim derneği bursu",
     "27 i zmir uluslararası kısa film festivali",
-    "almanya'da esc gönüllülük projesi"
+    "almanya'da esc gönüllülük projesi",
+    "crg uluslararası doktora programı 2027",
+    "ila talks uluslararası gönüllüler yılı ücretsiz webinar serisi",
+    "university of vienna hukuk fakültesi burs programı 2027",
+    "university of nebraska at omaha'da kamu yönetimi doktora programı",
+    "nyu küresel burs programları 2027 2028"
   ]
 }
