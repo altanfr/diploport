@@ -109,18 +109,7 @@
     "form.jotform.com/243093631988972",
     "kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.yinfo.org.tr/projeler/gaziantepte-genclik-degisimi",
-      "attempts": 0,
-      "caption": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı\n\nGaziantep'te düzenlenecek 7 günlük Erasmus+ gençlik değişimi, 18-30 yaş arası gençlere beden farkındalığı, stres yönetimi ve duygusal iyi oluş konularında eğitim ve kültürlerarası etkileşim imkanı sunuyor.\n\n- 18-30 yaş arası gençler katılabilir\n- 21-27 Kasım 2026 tarihleri arasında\n- Beden farkındalığı ve stres yönetimi odaklı\n\nBaşvuru: https://www.yinfo.org.tr/projeler/gaziantepte-genclik-degisimi\nTüm fırsatlar: https://diploport.dev/#a84f71057241\n\nGörsel: Imad Alassiry / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "a84f71057241",
-      "photo_query": "Turkey youth workshop",
-      "source": "Erasmusgram",
-      "title": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı",
-      "ts": "2026-11-05T10:47:34.627349+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -441,6 +430,13 @@
       "photo_query": "logo: UNHCR (Wikidata logosu)",
       "source": "Opportunities Corners",
       "ts": "2026-11-04T15:27:56.392294+00:00"
+    },
+    {
+      "id": "a84f71057241",
+      "official": "https://www.yinfo.org.tr/projeler/gaziantepte-genclik-degisimi",
+      "photo_query": "Turkey youth workshop",
+      "source": "Erasmusgram",
+      "ts": "2026-11-05T10:48:22.550408+00:00"
     }
   ],
   "queue": [
@@ -3466,9 +3462,9 @@
     },
     "a84f71057241": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Gaziantep'te Erasmus+ Gençlik Değişimi: Beden Farkındalığı",
-      "ts": "2026-10-28T20:12:37.311919+00:00"
+      "ts": "2026-11-05T10:48:22.550429+00:00"
     },
     "a8dc58a4938c": {
       "reason": "Türkiye'ye kapalı: Applicants must be female citizens of one of the ten eligible countries in Africa and Asia (Bangladesh, Kenya, Indonesia",
