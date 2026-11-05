@@ -107,9 +107,24 @@
     "unomaha.edu/admissions/apply/index.php",
     "docket.law.nyu.edu/global/announcing-global-fellowships-for-the-2027-2028-academic-year/58119",
     "form.jotform.com/243093631988972",
-    "kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3"
+    "kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3",
+    "mcwglobal.org/young-leaders-fellowship-2027",
+    "salto-youth.net/tools/european-training-calendar/training/let-s-dare-the-inner-journey-from-self-to-us-training-course.14943",
+    "emmir.org/application-procedures",
+    "santafe.edu/engage/learn/programs/undergraduate-complexity-research"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183",
+      "attempts": 0,
+      "caption": "DAAD Heilbronn Yapay Zeka Araştırma Bursu\n\nAlmanya'daki Bildungscampus Heilbronn'da yapay zeka alanında araştırma yapmak isteyen doktora öğrencileri ve doktora sonrası araştırmacılar için tam kapsamlı burs programı.\n\n- Aylık 2.800€ burs desteği\n- 1-12 ay arası araştırma süresi\n- Doktora öğrencileri ve doktora sonrası araştırmacılar için\n\nBaşvuru: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183\nTüm fırsatlar: https://diploport.dev/#ab17b962f612\n\nGörsel: Felix Janßen / Unsplash\n\n#diploport #fırsat #türkgençler #burs #yurtdışıburs #üniversiteöğrencisi",
+      "id": "ab17b962f612",
+      "photo_query": "Heilbronn Bildungscampus architecture",
+      "source": "Opportunities Circle",
+      "title": "DAAD Heilbronn Yapay Zeka Araştırma Bursu",
+      "ts": "2026-11-05T18:44:05.785255+00:00"
+    }
+  ],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -222,6 +237,39 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectionError); tarayıcıda kontrol et.",
       "visual_kind": "institution"
+    },
+    "a3221c8aa044": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.emmir.org/application-procedures",
+      "category": "burs",
+      "country_tr": "Almanya, Norveç ve diğer ortak ülkeler",
+      "deadline": "2026-12-20",
+      "eligibility_evidence": "The EMMIR scholarship for international students is a two-year joint master’s degree that allows students to study at different European universities.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti, aylık 1400€ burs, seyahat ve sigorta)",
+      "highlights_tr": [
+        "Aylık 1400€ yaşam desteği",
+        "İki yıllık tam burslu yüksek lisans",
+        "C1 seviyesinde İngilizce yeterliliği"
+      ],
+      "id": "a3221c8aa044",
+      "image_queries": [
+        "European university campus",
+        "Germany university students",
+        "students studying library"
+      ],
+      "is_opportunity": true,
+      "message_id": 16,
+      "organization": "EMMIR",
+      "organization_domain": "emmir.org",
+      "queued_at": "2026-11-05T18:43:37.320145+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/erasmus-mundus-emmir-scholarship/",
+      "summary_tr": "Göç ve Kültürlerarası İlişkiler alanında iki yıllık, Avrupa'da farklı üniversitelerde eğitim imkanı sunan tam burslu yüksek lisans programıdır.",
+      "title_tr": "Erasmus Mundus EMMIR 2027 Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "scene"
     },
     "a73d6d0605e3": {
       "apply_link_id": 1,
@@ -1040,35 +1088,6 @@
       "title_tr": "Satış Yöneticisi (Adana)",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183",
-      "category": "burs",
-      "country_tr": "Almanya",
-      "deadline": "",
-      "eligibility_evidence": "It welcomes applicants from around the world who have a strong academic background in Artificial Intelligence or a related field.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (aylık 2.800€, sigorta ve seyahat desteği)",
-      "highlights_tr": [
-        "Aylık 2.800€ burs desteği",
-        "1-12 ay arası araştırma süresi",
-        "Doktora öğrencileri ve doktora sonrası araştırmacılar için"
-      ],
-      "id": "ab17b962f612",
-      "image_queries": [
-        "Heilbronn Bildungscampus architecture",
-        "Germany university research lab",
-        "researchers working on computer"
-      ],
-      "is_opportunity": true,
-      "queued_at": "2026-10-29T18:25:56.658573+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/daad-heilbronn-ai-fellowships-in-germany/",
-      "summary_tr": "Almanya'daki Bildungscampus Heilbronn'da yapay zeka alanında araştırma yapmak isteyen doktora öğrencileri ve doktora sonrası araştırmacılar için tam kapsamlı burs programı.",
-      "title_tr": "DAAD Heilbronn Yapay Zeka Araştırma Bursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
     },
     {
       "apply_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
@@ -2773,6 +2792,97 @@
       "title_tr": "Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://mcwglobal.org/young-leaders-fellowship-2027/",
+      "category": "egitim",
+      "country_tr": "ABD",
+      "deadline": "2026-12-03",
+      "eligibility_evidence": "Young leaders from all around the world are eligible.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu",
+      "highlights_tr": [
+        "18-26 yaş arası gençler başvurabilir",
+        "Tam burslu (uçak, konaklama, yemek dahil)",
+        "Eğitim, sağlık ve ekonomi odaklı"
+      ],
+      "id": "6497bb987276",
+      "is_opportunity": true,
+      "organization": "MCW Global",
+      "organization_domain": "mcwglobal.org",
+      "queued_at": "2026-11-05T18:42:56.404321+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/mcw-young-leaders-fellowship-2027/",
+      "summary_tr": "ABD'de gerçekleşecek 10 günlük liderlik programı; eğitim, sağlık ve ekonomik güvenlik alanlarında projeler geliştiren 18-26 yaş arası gençlere açıktır.",
+      "title_tr": "MCW Young Leaders Fellowship 2027 (ABD)",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/let-s-dare-the-inner-journey-from-self-to-us-training-course.14943/",
+      "category": "egitim",
+      "country_tr": "Fransa",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanır",
+      "highlights_tr": [
+        "Tarih: 15-26 Şubat 2027",
+        "Ezilenlerin Tiyatrosu yöntemleri",
+        "Erasmus+ destekli eğitim"
+      ],
+      "id": "eb2badf96fd9",
+      "image_queries": [
+        "Piegros-la-Clastre France landscape",
+        "France youth training course",
+        "theatre workshop students"
+      ],
+      "is_opportunity": true,
+      "organization": "SALTO-Youth",
+      "organization_domain": "salto-youth.net",
+      "queued_at": "2026-11-05T18:43:03.888222+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/fransa-9-gun-erasmus-projesi/",
+      "summary_tr": "Fransa'nın Piegros-la-Clastre kentinde düzenlenecek olan Erasmus+ eğitim kursu, tiyatro teknikleri ve kişisel farkındalık çalışmaları aracılığıyla toplumsal dönüşümü hedeflemektedir.",
+      "title_tr": "Fransa'da Erasmus+ Eğitim Kursu: Ezilenlerin Tiyatrosu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.santafe.edu/engage/learn/programs/undergraduate-complexity-research",
+      "category": "staj",
+      "country_tr": "ABD",
+      "deadline": "2027-01-13",
+      "eligibility_evidence": "The SFI UCR welcomes applicants from any country.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (yol, konaklama, yemek ve 7.000$ burs)",
+      "highlights_tr": [
+        "Lisans öğrencilerine açık",
+        "10 hafta süreli araştırma deneyimi",
+        "Tam burslu ve 7.000$ ödenekli"
+      ],
+      "id": "948ce51a4fa8",
+      "image_queries": [
+        "Santa Fe New Mexico",
+        "USA university research lab",
+        "students working in laboratory"
+      ],
+      "is_opportunity": true,
+      "organization": "Santa Fe Institute",
+      "organization_domain": "santafe.edu",
+      "queued_at": "2026-11-05T18:44:01.957783+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/santa-fe-institute-summer-program-2027/",
+      "summary_tr": "Santa Fe Institute tarafından düzenlenen 10 haftalık bu tam burslu araştırma programı, lisans öğrencilerine karmaşıklık bilimi alanında projeler yürütme imkanı sunuyor.",
+      "title_tr": "Santa Fe Institute UCR Yaz Araştırma Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -2871,6 +2981,12 @@
       "status": "rejected",
       "title": "Political Leadership Excellence Program (PLEP) 2027 Başvuruları Açıldı",
       "ts": "2026-11-03T23:16:26.602749+00:00"
+    },
+    "1e6ec7e7856e": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Fransa’da Erasmus+ Eğitim Kursu Fırsatı",
+      "ts": "2026-11-05T18:43:18.005163+00:00"
     },
     "1ed92e8e9a6e": {
       "reason": "Türkiye'ye kapalı: Not eligible if completing a bachelor’s degree at institutions outside the U.S., or if they are exchange students.",
@@ -3142,6 +3258,12 @@
       "title": "Bilkom Digital Leader Genç Yetenek Programı",
       "ts": "2026-11-02T18:25:11.672417+00:00"
     },
+    "5a430c8beb8d": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "New Graduates 2027: Purchases Manager",
+      "ts": "2026-11-05T18:43:51.066890+00:00"
+    },
     "5db6d1139356": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -3153,6 +3275,12 @@
       "status": "queued",
       "title": "UNDP Tayland İletişim Stajı",
       "ts": "2026-10-30T17:58:47.334445+00:00"
+    },
+    "5f0d9a8cc884": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Eureka Network Türkiye-İspanya 2026 Yılı Çağrısı için Başvurular Devam Ediyor",
+      "ts": "2026-11-05T18:43:44.231088+00:00"
     },
     "612f18e45782": {
       "reason": "",
@@ -3184,11 +3312,23 @@
       "title": "Etstur - Pricing Data Entry Assistant Specialist",
       "ts": "2026-10-30T20:55:21.418000+00:00"
     },
+    "626ad2420bcb": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "New Graduates 2027: Supply Chain Manager",
+      "ts": "2026-11-05T18:43:24.928536+00:00"
+    },
     "627bb577386c": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
       "title": "New Graduates 2027: Commercial Sales Manager",
       "ts": "2026-11-05T02:25:25.935748+00:00"
+    },
+    "6497bb987276": {
+      "reason": "",
+      "status": "queued",
+      "title": "MCW Young Leaders Fellowship 2027 (ABD)",
+      "ts": "2026-11-05T18:42:56.404340+00:00"
     },
     "657bed6f5141": {
       "reason": "",
@@ -3250,6 +3390,12 @@
       "title": "CaCTuS 2027 Yaz Stajı - Almanya",
       "ts": "2026-11-02T20:04:33.430487+00:00"
     },
+    "710572d8790d": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Caltech Summer Undergraduate Research Fellowship 2027 in USA",
+      "ts": "2026-11-05T18:43:10.290431+00:00"
+    },
     "74208b18be4b": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -3310,6 +3456,12 @@
       "title": "Kültür ve Turizm Bakanlığı 162 Sözleşmeli Kütüphaneci Alımı",
       "ts": "2026-11-02T18:24:24.144964+00:00"
     },
+    "86ca8e8f911f": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Young Security Conference 2026/2027 in Germany (Fully Funded)",
+      "ts": "2026-11-05T18:43:30.958304+00:00"
+    },
     "8765d0866515": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -3357,6 +3509,12 @@
       "status": "queued",
       "title": "İspanya'da Erasmus+ Eğitim Kursu: Sosyal Kapsayıcılık ve Spor",
       "ts": "2026-10-30T17:58:03.824538+00:00"
+    },
+    "948ce51a4fa8": {
+      "reason": "",
+      "status": "queued",
+      "title": "Santa Fe Institute UCR Yaz Araştırma Programı 2027",
+      "ts": "2026-11-05T18:44:01.957803+00:00"
     },
     "9620e2d42ee9": {
       "reason": "",
@@ -3423,6 +3581,12 @@
       "status": "rejected",
       "title": "New Graduates 2027: Information Technology Manager",
       "ts": "2026-11-05T02:24:41.869105+00:00"
+    },
+    "a3221c8aa044": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Erasmus Mundus EMMIR Scholarship 2027 | Fully Funded",
+      "ts": "2026-11-05T18:43:37.320167+00:00"
     },
     "a3dff2a05e20": {
       "reason": "Türkiye'ye kapalı: Students from Asia can apply from here (Enrolled in an Asian university pursuing a bachelor’s degree).",
@@ -3682,6 +3846,12 @@
       "title": "Keyo People Campus Kampüs Temsilciliği Programı",
       "ts": "2026-10-30T00:48:51.158380+00:00"
     },
+    "eb2badf96fd9": {
+      "reason": "",
+      "status": "queued",
+      "title": "Fransa'da Erasmus+ Eğitim Kursu: Ezilenlerin Tiyatrosu",
+      "ts": "2026-11-05T18:43:03.888242+00:00"
+    },
     "ede70dd447b0": {
       "reason": "",
       "status": "queued",
@@ -3857,6 +4027,10 @@
     "university of nebraska at omaha'da kamu yönetimi doktora programı",
     "nyu küresel burs programları 2027 2028",
     "tog x starbucks ortak alan kasım ayı atölyeleri",
-    "türkiye şeker fabrikaları a ş sözleşmeli mühendis ve tekniker alımı"
+    "türkiye şeker fabrikaları a ş sözleşmeli mühendis ve tekniker alımı",
+    "mcw young leaders fellowship 2027 abd",
+    "fransa'da erasmus eğitim kursu ezilenlerin tiyatrosu",
+    "erasmus mundus emmir 2027 yüksek lisans bursu",
+    "santa fe institute ucr yaz araştırma programı 2027"
   ]
 }

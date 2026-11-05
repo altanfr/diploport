@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183",
+    "category": "burs",
+    "country_tr": "Almanya",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "Tam burs (aylık 2.800€, sigorta ve seyahat desteği)",
+    "highlights_tr": [
+      "Aylık 2.800€ burs desteği",
+      "1-12 ay arası araştırma süresi",
+      "Doktora öğrencileri ve doktora sonrası araştırmacılar için"
+    ],
+    "id": "ab17b962f612",
+    "image": "images/ab17b962f612.jpg",
+    "organization": null,
+    "published_at": "2026-11-05T18:44:05.727883+00:00",
+    "summary_tr": "Almanya'daki Bildungscampus Heilbronn'da yapay zeka alanında araştırma yapmak isteyen doktora öğrencileri ve doktora sonrası araştırmacılar için tam kapsamlı burs programı.",
+    "thumb": "images/t/ab17b962f612.jpg",
+    "title_tr": "DAAD Heilbronn Yapay Zeka Araştırma Bursu"
+  },
+  {
     "apply_url": "https://www.yinfo.org.tr/projeler/gaziantepte-genclik-degisimi",
     "category": "egitim",
     "country_tr": "Türkiye",
