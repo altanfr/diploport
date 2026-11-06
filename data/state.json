@@ -130,7 +130,12 @@
     "youthall.com/tr/Akcansa/sahaya-ilk-adim-stajyer-laborant-tekirdag-buyukkaristiran-cerkezkoy-silivri_61",
     "coleurope.eu/call-applicants-european-union-diplomatic-programme-enlargement-region-fifth-edition",
     "youthall.com/en/toyotaboshoku/career-dojo-long-term-internship-programme_2",
-    "tev.org.tr/burs/tr/28/daad-almanya-burslari"
+    "tev.org.tr/burs/tr/28/daad-almanya-burslari",
+    "estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37931",
+    "docs.google.com/forms/d/e/1FAIpQLScvO2wVYMAxxb3n12PVC4CF8os8heNgRfa3JtMAMEZZA1GvNw/viewform",
+    "hzdr.de/db/!Conference.SummerStudents.Registration?pLang=en&pNid=2535",
+    "youthall.com/tr/Akcansa/long-term-intern-corporate-communications_60",
+    "youthall.com/tr/Akcansa/long-term-intern-human-resources_59"
   ],
   "outbox": [],
   "pending": {
@@ -339,6 +344,35 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "beafb65d952f": {
+      "apply_link_id": 3,
+      "apply_url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37931",
+      "category": "staj",
+      "country_tr": "İtalya veya Online",
+      "deadline": "2026-11-20",
+      "eligibility_evidence": "The organisation’s work is guided by the principle of leaving no one behind. It also promotes diversity, equity and inclusion in its recruitment and working environments.",
+      "fee_required": false,
+      "funding_tr": "Aylık staj ücreti sağlanabilir",
+      "highlights_tr": [
+        "Lisans son sınıf, yüksek lisans veya yeni mezunlar",
+        "6 ay süreli tam zamanlı çalışma",
+        "İleri düzey İngilizce şartı"
+      ],
+      "id": "beafb65d952f",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 18,
+      "organization": "United Nations Development Programme",
+      "organization_domain": "undp.org",
+      "queued_at": "2026-11-06T21:28:41.661470+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/06/undp-climate-and-energy-internship-2026-in-italy-or-home-based-six-month-opportunity-with-monthly-stipend/",
+      "summary_tr": "UNDP Roma İklim Eylem ve Enerji Geçişi Merkezi'nde 6 aylık tam zamanlı staj programı. İtalya'da ofis içi veya uzaktan çalışma seçenekleri mevcuttur.",
+      "title_tr": "UNDP İklim ve Enerji Staj Programı 2026",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
     },
     "bf1d24059375": {
       "apply_link_id": 1,
@@ -1862,33 +1896,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://asrisaadet.org/burs-basvuru-formu",
-      "category": "burs",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-06",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Ön lisans, lisans ve lisansüstü öğrencileri başvurabilir",
-        "7 ay boyunca burs desteği sağlanacak",
-        "Başka kurumdan burs almak başvuruya engel değil"
-      ],
-      "id": "b8d9757ae6b2",
-      "is_opportunity": true,
-      "organization": "Asr-ı Saadet Derneği",
-      "organization_domain": "asrisaadet.org",
-      "queued_at": "2026-11-02T18:23:29.714292+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/asr-i-saadet-dernegi-burs-duyurusu/",
-      "summary_tr": "Asr-ı Saadet Derneği, maddi desteğe ihtiyaç duyan ön lisans, lisans ve lisansüstü öğrencilerine 7 ay süreli burs desteği sağlayacaktır.",
-      "title_tr": "Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu",
-      "turkey_eligible": "yes",
-      "visual_alerted": true,
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://www.nytco.com/careers/early-career-opportunities/newsroom-fellowship/",
       "category": "is",
       "country_tr": "ABD",
@@ -3396,6 +3403,113 @@
       "title_tr": "TEV-DAAD Almanya Yüksek Lisans Bursu",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScvO2wVYMAxxb3n12PVC4CF8os8heNgRfa3JtMAMEZZA1GvNw/viewform",
+      "category": "egitim",
+      "country_tr": "İtalya",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "İtalya, Çekya, Yunanistan, Litvanya, Romanya, Türkiye, Fas ve Ürdün’ün dahil olduğu uluslararası proje, dijital dönüşüm sürecinde ihtiyaç duyulan bilgi ve becerilerin geliştirilmesini amaçlıyor.",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek, eğitim ve seyahat masrafları karşılanır",
+      "highlights_tr": [
+        "11-17 Aralık tarihleri arasında gerçekleşecek",
+        "Konaklama, yemek ve seyahat masrafları karşılanıyor",
+        "Dijital araçlar ve yapay zeka üzerine uygulamalı eğitim"
+      ],
+      "id": "9add69831c2e",
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-06T21:28:49.529886+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/italya-cervia-6-gun-erasmus-projesi/",
+      "summary_tr": "İtalya'nın Cervia şehrinde düzenlenecek olan Erasmus+ projesi, gençlik çalışmalarında dijital teknolojilerin kullanımı, yapay zeka ve sosyal medya stratejileri üzerine uygulamalı eğitimler sunmaktadır.",
+      "title_tr": "İtalya'da Erasmus+ Gençlik Eğitimi Projesi",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.hzdr.de/db/!Conference.SummerStudents.Registration?pLang=en&pNid=2535",
+      "category": "staj",
+      "country_tr": "Almanya",
+      "deadline": "2027-01-24",
+      "eligibility_evidence": "The HZDR Summer Student Program in Germany 2027 is an excellent opportunity for international students from all around the world to pursue research.",
+      "fee_required": false,
+      "funding_tr": "Maaş ve konaklama desteği sağlanır",
+      "highlights_tr": [
+        "Doğa bilimleri öğrencileri için 8 haftalık staj",
+        "Maaş ve konaklama desteği sağlanmaktadır",
+        "İyi derecede İngilizce yeterliliği gereklidir"
+      ],
+      "id": "98ac995497c7",
+      "image_queries": [
+        "Dresden Germany research laboratory",
+        "Germany university science students",
+        "students working in laboratory"
+      ],
+      "is_opportunity": true,
+      "organization": "Helmholtz-Zentrum Dresden-Rossendorf",
+      "organization_domain": "hzdr.de",
+      "queued_at": "2026-11-06T21:28:58.199895+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/hzdr-summer-student-program-in-germany/",
+      "summary_tr": "HZDR, doğa bilimleri ve ilgili alanlarda okuyan lisans öğrencileri için Almanya'da 8 haftalık bir yaz araştırma stajı programı sunmaktadır.",
+      "title_tr": "HZDR Yaz Öğrenci Programı 2027 - Almanya",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-corporate-communications_60/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "Büyükçekmece ofisinde tam zamanlı çalışma",
+        "İletişim ve pazarlama öğrencilerine uygun",
+        "Canva ve MS Office programlarına hakimiyet"
+      ],
+      "id": "4d25d0a24135",
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-06T21:29:30.098709+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-corporate-communications_60/",
+      "summary_tr": "Büyükçekmece ofisinde görev alacak, kurumsal iletişim ekibine destek verecek, içerik üretimi ve sosyal medya yönetimi süreçlerinde yer alacak uzun dönem stajyer aranıyor.",
+      "title_tr": "Kurumsal İletişim Uzun Dönem Stajyeri",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-human-resources_59/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "Büyükçekmece ofisinde haftada 5 gün çalışma",
+        "İnsan Kaynakları, İşletme veya ilgili bölümler",
+        "İleri seviye Excel ve Canva bilgisi"
+      ],
+      "id": "38ac74c6cae6",
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-06T21:29:57.781325+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-human-resources_59/",
+      "summary_tr": "Büyükçekmece ofisinde görevlendirilmek üzere, İnsan Kaynakları süreçlerinde destek verecek uzun dönemli stajyer aranmaktadır.",
+      "title_tr": "Long-Term Intern – Human Resources",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -3458,6 +3572,12 @@
       "status": "queued",
       "title": "DİTİB 2026-2027 Eğitim Öğretim Dönemi Öğrenim Yardımı",
       "ts": "2026-11-02T20:04:58.624893+00:00"
+    },
+    "123e080bd5e1": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı Yapacak",
+      "ts": "2026-11-06T21:29:22.592042+00:00"
     },
     "1571e08017b2": {
       "reason": "",
@@ -3657,6 +3777,12 @@
       "title": "University of Vienna Faculty of Law Fellowship 2027: Research Fellowships in Austria with Monthly Funding of Up to €1,05",
       "ts": "2026-11-05T02:24:50.756603+00:00"
     },
+    "38ac74c6cae6": {
+      "reason": "",
+      "status": "queued",
+      "title": "Long-Term Intern – Human Resources",
+      "ts": "2026-11-06T21:29:57.781342+00:00"
+    },
     "3940e7140baf": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -3759,11 +3885,23 @@
       "title": "TEV-Fransa Büyükelçiliği Yüksek Lisans Bursu",
       "ts": "2026-11-03T17:49:45.572591+00:00"
     },
+    "4d25d0a24135": {
+      "reason": "",
+      "status": "queued",
+      "title": "Kurumsal İletişim Uzun Dönem Stajyeri",
+      "ts": "2026-11-06T21:29:30.098724+00:00"
+    },
     "4db405661b62": {
       "reason": "",
       "status": "queued",
       "title": "Erasmus Mundus Gazetecilik Yüksek Lisans Bursu 2027-2029",
       "ts": "2026-11-02T18:24:45.203103+00:00"
+    },
+    "4ef46d949125": {
+      "reason": "Türkiye'ye kapalı: The Asia Foundation Development Fellows Program 2027 presents a valuable leadership development opportunity for outstand",
+      "status": "rejected",
+      "title": "The Asia Foundation Development Fellows Program 2027: Leadership Fellowship for Young Professionals Across Asia and the ",
+      "ts": "2026-11-06T21:30:03.591009+00:00"
     },
     "5107c2437858": {
       "reason": "",
@@ -3878,6 +4016,12 @@
       "status": "rejected",
       "title": "New Graduates 2027: Commercial Sales Manager",
       "ts": "2026-11-05T02:25:25.935748+00:00"
+    },
+    "647b747ef73d": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "SGK Başkanlığı 100 Sosyal Güvenlik Denetmen Yardımcısı (Hukuk, Siyasal Bilgiler, İktisadi ve İdari Bilimler, İktisat, İş",
+      "ts": "2026-11-06T21:29:50.648432+00:00"
     },
     "6497bb987276": {
       "reason": "",
@@ -3998,6 +4142,12 @@
       "status": "queued",
       "title": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026",
       "ts": "2026-10-30T00:48:57.823862+00:00"
+    },
+    "7ad102b9787d": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "İspanya , Tortosa : 7 Gün Erasmus+ Projesi",
+      "ts": "2026-11-06T21:29:44.389637+00:00"
     },
     "7c8d8300e79e": {
       "reason": "Türkiye'ye kapalı: The Community Solutions Program is open to the following countries:",
@@ -4125,6 +4275,12 @@
       "title": "Purdue University Summer Fellowship 2027 in USA (Fully Funded)",
       "ts": "2026-11-03T17:49:03.106022+00:00"
     },
+    "98ac995497c7": {
+      "reason": "",
+      "status": "queued",
+      "title": "HZDR Yaz Öğrenci Programı 2027 - Almanya",
+      "ts": "2026-11-06T21:28:58.199912+00:00"
+    },
     "992b05b17e6a": {
       "reason": "",
       "status": "queued",
@@ -4136,6 +4292,12 @@
       "status": "queued",
       "title": "Jandarma ve Sahil Güvenlik Akademisi Devlet Memuru Alımı",
       "ts": "2026-11-02T10:55:43.891228+00:00"
+    },
+    "9add69831c2e": {
+      "reason": "",
+      "status": "queued",
+      "title": "İtalya'da Erasmus+ Gençlik Eğitimi Projesi",
+      "ts": "2026-11-06T21:28:49.529901+00:00"
     },
     "9c4b77d0e397": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4318,10 +4480,10 @@
       "ts": "2026-11-04T15:23:54.795894+00:00"
     },
     "b8d9757ae6b2": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu",
-      "ts": "2026-11-02T18:23:29.714310+00:00"
+      "ts": "2026-11-06T21:28:12.198780+00:00"
     },
     "b9992d90c95e": {
       "reason": "resmî başvuru linki bulunamadı (seçilen link reddedildi: HTTP 404; sayfada 1 aday link: farkyaratanlar.org)",
@@ -4340,6 +4502,12 @@
       "status": "rejected",
       "title": "Katılımcı Çağrısı: Almanya’da Uzun Dönem ESC Gönüllülük Projesi",
       "ts": "2026-11-05T10:46:57.802247+00:00"
+    },
+    "beafb65d952f": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "UNDP Climate and Energy Internship 2026 in Italy or Home-Based: Six-Month Opportunity with Monthly Stipend",
+      "ts": "2026-11-06T21:28:41.661490+00:00"
     },
     "bf1d24059375": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
@@ -4466,6 +4634,12 @@
       "status": "queued",
       "title": "Oxford Pershing Square Yüksek Lisans Bursu 2027-2028",
       "ts": "2026-11-02T10:54:52.623880+00:00"
+    },
+    "e7739ad2c3aa": {
+      "reason": "Türkiye'ye kapalı: However, an important eligibility restriction applies: applicants must be United States citizens or permanent residents ",
+      "status": "rejected",
+      "title": "Spencer Education Journalism Fellowship 2027–2028 at Columbia University: Receive Up to $85,000 in Funding to Produce Im",
+      "ts": "2026-11-06T21:29:36.945744+00:00"
     },
     "e8827e4a4f59": {
       "reason": "",
@@ -4695,6 +4869,11 @@
     "akçansa sahaya i lk adım yetiştirme programı",
     "avrupa birliği genişleme bölgesi diplomasi programı 2027",
     "toyota boshoku türkiye career dojo uzun dönem staj programı",
-    "tev daad almanya yüksek lisans bursu"
+    "tev daad almanya yüksek lisans bursu",
+    "undp i klim ve enerji staj programı 2026",
+    "i talya'da erasmus gençlik eğitimi projesi",
+    "hzdr yaz öğrenci programı 2027 almanya",
+    "kurumsal i letişim uzun dönem stajyeri",
+    "long term intern human resources"
   ]
 }
