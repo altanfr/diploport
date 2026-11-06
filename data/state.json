@@ -121,18 +121,7 @@
     "ntu.edu.sg/admissions/graduate/financialmatters/scholarships",
     "beamlineforschools.cern"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183",
-      "attempts": 1,
-      "caption": "DAAD Heilbronn Yapay Zeka Araştırma Bursu\n\nAlmanya'daki Bildungscampus Heilbronn'da yapay zeka alanında araştırma yapmak isteyen doktora öğrencileri ve doktora sonrası araştırmacılar için tam kapsamlı burs programı.\n\n- Aylık 2.800€ burs desteği\n- 1-12 ay arası araştırma süresi\n- Doktora öğrencileri ve doktora sonrası araştırmacılar için\n\nBaşvuru: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183\nTüm fırsatlar: https://diploport.dev/#ab17b962f612\n\nGörsel: Felix Janßen / Unsplash\n\n#diploport #fırsat #türkgençler #burs #yurtdışıburs #üniversiteöğrencisi",
-      "id": "ab17b962f612",
-      "photo_query": "Heilbronn Bildungscampus architecture",
-      "source": "Opportunities Circle",
-      "title": "DAAD Heilbronn Yapay Zeka Araştırma Bursu",
-      "ts": "2026-11-05T18:44:05.785255+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -526,6 +515,13 @@
       "photo_query": "Turkey youth workshop",
       "source": "Erasmusgram",
       "ts": "2026-11-05T10:48:22.550408+00:00"
+    },
+    {
+      "id": "ab17b962f612",
+      "official": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=&status=&subjectGrps=&daad=&q=&page=1&detail=57883183",
+      "photo_query": "Heilbronn Bildungscampus architecture",
+      "source": "Opportunities Circle",
+      "ts": "2026-11-06T00:19:53.598415+00:00"
     }
   ],
   "queue": [
@@ -3909,9 +3905,9 @@
     },
     "ab17b962f612": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "DAAD Heilbronn Yapay Zeka Araştırma Bursu",
-      "ts": "2026-10-29T18:25:56.658592+00:00"
+      "ts": "2026-11-06T00:19:53.598434+00:00"
     },
     "ab2e390d8fda": {
       "reason": "",
