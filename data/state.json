@@ -122,18 +122,7 @@
     "beamlineforschools.cern",
     "open.edu/openlearn/languages/everyday-english-1/content-section-overview?active-tab=description-tab"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
-      "attempts": 0,
-      "caption": "Satış Yöneticisi (Adana)\n\nAdana'da görevlendirilmek üzere, üniversitelerin ilgili bölümlerinden mezun, satış tecrübesi olan ve SAP bilgisine sahip Satış Yöneticisi aranmaktadır.\n\n- Adana lokasyonunda çalışma imkanı\n- 0-3 yıl arası satış tecrübesi\n- İşletme, İktisat veya Mühendislik mezuniyeti\n\nBaşvuru: https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/\nTüm fırsatlar: https://diploport.dev/#b1b40f7f780c\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
-      "id": "b1b40f7f780c",
-      "photo_query": "logo: Aygaz (Vikipedi (tr) sayfa logosu)",
-      "source": "Youthall",
-      "title": "Satış Yöneticisi (Adana)",
-      "ts": "2026-11-06T07:54:10.254418+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -534,6 +523,13 @@
       "photo_query": "Heilbronn Bildungscampus architecture",
       "source": "Opportunities Circle",
       "ts": "2026-11-06T00:19:53.598415+00:00"
+    },
+    {
+      "id": "b1b40f7f780c",
+      "official": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
+      "photo_query": "logo: Aygaz (Vikipedi (tr) sayfa logosu)",
+      "source": "Youthall",
+      "ts": "2026-11-06T07:54:43.364812+00:00"
     }
   ],
   "queue": [
@@ -3966,9 +3962,9 @@
     },
     "b1b40f7f780c": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Satış Yöneticisi (Adana)",
-      "ts": "2026-10-29T00:47:33.208307+00:00"
+      "ts": "2026-11-06T07:54:43.364830+00:00"
     },
     "b67a02db7bff": {
       "reason": "",
