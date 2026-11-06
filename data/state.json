@@ -119,9 +119,21 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be",
     "upsallinternational.com/jobs/manger-of-people-and-culture",
     "ntu.edu.sg/admissions/graduate/financialmatters/scholarships",
-    "beamlineforschools.cern"
+    "beamlineforschools.cern",
+    "open.edu/openlearn/languages/everyday-english-1/content-section-overview?active-tab=description-tab"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
+      "attempts": 0,
+      "caption": "Satış Yöneticisi (Adana)\n\nAdana'da görevlendirilmek üzere, üniversitelerin ilgili bölümlerinden mezun, satış tecrübesi olan ve SAP bilgisine sahip Satış Yöneticisi aranmaktadır.\n\n- Adana lokasyonunda çalışma imkanı\n- 0-3 yıl arası satış tecrübesi\n- İşletme, İktisat veya Mühendislik mezuniyeti\n\nBaşvuru: https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/\nTüm fırsatlar: https://diploport.dev/#b1b40f7f780c\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "b1b40f7f780c",
+      "photo_query": "logo: Aygaz (Vikipedi (tr) sayfa logosu)",
+      "source": "Youthall",
+      "title": "Satış Yöneticisi (Adana)",
+      "ts": "2026-11-06T07:54:10.254418+00:00"
+    }
+  ],
   "pending": {
     "27289da2aca9": {
       "apply_link_id": 1,
@@ -1100,31 +1112,6 @@
       "title_tr": "Green Games Lab Erasmus+ Eğitim Kursu",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Adana’da ikamet eden / edebilecek olan.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı pozisyon",
-      "highlights_tr": [
-        "Adana lokasyonunda çalışma imkanı",
-        "0-3 yıl arası satış tecrübesi",
-        "İşletme, İktisat veya Mühendislik mezuniyeti"
-      ],
-      "id": "b1b40f7f780c",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Aygaz",
-      "queued_at": "2026-10-29T00:47:33.208292+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/aygazdakariyer/satis-yoneticisi-adana_74/",
-      "summary_tr": "Adana'da görevlendirilmek üzere, üniversitelerin ilgili bölümlerinden mezun, satış tecrübesi olan ve SAP bilgisine sahip Satış Yöneticisi aranmaktadır.",
-      "title_tr": "Satış Yöneticisi (Adana)",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
     },
     {
       "apply_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
@@ -3108,6 +3095,32 @@
       "title_tr": "CERN Beamline for Schools 2027 Fizik Deneyi Yarışması",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.open.edu/openlearn/languages/everyday-english-1/content-section-overview?active-tab=description-tab",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "Individuals from all nationalities are eligible for the Everyday English Free Course 2027.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Tüm milliyetlere açık",
+        "48 saatlik online eğitim",
+        "Katılım belgesi veriliyor"
+      ],
+      "id": "420ee3f3cd01",
+      "is_opportunity": true,
+      "organization": "OpenLearn",
+      "organization_domain": "open.edu",
+      "queued_at": "2026-11-06T07:53:50.000321+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/everyday-english-free-course/",
+      "summary_tr": "OpenLearn tarafından sunulan bu 48 saatlik online kurs, İngilizce okuma, yazma ve konuşma becerilerini geliştirmek isteyen herkese açıktır. Kurs sonunda katılım belgesi verilmektedir.",
+      "title_tr": "Everyday English Ücretsiz Online Kursu 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -3416,6 +3429,12 @@
       "status": "rejected",
       "title": "Özkaraduman İnşaat Burs Başvuru Duyurusu",
       "ts": "2026-10-29T09:48:17.218454+00:00"
+    },
+    "420ee3f3cd01": {
+      "reason": "",
+      "status": "queued",
+      "title": "Everyday English Ücretsiz Online Kursu 2027",
+      "ts": "2026-11-06T07:53:50.000339+00:00"
     },
     "4223ff6f1eae": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -3933,6 +3952,12 @@
       "title": "Kamu İhale Kurumu Kamu İhale Uzman Yardımcısı Alımı Yapacak",
       "ts": "2026-10-30T20:55:14.420824+00:00"
     },
+    "b009538d472c": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ - Sözleşmeli Personel Alım İlanı (06.11.2026)",
+      "ts": "2026-11-06T07:54:06.811360+00:00"
+    },
     "b1829cbf6dbd": {
       "reason": "",
       "status": "queued",
@@ -4324,6 +4349,7 @@
     "sosyal güvenlik kurumu sosyal güvenlik denetmen yardımcılığı alımı",
     "youth climate justice fund i nsan ve kültür müdürü pozisyonu",
     "nanyang president's graduate scholarship npgs 2027 2028",
-    "cern beamline for schools 2027 fizik deneyi yarışması"
+    "cern beamline for schools 2027 fizik deneyi yarışması",
+    "everyday english ücretsiz online kursu 2027"
   ]
 }

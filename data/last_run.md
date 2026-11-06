@@ -1,18 +1,10 @@
-# Son çalışma (2026-11-06 03:16 TR)
+# Son çalışma (2026-11-06 10:53 TR)
 
-Kuyruk: 94 · Onay bekleyen: 11 · Hazırlanan: -
-Bulunan yeni ilan: 14 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
-Kaynaklar: Opportunities Corners: 1 yeni / 6 kayıt · Opportunities For Youth: 10 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 1 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 1 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 26 kayıt
+Kuyruk: 94 · Onay bekleyen: 11 · Hazırlanan: b1b40f7f780c
+Bulunan yeni ilan: 2 · Bu çalışmada işlenmesi planlanan: 2 · Raporlanan: 2
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 27 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| onayda | Opportunities Corners | Global Debate Championship 2026 - Malezya | Katılım ücreti var. · son tarih: 2026-12-01 · link: https://europeanvoiceassembly.org/application.php?category=fully_funded · foto: Kuala Lumpur city skyline / Malaysia university students / students debating in classroom |
-| kuyrukta | Opportunities For Youth | Humboldt Residency Programme 2027: Almanya'da Araştırma Programı | kanıt: The programme welcomes applicants from different countries and disciplines, subject to the eligibility requirements of their respective participant categories. · son tarih: 2026-12-14 · link: https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-residency-programme/humboldt-residency-programme-call-for-applications · foto: Brandenburg Germany landscape / Germany research residency / international academic collaboration |
-| kuyrukta | AB İlan | Anadolu Ajansı Kış Dönemi Staj Programı | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2026-11-27 · link: https://kariyer.aa.com.tr/jobs · görsel: kurum logosu aranacak (Anadolu Ajansı; stok foto yok) |
-| kuyrukta | Youthall | HUPALUPA STORE Mağaza Satış Danışmanı | kanıt: Kaynak Türkiye merkezli (Youthall) · son tarih: - · link: https://www.youthall.com/tr/hupalupamagaza/satis-danismani_3/ · görsel: kurum logosu aranacak (HUPALUPA STORE; stok foto yok) |
-| kuyrukta | Kariyer Kapısı | Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be · görsel: kurum logosu aranacak (SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI; stok foto yok) |
-| kuyrukta | Opportunities For Youth | Youth Climate Justice Fund İnsan ve Kültür Müdürü Pozisyonu | kanıt: The position offers an exciting opportunity for an experienced HR professional to join an international, youth-led organization supporting climate justice movements world · son tarih: 2026-11-30 · link: https://upsallinternational.com/jobs/manger-of-people-and-culture/ · görsel: kurum logosu aranacak (Youth Climate Justice Fund; stok foto yok) |
-| elendi | Opportunities For Youth | The United Nations Population Fund (UNFPA) Tanzania Youth Advisory Panel (YAP) M | Türkiye'ye kapalı: Applications are open to eligible young Tanzanians aged between 15 and 24 years |
-| kuyrukta | Opportunities For Youth | Nanyang President’s Graduate Scholarship (NPGS) 2027–2028 | kanıt: It is open to applicants of all nationalities, making it an opportunity for qualified international students · son tarih: 2026-12-31 · link: https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships · görsel: kurum logosu aranacak (Nanyang Technological University; stok foto yok) |
-| elendi | Opportunities For Youth | UCLA Public Health Scholars Training Program 2027: $4,000 Stipend, Free Campus H | Türkiye'ye kapalı: Applicants must meet the programme’s US citizenship or residency requirements, work authorisation requirements and US in |
-| kuyrukta | Opportunities For Youth | CERN Beamline for Schools 2027 Fizik Deneyi Yarışması | kanıt: The competition is open to high-school and secondary-school students from around the world. · son tarih: 2027-03-12 · link: https://beamlineforschools.cern/ |
+| kuyrukta | Opportunities Circle | Everyday English Ücretsiz Online Kursu 2027 | kanıt: Individuals from all nationalities are eligible for the Everyday English Free Course 2027. · son tarih: - · link: https://www.open.edu/openlearn/languages/everyday-english-1/content-section-overview?active-tab=description-tab · görsel: kurum logosu aranacak (OpenLearn; stok foto yok) |
+| elendi | Kariyer Kapısı | MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ - Sözleşmeli Personel Alım İlanı (06.11.2026) | tekrar |
