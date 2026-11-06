@@ -120,7 +120,17 @@
     "upsallinternational.com/jobs/manger-of-people-and-culture",
     "ntu.edu.sg/admissions/graduate/financialmatters/scholarships",
     "beamlineforschools.cern",
-    "open.edu/openlearn/languages/everyday-english-1/content-section-overview?active-tab=description-tab"
+    "open.edu/openlearn/languages/everyday-english-1/content-section-overview?active-tab=description-tab",
+    "ned.org/fellowships/hurford-youth-fellows-program",
+    "lehrbetrieb.ethz.ch/eApply/ealogin.view?lang=en",
+    "salto-youth.net/tools/european-training-calendar/training/sustainable-leadership.15152",
+    "youthall.com/en/heloland/video-ai-content-creator-intern_20",
+    "kyoto-u.ac.jp/en/news/2026-11-02",
+    "tev.org.tr/burs/tr/27/fiat-tofas-italya-burslari",
+    "youthall.com/tr/Akcansa/sahaya-ilk-adim-stajyer-laborant-tekirdag-buyukkaristiran-cerkezkoy-silivri_61",
+    "coleurope.eu/call-applicants-european-union-diplomatic-programme-enlargement-region-fifth-edition",
+    "youthall.com/en/toyotaboshoku/career-dojo-long-term-internship-programme_2",
+    "tev.org.tr/burs/tr/28/daad-almanya-burslari"
   ],
   "outbox": [],
   "pending": {
@@ -3117,6 +3127,275 @@
       "title_tr": "Everyday English Ücretsiz Online Kursu 2027",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.ned.org/fellowships/hurford-youth-fellows-program/",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "The fellowship is open to applicants from all countries.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (stipend, uçak bileti, sağlık sigortası)",
+      "highlights_tr": [
+        "30 yaş ve altı başvuru şartı",
+        "4 ay süreli tam burslu program",
+        "Demokrasi ve sivil toplum odaklı"
+      ],
+      "id": "7530d4fd2531",
+      "is_opportunity": true,
+      "organization": "National Endowment for Democracy",
+      "organization_domain": "ned.org",
+      "queued_at": "2026-11-06T15:54:17.280599+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/hurford-youth-fellowship-2027/",
+      "summary_tr": "ABD'de gerçekleşecek 4 aylık Hurford Youth Fellowship programı, demokrasi ve sivil toplum alanında çalışan genç liderleri desteklemektedir. Program tam kapsamlı bursludur.",
+      "title_tr": "Hurford Youth Fellowship 2027 - ABD",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.lehrbetrieb.ethz.ch/eApply/ealogin.view?lang=en",
+      "category": "burs",
+      "country_tr": "İsviçre",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "ETH Zurich Scholarship Program 2027 attracts talented students from European and non-EU countries to shine in their respective fields.",
+      "fee_required": false,
+      "funding_tr": "Öğrenim ücreti muafiyeti ve dönemlik 13.500 CHF yaşam bursu",
+      "highlights_tr": [
+        "Lisans derecesi (A notu veya ilk %10) şartı",
+        "Dönemlik 13.500 CHF yaşam desteği",
+        "Öğrenim ücreti muafiyeti"
+      ],
+      "id": "099418aa1fe4",
+      "image_queries": [
+        "ETH Zurich campus",
+        "Switzerland university students",
+        "students walking campus"
+      ],
+      "is_opportunity": true,
+      "organization": "ETH Zurich",
+      "organization_domain": "ethz.ch",
+      "queued_at": "2026-11-06T15:54:36.661155+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/eth-zurich-excellence-scholarship/",
+      "summary_tr": "ETH Zurich, başarılı uluslararası öğrencilere yüksek lisans eğitimi için burs ve yaşam desteği sunan Excellence Scholarship & Opportunity Programme (ESOP) başvurularını kabul ediyor.",
+      "title_tr": "ETH Zurich Excellence Bursu ve Fırsat Programı (ESOP) 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/sustainable-leadership.15152/",
+      "category": "egitim",
+      "country_tr": "İspanya",
+      "deadline": "2027-02-04",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
+      "highlights_tr": [
+        "16-23 Nisan 2027 tarihleri arasında",
+        "Gençlik çalışanlarına yönelik",
+        "Erasmus+ destekli eğitim"
+      ],
+      "id": "aec648b9ab8d",
+      "image_queries": [
+        "Tortosa Catalonia Spain",
+        "Spain nature landscape",
+        "outdoor leadership training"
+      ],
+      "is_opportunity": true,
+      "organization": "SALTO-YOUTH",
+      "organization_domain": "salto-youth.net",
+      "queued_at": "2026-11-06T15:54:44.491063+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/ispanyada-7-gunluk-erasmus-egitim-kursu-firsati/",
+      "summary_tr": "İspanya'nın Katalonya bölgesinde düzenlenecek olan bu Erasmus+ eğitim kursu, gençlik çalışanlarının sürdürülebilir liderlik becerilerini geliştirmeyi ve gençlik değişim projelerine hazırlamayı amaçlamaktadır.",
+      "title_tr": "İspanya'da Sürdürülebilir Liderlik Erasmus+ Eğitim Kursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/en/heloland/video-ai-content-creator-intern_20/",
+      "category": "staj",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "2-3 ay süreli uzaktan staj",
+        "Video düzenleme ve yapay zeka araçları deneyimi",
+        "Üniversite öğrencisi veya yeni mezun"
+      ],
+      "id": "992b05b17e6a",
+      "is_opportunity": true,
+      "organization": "helo.land",
+      "organization_domain": "",
+      "queued_at": "2026-11-06T15:54:52.097422+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/heloland/video-ai-content-creator-intern_20/",
+      "summary_tr": "helo.land platformu için video düzenleme, yapay zeka araçlarıyla içerik üretimi ve sosyal medya görsel tasarımı süreçlerinde görev alacak stajyer aranıyor.",
+      "title_tr": "helo.land Video ve Yapay Zeka İçerik Üreticisi Stajyeri",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "İlanın hangi ülkelerden başvurulara açık olduğu belirtilmemiştir.",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.kyoto-u.ac.jp/en/news/2026-11-02",
+      "category": "staj",
+      "country_tr": "Japonya",
+      "deadline": "2027-02-01",
+      "eligibility_evidence": "Western Asia: Armenia; Azerbaijan; Bahrain; Cyprus; Georgia; Iraq; Israel; Jordan; Kuwait; Lebanon; Oman; Qatar; Saudi Arabia; the State of Palestine; the Syrian Arab Republic; Turkey; United Arab Emirates; and Yemen.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (uçak bileti, konaklama ve harçlık dahil)",
+      "highlights_tr": [
+        "Tam burslu: Uçak, konaklama ve harçlık karşılanır",
+        "8 haftalık yaz dönemi araştırma programı",
+        "Lisans öğrencilerine açık"
+      ],
+      "id": "90484ef16c3c",
+      "is_opportunity": true,
+      "organization": "Kyoto University",
+      "organization_domain": "kyoto-u.ac.jp",
+      "queued_at": "2026-11-06T15:55:19.384583+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/kyoto-university-amgen-internship-2027-in-japan/",
+      "summary_tr": "Kyoto Üniversitesi'nde 8 haftalık tam burslu yaz araştırma stajı. Lisans öğrencilerine yönelik program, biyokimya ve biyoteknoloji gibi alanlarda uygulamalı araştırma deneyimi sunmaktadır.",
+      "title_tr": "Kyoto University Amgen Yaz Araştırma Stajı 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.tev.org.tr/burs/tr/27/fiat-tofas-italya-burslari",
+      "category": "burs",
+      "country_tr": "İtalya",
+      "deadline": "2027-03-01",
+      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
+      "fee_required": false,
+      "funding_tr": "26.335 Avro toplam burs desteği",
+      "highlights_tr": [
+        "35 yaş altı T.C. vatandaşları başvurabilir",
+        "Mühendislik alanlarında yüksek lisans",
+        "26.335 Avro toplam burs desteği"
+      ],
+      "id": "9e01cd88d970",
+      "is_opportunity": true,
+      "organization": "Türk Eğitim Vakfı",
+      "organization_domain": "tev.org.tr",
+      "queued_at": "2026-11-06T15:55:39.622863+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tev-fiat-tofas-italya-yuksek-lisans-bursu-basvurulari-devam-ediyor/",
+      "summary_tr": "TEV-FIAT-TOFAŞ iş birliğiyle İtalya'daki üniversitelerde mühendislik alanlarında yüksek lisans yapacak 2 öğrenciye burs desteği sağlanmaktadır.",
+      "title_tr": "TEV-FIAT-TOFAŞ İtalya Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Akcansa/sahaya-ilk-adim-stajyer-laborant-tekirdag-buyukkaristiran-cerkezkoy-silivri_61/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "8 ay süreli yetiştirme programı",
+        "Lise ve ön lisans mezunlarına uygun",
+        "Tekirdağ, Çerkezköy ve Silivri lokasyonları"
+      ],
+      "id": "6f6f5318a853",
+      "is_opportunity": true,
+      "organization": "Akçansa",
+      "organization_domain": "akcansa.com.tr",
+      "queued_at": "2026-11-06T15:55:47.116445+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/Akcansa/sahaya-ilk-adim-stajyer-laborant-tekirdag-buyukkaristiran-cerkezkoy-silivri_61/",
+      "summary_tr": "Akçansa'nın Tekirdağ ve çevresindeki tesislerinde 8 ay sürecek, laboratuvar ve kalite kontrol süreçlerini kapsayan uygulamalı yetiştirme ve staj programı.",
+      "title_tr": "Akçansa Sahaya İlk Adım Yetiştirme Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.coleurope.eu/call-applicants-european-union-diplomatic-programme-enlargement-region-fifth-edition",
+      "category": "egitim",
+      "country_tr": "Belçika",
+      "deadline": "2026-11-15",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Finanse edilen program",
+      "highlights_tr": [
+        "5 ay süreli konaklamalı program",
+        "Diplomat ve kamu görevlilerine özel",
+        "AB dış politikası ve entegrasyon odaklı"
+      ],
+      "id": "90315cde71f6",
+      "is_opportunity": true,
+      "organization": "Avrupa Koleji",
+      "organization_domain": "coleurope.eu",
+      "queued_at": "2026-11-06T15:55:56.640972+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/avrupa-birligi-genisleme-bolgesi-diplomasi-programi-2027-basvurulari-acildi/",
+      "summary_tr": "Avrupa Koleji tarafından düzenlenen, AB genişleme bölgesindeki diplomat ve kamu görevlilerine yönelik 5 aylık diplomasi ve AB süreçleri eğitim programıdır.",
+      "title_tr": "Avrupa Birliği Genişleme Bölgesi Diplomasi Programı 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/en/toyotaboshoku/career-dojo-long-term-internship-programme_2/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "At Toyota Boshoku Türkiye, we're looking for curious, motivated, and ambitious students to join Career Dojo—our long-term internship program at our plant in Sakarya, Arifiye.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "3. ve 4. sınıf lisans öğrencileri için",
+        "Haftada en az 3 gün çalışma zorunluluğu",
+        "İyi derecede İngilizce yetkinliği"
+      ],
+      "id": "7ea6cb792700",
+      "is_opportunity": true,
+      "organization": "Toyota Boshoku Türkiye",
+      "organization_domain": "toyota-boshoku.com",
+      "queued_at": "2026-11-06T15:56:04.125732+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/toyotaboshoku/career-dojo-long-term-internship-programme_2/",
+      "summary_tr": "Toyota Boshoku Türkiye'nin Sakarya Arifiye'deki fabrikasında gerçekleşecek, 3. ve 4. sınıf lisans öğrencilerine yönelik uzun dönem staj programı.",
+      "title_tr": "Toyota Boshoku Türkiye Career Dojo Uzun Dönem Staj Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://www.tev.org.tr/burs/tr/28/daad-almanya-burslari",
+      "category": "burs",
+      "country_tr": "Almanya",
+      "deadline": "2027-02-08",
+      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
+      "fee_required": false,
+      "funding_tr": "2 yıl için ortalama 25.000 Avro",
+      "highlights_tr": [
+        "35 yaş altı T.C. vatandaşları başvurabilir",
+        "Tıp ve Performans Sanatları hariç tüm alanlar",
+        "Minimum 3.0/4.0 not ortalaması şartı"
+      ],
+      "id": "6e8e91735eb0",
+      "is_opportunity": true,
+      "organization": "Türk Eğitim Vakfı",
+      "organization_domain": "tev.org.tr",
+      "queued_at": "2026-11-06T15:56:12.021887+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tev-daad-almanya-yuksek-lisans-bursu-basvurulari-basladi/",
+      "summary_tr": "TEV ve DAAD iş birliğiyle Almanya'daki devlet üniversitelerinde yüksek lisans yapmak isteyen T.C. vatandaşı öğrencilere yönelik burs programıdır.",
+      "title_tr": "TEV-DAAD Almanya Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -3149,6 +3428,12 @@
       "status": "queued",
       "title": "Oxford Ertegun Lisansüstü Burs Programı 2027",
       "ts": "2026-11-03T17:49:35.116796+00:00"
+    },
+    "099418aa1fe4": {
+      "reason": "",
+      "status": "queued",
+      "title": "ETH Zurich Excellence Bursu ve Fırsat Programı (ESOP) 2027",
+      "ts": "2026-11-06T15:54:36.661172+00:00"
     },
     "0a8ba774fa41": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -3648,6 +3933,18 @@
       "title": "Terra Future Labs Girişimcilik Programı",
       "ts": "2026-11-03T23:16:18.398257+00:00"
     },
+    "6e8e91735eb0": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEV-DAAD Almanya Yüksek Lisans Bursu",
+      "ts": "2026-11-06T15:56:12.021905+00:00"
+    },
+    "6f6f5318a853": {
+      "reason": "",
+      "status": "queued",
+      "title": "Akçansa Sahaya İlk Adım Yetiştirme Programı",
+      "ts": "2026-11-06T15:55:47.116462+00:00"
+    },
     "6fa619234ecc": {
       "reason": "",
       "status": "queued",
@@ -3671,6 +3968,12 @@
       "status": "rejected",
       "title": "Summer Internship 2027: Supply Chain",
       "ts": "2026-11-05T10:47:23.820229+00:00"
+    },
+    "7530d4fd2531": {
+      "reason": "",
+      "status": "queued",
+      "title": "Hurford Youth Fellowship 2027 - ABD",
+      "ts": "2026-11-06T15:54:17.280618+00:00"
     },
     "754797dd13a2": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -3713,6 +4016,12 @@
       "status": "queued",
       "title": "Ulusal Staj Programı 2027 Başvuruları",
       "ts": "2026-10-29T09:47:30.212091+00:00"
+    },
+    "7ea6cb792700": {
+      "reason": "",
+      "status": "queued",
+      "title": "Toyota Boshoku Türkiye Career Dojo Uzun Dönem Staj Programı",
+      "ts": "2026-11-06T15:56:04.125755+00:00"
     },
     "81ace53e56f6": {
       "reason": "",
@@ -3774,6 +4083,18 @@
       "title": "Nanyang President’s Graduate Scholarship (NPGS) 2027–2028",
       "ts": "2026-11-06T00:18:25.226776+00:00"
     },
+    "90315cde71f6": {
+      "reason": "",
+      "status": "queued",
+      "title": "Avrupa Birliği Genişleme Bölgesi Diplomasi Programı 2027",
+      "ts": "2026-11-06T15:55:56.640990+00:00"
+    },
+    "90484ef16c3c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Kyoto University Amgen Yaz Araştırma Stajı 2027",
+      "ts": "2026-11-06T15:55:19.384601+00:00"
+    },
     "90b299851cba": {
       "reason": "",
       "status": "queued",
@@ -3804,6 +4125,12 @@
       "title": "Purdue University Summer Fellowship 2027 in USA (Fully Funded)",
       "ts": "2026-11-03T17:49:03.106022+00:00"
     },
+    "992b05b17e6a": {
+      "reason": "",
+      "status": "queued",
+      "title": "helo.land Video ve Yapay Zeka İçerik Üreticisi Stajyeri",
+      "ts": "2026-11-06T15:54:52.097440+00:00"
+    },
     "99a520eb1bf3": {
       "reason": "",
       "status": "queued",
@@ -3821,6 +4148,12 @@
       "status": "queued",
       "title": "Almanya'da ESC Gönüllülük Projesi",
       "ts": "2026-11-04T21:55:12.562433+00:00"
+    },
+    "9e01cd88d970": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEV-FIAT-TOFAŞ İtalya Yüksek Lisans Bursu",
+      "ts": "2026-11-06T15:55:39.622881+00:00"
     },
     "9e068ebdd446": {
       "reason": "",
@@ -3941,6 +4274,12 @@
       "status": "published",
       "title": "UNHCR 2027 Staj Programı",
       "ts": "2026-11-04T15:27:56.392317+00:00"
+    },
+    "aec648b9ab8d": {
+      "reason": "",
+      "status": "queued",
+      "title": "İspanya'da Sürdürülebilir Liderlik Erasmus+ Eğitim Kursu",
+      "ts": "2026-11-06T15:54:44.491081+00:00"
     },
     "aff80a67b189": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -4346,6 +4685,16 @@
     "youth climate justice fund i nsan ve kültür müdürü pozisyonu",
     "nanyang president's graduate scholarship npgs 2027 2028",
     "cern beamline for schools 2027 fizik deneyi yarışması",
-    "everyday english ücretsiz online kursu 2027"
+    "everyday english ücretsiz online kursu 2027",
+    "hurford youth fellowship 2027 abd",
+    "eth zurich excellence bursu ve fırsat programı esop 2027",
+    "i spanya'da sürdürülebilir liderlik erasmus eğitim kursu",
+    "helo land video ve yapay zeka i çerik üreticisi stajyeri",
+    "kyoto university amgen yaz araştırma stajı 2027",
+    "tev fiat tofaş i talya yüksek lisans bursu",
+    "akçansa sahaya i lk adım yetiştirme programı",
+    "avrupa birliği genişleme bölgesi diplomasi programı 2027",
+    "toyota boshoku türkiye career dojo uzun dönem staj programı",
+    "tev daad almanya yüksek lisans bursu"
   ]
 }

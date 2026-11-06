@@ -1,10 +1,18 @@
-# Son çalışma (2026-11-06 10:53 TR)
+# Son çalışma (2026-11-06 18:53 TR)
 
-Kuyruk: 94 · Onay bekleyen: 11 · Hazırlanan: b1b40f7f780c
-Bulunan yeni ilan: 2 · Bu çalışmada işlenmesi planlanan: 2 · Raporlanan: 2
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 27 kayıt
+Kuyruk: 104 · Onay bekleyen: 11 · Hazırlanan: -
+Bulunan yeni ilan: 16 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
+Kaynaklar: Opportunities Corners: 2 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 8 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 5 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 25 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| kuyrukta | Opportunities Circle | Everyday English Ücretsiz Online Kursu 2027 | kanıt: Individuals from all nationalities are eligible for the Everyday English Free Course 2027. · son tarih: - · link: https://www.open.edu/openlearn/languages/everyday-english-1/content-section-overview?active-tab=description-tab · görsel: kurum logosu aranacak (OpenLearn; stok foto yok) |
-| elendi | Kariyer Kapısı | MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ - Sözleşmeli Personel Alım İlanı (06.11.2026) | tekrar |
+| kuyrukta | Opportunities Corners | Hurford Youth Fellowship 2027 - ABD | kanıt: The fellowship is open to applicants from all countries. · son tarih: 2026-11-30 · link: https://www.ned.org/fellowships/hurford-youth-fellows-program/ · görsel: kurum logosu aranacak (National Endowment for Democracy; stok foto yok) |
+| kuyrukta | Opportunities Circle | ETH Zurich Excellence Bursu ve Fırsat Programı (ESOP) 2027 | kanıt: ETH Zurich Scholarship Program 2027 attracts talented students from European and non-EU countries to shine in their respective fields. · son tarih: 2026-11-30 · link: https://www.lehrbetrieb.ethz.ch/eApply/ealogin.view?lang=en · görsel: kurum logosu aranacak (ETH Zurich; stok foto yok) |
+| kuyrukta | AB İlan | İspanya'da Sürdürülebilir Liderlik Erasmus+ Eğitim Kursu | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2027-02-04 · link: https://www.salto-youth.net/tools/european-training-calendar/training/sustainable-leadership.15152/ · foto: Tortosa Catalonia Spain / Spain nature landscape / outdoor leadership training |
+| kuyrukta | Youthall | helo.land Video ve Yapay Zeka İçerik Üreticisi Stajyeri | kanıt: Kaynak Türkiye merkezli (Youthall) · son tarih: - · link: https://www.youthall.com/en/heloland/video-ai-content-creator-intern_20/ · görsel: kurum logosu aranacak (helo.land; stok foto yok) |
+| kuyrukta | Opportunities Corners | Kyoto University Amgen Yaz Araştırma Stajı 2027 | kanıt: Western Asia: Armenia; Azerbaijan; Bahrain; Cyprus; Georgia; Iraq; Israel; Jordan; Kuwait; Lebanon; Oman; Qatar; Saudi Arabia; the State of Palestine; the Syrian Arab Rep · son tarih: 2027-02-01 · link: https://www.kyoto-u.ac.jp/en/news/2026-11-02 |
+| kuyrukta | AB İlan | TEV-FIAT-TOFAŞ İtalya Yüksek Lisans Bursu | kanıt: T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak, · son tarih: 2027-03-01 · link: https://www.tev.org.tr/burs/tr/27/fiat-tofas-italya-burslari · görsel: kurum logosu aranacak (Türk Eğitim Vakfı; stok foto yok) |
+| kuyrukta | Youthall | Akçansa Sahaya İlk Adım Yetiştirme Programı | kanıt: Kaynak Türkiye merkezli (Youthall) · son tarih: - · link: https://www.youthall.com/tr/Akcansa/sahaya-ilk-adim-stajyer-laborant-tekirdag-buyukkaristiran-cerkezkoy-silivri_61/ · görsel: kurum logosu aranacak (Akçansa; stok foto yok) |
+| kuyrukta | AB İlan | Avrupa Birliği Genişleme Bölgesi Diplomasi Programı 2027 | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2026-11-15 · link: https://www.coleurope.eu/call-applicants-european-union-diplomatic-programme-enlargement-region-fifth-edition · görsel: kurum logosu aranacak (Avrupa Koleji; stok foto yok) |
+| kuyrukta | Youthall | Toyota Boshoku Türkiye Career Dojo Uzun Dönem Staj Programı | kanıt: At Toyota Boshoku Türkiye, we're looking for curious, motivated, and ambitious students to join Career Dojo—our long-term internship program at our plant in Sakarya, Arif · son tarih: - · link: https://www.youthall.com/en/toyotaboshoku/career-dojo-long-term-internship-programme_2/ · görsel: kurum logosu aranacak (Toyota Boshoku Türkiye; stok foto yok) |
+| kuyrukta | AB İlan | TEV-DAAD Almanya Yüksek Lisans Bursu | kanıt: T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak, · son tarih: 2027-02-08 · link: https://www.tev.org.tr/burs/tr/28/daad-almanya-burslari · görsel: kurum logosu aranacak (Türk Eğitim Vakfı; stok foto yok) |
