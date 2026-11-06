@@ -111,7 +111,15 @@
     "mcwglobal.org/young-leaders-fellowship-2027",
     "salto-youth.net/tools/european-training-calendar/training/let-s-dare-the-inner-journey-from-self-to-us-training-course.14943",
     "emmir.org/application-procedures",
-    "santafe.edu/engage/learn/programs/undergraduate-complexity-research"
+    "santafe.edu/engage/learn/programs/undergraduate-complexity-research",
+    "europeanvoiceassembly.org/application.php?category=fully_funded",
+    "humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-residency-programme/humboldt-residency-programme-call-for-applications",
+    "kariyer.aa.com.tr/jobs",
+    "youthall.com/tr/hupalupamagaza/satis-danismani_3",
+    "kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be",
+    "upsallinternational.com/jobs/manger-of-people-and-culture",
+    "ntu.edu.sg/admissions/graduate/financialmatters/scholarships",
+    "beamlineforschools.cern"
   ],
   "outbox": [
     {
@@ -420,6 +428,39 @@
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metinde Türkiye vatandaşlarının başvurabileceğine dair açık bir ifade bulunmamaktadır; sadece ABD'de bulunma şartı belirtilmiştir.",
       "visual_kind": "institution"
+    },
+    "e385ac26dfa0": {
+      "apply_link_id": 2,
+      "apply_url": "https://europeanvoiceassembly.org/application.php?category=fully_funded",
+      "category": "yarisma",
+      "country_tr": "Malezya",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "Be a citizen of any country.",
+      "fee_required": true,
+      "funding_tr": "Tam burs (uçak bileti, konaklama ve yemekler dahil)",
+      "highlights_tr": [
+        "16-35 yaş arası tüm ülke vatandaşlarına açık",
+        "Tam burslu katılım imkanı",
+        "Kuala Lumpur'da 5 günlük uluslararası etkinlik"
+      ],
+      "id": "e385ac26dfa0",
+      "image_queries": [
+        "Kuala Lumpur city skyline",
+        "Malaysia university students",
+        "students debating in classroom"
+      ],
+      "is_opportunity": true,
+      "message_id": 17,
+      "organization": "European Voice Assembly",
+      "organization_domain": "europeanvoiceassembly.org",
+      "queued_at": "2026-11-06T00:17:00.462440+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/global-debate-championship-2026-in-malaysia/",
+      "summary_tr": "Malezya'nın Kuala Lumpur şehrinde düzenlenecek olan Global Debate Championship 2026, 16-35 yaş arası gençleri parlamenter münazara ve diplomasi üzerine bir araya getiriyor.",
+      "title_tr": "Global Debate Championship 2026 - Malezya",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Katılım ücreti var.",
+      "visual_kind": "scene"
     }
   },
   "published": [
@@ -2883,6 +2924,194 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-residency-programme/humboldt-residency-programme-call-for-applications",
+      "category": "egitim",
+      "country_tr": "Almanya",
+      "deadline": "2026-12-14",
+      "eligibility_evidence": "The programme welcomes applicants from different countries and disciplines, subject to the eligibility requirements of their respective participant categories.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (yol, konaklama, aylık ödenek)",
+      "highlights_tr": [
+        "Almanya'da 6 haftalık tam kapsamlı program",
+        "Araştırmacılar, sanatçılar ve STK çalışanları için",
+        "Okyanus sağlığı ve sürdürülebilirlik temalı"
+      ],
+      "id": "5df74c20436c",
+      "image_queries": [
+        "Brandenburg Germany landscape",
+        "Germany research residency",
+        "international academic collaboration"
+      ],
+      "is_opportunity": true,
+      "organization": "Alexander von Humboldt Foundation",
+      "organization_domain": "humboldt-foundation.de",
+      "queued_at": "2026-11-06T00:17:07.305433+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/05/humboldt-residency-programme-2027-fully-funded-six-week-international-residency-in-germany-for-researchers-creatives-and-civil-society-practitioners/",
+      "summary_tr": "Alexander von Humboldt Vakfı tarafından düzenlenen, araştırmacılar, sanatçılar ve sivil toplum çalışanlarına yönelik 6 haftalık disiplinlerarası uluslararası misafir programı.",
+      "title_tr": "Humboldt Residency Programme 2027: Almanya'da Araştırma Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://kariyer.aa.com.tr/jobs",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-27",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Lisans 3. veya 4. sınıf öğrencisi olma şartı",
+        "Zorunlu staj veya sigorta desteği belgesi gerekli",
+        "En fazla 30 iş günü staj imkanı"
+      ],
+      "id": "acddf474fad2",
+      "is_opportunity": true,
+      "organization": "Anadolu Ajansı",
+      "organization_domain": "aa.com.tr",
+      "queued_at": "2026-11-06T00:17:16.193090+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/anadolu-ajansi-ajans-staj-ve-yurt-staj-programi-basvurulari-acildi-2/",
+      "summary_tr": "Anadolu Ajansı, Ankara, İstanbul ve 14 farklı bölge müdürlüğünde lisans 3. ve 4. sınıf öğrencileri için kış dönemi staj programı başvurularını başlattı.",
+      "title_tr": "Anadolu Ajansı Kış Dönemi Staj Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/hupalupamagaza/satis-danismani_3/",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Maaş belirtilmemiş",
+      "highlights_tr": [
+        "En az lise mezunu olma şartı",
+        "Perakende sektöründe kariyer imkanı",
+        "Dinamik ve enerjik çalışma ortamı"
+      ],
+      "id": "27b1a060f399",
+      "is_opportunity": true,
+      "organization": "HUPALUPA STORE",
+      "organization_domain": "",
+      "queued_at": "2026-11-06T00:17:23.722020+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/hupalupamagaza/satis-danismani_3/",
+      "summary_tr": "HUPALUPA STORE, mağazalarında görevlendirmek üzere müşteri deneyimine önem veren, perakende sektöründe çalışmaya istekli satış danışmanları arıyor.",
+      "title_tr": "HUPALUPA STORE Mağaza Satış Danışmanı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı kadrolu pozisyon",
+      "highlights_tr": [
+        "Kariyer meslek statüsünde alım",
+        "İlgili lisans bölümleri için geçerli",
+        "Başvurular e-Devlet üzerinden yapılacak"
+      ],
+      "icon": "landmark",
+      "id": "fcf39bc2a802",
+      "is_opportunity": true,
+      "organization": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI",
+      "organization_domain": "sgk.gov.tr",
+      "queued_at": "2026-11-06T00:17:45.930068+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be",
+      "summary_tr": "Sosyal Güvenlik Kurumu Başkanlığı tarafından Hukuk, Siyasal Bilgiler, İktisadi ve İdari Bilimler, İktisat ve İşletme mezunlarına yönelik Sosyal Güvenlik Denetmen Yardımcılığı alımı yapılacaktır.",
+      "title_tr": "Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://upsallinternational.com/jobs/manger-of-people-and-culture/",
+      "category": "is",
+      "country_tr": "Online",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "The position offers an exciting opportunity for an experienced HR professional to join an international, youth-led organization supporting climate justice movements worldwide.",
+      "fee_required": false,
+      "funding_tr": "Yıllık 65.000 USD maaş ve yan haklar",
+      "highlights_tr": [
+        "Tam zamanlı ve tamamen uzaktan çalışma imkanı",
+        "Yıllık 65.000 USD maaş ve yan haklar",
+        "En az 5 yıl profesyonel deneyim şartı"
+      ],
+      "id": "182624f6840b",
+      "is_opportunity": true,
+      "organization": "Youth Climate Justice Fund",
+      "organization_domain": "",
+      "queued_at": "2026-11-06T00:18:01.499461+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/05/youth-climate-justice-fund-manager-of-people-and-culture-2026/",
+      "summary_tr": "Youth Climate Justice Fund, dünya genelinde uzaktan çalışacak, insan kaynakları ve organizasyonel gelişim alanında en az beş yıl deneyimli bir İnsan ve Kültür Müdürü arıyor.",
+      "title_tr": "Youth Climate Justice Fund İnsan ve Kültür Müdürü Pozisyonu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 3,
+      "apply_url": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships",
+      "category": "burs",
+      "country_tr": "Singapur",
+      "deadline": "2026-12-31",
+      "eligibility_evidence": "It is open to applicants of all nationalities, making it an opportunity for qualified international students",
+      "fee_required": false,
+      "funding_tr": "Tam burs, aylık yaşam desteği ve ek ödenekler",
+      "highlights_tr": [
+        "Tam doktora bursu ve aylık 4.300 S$ yaşam desteği",
+        "Tüm milletlerden adaylara açık",
+        "Akademik başarı ve araştırma potansiyeli şartı"
+      ],
+      "id": "900cd1adb7cb",
+      "is_opportunity": true,
+      "organization": "Nanyang Technological University",
+      "organization_domain": "ntu.edu.sg",
+      "queued_at": "2026-11-06T00:18:25.226754+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/05/nanyang-presidents-graduate-scholarship-2027-2028-in-singapore-fully-funded-phd-scholarship-at-ntu-for-international-students/",
+      "summary_tr": "Nanyang Technological University (NTU) tarafından sunulan bu doktora bursu, uluslararası öğrencilere tam eğitim ücreti muafiyeti, aylık 4.300 S$ yaşam desteği ve çeşitli araştırma ödenekleri sağlamaktadır.",
+      "title_tr": "Nanyang President’s Graduate Scholarship (NPGS) 2027–2028",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 4,
+      "apply_url": "https://beamlineforschools.cern/",
+      "category": "yarisma",
+      "country_tr": "İsviçre ve Almanya",
+      "deadline": "2027-03-12",
+      "eligibility_evidence": "The competition is open to high-school and secondary-school students from around the world.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (yol, konaklama ve yemekler karşılanır)",
+      "highlights_tr": [
+        "Lise öğrencilerine açık",
+        "Uluslararası katılım",
+        "Tam kapsamlı seyahat desteği"
+      ],
+      "id": "5484b42a3419",
+      "is_opportunity": true,
+      "organization": "CERN",
+      "organization_domain": "cern.ch",
+      "queued_at": "2026-11-06T00:19:20.348766+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/05/cern-beamline-for-schools-competition-2027-high-school-students-worldwide-invited-to-propose-physics-experiments-at-cern-desy-and-elsa/",
+      "summary_tr": "Lise öğrencilerinin parçacık hızlandırıcılarında gerçekleştirilecek fizik deneyi projeleri tasarlayıp sunduğu uluslararası bir yarışmadır. Kazanan takımlar CERN veya DESY'de deney yapma şansı kazanır.",
+      "title_tr": "CERN Beamline for Schools 2027 Fizik Deneyi Yarışması",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -2958,6 +3187,12 @@
       "title": "Zafer Kalkınma Ajansı Uzman Personel Alımı",
       "ts": "2026-11-04T06:08:28.518442+00:00"
     },
+    "182624f6840b": {
+      "reason": "",
+      "status": "queued",
+      "title": "Youth Climate Justice Fund İnsan ve Kültür Müdürü Pozisyonu",
+      "ts": "2026-11-06T00:18:01.499480+00:00"
+    },
     "1a09fc4eeebd": {
       "reason": "",
       "status": "queued",
@@ -3024,6 +3259,12 @@
       "title": "UNDP Online Volunteer Opportunity 2026: 12 Research Support Positions in Biodiversity and Ecosystem Services Across Sout",
       "ts": "2026-10-30T09:52:27.706218+00:00"
     },
+    "2641a653ed64": {
+      "reason": "Türkiye'ye kapalı: Applications are open to eligible young Tanzanians aged between 15 and 24 years",
+      "status": "rejected",
+      "title": "The United Nations Population Fund (UNFPA) Tanzania Youth Advisory Panel (YAP) Membership 2027–2029: Call for Applicatio",
+      "ts": "2026-11-06T00:18:10.387650+00:00"
+    },
     "27289da2aca9": {
       "reason": "Katılım ücreti var.",
       "status": "pending",
@@ -3035,6 +3276,12 @@
       "status": "queued",
       "title": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
       "ts": "2026-10-28T20:13:25.846638+00:00"
+    },
+    "27b1a060f399": {
+      "reason": "",
+      "status": "queued",
+      "title": "HUPALUPA STORE Mağaza Satış Danışmanı",
+      "ts": "2026-11-06T00:17:23.722038+00:00"
     },
     "28e95850d472": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -3234,6 +3481,12 @@
       "title": "Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı",
       "ts": "2026-11-05T10:46:50.381092+00:00"
     },
+    "5484b42a3419": {
+      "reason": "",
+      "status": "queued",
+      "title": "CERN Beamline for Schools 2027 Fizik Deneyi Yarışması",
+      "ts": "2026-11-06T00:19:20.348785+00:00"
+    },
     "56a1b38aff04": {
       "reason": "",
       "status": "queued",
@@ -3269,6 +3522,12 @@
       "status": "rejected",
       "title": "Summer Internship 2027: Sales",
       "ts": "2026-11-05T10:46:35.281773+00:00"
+    },
+    "5df74c20436c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Humboldt Residency Programme 2027: Almanya'da Araştırma Programı",
+      "ts": "2026-11-06T00:17:07.305453+00:00"
     },
     "5ee0d91f06c3": {
       "reason": "",
@@ -3498,6 +3757,12 @@
       "title": "Aranan meslekler AI Developer ve Data Scientist…",
       "ts": "2026-10-29T09:47:54.685040+00:00"
     },
+    "900cd1adb7cb": {
+      "reason": "",
+      "status": "queued",
+      "title": "Nanyang President’s Graduate Scholarship (NPGS) 2027–2028",
+      "ts": "2026-11-06T00:18:25.226776+00:00"
+    },
     "90b299851cba": {
       "reason": "",
       "status": "queued",
@@ -3582,6 +3847,12 @@
       "title": "New Graduates 2027: Information Technology Manager",
       "ts": "2026-11-05T02:24:41.869105+00:00"
     },
+    "a290da2c6644": {
+      "reason": "Türkiye'ye kapalı: Applicants must meet the programme’s US citizenship or residency requirements, work authorisation requirements and US in",
+      "status": "rejected",
+      "title": "UCLA Public Health Scholars Training Program 2027: $4,000 Stipend, Free Campus Housing and an 8-Week Public Health Inter",
+      "ts": "2026-11-06T00:18:35.980172+00:00"
+    },
     "a3221c8aa044": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "pending",
@@ -3647,6 +3918,12 @@
       "status": "queued",
       "title": "Almanya Osnabrück'te Uzun Dönem ESC Gönüllülük Projesi",
       "ts": "2026-11-03T17:49:26.285205+00:00"
+    },
+    "acddf474fad2": {
+      "reason": "",
+      "status": "queued",
+      "title": "Anadolu Ajansı Kış Dönemi Staj Programı",
+      "ts": "2026-11-06T00:17:16.193109+00:00"
     },
     "ae80b0962a3f": {
       "reason": "",
@@ -3822,6 +4099,12 @@
       "title": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı",
       "ts": "2026-10-30T00:49:13.109123+00:00"
     },
+    "e385ac26dfa0": {
+      "reason": "Katılım ücreti var.",
+      "status": "pending",
+      "title": "Global Debate Championship 2026 in Malaysia (Fully Funded)",
+      "ts": "2026-11-06T00:17:00.462459+00:00"
+    },
     "e4a654486ed3": {
       "reason": "",
       "status": "queued",
@@ -3899,6 +4182,12 @@
       "status": "queued",
       "title": "Henkel Step Up Inclusive Uzun Dönemli Staj Programı",
       "ts": "2026-10-30T17:59:09.660357+00:00"
+    },
+    "fcf39bc2a802": {
+      "reason": "",
+      "status": "queued",
+      "title": "Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı",
+      "ts": "2026-11-06T00:17:45.930089+00:00"
     },
     "fd4a76690f14": {
       "reason": "",
@@ -4031,6 +4320,14 @@
     "mcw young leaders fellowship 2027 abd",
     "fransa'da erasmus eğitim kursu ezilenlerin tiyatrosu",
     "erasmus mundus emmir 2027 yüksek lisans bursu",
-    "santa fe institute ucr yaz araştırma programı 2027"
+    "santa fe institute ucr yaz araştırma programı 2027",
+    "global debate championship 2026 malezya",
+    "humboldt residency programme 2027 almanya'da araştırma programı",
+    "anadolu ajansı kış dönemi staj programı",
+    "hupalupa store mağaza satış danışmanı",
+    "sosyal güvenlik kurumu sosyal güvenlik denetmen yardımcılığı alımı",
+    "youth climate justice fund i nsan ve kültür müdürü pozisyonu",
+    "nanyang president's graduate scholarship npgs 2027 2028",
+    "cern beamline for schools 2027 fizik deneyi yarışması"
   ]
 }

@@ -1,18 +1,18 @@
-# Son çalışma (2026-11-05 21:42 TR)
+# Son çalışma (2026-11-06 03:16 TR)
 
-Kuyruk: 87 · Onay bekleyen: 10 · Hazırlanan: ab17b962f612
-Bulunan yeni ilan: 13 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
-Kaynaklar: Opportunities Corners: 4 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 1 yeni / 8 kayıt · Opportunities Circle: 2 yeni / 10 kayıt · AB İlan: 3 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 3 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 25 kayıt
+Kuyruk: 94 · Onay bekleyen: 11 · Hazırlanan: -
+Bulunan yeni ilan: 14 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
+Kaynaklar: Opportunities Corners: 1 yeni / 6 kayıt · Opportunities For Youth: 10 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 1 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 1 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 26 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| kuyrukta | Opportunities Corners | MCW Young Leaders Fellowship 2027 (ABD) | kanıt: Young leaders from all around the world are eligible. · son tarih: 2026-12-03 · link: https://mcwglobal.org/young-leaders-fellowship-2027/ |
-| kuyrukta | Erasmusgram | Fransa'da Erasmus+ Eğitim Kursu: Ezilenlerin Tiyatrosu | kanıt: Kaynak Türkiye merkezli (Erasmusgram) · son tarih: - · link: https://www.salto-youth.net/tools/european-training-calendar/training/let-s-dare-the-inner-journey-from-self-to-us-training-course.14943/ · foto: Piegros-la-Clastre France landscape / France youth training course / theatre workshop students |
-| elendi | Opportunities Circle | Caltech Summer Undergraduate Research Fellowship 2027 in USA | tekrar |
-| elendi | AB İlan | Fransa’da Erasmus+ Eğitim Kursu Fırsatı | tekrar |
-| elendi | Youthall | New Graduates 2027: Supply Chain Manager | tekrar |
-| elendi | Opportunities Corners | Young Security Conference 2026/2027 in Germany (Fully Funded) | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link) |
-| onayda | Opportunities Circle | Erasmus Mundus EMMIR 2027 Yüksek Lisans Bursu | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2026-12-20 · link: https://www.emmir.org/application-procedures · foto: European university campus / Germany university students / students studying library |
-| elendi | AB İlan | Eureka Network Türkiye-İspanya 2026 Yılı Çağrısı için Başvurular Devam Ediyor | fırsat değil (haber/liste/reklam) |
-| elendi | Youthall | New Graduates 2027: Purchases Manager | tekrar |
-| kuyrukta | Opportunities Corners | Santa Fe Institute UCR Yaz Araştırma Programı 2027 | kanıt: The SFI UCR welcomes applicants from any country. · son tarih: 2027-01-13 · link: https://www.santafe.edu/engage/learn/programs/undergraduate-complexity-research · foto: Santa Fe New Mexico / USA university research lab / students working in laboratory |
+| onayda | Opportunities Corners | Global Debate Championship 2026 - Malezya | Katılım ücreti var. · son tarih: 2026-12-01 · link: https://europeanvoiceassembly.org/application.php?category=fully_funded · foto: Kuala Lumpur city skyline / Malaysia university students / students debating in classroom |
+| kuyrukta | Opportunities For Youth | Humboldt Residency Programme 2027: Almanya'da Araştırma Programı | kanıt: The programme welcomes applicants from different countries and disciplines, subject to the eligibility requirements of their respective participant categories. · son tarih: 2026-12-14 · link: https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-residency-programme/humboldt-residency-programme-call-for-applications · foto: Brandenburg Germany landscape / Germany research residency / international academic collaboration |
+| kuyrukta | AB İlan | Anadolu Ajansı Kış Dönemi Staj Programı | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2026-11-27 · link: https://kariyer.aa.com.tr/jobs · görsel: kurum logosu aranacak (Anadolu Ajansı; stok foto yok) |
+| kuyrukta | Youthall | HUPALUPA STORE Mağaza Satış Danışmanı | kanıt: Kaynak Türkiye merkezli (Youthall) · son tarih: - · link: https://www.youthall.com/tr/hupalupamagaza/satis-danismani_3/ · görsel: kurum logosu aranacak (HUPALUPA STORE; stok foto yok) |
+| kuyrukta | Kariyer Kapısı | Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be · görsel: kurum logosu aranacak (SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI; stok foto yok) |
+| kuyrukta | Opportunities For Youth | Youth Climate Justice Fund İnsan ve Kültür Müdürü Pozisyonu | kanıt: The position offers an exciting opportunity for an experienced HR professional to join an international, youth-led organization supporting climate justice movements world · son tarih: 2026-11-30 · link: https://upsallinternational.com/jobs/manger-of-people-and-culture/ · görsel: kurum logosu aranacak (Youth Climate Justice Fund; stok foto yok) |
+| elendi | Opportunities For Youth | The United Nations Population Fund (UNFPA) Tanzania Youth Advisory Panel (YAP) M | Türkiye'ye kapalı: Applications are open to eligible young Tanzanians aged between 15 and 24 years |
+| kuyrukta | Opportunities For Youth | Nanyang President’s Graduate Scholarship (NPGS) 2027–2028 | kanıt: It is open to applicants of all nationalities, making it an opportunity for qualified international students · son tarih: 2026-12-31 · link: https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships · görsel: kurum logosu aranacak (Nanyang Technological University; stok foto yok) |
+| elendi | Opportunities For Youth | UCLA Public Health Scholars Training Program 2027: $4,000 Stipend, Free Campus H | Türkiye'ye kapalı: Applicants must meet the programme’s US citizenship or residency requirements, work authorisation requirements and US in |
+| kuyrukta | Opportunities For Youth | CERN Beamline for Schools 2027 Fizik Deneyi Yarışması | kanıt: The competition is open to high-school and secondary-school students from around the world. · son tarih: 2027-03-12 · link: https://beamlineforschools.cern/ |
