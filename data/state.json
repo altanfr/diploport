@@ -135,10 +135,41 @@
     "docs.google.com/forms/d/e/1FAIpQLScvO2wVYMAxxb3n12PVC4CF8os8heNgRfa3JtMAMEZZA1GvNw/viewform",
     "hzdr.de/db/!Conference.SummerStudents.Registration?pLang=en&pNid=2535",
     "youthall.com/tr/Akcansa/long-term-intern-corporate-communications_60",
-    "youthall.com/tr/Akcansa/long-term-intern-human-resources_59"
+    "youthall.com/tr/Akcansa/long-term-intern-human-resources_59",
+    "docs.google.com/forms/d/e/1FAIpQLScnSQCEoYpqfAxNaC1CK3v7sF18Jt57ol143vdQPe88sO-q7w/viewform",
+    "geleceginikurangenckadinlar.org/kariyer-danismanligi",
+    "job-boards.greenhouse.io/anthropic/jobs/5438311008"
   ],
   "outbox": [],
   "pending": {
+    "137fb7c9f331": {
+      "apply_link_id": 1,
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5438311008",
+      "category": "is",
+      "country_tr": "ABD, Birleşik Krallık veya Uzaktan",
+      "deadline": "2026-11-22",
+      "eligibility_evidence": "The Anthropic Residency is now accepting applications from experienced technical professionals, researchers, professors, founders, and engineers who want to transition into full-time artificial intelligence (AI) research.",
+      "fee_required": false,
+      "funding_tr": "Yıllık 350.000–500.000 dolar eşdeğeri ücret",
+      "highlights_tr": [
+        "Deneyimli teknik profesyonellere yöneliktir",
+        "6 hafta, 3 ay veya 6 ay süreli seçenekler",
+        "Makine öğrenimi deneyimi şart değildir"
+      ],
+      "id": "137fb7c9f331",
+      "is_opportunity": true,
+      "message_id": 19,
+      "organization": "Anthropic",
+      "organization_domain": "anthropic.com",
+      "queued_at": "2026-11-07T01:56:32.832714+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/06/anthropic-residency-2026-paid-ai-safety-research-program-for-established-technical-leaders-applications-open/",
+      "summary_tr": "Anthropic, deneyimli teknik profesyonellerin yapay zeka araştırmalarına geçiş yapmasını sağlayan, mentorluk ve ileri düzey kaynaklar sunan ücretli bir araştırma programıdır.",
+      "title_tr": "Anthropic Residency 2026: Yapay Zeka Güvenliği Araştırma Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
+      "visual_kind": "institution"
+    },
     "27289da2aca9": {
       "apply_link_id": 1,
       "apply_url": "https://universalyouthmovement.org/uyls-malaysia-2027/",
@@ -3510,6 +3541,60 @@
       "title_tr": "Long-Term Intern – Human Resources",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScnSQCEoYpqfAxNaC1CK3v7sF18Jt57ol143vdQPe88sO-q7w/viewform",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-11-15",
+      "eligibility_evidence": "Geleceği Keşfedenler Programı 5. yılında, Türkiye’nin dört bir yanındaki liseli gençleri bilimsel düşünce, dijital beceriler, teknoloji ve biyoteknoloji odağında ücretsiz ve çevrim içi öğrenme deneyimleriyle buluşturmaya devam ediyor.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Lise öğrencilerine özel",
+        "Tamamen ücretsiz ve çevrim içi",
+        "Katılım belgesi imkanı"
+      ],
+      "id": "afd91a34aeb6",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "Geleceği Keşfedenler",
+      "organization_domain": "",
+      "queued_at": "2026-11-07T01:55:52.553560+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/gelecegi-kesfedenler-programi-dijital-beceriler-ve-teknoloji-modulu-katilimcilarini-ariyor/",
+      "summary_tr": "Lise öğrencilerine yönelik dijital dönüşüm, yapay zeka ve veri okuryazarlığı konularında ücretsiz ve çevrim içi eğitim programı.",
+      "title_tr": "Geleceği Keşfedenler Programı: Dijital Beceriler ve Teknoloji Modülü",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://geleceginikurangenckadinlar.org/kariyer-danismanligi/",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "18-35 yaş arası genç kadınlar için",
+        "Online kariyer danışmanlığı hizmeti",
+        "CV, mülakat ve iş arama desteği"
+      ],
+      "id": "e3ab2862dfe6",
+      "is_opportunity": true,
+      "organization": "Geleceğini Kuran Genç Kadınlar",
+      "organization_domain": "geleceginikurangenckadinlar.org",
+      "queued_at": "2026-11-07T01:56:15.957840+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/gelecegini-kuran-genc-kadinlar-kariyer-danismanligi-aralik-grubu-basvurularinizi-bekliyor/",
+      "summary_tr": "NEET durumundaki 18-35 yaş arası genç kadınlara yönelik, CV hazırlama, mülakat simülasyonları ve kariyer planlama desteği sunan online danışmanlık programı.",
+      "title_tr": "Geleceğini Kuran Genç Kadınlar Kariyer Danışmanlığı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -3578,6 +3663,18 @@
       "status": "rejected",
       "title": "Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı Yapacak",
       "ts": "2026-11-06T21:29:22.592042+00:00"
+    },
+    "137fb7c9f331": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
+      "status": "pending",
+      "title": "Anthropic Residency 2026: Paid AI Safety Research Program for Established Technical Leaders – Applications Open",
+      "ts": "2026-11-07T01:56:32.832733+00:00"
+    },
+    "14122dea7017": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Arizona State University School of Criminology and Criminal Justice: Explore World-Class Undergraduate and Graduate Degr",
+      "ts": "2026-11-07T01:55:09.939323+00:00"
     },
     "1571e08017b2": {
       "reason": "",
@@ -4443,6 +4540,12 @@
       "title": "İspanya'da Sürdürülebilir Liderlik Erasmus+ Eğitim Kursu",
       "ts": "2026-11-06T15:54:44.491081+00:00"
     },
+    "afd91a34aeb6": {
+      "reason": "",
+      "status": "queued",
+      "title": "Geleceği Keşfedenler Programı: Dijital Beceriler ve Teknoloji Modülü",
+      "ts": "2026-11-07T01:55:52.553576+00:00"
+    },
     "aff80a67b189": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -4454,6 +4557,12 @@
       "status": "rejected",
       "title": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ - Sözleşmeli Personel Alım İlanı (06.11.2026)",
       "ts": "2026-11-06T07:54:06.811360+00:00"
+    },
+    "b08e17ef11f8": {
+      "reason": "Türkiye'ye kapalı: The 2027 cohort will comprise 20 young women political leaders and politicians from across Africa and the Diaspora.",
+      "status": "rejected",
+      "title": "I AM NALA Fellowship 2027: Call for Applications for Young African Women Survivors of Technology-Facilitated Gender-Base",
+      "ts": "2026-11-07T01:56:03.656431+00:00"
     },
     "b1829cbf6dbd": {
       "reason": "",
@@ -4628,6 +4737,12 @@
       "status": "pending",
       "title": "Global Debate Championship 2026 in Malaysia (Fully Funded)",
       "ts": "2026-11-06T00:17:00.462459+00:00"
+    },
+    "e3ab2862dfe6": {
+      "reason": "",
+      "status": "queued",
+      "title": "Geleceğini Kuran Genç Kadınlar Kariyer Danışmanlığı",
+      "ts": "2026-11-07T01:56:15.957858+00:00"
     },
     "e4a654486ed3": {
       "reason": "",
@@ -4874,6 +4989,9 @@
     "i talya'da erasmus gençlik eğitimi projesi",
     "hzdr yaz öğrenci programı 2027 almanya",
     "kurumsal i letişim uzun dönem stajyeri",
-    "long term intern human resources"
+    "long term intern human resources",
+    "geleceği keşfedenler programı dijital beceriler ve teknoloji modülü",
+    "geleceğini kuran genç kadınlar kariyer danışmanlığı",
+    "anthropic residency 2026 yapay zeka güvenliği araştırma programı"
   ]
 }
