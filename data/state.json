@@ -143,18 +143,7 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
     "nusuk.sa"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfgwKPQ4xfB8znTRu3bJ_HbpK2Vc_9p-6jL-MEwNSmlVJ_kqQ/viewform",
-      "attempts": 0,
-      "caption": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu\n\nİtalya'nın Agrigento kentinde düzenlenecek olan Erasmus+ eğitim kursu, gençlik çalışmalarında yapay zekâ kullanımı, etik ve dijital araçlar üzerine odaklanmaktadır. 1-9 Aralık tarihleri arasında gerçekleşecektir.\n\n- 1-9 Aralık tarihleri arasında gerçekleşecek\n- İngilizce iletişim kurabilecek düzeyde dil becerisi\n- Konaklama, yemek ve seyahat masrafları karşılanıyor\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSfgwKPQ4xfB8znTRu3bJ_HbpK2Vc_9p-6jL-MEwNSmlVJ_kqQ/viewform\nTüm fırsatlar: https://diploport.dev/#276be86740ef\n\nGörsel: Dario Ciraulo / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "276be86740ef",
-      "photo_query": "Agrigento Italy landscape",
-      "source": "Erasmusgram",
-      "title": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
-      "ts": "2026-11-07T15:39:20.968663+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -626,6 +615,13 @@
       "photo_query": "logo: Kamu İhale Kurumu (Vikipedi (tr))",
       "source": "Kariyer Kapısı",
       "ts": "2026-11-07T08:43:17.499184+00:00"
+    },
+    {
+      "id": "276be86740ef",
+      "official": "https://docs.google.com/forms/d/e/1FAIpQLSfgwKPQ4xfB8znTRu3bJ_HbpK2Vc_9p-6jL-MEwNSmlVJ_kqQ/viewform",
+      "photo_query": "Agrigento Italy landscape",
+      "source": "Erasmusgram",
+      "ts": "2026-11-07T15:39:54.146879+00:00"
     }
   ],
   "queue": [
@@ -3837,9 +3833,9 @@
     },
     "276be86740ef": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
-      "ts": "2026-10-28T20:13:25.846638+00:00"
+      "ts": "2026-11-07T15:39:54.146899+00:00"
     },
     "27b1a060f399": {
       "reason": "",
