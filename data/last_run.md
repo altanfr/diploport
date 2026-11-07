@@ -1,11 +1,9 @@
-# Son çalışma (2026-11-07 18:38 TR)
+# Son çalışma (2026-11-07 23:12 TR)
 
-Kuyruk: 110 · Onay bekleyen: 13 · Hazırlanan: 276be86740ef
-Bulunan yeni ilan: 3 · Bu çalışmada işlenmesi planlanan: 3 · Raporlanan: 3
-Kaynaklar: Opportunities Corners: 2 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 26 kayıt
+Kuyruk: 110 · Onay bekleyen: 13 · Hazırlanan: -
+Bulunan yeni ilan: 1 · Bu çalışmada işlenmesi planlanan: 1 · Raporlanan: 1
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 26 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| elendi | Opportunities Corners | Asia Foundation Development Fellows Program 2027 (Fully Funded) | Türkiye'ye kapalı: The fellowship is open to applicants from the following countries and regions: Afghanistan (only applicants based in the |
-| elendi | Opportunities Circle | Erasmus Mundus GEM Scholarship 2027-29 / Fully Funded | tekrar |
-| kuyrukta | Opportunities Corners | Nusuk App Challenge 2026 - Ücretsiz Umre Seyahati | kanıt: The competition is open to muslim people living anywhere in the world. · son tarih: 2026-12-20 · link: https://www.nusuk.sa/ · foto: Makkah Grand Mosque / Saudi Arabia travel / Islamic architecture travel |
+| onayda | Opportunities Circle | Morgan Stanley Sürdürülebilir Finans Fellowship Programı 2027 | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2026-11-13 · link: https://morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20895 · görsel: kurum logosu aranacak (Morgan Stanley; stok foto yok) |

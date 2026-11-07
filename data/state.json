@@ -141,7 +141,8 @@
     "job-boards.greenhouse.io/anthropic/jobs/5438311008",
     "kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5",
     "kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
-    "nusuk.sa"
+    "nusuk.sa",
+    "morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20895"
   ],
   "outbox": [],
   "pending": {
@@ -173,34 +174,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
       "visual_kind": "institution"
     },
-    "27289da2aca9": {
-      "apply_link_id": 1,
-      "apply_url": "https://universalyouthmovement.org/uyls-malaysia-2027/",
-      "category": "egitim",
-      "country_tr": "Malezya",
-      "deadline": "2026-11-08",
-      "eligibility_evidence": "Open to all nationalities.",
-      "fee_required": true,
-      "funding_tr": "Tam ve kısmi burs imkanları",
-      "highlights_tr": [
-        "18-40 yaş arası başvuruya açık",
-        "Tam ve kısmi burs seçenekleri",
-        "Kuala Lumpur'da 4 günlük zirve"
-      ],
-      "id": "27289da2aca9",
-      "is_opportunity": true,
-      "message_id": 5,
-      "organization": "Universal Youth Movement",
-      "organization_domain": "universalyouthmovement.org",
-      "queued_at": "2026-10-31T19:14:12.718296+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/universal-youth-leadership-summit-malaysia-2027/",
-      "summary_tr": "Kuala Lumpur'da düzenlenecek olan Universal Youth Leadership Summit, genç liderleri sürdürülebilir kalkınma ve liderlik konularında bir araya getiren uluslararası bir zirvedir.",
-      "title_tr": "Universal Youth Leadership Summit Malezya 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Katılım ücreti var.",
-      "visual_kind": "scene"
-    },
     "3871c062601f": {
       "apply_link_id": 3,
       "apply_url": "https://juridicum.univie.ac.at/news-detailasnicht/ausschreibung-fellowship-programm-sommersemester-2027",
@@ -228,6 +201,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
       "visual_kind": "scene"
+    },
+    "3d9e987b961e": {
+      "apply_link_id": 3,
+      "apply_url": "https://morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20895",
+      "category": "staj",
+      "country_tr": "ABD",
+      "deadline": "2026-11-13",
+      "eligibility_evidence": "Good news for students looking for international fellowships.",
+      "fee_required": false,
+      "funding_tr": "Ücretli",
+      "highlights_tr": [
+        "Yüksek lisans öğrencileri için",
+        "10 haftalık ücretli program",
+        "New York'ta yüz yüze katılım zorunluluğu"
+      ],
+      "id": "3d9e987b961e",
+      "is_opportunity": true,
+      "message_id": 20,
+      "organization": "Morgan Stanley",
+      "organization_domain": "morganstanley.com",
+      "queued_at": "2026-11-07T20:13:25.535766+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/morgan-stanley-sustainable-finance-fellowship-program/",
+      "summary_tr": "Morgan Stanley'nin New York ofisinde gerçekleşecek 10 haftalık bu program, sürdürülebilir finans alanında yüksek lisans öğrencilerine pratik deneyim ve profesyonel gelişim imkanı sunmaktadır.",
+      "title_tr": "Morgan Stanley Sürdürülebilir Finans Fellowship Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
     },
     "69ae4f68838d": {
       "apply_link_id": 1,
@@ -3826,10 +3827,10 @@
       "ts": "2026-11-06T00:18:10.387650+00:00"
     },
     "27289da2aca9": {
-      "reason": "Katılım ücreti var.",
-      "status": "pending",
-      "title": "Universal Youth Leadership Summit Malaysia 2027 (Fully Funded)",
-      "ts": "2026-10-31T19:14:12.718315+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Universal Youth Leadership Summit Malezya 2027",
+      "ts": "2026-11-07T20:12:35.971114+00:00"
     },
     "276be86740ef": {
       "reason": "",
@@ -3986,6 +3987,12 @@
       "status": "rejected",
       "title": "UNHCR Internship Program 2027",
       "ts": "2026-10-29T18:29:30.618033+00:00"
+    },
+    "3d9e987b961e": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Morgan Stanley Sustainable Finance Fellowship Program 2027 in USA | Paid",
+      "ts": "2026-11-07T20:13:25.535785+00:00"
     },
     "3e41d917364f": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5078,6 +5085,7 @@
     "anthropic residency 2026 yapay zeka güvenliği araştırma programı",
     "milli saraylar i daresi başkanlığı sözleşmeli personel alımı",
     "i zmir demokrasi üniversitesi sözleşmeli avukat alımı",
-    "nusuk app challenge 2026 ücretsiz umre seyahati"
+    "nusuk app challenge 2026 ücretsiz umre seyahati",
+    "morgan stanley sürdürülebilir finans fellowship programı 2027"
   ]
 }
