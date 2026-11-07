@@ -138,9 +138,22 @@
     "youthall.com/tr/Akcansa/long-term-intern-human-resources_59",
     "docs.google.com/forms/d/e/1FAIpQLScnSQCEoYpqfAxNaC1CK3v7sF18Jt57ol143vdQPe88sO-q7w/viewform",
     "geleceginikurangenckadinlar.org/kariyer-danismanligi",
-    "job-boards.greenhouse.io/anthropic/jobs/5438311008"
+    "job-boards.greenhouse.io/anthropic/jobs/5438311008",
+    "kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5",
+    "kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f657a20b-5132-4e3a-8b1e-131e031f065b",
+      "attempts": 0,
+      "caption": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı\n\nKamu İhale Kurumu bünyesinde A Grubu kariyer meslek uzman yardımcısı alımı için giriş sınavı duyurusu yapılmıştır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilecektir.\n\n- Türkiye Cumhuriyeti vatandaşlarına açık\n- Kariyer meslek uzman yardımcılığı\n- Kariyer Kapısı üzerinden başvuru\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=f657a20b-5132-4e3a-8b1e-131e031f065b\nTüm fırsatlar: https://diploport.dev/#d3ce9b530538\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "d3ce9b530538",
+      "photo_query": "logo: Kamu İhale Kurumu (Vikipedi (tr))",
+      "source": "Kariyer Kapısı",
+      "title": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
+      "ts": "2026-11-07T08:42:44.196618+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -1287,33 +1300,6 @@
       "source_url": "https://www.youthall.com/tr/OyakRenault/4-seasons-proje-stajyerligi_61/",
       "summary_tr": "Oyak Renault, Bursa'daki kampüsünde çeşitli departmanlarda görev alacak, haftada 3-4 gün çalışabilecek üniversite veya yüksek lisans öğrencileri için proje stajı programı düzenliyor.",
       "title_tr": "Oyak Renault 4 Seasons Proje Stajyerliği",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f657a20b-5132-4e3a-8b1e-131e031f065b",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı kadrolu pozisyon",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına açık",
-        "Kariyer meslek uzman yardımcılığı",
-        "Kariyer Kapısı üzerinden başvuru"
-      ],
-      "icon": "landmark",
-      "id": "d3ce9b530538",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "KAMU İHALE KURUMU",
-      "queued_at": "2026-10-30T00:48:12.165496+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f657a20b-5132-4e3a-8b1e-131e031f065b",
-      "summary_tr": "Kamu İhale Kurumu bünyesinde A Grubu kariyer meslek uzman yardımcısı alımı için giriş sınavı duyurusu yapılmıştır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilecektir.",
-      "title_tr": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -3595,6 +3581,60 @@
       "title_tr": "Geleceğini Kuran Genç Kadınlar Kariyer Danışmanlığı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "38 sözleşmeli personel alımı",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Türkiye Cumhuriyeti vatandaşlarına açık"
+      ],
+      "icon": "landmark",
+      "id": "86f9affb387b",
+      "is_opportunity": true,
+      "organization": "MİLLİ SARAYLAR İDARESİ BAŞKANLIĞI",
+      "organization_domain": "millisaraylar.gov.tr",
+      "queued_at": "2026-11-07T08:42:32.886494+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5",
+      "summary_tr": "Milli Saraylar İdaresi Başkanlığı bünyesinde görevlendirilmek üzere 38 sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Personel Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşı olma şartı",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "2c35082df27e",
+      "is_opportunity": true,
+      "organization": "İZMİR DEMOKRASİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+      "organization_domain": "idu.edu.tr",
+      "queued_at": "2026-11-07T08:42:40.034005+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
+      "summary_tr": "İzmir Demokrasi Üniversitesi Rektörlüğü bünyesinde görevlendirilmek üzere sözleşmeli avukat alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "İzmir Demokrasi Üniversitesi Sözleşmeli Avukat Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -3820,11 +3860,23 @@
       "title": "Güneşin Çocuklarını Üşütmeyelim Derneği Bursu",
       "ts": "2026-11-04T21:54:33.947203+00:00"
     },
+    "2c35082df27e": {
+      "reason": "",
+      "status": "queued",
+      "title": "İzmir Demokrasi Üniversitesi Sözleşmeli Avukat Alımı",
+      "ts": "2026-11-07T08:42:40.034023+00:00"
+    },
     "2c49f34b9c7b": {
       "reason": "",
       "status": "queued",
       "title": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
       "ts": "2026-11-02T00:32:16.767753+00:00"
+    },
+    "2d285a55ea30": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "CEPS Climate Leadership Program 2027 in Belgium | Fully Funded",
+      "ts": "2026-11-07T08:42:16.929227+00:00"
     },
     "2dc3f8e0f293": {
       "reason": "",
@@ -4287,6 +4339,12 @@
       "status": "rejected",
       "title": "Young Security Conference 2026/2027 in Germany (Fully Funded)",
       "ts": "2026-11-05T18:43:30.958304+00:00"
+    },
+    "86f9affb387b": {
+      "reason": "",
+      "status": "queued",
+      "title": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Personel Alımı",
+      "ts": "2026-11-07T08:42:32.886514+00:00"
     },
     "8765d0866515": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4992,6 +5050,8 @@
     "long term intern human resources",
     "geleceği keşfedenler programı dijital beceriler ve teknoloji modülü",
     "geleceğini kuran genç kadınlar kariyer danışmanlığı",
-    "anthropic residency 2026 yapay zeka güvenliği araştırma programı"
+    "anthropic residency 2026 yapay zeka güvenliği araştırma programı",
+    "milli saraylar i daresi başkanlığı sözleşmeli personel alımı",
+    "i zmir demokrasi üniversitesi sözleşmeli avukat alımı"
   ]
 }
