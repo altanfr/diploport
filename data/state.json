@@ -140,9 +140,21 @@
     "geleceginikurangenckadinlar.org/kariyer-danismanligi",
     "job-boards.greenhouse.io/anthropic/jobs/5438311008",
     "kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5",
-    "kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d"
+    "kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
+    "nusuk.sa"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfgwKPQ4xfB8znTRu3bJ_HbpK2Vc_9p-6jL-MEwNSmlVJ_kqQ/viewform",
+      "attempts": 0,
+      "caption": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu\n\nİtalya'nın Agrigento kentinde düzenlenecek olan Erasmus+ eğitim kursu, gençlik çalışmalarında yapay zekâ kullanımı, etik ve dijital araçlar üzerine odaklanmaktadır. 1-9 Aralık tarihleri arasında gerçekleşecektir.\n\n- 1-9 Aralık tarihleri arasında gerçekleşecek\n- İngilizce iletişim kurabilecek düzeyde dil becerisi\n- Konaklama, yemek ve seyahat masrafları karşılanıyor\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSfgwKPQ4xfB8znTRu3bJ_HbpK2Vc_9p-6jL-MEwNSmlVJ_kqQ/viewform\nTüm fırsatlar: https://diploport.dev/#276be86740ef\n\nGörsel: Dario Ciraulo / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "276be86740ef",
+      "photo_query": "Agrigento Italy landscape",
+      "source": "Erasmusgram",
+      "title": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
+      "ts": "2026-11-07T15:39:20.968663+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -1133,35 +1145,6 @@
       "title_tr": "Caltech Yaz Araştırma Programı (SURF) 2027",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 2,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfgwKPQ4xfB8znTRu3bJ_HbpK2Vc_9p-6jL-MEwNSmlVJ_kqQ/viewform",
-      "category": "egitim",
-      "country_tr": "İtalya",
-      "deadline": "",
-      "eligibility_evidence": "Katılımcı ülkeler: Hollanda, İtalya, Yunanistan, Türkiye, Macaristan, Hırvatistan, Romanya ve Fransa",
-      "fee_required": false,
-      "funding_tr": "Konaklama, yemek ve seyahat desteği sağlanmaktadır",
-      "highlights_tr": [
-        "1-9 Aralık tarihleri arasında gerçekleşecek",
-        "İngilizce iletişim kurabilecek düzeyde dil becerisi",
-        "Konaklama, yemek ve seyahat masrafları karşılanıyor"
-      ],
-      "id": "276be86740ef",
-      "image_queries": [
-        "Agrigento Italy landscape",
-        "Italy Erasmus youth project",
-        "students using artificial intelligence"
-      ],
-      "is_opportunity": true,
-      "queued_at": "2026-10-28T20:13:25.846626+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/italya-agrigento-9-gun-erasmus-projesi/",
-      "summary_tr": "İtalya'nın Agrigento kentinde düzenlenecek olan Erasmus+ eğitim kursu, gençlik çalışmalarında yapay zekâ kullanımı, etik ve dijital araçlar üzerine odaklanmaktadır. 1-9 Aralık tarihleri arasında gerçekleşecektir.",
-      "title_tr": "İtalya'da Youth Work in the Age of AI Erasmus+ Eğitim Kursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -3631,6 +3614,38 @@
       "title_tr": "İzmir Demokrasi Üniversitesi Sözleşmeli Avukat Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.nusuk.sa/",
+      "category": "yarisma",
+      "country_tr": "Suudi Arabistan",
+      "deadline": "2026-12-20",
+      "eligibility_evidence": "The competition is open to muslim people living anywhere in the world.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (Uçuş, konaklama ve vize dahil)",
+      "highlights_tr": [
+        "Dünya genelinde tüm Müslümanlara açık",
+        "Ücretsiz Umre vizesi, uçuş ve konaklama",
+        "Nusuk uygulaması üzerinden katılım"
+      ],
+      "id": "710ea78edf00",
+      "image_queries": [
+        "Makkah Grand Mosque",
+        "Saudi Arabia travel",
+        "Islamic architecture travel"
+      ],
+      "is_opportunity": true,
+      "organization": "Saudi Ministry of Hajj and Umrah",
+      "organization_domain": "nusuk.sa",
+      "queued_at": "2026-11-07T15:39:18.524196+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/nusuk-app-challenge-2026/",
+      "summary_tr": "Nusuk uygulaması üzerinden düzenlenen bilgi yarışması, kazananlara bir refakatçi ile birlikte ücretsiz Umre seyahati ve çeşitli ödüller kazanma şansı sunuyor.",
+      "title_tr": "Nusuk App Challenge 2026 - Ücretsiz Umre Seyahati",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -3735,6 +3750,12 @@
       "status": "queued",
       "title": "Youth Climate Justice Fund İnsan ve Kültür Müdürü Pozisyonu",
       "ts": "2026-11-06T00:18:01.499480+00:00"
+    },
+    "18c1979d7b42": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Erasmus Mundus GEM Scholarship 2027-29 | Fully Funded",
+      "ts": "2026-11-07T15:39:11.256443+00:00"
     },
     "1a09fc4eeebd": {
       "reason": "",
@@ -4252,6 +4273,12 @@
       "title": "Caltech Summer Undergraduate Research Fellowship 2027 in USA",
       "ts": "2026-11-05T18:43:10.290431+00:00"
     },
+    "710ea78edf00": {
+      "reason": "",
+      "status": "queued",
+      "title": "Nusuk App Challenge 2026 - Ücretsiz Umre Seyahati",
+      "ts": "2026-11-07T15:39:18.524214+00:00"
+    },
     "74208b18be4b": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -4629,6 +4656,12 @@
       "status": "published",
       "title": "Satış Yöneticisi (Adana)",
       "ts": "2026-11-06T07:54:43.364830+00:00"
+    },
+    "b30430c23166": {
+      "reason": "Türkiye'ye kapalı: The fellowship is open to applicants from the following countries and regions: Afghanistan (only applicants based in the",
+      "status": "rejected",
+      "title": "Asia Foundation Development Fellows Program 2027 (Fully Funded)",
+      "ts": "2026-11-07T15:39:04.593897+00:00"
     },
     "b67a02db7bff": {
       "reason": "",
@@ -5048,6 +5081,7 @@
     "geleceğini kuran genç kadınlar kariyer danışmanlığı",
     "anthropic residency 2026 yapay zeka güvenliği araştırma programı",
     "milli saraylar i daresi başkanlığı sözleşmeli personel alımı",
-    "i zmir demokrasi üniversitesi sözleşmeli avukat alımı"
+    "i zmir demokrasi üniversitesi sözleşmeli avukat alımı",
+    "nusuk app challenge 2026 ücretsiz umre seyahati"
   ]
 }
