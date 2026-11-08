@@ -146,18 +146,7 @@
     "anthropic.skilljar.com/ai-fluency-for-students",
     "docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://ayfnhq.org/event/scholarship-opportunity-winter-japan-culture-camp-2027-by-ayfn-academy/",
-      "attempts": 0,
-      "caption": "AYFN Japonya Kış Kültür Kampı 2027\n\nAYFN tarafından Osaka, Kyoto ve Nara'da düzenlenen 6 günlük tam burslu Japonya kültür değişim programı.\n\n- 17-40 yaş arası herkese açık\n- IELTS şartı aranmıyor\n- Uçuş, konaklama ve yemek masrafları karşılanıyor\n\nSon başvuru: 10 Kasım 2026\nBaşvuru: https://ayfnhq.org/event/scholarship-opportunity-winter-japan-culture-camp-2027-by-ayfn-academy/\nTüm fırsatlar: https://diploport.dev/#66bfb9cc5ea9\n\nGörsel: david jun / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "66bfb9cc5ea9",
-      "photo_query": "classroom workshop students",
-      "source": "Opportunities Corners",
-      "title": "AYFN Japonya Kış Kültür Kampı 2027",
-      "ts": "2026-11-08T07:17:06.470770+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -665,6 +654,13 @@
       "photo_query": "Agrigento Italy landscape",
       "source": "Erasmusgram",
       "ts": "2026-11-07T15:39:54.146879+00:00"
+    },
+    {
+      "id": "66bfb9cc5ea9",
+      "official": "https://ayfnhq.org/event/scholarship-opportunity-winter-japan-culture-camp-2027-by-ayfn-academy/",
+      "photo_query": "classroom workshop students",
+      "source": "Opportunities Corners",
+      "ts": "2026-11-08T07:17:40.069032+00:00"
     }
   ],
   "queue": [
@@ -4260,9 +4256,9 @@
     },
     "66bfb9cc5ea9": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "AYFN Japonya Kış Kültür Kampı 2027",
-      "ts": "2026-11-02T10:54:41.305960+00:00"
+      "ts": "2026-11-08T07:17:40.069052+00:00"
     },
     "67e3ab3f0174": {
       "reason": "",
