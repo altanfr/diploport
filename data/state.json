@@ -142,9 +142,22 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5",
     "kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
     "nusuk.sa",
-    "morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20895"
+    "morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20895",
+    "anthropic.skilljar.com/ai-fluency-for-students",
+    "docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://ayfnhq.org/event/scholarship-opportunity-winter-japan-culture-camp-2027-by-ayfn-academy/",
+      "attempts": 0,
+      "caption": "AYFN Japonya Kış Kültür Kampı 2027\n\nAYFN tarafından Osaka, Kyoto ve Nara'da düzenlenen 6 günlük tam burslu Japonya kültür değişim programı.\n\n- 17-40 yaş arası herkese açık\n- IELTS şartı aranmıyor\n- Uçuş, konaklama ve yemek masrafları karşılanıyor\n\nSon başvuru: 10 Kasım 2026\nBaşvuru: https://ayfnhq.org/event/scholarship-opportunity-winter-japan-culture-camp-2027-by-ayfn-academy/\nTüm fırsatlar: https://diploport.dev/#66bfb9cc5ea9\n\nGörsel: david jun / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "66bfb9cc5ea9",
+      "photo_query": "classroom workshop students",
+      "source": "Opportunities Corners",
+      "title": "AYFN Japonya Kış Kültür Kampı 2027",
+      "ts": "2026-11-08T07:17:06.470770+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -442,6 +455,35 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "institution"
     },
+    "caf1cd166127": {
+      "apply_link_id": 1,
+      "apply_url": "https://anthropic.skilljar.com/ai-fluency-for-students",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "The free courses for international students also emphasize responsible AI collaboration, ensuring that students maintain control and take responsibility for their work rather than relying entirely on AI tools.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Tamamen ücretsiz çevrimiçi eğitim",
+        "5 derslik müfredat",
+        "Yapay zeka ile iş birliği becerileri"
+      ],
+      "id": "caf1cd166127",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 21,
+      "organization": "Anthropic",
+      "organization_domain": "anthropic.com",
+      "queued_at": "2026-11-08T07:16:56.797823+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/anthropic-ai-fluency-for-students-online-course/",
+      "summary_tr": "Anthropic tarafından sunulan bu ücretsiz çevrimiçi kurs, öğrencilere yapay zekayı akademik çalışmalarında ve kariyer planlamalarında nasıl sorumlu ve etkili bir şekilde kullanacaklarını öğretmeyi amaçlamaktadır.",
+      "title_tr": "Anthropic AI Fluency for Students Çevrimiçi Kursu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
     "d05a06e143d4": {
       "apply_link_id": 2,
       "apply_url": "https://www.futurelearn.com/partners/dcu",
@@ -704,32 +746,6 @@
       "source_url": "https://www.erasmusgram.com/finlandiyada-belki-burada-bulursun-uygulamasi-16-bekar-icin-ucretsiz-tatil/",
       "summary_tr": "Visit Finland, dünyanın farklı ülkelerinden 16 bekâr katılımcıyı Şubat 2027'de Finlandiya'da dört günlük ücretsiz bir seyahat programına davet ediyor.",
       "title_tr": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://ayfnhq.org/event/scholarship-opportunity-winter-japan-culture-camp-2027-by-ayfn-academy/",
-      "category": "egitim",
-      "country_tr": "Japonya",
-      "deadline": "2026-11-10",
-      "eligibility_evidence": "The Program is open to all Nationalities.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (uçuş desteği, konaklama, yemek ve vize ücretleri dahil)",
-      "highlights_tr": [
-        "17-40 yaş arası herkese açık",
-        "IELTS şartı aranmıyor",
-        "Uçuş, konaklama ve yemek masrafları karşılanıyor"
-      ],
-      "id": "66bfb9cc5ea9",
-      "is_opportunity": true,
-      "organization": "ASEAN Youth Friendship Network",
-      "organization_domain": "ayfnhq.org",
-      "queued_at": "2026-11-02T10:54:41.305939+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/japan-winter-culture-camp-2027/",
-      "summary_tr": "AYFN tarafından Osaka, Kyoto ve Nara'da düzenlenen 6 günlük tam burslu Japonya kültür değişim programı.",
-      "title_tr": "AYFN Japonya Kış Kültür Kampı 2027",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
     },
@@ -3643,6 +3659,32 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form",
+      "category": "gonulluluk",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-10",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Gönüllülük esasına dayalı",
+      "highlights_tr": [
+        "En az 3 yıl profesyonel iş deneyimi şartı",
+        "Ocak-Mayıs 2027 döneminde ayda 1 saat katılım",
+        "Çevrim içi veya yüz yüze mentorluk imkanı"
+      ],
+      "id": "426a5be58382",
+      "is_opportunity": true,
+      "organization": "Genç Başarı Eğitim Vakfı",
+      "organization_domain": "gencbasari.org",
+      "queued_at": "2026-11-08T07:17:04.013199+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/genc-basari-egitim-vakfi-2027-mentorluk-basvurulari-acik/",
+      "summary_tr": "Genç Başarı Eğitim Vakfı, lise öğrencilerine girişimcilik projelerinde rehberlik edecek profesyoneller arıyor. En az 3 yıl iş deneyimi olan mentorlar, Ocak-Mayıs 2027 döneminde ayda 1 saat destek verecek.",
+      "title_tr": "Genç Başarı Eğitim Vakfı Mentorluk Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4017,6 +4059,12 @@
       "status": "rejected",
       "title": "İspanya’da Erasmus+ Eğitim Kursu Fırsatı",
       "ts": "2026-10-30T17:58:17.323026+00:00"
+    },
+    "426a5be58382": {
+      "reason": "",
+      "status": "queued",
+      "title": "Genç Başarı Eğitim Vakfı Mentorluk Programı",
+      "ts": "2026-11-08T07:17:04.013218+00:00"
     },
     "440932cc6804": {
       "reason": "",
@@ -4738,6 +4786,12 @@
       "title": "DAAD-MUBAS Scholarship 2027 | Fully Funded",
       "ts": "2026-10-31T19:14:24.979056+00:00"
     },
+    "caf1cd166127": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Anthropic AI Fluency for Students Online Course",
+      "ts": "2026-11-08T07:16:56.797841+00:00"
+    },
     "ccde45e24ae6": {
       "reason": "",
       "status": "queued",
@@ -5086,6 +5140,8 @@
     "milli saraylar i daresi başkanlığı sözleşmeli personel alımı",
     "i zmir demokrasi üniversitesi sözleşmeli avukat alımı",
     "nusuk app challenge 2026 ücretsiz umre seyahati",
-    "morgan stanley sürdürülebilir finans fellowship programı 2027"
+    "morgan stanley sürdürülebilir finans fellowship programı 2027",
+    "anthropic ai fluency for students çevrimiçi kursu",
+    "genç başarı eğitim vakfı mentorluk programı"
   ]
 }
