@@ -145,7 +145,8 @@
     "morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20895",
     "anthropic.skilljar.com/ai-fluency-for-students",
     "docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form",
-    "vcla.at/helmut-veith-stipend"
+    "vcla.at/helmut-veith-stipend",
+    "unil.ch/fbm/en/home/menuinst/formation/short-continuing-postgraduate-training/sur-programme/application.html"
   ],
   "outbox": [],
   "pending": {
@@ -3664,6 +3665,37 @@
       "title_tr": "Genç Başarı Eğitim Vakfı Mentorluk Programı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.unil.ch/fbm/en/home/menuinst/formation/short-continuing-postgraduate-training/sur-programme/application.html",
+      "category": "staj",
+      "country_tr": "İsviçre",
+      "deadline": "2026-11-15",
+      "eligibility_evidence": "Applicants from all nationalities are welcome to apply.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (Konaklama, yaşam masrafları ve seyahat desteği)",
+      "highlights_tr": [
+        "Biyoloji ve tıp öğrencileri için",
+        "8 hafta süreli araştırma programı",
+        "Konaklama ve seyahat desteği dahil"
+      ],
+      "id": "ccc2c64c11a2",
+      "image_queries": [
+        "University of Lausanne campus",
+        "Switzerland university students",
+        "science laboratory research"
+      ],
+      "is_opportunity": true,
+      "organization": "University of Lausanne",
+      "organization_domain": "unil.ch",
+      "queued_at": "2026-11-08T19:41:42.747090+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/unil-summer-program-2027/",
+      "summary_tr": "Lozan Üniversitesi'nde biyoloji ve tıp alanlarında lisans öğrencileri için 8 haftalık tam kapsamlı yaz araştırma programı.",
+      "title_tr": "UNIL Yaz Araştırma Programı 2027 - İsviçre",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4549,6 +4581,12 @@
       "title": "TÜBİTAK Bütünleşik Algılama ve Haberleşme Kış Okulu",
       "ts": "2026-11-02T10:55:00.890701+00:00"
     },
+    "a02ca0ba7937": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "MCW Young Leaders Fellowship 2027 in USA | Fully Funded",
+      "ts": "2026-11-08T19:41:52.834204+00:00"
+    },
     "a19d915340a2": {
       "reason": "",
       "status": "queued",
@@ -4782,6 +4820,12 @@
       "status": "pending",
       "title": "Anthropic AI Fluency for Students Online Course",
       "ts": "2026-11-08T07:16:56.797841+00:00"
+    },
+    "ccc2c64c11a2": {
+      "reason": "",
+      "status": "queued",
+      "title": "UNIL Yaz Araştırma Programı 2027 - İsviçre",
+      "ts": "2026-11-08T19:41:42.747104+00:00"
     },
     "ccde45e24ae6": {
       "reason": "",
@@ -5140,6 +5184,7 @@
     "morgan stanley sürdürülebilir finans fellowship programı 2027",
     "anthropic ai fluency for students çevrimiçi kursu",
     "genç başarı eğitim vakfı mentorluk programı",
-    "tu wien helmut veith yüksek lisans bursu"
+    "tu wien helmut veith yüksek lisans bursu",
+    "unil yaz araştırma programı 2027 i sviçre"
   ]
 }
