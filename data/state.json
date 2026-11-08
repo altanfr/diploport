@@ -144,9 +144,21 @@
     "nusuk.sa",
     "morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20895",
     "anthropic.skilljar.com/ai-fluency-for-students",
-    "docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form"
+    "docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form",
+    "vcla.at/helmut-veith-stipend"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
+      "attempts": 0,
+      "caption": "Sefine SKY Uzun Dönem Staj Programı\n\nSefine Tersanesi'nin 2026-2027 Bahar dönemi için üniversite öğrencilerine yönelik sunduğu, Yalova, Kocaeli veya İstanbul'da ikamet edenlerin başvurabileceği uzun dönem staj programıdır.\n\n- Şubat-Haziran 2027 dönemi\n- Haftada 5 gün staj imkanı\n- Lisans son sınıf öğrencileri için\n\nBaşvuru: https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/\nTüm fırsatlar: https://diploport.dev/#0833644949f7\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "0833644949f7",
+      "photo_query": "logo: Sefine Shipyard (Vikipedi (en) sayfa logosu)",
+      "source": "Youthall",
+      "title": "Sefine SKY Uzun Dönem Staj Programı",
+      "ts": "2026-11-08T15:07:45.957964+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -354,6 +366,34 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "scene"
     },
+    "ac66c283400b": {
+      "apply_link_id": 2,
+      "apply_url": "https://www.vcla.at/helmut-veith-stipend/",
+      "category": "burs",
+      "country_tr": "Avusturya",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "The Helmut Veith Scholarship 2026-2027 in Austria offers international women pursuing a master’s degree at TU Wien.",
+      "fee_required": false,
+      "funding_tr": "Tam eğitim ücreti muafiyeti ve yıllık 7.000 EUR burs",
+      "highlights_tr": [
+        "Sadece kadın öğrencilere açıktır",
+        "Bilgisayar Bilimleri yüksek lisansı için",
+        "Yıllık 7.000 EUR ve eğitim ücreti desteği"
+      ],
+      "id": "ac66c283400b",
+      "is_opportunity": true,
+      "message_id": 22,
+      "organization": "TU Wien",
+      "organization_domain": "tuwien.at",
+      "queued_at": "2026-11-08T15:07:41.351522+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/helmut-veith-scholarship/",
+      "summary_tr": "TU Wien'de Bilgisayar Bilimleri alanında yüksek lisans yapacak başarılı kadın öğrencilere yönelik, eğitim ücretini karşılayan ve yıllık 7.000 EUR destek sağlayan uluslararası bir burs programıdır.",
+      "title_tr": "TU Wien Helmut Veith Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
     "b6fbd91a219a": {
       "apply_link_id": 1,
       "apply_url": "https://newgenerationleaderssubmit.bwcngo.org/",
@@ -469,34 +509,6 @@
       "source_url": "https://www.opportunitiescircle.com/anthropic-ai-fluency-for-students-online-course/",
       "summary_tr": "Anthropic tarafından sunulan bu ücretsiz çevrimiçi kurs, öğrencilere yapay zekayı akademik çalışmalarında ve kariyer planlamalarında nasıl sorumlu ve etkili bir şekilde kullanacaklarını öğretmeyi amaçlamaktadır.",
       "title_tr": "Anthropic AI Fluency for Students Çevrimiçi Kursu",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
-    "d05a06e143d4": {
-      "apply_link_id": 2,
-      "apply_url": "https://www.futurelearn.com/partners/dcu",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "These free online courses for international students cover subjects such as Irish language and culture, digital learning, healthcare, and European affairs.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Tamamen online ve esnek öğrenme",
-        "1-4 hafta arası kısa süreli kurslar",
-        "İrlanda dili, sağlık ve dijital eğitim"
-      ],
-      "id": "d05a06e143d4",
-      "is_opportunity": true,
-      "message_id": 6,
-      "organization": "Dublin City University",
-      "organization_domain": "dcu.ie",
-      "queued_at": "2026-11-01T13:11:22.032023+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/dublin-city-university-online-courses/",
-      "summary_tr": "Dublin City University, FutureLearn platformu üzerinden İrlanda dili, dijital öğrenme, sağlık ve Avrupa Birliği konularında çeşitli ücretsiz online kurslar sunmaktadır.",
-      "title_tr": "Dublin City University Ücretsiz Online Kurslar",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -1184,31 +1196,6 @@
       "title_tr": "Green Games Lab Erasmus+ Eğitim Kursu",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Yalova, Kocaeli veya İstanbul Anadolu Yakası’nda ikamet edebilecek imkanlarda olmalısın.",
-      "fee_required": false,
-      "funding_tr": "Servis ve yemek imkanı",
-      "highlights_tr": [
-        "Şubat-Haziran 2027 dönemi",
-        "Haftada 5 gün staj imkanı",
-        "Lisans son sınıf öğrencileri için"
-      ],
-      "id": "0833644949f7",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Sefine Shipyard",
-      "queued_at": "2026-10-29T18:26:45.407300+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
-      "summary_tr": "Sefine Tersanesi'nin 2026-2027 Bahar dönemi için üniversite öğrencilerine yönelik sunduğu, Yalova, Kocaeli veya İstanbul'da ikamet edenlerin başvurabileceği uzun dönem staj programıdır.",
-      "title_tr": "Sefine SKY Uzun Dönem Staj Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
     },
     {
       "apply_link_id": 2,
@@ -4398,6 +4385,12 @@
       "title": "Nükleer Düzenleme Kurumu: Sözleşmeli Bilişim Personeli Giriş Sınavı",
       "ts": "2026-11-04T15:26:48.930846+00:00"
     },
+    "83104f3e3d94": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "TEV-DAAD Almanya Eğitim Bursu",
+      "ts": "2026-11-08T15:07:33.757449+00:00"
+    },
     "856bbd4d4028": {
       "reason": "",
       "status": "queued",
@@ -4650,6 +4643,12 @@
       "title": "Almanya Osnabrück'te Uzun Dönem ESC Gönüllülük Projesi",
       "ts": "2026-11-03T17:49:26.285205+00:00"
     },
+    "ac66c283400b": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Helmut Veith Scholarship 2027 in Austria",
+      "ts": "2026-11-08T15:07:41.351541+00:00"
+    },
     "acddf474fad2": {
       "reason": "",
       "status": "queued",
@@ -4807,10 +4806,10 @@
       "ts": "2026-11-05T02:25:12.125346+00:00"
     },
     "d05a06e143d4": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Dublin City University Online Courses",
-      "ts": "2026-11-01T13:11:22.032041+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Dublin City University Ücretsiz Online Kurslar",
+      "ts": "2026-11-08T15:07:02.750037+00:00"
     },
     "d133f69a3c88": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4925,6 +4924,12 @@
       "status": "queued",
       "title": "Orta Karadeniz Kalkınma Ajansı (OKA) Personel Alımı",
       "ts": "2026-10-30T09:52:56.332159+00:00"
+    },
+    "ee1d3e825530": {
+      "reason": "Türkiye'ye kapalı: Students living outside the United States and/or enrolled full-time at universities outside the United States are not el",
+      "status": "rejected",
+      "title": "Stanford Summer Research Program 2027 in USA (Fully Funded)",
+      "ts": "2026-11-08T15:07:25.293210+00:00"
     },
     "f3e9a405a88c": {
       "reason": "",
@@ -5138,6 +5143,7 @@
     "nusuk app challenge 2026 ücretsiz umre seyahati",
     "morgan stanley sürdürülebilir finans fellowship programı 2027",
     "anthropic ai fluency for students çevrimiçi kursu",
-    "genç başarı eğitim vakfı mentorluk programı"
+    "genç başarı eğitim vakfı mentorluk programı",
+    "tu wien helmut veith yüksek lisans bursu"
   ]
 }
