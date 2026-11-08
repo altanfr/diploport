@@ -147,18 +147,7 @@
     "docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form",
     "vcla.at/helmut-veith-stipend"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
-      "attempts": 0,
-      "caption": "Sefine SKY Uzun Dönem Staj Programı\n\nSefine Tersanesi'nin 2026-2027 Bahar dönemi için üniversite öğrencilerine yönelik sunduğu, Yalova, Kocaeli veya İstanbul'da ikamet edenlerin başvurabileceği uzun dönem staj programıdır.\n\n- Şubat-Haziran 2027 dönemi\n- Haftada 5 gün staj imkanı\n- Lisans son sınıf öğrencileri için\n\nBaşvuru: https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/\nTüm fırsatlar: https://diploport.dev/#0833644949f7\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
-      "id": "0833644949f7",
-      "photo_query": "logo: Sefine Shipyard (Vikipedi (en) sayfa logosu)",
-      "source": "Youthall",
-      "title": "Sefine SKY Uzun Dönem Staj Programı",
-      "ts": "2026-11-08T15:07:45.957964+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -673,6 +662,13 @@
       "photo_query": "classroom workshop students",
       "source": "Opportunities Corners",
       "ts": "2026-11-08T07:17:40.069032+00:00"
+    },
+    {
+      "id": "0833644949f7",
+      "official": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
+      "photo_query": "logo: Sefine Shipyard (Vikipedi (en) sayfa logosu)",
+      "source": "Youthall",
+      "ts": "2026-11-08T15:08:19.198794+00:00"
     }
   ],
   "queue": [
@@ -3691,9 +3687,9 @@
     },
     "0833644949f7": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Sefine SKY Uzun Dönem Staj Programı",
-      "ts": "2026-10-29T18:26:45.407317+00:00"
+      "ts": "2026-11-08T15:08:19.198815+00:00"
     },
     "093f17f46a64": {
       "reason": "",
