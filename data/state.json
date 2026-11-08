@@ -674,31 +674,6 @@
   ],
   "queue": [
     {
-      "apply_url": "https://www.youthall.com/tr/aygazdakariyer/kurumsal-iletisim-ic-tasarim-destek-uzun-donem-stajyer_73/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-08",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Üniversite 4. sınıf öğrencileri için",
-        "Tasarım araçları (Canva, Photoshop) kullanımı",
-        "Kurumsal iletişim ve içerik üretimi odaklı"
-      ],
-      "id": "b67a02db7bff",
-      "is_opportunity": true,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-10-30T20:55:50.664113+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/aygazdakariyer/kurumsal-iletisim-ic-tasarim-destek-uzun-donem-stajyer_73/",
-      "summary_tr": "Şirketin İnsan Kaynakları departmanında görev alacak, kurum içi iletişim ve görsel tasarım süreçlerine destek verecek uzun dönem stajyer aranıyor.",
-      "title_tr": "Kurumsal İletişim ve İç Tasarım Uzun Dönem Stajyeri",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
       "apply_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
       "category": "staj",
       "country_tr": "Türkiye",
@@ -4744,10 +4719,10 @@
       "ts": "2026-11-07T15:39:04.593897+00:00"
     },
     "b67a02db7bff": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Kurumsal İletişim ve İç Tasarım Uzun Dönem Stajyeri",
-      "ts": "2026-10-30T20:55:50.664130+00:00"
+      "ts": "2026-11-08T23:41:47.697541+00:00"
     },
     "b6fbd91a219a": {
       "reason": "Katılım ücreti var.",
