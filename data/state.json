@@ -146,9 +146,21 @@
     "anthropic.skilljar.com/ai-fluency-for-students",
     "docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form",
     "vcla.at/helmut-veith-stipend",
-    "unil.ch/fbm/en/home/menuinst/formation/short-continuing-postgraduate-training/sur-programme/application.html"
+    "unil.ch/fbm/en/home/menuinst/formation/short-continuing-postgraduate-training/sur-programme/application.html",
+    "kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
+      "attempts": 0,
+      "caption": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026\n\nOrta Anadolu Kalkınma Ajansı tarafından 2026 yılı için sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilecektir.\n\n- Türkiye Cumhuriyeti vatandaşlarına açık\n- Kariyer Kapısı üzerinden başvuru\n- Sözleşmeli personel pozisyonu\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146\nTüm fırsatlar: https://diploport.dev/#79f8ad5822c1\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "79f8ad5822c1",
+      "photo_query": "logo: oran.org.tr (web sitesi (oran.org.tr))",
+      "source": "Kariyer Kapısı",
+      "title": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026",
+      "ts": "2026-11-09T06:14:16.685784+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -1272,34 +1284,6 @@
       "source_url": "https://www.youthall.com/tr/keyopeoplecampus/kampus-temsilcisi_1/",
       "summary_tr": "Keyo People Campus, üniversitelerde markayı temsil edecek, etkinlikler düzenleyecek ve kariyer gelişim fırsatlarından yararlanacak kampüs temsilcileri arıyor.",
       "title_tr": "Keyo People Campus Kampüs Temsilciliği Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına açık",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Sözleşmeli personel pozisyonu"
-      ],
-      "icon": "landmark",
-      "id": "79f8ad5822c1",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "ORTA ANADOLU KALKINMA AJANSI",
-      "organization_domain": "oran.org.tr",
-      "queued_at": "2026-10-30T00:48:57.823846+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
-      "summary_tr": "Orta Anadolu Kalkınma Ajansı tarafından 2026 yılı için sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilecektir.",
-      "title_tr": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -3671,6 +3655,33 @@
       "title_tr": "UNIL Yaz Araştırma Programı 2027 - İsviçre",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı kadro",
+      "highlights_tr": [
+        "A Grubu kariyer meslek pozisyonu",
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru"
+      ],
+      "icon": "landmark",
+      "id": "f0aef4d3310d",
+      "is_opportunity": true,
+      "organization": "KAMU DENETÇİLİĞİ KURUMU (OMBUDSMANLIK)",
+      "organization_domain": "ombudsman.gov.tr",
+      "queued_at": "2026-11-09T06:14:10.932431+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
+      "summary_tr": "Kamu Denetçiliği Kurumu (Ombudsmanlık) bünyesinde A Grubu kariyer meslek personeli olarak görevlendirilmek üzere uzman yardımcılığı giriş sınavı düzenlenmektedir.",
+      "title_tr": "Kamu Denetçiliği Kurumu Uzman Yardımcılığı Giriş Sınavı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4946,6 +4957,12 @@
       "title": "Stanford Summer Research Program 2027 in USA (Fully Funded)",
       "ts": "2026-11-08T15:07:25.293210+00:00"
     },
+    "f0aef4d3310d": {
+      "reason": "",
+      "status": "queued",
+      "title": "Kamu Denetçiliği Kurumu Uzman Yardımcılığı Giriş Sınavı",
+      "ts": "2026-11-09T06:14:10.932447+00:00"
+    },
     "f3e9a405a88c": {
       "reason": "",
       "status": "published",
@@ -5160,6 +5177,7 @@
     "anthropic ai fluency for students çevrimiçi kursu",
     "genç başarı eğitim vakfı mentorluk programı",
     "tu wien helmut veith yüksek lisans bursu",
-    "unil yaz araştırma programı 2027 i sviçre"
+    "unil yaz araştırma programı 2027 i sviçre",
+    "kamu denetçiliği kurumu uzman yardımcılığı giriş sınavı"
   ]
 }

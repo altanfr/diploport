@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
+    "category": "is",
+    "country_tr": "Türkiye",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "Maaşlı",
+    "highlights_tr": [
+      "Türkiye Cumhuriyeti vatandaşlarına açık",
+      "Kariyer Kapısı üzerinden başvuru",
+      "Sözleşmeli personel pozisyonu"
+    ],
+    "id": "79f8ad5822c1",
+    "image": "images/79f8ad5822c1.jpg",
+    "organization": "ORTA ANADOLU KALKINMA AJANSI",
+    "published_at": "2026-11-09T06:14:16.656932+00:00",
+    "summary_tr": "Orta Anadolu Kalkınma Ajansı tarafından 2026 yılı için sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilecektir.",
+    "thumb": "images/t/79f8ad5822c1.jpg",
+    "title_tr": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026"
+  },
+  {
     "apply_url": "https://www.youthall.com/tr/sefine/sky-uzun-donem-staj-programi_5/",
     "category": "staj",
     "country_tr": "Türkiye",
