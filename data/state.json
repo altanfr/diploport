@@ -147,9 +147,28 @@
     "docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form",
     "vcla.at/helmut-veith-stipend",
     "unil.ch/fbm/en/home/menuinst/formation/short-continuing-postgraduate-training/sur-programme/application.html",
-    "kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b"
+    "kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
+    "cbs.riken.jp/en/summer/index.html",
+    "nedfellowships.org",
+    "interregtesimnext.eu/events",
+    "youthall.com/tr/opet/opet-kampus-uzun-donem-staj-programi_9",
+    "icann.org/fellowshipprogram",
+    "ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+    "tubitak.gov.tr/tr/duyuru/2244-sanayi-doktora-programi-2026-yili-cagrisi-acildi-0",
+    "youthall.com/en/yeo/purchasing-specialist_15"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeolkocew5_402vKonam-htEY9Nrj1X_4LG3V-tS841MHuwjQ/viewform",
+      "attempts": 0,
+      "caption": "Green Games Lab Erasmus+ Eğitim Kursu\n\nPolonya'da düzenlenecek Green Games Lab Erasmus+ eğitim kursu, çevre bilinci ve sürdürülebilirlik konularını oyun temelli öğrenme yöntemleriyle ele almayı amaçlayan 8 günlük bir programdır.\n\n- 11-19 Ocak 2027 tarihleri arasında\n- Tleń, Polonya'da gerçekleşecek\n- Çevre ve oyun tasarımı odaklı eğitim\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSeolkocew5_402vKonam-htEY9Nrj1X_4LG3V-tS841MHuwjQ/viewform\nTüm fırsatlar: https://diploport.dev/#22349d20505b\n\nGörsel: Damian / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "22349d20505b",
+      "photo_query": "Tlen Poland forest",
+      "source": "Erasmusgram",
+      "title": "Green Games Lab Erasmus+ Eğitim Kursu",
+      "ts": "2026-11-09T17:27:42.066037+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -178,6 +197,39 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
       "visual_kind": "institution"
+    },
+    "3319c88778df": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+      "category": "burs",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "2027-01-26",
+      "eligibility_evidence": "Eligible Regions: ... Turkey, ...",
+      "fee_required": false,
+      "funding_tr": "Tam burs",
+      "highlights_tr": [
+        "Tam burslu lisans eğitimi",
+        "Gelişmekte olan ülkeler için",
+        "3-4 yıl süreli eğitim"
+      ],
+      "id": "3319c88778df",
+      "image_queries": [
+        "Oxford University campus",
+        "UK university students",
+        "students walking campus"
+      ],
+      "is_opportunity": true,
+      "message_id": 23,
+      "organization": "University of Oxford",
+      "organization_domain": "ox.ac.uk",
+      "queued_at": "2026-11-09T17:27:08.391542+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/reach-oxford-scholarship/",
+      "summary_tr": "Oxford Üniversitesi, gelişmekte olan ülkelerden gelen ve ekonomik nedenlerle İngiltere'de eğitim alamayan başarılı lisans öğrencileri için tam burslu eğitim imkanı sunmaktadır.",
+      "title_tr": "Reach Oxford Lisans Bursu 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
+      "visual_kind": "scene"
     },
     "3871c062601f": {
       "apply_link_id": 3,
@@ -1146,36 +1198,6 @@
       "title_tr": "Caltech Yaz Araştırma Programı (SURF) 2027",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeolkocew5_402vKonam-htEY9Nrj1X_4LG3V-tS841MHuwjQ/viewform",
-      "category": "egitim",
-      "country_tr": "Polonya",
-      "deadline": "",
-      "eligibility_evidence": "Polonya, İspanya, İtalya, Bulgaristan, Romanya, Bosna-Hersek, Türkiye ve Sırbistan’dan katılımcıları bir araya getirecek eğitimde",
-      "fee_required": false,
-      "funding_tr": "Erasmus+ kapsamında konaklama ve seyahat desteği",
-      "highlights_tr": [
-        "11-19 Ocak 2027 tarihleri arasında",
-        "Tleń, Polonya'da gerçekleşecek",
-        "Çevre ve oyun tasarımı odaklı eğitim"
-      ],
-      "id": "22349d20505b",
-      "image_queries": [
-        "Tlen Poland forest",
-        "Poland youth workshop",
-        "students playing games"
-      ],
-      "is_opportunity": true,
-      "organization": "Green Games Lab",
-      "queued_at": "2026-10-29T00:47:04.860413+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/polonya-8-gun-erasmus-projesi/",
-      "summary_tr": "Polonya'da düzenlenecek Green Games Lab Erasmus+ eğitim kursu, çevre bilinci ve sürdürülebilirlik konularını oyun temelli öğrenme yöntemleriyle ele almayı amaçlayan 8 günlük bir programdır.",
-      "title_tr": "Green Games Lab Erasmus+ Eğitim Kursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 2,
@@ -3678,6 +3700,190 @@
       "title_tr": "Kamu Denetçiliği Kurumu Uzman Yardımcılığı Giriş Sınavı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://cbs.riken.jp/en/summer/index.html",
+      "category": "staj",
+      "country_tr": "Japonya",
+      "deadline": "2027-01-08",
+      "eligibility_evidence": "Candidates from all countries are eligible.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (Uçak bileti, konaklama ve aylık maaş)",
+      "highlights_tr": [
+        "Tam burslu (uçak, konaklama, maaş)",
+        "Nörobilim alanında staj veya ders",
+        "Dünyanın her yerinden başvuruya açık"
+      ],
+      "id": "5bba70dfe33a",
+      "is_opportunity": true,
+      "organization": "RIKEN Center for Brain Science",
+      "organization_domain": "riken.jp",
+      "queued_at": "2026-11-09T17:26:32.609652+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/riken-cbs-summer-program-2027/",
+      "summary_tr": "Japonya'daki RIKEN Beyin Bilimleri Merkezi'nde düzenlenen, nörobilim alanında staj veya ders programı içeren tam burslu bir yaz programıdır.",
+      "title_tr": "RIKEN CBS Yaz Programı 2027 - Japonya",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 3,
+      "apply_url": "https://www.nedfellowships.org/",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2027-01-05",
+      "eligibility_evidence": "The Reagan-Fascell Democracy Fellowship 2027-28 in the USA offers an excellent fellowship for individuals worldwide, including activists, journalists, civil society leaders, and scholars.",
+      "fee_required": false,
+      "funding_tr": "Tam burs",
+      "highlights_tr": [
+        "5 ay süreli tam kapsamlı burs",
+        "Washington D.C.'de araştırma imkanı",
+        "İleri düzey İngilizce zorunluluğu"
+      ],
+      "id": "d757d2a29201",
+      "is_opportunity": true,
+      "organization": "National Endowment for Democracy",
+      "organization_domain": "ned.org",
+      "queued_at": "2026-11-09T17:26:38.717549+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/reagan-fascell-democracy-fellowship/",
+      "summary_tr": "ABD'de 5 ay süren, demokrasi alanında çalışan profesyoneller ve akademisyenler için tam kapsamlı bir araştırma ve değişim programıdır.",
+      "title_tr": "Reagan-Fascell Demokrasi Burs Programı 2027-28",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 4,
+      "apply_url": "https://interregtesimnext.eu/events/",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-11-20",
+      "eligibility_evidence": "Türkiye’den Interreg NEXT projelerinde görev alan proje koordinatörleri, mali yönetim ve iletişim personeli ile diğer proje çalışanları da eğitimlerin hedef kitlesi arasında yer alıyor.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Proje personeline yönelik ücretsiz eğitim",
+        "Proje yönetimi, mali yönetim ve iletişim başlıkları",
+        "Kasım ve Aralık 2026 tarihlerinde çevrim içi"
+      ],
+      "id": "77530b32ec52",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "TESIM",
+      "organization_domain": "interregtesimnext.eu",
+      "queued_at": "2026-11-09T17:26:46.782865+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/interreg-next-proje-ortaklarina-yonelik-goforcooperation-weeks-egitimlerine-kayitlar-basladi/",
+      "summary_tr": "Interreg NEXT projelerinde görev alan personele yönelik proje yönetimi, mali yönetim ve iletişim konularında düzenlenen çevrim içi eğitim serisi.",
+      "title_tr": "Interreg NEXT Proje Personeli İçin GoForCooperation Weeks Eğitimleri",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/opet/opet-kampus-uzun-donem-staj-programi_9/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-24",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Yemek kartı, servis ve yan haklar",
+      "highlights_tr": [
+        "Haftada en az 3 gün çalışma zorunluluğu",
+        "11 ay süren uzun dönem staj programı",
+        "Özel sağlık sigortası ve yemek kartı imkanı"
+      ],
+      "id": "52ff6e17902d",
+      "is_opportunity": true,
+      "organization": "Opet",
+      "organization_domain": "opet.com.tr",
+      "queued_at": "2026-11-09T17:26:54.425764+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/opet/opet-kampus-uzun-donem-staj-programi_9/",
+      "summary_tr": "Opet'in 11 ay sürecek uzun dönem staj programı, üniversite 3. veya 4. sınıf öğrencileri ile yüksek lisans öğrencilerine gerçek iş deneyimi ve projelerde yer alma imkanı sunuyor.",
+      "title_tr": "Opet Kampüs Uzun Dönem Staj Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.icann.org/fellowshipprogram",
+      "category": "burs",
+      "country_tr": "Kanada",
+      "deadline": "2026-12-05",
+      "eligibility_evidence": "Candidates from all countries and regions are encouraged to apply.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (Ulaşım, konaklama ve harcırah)",
+      "highlights_tr": [
+        "21 yaş ve üzeri başvuru şartı",
+        "Tam kapsamlı seyahat ve konaklama desteği",
+        "İnternet yönetişimi üzerine profesyonel eğitim"
+      ],
+      "id": "119f78638187",
+      "is_opportunity": true,
+      "organization": "Internet Corporation for Assigned Names and Numbers (ICANN)",
+      "organization_domain": "icann.org",
+      "queued_at": "2026-11-09T17:27:01.402895+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/icann89-policy-forum-2027-in-canada/",
+      "summary_tr": "Vancouver'da düzenlenecek ICANN89 Policy Forum için dünya genelinden katılımcılara açık, tam kapsamlı bir burs programıdır.",
+      "title_tr": "ICANN89 Policy Forum 2027 Kanada Bursu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://tubitak.gov.tr/tr/duyuru/2244-sanayi-doktora-programi-2026-yili-cagrisi-acildi-0",
+      "category": "burs",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-22",
+      "eligibility_evidence": "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK) 2244–Sanayi Doktora Programı 2026 Yılı Çağrısı için başvurular başladı.",
+      "fee_required": false,
+      "funding_tr": "Doktoralı araştırmacı istihdam desteği",
+      "highlights_tr": [
+        "Üniversite-sanayi iş birliği odaklı",
+        "Doktoralı araştırmacı istihdamı desteği",
+        "TÜBİTAK BİDEB tarafından yürütülmektedir"
+      ],
+      "id": "1b67dbcb75a2",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "TÜBİTAK",
+      "organization_domain": "tubitak.gov.tr",
+      "queued_at": "2026-11-09T17:27:16.099594+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tubitak-2244-sanayi-doktora-programi-2026-yili-cagrisi-basvurularinizi-bekliyor/",
+      "summary_tr": "TÜBİTAK tarafından yürütülen 2244 Sanayi Doktora Programı, üniversite-sanayi iş birliğiyle doktora derecesine sahip nitelikli insan kaynağı yetiştirmeyi ve sanayide araştırmacı istihdamını teşvik etmeyi amaçlamaktadır.",
+      "title_tr": "TÜBİTAK 2244 Sanayi Doktora Programı 2026 Çağrısı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/en/yeo/purchasing-specialist_15/",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Founded in 2004, YEO is one of Türkiye’s leading companies providing engineering, technology, manufacturing, and renewable energy solutions for the energy sector.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı pozisyon",
+      "highlights_tr": [
+        "İstanbul lokasyonlu",
+        "Mühendislik mezuniyeti şartı",
+        "En az 2 yıl deneyim"
+      ],
+      "id": "43b12c9fe2a6",
+      "is_opportunity": true,
+      "organization": "YEO",
+      "organization_domain": "yeo.com.tr",
+      "queued_at": "2026-11-09T17:27:23.841722+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/yeo/purchasing-specialist_15/",
+      "summary_tr": "YEO, İstanbul ofisinde görevlendirilmek üzere, mühendislik bölümlerinden mezun ve teknik satın alma alanında en az 2 yıl deneyimli bir Satın Alma Uzmanı arıyor.",
+      "title_tr": "YEO - Purchasing Specialist",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -3741,6 +3947,12 @@
       "title": "DİTİB 2026-2027 Eğitim Öğretim Dönemi Öğrenim Yardımı",
       "ts": "2026-11-02T20:04:58.624893+00:00"
     },
+    "119f78638187": {
+      "reason": "",
+      "status": "queued",
+      "title": "ICANN89 Policy Forum 2027 Kanada Bursu",
+      "ts": "2026-11-09T17:27:01.402914+00:00"
+    },
     "123e080bd5e1": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -3800,6 +4012,12 @@
       "status": "rejected",
       "title": "Orman Genel Müdürlüğü Müfettiş Yardımcısı Alımı Duyurusu",
       "ts": "2026-10-30T00:48:44.059536+00:00"
+    },
+    "1b67dbcb75a2": {
+      "reason": "",
+      "status": "queued",
+      "title": "TÜBİTAK 2244 Sanayi Doktora Programı 2026 Çağrısı",
+      "ts": "2026-11-09T17:27:16.099614+00:00"
     },
     "1bd5aca751b2": {
       "reason": "",
@@ -3945,6 +4163,12 @@
       "title": "AbbVie Uzun Dönem Staj Programı",
       "ts": "2026-11-02T10:55:11.485349+00:00"
     },
+    "3319c88778df": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
+      "status": "pending",
+      "title": "Reach Oxford Scholarship 2027 in UK | Fully Funded",
+      "ts": "2026-11-09T17:27:08.391560+00:00"
+    },
     "33515330ea08": {
       "reason": "",
       "status": "queued",
@@ -4059,6 +4283,12 @@
       "title": "Genç Başarı Eğitim Vakfı Mentorluk Programı",
       "ts": "2026-11-08T07:17:04.013218+00:00"
     },
+    "43b12c9fe2a6": {
+      "reason": "",
+      "status": "queued",
+      "title": "YEO - Purchasing Specialist",
+      "ts": "2026-11-09T17:27:23.841739+00:00"
+    },
     "440932cc6804": {
       "reason": "",
       "status": "queued",
@@ -4119,6 +4349,12 @@
       "title": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
       "ts": "2026-11-03T09:30:20.967628+00:00"
     },
+    "52ff6e17902d": {
+      "reason": "",
+      "status": "queued",
+      "title": "Opet Kampüs Uzun Dönem Staj Programı",
+      "ts": "2026-11-09T17:26:54.425781+00:00"
+    },
     "536a82b273b9": {
       "reason": "",
       "status": "queued",
@@ -4160,6 +4396,12 @@
       "status": "rejected",
       "title": "New Graduates 2027: Purchases Manager",
       "ts": "2026-11-05T18:43:51.066890+00:00"
+    },
+    "5bba70dfe33a": {
+      "reason": "",
+      "status": "queued",
+      "title": "RIKEN CBS Yaz Programı 2027 - Japonya",
+      "ts": "2026-11-09T17:26:32.609671+00:00"
     },
     "5db6d1139356": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4340,6 +4582,18 @@
       "status": "rejected",
       "title": "Summer Internship 2027: Brand Management",
       "ts": "2026-11-05T10:47:10.577336+00:00"
+    },
+    "774081d58ee3": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Romanya’da Uzun Dönem ESC Gönüllülük Projesi Katılımcı Çağrısı",
+      "ts": "2026-11-09T17:27:39.218569+00:00"
+    },
+    "77530b32ec52": {
+      "reason": "",
+      "status": "queued",
+      "title": "Interreg NEXT Proje Personeli İçin GoForCooperation Weeks Eğitimleri",
+      "ts": "2026-11-09T17:26:46.782886+00:00"
     },
     "777402a5a29b": {
       "reason": "",
@@ -4797,6 +5051,12 @@
       "title": "DAAD-MUBAS Scholarship 2027 | Fully Funded",
       "ts": "2026-10-31T19:14:24.979056+00:00"
     },
+    "c9b71da0c7f8": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "KYOTO University Amgen Scholars Internship 2027 | Fully Funded",
+      "ts": "2026-11-09T17:27:31.070351+00:00"
+    },
     "caf1cd166127": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "pending",
@@ -4850,6 +5110,12 @@
       "status": "published",
       "title": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-11-07T08:43:17.499206+00:00"
+    },
+    "d757d2a29201": {
+      "reason": "",
+      "status": "queued",
+      "title": "Reagan-Fascell Demokrasi Burs Programı 2027-28",
+      "ts": "2026-11-09T17:26:38.717569+00:00"
     },
     "d7bb1e4791ab": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5174,6 +5440,14 @@
     "genç başarı eğitim vakfı mentorluk programı",
     "tu wien helmut veith yüksek lisans bursu",
     "unil yaz araştırma programı 2027 i sviçre",
-    "kamu denetçiliği kurumu uzman yardımcılığı giriş sınavı"
+    "kamu denetçiliği kurumu uzman yardımcılığı giriş sınavı",
+    "riken cbs yaz programı 2027 japonya",
+    "reagan fascell demokrasi burs programı 2027 28",
+    "interreg next proje personeli i çin goforcooperation weeks eğitimleri",
+    "opet kampüs uzun dönem staj programı",
+    "icann89 policy forum 2027 kanada bursu",
+    "reach oxford lisans bursu 2027",
+    "tübi tak 2244 sanayi doktora programı 2026 çağrısı",
+    "yeo purchasing specialist"
   ]
 }
