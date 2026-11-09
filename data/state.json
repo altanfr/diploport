@@ -149,18 +149,7 @@
     "unil.ch/fbm/en/home/menuinst/formation/short-continuing-postgraduate-training/sur-programme/application.html",
     "kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
-      "attempts": 0,
-      "caption": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026\n\nOrta Anadolu Kalkınma Ajansı tarafından 2026 yılı için sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilecektir.\n\n- Türkiye Cumhuriyeti vatandaşlarına açık\n- Kariyer Kapısı üzerinden başvuru\n- Sözleşmeli personel pozisyonu\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146\nTüm fırsatlar: https://diploport.dev/#79f8ad5822c1\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
-      "id": "79f8ad5822c1",
-      "photo_query": "logo: oran.org.tr (web sitesi (oran.org.tr))",
-      "source": "Kariyer Kapısı",
-      "title": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026",
-      "ts": "2026-11-09T06:14:16.685784+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -682,6 +671,13 @@
       "photo_query": "logo: Sefine Shipyard (Vikipedi (en) sayfa logosu)",
       "source": "Youthall",
       "ts": "2026-11-08T15:08:19.198794+00:00"
+    },
+    {
+      "id": "79f8ad5822c1",
+      "official": "https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
+      "photo_query": "logo: oran.org.tr (web sitesi (oran.org.tr))",
+      "source": "Kariyer Kapısı",
+      "ts": "2026-11-09T06:14:49.310273+00:00"
     }
   ],
   "queue": [
@@ -4359,9 +4355,9 @@
     },
     "79f8ad5822c1": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026",
-      "ts": "2026-10-30T00:48:57.823862+00:00"
+      "ts": "2026-11-09T06:14:49.310292+00:00"
     },
     "7ad102b9787d": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
