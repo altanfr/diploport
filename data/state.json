@@ -157,18 +157,7 @@
     "tubitak.gov.tr/tr/duyuru/2244-sanayi-doktora-programi-2026-yili-cagrisi-acildi-0",
     "youthall.com/en/yeo/purchasing-specialist_15"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeolkocew5_402vKonam-htEY9Nrj1X_4LG3V-tS841MHuwjQ/viewform",
-      "attempts": 0,
-      "caption": "Green Games Lab Erasmus+ Eğitim Kursu\n\nPolonya'da düzenlenecek Green Games Lab Erasmus+ eğitim kursu, çevre bilinci ve sürdürülebilirlik konularını oyun temelli öğrenme yöntemleriyle ele almayı amaçlayan 8 günlük bir programdır.\n\n- 11-19 Ocak 2027 tarihleri arasında\n- Tleń, Polonya'da gerçekleşecek\n- Çevre ve oyun tasarımı odaklı eğitim\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSeolkocew5_402vKonam-htEY9Nrj1X_4LG3V-tS841MHuwjQ/viewform\nTüm fırsatlar: https://diploport.dev/#22349d20505b\n\nGörsel: Damian / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "22349d20505b",
-      "photo_query": "Tlen Poland forest",
-      "source": "Erasmusgram",
-      "title": "Green Games Lab Erasmus+ Eğitim Kursu",
-      "ts": "2026-11-09T17:27:42.066037+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -730,6 +719,13 @@
       "photo_query": "logo: oran.org.tr (web sitesi (oran.org.tr))",
       "source": "Kariyer Kapısı",
       "ts": "2026-11-09T06:14:49.310273+00:00"
+    },
+    {
+      "id": "22349d20505b",
+      "official": "https://docs.google.com/forms/d/e/1FAIpQLSeolkocew5_402vKonam-htEY9Nrj1X_4LG3V-tS841MHuwjQ/viewform",
+      "photo_query": "Tlen Poland forest",
+      "source": "Erasmusgram",
+      "ts": "2026-11-09T17:28:16.274139+00:00"
     }
   ],
   "queue": [
@@ -4063,9 +4059,9 @@
     },
     "22349d20505b": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Green Games Lab Erasmus+ Eğitim Kursu",
-      "ts": "2026-10-29T00:47:04.860429+00:00"
+      "ts": "2026-11-09T17:28:16.274158+00:00"
     },
     "2397e6feda6a": {
       "reason": "Türkiye'ye kapalı: Interested candidates from Cambodia, Indonesia, Malaysia, the Philippines, Thailand, and Viet Nam should carefully revie",
