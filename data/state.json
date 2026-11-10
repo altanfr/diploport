@@ -155,7 +155,14 @@
     "icann.org/fellowshipprogram",
     "ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
     "tubitak.gov.tr/tr/duyuru/2244-sanayi-doktora-programi-2026-yili-cagrisi-acildi-0",
-    "youthall.com/en/yeo/purchasing-specialist_15"
+    "youthall.com/en/yeo/purchasing-specialist_15",
+    "tev.org.tr/burs/tr/52/tev-solen-yuksek-lisans-bursu",
+    "youthall.com/en/cimsa/global-build-on-plus-internship-program_16",
+    "kariyerkapisi.gov.tr/IlanDetay?i=ff6084a1-bbdd-45d7-b62e-a649a026a2b2",
+    "tev.org.tr/burs/tr/30/garring-vakfi-danimarka-burslari",
+    "esube.iskur.gov.tr",
+    "gencbizztech.org",
+    "abakademi.com.tr"
   ],
   "outbox": [],
   "pending": {
@@ -605,6 +612,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "e4da285b4a60": {
+      "apply_link_id": 2,
+      "apply_url": "https://abakademi.com.tr/",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-11-27",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": true,
+      "funding_tr": "Ücretli (Öğrenci indirimi mevcut)",
+      "highlights_tr": [
+        "1,5 gün süren canlı Zoom eğitimi",
+        "Proje Döngüsü Yönetimi (PCM) katılım belgesi",
+        "Öğrencilere özel indirimli katılım ücreti"
+      ],
+      "id": "e4da285b4a60",
+      "is_opportunity": true,
+      "message_id": 24,
+      "organization": "AB Akademi",
+      "organization_domain": "abakademi.com.tr",
+      "queued_at": "2026-11-10T01:31:40.018898+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/ab-hibe-programlarina-yonelik-proje-hazirlama-egitimi/",
+      "summary_tr": "AB ve kalkınma ajansı hibe programlarına yönelik Proje Döngüsü Yönetimi (PCM) ve yapay zeka destekli proje yazımı üzerine 1,5 günlük çevrim içi uygulamalı eğitim.",
+      "title_tr": "AB Hibe Programlarına Yönelik Proje Hazırlama Eğitimi (Online)",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Katılım ücreti var.",
+      "visual_kind": "institution"
     }
   },
   "published": [
@@ -729,31 +764,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-09",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "İstanbul Kadıköy ofisinde çalışma",
-        "En az 6 ay devam zorunluluğu",
-        "Adobe Photoshop ve Illustrator yetkinliği"
-      ],
-      "id": "36e80af2e4c0",
-      "is_opportunity": true,
-      "organization": "Youthall",
-      "organization_domain": "youthall.com",
-      "queued_at": "2026-11-01T00:01:54.928170+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/Youthall/grafik-tasarim-stajyeri_154/",
-      "summary_tr": "Youthall, İstanbul Kadıköy ofisinde görevlendirilmek üzere, üniversitelerin 3. veya 4. sınıfında okuyan, Adobe programlarına hakim grafik tasarım stajyeri arıyor.",
-      "title_tr": "Youthall Grafik Tasarım Stajyeri",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://www.visitfinland.com/en/have-some-finnish/",
@@ -3880,6 +3890,165 @@
       "title_tr": "YEO - Purchasing Specialist",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://www.tev.org.tr/burs/tr/52/tev-solen-yuksek-lisans-bursu",
+      "category": "burs",
+      "country_tr": "Almanya, İtalya",
+      "deadline": "2027-03-01",
+      "eligibility_evidence": "T.C. vatandaşı olmak,",
+      "fee_required": false,
+      "funding_tr": "26.335 Avro burs desteği",
+      "highlights_tr": [
+        "2 yıl süreli yüksek lisans bursu",
+        "26.335 Avro toplam burs miktarı",
+        "Mezuniyet sonrası 3 yıl çalışma şartı"
+      ],
+      "id": "de9101036334",
+      "is_opportunity": true,
+      "organization": "Türk Eğitim Vakfı",
+      "organization_domain": "tev.org.tr",
+      "queued_at": "2026-11-10T01:29:43.724069+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/basvuru-cagrisi-tev-solen-almanya-italya-yuksek-lisans-bursu/",
+      "summary_tr": "TEV ve ŞÖLEN iş birliğiyle Almanya veya İtalya'da yüksek lisans yapacak 2 öğrenciye burs desteği sağlanacaktır. Bursiyerlerin mezuniyet sonrası ŞÖLEN bünyesinde 3 yıl çalışma zorunluluğu bulunmaktadır.",
+      "title_tr": "TEV-ŞÖLEN Almanya-İtalya Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/en/cimsa/global-build-on-plus-internship-program_16/",
+      "category": "staj",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2026-12-04",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Mühendislik ve idari bölümler için uygun",
+        "Ocak-Haziran 2027 dönemi",
+        "Uluslararası mentorluk ve proje bazlı çalışma"
+      ],
+      "id": "46a828eb3309",
+      "is_opportunity": true,
+      "organization": "Çimsa",
+      "organization_domain": "cimsa.com.tr",
+      "queued_at": "2026-11-10T01:29:54.251261+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/cimsa/global-build-on-plus-internship-program_16/",
+      "summary_tr": "Çimsa'nın mühendislik ve idari bölümlerden 4. sınıf veya yüksek lisans öğrencilerine yönelik sunduğu, uluslararası deneyim ve mentorluk içeren staj programı.",
+      "title_tr": "Çimsa Global Build-On Plus Staj Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=ff6084a1-bbdd-45d7-b62e-a649a026a2b2",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "f8d2db6735d8",
+      "is_opportunity": true,
+      "organization": "SAYIŞTAY BAŞKANLIĞI",
+      "organization_domain": "sayistay.gov.tr",
+      "queued_at": "2026-11-10T01:30:18.014714+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=ff6084a1-bbdd-45d7-b62e-a649a026a2b2",
+      "summary_tr": "Sayıştay Başkanlığı bünyesinde görevlendirilmek üzere 16 adet sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Sayıştay Başkanlığı Sözleşmeli Personel Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.tev.org.tr/burs/tr/30/garring-vakfi-danimarka-burslari",
+      "category": "burs",
+      "country_tr": "Danimarka",
+      "deadline": "2027-01-11",
+      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
+      "fee_required": false,
+      "funding_tr": "Tam burs",
+      "highlights_tr": [
+        "35 yaş altı T.C. vatandaşları başvurabilir",
+        "Mühendislik alanlarında yüksek lisans bursu",
+        "Tüm eğitim ve yaşam masrafları karşılanır"
+      ],
+      "id": "531ccde62795",
+      "is_opportunity": true,
+      "organization": "Türk Eğitim Vakfı",
+      "organization_domain": "tev.org.tr",
+      "queued_at": "2026-11-10T01:31:13.945992+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tev-garring-vakfi-danimarka-yuksek-lisans-bursu-basvurularinizi-bekliyor/",
+      "summary_tr": "TEV ve Garring Vakfı iş birliğiyle, Technical University of Denmark'ta (DTU) mühendislik alanlarında yüksek lisans yapacak 3 öğrenciye tam burs desteği sağlanmaktadır.",
+      "title_tr": "TEV-Garring Vakfı Danimarka Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://esube.iskur.gov.tr/",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-13",
+      "eligibility_evidence": "MYK tarafından yayımlanan ilana göre adayların Türk vatandaşı olması, kamu haklarından mahrum bulunmaması ve ilgili mevzuatta belirtilen genel şartları taşıması gerekiyor.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "35 yaş sınırı bulunmaktadır",
+        "KPSS ve YDS puan şartı aranmaktadır",
+        "Sözlü sınav ile alım yapılacaktır"
+      ],
+      "id": "0fb54108476d",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "Mesleki Yeterlilik Kurumu",
+      "organization_domain": "myk.gov.tr",
+      "queued_at": "2026-11-10T01:31:21.778239+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/mesleki-yeterlilik-kurumu-5-uzman-yardimcisi-alacak/",
+      "summary_tr": "Mesleki Yeterlilik Kurumu (MYK), 5 Mesleki Yeterlilik Uzman Yardımcısı alımı yapacaktır. Başvurular İŞKUR üzerinden çevrim içi olarak 13 Kasım 2026 tarihine kadar gerçekleştirilecektir.",
+      "title_tr": "Mesleki Yeterlilik Kurumu Uzman Yardımcısı Alımı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://gencbizztech.org/",
+      "category": "yarisma",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Türkiye genelindeki devlet fen liselerinde öğrenim gören lise öğrencilerini, bilim ve teknoloji odaklı bir girişimcilik yolculuğuna davet ediyor.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Devlet fen lisesi öğrencilerine özel",
+        "Bilim, teknoloji ve yapay zeka eğitimleri",
+        "Türkiye finali ve GEN-E 2027 katılım hakkı"
+      ],
+      "id": "68437356e2a5",
+      "is_opportunity": true,
+      "organization": "Genç Başarı Eğitim Vakfı",
+      "organization_domain": "gencbizztech.org",
+      "queued_at": "2026-11-10T01:31:30.087840+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/gencbizztech-2027-bilim-ve-teknoloji-temelli-girisimcilik-programi-basvurulari-devam-ediyor/",
+      "summary_tr": "Türkiye İş Bankası ve Genç Başarı Eğitim Vakfı iş birliğiyle düzenlenen, devlet fen liselerindeki öğrencilere yönelik bilim ve teknoloji odaklı girişimcilik programı.",
+      "title_tr": "GençBizzTech 2027 Bilim ve Teknoloji Girişimcilik Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -3936,6 +4105,12 @@
       "status": "rejected",
       "title": "Milli Saraylar İdaresi Başkanlığı Müze Görevlisi Alımı Duyurusu",
       "ts": "2026-10-30T20:55:43.417408+00:00"
+    },
+    "0fb54108476d": {
+      "reason": "",
+      "status": "queued",
+      "title": "Mesleki Yeterlilik Kurumu Uzman Yardımcısı Alımı",
+      "ts": "2026-11-10T01:31:21.778258+00:00"
     },
     "0fcadae6e8e4": {
       "reason": "",
@@ -4184,10 +4359,10 @@
       "ts": "2026-11-05T02:25:04.653696+00:00"
     },
     "36e80af2e4c0": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Youthall Grafik Tasarım Stajyeri",
-      "ts": "2026-11-01T00:01:54.928187+00:00"
+      "ts": "2026-11-10T01:28:57.623154+00:00"
     },
     "3871c062601f": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
@@ -4303,6 +4478,12 @@
       "title": "Kültürel Miras Genç Liderler Mentörlük Programı",
       "ts": "2026-11-02T18:24:54.049879+00:00"
     },
+    "46a828eb3309": {
+      "reason": "",
+      "status": "queued",
+      "title": "Çimsa Global Build-On Plus Staj Programı",
+      "ts": "2026-11-10T01:29:54.251287+00:00"
+    },
     "48299a758094": {
       "reason": "Türkiye'ye kapalı: Applicants must be US citizens or hold valid visas that allow them to receive paid work during the summer.",
       "status": "rejected",
@@ -4351,6 +4532,12 @@
       "title": "Opet Kampüs Uzun Dönem Staj Programı",
       "ts": "2026-11-09T17:26:54.425781+00:00"
     },
+    "531ccde62795": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEV-Garring Vakfı Danimarka Yüksek Lisans Bursu",
+      "ts": "2026-11-10T01:31:13.946043+00:00"
+    },
     "536a82b273b9": {
       "reason": "",
       "status": "queued",
@@ -4362,6 +4549,12 @@
       "status": "queued",
       "title": "CERN Beamline for Schools 2027 Fizik Deneyi Yarışması",
       "ts": "2026-11-06T00:19:20.348785+00:00"
+    },
+    "561e95f77dc4": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Polonya’da Uzun Dönem ESC Gönüllülük Projesi Fırsatı",
+      "ts": "2026-11-10T01:30:47.431548+00:00"
     },
     "56a1b38aff04": {
       "reason": "",
@@ -4500,6 +4693,12 @@
       "status": "queued",
       "title": "Pioneers In Progress Uzun Dönem Pazarlama Stajı",
       "ts": "2026-10-30T09:54:01.733364+00:00"
+    },
+    "68437356e2a5": {
+      "reason": "",
+      "status": "queued",
+      "title": "GençBizzTech 2027 Bilim ve Teknoloji Girişimcilik Programı",
+      "ts": "2026-11-10T01:31:30.087860+00:00"
     },
     "68a2f9b7fca4": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5149,6 +5348,12 @@
       "title": "GovAI Yaz Araştırma Bursu 2027 - Londra",
       "ts": "2026-11-01T13:11:15.411232+00:00"
     },
+    "de9101036334": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEV-ŞÖLEN Almanya-İtalya Yüksek Lisans Bursu",
+      "ts": "2026-11-10T01:29:43.724089+00:00"
+    },
     "e29ed9b23db2": {
       "reason": "",
       "status": "queued",
@@ -5172,6 +5377,12 @@
       "status": "queued",
       "title": "Oxford Pershing Square Yüksek Lisans Bursu 2027-2028",
       "ts": "2026-11-02T10:54:52.623880+00:00"
+    },
+    "e4da285b4a60": {
+      "reason": "Katılım ücreti var.",
+      "status": "pending",
+      "title": "AB Hibe Programlarına Yönelik Proje Hazırlama Eğitimi (ONLINE) | 12-13 Aralık 2026",
+      "ts": "2026-11-10T01:31:40.018920+00:00"
     },
     "e7739ad2c3aa": {
       "reason": "Türkiye'ye kapalı: However, an important eligibility restriction applies: applicants must be United States citizens or permanent residents ",
@@ -5244,6 +5455,12 @@
       "status": "rejected",
       "title": "Litvanya’da Uzun Dönem ESC Projesi Gönüllülerini Arıyor",
       "ts": "2026-11-02T10:56:18.258856+00:00"
+    },
+    "f8d2db6735d8": {
+      "reason": "",
+      "status": "queued",
+      "title": "Sayıştay Başkanlığı Sözleşmeli Personel Alımı",
+      "ts": "2026-11-10T01:30:18.014732+00:00"
     },
     "f969288f4d9b": {
       "reason": "son başvuru geçti",
@@ -5444,6 +5661,13 @@
     "icann89 policy forum 2027 kanada bursu",
     "reach oxford lisans bursu 2027",
     "tübi tak 2244 sanayi doktora programı 2026 çağrısı",
-    "yeo purchasing specialist"
+    "yeo purchasing specialist",
+    "tev şölen almanya i talya yüksek lisans bursu",
+    "çimsa global build on plus staj programı",
+    "sayıştay başkanlığı sözleşmeli personel alımı",
+    "tev garring vakfı danimarka yüksek lisans bursu",
+    "mesleki yeterlilik kurumu uzman yardımcısı alımı",
+    "gençbizztech 2027 bilim ve teknoloji girişimcilik programı",
+    "ab hibe programlarına yönelik proje hazırlama eğitimi online"
   ]
 }
