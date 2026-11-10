@@ -162,9 +162,24 @@
     "tev.org.tr/burs/tr/30/garring-vakfi-danimarka-burslari",
     "esube.iskur.gov.tr",
     "gencbizztech.org",
-    "abakademi.com.tr"
+    "abakademi.com.tr",
+    "rockefeller.edu/education-and-training/surf/application-information",
+    "abdigm.meb.gov.tr/www/cin-hukumeti-bursu-2027-2028-duyurusu/icerik/2898/tr",
+    "youthall.com/tr/LogoYazilim/log-in-winter-staj-programi_34",
+    "tev.org.tr/burs/tr/35/tev-tev-uk-eczacibasi-imperial-college-ingiltere-yuksek-lisans-bursu"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://ayfnhq.org/event/scholarship-opportunity-winter-korean-culture-camp-2027-by-ayfn-academy/",
+      "attempts": 0,
+      "caption": "AYFN Kış Kore Kültür Kampı 2027 (Tam Burslu)\n\nASEAN Gençlik Dostluk Ağı (AYFN) tarafından Seul, Güney Kore'de düzenlenen, Kore kültürünü deneyimlemek isteyen 17-40 yaş arası uluslararası gençlere yönelik tam burslu bir haftalık kültürel kamp.\n\n- Tüm uluslara açık\n- 17-40 yaş arası\n- Tam burslu\n\nSon başvuru: 10 Kasım 2026\nBaşvuru: https://ayfnhq.org/event/scholarship-opportunity-winter-korean-culture-camp-2027-by-ayfn-academy/\nTüm fırsatlar: https://diploport.dev/#61f030b0b9d4\n\nGörsel: Hoyoun Lee / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "61f030b0b9d4",
+      "photo_query": "Seoul South Korea winter",
+      "source": "Opportunities Corners",
+      "title": "AYFN Kış Kore Kültür Kampı 2027 (Tam Burslu)",
+      "ts": "2026-11-10T09:43:49.492714+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -2430,37 +2445,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://ayfnhq.org/event/scholarship-opportunity-winter-korean-culture-camp-2027-by-ayfn-academy/",
-      "category": "egitim",
-      "country_tr": "Güney Kore",
-      "deadline": "2026-11-10",
-      "eligibility_evidence": "Open to all nationalities.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (seyahat, konaklama, yemek, aktiviteler dahil)",
-      "highlights_tr": [
-        "Tüm uluslara açık",
-        "17-40 yaş arası",
-        "Tam burslu"
-      ],
-      "id": "61f030b0b9d4",
-      "image_queries": [
-        "Seoul South Korea winter",
-        "South Korea culture",
-        "winter cultural exchange"
-      ],
-      "is_opportunity": true,
-      "organization": "ASEAN Youth Friendship Network (AYFN)",
-      "organization_domain": "ayfnhq.org",
-      "queued_at": "2026-11-04T15:26:17.221381+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/korean-winter-culture-camp-2027/",
-      "summary_tr": "ASEAN Gençlik Dostluk Ağı (AYFN) tarafından Seul, Güney Kore'de düzenlenen, Kore kültürünü deneyimlemek isteyen 17-40 yaş arası uluslararası gençlere yönelik tam burslu bir haftalık kültürel kamp.",
-      "title_tr": "AYFN Kış Kore Kültür Kampı 2027 (Tam Burslu)",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://doka.org.tr/announcement-detail.php?id=1221",
       "category": "is",
       "country_tr": "Türkiye",
@@ -4049,6 +4033,114 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.rockefeller.edu/education-and-training/surf/application-information/",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2027-02-01",
+      "eligibility_evidence": "This Fully Funded Fellowship in New York accepts international students and U.S. Citizens.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (konaklama, ulaşım, yemek ve 6.500$ harçlık)",
+      "highlights_tr": [
+        "10 haftalık tam kapsamlı araştırma programı",
+        "6.500$ stipend ve konaklama desteği",
+        "Uluslararası lisans öğrencilerine açık"
+      ],
+      "id": "99f41e030db1",
+      "image_queries": [
+        "Rockefeller University New York",
+        "USA university campus",
+        "science research laboratory"
+      ],
+      "is_opportunity": true,
+      "organization": "The Rockefeller University",
+      "organization_domain": "rockefeller.edu",
+      "queued_at": "2026-11-10T09:42:40.323124+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/rockefeller-university-usa-summer-fellowship-2027/",
+      "summary_tr": "Rockefeller Üniversitesi'nde 10 hafta sürecek, lisans öğrencilerine yönelik tam kapsamlı yaz araştırma programı.",
+      "title_tr": "Rockefeller University Yaz Araştırma Bursu (SURF) 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://abdigm.meb.gov.tr/www/cin-hukumeti-bursu-2027-2028-duyurusu/icerik/2898/tr",
+      "category": "burs",
+      "country_tr": "Çin",
+      "deadline": "2026-12-11",
+      "eligibility_evidence": "Başvuracak adayların Türkiye Cumhuriyeti vatandaşı olmaları gerekmektedir.",
+      "fee_required": false,
+      "funding_tr": "Eğitim ücreti, konaklama, aylık ödeme ve sağlık sigortası",
+      "highlights_tr": [
+        "Lisans, yüksek lisans ve doktora seviyeleri",
+        "Eğitim, konaklama ve aylık ödeme desteği",
+        "Çince yeterlilik şartı aranmaktadır"
+      ],
+      "id": "4a003a589fd4",
+      "is_opportunity": true,
+      "organization": "T.C. Milli Eğitim Bakanlığı",
+      "organization_domain": "meb.gov.tr",
+      "queued_at": "2026-11-10T09:43:28.375780+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/cin-hukumeti-bursu-basvurularinizi-bekliyor/",
+      "summary_tr": "T.C. Milli Eğitim Bakanlığı aracılığıyla Çin'de lisans, yüksek lisans, doktora ve araştırma düzeylerinde sunulan tam kapsamlı burs programı.",
+      "title_tr": "Çin Hükumeti Bursu 2027-2028",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/LogoYazilim/log-in-winter-staj-programi_34/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Lisans 4. sınıf öğrencileri için",
+        "Uzaktan çalışma imkanı",
+        "Zorunlu staj şartı aranmaktadır"
+      ],
+      "id": "1105e45c1d83",
+      "is_opportunity": true,
+      "organization": "Logo Yazılım",
+      "organization_domain": "logo.com.tr",
+      "queued_at": "2026-11-10T09:43:36.472456+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/LogoYazilim/log-in-winter-staj-programi_34/",
+      "summary_tr": "Logo Yazılım tarafından düzenlenen, lisans 4. sınıf öğrencilerine yönelik uzaktan çalışma imkanı sunan kış dönemi staj programıdır.",
+      "title_tr": "Logo Yazılım LOG-in Winter Staj Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.tev.org.tr/burs/tr/35/tev-tev-uk-eczacibasi-imperial-college-ingiltere-yuksek-lisans-bursu",
+      "category": "burs",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "2027-03-15",
+      "eligibility_evidence": "T.C. vatandaşı veya T.C. uyruklu ve 1 Ocak itibarıyla 35 yaş altında olmak,",
+      "fee_required": false,
+      "funding_tr": "Tam burs (Okul ücreti, barınma ve yaşam masrafları)",
+      "highlights_tr": [
+        "35 yaş altı olma şartı",
+        "1 yıllık yüksek lisans bursu",
+        "İngilizce dil yeterliliği şartı"
+      ],
+      "id": "443b84c5b02b",
+      "is_opportunity": true,
+      "organization": "Türk Eğitim Vakfı",
+      "organization_domain": "tev.org.tr",
+      "queued_at": "2026-11-10T09:43:46.091353+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tev-tev-uk-imperial-college-london-birlesik-krallik-yuksek-lisans-bursu-basvurulari-acildi-3/",
+      "summary_tr": "TEV, TEV UK ve Imperial College London iş birliğiyle, Natural Sciences ve Engineering alanlarında yüksek lisans yapacak bir öğrenciye tam burs verilecektir.",
+      "title_tr": "TEV-TEV UK-Imperial College London Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4117,6 +4209,12 @@
       "status": "queued",
       "title": "DİTİB 2026-2027 Eğitim Öğretim Dönemi Öğrenim Yardımı",
       "ts": "2026-11-02T20:04:58.624893+00:00"
+    },
+    "1105e45c1d83": {
+      "reason": "",
+      "status": "queued",
+      "title": "Logo Yazılım LOG-in Winter Staj Programı",
+      "ts": "2026-11-10T09:43:36.472472+00:00"
     },
     "119f78638187": {
       "reason": "",
@@ -4466,6 +4564,12 @@
       "title": "British American Tobacco Türkiye Üretim Stajı",
       "ts": "2026-11-03T09:28:42.767993+00:00"
     },
+    "443b84c5b02b": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEV-TEV UK-Imperial College London Yüksek Lisans Bursu",
+      "ts": "2026-11-10T09:43:46.091374+00:00"
+    },
     "455ec206e4ec": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -4501,6 +4605,12 @@
       "status": "queued",
       "title": "TEV-Fransa Büyükelçiliği Yüksek Lisans Bursu",
       "ts": "2026-11-03T17:49:45.572591+00:00"
+    },
+    "4a003a589fd4": {
+      "reason": "",
+      "status": "queued",
+      "title": "Çin Hükumeti Bursu 2027-2028",
+      "ts": "2026-11-10T09:43:28.375796+00:00"
     },
     "4d25d0a24135": {
       "reason": "",
@@ -4970,6 +5080,12 @@
       "title": "Jandarma ve Sahil Güvenlik Akademisi Devlet Memuru Alımı",
       "ts": "2026-11-02T10:55:43.891228+00:00"
     },
+    "99f41e030db1": {
+      "reason": "",
+      "status": "queued",
+      "title": "Rockefeller University Yaz Araştırma Bursu (SURF) 2027",
+      "ts": "2026-11-10T09:42:40.323143+00:00"
+    },
     "9add69831c2e": {
       "reason": "",
       "status": "queued",
@@ -5107,6 +5223,12 @@
       "status": "queued",
       "title": "Almanya Osnabrück'te Uzun Dönem ESC Gönüllülük Projesi",
       "ts": "2026-11-03T17:49:26.285205+00:00"
+    },
+    "abb13cfcdf1f": {
+      "reason": "Türkiye'ye kapalı: The applicants must reside in Cameroon.",
+      "status": "rejected",
+      "title": "Friedrich Ebert Foundation Young Leaders Training Program 2027",
+      "ts": "2026-11-10T09:43:20.820690+00:00"
     },
     "ac66c283400b": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -5668,6 +5790,10 @@
     "tev garring vakfı danimarka yüksek lisans bursu",
     "mesleki yeterlilik kurumu uzman yardımcısı alımı",
     "gençbizztech 2027 bilim ve teknoloji girişimcilik programı",
-    "ab hibe programlarına yönelik proje hazırlama eğitimi online"
+    "ab hibe programlarına yönelik proje hazırlama eğitimi online",
+    "rockefeller university yaz araştırma bursu surf 2027",
+    "çin hükumeti bursu 2027 2028",
+    "logo yazılım log in winter staj programı",
+    "tev tev uk imperial college london yüksek lisans bursu"
   ]
 }
