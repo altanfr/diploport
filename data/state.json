@@ -176,18 +176,7 @@
     "salto-youth.net/tools/european-training-calendar/training/digital-and-innovative-smart-youth-work-training-for-the-future-youth-workers.15502",
     "kizcocuklarinadestek.org/pusula-cocuklar-icin-sporla-katilim-destek-programinin-yeni-donem-basvurulari-basladi"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
-      "attempts": 0,
-      "caption": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı\n\nBSH tarafından düzenlenen WE Power programı, mühendislik ve satış alanlarında kariyer hedefleyen kadın öğrencilere yönelik uzun dönemli bir staj fırsatıdır.\n\n- İstanbul veya Çerkezköy lokasyonları\n- Haftada en az 3 gün çalışma imkanı\n- Mühendislik ve satış alanlarında gelişim\n\nBaşvuru: https://www.youthall.com/en/Bshik/we-power-2026_8/\nTüm fırsatlar: https://diploport.dev/#e89dbb00faa9\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
-      "id": "e89dbb00faa9",
-      "photo_query": "logo: B/S/H Türkiye (ilan sayfasındaki şirket logosu)",
-      "source": "Youthall",
-      "title": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı",
-      "ts": "2026-11-10T17:48:57.216140+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -852,6 +841,13 @@
       "photo_query": "Seoul South Korea winter",
       "source": "Opportunities Corners",
       "ts": "2026-11-10T09:44:52.639458+00:00"
+    },
+    {
+      "id": "e89dbb00faa9",
+      "official": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
+      "photo_query": "logo: B/S/H Türkiye (ilan sayfasındaki şirket logosu)",
+      "source": "Youthall",
+      "ts": "2026-11-10T17:49:30.799778+00:00"
     }
   ],
   "queue": [
@@ -5777,9 +5773,9 @@
     },
     "e89dbb00faa9": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı",
-      "ts": "2026-10-29T18:28:33.548962+00:00"
+      "ts": "2026-11-10T17:49:30.799800+00:00"
     },
     "ea54163bfa67": {
       "reason": "",
