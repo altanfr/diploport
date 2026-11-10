@@ -356,34 +356,6 @@
       "unclear_reason_tr": "Metin, Türkiye'nin uygun ülkeler listesinde olup olmadığını belirtmemiştir; resmi web sitesinden kontrol edilmelidir.",
       "visual_kind": "institution"
     },
-    "8bd808bd7c66": {
-      "apply_link_id": 1,
-      "apply_url": "https://tdk.gov.tr/icerik/duyurular/2027-yili-burs-duyurusu/",
-      "category": "burs",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-13",
-      "eligibility_evidence": "T.C. Kültür ve Turizm Bakanlığı Atatürk Kültür, Dil ve Tarih Yüksek Kurumu’nun 2027 Yılı Lisans ve Lisansüstü Burs Desteği için başvurular açılıyor.",
-      "fee_required": false,
-      "funding_tr": "Eğitim bursu",
-      "highlights_tr": [
-        "Lisans ve lisansüstü öğrencilerine yönelik",
-        "Yurt içi eğitim bursu desteği",
-        "Başvurular 13 Kasım 2026 saat 17.00'de sona eriyor"
-      ],
-      "id": "8bd808bd7c66",
-      "is_opportunity": true,
-      "message_id": 8,
-      "organization": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu",
-      "organization_domain": "ayk.gov.tr",
-      "queued_at": "2026-11-03T17:48:56.073946+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/ataturk-kultur-dil-ve-tarih-yuksek-kurumu-2027-yili-lisans-ve-lisansustu-burs-destegi/",
-      "summary_tr": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu bünyesindeki merkezler tarafından 2027 yılı için verilecek yurt içi lisans ve lisansüstü eğitim burs başvuruları başladı.",
-      "title_tr": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu 2027 Burs Desteği",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectionError); tarayıcıda kontrol et.",
-      "visual_kind": "institution"
-    },
     "a3221c8aa044": {
       "apply_link_id": 1,
       "apply_url": "https://www.emmir.org/application-procedures",
@@ -851,37 +823,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.visitfinland.com/en/have-some-finnish/",
-      "category": "diger",
-      "country_tr": "Finlandiya",
-      "deadline": "2026-11-10",
-      "eligibility_evidence": "Programa dünyanın farklı ülkelerinden bekâr kişiler başvuru yapabiliyor.",
-      "fee_required": false,
-      "funding_tr": "Uçak bileti, konaklama, yemek ve aktiviteler karşılanır",
-      "highlights_tr": [
-        "18 yaşını doldurmuş olma şartı",
-        "İngilizce video hazırlama gerekliliği",
-        "Uçak, konaklama ve yemekler ücretsiz"
-      ],
-      "id": "024a83bbca8c",
-      "image_queries": [
-        "Helsinki Finland city",
-        "Finland winter travel",
-        "people dining together"
-      ],
-      "is_opportunity": true,
-      "organization": "Visit Finland",
-      "organization_domain": "visitfinland.com",
-      "queued_at": "2026-11-01T19:31:00.453663+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/finlandiyada-belki-burada-bulursun-uygulamasi-16-bekar-icin-ucretsiz-tatil/",
-      "summary_tr": "Visit Finland, dünyanın farklı ülkelerinden 16 bekâr katılımcıyı Şubat 2027'de Finlandiya'da dört günlük ücretsiz bir seyahat programına davet ediyor.",
-      "title_tr": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
@@ -2552,38 +2493,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://www.ceps.eu/ceps-news/call-for-applications-climate-leadership-programme/",
-      "category": "egitim",
-      "country_tr": "Belçika",
-      "deadline": "2026-11-10",
-      "eligibility_evidence": "Applications are open to candidates worldwide.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (yol, vize ve konaklama karşılanır)",
-      "highlights_tr": [
-        "20-30 yaş arası gençler için",
-        "Tam burslu (yol, vize ve konaklama dahil)",
-        "Aralık 2026 - Mart 2027 arası program"
-      ],
-      "id": "c47d8d3864f4",
-      "image_queries": [
-        "Brussels European Parliament",
-        "Belgium city architecture",
-        "young people climate activism"
-      ],
-      "is_opportunity": true,
-      "organization": "Centre for European Policy Studies",
-      "organization_domain": "ceps.eu",
-      "queued_at": "2026-11-04T21:51:14.053142+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/ceps-climate-leadership-program-2027-in-belgium-fully-funded/",
-      "summary_tr": "CEPS ve Heinrich-Böll-Stiftung tarafından düzenlenen bu program, iklim politikalarıyla ilgilenen gençlere Brüksel'de eğitim ve ağ kurma fırsatı sunuyor.",
-      "title_tr": "CEPS İklim Liderliği Programı 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform",
       "category": "egitim",
       "country_tr": "Kuzey Makedonya",
@@ -2693,37 +2602,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://genclikcalismalari.org/ilan/esc-1632-almanya-gonulluluk-faaliyeti-katilimci-cagrisi/",
-      "category": "gonulluluk",
-      "country_tr": "Almanya",
-      "deadline": "2026-11-10",
-      "eligibility_evidence": "Projeye, Türkiye Cumhuriyeti vatandaşı olan 18-30 yaş arası (bu yaşlar dahil) herkes başvurabilir",
-      "fee_required": false,
-      "funding_tr": "ESC kapsamında konaklama, yemek ve yol desteği",
-      "highlights_tr": [
-        "18-30 yaş arası başvuru imkanı",
-        "Saarbrücken, Almanya'da gönüllülük",
-        "10 ay süreli ESC projesi"
-      ],
-      "id": "9cd5e42b6401",
-      "image_queries": [
-        "Saarbrücken Germany city",
-        "Germany youth volunteering",
-        "volunteers working together"
-      ],
-      "is_opportunity": true,
-      "organization": "Pi Gençlik Derneği",
-      "organization_domain": "pigenc.org",
-      "queued_at": "2026-11-04T21:55:12.562417+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/almanyada-esc-gonulluluk-projesi-firsati-4/",
-      "summary_tr": "Almanya'nın Saarbrücken şehrinde 01.12.2026 – 01.10.2027 tarihleri arasında gerçekleşecek ESC gönüllülük projesi için 18-30 yaş arası katılımcılar aranmaktadır.",
-      "title_tr": "Almanya'da ESC Gönüllülük Projesi",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -4362,10 +4240,10 @@
   ],
   "seen": {
     "024a83bbca8c": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
-      "ts": "2026-11-01T19:31:00.453680+00:00"
+      "ts": "2026-11-10T23:14:22.263532+00:00"
     },
     "043d92636a09": {
       "reason": "",
@@ -5250,10 +5128,10 @@
       "ts": "2026-11-04T15:26:10.092197+00:00"
     },
     "8bd808bd7c66": {
-      "reason": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectionError); tarayıcıda kontrol et.",
-      "status": "pending",
-      "title": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu 2027 Yılı Lisans ve Lisansüstü Burs Desteği",
-      "ts": "2026-11-03T17:48:56.073964+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu 2027 Burs Desteği",
+      "ts": "2026-11-10T23:14:22.263981+00:00"
     },
     "8cc51e5ccb3b": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -5346,10 +5224,10 @@
       "ts": "2026-11-05T02:24:57.200729+00:00"
     },
     "9cd5e42b6401": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Almanya'da ESC Gönüllülük Projesi",
-      "ts": "2026-11-04T21:55:12.562433+00:00"
+      "ts": "2026-11-10T23:14:22.263749+00:00"
     },
     "9e01cd88d970": {
       "reason": "",
@@ -5604,10 +5482,10 @@
       "ts": "2026-11-10T17:47:21.702666+00:00"
     },
     "c47d8d3864f4": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "CEPS İklim Liderliği Programı 2027",
-      "ts": "2026-11-04T21:51:14.053155+00:00"
+      "ts": "2026-11-10T23:14:22.263726+00:00"
     },
     "c4e86cb18736": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
