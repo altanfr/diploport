@@ -168,18 +168,7 @@
     "youthall.com/tr/LogoYazilim/log-in-winter-staj-programi_34",
     "tev.org.tr/burs/tr/35/tev-tev-uk-eczacibasi-imperial-college-ingiltere-yuksek-lisans-bursu"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://ayfnhq.org/event/scholarship-opportunity-winter-korean-culture-camp-2027-by-ayfn-academy/",
-      "attempts": 0,
-      "caption": "AYFN Kış Kore Kültür Kampı 2027 (Tam Burslu)\n\nASEAN Gençlik Dostluk Ağı (AYFN) tarafından Seul, Güney Kore'de düzenlenen, Kore kültürünü deneyimlemek isteyen 17-40 yaş arası uluslararası gençlere yönelik tam burslu bir haftalık kültürel kamp.\n\n- Tüm uluslara açık\n- 17-40 yaş arası\n- Tam burslu\n\nSon başvuru: 10 Kasım 2026\nBaşvuru: https://ayfnhq.org/event/scholarship-opportunity-winter-korean-culture-camp-2027-by-ayfn-academy/\nTüm fırsatlar: https://diploport.dev/#61f030b0b9d4\n\nGörsel: Hoyoun Lee / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "61f030b0b9d4",
-      "photo_query": "Seoul South Korea winter",
-      "source": "Opportunities Corners",
-      "title": "AYFN Kış Kore Kültür Kampı 2027 (Tam Burslu)",
-      "ts": "2026-11-10T09:43:49.492714+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -776,6 +765,13 @@
       "photo_query": "Tlen Poland forest",
       "source": "Erasmusgram",
       "ts": "2026-11-09T17:28:16.274139+00:00"
+    },
+    {
+      "id": "61f030b0b9d4",
+      "official": "https://ayfnhq.org/event/scholarship-opportunity-winter-korean-culture-camp-2027-by-ayfn-academy/",
+      "photo_query": "Seoul South Korea winter",
+      "source": "Opportunities Corners",
+      "ts": "2026-11-10T09:44:52.639458+00:00"
     }
   ],
   "queue": [
@@ -4746,9 +4742,9 @@
     },
     "61f030b0b9d4": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "AYFN Kış Kore Kültür Kampı 2027 (Tam Burslu)",
-      "ts": "2026-11-04T15:26:17.221398+00:00"
+      "ts": "2026-11-10T09:44:52.639479+00:00"
     },
     "6227d3d4868a": {
       "reason": "",
