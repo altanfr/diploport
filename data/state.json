@@ -166,9 +166,28 @@
     "rockefeller.edu/education-and-training/surf/application-information",
     "abdigm.meb.gov.tr/www/cin-hukumeti-bursu-2027-2028-duyurusu/icerik/2898/tr",
     "youthall.com/tr/LogoYazilim/log-in-winter-staj-programi_34",
-    "tev.org.tr/burs/tr/35/tev-tev-uk-eczacibasi-imperial-college-ingiltere-yuksek-lisans-bursu"
+    "tev.org.tr/burs/tr/35/tev-tev-uk-eczacibasi-imperial-college-ingiltere-yuksek-lisans-bursu",
+    "thecda.co/european-youth-summit-2027-madrid/ref/78",
+    "docs.google.com/forms/d/e/1FAIpQLSeKREpNJW8p-FkP3N-Qn8aiVPq4v7gsfDSFxRtk2qe5qWCDwA/viewform",
+    "irex.org/program/community-solutions-program-application-information",
+    "salto-youth.net/tools/european-training-calendar/training/pedagogy-of-the-pitch-football-as-a-tool.15479",
+    "careers.cern/jobs",
+    "studyinnl.org/finances/nl-scholarship",
+    "salto-youth.net/tools/european-training-calendar/training/digital-and-innovative-smart-youth-work-training-for-the-future-youth-workers.15502",
+    "kizcocuklarinadestek.org/pusula-cocuklar-icin-sporla-katilim-destek-programinin-yeni-donem-basvurulari-basladi"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
+      "attempts": 0,
+      "caption": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı\n\nBSH tarafından düzenlenen WE Power programı, mühendislik ve satış alanlarında kariyer hedefleyen kadın öğrencilere yönelik uzun dönemli bir staj fırsatıdır.\n\n- İstanbul veya Çerkezköy lokasyonları\n- Haftada en az 3 gün çalışma imkanı\n- Mühendislik ve satış alanlarında gelişim\n\nBaşvuru: https://www.youthall.com/en/Bshik/we-power-2026_8/\nTüm fırsatlar: https://diploport.dev/#e89dbb00faa9\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "e89dbb00faa9",
+      "photo_query": "logo: B/S/H Türkiye (ilan sayfasındaki şirket logosu)",
+      "source": "Youthall",
+      "title": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı",
+      "ts": "2026-11-10T17:48:57.216140+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -313,6 +332,39 @@
       "title_tr": "NYU Küresel Burs Programları 2027-2028",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "82da24732b9b": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.irex.org/program/community-solutions-program-application-information",
+      "category": "diger",
+      "country_tr": "ABD",
+      "deadline": "2026-11-24",
+      "eligibility_evidence": "Candidates must be citizens of one of the eligible countries specified in the program.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu",
+      "highlights_tr": [
+        "27-39 yaş aralığı şartı",
+        "3-4 ay ABD'de değişim süreci",
+        "Tam kapsamlı finansal destek"
+      ],
+      "id": "82da24732b9b",
+      "image_queries": [
+        "Washington DC city",
+        "USA professional office",
+        "leadership workshop meeting"
+      ],
+      "is_opportunity": true,
+      "message_id": 26,
+      "organization": "IREX",
+      "organization_domain": "irex.org",
+      "queued_at": "2026-11-10T17:46:44.307874+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/community-solutions-program-in-usa/",
+      "summary_tr": "IREX tarafından düzenlenen Community Solutions Program, topluluk liderlerine ABD'de 3-4 aylık değişim programı ve profesyonel gelişim imkanı sunan, tam kapsamlı bir liderlik fellowship programıdır.",
+      "title_tr": "Community Solutions Program 2027 ABD Liderlik Programı",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metin, Türkiye'nin uygun ülkeler listesinde olup olmadığını belirtmemiştir; resmi web sitesinden kontrol edilmelidir.",
       "visual_kind": "institution"
     },
     "8bd808bd7c66": {
@@ -644,6 +696,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "institution"
+    },
+    "fce6f1db14d4": {
+      "apply_link_id": 1,
+      "apply_url": "https://thecda.co/european-youth-summit-2027-madrid/ref/78/",
+      "category": "egitim",
+      "country_tr": "İspanya",
+      "deadline": "2027-01-20",
+      "eligibility_evidence": "Applicants from all nationalities can apply.",
+      "fee_required": true,
+      "funding_tr": "Tam ve kısmi burs seçenekleri mevcut",
+      "highlights_tr": [
+        "18-50 yaş arası başvuru imkanı",
+        "İngilizce dil yeterliliği gereklidir",
+        "13-16 Nisan 2027 tarihleri arasında"
+      ],
+      "id": "fce6f1db14d4",
+      "is_opportunity": true,
+      "message_id": 25,
+      "organization": "Centre for Diplomatic Advancement (CDA)",
+      "organization_domain": "thecda.co",
+      "queued_at": "2026-11-10T17:45:32.999795+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/european-youth-summit-2027-in-spain/",
+      "summary_tr": "Madrid'de düzenlenecek olan European Youth Summit 2027, 300 katılımcıya burs imkanı sunan uluslararası bir gençlik konferansıdır. 18-50 yaş arası tüm milletlerden başvurular kabul edilmektedir.",
+      "title_tr": "European Youth Summit 2027 - Madrid, İspanya",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Katılım ücreti var.",
+      "visual_kind": "scene"
     }
   },
   "published": [
@@ -1246,31 +1326,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
-    },
-    {
-      "apply_url": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "You’re flexible and open to working in İstanbul or Çerkezköy (Tekirdağ).",
-      "fee_required": false,
-      "funding_tr": "Ücretli staj",
-      "highlights_tr": [
-        "İstanbul veya Çerkezköy lokasyonları",
-        "Haftada en az 3 gün çalışma imkanı",
-        "Mühendislik ve satış alanlarında gelişim"
-      ],
-      "id": "e89dbb00faa9",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "BSH Ev Aletleri",
-      "queued_at": "2026-10-29T18:28:33.548946+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/en/Bshik/we-power-2026_8/",
-      "summary_tr": "BSH tarafından düzenlenen WE Power programı, mühendislik ve satış alanlarında kariyer hedefleyen kadın öğrencilere yönelik uzun dönemli bir staj fırsatıdır.",
-      "title_tr": "BSH WE Power Kadın Mühendislik ve Satış Staj Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
     },
     {
       "apply_url": "https://www.youthall.com/tr/OyakRenault/4-seasons-proje-stajyerligi_61/",
@@ -4137,6 +4192,176 @@
       "title_tr": "TEV-TEV UK-Imperial College London Yüksek Lisans Bursu",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeKREpNJW8p-FkP3N-Qn8aiVPq4v7gsfDSFxRtk2qe5qWCDwA/viewform",
+      "category": "egitim",
+      "country_tr": "Almanya",
+      "deadline": "",
+      "eligibility_evidence": "Ortak Ülkeler: Türkiye, Almanya, Letonya, Polonya, Romanya ve İspanya",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanır",
+      "highlights_tr": [
+        "Erasmus+ Gençlik Değişimi",
+        "20-29 Mart 2027 tarihleri arasında",
+        "Siber zorbalıkla mücadele odaklı"
+      ],
+      "id": "4dc4253c3d9c",
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-10T17:45:40.511709+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/almanya-8-gun-genclik-degisimi-2/",
+      "summary_tr": "Almanya'nın Rheinbach şehrinde düzenlenecek olan siber zorbalıkla mücadele konulu Erasmus+ gençlik değişimi projesi. Katılımcılar dijital güvenlik ve akran desteği üzerine çalışmalar yapacaktır.",
+      "title_tr": "Almanya'da Erasmus+ Gençlik Değişimi: From Scroll to Soul",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/pedagogy-of-the-pitch-football-as-a-tool.15479/",
+      "category": "egitim",
+      "country_tr": "Belçika",
+      "deadline": "2026-12-11",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
+      "highlights_tr": [
+        "11-15 Nisan 2027 tarihleri arasında",
+        "İyi düzeyde İngilizce gereklidir",
+        "Gençlik çalışanları ve antrenörler için"
+      ],
+      "id": "ebc946645452",
+      "image_queries": [
+        "Antwerp football pitch",
+        "Belgium youth training",
+        "youth workers workshop"
+      ],
+      "is_opportunity": true,
+      "organization": "SALTO-Youth",
+      "organization_domain": "salto-youth.net",
+      "queued_at": "2026-11-10T17:47:03.316682+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/katilimci-cagrisi-belcikada-4-gunluk-erasmus-egitim-kursu/",
+      "summary_tr": "Anvers'te düzenlenecek bu eğitim, futbolu sosyal kapsayıcılık ve gençlerin güçlendirilmesi için bir araç olarak kullanmayı amaçlayan gençlik çalışanları ve spor profesyonellerine yöneliktir.",
+      "title_tr": "Belçika’da Erasmus+ Eğitim Kursu: Pedagogy of the Pitch",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://careers.cern/jobs/",
+      "category": "staj",
+      "country_tr": "İsviçre",
+      "deadline": "2027-01-27",
+      "eligibility_evidence": "Candidates of all nationalities are welcome to apply.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (Ulaşım, konaklama, yemek ve sigorta dahil)",
+      "highlights_tr": [
+        "Lisans veya yüksek lisans öğrencileri başvurabilir",
+        "8-13 hafta süreli teknik proje stajı",
+        "IELTS şartı aranmıyor"
+      ],
+      "id": "c34383a99636",
+      "is_opportunity": true,
+      "organization": "CERN",
+      "organization_domain": "cern.ch",
+      "queued_at": "2026-11-10T17:47:21.702646+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/cern-summer-student-program-2027/",
+      "summary_tr": "CERN tarafından İsviçre'de düzenlenen, lisans ve yüksek lisans öğrencilerine yönelik 8-13 hafta süren teknik proje ve eğitim odaklı yaz staj programıdır.",
+      "title_tr": "CERN 2027 Yaz Öğrenci Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.studyinnl.org/finances/nl-scholarship",
+      "category": "burs",
+      "country_tr": "Hollanda",
+      "deadline": "",
+      "eligibility_evidence": "The Holland scholarship is open to international students from around the world.",
+      "fee_required": false,
+      "funding_tr": "5.000 Euro destek",
+      "highlights_tr": [
+        "5.000 Euro tutarında finansal destek",
+        "Lisans ve yüksek lisans öğrencileri için",
+        "Avrupa Ekonomik Alanı dışından öğrencilere açık"
+      ],
+      "id": "04ba2f3a3abe",
+      "image_queries": [
+        "Netherlands university campus",
+        "Netherlands student life",
+        "students studying library"
+      ],
+      "is_opportunity": true,
+      "organization": "Dutch Ministry of Education, Culture and Science",
+      "organization_domain": "studyinnl.org",
+      "queued_at": "2026-11-10T17:47:28.368320+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/nl-scholarship/",
+      "summary_tr": "Hollanda'daki üniversitelerde lisans veya yüksek lisans eğitimi almak isteyen, Avrupa Ekonomik Alanı dışından gelen uluslararası öğrenciler için sunulan kısmi burs programıdır.",
+      "title_tr": "NL Scholarship 2027-2028 Hollanda Bursu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/digital-and-innovative-smart-youth-work-training-for-the-future-youth-workers.15502/",
+      "category": "egitim",
+      "country_tr": "İtalya",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
+      "highlights_tr": [
+        "11-17 Aralık 2026 tarihleri arasında",
+        "Gençlik çalışanları ve liderlerine yönelik",
+        "Youthpass sertifikası verilecektir"
+      ],
+      "id": "396215c48b67",
+      "is_opportunity": true,
+      "organization": "SALTO-YOUTH",
+      "organization_domain": "salto-youth.net",
+      "queued_at": "2026-11-10T17:47:39.228305+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/italyada-erasmus-egitim-kursuna-katilma-firsati-2/",
+      "summary_tr": "İtalya'nın Pinarella di Cervia kentinde düzenlenecek olan, gençlik çalışanlarına yönelik dijital araçlar ve yenilikçi yöntemler odaklı Erasmus+ eğitim kursu.",
+      "title_tr": "İtalya'da Dijital ve Yenilikçi Gençlik Çalışmaları Eğitimi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.kizcocuklarinadestek.org/pusula-cocuklar-icin-sporla-katilim-destek-programinin-yeni-donem-basvurulari-basladi/",
+      "category": "hibe",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-25",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Ayni destek (50.000 TL - 125.000 TL arası)",
+      "highlights_tr": [
+        "Antalya'da yaşayan 6-18 yaş arası kız sporcular",
+        "Proje ve bireysel sporcu destek türleri",
+        "Toplam 600.000 TL ayni destek bütçesi"
+      ],
+      "id": "7ffbe6fb4e3b",
+      "is_opportunity": true,
+      "organization": "Kız Çocuklarına Destek Derneği",
+      "organization_domain": "kizcocuklarinadestek.org",
+      "queued_at": "2026-11-10T17:48:11.062779+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/pusula-cocuklar-icin-sporla-katilim-destek-programi-basvurulari-basladi/",
+      "summary_tr": "Antalya'da kız çocuklarının spora katılımını artırmayı hedefleyen proje ve bireysel sporcu destek programı başvuruları başladı.",
+      "title_tr": "Pusula: Çocuklar için Sporla Katılım Destek Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4151,6 +4376,12 @@
       "status": "queued",
       "title": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri",
       "ts": "2026-11-05T10:46:28.613415+00:00"
+    },
+    "04ba2f3a3abe": {
+      "reason": "",
+      "status": "queued",
+      "title": "NL Scholarship 2027-2028 Hollanda Bursu",
+      "ts": "2026-11-10T17:47:28.368339+00:00"
     },
     "04ebc83cc50c": {
       "reason": "",
@@ -4476,6 +4707,12 @@
       "title": "New Graduates 2027: Brand Manager",
       "ts": "2026-11-05T10:47:04.167445+00:00"
     },
+    "396215c48b67": {
+      "reason": "",
+      "status": "queued",
+      "title": "İtalya'da Dijital ve Yenilikçi Gençlik Çalışmaları Eğitimi",
+      "ts": "2026-11-10T17:47:39.228324+00:00"
+    },
     "3983e03f5c2b": {
       "reason": "ücretli program reklamı",
       "status": "rejected",
@@ -4619,6 +4856,12 @@
       "status": "queued",
       "title": "Erasmus Mundus Gazetecilik Yüksek Lisans Bursu 2027-2029",
       "ts": "2026-11-02T18:24:45.203103+00:00"
+    },
+    "4dc4253c3d9c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Almanya'da Erasmus+ Gençlik Değişimi: From Scroll to Soul",
+      "ts": "2026-11-10T17:45:40.511728+00:00"
     },
     "4ef46d949125": {
       "reason": "Türkiye'ye kapalı: The Asia Foundation Development Fellows Program 2027 presents a valuable leadership development opportunity for outstand",
@@ -4944,11 +5187,23 @@
       "title": "Toyota Boshoku Türkiye Career Dojo Uzun Dönem Staj Programı",
       "ts": "2026-11-06T15:56:04.125755+00:00"
     },
+    "7ffbe6fb4e3b": {
+      "reason": "",
+      "status": "queued",
+      "title": "Pusula: Çocuklar için Sporla Katılım Destek Programı",
+      "ts": "2026-11-10T17:48:11.062801+00:00"
+    },
     "81ace53e56f6": {
       "reason": "",
       "status": "queued",
       "title": "Nükleer Düzenleme Kurumu: Sözleşmeli Bilişim Personeli Giriş Sınavı",
       "ts": "2026-11-04T15:26:48.930846+00:00"
+    },
+    "82da24732b9b": {
+      "reason": "Metin, Türkiye'nin uygun ülkeler listesinde olup olmadığını belirtmemiştir; resmi web sitesinden kontrol edilmelidir.",
+      "status": "pending",
+      "title": "Community Solutions Program 2027 in USA | Fully Funde",
+      "ts": "2026-11-10T17:46:44.307893+00:00"
     },
     "83104f3e3d94": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5346,6 +5601,12 @@
       "title": "Doğu Karadeniz Kalkınma Ajansı (DOKA) Uzman Alımı",
       "ts": "2026-11-04T15:26:34.365860+00:00"
     },
+    "c34383a99636": {
+      "reason": "",
+      "status": "queued",
+      "title": "CERN 2027 Yaz Öğrenci Programı",
+      "ts": "2026-11-10T17:47:21.702666+00:00"
+    },
     "c47d8d3864f4": {
       "reason": "",
       "status": "queued",
@@ -5532,6 +5793,12 @@
       "title": "Fransa'da Erasmus+ Eğitim Kursu: Ezilenlerin Tiyatrosu",
       "ts": "2026-11-05T18:43:03.888242+00:00"
     },
+    "ebc946645452": {
+      "reason": "",
+      "status": "queued",
+      "title": "Belçika’da Erasmus+ Eğitim Kursu: Pedagogy of the Pitch",
+      "ts": "2026-11-10T17:47:03.316706+00:00"
+    },
     "ede70dd447b0": {
       "reason": "",
       "status": "queued",
@@ -5597,6 +5864,18 @@
       "status": "queued",
       "title": "Henkel Step Up Inclusive Uzun Dönemli Staj Programı",
       "ts": "2026-10-30T17:59:09.660357+00:00"
+    },
+    "fcd078c82efe": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Davetlisiniz: Türetici Yaşam Kooperatifi “Sosyal Ekonomi’de Ne Yapıyoruz?” Söyleşisi",
+      "ts": "2026-11-10T17:47:59.290080+00:00"
+    },
+    "fce6f1db14d4": {
+      "reason": "Katılım ücreti var.",
+      "status": "pending",
+      "title": "European Youth Summit 2027 in Spain | Fully Funded Conference",
+      "ts": "2026-11-10T17:45:32.999814+00:00"
     },
     "fcf39bc2a802": {
       "reason": "",
@@ -5790,6 +6069,14 @@
     "rockefeller university yaz araştırma bursu surf 2027",
     "çin hükumeti bursu 2027 2028",
     "logo yazılım log in winter staj programı",
-    "tev tev uk imperial college london yüksek lisans bursu"
+    "tev tev uk imperial college london yüksek lisans bursu",
+    "european youth summit 2027 madrid i spanya",
+    "almanya'da erasmus gençlik değişimi from scroll to soul",
+    "community solutions program 2027 abd liderlik programı",
+    "belçika'da erasmus eğitim kursu pedagogy of the pitch",
+    "cern 2027 yaz öğrenci programı",
+    "nl scholarship 2027 2028 hollanda bursu",
+    "i talya'da dijital ve yenilikçi gençlik çalışmaları eğitimi",
+    "pusula çocuklar için sporla katılım destek programı"
   ]
 }
