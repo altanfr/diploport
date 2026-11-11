@@ -176,18 +176,7 @@
     "salto-youth.net/tools/european-training-calendar/training/digital-and-innovative-smart-youth-work-training-for-the-future-youth-workers.15502",
     "kizcocuklarinadestek.org/pusula-cocuklar-icin-sporla-katilim-destek-programinin-yeni-donem-basvurulari-basladi"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4",
-      "attempts": 0,
-      "caption": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı\n\nMevlana Kalkınma Ajansı bünyesinde görevlendirilmek üzere 1 inşaat mühendisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.\n\n- Türkiye Cumhuriyeti vatandaşlarına açık\n- Kariyer Kapısı üzerinden başvuru\n- Sözleşmeli personel statüsü\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4\nTüm fırsatlar: https://diploport.dev/#e29ed9b23db2\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
-      "id": "e29ed9b23db2",
-      "photo_query": "logo: www.mevka.org.tr (web sitesi (www.mevka.org.tr))",
-      "source": "Kariyer Kapısı",
-      "title": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı",
-      "ts": "2026-11-11T06:04:43.736181+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -831,6 +820,13 @@
       "photo_query": "logo: B/S/H Türkiye (ilan sayfasındaki şirket logosu)",
       "source": "Youthall",
       "ts": "2026-11-10T17:49:30.799778+00:00"
+    },
+    {
+      "id": "e29ed9b23db2",
+      "official": "https://kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4",
+      "photo_query": "logo: www.mevka.org.tr (web sitesi (www.mevka.org.tr))",
+      "source": "Kariyer Kapısı",
+      "ts": "2026-11-11T06:05:16.301134+00:00"
     }
   ],
   "queue": [
@@ -5592,9 +5588,9 @@
     },
     "e29ed9b23db2": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı",
-      "ts": "2026-10-30T00:49:13.109123+00:00"
+      "ts": "2026-11-11T06:05:16.301153+00:00"
     },
     "e385ac26dfa0": {
       "reason": "Katılım ücreti var.",
