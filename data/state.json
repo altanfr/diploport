@@ -176,7 +176,18 @@
     "salto-youth.net/tools/european-training-calendar/training/digital-and-innovative-smart-youth-work-training-for-the-future-youth-workers.15502",
     "kizcocuklarinadestek.org/pusula-cocuklar-icin-sporla-katilim-destek-programinin-yeni-donem-basvurulari-basladi"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4",
+      "attempts": 0,
+      "caption": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı\n\nMevlana Kalkınma Ajansı bünyesinde görevlendirilmek üzere 1 inşaat mühendisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.\n\n- Türkiye Cumhuriyeti vatandaşlarına açık\n- Kariyer Kapısı üzerinden başvuru\n- Sözleşmeli personel statüsü\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4\nTüm fırsatlar: https://diploport.dev/#e29ed9b23db2\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "e29ed9b23db2",
+      "photo_query": "logo: www.mevka.org.tr (web sitesi (www.mevka.org.tr))",
+      "source": "Kariyer Kapısı",
+      "title": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı",
+      "ts": "2026-11-11T06:04:43.736181+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -1336,34 +1347,6 @@
       "source_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-electrical-electronics-engineer_57/",
       "summary_tr": "Büyükçekmece Teknoloji Merkezi'nde görevlendirilmek üzere, endüstriyel otomasyon ve elektrik bakım süreçlerinde destek verecek uzun dönem stajyer aranıyor.",
       "title_tr": "Elektrik ve Elektronik Mühendisi Uzun Dönem Stajyeri",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına açık",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Sözleşmeli personel statüsü"
-      ],
-      "icon": "landmark",
-      "id": "e29ed9b23db2",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "MEVLANA KALKINMA AJANSI",
-      "organization_domain": "mevka.org.tr",
-      "queued_at": "2026-10-30T00:49:13.109109+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=11272843-b0f1-470e-af31-cc176fa0e5d4",
-      "summary_tr": "Mevlana Kalkınma Ajansı bünyesinde görevlendirilmek üzere 1 inşaat mühendisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
-      "title_tr": "Mevlana Kalkınma Ajansı İnşaat Mühendisi Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },

@@ -1,6 +1,6 @@
-# Son çalışma (2026-11-11 02:14 TR)
+# Son çalışma (2026-11-11 09:04 TR)
 
-Kuyruk: 125 · Onay bekleyen: 17 · Hazırlanan: -
+Kuyruk: 124 · Onay bekleyen: 17 · Hazırlanan: e29ed9b23db2
 Bulunan yeni ilan: 0 · Bu çalışmada işlenmesi planlanan: 0 · Raporlanan: 0
 Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 24 kayıt
 
