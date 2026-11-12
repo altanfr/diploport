@@ -187,9 +187,26 @@
     "tev.org.tr/burs/tr/54/tev-abd-burslari",
     "stemgateway.nasa.gov/s/course-offering/a0BSJ0000049icD/open-science-essentials",
     "tev.org.tr/burs/tr/21/yurt-disi-burslar-tip-burslari",
-    "tev.org.tr/burs/tr/53/tev-avrupa-burslari"
+    "tev.org.tr/burs/tr/53/tev-avrupa-burslari",
+    "s.u-tokyo.ac.jp/en/utrip/apply-now",
+    "btkakademi.gov.tr/portal/public/yapayzekaileicerikuretimiegitimiguzizmir",
+    "youthall.com/tr/somposigorta/stajyer-avukat_23",
+    "theogpd.org/wlc-2027",
+    "deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/deakin-vice-chancellors-international-scholarship",
+    "mentiguide.com/basvuru/tohumlab"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+      "attempts": 0,
+      "caption": "TÜBİTAK Bütünleşik Algılama ve Haberleşme Kış Okulu\n\nTÜBİTAK TBAE tarafından düzenlenen Bütünleşik Algılama ve Haberleşme (ISAC) Kış Okulu, 23-25 Kasım 2026 tarihlerinde Gebze'de gerçekleşecek. Yüksek lisans, doktora öğrencileri ve araştırmacılar yüz yüze veya çevrim içi katılabilir.\n\n- Yüksek lisans ve doktora öğrencilerine öncelik\n- Ücretsiz konaklama ve ulaşım desteği\n- Yüz yüze ve çevrim içi katılım imkanı\n\nSon başvuru: 12 Kasım 2026\nBaşvuru: https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi\nTüm fırsatlar: https://diploport.dev/#9f0f80cfa80f\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "9f0f80cfa80f",
+      "photo_query": "logo: TÜBİTAK (Vikipedi (tr))",
+      "source": "AB İlan",
+      "title": "TÜBİTAK Bütünleşik Algılama ve Haberleşme Kış Okulu",
+      "ts": "2026-11-12T18:54:26.424863+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -341,37 +358,37 @@
       "unclear_reason_tr": "Metin, Türkiye'nin uygun ülkeler listesinde olup olmadığını belirtmemiştir; resmi web sitesinden kontrol edilmelidir.",
       "visual_kind": "institution"
     },
-    "a3221c8aa044": {
+    "842209e57e54": {
       "apply_link_id": 1,
-      "apply_url": "https://www.emmir.org/application-procedures",
-      "category": "burs",
-      "country_tr": "Almanya, Norveç ve diğer ortak ülkeler",
-      "deadline": "2026-12-20",
-      "eligibility_evidence": "The EMMIR scholarship for international students is a two-year joint master’s degree that allows students to study at different European universities.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (öğrenim ücreti, aylık 1400€ burs, seyahat ve sigorta)",
+      "apply_url": "https://theogpd.org/wlc-2027/",
+      "category": "egitim",
+      "country_tr": "Avusturya",
+      "deadline": "2026-11-29",
+      "eligibility_evidence": "The World Leaders Convention welcomes young people from diverse academic and professional backgrounds",
+      "fee_required": true,
+      "funding_tr": "Tam burslu (uçak bileti, konaklama ve yemekler dahil)",
       "highlights_tr": [
-        "Aylık 1400€ yaşam desteği",
-        "İki yıllık tam burslu yüksek lisans",
-        "C1 seviyesinde İngilizce yeterliliği"
+        "Viyana'da 4 günlük liderlik programı",
+        "Uçak bileti ve konaklama dahil tam burs imkanı",
+        "Genç liderler ve profesyoneller için ağ kurma"
       ],
-      "id": "a3221c8aa044",
+      "id": "842209e57e54",
       "image_queries": [
-        "European university campus",
-        "Germany university students",
-        "students studying library"
+        "Vienna Austria city",
+        "Austria university students",
+        "international youth conference"
       ],
       "is_opportunity": true,
-      "message_id": 16,
-      "organization": "EMMIR",
-      "organization_domain": "emmir.org",
-      "queued_at": "2026-11-05T18:43:37.320145+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/erasmus-mundus-emmir-scholarship/",
-      "summary_tr": "Göç ve Kültürlerarası İlişkiler alanında iki yıllık, Avrupa'da farklı üniversitelerde eğitim imkanı sunan tam burslu yüksek lisans programıdır.",
-      "title_tr": "Erasmus Mundus EMMIR 2027 Yüksek Lisans Bursu",
+      "message_id": 31,
+      "organization": "Organization for Global Policy & Dialogue",
+      "organization_domain": "theogpd.org",
+      "queued_at": "2026-11-12T18:54:07.177282+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/world-leaders-convention-2027-in-austria/",
+      "summary_tr": "Viyana'da düzenlenecek olan World Leaders Convention 2027, genç liderleri, öğrencileri ve girişimcileri dört günlük liderlik gelişimi, ağ kurma ve politika tartışmaları için bir araya getiriyor.",
+      "title_tr": "World Leaders Convention 2027 - Viyana, Avusturya",
       "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "scene"
     },
     "ac66c283400b": {
@@ -577,6 +594,39 @@
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "institution"
     },
+    "f7303decc9f0": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/deakin-vice-chancellors-international-scholarship",
+      "category": "burs",
+      "country_tr": "Avustralya",
+      "deadline": "",
+      "eligibility_evidence": "The applicants must be prospective international students.",
+      "fee_required": false,
+      "funding_tr": "%50 veya %100 öğrenim ücreti muafiyeti",
+      "highlights_tr": [
+        "Lisans ve lisansüstü eğitim için geçerli",
+        "%50 veya %100 öğrenim ücreti desteği",
+        "Akademik başarı şartı (%85 ortalama)"
+      ],
+      "id": "f7303decc9f0",
+      "image_queries": [
+        "Deakin University campus",
+        "Australia university students",
+        "students walking campus"
+      ],
+      "is_opportunity": true,
+      "message_id": 32,
+      "organization": "Deakin University",
+      "organization_domain": "deakin.edu.au",
+      "queued_at": "2026-11-12T18:54:13.787173+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/deakin-vice-chancellors-international-scholarship/",
+      "summary_tr": "Deakin Üniversitesi, lisans ve lisansüstü programlarına başvuran uluslararası öğrenciler için %50 veya %100 oranında öğrenim ücreti bursu ve profesyonel gelişim programı desteği sunmaktadır.",
+      "title_tr": "Deakin Vice-Chancellor’s International Scholarship 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
     "fce6f1db14d4": {
       "apply_link_id": 1,
       "apply_url": "https://thecda.co/european-youth-summit-2027-madrid/ref/78/",
@@ -758,32 +808,6 @@
   "queue": [
     {
       "apply_link_id": 1,
-      "apply_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
-      "category": "egitim",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-12",
-      "eligibility_evidence": "TÜBİTAK Temel Bilimler Araştırma Enstitüsü (TBAE), temel bilimin çeşitli dallarında ve disiplinler arası alanlarda oldukça geniş bir yelpazede nitelikli bilgi üretmek, uluslararası düzeyde bilimsel etkinlikler gerçekleştirmek ve Türkiye’ye bilimsel rekabet gücü kazandırmak yönündeki çabalarını arttırmak amacıyla önemli adımlar atmaya devam ediyor.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz konaklama ve ulaşım desteği",
-      "highlights_tr": [
-        "Yüksek lisans ve doktora öğrencilerine öncelik",
-        "Ücretsiz konaklama ve ulaşım desteği",
-        "Yüz yüze ve çevrim içi katılım imkanı"
-      ],
-      "id": "9f0f80cfa80f",
-      "is_opportunity": true,
-      "organization": "TÜBİTAK Temel Bilimler Araştırma Enstitüsü",
-      "organization_domain": "tubitak.gov.tr",
-      "queued_at": "2026-11-02T10:55:00.890683+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tubitak-butunlesik-algilama-ve-haberlesme-kis-okulu-basvurulari-acildi/",
-      "summary_tr": "TÜBİTAK TBAE tarafından düzenlenen Bütünleşik Algılama ve Haberleşme (ISAC) Kış Okulu, 23-25 Kasım 2026 tarihlerinde Gebze'de gerçekleşecek. Yüksek lisans, doktora öğrencileri ve araştırmacılar yüz yüze veya çevrim içi katılabilir.",
-      "title_tr": "TÜBİTAK Bütünleşik Algılama ve Haberleşme Kış Okulu",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfCdsHIVdioIuwmqW924iGa__5aeHI0gSnVdzgzjPcA38rMcA/viewform",
       "category": "egitim",
       "country_tr": "Türkiye",
@@ -888,36 +912,6 @@
       "title_tr": "GovAI Yaz Araştırma Bursu 2027 - Londra",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://summer.epfl.ch/apply.html",
-      "category": "staj",
-      "country_tr": "İsviçre",
-      "deadline": "2026-11-29",
-      "eligibility_evidence": "The EPFL Summer Program is open to students worldwide.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (yaşam masrafları ve ulaşım karşılanır)",
-      "highlights_tr": [
-        "Dünya genelinden tüm öğrencilere açık",
-        "IELTS şartı aranmıyor",
-        "3 ay süreli tam burslu program"
-      ],
-      "id": "1571e08017b2",
-      "image_queries": [
-        "EPFL campus Lausanne",
-        "Switzerland university research",
-        "students working in laboratory"
-      ],
-      "is_opportunity": true,
-      "organization": "École Polytechnique fédérale de Lausanne (EPFL)",
-      "queued_at": "2026-10-29T18:25:11.353502+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/epfl-summer-internship-2027/",
-      "summary_tr": "İsviçre'deki EPFL bünyesinde bilgisayar ve iletişim bilimleri alanında lisans ve yüksek lisans öğrencilerine yönelik 3 aylık tam burslu yaz araştırma stajı.",
-      "title_tr": "EPFL Yaz Araştırma Stajı Programı 2027",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -4323,6 +4317,110 @@
       "title_tr": "TEV Avrupa Ülkeleri Yüksek Lisans Bursu",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.s.u-tokyo.ac.jp/en/utrip/apply-now/",
+      "category": "staj",
+      "country_tr": "Japonya",
+      "deadline": "2026-12-25",
+      "eligibility_evidence": "The UTRIP Internship is open to all Nationalities.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (konaklama, uçak bileti, yemek ve harçlık)",
+      "highlights_tr": [
+        "Tam burslu: Ulaşım, konaklama ve yemek dahil",
+        "6 haftalık araştırma odaklı staj programı",
+        "Tüm ülkelerden lisans öğrencilerine açık"
+      ],
+      "id": "4dce148eeb23",
+      "is_opportunity": true,
+      "organization": "University of Tokyo",
+      "organization_domain": "u-tokyo.ac.jp",
+      "queued_at": "2026-11-12T18:53:31.384702+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/utrip-summer-internship-2027-in-japan/",
+      "summary_tr": "Tokyo Üniversitesi tarafından düzenlenen, lisans öğrencilerine yönelik 6 haftalık tam burslu yaz araştırma stajı programıdır.",
+      "title_tr": "UTRIP Yaz Stajı 2027 - Japonya",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.btkakademi.gov.tr/portal/public/yapayzekaileicerikuretimiegitimiguzizmir",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-18",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "30 yaş altı öğrenciler ve yeni mezunlar",
+        "İzmir'de yüz yüze eğitim",
+        "Üretken yapay zekâ uygulamaları"
+      ],
+      "id": "e83b58db9b6e",
+      "is_opportunity": true,
+      "organization": "Bilgi Teknolojileri ve İletişim Kurumu",
+      "organization_domain": "btkakademi.gov.tr",
+      "queued_at": "2026-11-12T18:53:52.595679+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/btk-akademiden-izmirde-yapay-zeka-ile-icerik-uretimi-egitimi/",
+      "summary_tr": "BTK Akademi tarafından İzmir'de düzenlenecek, üretken yapay zekâ araçlarının uygulamalı olarak kullanılacağı yüz yüze eğitim programı.",
+      "title_tr": "BTK Akademi Yapay Zekâ ile İçerik Üretimi Eğitimi",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/somposigorta/stajyer-avukat_23/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Hukuk fakültesi mezuniyeti şartı",
+        "Sigorta, ticaret ve borçlar hukuku odaklı",
+        "UYAP ve MS Office bilgisi gereklidir"
+      ],
+      "id": "8347a05642c5",
+      "is_opportunity": true,
+      "organization": "Sompo Sigorta",
+      "organization_domain": "sompo.com.tr",
+      "queued_at": "2026-11-12T18:53:59.903582+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/somposigorta/stajyer-avukat_23/",
+      "summary_tr": "Sompo Sigorta, hukuk fakültesi mezunu, avukatlık stajına başlamış veya başlayacak olan stajyer avukatlar arıyor.",
+      "title_tr": "Sompo Sigorta Stajyer Avukat Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://mentiguide.com/basvuru/tohumlab",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Lise öğrencileri ve üniversite mentörleri için",
+        "Yapay zeka, finans ve girişimcilik odaklı",
+        "Eğitim süreci ve hackathon içerir"
+      ],
+      "id": "483fa1e65db4",
+      "is_opportunity": true,
+      "organization": "TohumLab",
+      "organization_domain": "mentiguide.com",
+      "queued_at": "2026-11-12T18:54:20.816524+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tohumlabin-ilk-programi-future-builders-ogrenci-ve-mentorlerin-basvurularini-bekliyor/",
+      "summary_tr": "TohumLab, lise öğrencileri için yapay zeka, finansal okuryazarlık ve girişimcilik alanlarında eğitim ve hackathon içeren Future Builders programına başvuruları açtı.",
+      "title_tr": "TohumLab Future Builders Öğrenci ve Mentör Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4331,6 +4429,12 @@
       "status": "expired",
       "title": "Visit Finland'dan 16 Kişiye Ücretsiz Finlandiya Seyahati",
       "ts": "2026-11-10T23:14:22.263532+00:00"
+    },
+    "02cb379a4b08": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "RIKEN CBS Summer Program 2027 in Japan",
+      "ts": "2026-11-12T18:53:45.107423+00:00"
     },
     "043d92636a09": {
       "reason": "",
@@ -4441,10 +4545,10 @@
       "ts": "2026-11-12T10:59:50.412854+00:00"
     },
     "1571e08017b2": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "EPFL Yaz Araştırma Stajı Programı 2027",
-      "ts": "2026-10-29T18:25:11.353519+00:00"
+      "ts": "2026-11-12T18:52:43.527704+00:00"
     },
     "1760f8288825": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -4818,6 +4922,12 @@
       "title": "AAAS Mass Media Fellowship 2027 in USA",
       "ts": "2026-10-31T12:10:38.328503+00:00"
     },
+    "483fa1e65db4": {
+      "reason": "",
+      "status": "queued",
+      "title": "TohumLab Future Builders Öğrenci ve Mentör Programı",
+      "ts": "2026-11-12T18:54:20.816552+00:00"
+    },
     "4964de0862b8": {
       "reason": "",
       "status": "queued",
@@ -4859,6 +4969,12 @@
       "status": "queued",
       "title": "Almanya'da Erasmus+ Gençlik Değişimi: From Scroll to Soul",
       "ts": "2026-11-10T17:45:40.511728+00:00"
+    },
+    "4dce148eeb23": {
+      "reason": "",
+      "status": "queued",
+      "title": "UTRIP Yaz Stajı 2027 - Japonya",
+      "ts": "2026-11-12T18:53:31.384725+00:00"
     },
     "4ef46d949125": {
       "reason": "Türkiye'ye kapalı: The Asia Foundation Development Fellows Program 2027 presents a valuable leadership development opportunity for outstand",
@@ -5220,6 +5336,18 @@
       "title": "TEV-DAAD Almanya Eğitim Bursu",
       "ts": "2026-11-08T15:07:33.757449+00:00"
     },
+    "8347a05642c5": {
+      "reason": "",
+      "status": "queued",
+      "title": "Sompo Sigorta Stajyer Avukat Alımı",
+      "ts": "2026-11-12T18:53:59.903601+00:00"
+    },
+    "842209e57e54": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
+      "status": "pending",
+      "title": "World Leaders Convention 2027 in Austria (Fully Funded)",
+      "ts": "2026-11-12T18:54:07.177302+00:00"
+    },
     "856bbd4d4028": {
       "reason": "",
       "status": "queued",
@@ -5437,10 +5565,10 @@
       "ts": "2026-11-06T00:18:35.980172+00:00"
     },
     "a3221c8aa044": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Erasmus Mundus EMMIR Scholarship 2027 | Fully Funded",
-      "ts": "2026-11-05T18:43:37.320167+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Erasmus Mundus EMMIR 2027 Yüksek Lisans Bursu",
+      "ts": "2026-11-12T18:52:43.528162+00:00"
     },
     "a3dff2a05e20": {
       "reason": "Türkiye'ye kapalı: Students from Asia can apply from here (Enrolled in an Asian university pursuing a bachelor’s degree).",
@@ -5838,6 +5966,12 @@
       "title": "Dubai Government Free AI Course with Free Certificate | One Million Prompters",
       "ts": "2026-11-12T10:59:10.190188+00:00"
     },
+    "e83b58db9b6e": {
+      "reason": "",
+      "status": "queued",
+      "title": "BTK Akademi Yapay Zekâ ile İçerik Üretimi Eğitimi",
+      "ts": "2026-11-12T18:53:52.595698+00:00"
+    },
     "e8827e4a4f59": {
       "reason": "",
       "status": "queued",
@@ -5915,6 +6049,12 @@
       "status": "queued",
       "title": "DIPLOMOSAIC: Yapay Zekâ Çağında Siber Diplomasi Eğitimi",
       "ts": "2026-11-01T13:11:00.981405+00:00"
+    },
+    "f7303decc9f0": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Deakin Vice-Chancellor’s International Scholarship 2027",
+      "ts": "2026-11-12T18:54:13.787192+00:00"
     },
     "f8ca5d4840e8": {
       "reason": "",
@@ -6177,6 +6317,12 @@
     "tev abd yüksek lisans bursu",
     "nasa open science essentials 2026 çevrimiçi eğitim programı",
     "tev dr orhan birman tıp araştırma bursu",
-    "tev avrupa ülkeleri yüksek lisans bursu"
+    "tev avrupa ülkeleri yüksek lisans bursu",
+    "utrip yaz stajı 2027 japonya",
+    "btk akademi yapay zekâ ile i çerik üretimi eğitimi",
+    "sompo sigorta stajyer avukat alımı",
+    "world leaders convention 2027 viyana avusturya",
+    "deakin vice chancellor's international scholarship 2027",
+    "tohumlab future builders öğrenci ve mentör programı"
   ]
 }

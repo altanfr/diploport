@@ -1,14 +1,15 @@
-# Son çalışma (2026-11-12 13:57 TR)
+# Son çalışma (2026-11-12 21:52 TR)
 
-Kuyruk: 131 · Onay bekleyen: 14 · Hazırlanan: 6fa619234ecc
-Bulunan yeni ilan: 6 · Bu çalışmada işlenmesi planlanan: 6 · Raporlanan: 6
-Kaynaklar: Opportunities Corners: 1 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 4 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 24 kayıt
+Kuyruk: 133 · Onay bekleyen: 15 · Hazırlanan: 9f0f80cfa80f
+Bulunan yeni ilan: 7 · Bu çalışmada işlenmesi planlanan: 7 · Raporlanan: 7
+Kaynaklar: Opportunities Corners: 2 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 2 yeni / 10 kayıt · AB İlan: 2 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 1 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 24 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| onayda | Opportunities Corners | NASA Open Science Essentials 2026 Çevrimiçi Eğitim Programı | Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et. · son tarih: 2026-12-01 · link: https://stemgateway.nasa.gov/s/course-offering/a0BSJ0000049icD/open-science-essentials · görsel: kurum logosu aranacak (NASA; stok foto yok) |
-| elendi | Opportunities Circle | Dubai Government Free AI Course with Free Certificate / One Million Prompters | tekrar |
-| kuyrukta | AB İlan | TEV Dr. Orhan Birman Tıp Araştırma Bursu | kanıt: T.C. vatandaşı ve 1 Ocak itibarıyla 40 yaş altında olmak, · son tarih: 2027-04-12 · link: https://www.tev.org.tr/burs/tr/21/yurt-disi-burslar-tip-burslari · görsel: kurum logosu aranacak (Türk Eğitim Vakfı; stok foto yok) |
-| kuyrukta | AB İlan | TEV Avrupa Ülkeleri Yüksek Lisans Bursu | kanıt: T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak, · son tarih: 2027-05-31 · link: https://www.tev.org.tr/burs/tr/53/tev-avrupa-burslari · görsel: kurum logosu aranacak (Türk Eğitim Vakfı; stok foto yok) |
-| elendi | AB İlan | RENEW-BOOSTER Eurocluster: KOBİ’lere 60.000 Avro Destek | fırsat değil (haber/liste/reklam) |
-| elendi | AB İlan | Polonya’da Kısa Dönem ESC Gönüllülük Projesi Katılımcı Çağrısı | tekrar |
+| kuyrukta | Opportunities Corners | UTRIP Yaz Stajı 2027 - Japonya | kanıt: The UTRIP Internship is open to all Nationalities. · son tarih: 2026-12-25 · link: https://www.s.u-tokyo.ac.jp/en/utrip/apply-now/ · görsel: kurum logosu aranacak (University of Tokyo; stok foto yok) |
+| elendi | Opportunities Circle | RIKEN CBS Summer Program 2027 in Japan | tekrar |
+| kuyrukta | AB İlan | BTK Akademi Yapay Zekâ ile İçerik Üretimi Eğitimi | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2026-11-18 · link: https://www.btkakademi.gov.tr/portal/public/yapayzekaileicerikuretimiegitimiguzizmir · görsel: kurum logosu aranacak (Bilgi Teknolojileri ve İletişim Kurumu; stok foto yok) |
+| kuyrukta | Youthall | Sompo Sigorta Stajyer Avukat Alımı | kanıt: Kaynak Türkiye merkezli (Youthall) · son tarih: - · link: https://www.youthall.com/tr/somposigorta/stajyer-avukat_23/ · görsel: kurum logosu aranacak (Sompo Sigorta; stok foto yok) |
+| onayda | Opportunities Corners | World Leaders Convention 2027 - Viyana, Avusturya | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var. · son tarih: 2026-11-29 · link: https://theogpd.org/wlc-2027/ · foto: Vienna Austria city / Austria university students / international youth conference |
+| onayda | Opportunities Circle | Deakin Vice-Chancellor’s International Scholarship 2027 | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: - · link: https://www.deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/deakin-vice-chancellors-international-scholarship · görsel: kurum logosu aranacak (Deakin University; stok foto yok) |
+| kuyrukta | AB İlan | TohumLab Future Builders Öğrenci ve Mentör Programı | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2026-11-30 · link: https://mentiguide.com/basvuru/tohumlab · görsel: kurum logosu aranacak (TohumLab; stok foto yok) |
