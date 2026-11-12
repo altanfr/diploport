@@ -189,18 +189,7 @@
     "tev.org.tr/burs/tr/21/yurt-disi-burslar-tip-burslari",
     "tev.org.tr/burs/tr/53/tev-avrupa-burslari"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe0gUjwVqOL2Yh5JHMgNgfgK-xriFWa7F7vk_SrhKpZMxkmJA/viewform",
-      "attempts": 0,
-      "caption": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi\n\nAlmanya'nın Uelzen kentinde düzenlenecek olan Roots of Wellbeing Erasmus+ gençlik değişimi; ruhsal iyi oluş, doğa, sürdürülebilirlik ve sosyal kapsayıcılık konularına odaklanmaktadır.\n\n- 20-28 Kasım 2026 tarihleri arasında\n- 18-30 yaş arası gençlere açık\n- Almanya, Norveç, Türkiye ve diğer ülkelerden katılım\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSe0gUjwVqOL2Yh5JHMgNgfgK-xriFWa7F7vk_SrhKpZMxkmJA/viewform\nTüm fırsatlar: https://diploport.dev/#6fa619234ecc\n\nGörsel: Conny Schneider / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "6fa619234ecc",
-      "photo_query": "Germany youth exchange",
-      "source": "Erasmusgram",
-      "title": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
-      "ts": "2026-11-12T11:00:16.863214+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -757,6 +746,13 @@
       "photo_query": "logo: www.mevka.org.tr (web sitesi (www.mevka.org.tr))",
       "source": "Kariyer Kapısı",
       "ts": "2026-11-11T06:05:16.301134+00:00"
+    },
+    {
+      "id": "6fa619234ecc",
+      "official": "https://docs.google.com/forms/d/e/1FAIpQLSe0gUjwVqOL2Yh5JHMgNgfgK-xriFWa7F7vk_SrhKpZMxkmJA/viewform",
+      "photo_query": "Germany youth exchange",
+      "source": "Erasmusgram",
+      "ts": "2026-11-12T11:00:50.168032+00:00"
     }
   ],
   "queue": [
@@ -5088,9 +5084,9 @@
     },
     "6fa619234ecc": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
-      "ts": "2026-10-29T18:26:52.011355+00:00"
+      "ts": "2026-11-12T11:00:50.168056+00:00"
     },
     "70fa11467998": {
       "reason": "",
