@@ -182,7 +182,9 @@
     "code2work.co",
     "kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
     "thecipes.org/ypef-hongkong-2026",
-    "tsinghuaamgenscholars.com/Program_Overview.html"
+    "tsinghuaamgenscholars.com/Program_Overview.html",
+    "bebka.org.tr/techup-2026-teknoloji-odakli-hizlandirici-programi-basvurulari-basladi",
+    "tev.org.tr/burs/tr/54/tev-abd-burslari"
   ],
   "outbox": [],
   "pending": {
@@ -247,34 +249,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
       "visual_kind": "scene"
     },
-    "3871c062601f": {
-      "apply_link_id": 3,
-      "apply_url": "https://juridicum.univie.ac.at/news-detailasnicht/ausschreibung-fellowship-programm-sommersemester-2027",
-      "category": "hibe",
-      "country_tr": "Avusturya",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "The programme is open to both established academics and early-career researchers, including professors, doctoral students and postdoctoral researchers, to pursue research projects, collaborate with faculty members and establish valuable international academic connections.",
-      "fee_required": false,
-      "funding_tr": "Aylık 800-1050 €",
-      "highlights_tr": [
-        "Uluslararası araştırmacılara açık",
-        "Aylık 800-1050 € burs imkanı",
-        "Son başvuru 30 Kasım 2026"
-      ],
-      "id": "3871c062601f",
-      "is_opportunity": true,
-      "message_id": 12,
-      "organization": "University of Vienna Faculty of Law",
-      "organization_domain": "univie.ac.at",
-      "queued_at": "2026-11-05T02:24:50.756584+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/04/university-of-vienna-faculty-of-law-fellowship-2027-research-fellowships-in-austria-with-monthly-funding-of-up-to-e1050/",
-      "summary_tr": "University of Vienna Hukuk Fakültesi, uluslararası araştırmacılar için 2027 Yaz Dönemi Burs Programı'na başvuruları kabul ediyor. Program, profesörler için aylık 1050 €, doktora ve doktora sonrası araştırmacılar için ise aylık 800 € destek sunuyor.",
-      "title_tr": "University of Vienna Hukuk Fakültesi Burs Programı 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
-      "visual_kind": "scene"
-    },
     "3d9e987b961e": {
       "apply_link_id": 3,
       "apply_url": "https://morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20895",
@@ -330,34 +304,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "scene"
-    },
-    "69ae4f68838d": {
-      "apply_link_id": 1,
-      "apply_url": "https://docket.law.nyu.edu/global/announcing-global-fellowships-for-the-2027-2028-academic-year/58119/",
-      "category": "egitim",
-      "country_tr": "ABD",
-      "deadline": "2027-01-15",
-      "eligibility_evidence": "The NYU Global Fellowship Programs are academic opportunities offered through New York University School of Law for the 2027–2028 academic year. They provide eligible international scholars, researchers, doctoral candidates and professionals with opportunities to conduct research and engage with NYU’s academic community.",
-      "fee_required": false,
-      "funding_tr": "Aylık 70.000 USD'ye kadar burs",
-      "highlights_tr": [
-        "Uluslararası araştırmacılar ve akademisyenler için",
-        "Akademik yıl başına 70.000 USD'ye kadar burs",
-        "Son başvuru tarihi 15 Ocak 2027"
-      ],
-      "id": "69ae4f68838d",
-      "is_opportunity": true,
-      "message_id": 14,
-      "organization": "New York University School of Law",
-      "organization_domain": "nyu.edu",
-      "queued_at": "2026-11-05T02:25:32.564330+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/04/nyu-global-fellowship-programs-2027-2028-apply-for-international-research-opportunities-in-the-usa-with-stipends-of-up-to-70000/",
-      "summary_tr": "New York Üniversitesi Hukuk Fakültesi, 2027-2028 akademik yılı için uluslararası akademisyen, araştırmacı, doktora adayı ve profesyonellere yönelik Küresel Burs Programları'na başvuruları kabul ediyor. Seçilenlere akademik yıl başına 70.000 USD'ye kadar burs verilebilir.",
-      "title_tr": "NYU Küresel Burs Programları 2027-2028",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
     },
     "82da24732b9b": {
       "apply_link_id": 1,
@@ -480,39 +426,6 @@
       "title_tr": "UNDP İklim ve Enerji Staj Programı 2026",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
-    "bf1d24059375": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.unomaha.edu/admissions/apply/index.php",
-      "category": "egitim",
-      "country_tr": "Amerika Birleşik Devletleri",
-      "deadline": "2027-03-15",
-      "eligibility_evidence": "International applicants are welcome to apply, provided they satisfy the university’s academic and English-language requirements.",
-      "fee_required": true,
-      "funding_tr": "Tam burslu (asistanlık ile)",
-      "highlights_tr": [
-        "Tam burslu asistanlık imkanı",
-        "GRE şartı yok",
-        "Başvuru ücreti 50$"
-      ],
-      "id": "bf1d24059375",
-      "image_queries": [
-        "University of Nebraska Omaha campus",
-        "USA university campus",
-        "public administration building"
-      ],
-      "is_opportunity": true,
-      "message_id": 13,
-      "organization": "University of Nebraska at Omaha",
-      "organization_domain": "unomaha.edu",
-      "queued_at": "2026-11-05T02:25:19.617999+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/04/university-of-nebraska-at-omaha-phd-in-public-administration-2027-admission-requirements-fully-funded-graduate-assistantships-scholarships-and-application-deadlines/",
-      "summary_tr": "University of Nebraska at Omaha, Kamu Yönetimi alanında doktora programı sunmaktadır. Program, tam burslu öğretim üyeliği asistanlıkları, 20.000$ yıllık burs ve sağlık sigortası gibi olanaklar sağlamaktadır. Başvurular için GRE şartı aranmamaktadır.",
-      "title_tr": "University of Nebraska at Omaha'da Kamu Yönetimi Doktora Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "institution"
     },
     "caf1cd166127": {
@@ -1024,33 +937,6 @@
       "summary_tr": "Cumhurbaşkanlığı himayelerinde yürütülen Ulusal Staj Programı, üniversite öğrencilerine kamu ve özel sektörde staj, iş gölgeleme ve eğitim fırsatları sunan bir kariyer gelişim programıdır.",
       "title_tr": "Ulusal Staj Programı 2027 Başvuruları",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.commencis.com/cloud-camp-2027/",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "2026-12-31",
-      "eligibility_evidence": "The program is free of charge and open to all university students in their 3rd year and beyond.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz eğitim",
-      "highlights_tr": [
-        "6 haftalık online eğitim",
-        "AWS onaylı sertifika imkanı",
-        "Staj ve işe alım fırsatı"
-      ],
-      "id": "1a09fc4eeebd",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Commencis",
-      "queued_at": "2026-10-29T00:46:49.734366+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/en/Commencis/commencis-cloud-camp-2027_50/",
-      "summary_tr": "Commencis tarafından düzenlenen, 6 hafta sürecek AWS sertifikalı uygulamalı bulut teknolojileri eğitim programı.",
-      "title_tr": "Commencis Cloud Camp 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
       "visual_kind": "institution"
     },
     {
@@ -4353,6 +4239,58 @@
       "title_tr": "Tsinghua Amgen Yaz Stajı Programı 2027 - Çin",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://bebka.org.tr/techup-2026-teknoloji-odakli-hizlandirici-programi-basvurulari-basladi/",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-27",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Mentorluk, yatırım hazırlığı ve ödül fırsatları",
+      "highlights_tr": [
+        "Marmara Bölgesi'ndeki girişimlere özel",
+        "Mentorluk ve yatırım hazırlığı desteği",
+        "Demo Day ile yatırımcılarla buluşma"
+      ],
+      "id": "c64ff63a6a94",
+      "is_opportunity": true,
+      "organization": "Bursa Eskişehir Bilecik Kalkınma Ajansı",
+      "organization_domain": "bebka.org.tr",
+      "queued_at": "2026-11-12T02:56:37.812247+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/bebka-techup-2026-teknoloji-odakli-hizlandirici-programi-basvurulari-acildi/",
+      "summary_tr": "BEBKA tarafından düzenlenen TechUP 2026, Marmara Bölgesi'ndeki teknoloji girişimlerinin büyüme, ticarileşme ve yatırım süreçlerini destekleyen bir hızlandırıcı programıdır.",
+      "title_tr": "BEBKA TechUP 2026 Teknoloji Odaklı Hızlandırıcı Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.tev.org.tr/burs/tr/54/tev-abd-burslari",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2027-05-31",
+      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
+      "fee_required": false,
+      "funding_tr": "Yaklaşık 20.000 USD yaşam desteği",
+      "highlights_tr": [
+        "35 yaş altı T.C. vatandaşı olma şartı",
+        "9-21 ay arası burs süresi",
+        "İngilizce dil yeterlilik belgesi zorunluluğu"
+      ],
+      "id": "9904d4d7b663",
+      "is_opportunity": true,
+      "organization": "Türk Eğitim Vakfı",
+      "organization_domain": "tev.org.tr",
+      "queued_at": "2026-11-12T02:56:57.698079+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tev-abd-yuksek-lisans-bursu-icin-basvurular-aciliyor/",
+      "summary_tr": "Türk Eğitim Vakfı tarafından ABD'deki üniversitelerde yüksek lisans yapacak T.C. vatandaşı öğrencilere verilen burs programıdır. Tıp ve performans sanatları dışındaki tüm alanları kapsamaktadır.",
+      "title_tr": "TEV ABD Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4495,10 +4433,10 @@
       "ts": "2026-11-07T15:39:11.256443+00:00"
     },
     "1a09fc4eeebd": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Commencis Cloud Camp 2027",
-      "ts": "2026-10-29T00:46:49.734379+00:00"
+      "ts": "2026-11-12T02:55:59.308610+00:00"
     },
     "1a96cfc65351": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -4687,10 +4625,10 @@
       "ts": "2026-11-10T01:28:57.623154+00:00"
     },
     "3871c062601f": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
-      "status": "pending",
-      "title": "University of Vienna Faculty of Law Fellowship 2027: Research Fellowships in Austria with Monthly Funding of Up to €1,05",
-      "ts": "2026-11-05T02:24:50.756603+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "University of Vienna Hukuk Fakültesi Burs Programı 2027",
+      "ts": "2026-11-12T02:55:59.308832+00:00"
     },
     "38ac74c6cae6": {
       "reason": "",
@@ -5065,10 +5003,10 @@
       "ts": "2026-11-04T06:09:39.272586+00:00"
     },
     "69ae4f68838d": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "NYU Global Fellowship Programs 2027–2028: Apply for International Research Opportunities in the USA with Stipends of Up ",
-      "ts": "2026-11-05T02:25:32.564348+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "NYU Küresel Burs Programları 2027-2028",
+      "ts": "2026-11-12T02:55:59.308845+00:00"
     },
     "6b6f56694b5f": {
       "reason": "",
@@ -5111,6 +5049,12 @@
       "status": "queued",
       "title": "Nusuk App Challenge 2026 - Ücretsiz Umre Seyahati",
       "ts": "2026-11-07T15:39:18.524214+00:00"
+    },
+    "73974b159d85": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "UNIL Summer Research Program 2027 in Switzerland",
+      "ts": "2026-11-12T02:56:28.556783+00:00"
     },
     "74208b18be4b": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5339,6 +5283,12 @@
       "status": "queued",
       "title": "HZDR Yaz Öğrenci Programı 2027 - Almanya",
       "ts": "2026-11-06T21:28:58.199912+00:00"
+    },
+    "9904d4d7b663": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEV ABD Yüksek Lisans Bursu",
+      "ts": "2026-11-12T02:56:57.698094+00:00"
     },
     "992b05b17e6a": {
       "reason": "",
@@ -5580,6 +5530,12 @@
       "title": "Kurumsal İletişim ve İç Tasarım Uzun Dönem Stajyeri",
       "ts": "2026-11-08T23:41:47.697541+00:00"
     },
+    "b6aa71da7dd6": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Polonya’da Kısa Dönem ESC Projesi Gönüllülerini Bekliyor",
+      "ts": "2026-11-12T02:56:49.747290+00:00"
+    },
     "b6fbd91a219a": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5617,10 +5573,10 @@
       "ts": "2026-11-06T21:28:41.661490+00:00"
     },
     "bf1d24059375": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
-      "status": "pending",
-      "title": "University of Nebraska at Omaha PhD in Public Administration 2027: Admission Requirements, Fully Funded Graduate Assista",
-      "ts": "2026-11-05T02:25:19.618017+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "University of Nebraska at Omaha'da Kamu Yönetimi Doktora Programı",
+      "ts": "2026-11-12T02:55:59.308856+00:00"
     },
     "c159003011e5": {
       "reason": "",
@@ -5645,6 +5601,12 @@
       "status": "rejected",
       "title": "Yunanistan , Selanik : Kısa Dönem Erasmus+ Projesi",
       "ts": "2026-10-31T19:14:19.113586+00:00"
+    },
+    "c64ff63a6a94": {
+      "reason": "",
+      "status": "queued",
+      "title": "BEBKA TechUP 2026 Teknoloji Odaklı Hızlandırıcı Programı",
+      "ts": "2026-11-12T02:56:37.812268+00:00"
     },
     "c75316d002fa": {
       "reason": "Türkiye'ye kapalı: They must be nationals or permanent residents of a Sub-Saharan African country.",
@@ -5873,6 +5835,12 @@
       "status": "published",
       "title": "Almanya'da Uzun Dönem ESC Gönüllülük Projesi",
       "ts": "2026-11-02T18:25:57.575666+00:00"
+    },
+    "f5df4f33636b": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "CERN OPENLAB Summer Program 2027 in Switzerland (Fully Funded)",
+      "ts": "2026-11-12T02:56:18.957777+00:00"
     },
     "f71cb8b35a49": {
       "reason": "",
@@ -6136,6 +6104,8 @@
     "code2work veri bilimci ve yazılımcı yetiştirme programı",
     "savunma sanayii başkanlığı sözleşmeli personel alımı",
     "young political economy forum hong kong 2026",
-    "tsinghua amgen yaz stajı programı 2027 çin"
+    "tsinghua amgen yaz stajı programı 2027 çin",
+    "bebka techup 2026 teknoloji odaklı hızlandırıcı programı",
+    "tev abd yüksek lisans bursu"
   ]
 }
