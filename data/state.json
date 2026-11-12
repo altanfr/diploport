@@ -195,18 +195,7 @@
     "deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/deakin-vice-chancellors-international-scholarship",
     "mentiguide.com/basvuru/tohumlab"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
-      "attempts": 0,
-      "caption": "TÜBİTAK Bütünleşik Algılama ve Haberleşme Kış Okulu\n\nTÜBİTAK TBAE tarafından düzenlenen Bütünleşik Algılama ve Haberleşme (ISAC) Kış Okulu, 23-25 Kasım 2026 tarihlerinde Gebze'de gerçekleşecek. Yüksek lisans, doktora öğrencileri ve araştırmacılar yüz yüze veya çevrim içi katılabilir.\n\n- Yüksek lisans ve doktora öğrencilerine öncelik\n- Ücretsiz konaklama ve ulaşım desteği\n- Yüz yüze ve çevrim içi katılım imkanı\n\nSon başvuru: 12 Kasım 2026\nBaşvuru: https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi\nTüm fırsatlar: https://diploport.dev/#9f0f80cfa80f\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "9f0f80cfa80f",
-      "photo_query": "logo: TÜBİTAK (Vikipedi (tr))",
-      "source": "AB İlan",
-      "title": "TÜBİTAK Bütünleşik Algılama ve Haberleşme Kış Okulu",
-      "ts": "2026-11-12T18:54:26.424863+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -803,6 +792,13 @@
       "photo_query": "Germany youth exchange",
       "source": "Erasmusgram",
       "ts": "2026-11-12T11:00:50.168032+00:00"
+    },
+    {
+      "id": "9f0f80cfa80f",
+      "official": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+      "photo_query": "logo: TÜBİTAK (Vikipedi (tr))",
+      "source": "AB İlan",
+      "ts": "2026-11-12T18:55:00.036773+00:00"
     }
   ],
   "queue": [
@@ -5530,9 +5526,9 @@
     },
     "9f0f80cfa80f": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "TÜBİTAK Bütünleşik Algılama ve Haberleşme Kış Okulu",
-      "ts": "2026-11-02T10:55:00.890701+00:00"
+      "ts": "2026-11-12T18:55:00.036793+00:00"
     },
     "a02ca0ba7937": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
