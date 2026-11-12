@@ -184,9 +184,23 @@
     "thecipes.org/ypef-hongkong-2026",
     "tsinghuaamgenscholars.com/Program_Overview.html",
     "bebka.org.tr/techup-2026-teknoloji-odakli-hizlandirici-programi-basvurulari-basladi",
-    "tev.org.tr/burs/tr/54/tev-abd-burslari"
+    "tev.org.tr/burs/tr/54/tev-abd-burslari",
+    "stemgateway.nasa.gov/s/course-offering/a0BSJ0000049icD/open-science-essentials",
+    "tev.org.tr/burs/tr/21/yurt-disi-burslar-tip-burslari",
+    "tev.org.tr/burs/tr/53/tev-avrupa-burslari"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe0gUjwVqOL2Yh5JHMgNgfgK-xriFWa7F7vk_SrhKpZMxkmJA/viewform",
+      "attempts": 0,
+      "caption": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi\n\nAlmanya'nın Uelzen kentinde düzenlenecek olan Roots of Wellbeing Erasmus+ gençlik değişimi; ruhsal iyi oluş, doğa, sürdürülebilirlik ve sosyal kapsayıcılık konularına odaklanmaktadır.\n\n- 20-28 Kasım 2026 tarihleri arasında\n- 18-30 yaş arası gençlere açık\n- Almanya, Norveç, Türkiye ve diğer ülkelerden katılım\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSe0gUjwVqOL2Yh5JHMgNgfgK-xriFWa7F7vk_SrhKpZMxkmJA/viewform\nTüm fırsatlar: https://diploport.dev/#6fa619234ecc\n\nGörsel: Conny Schneider / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "6fa619234ecc",
+      "photo_query": "Germany youth exchange",
+      "source": "Erasmusgram",
+      "title": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
+      "ts": "2026-11-12T11:00:16.863214+00:00"
+    }
+  ],
   "pending": {
     "137fb7c9f331": {
       "apply_link_id": 1,
@@ -397,6 +411,34 @@
       "title_tr": "TU Wien Helmut Veith Yüksek Lisans Bursu",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "ad4b5aaac255": {
+      "apply_link_id": 1,
+      "apply_url": "https://stemgateway.nasa.gov/s/course-offering/a0BSJ0000049icD/open-science-essentials",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "The citizenship requirement is listed as unrestricted.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Tamamen ücretsiz ve çevrimiçi",
+        "Yaklaşık 2 saatlik eğitim süresi",
+        "Katılım sertifikası ve dijital rozet"
+      ],
+      "id": "ad4b5aaac255",
+      "is_opportunity": true,
+      "message_id": 30,
+      "organization": "NASA",
+      "organization_domain": "nasa.gov",
+      "queued_at": "2026-11-12T10:58:33.813843+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/nasa-open-science-essentials/",
+      "summary_tr": "NASA tarafından sunulan, açık bilim ilkeleri ve uygulamaları üzerine odaklanan, katılımcılara dijital rozet ve sertifika kazandıran ücretsiz çevrimiçi eğitim programı.",
+      "title_tr": "NASA Open Science Essentials 2026 Çevrimiçi Eğitim Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
       "visual_kind": "institution"
     },
     "beafb65d952f": {
@@ -914,33 +956,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://ulusalstajprogrami.iskur.gov.tr/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-12-14",
-      "eligibility_evidence": "Türkiye ve KKTC’de öğrenim gören öğrenciler",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "35 yaş altı öğrenciler için uygun",
-        "Kamu ve özel sektörde staj imkanı",
-        "Not ortalaması şartı (istisnalar mevcut)"
-      ],
-      "icon": "landmark",
-      "id": "7e64af0459a8",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Türkiye İş Kurumu",
-      "queued_at": "2026-10-29T09:47:30.211971+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/ulusal-staj-programi-2027-basvurulari-basladi/",
-      "summary_tr": "Cumhurbaşkanlığı himayelerinde yürütülen Ulusal Staj Programı, üniversite öğrencilerine kamu ve özel sektörde staj, iş gölgeleme ve eğitim fırsatları sunan bir kariyer gelişim programıdır.",
-      "title_tr": "Ulusal Staj Programı 2027 Başvuruları",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://www.planthealth.upv.es/web/programme/the-master-programme/",
       "category": "burs",
       "country_tr": "Çok ülkeli",
@@ -1100,37 +1115,6 @@
       "title_tr": "Caltech Yaz Araştırma Programı (SURF) 2027",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 2,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe0gUjwVqOL2Yh5JHMgNgfgK-xriFWa7F7vk_SrhKpZMxkmJA/viewform",
-      "category": "egitim",
-      "country_tr": "Almanya",
-      "deadline": "",
-      "eligibility_evidence": "Programda Almanya, Norveç, Türkiye, Litvanya, İspanya ve Kuzey Makedonya temsil edilecek.",
-      "fee_required": false,
-      "funding_tr": "Konaklama, yemek ve seyahat desteği sağlanır",
-      "highlights_tr": [
-        "20-28 Kasım 2026 tarihleri arasında",
-        "18-30 yaş arası gençlere açık",
-        "Almanya, Norveç, Türkiye ve diğer ülkelerden katılım"
-      ],
-      "id": "6fa619234ecc",
-      "image_queries": [
-        "Uelzen Germany nature",
-        "Germany youth exchange",
-        "students in nature"
-      ],
-      "is_opportunity": true,
-      "organization": "Erasmus+",
-      "queued_at": "2026-10-29T18:26:52.011335+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/almanya-8-gun-genclik-degisimi/",
-      "summary_tr": "Almanya'nın Uelzen kentinde düzenlenecek olan Roots of Wellbeing Erasmus+ gençlik değişimi; ruhsal iyi oluş, doğa, sürdürülebilirlik ve sosyal kapsayıcılık konularına odaklanmaktadır.",
-      "title_tr": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
     },
     {
       "apply_url": "https://www.youthall.com/tr/OyakRenault/4-seasons-proje-stajyerligi_61/",
@@ -4291,6 +4275,58 @@
       "title_tr": "TEV ABD Yüksek Lisans Bursu",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.tev.org.tr/burs/tr/21/yurt-disi-burslar-tip-burslari",
+      "category": "burs",
+      "country_tr": "ABD ve Batı Avrupa",
+      "deadline": "2027-04-12",
+      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 40 yaş altında olmak,",
+      "fee_required": false,
+      "funding_tr": "Geri ödemeli burs (şartlı geri ödemesiz)",
+      "highlights_tr": [
+        "40 yaş altı tıp doktorları için",
+        "6 ay ile 2 yıl arası süre",
+        "İngilizce dil yeterliliği şartı"
+      ],
+      "id": "49bfd213c6d7",
+      "is_opportunity": true,
+      "organization": "Türk Eğitim Vakfı",
+      "organization_domain": "tev.org.tr",
+      "queued_at": "2026-11-12T10:59:41.644663+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tev-dr-orhan-birman-tip-arastirma-bursu-icin-basvurular-devam-ediyor/",
+      "summary_tr": "Türk Eğitim Vakfı, tıp doktorlarına ABD ve Batı Avrupa'da üst ihtisas ve araştırma çalışmaları için burs desteği sağlamaktadır.",
+      "title_tr": "TEV Dr. Orhan Birman Tıp Araştırma Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.tev.org.tr/burs/tr/53/tev-avrupa-burslari",
+      "category": "burs",
+      "country_tr": "Avrupa",
+      "deadline": "2027-05-31",
+      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
+      "fee_required": false,
+      "funding_tr": "Yaşam masrafları için 13.000 EUR'ya kadar destek",
+      "highlights_tr": [
+        "35 yaş altı olma şartı",
+        "9-21 ay burs süresi",
+        "İngilizce dil yeterliliği şartı"
+      ],
+      "id": "14211c8e8393",
+      "is_opportunity": true,
+      "organization": "Türk Eğitim Vakfı",
+      "organization_domain": "tev.org.tr",
+      "queued_at": "2026-11-12T10:59:50.412837+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/tev-avrupa-ulkeleri-yuksek-lisans-bursu-basvurulari-basliyor/",
+      "summary_tr": "Türk Eğitim Vakfı, Avrupa'daki üniversitelerde yüksek lisans yapacak 10 öğrenciye yaşam masraflarını karşılamaya yönelik burs desteği sağlamaktadır.",
+      "title_tr": "TEV Avrupa Ülkeleri Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4401,6 +4437,12 @@
       "status": "rejected",
       "title": "Arizona State University School of Criminology and Criminal Justice: Explore World-Class Undergraduate and Graduate Degr",
       "ts": "2026-11-07T01:55:09.939323+00:00"
+    },
+    "14211c8e8393": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEV Avrupa Ülkeleri Yüksek Lisans Bursu",
+      "ts": "2026-11-12T10:59:50.412854+00:00"
     },
     "1571e08017b2": {
       "reason": "",
@@ -4570,6 +4612,12 @@
       "title": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
       "ts": "2026-11-02T00:32:16.767753+00:00"
     },
+    "2cc5823a258e": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Polonya’da Kısa Dönem ESC Gönüllülük Projesi Katılımcı Çağrısı",
+      "ts": "2026-11-12T11:00:14.268261+00:00"
+    },
     "2d285a55ea30": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -4653,6 +4701,12 @@
       "status": "rejected",
       "title": "Sosyal Duygusal Öğrenme Uzmanlık Programı Farkındalık Eğitimi",
       "ts": "2026-10-29T23:04:17.957151+00:00"
+    },
+    "3a2b4b9befb7": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "RENEW-BOOSTER Eurocluster: KOBİ’lere 60.000 Avro Destek",
+      "ts": "2026-11-12T10:59:59.143556+00:00"
     },
     "3adaf9d79437": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4779,6 +4833,12 @@
       "status": "queued",
       "title": "TEV-Fransa Büyükelçiliği Yüksek Lisans Bursu",
       "ts": "2026-11-03T17:49:45.572591+00:00"
+    },
+    "49bfd213c6d7": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEV Dr. Orhan Birman Tıp Araştırma Bursu",
+      "ts": "2026-11-12T10:59:41.644679+00:00"
     },
     "4a003a589fd4": {
       "reason": "",
@@ -5123,10 +5183,10 @@
       "ts": "2026-11-01T13:11:09.097547+00:00"
     },
     "7e64af0459a8": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Ulusal Staj Programı 2027 Başvuruları",
-      "ts": "2026-10-29T09:47:30.212091+00:00"
+      "ts": "2026-11-12T10:57:52.603635+00:00"
     },
     "7ea6cb792700": {
       "reason": "",
@@ -5464,6 +5524,12 @@
       "title": "Anadolu Ajansı Kış Dönemi Staj Programı",
       "ts": "2026-11-06T00:17:16.193109+00:00"
     },
+    "ad4b5aaac255": {
+      "reason": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
+      "status": "pending",
+      "title": "NASA Open Science Essentials 2026 (Free Online Course with Certificate)",
+      "ts": "2026-11-12T10:58:33.813863+00:00"
+    },
     "ae80b0962a3f": {
       "reason": "",
       "status": "published",
@@ -5769,6 +5835,12 @@
       "status": "rejected",
       "title": "Spencer Education Journalism Fellowship 2027–2028 at Columbia University: Receive Up to $85,000 in Funding to Produce Im",
       "ts": "2026-11-06T21:29:36.945744+00:00"
+    },
+    "e78d6584d9a0": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Dubai Government Free AI Course with Free Certificate | One Million Prompters",
+      "ts": "2026-11-12T10:59:10.190188+00:00"
     },
     "e8827e4a4f59": {
       "reason": "",
@@ -6106,6 +6178,9 @@
     "young political economy forum hong kong 2026",
     "tsinghua amgen yaz stajı programı 2027 çin",
     "bebka techup 2026 teknoloji odaklı hızlandırıcı programı",
-    "tev abd yüksek lisans bursu"
+    "tev abd yüksek lisans bursu",
+    "nasa open science essentials 2026 çevrimiçi eğitim programı",
+    "tev dr orhan birman tıp araştırma bursu",
+    "tev avrupa ülkeleri yüksek lisans bursu"
   ]
 }
