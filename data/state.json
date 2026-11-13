@@ -208,18 +208,7 @@
     "keough.nd.edu/academics/phd-program/ph-d-in-sustainable-development",
     "abdigm.meb.gov.tr/www/misir-hukmeti-burslari-2026-2027/icerik/2900/tr"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
-      "attempts": 0,
-      "caption": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli\n\nBurdur Mehmet Akif Ersoy Üniversitesi Rektörlüğü bünyesinde çalıştırılmak üzere sözleşmeli bilişim personeli alımı yapılacaktır.\n\n- Türkiye Cumhuriyeti vatandaşlarına açık\n- Kariyer Kapısı üzerinden başvuru\n- Sözleşmeli bilişim personeli pozisyonu\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52\nTüm fırsatlar: https://diploport.dev/#3ba044acba21\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
-      "id": "3ba044acba21",
-      "photo_query": "logo: Burdur Mehmet Akif Ersoy Üniversitesi (Vikipedi (tr) sayfa logosu)",
-      "source": "Kariyer Kapısı",
-      "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli",
-      "ts": "2026-11-13T16:17:47.331892+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "0c1216ba08b3": {
       "apply_link_id": 1,
@@ -939,6 +928,13 @@
       "photo_query": "logo: Shell plc (Vikipedi (tr) sayfa logosu)",
       "source": "Youthall",
       "ts": "2026-11-13T07:53:53.694330+00:00"
+    },
+    {
+      "id": "3ba044acba21",
+      "official": "https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
+      "photo_query": "logo: Burdur Mehmet Akif Ersoy Üniversitesi (Vikipedi (tr) sayfa logosu)",
+      "source": "Kariyer Kapısı",
+      "ts": "2026-11-13T16:18:35.696974+00:00"
     }
   ],
   "queue": [
@@ -4922,9 +4918,9 @@
     },
     "3ba044acba21": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli",
-      "ts": "2026-10-30T17:58:40.039165+00:00"
+      "ts": "2026-11-13T16:18:35.696994+00:00"
     },
     "3c5f9496a75e": {
       "reason": "sadece öğretmenlere yönelik",
