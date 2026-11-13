@@ -199,9 +199,27 @@
     "wipo.taleo.net/careersection/wp_2_fel/jobdetail.ftl?job=26331-FEL",
     "reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F12%2Fpurdue-university-summer-undergraduate-research-fellowship-surf-2027-fully-funded-10-week-research-fellowship-for-undergraduate-students-worldwide%2F&title=Purdue+University+Summer+Undergraduate+Research+Fellowship+%28SURF%29+2027%3A+Fully+Funded+10-Week+Research+Fellowship+for+Undergraduate+Students+Worldwide",
     "pop.xprize.org/prizes/xprize_accelerated_learning",
-    "explore.jobs.netflix.net/careers?query=intern&pid=790318904468&domain=netflix.com&sort_by=relevance&triggerGoButton=true"
+    "explore.jobs.netflix.net/careers?query=intern&pid=790318904468&domain=netflix.com&sort_by=relevance&triggerGoButton=true",
+    "k.u-tokyo.ac.jp/en/education/for_undergraduate/how_to_apply",
+    "thebarackobamafoundation.submittable.com/submit",
+    "salto-youth.net/tools/european-training-calendar/training/greensteps.15545",
+    "kariyerkapisi.gov.tr/IlanDetay?i=2b5ee2d8-3958-4fd1-a3cb-219bcb7b536d",
+    "rc-trust.ai/career/internship-program",
+    "keough.nd.edu/academics/phd-program/ph-d-in-sustainable-development",
+    "abdigm.meb.gov.tr/www/misir-hukmeti-burslari-2026-2027/icerik/2900/tr"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
+      "attempts": 0,
+      "caption": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli\n\nBurdur Mehmet Akif Ersoy Üniversitesi Rektörlüğü bünyesinde çalıştırılmak üzere sözleşmeli bilişim personeli alımı yapılacaktır.\n\n- Türkiye Cumhuriyeti vatandaşlarına açık\n- Kariyer Kapısı üzerinden başvuru\n- Sözleşmeli bilişim personeli pozisyonu\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52\nTüm fırsatlar: https://diploport.dev/#3ba044acba21\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "3ba044acba21",
+      "photo_query": "logo: Burdur Mehmet Akif Ersoy Üniversitesi (Vikipedi (tr) sayfa logosu)",
+      "source": "Kariyer Kapısı",
+      "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli",
+      "ts": "2026-11-13T16:17:47.331892+00:00"
+    }
+  ],
   "pending": {
     "0c1216ba08b3": {
       "apply_link_id": 1,
@@ -316,6 +334,34 @@
       "source_url": "https://www.opportunitiescircle.com/morgan-stanley-sustainable-finance-fellowship-program/",
       "summary_tr": "Morgan Stanley'nin New York ofisinde gerçekleşecek 10 haftalık bu program, sürdürülebilir finans alanında yüksek lisans öğrencilerine pratik deneyim ve profesyonel gelişim imkanı sunmaktadır.",
       "title_tr": "Morgan Stanley Sürdürülebilir Finans Fellowship Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "415a59cdb88b": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.k.u-tokyo.ac.jp/en/education/for_undergraduate/how_to_apply/",
+      "category": "staj",
+      "country_tr": "Japonya",
+      "deadline": "2027-01-13",
+      "eligibility_evidence": "The University of Tokyo is offering an international research internship for undergraduate students enrolled at universities outside Japan.",
+      "fee_required": false,
+      "funding_tr": "130.000 JPY burs, konaklama ve sağlık sigortası",
+      "highlights_tr": [
+        "Lisans öğrencileri için 47 günlük araştırma stajı",
+        "130.000 JPY burs ve konaklama desteği",
+        "Japonya'da laboratuvar ve akademik çalışma imkanı"
+      ],
+      "id": "415a59cdb88b",
+      "is_opportunity": true,
+      "message_id": 37,
+      "organization": "The University of Tokyo",
+      "organization_domain": "u-tokyo.ac.jp",
+      "queued_at": "2026-11-13T16:15:32.383350+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/university-of-tokyo-summer-internship-2027/",
+      "summary_tr": "University of Tokyo tarafından düzenlenen 47 günlük uluslararası araştırma stajı programı, lisans öğrencilerine laboratuvar deneyimi ve akademik çalışma imkanı sunuyor.",
+      "title_tr": "University of Tokyo Yaz Stajı (UTSIP Kashiwa) 2027",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -553,6 +599,34 @@
       "source_url": "https://opportunitiesforyouth.org/2026/11/06/undp-climate-and-energy-internship-2026-in-italy-or-home-based-six-month-opportunity-with-monthly-stipend/",
       "summary_tr": "UNDP Roma İklim Eylem ve Enerji Geçişi Merkezi'nde 6 aylık tam zamanlı staj programı. İtalya'da ofis içi veya uzaktan çalışma seçenekleri mevcuttur.",
       "title_tr": "UNDP İklim ve Enerji Staj Programı 2026",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "c2965177b6a1": {
+      "apply_link_id": 2,
+      "apply_url": "https://thebarackobamafoundation.submittable.com/submit",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-12-04",
+      "eligibility_evidence": "All leaders from Asia-Pacific, Europe, Africa, and the United States are welcome to apply for this Obama Foundation leaders program.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz program",
+      "highlights_tr": [
+        "24-45 yaş aralığı",
+        "İleri düzey İngilizce yeterliliği",
+        "6-8 ay süren çevrimiçi eğitim"
+      ],
+      "id": "c2965177b6a1",
+      "is_opportunity": true,
+      "message_id": 38,
+      "organization": "Obama Foundation",
+      "organization_domain": "obama.org",
+      "queued_at": "2026-11-13T16:15:41.163693+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/obama-foundation-leaders-program/",
+      "summary_tr": "Obama Vakfı tarafından düzenlenen, dünya genelinden liderleri bir araya getiren, değer odaklı liderlik becerilerini geliştirmeyi amaçlayan çevrimiçi bir eğitim programıdır.",
+      "title_tr": "Obama Foundation Leaders Program 2027-2028",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -897,33 +971,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://unitar.org/vacancy-announcements/traineeship-multilateral-diplomacy-programme-field-visits-and-online-training-programmes/437",
-      "category": "staj",
-      "country_tr": "İsviçre",
-      "deadline": "2026-11-15",
-      "eligibility_evidence": "The UN training program is open to students and recent graduates.",
-      "fee_required": false,
-      "funding_tr": "Aylık 900 CHF ödenek",
-      "highlights_tr": [
-        "Öğrenciler ve yeni mezunlara açık",
-        "Aylık 900 CHF staj ödeneği",
-        "3-12 ay arası program süresi"
-      ],
-      "id": "a65b5a8253e4",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "United Nations Institute for Training and Research",
-      "queued_at": "2026-10-30T09:52:34.261387+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/unitar-field-visits-and-online-training-program/",
-      "summary_tr": "Birleşmiş Milletler Eğitim ve Araştırma Enstitüsü (UNITAR), öğrenciler ve yeni mezunlar için İsviçre'de saha ziyaretleri ve çevrimiçi eğitim içeren profesyonel bir staj programı sunmaktadır.",
-      "title_tr": "UNITAR Saha Ziyaretleri ve Çevrimiçi Eğitim Programı 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37492/?keyword=internship&location=Thailand&locationId=300000000447010&locationLevel=country&mode=location",
       "category": "staj",
       "country_tr": "Tayland",
@@ -1142,88 +1189,6 @@
       "visual_kind": "institution"
     },
     {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına açık",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Sözleşmeli personel pozisyonu"
-      ],
-      "icon": "landmark",
-      "id": "ede70dd447b0",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "ORTA KARADENİZ KALKINMA AJANSI (OKA)",
-      "organization_domain": "oka.org.tr",
-      "queued_at": "2026-10-30T09:52:56.332143+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
-      "summary_tr": "Orta Karadeniz Kalkınma Ajansı (OKA) tarafından 2026 yılı için sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
-      "title_tr": "Orta Karadeniz Kalkınma Ajansı (OKA) Personel Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "5 uzman personel alımı",
-        "Kariyer Kapısı üzerinden başvuru",
-        "T.C. vatandaşlarına özel"
-      ],
-      "icon": "landmark",
-      "id": "9620e2d42ee9",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "İSTANBUL KALKINMA AJANSI",
-      "queued_at": "2026-10-30T09:53:48.278118+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
-      "summary_tr": "İstanbul Kalkınma Ajansı bünyesinde sözleşmeli olarak görevlendirilmek üzere 5 uzman personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
-      "title_tr": "İstanbul Kalkınma Ajansı 5 Uzman Personel Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=39c5ca3c-3571-485b-b226-2ff559360a0a",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Sözleşmeli personel statüsü",
-        "3 müze görevlisi alımı",
-        "Kariyer Kapısı üzerinden başvuru"
-      ],
-      "icon": "landmark",
-      "id": "597559930cd7",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "MİLLİ SARAYLAR İDARESİ BAŞKANLIĞI",
-      "queued_at": "2026-10-30T09:54:07.401725+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=39c5ca3c-3571-485b-b226-2ff559360a0a",
-      "summary_tr": "Milli Saraylar İdaresi Başkanlığı bünyesinde sözleşmeli statüde çalışacak 3 müze görevlisi (kazı görevlisi) alımı yapılacaktır.",
-      "title_tr": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Müze Görevlisi Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
       "apply_url": "https://www.youthall.com/en/boehringeringelheim/hr-intern_60/",
       "category": "staj",
       "country_tr": "Türkiye",
@@ -1245,33 +1210,6 @@
       "source_url": "https://www.youthall.com/en/boehringeringelheim/hr-intern_60/",
       "summary_tr": "Boehringer Ingelheim, İnsan Kaynakları süreçlerinde görev alacak, analitik düşünme becerisine sahip, haftada 5 gün çalışabilecek stajyer arıyor.",
       "title_tr": "Boehringer Ingelheim İnsan Kaynakları Stajyeri",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına açık",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Sözleşmeli bilişim personeli pozisyonu"
-      ],
-      "icon": "landmark",
-      "id": "3ba044acba21",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-      "queued_at": "2026-10-30T17:58:40.039148+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
-      "summary_tr": "Burdur Mehmet Akif Ersoy Üniversitesi Rektörlüğü bünyesinde çalıştırılmak üzere sözleşmeli bilişim personeli alımı yapılacaktır.",
-      "title_tr": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -4409,6 +4347,138 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/greensteps.15545/",
+      "category": "gonulluluk",
+      "country_tr": "Yunanistan",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek, cep harçlığı ve seyahat desteği",
+      "highlights_tr": [
+        "18-30 yaş arası gençler için",
+        "6 ay süreli gönüllülük",
+        "Konaklama, yemek ve seyahat desteği"
+      ],
+      "id": "1568064f95b2",
+      "is_opportunity": true,
+      "organization": "VERDE Research Center for Innovation and Sustainable Development",
+      "organization_domain": "",
+      "queued_at": "2026-11-13T16:15:52.258432+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/yunanistanda-greensteps-gonulluluk-projesi-firsati/",
+      "summary_tr": "Yunanistan'ın Kozani kentinde 6 ay sürecek, çevre ve sürdürülebilirlik odaklı Avrupa Dayanışma Programı (ESC) gönüllülük projesi.",
+      "title_tr": "Yunanistan’da GreenSteps Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=2b5ee2d8-3958-4fd1-a3cb-219bcb7b536d",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına özel",
+        "Kariyer meslek statüsünde",
+        "Kariyer Kapısı üzerinden başvuru"
+      ],
+      "icon": "landmark",
+      "id": "68c54dfdeed7",
+      "is_opportunity": true,
+      "organization": "HAZİNE VE MALİYE BAKANLIĞI",
+      "organization_domain": "hmb.gov.tr",
+      "queued_at": "2026-11-13T16:16:10.242070+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=2b5ee2d8-3958-4fd1-a3cb-219bcb7b536d",
+      "summary_tr": "Hazine ve Maliye Bakanlığı tarafından açılan Stajyer Hazine Kontrolörlüğü giriş sınavı ilanıdır. Başvurular Kariyer Kapısı üzerinden e-Devlet aracılığıyla gerçekleştirilecektir.",
+      "title_tr": "Hazine ve Maliye Bakanlığı Stajyer Hazine Kontrolörlüğü Sınavı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://rc-trust.ai/career/internship-program",
+      "category": "staj",
+      "country_tr": "Almanya",
+      "deadline": "2026-12-31",
+      "eligibility_evidence": "The RC Trust Internship Program 2027 is open to applicants from all countries.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (yol, konaklama ve yaşam masrafları)",
+      "highlights_tr": [
+        "Tam burslu araştırma stajı",
+        "90 güne kadar süreli",
+        "Lisans, yüksek lisans ve doktora öğrencilerine açık"
+      ],
+      "id": "18609da22e53",
+      "is_opportunity": true,
+      "organization": "Research Center Trustworthy Data Science and Security (RC Trust)",
+      "organization_domain": "rc-trust.ai",
+      "queued_at": "2026-11-13T16:16:17.161151+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/rc-trust-internship-2027/",
+      "summary_tr": "RC Trust, Almanya'daki üniversitelerde yapay zeka alanında 90 güne kadar süren, tam burslu uluslararası bir araştırma stajı programıdır.",
+      "title_tr": "RC Trust 2027 Almanya Araştırma Stajı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://keough.nd.edu/academics/phd-program/ph-d-in-sustainable-development/",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "Applicants from diverse academic, cultural, and professional backgrounds are welcome to apply.",
+      "fee_required": false,
+      "funding_tr": "Tam eğitim bursu, yaşam masrafları için aylık ödenek ve sağlık sigortası desteği",
+      "highlights_tr": [
+        "Tam eğitim bursu ve yaşam ödeneği",
+        "Konferans ve gelişim desteği",
+        "İngilizce yeterlilik belgesi gereklidir"
+      ],
+      "id": "ca7b65d3e9b1",
+      "is_opportunity": true,
+      "organization": "University of Notre Dame",
+      "organization_domain": "nd.edu",
+      "queued_at": "2026-11-13T16:16:24.477846+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/university-of-notre-dame-phd-scholarship/",
+      "summary_tr": "University of Notre Dame, Sürdürülebilir Kalkınma alanındaki doktora programı için uluslararası öğrencilere tam burslu araştırma ve eğitim imkanı sunmaktadır.",
+      "title_tr": "University of Notre Dame Sürdürülebilir Kalkınma Doktora Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://abdigm.meb.gov.tr/www/misir-hukmeti-burslari-2026-2027/icerik/2900/tr",
+      "category": "burs",
+      "country_tr": "Mısır",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "Başvuracak adayların, Türkiye Cumhuriyeti vatandaşı olmaları gerekmektedir.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "El-Ezher'de eğitim imkanı",
+        "Ortaöğretim ve lisans seviyesi",
+        "Türkiye Cumhuriyeti vatandaşı olma şartı"
+      ],
+      "id": "6064542e4dcf",
+      "is_opportunity": true,
+      "organization": "T.C. Milli Eğitim Bakanlığı",
+      "organization_domain": "meb.gov.tr",
+      "queued_at": "2026-11-13T16:16:35.823868+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/misir-hukumeti-burslari-icin-basvurular-devam-ediyor/",
+      "summary_tr": "Mısır Hükûmeti tarafından El-Ezher bünyesinde 1 ortaöğretim ve 2 lisans seviyesinde burs imkanı sağlanmaktadır. Başvurular MEB üzerinden yapılmaktadır.",
+      "title_tr": "Mısır Hükûmeti Bursları",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4550,6 +4620,12 @@
       "title": "TEV Avrupa Ülkeleri Yüksek Lisans Bursu",
       "ts": "2026-11-12T10:59:50.412854+00:00"
     },
+    "1568064f95b2": {
+      "reason": "",
+      "status": "queued",
+      "title": "Yunanistan’da GreenSteps Gönüllülük Projesi",
+      "ts": "2026-11-13T16:15:52.258451+00:00"
+    },
     "1571e08017b2": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -4573,6 +4649,12 @@
       "status": "queued",
       "title": "Youth Climate Justice Fund İnsan ve Kültür Müdürü Pozisyonu",
       "ts": "2026-11-06T00:18:01.499480+00:00"
+    },
+    "18609da22e53": {
+      "reason": "",
+      "status": "queued",
+      "title": "RC Trust 2027 Almanya Araştırma Stajı",
+      "ts": "2026-11-13T16:16:17.161171+00:00"
     },
     "18631bf4ad70": {
       "reason": "Türkiye'ye kapalı: The programme is intended for high-quality postgraduate students from eligible Least Developed and middle-income Commonw",
@@ -4874,6 +4956,12 @@
       "title": "Özkaraduman İnşaat Burs Başvuru Duyurusu",
       "ts": "2026-10-29T09:48:17.218454+00:00"
     },
+    "415a59cdb88b": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "University of Tokyo Summer Internship 2027 in Japan (UTSIP Kashiwa)",
+      "ts": "2026-11-13T16:15:32.383368+00:00"
+    },
     "420ee3f3cd01": {
       "reason": "",
       "status": "queued",
@@ -5049,10 +5137,10 @@
       "ts": "2026-11-03T17:50:04.889232+00:00"
     },
     "597559930cd7": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Müze Görevlisi Alımı",
-      "ts": "2026-10-30T09:54:07.401739+00:00"
+      "ts": "2026-11-13T16:15:07.388923+00:00"
     },
     "5a0a979214b0": {
       "reason": "",
@@ -5095,6 +5183,12 @@
       "status": "rejected",
       "title": "Eureka Network Türkiye-İspanya 2026 Yılı Çağrısı için Başvurular Devam Ediyor",
       "ts": "2026-11-05T18:43:44.231088+00:00"
+    },
+    "6064542e4dcf": {
+      "reason": "",
+      "status": "queued",
+      "title": "Mısır Hükûmeti Bursları",
+      "ts": "2026-11-13T16:16:35.823889+00:00"
     },
     "612f18e45782": {
       "reason": "",
@@ -5191,6 +5285,12 @@
       "status": "rejected",
       "title": "Global Graduate in Operations",
       "ts": "2026-11-03T09:29:30.188310+00:00"
+    },
+    "68c54dfdeed7": {
+      "reason": "",
+      "status": "queued",
+      "title": "Hazine ve Maliye Bakanlığı Stajyer Hazine Kontrolörlüğü Sınavı",
+      "ts": "2026-11-13T16:16:10.242088+00:00"
     },
     "690b61a17c08": {
       "reason": "",
@@ -5456,6 +5556,12 @@
       "title": "Avrupa Birliği Genişleme Bölgesi Diplomasi Programı 2027",
       "ts": "2026-11-06T15:55:56.640990+00:00"
     },
+    "9037b52bf012": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Hazine ve Maliye Bakanlığı Stajyer Hazine Kontrolörü Alımı Yapacak",
+      "ts": "2026-11-13T16:17:22.250709+00:00"
+    },
     "90484ef16c3c": {
       "reason": "",
       "status": "queued",
@@ -5481,10 +5587,10 @@
       "ts": "2026-11-05T18:44:01.957803+00:00"
     },
     "9620e2d42ee9": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "İstanbul Kalkınma Ajansı 5 Uzman Personel Alımı",
-      "ts": "2026-10-30T09:53:48.278133+00:00"
+      "ts": "2026-11-13T16:15:07.388919+00:00"
     },
     "984b86faeb90": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -5631,10 +5737,10 @@
       "ts": "2026-11-03T17:48:35.590506+00:00"
     },
     "a65b5a8253e4": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "UNITAR Saha Ziyaretleri ve Çevrimiçi Eğitim Programı 2027",
-      "ts": "2026-10-30T09:52:34.261403+00:00"
+      "ts": "2026-11-13T16:15:07.388882+00:00"
     },
     "a73d6d0605e3": {
       "reason": "bekleme süresi doldu",
@@ -5828,6 +5934,12 @@
       "title": "Doğu Karadeniz Kalkınma Ajansı (DOKA) Uzman Alımı",
       "ts": "2026-11-04T15:26:34.365860+00:00"
     },
+    "c2965177b6a1": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Obama Foundation Leaders Program 2027-2028",
+      "ts": "2026-11-13T16:15:41.163710+00:00"
+    },
     "c34383a99636": {
       "reason": "",
       "status": "queued",
@@ -5864,11 +5976,23 @@
       "title": "KYOTO University Amgen Scholars Internship 2027 | Fully Funded",
       "ts": "2026-11-09T17:27:31.070351+00:00"
     },
+    "ca7b65d3e9b1": {
+      "reason": "",
+      "status": "queued",
+      "title": "University of Notre Dame Sürdürülebilir Kalkınma Doktora Bursu",
+      "ts": "2026-11-13T16:16:24.477864+00:00"
+    },
     "caf1cd166127": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "pending",
       "title": "Anthropic AI Fluency for Students Online Course",
       "ts": "2026-11-08T07:16:56.797841+00:00"
+    },
+    "ccc0ad57ab44": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Savunma Sanayii Başkanlığı Proje Bazlı Sözleşmeli Personel Alımı Duyurusu",
+      "ts": "2026-11-13T16:17:45.027294+00:00"
     },
     "ccc2c64c11a2": {
       "reason": "",
@@ -6069,10 +6193,10 @@
       "ts": "2026-11-10T17:47:03.316706+00:00"
     },
     "ede70dd447b0": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Orta Karadeniz Kalkınma Ajansı (OKA) Personel Alımı",
-      "ts": "2026-10-30T09:52:56.332159+00:00"
+      "ts": "2026-11-13T16:15:07.388913+00:00"
     },
     "ee1d3e825530": {
       "reason": "Türkiye'ye kapalı: Students living outside the United States and/or enrolled full-time at universities outside the United States are not el",
@@ -6091,6 +6215,12 @@
       "status": "queued",
       "title": "Kamu Denetçiliği Kurumu Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-11-09T06:14:10.932447+00:00"
+    },
+    "f27eef681eab": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "TÜBİTAK 4005-Yenilikçi Eğitim Uygulamaları Destekleme Programı’nın 14. Çağrısı Açıldı",
+      "ts": "2026-11-13T16:16:55.055017+00:00"
     },
     "f3e9a405a88c": {
       "reason": "",
@@ -6389,6 +6519,13 @@
     "wipo ip and women fellowship 2027 cenevre i sviçre",
     "purdue university yaz lisans araştırma bursu surf 2027",
     "xprize accelerate learning eğitim i novasyonu yarışması",
-    "netflix 2027 yaz staj programı"
+    "netflix 2027 yaz staj programı",
+    "university of tokyo yaz stajı utsip kashiwa 2027",
+    "obama foundation leaders program 2027 2028",
+    "yunanistan'da greensteps gönüllülük projesi",
+    "hazine ve maliye bakanlığı stajyer hazine kontrolörlüğü sınavı",
+    "rc trust 2027 almanya araştırma stajı",
+    "university of notre dame sürdürülebilir kalkınma doktora bursu",
+    "mısır hükûmeti bursları"
   ]
 }
