@@ -1,18 +1,10 @@
-# Son çalışma (2026-11-13 03:16 TR)
+# Son çalışma (2026-11-13 10:52 TR)
 
-Kuyruk: 135 · Onay bekleyen: 16 · Hazırlanan: -
-Bulunan yeni ilan: 11 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 10 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 25 kayıt
+Kuyruk: 130 · Onay bekleyen: 17 · Hazırlanan: 67e3ab3f0174
+Bulunan yeni ilan: 2 · Bu çalışmada işlenmesi planlanan: 2 · Raporlanan: 2
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 1 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 25 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| elendi | Opportunities For Youth | EU Youth Sounding Board Cameroon 2026–2028: European Union Opens Applications fo | Türkiye'ye kapalı: The European Union Delegation to Cameroon is seeking applicants who are Cameroonian citizens residing in Cameroon |
-| kuyrukta | Kariyer Kapısı | Bursa Teknik Üniversitesi Sözleşmeli Psikolog Alımı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1 · görsel: kurum logosu aranacak (BURSA TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ; stok foto yok) |
-| onayda | Opportunities For Youth | Michigan Justice Fund Program Manager Pozisyonu | İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir. · son tarih: 2026-12-14 · link: https://form.jotform.com/Michigan_Justice/program-manager-application · görsel: kurum logosu aranacak (Michigan Justice Fund; stok foto yok) |
-| elendi | Opportunities For Youth | R. Howard Dobbs Foundation Winter 2027 Grantmaking Cycle: Applications Open for  | fırsat değil (haber/liste/reklam) |
-| elendi | Opportunities For Youth | The Brokerage Next Gen Talent Network 2026: Free UK Career Platform Offering Pai | Türkiye'ye kapalı: However, applicants must meet specific eligibility requirements relating to age, UK residence or education, permission t |
-| kuyrukta | Opportunities For Youth | WIPO IP and Women Fellowship 2027 - Cenevre, İsviçre | kanıt: The vacancy does not identify a specific list of eligible countries or restrict applications to particular continents. · son tarih: 2026-11-23 · link: https://wipo.taleo.net/careersection/wp_2_fel/jobdetail.ftl?job=26331-FEL · görsel: kurum logosu aranacak (World Intellectual Property Organization (WIPO); stok foto yok) |
-| elendi | Opportunities For Youth | The Allstate Foundation College Service Grants 2027–2028: Apply for $10,000 to S | fırsat değil (haber/liste/reklam) |
-| onayda | Opportunities For Youth | Purdue University Yaz Lisans Araştırma Bursu (SURF) 2027 | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2026-12-15 · link: https://www.reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F12%2Fpurdue-university-summer-undergraduate-research-fellowship-surf-2027-fully-funded-10-week-research-fellowship-for-undergraduate-students-worldwide%2F&title=Purdue+University+Summer+Undergraduate+Research+Fellowship+%28SURF%29+2027%3A+Fully+Funded+10-Week+Research+Fellowship+for+Undergraduate+Students+Worldwide · gö |
-| elendi | Opportunities For Youth | Commonwealth Shared Scholarships 2027: Fully Funded UK Master’s Scholarship for  | Türkiye'ye kapalı: The programme is intended for high-quality postgraduate students from eligible Least Developed and middle-income Commonw |
-| elendi | Opportunities For Youth | EYWEP and African Union Opportunities 2026: Youth and Women Entrepreneurship, CO | fırsat değil (haber/liste/reklam) |
+| onayda | Opportunities For Youth | XPRIZE Accelerate Learning Eğitim İnovasyonu Yarışması | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: - · link: https://pop.xprize.org/prizes/xprize_accelerated_learning/ · görsel: kurum logosu aranacak (XPRIZE; stok foto yok) |
+| onayda | Opportunities Circle | Netflix 2027 Yaz Staj Programı | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: - · link: https://explore.jobs.netflix.net/careers?query=intern&pid=790318904468&domain=netflix.com&sort_by=relevance&triggerGoButton=true · görsel: kurum logosu aranacak (Netflix; stok foto yok) |
