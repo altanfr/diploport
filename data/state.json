@@ -201,18 +201,7 @@
     "pop.xprize.org/prizes/xprize_accelerated_learning",
     "explore.jobs.netflix.net/careers?query=intern&pid=790318904468&domain=netflix.com&sort_by=relevance&triggerGoButton=true"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.youthall.com/en/Shell/pioneers-in-progress-long-term-internship-marketing_1319/",
-      "attempts": 0,
-      "caption": "Pioneers In Progress Uzun Dönem Pazarlama Stajı\n\nPazarlama alanında deneyim kazanmak isteyen, 3. veya 4. sınıf üniversite öğrencileri veya yeni mezunlar için uzun dönem staj programı.\n\n- En az 6 ay çalışma süresi\n- İleri seviye İngilizce şartı\n- 3. veya 4. sınıf öğrencisi ya da yeni mezun\n\nBaşvuru: https://www.youthall.com/en/Shell/pioneers-in-progress-long-term-internship-marketing_1319/\nTüm fırsatlar: https://diploport.dev/#67e3ab3f0174\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
-      "id": "67e3ab3f0174",
-      "photo_query": "logo: Shell plc (Vikipedi (tr) sayfa logosu)",
-      "source": "Youthall",
-      "title": "Pioneers In Progress Uzun Dönem Pazarlama Stajı",
-      "ts": "2026-11-13T07:53:19.093482+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "0c1216ba08b3": {
       "apply_link_id": 1,
@@ -869,6 +858,13 @@
       "photo_query": "logo: TÜBİTAK (Vikipedi (tr))",
       "source": "AB İlan",
       "ts": "2026-11-12T18:55:00.036773+00:00"
+    },
+    {
+      "id": "67e3ab3f0174",
+      "official": "https://www.youthall.com/en/Shell/pioneers-in-progress-long-term-internship-marketing_1319/",
+      "photo_query": "logo: Shell plc (Vikipedi (tr) sayfa logosu)",
+      "source": "Youthall",
+      "ts": "2026-11-13T07:53:53.694330+00:00"
     }
   ],
   "queue": [
@@ -5180,9 +5176,9 @@
     },
     "67e3ab3f0174": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Pioneers In Progress Uzun Dönem Pazarlama Stajı",
-      "ts": "2026-10-30T09:54:01.733364+00:00"
+      "ts": "2026-11-13T07:53:53.694354+00:00"
     },
     "68437356e2a5": {
       "reason": "",
