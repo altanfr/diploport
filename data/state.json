@@ -193,10 +193,42 @@
     "youthall.com/tr/somposigorta/stajyer-avukat_23",
     "theogpd.org/wlc-2027",
     "deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/deakin-vice-chancellors-international-scholarship",
-    "mentiguide.com/basvuru/tohumlab"
+    "mentiguide.com/basvuru/tohumlab",
+    "kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1",
+    "form.jotform.com/Michigan_Justice/program-manager-application",
+    "wipo.taleo.net/careersection/wp_2_fel/jobdetail.ftl?job=26331-FEL",
+    "reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F12%2Fpurdue-university-summer-undergraduate-research-fellowship-surf-2027-fully-funded-10-week-research-fellowship-for-undergraduate-students-worldwide%2F&title=Purdue+University+Summer+Undergraduate+Research+Fellowship+%28SURF%29+2027%3A+Fully+Funded+10-Week+Research+Fellowship+for+Undergraduate+Students+Worldwide"
   ],
   "outbox": [],
   "pending": {
+    "0c1216ba08b3": {
+      "apply_link_id": 1,
+      "apply_url": "https://form.jotform.com/Michigan_Justice/program-manager-application",
+      "category": "is",
+      "country_tr": "ABD",
+      "deadline": "2026-12-14",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Ceza adaleti reformu odaklı çalışma",
+        "Program yönetimi ve hibe desteği",
+        "Michigan, ABD merkezli pozisyon"
+      ],
+      "id": "0c1216ba08b3",
+      "is_opportunity": true,
+      "message_id": 33,
+      "organization": "Michigan Justice Fund",
+      "organization_domain": "",
+      "queued_at": "2026-11-13T00:16:57.698055+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/12/michigan-justice-fund-program-manager-job-2026-apply-for-a-justice-reform-and-economic-mobility-position-in-michigan-usa/",
+      "summary_tr": "Michigan Justice Fund, ceza adaleti reformu ve ekonomik hareketlilik üzerine çalışan, program yönetimi ve hibe süreçlerini destekleyecek bir Program Müdürü arıyor.",
+      "title_tr": "Michigan Justice Fund Program Manager Pozisyonu",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
+      "visual_kind": "institution"
+    },
     "137fb7c9f331": {
       "apply_link_id": 1,
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5438311008",
@@ -286,33 +318,33 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "42598d849272": {
+    "6fe9257d8cf9": {
       "apply_link_id": 1,
-      "apply_url": "https://thecipes.org/ypef-hongkong-2026",
-      "category": "egitim",
-      "country_tr": "Hong Kong",
-      "deadline": "2026-11-12",
-      "eligibility_evidence": "Applicants from all countries",
-      "fee_required": true,
-      "funding_tr": "Tam burs (konaklama, yemek, ulaşım ve uçak bileti dahil)",
+      "apply_url": "https://www.reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F12%2Fpurdue-university-summer-undergraduate-research-fellowship-surf-2027-fully-funded-10-week-research-fellowship-for-undergraduate-students-worldwide%2F&title=Purdue+University+Summer+Undergraduate+Research+Fellowship+%28SURF%29+2027%3A+Fully+Funded+10-Week+Research+Fellowship+for+Undergraduate+Students+Worldwide",
+      "category": "staj",
+      "country_tr": "ABD",
+      "deadline": "2026-12-15",
+      "eligibility_evidence": "The programme welcomes applications from eligible undergraduate students studying at Purdue University, other universities and colleges in the United States, and international institutions.",
+      "fee_required": false,
+      "funding_tr": "6.500$ burs ve 2.500$ konaklama desteği",
       "highlights_tr": [
-        "16-40 yaş arası başvuruya açık",
-        "Tam kapsamlı burs desteği",
-        "Siyaset, felsefe ve ekonomi odaklı"
+        "10 haftalık tam zamanlı araştırma deneyimi",
+        "6.500$ stipend ve 2.500$ konaklama desteği",
+        "Uluslararası lisans öğrencilerine açık"
       ],
-      "id": "42598d849272",
+      "id": "6fe9257d8cf9",
       "is_opportunity": true,
-      "message_id": 29,
-      "organization": "Centre for International Political Economy Studies",
-      "organization_domain": "thecipes.org",
-      "queued_at": "2026-11-11T21:55:19.530068+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/young-political-economy-forum-hong-kong-2026/",
-      "summary_tr": "Hong Kong'da düzenlenecek olan Young Political Economy Forum, dünya genelinden genç liderleri, öğrencileri ve profesyonelleri küresel ekonominin geleceğini tartışmak üzere bir araya getiriyor.",
-      "title_tr": "Young Political Economy Forum Hong Kong 2026",
+      "message_id": 34,
+      "organization": "Purdue University",
+      "organization_domain": "purdue.edu",
+      "queued_at": "2026-11-13T00:17:32.864592+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/12/purdue-university-summer-undergraduate-research-fellowship-surf-2027-fully-funded-10-week-research-fellowship-for-undergraduate-students-worldwide/",
+      "summary_tr": "Purdue Üniversitesi'nde lisans öğrencilerine yönelik 10 haftalık uygulamalı araştırma programı. Öğrenciler, akademik mentorlar eşliğinde projelerde çalışarak araştırma deneyimi kazanır ve profesyonel gelişim faaliyetlerine katılırlar.",
+      "title_tr": "Purdue University Yaz Lisans Araştırma Bursu (SURF) 2027",
       "turkey_eligible": "yes",
-      "unclear_reason_tr": "Katılım ücreti var.",
-      "visual_kind": "scene"
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
     },
     "82da24732b9b": {
       "apply_link_id": 1,
@@ -4417,6 +4449,60 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Sözleşmeli personel statüsü",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Türkiye Cumhuriyeti vatandaşlarına açık"
+      ],
+      "icon": "landmark",
+      "id": "03fde0751135",
+      "is_opportunity": true,
+      "organization": "BURSA TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+      "organization_domain": "btu.edu.tr",
+      "queued_at": "2026-11-13T00:16:49.459653+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1",
+      "summary_tr": "Bursa Teknik Üniversitesi Rektörlüğü bünyesinde görevlendirilmek üzere 1 sözleşmeli psikolog alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Bursa Teknik Üniversitesi Sözleşmeli Psikolog Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 3,
+      "apply_url": "https://wipo.taleo.net/careersection/wp_2_fel/jobdetail.ftl?job=26331-FEL",
+      "category": "burs",
+      "country_tr": "İsviçre",
+      "deadline": "2026-11-23",
+      "eligibility_evidence": "The vacancy does not identify a specific list of eligible countries or restrict applications to particular continents.",
+      "fee_required": false,
+      "funding_tr": "Aylık 6.000 CHF burs, seyahat ve sigorta desteği",
+      "highlights_tr": [
+        "Aylık 6.000 CHF burs desteği",
+        "Hukuk alanında lisans derecesi şartı",
+        "En az 2 yıl fikri mülkiyet deneyimi"
+      ],
+      "id": "03d6bd7b5b98",
+      "is_opportunity": true,
+      "organization": "World Intellectual Property Organization (WIPO)",
+      "organization_domain": "wipo.int",
+      "queued_at": "2026-11-13T00:17:19.594435+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/12/wipo-ip-and-women-fellowship-2027-in-switzerland-earn-chf-6000-monthly-and-gain-international-intellectual-property-experience-in-geneva/",
+      "summary_tr": "WIPO, hukuk alanında lisans derecesine ve en az iki yıl fikri mülkiyet deneyimine sahip adaylar için Cenevre'de 12 aylık profesyonel gelişim bursu sunmaktadır.",
+      "title_tr": "WIPO IP and Women Fellowship 2027 - Cenevre, İsviçre",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4431,6 +4517,18 @@
       "status": "rejected",
       "title": "RIKEN CBS Summer Program 2027 in Japan",
       "ts": "2026-11-12T18:53:45.107423+00:00"
+    },
+    "03d6bd7b5b98": {
+      "reason": "",
+      "status": "queued",
+      "title": "WIPO IP and Women Fellowship 2027 - Cenevre, İsviçre",
+      "ts": "2026-11-13T00:17:19.594453+00:00"
+    },
+    "03fde0751135": {
+      "reason": "",
+      "status": "queued",
+      "title": "Bursa Teknik Üniversitesi Sözleşmeli Psikolog Alımı",
+      "ts": "2026-11-13T00:16:49.459670+00:00"
     },
     "043d92636a09": {
       "reason": "",
@@ -4485,6 +4583,12 @@
       "status": "rejected",
       "title": "ENHANCER PRO Hibe Programları",
       "ts": "2026-10-29T23:04:17.957136+00:00"
+    },
+    "0c1216ba08b3": {
+      "reason": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
+      "status": "pending",
+      "title": "Michigan Justice Fund Program Manager Job 2026: Apply for a Justice Reform and Economic Mobility Position in Michigan, U",
+      "ts": "2026-11-13T00:16:57.698082+00:00"
     },
     "0c635f447437": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -4564,6 +4668,12 @@
       "title": "Youth Climate Justice Fund İnsan ve Kültür Müdürü Pozisyonu",
       "ts": "2026-11-06T00:18:01.499480+00:00"
     },
+    "18631bf4ad70": {
+      "reason": "Türkiye'ye kapalı: The programme is intended for high-quality postgraduate students from eligible Least Developed and middle-income Commonw",
+      "status": "rejected",
+      "title": "Commonwealth Shared Scholarships 2027: Fully Funded UK Master’s Scholarship for Students from Developing Commonwealth Co",
+      "ts": "2026-11-13T00:17:38.362039+00:00"
+    },
     "18c1979d7b42": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -4617,6 +4727,12 @@
       "status": "queued",
       "title": "Max Planck MPIIB Yaz Stajı 2027",
       "ts": "2026-11-02T18:22:34.844609+00:00"
+    },
+    "1fd939655f5e": {
+      "reason": "Türkiye'ye kapalı: The European Union Delegation to Cameroon is seeking applicants who are Cameroonian citizens residing in Cameroon",
+      "status": "rejected",
+      "title": "EU Youth Sounding Board Cameroon 2026–2028: European Union Opens Applications for 25 Young Cameroonians to Join Its Yout",
+      "ts": "2026-11-13T00:16:31.372076+00:00"
     },
     "2112c840dffb": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4865,10 +4981,10 @@
       "ts": "2026-10-30T17:58:17.323026+00:00"
     },
     "42598d849272": {
-      "reason": "Katılım ücreti var.",
-      "status": "pending",
-      "title": "Young Political Economy Forum Hong Kong 2026 (Fully Funded)",
-      "ts": "2026-11-11T21:55:19.530085+00:00"
+      "reason": "son başvuru geçti",
+      "status": "expired",
+      "title": "Young Political Economy Forum Hong Kong 2026",
+      "ts": "2026-11-13T00:16:04.392545+00:00"
     },
     "426a5be58382": {
       "reason": "",
@@ -5200,6 +5316,12 @@
       "title": "Almanya'da Roots of Wellbeing Erasmus+ Gençlik Değişimi",
       "ts": "2026-11-12T11:00:50.168056+00:00"
     },
+    "6fe9257d8cf9": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Purdue University Summer Undergraduate Research Fellowship (SURF) 2027: Fully Funded 10-Week Research Fellowship for Und",
+      "ts": "2026-11-13T00:17:32.864616+00:00"
+    },
     "70fa11467998": {
       "reason": "",
       "status": "queued",
@@ -5488,6 +5610,12 @@
       "title": "Rockefeller University Yaz Araştırma Bursu (SURF) 2027",
       "ts": "2026-11-10T09:42:40.323143+00:00"
     },
+    "9a8e734fb50b": {
+      "reason": "Türkiye'ye kapalı: However, applicants must meet specific eligibility requirements relating to age, UK residence or education, permission t",
+      "status": "rejected",
+      "title": "The Brokerage Next Gen Talent Network 2026: Free UK Career Platform Offering Paid Work Experience, Internships, Apprenti",
+      "ts": "2026-11-13T00:17:10.555433+00:00"
+    },
     "9add69831c2e": {
       "reason": "",
       "status": "queued",
@@ -5710,6 +5838,12 @@
       "title": "Asia Foundation Development Fellows Program 2027 (Fully Funded)",
       "ts": "2026-11-07T15:39:04.593897+00:00"
     },
+    "b478d0878c9c": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "The Allstate Foundation College Service Grants 2027–2028: Apply for $10,000 to Support Student-Led Community Service Pro",
+      "ts": "2026-11-13T00:17:26.536825+00:00"
+    },
     "b67a02db7bff": {
       "reason": "son başvuru geçti",
       "status": "expired",
@@ -5757,6 +5891,12 @@
       "status": "pending",
       "title": "UNDP Climate and Energy Internship 2026 in Italy or Home-Based: Six-Month Opportunity with Monthly Stipend",
       "ts": "2026-11-06T21:28:41.661490+00:00"
+    },
+    "bebf544eb292": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "EYWEP and African Union Opportunities 2026: Youth and Women Entrepreneurship, COYWA Programme, Scholarships, Fellowships",
+      "ts": "2026-11-13T00:17:43.872281+00:00"
     },
     "bf1d24059375": {
       "reason": "bekleme süresi doldu",
@@ -5865,6 +6005,12 @@
       "status": "published",
       "title": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-11-07T08:43:17.499206+00:00"
+    },
+    "d4e3097a675b": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "R. Howard Dobbs Foundation Winter 2027 Grantmaking Cycle: Applications Open for Nonprofit Organisations Supporting Healt",
+      "ts": "2026-11-13T00:17:04.745096+00:00"
     },
     "d757d2a29201": {
       "reason": "",
@@ -6319,6 +6465,10 @@
     "sompo sigorta stajyer avukat alımı",
     "world leaders convention 2027 viyana avusturya",
     "deakin vice chancellor's international scholarship 2027",
-    "tohumlab future builders öğrenci ve mentör programı"
+    "tohumlab future builders öğrenci ve mentör programı",
+    "bursa teknik üniversitesi sözleşmeli psikolog alımı",
+    "michigan justice fund program manager pozisyonu",
+    "wipo ip and women fellowship 2027 cenevre i sviçre",
+    "purdue university yaz lisans araştırma bursu surf 2027"
   ]
 }
