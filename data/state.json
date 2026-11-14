@@ -214,18 +214,7 @@
     "jobs.smartrecruiters.com/CERN/744000159603499-cern-summer-student-programme-2027-member-and-non-member-state-",
     "oneyoungworld.com/future-summits"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55024_en",
-      "attempts": 0,
-      "caption": "Atina'da Kısa Dönem ESC Gönüllülük Projesi\n\nYunanistan'ın Atina şehrinde KEAN bünyesinde gerçekleşecek 2 aylık Avrupa Dayanışma Programı (ESC) kapsamında sosyal içerme ve çevre koruma alanlarında gönüllülük fırsatı.\n\n- 15 Kasım 2026 - 15 Ocak 2027 tarihleri arasında\n- Sosyal içerme ve çevre koruma odaklı gönüllülük\n- Atina'da 2 aylık ESC projesi\n\nBaşvuru: https://youth.europa.eu/solidarity/opportunity/55024_en\nTüm fırsatlar: https://diploport.dev/#a640651a2bb3\n\nGörsel: Federico Di Dio photography / Unsplash\n\n#diploport #fırsat #türkgençler #gönüllülük #erasmus #avrupagönüllülükhizmeti",
-      "id": "a640651a2bb3",
-      "photo_query": "Athens Greece city",
-      "source": "Erasmusgram",
-      "title": "Atina'da Kısa Dönem ESC Gönüllülük Projesi",
-      "ts": "2026-11-14T11:25:59.259823+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "09e3fac1dcd7": {
       "apply_link_id": 2,
@@ -961,6 +950,13 @@
       "photo_query": "logo: Burdur Mehmet Akif Ersoy Üniversitesi (Vikipedi (tr) sayfa logosu)",
       "source": "Kariyer Kapısı",
       "ts": "2026-11-13T16:18:35.696974+00:00"
+    },
+    {
+      "id": "a640651a2bb3",
+      "official": "https://youth.europa.eu/solidarity/opportunity/55024_en",
+      "photo_query": "Athens Greece city",
+      "source": "Erasmusgram",
+      "ts": "2026-11-14T11:26:32.746208+00:00"
     }
   ],
   "queue": [
@@ -5495,9 +5491,9 @@
     },
     "a640651a2bb3": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Atina'da Kısa Dönem ESC Gönüllülük Projesi",
-      "ts": "2026-11-03T17:48:35.590506+00:00"
+      "ts": "2026-11-14T11:26:32.746221+00:00"
     },
     "a65b5a8253e4": {
       "reason": "bekleme süresi doldu",
