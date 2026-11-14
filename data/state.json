@@ -209,9 +209,23 @@
     "abdigm.meb.gov.tr/www/misir-hukmeti-burslari-2026-2027/icerik/2900/tr",
     "bayer-foundation.com/en/science/fellowships",
     "salto-youth.net/tools/european-training-calendar/training/play-your-part-games-youth-participation-and-social-entrepreneurship.15500",
-    "ucd.ie/spire/study/prospectivephdstudents/iseulthonohandoctoralscholarship"
+    "ucd.ie/spire/study/prospectivephdstudents/iseulthonohandoctoralscholarship",
+    "forms.cloud.microsoft/Pages/ResponsePage.aspx?id=grBJPtViSUilsIbtUZKH0otpS3OcHcpKtPmUP-ZlXw5UQ1NQM1NQS0cwSzg4REdXTEM2TVVENlBMVS4u",
+    "jobs.smartrecruiters.com/CERN/744000159603499-cern-summer-student-programme-2027-member-and-non-member-state-",
+    "oneyoungworld.com/future-summits"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55024_en",
+      "attempts": 0,
+      "caption": "Atina'da Kısa Dönem ESC Gönüllülük Projesi\n\nYunanistan'ın Atina şehrinde KEAN bünyesinde gerçekleşecek 2 aylık Avrupa Dayanışma Programı (ESC) kapsamında sosyal içerme ve çevre koruma alanlarında gönüllülük fırsatı.\n\n- 15 Kasım 2026 - 15 Ocak 2027 tarihleri arasında\n- Sosyal içerme ve çevre koruma odaklı gönüllülük\n- Atina'da 2 aylık ESC projesi\n\nBaşvuru: https://youth.europa.eu/solidarity/opportunity/55024_en\nTüm fırsatlar: https://diploport.dev/#a640651a2bb3\n\nGörsel: Federico Di Dio photography / Unsplash\n\n#diploport #fırsat #türkgençler #gönüllülük #erasmus #avrupagönüllülükhizmeti",
+      "id": "a640651a2bb3",
+      "photo_query": "Athens Greece city",
+      "source": "Erasmusgram",
+      "title": "Atina'da Kısa Dönem ESC Gönüllülük Projesi",
+      "ts": "2026-11-14T11:25:59.259823+00:00"
+    }
+  ],
   "pending": {
     "09e3fac1dcd7": {
       "apply_link_id": 2,
@@ -364,6 +378,39 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
+    "6c461f707486": {
+      "apply_link_id": 2,
+      "apply_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=grBJPtViSUilsIbtUZKH0otpS3OcHcpKtPmUP-ZlXw5UQ1NQM1NQS0cwSzg4REdXTEM2TVVENlBMVS4u",
+      "category": "diger",
+      "country_tr": "Fransa",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "live in and hold the passport of one of the 46 Council of Europe member States",
+      "fee_required": false,
+      "funding_tr": "Yol, konaklama ve harcırah karşılanır",
+      "highlights_tr": [
+        "18-30 yaş arası başvuru",
+        "İyi derecede İngilizce şartı",
+        "Strazburg'da iki oturuma katılım"
+      ],
+      "id": "6c461f707486",
+      "image_queries": [
+        "Strasbourg France European Parliament",
+        "France youth conference",
+        "students debating in parliament"
+      ],
+      "is_opportunity": true,
+      "message_id": 40,
+      "organization": "Congress of Local and Regional Authorities",
+      "organization_domain": "coe.int",
+      "queued_at": "2026-11-14T11:25:36.399678+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/14/2027-fully-funded-youth-delegate-programme-apply-for-the-council-of-europe-congress-in-strasbourg/",
+      "summary_tr": "Avrupa Konseyi Yerel ve Bölgesel Yönetimler Kongresi, 18-30 yaş arası gençleri 2027 yılındaki oturumlara delege olarak katılmaya ve yerel projeler geliştirmeye davet ediyor.",
+      "title_tr": "Council of Europe 2027 Genç Delege Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "scene"
+    },
     "6fe9257d8cf9": {
       "apply_link_id": 1,
       "apply_url": "https://www.reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F12%2Fpurdue-university-summer-undergraduate-research-fellowship-surf-2027-fully-funded-10-week-research-fellowship-for-undergraduate-students-worldwide%2F&title=Purdue+University+Summer+Undergraduate+Research+Fellowship+%28SURF%29+2027%3A+Fully+Funded+10-Week+Research+Fellowship+for+Undergraduate+Students+Worldwide",
@@ -391,6 +438,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
+    },
+    "794fc7d24d45": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.oneyoungworld.com/future-summits",
+      "category": "diger",
+      "country_tr": "Japonya",
+      "deadline": "",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Burs, sponsorluk ve ödül programları mevcuttur",
+      "highlights_tr": [
+        "18-35 yaş arası genç liderlere açık",
+        "Tokyo International Forum'da gerçekleşecek",
+        "Burs ve sponsorluk imkanları sunuluyor"
+      ],
+      "id": "794fc7d24d45",
+      "is_opportunity": true,
+      "message_id": 41,
+      "organization": "One Young World",
+      "organization_domain": "oneyoungworld.com",
+      "queued_at": "2026-11-14T11:25:56.600655+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/14/how-to-attend-one-young-world-summit-2026-scholarships-lead2030-challenges-and-fully-funded-opportunities/",
+      "summary_tr": "28 Eylül - 1 Ekim 2027 tarihleri arasında Tokyo'da düzenlenecek One Young World Zirvesi'ne katılım için burs, kurumsal sponsorluk ve ödül programları gibi çeşitli finansman yolları bulunmaktadır.",
+      "title_tr": "One Young World Zirvesi 2027 Tokyo Katılım Fırsatları",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Bursların ve programların Türkiye'den katılımcılara açık olup olmadığı her bir özel programın kendi kriterlerine bağlıdır, metinde genel bir ifade yer almamaktadır.",
+      "visual_kind": "scene"
     },
     "82da24732b9b": {
       "apply_link_id": 1,
@@ -1483,38 +1558,6 @@
       "title_tr": "Dokuz Eylül Üniversitesi Sözleşmeli Personel Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55024_en",
-      "category": "gonulluluk",
-      "country_tr": "Yunanistan",
-      "deadline": "",
-      "eligibility_evidence": "Katılımcı ülkesi: Türkiye",
-      "fee_required": false,
-      "funding_tr": "ESC programı kapsamında konaklama, yemek ve ulaşım desteği",
-      "highlights_tr": [
-        "15 Kasım 2026 - 15 Ocak 2027 tarihleri arasında",
-        "Sosyal içerme ve çevre koruma odaklı gönüllülük",
-        "Atina'da 2 aylık ESC projesi"
-      ],
-      "id": "a640651a2bb3",
-      "image_queries": [
-        "Athens Greece city",
-        "Greece youth volunteers",
-        "volunteers working outdoors"
-      ],
-      "is_opportunity": true,
-      "organization": "KEAN",
-      "organization_domain": "",
-      "queued_at": "2026-11-03T17:48:35.590485+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/yunanistan-kisa-donem-erasmus-projesi/",
-      "summary_tr": "Yunanistan'ın Atina şehrinde KEAN bünyesinde gerçekleşecek 2 aylık Avrupa Dayanışma Programı (ESC) kapsamında sosyal içerme ve çevre koruma alanlarında gönüllülük fırsatı.",
-      "title_tr": "Atina'da Kısa Dönem ESC Gönüllülük Projesi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -4113,6 +4156,32 @@
       "title_tr": "UCD Iseult Honohan Doktora Bursu 2027",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://jobs.smartrecruiters.com/CERN/744000159603499-cern-summer-student-programme-2027-member-and-non-member-state-",
+      "category": "staj",
+      "country_tr": "İsviçre",
+      "deadline": "2027-01-21",
+      "eligibility_evidence": "Applicants of all nationalities are eligible for this funded CERN internship for international students",
+      "fee_required": false,
+      "funding_tr": "Ücretli ve kısmi burslu",
+      "highlights_tr": [
+        "Lisans veya yüksek lisans öğrencisi olma şartı",
+        "8-13 hafta süreli staj imkanı",
+        "İyi derecede İngilizce bilgisi gereklidir"
+      ],
+      "id": "5cba34a9a257",
+      "is_opportunity": true,
+      "organization": "CERN",
+      "organization_domain": "cern.ch",
+      "queued_at": "2026-11-14T11:25:49.743301+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/cern-summer-student-program-in-switzerland/",
+      "summary_tr": "CERN, fizik, bilgisayar bilimi, mühendislik veya matematik bölümlerinde okuyan lisans ve yüksek lisans öğrencileri için İsviçre'de 8-13 hafta süreli ücretli yaz staj programı sunmaktadır.",
+      "title_tr": "CERN 2027 Yaz Staj Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4644,6 +4713,12 @@
       "title": "Genç Başarı Eğitim Vakfı Mentorluk Programı",
       "ts": "2026-11-08T07:17:04.013218+00:00"
     },
+    "42a4ca291da4": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Summer Programs in Europe in 2027 (Fully Funded)",
+      "ts": "2026-11-14T11:25:27.174830+00:00"
+    },
     "43b12c9fe2a6": {
       "reason": "",
       "status": "queued",
@@ -4824,6 +4899,12 @@
       "title": "RIKEN CBS Yaz Programı 2027 - Japonya",
       "ts": "2026-11-09T17:26:32.609671+00:00"
     },
+    "5cba34a9a257": {
+      "reason": "",
+      "status": "queued",
+      "title": "CERN 2027 Yaz Staj Programı",
+      "ts": "2026-11-14T11:25:49.743312+00:00"
+    },
     "5db6d1139356": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -4974,6 +5055,12 @@
       "title": "Terra Future Labs Girişimcilik Programı",
       "ts": "2026-11-03T23:16:18.398257+00:00"
     },
+    "6c461f707486": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "2027 Fully Funded Youth Delegate Programme: Apply for the Council of Europe Congress in Strasbourg",
+      "ts": "2026-11-14T11:25:36.399690+00:00"
+    },
     "6e8e91735eb0": {
       "reason": "",
       "status": "queued",
@@ -5057,6 +5144,12 @@
       "status": "queued",
       "title": "Otokoç Otomotiv Uzun Dönem Genel Stajyer İlanı",
       "ts": "2026-11-01T00:02:02.697194+00:00"
+    },
+    "794fc7d24d45": {
+      "reason": "Bursların ve programların Türkiye'den katılımcılara açık olup olmadığı her bir özel programın kendi kriterlerine bağlıdır, metinde genel bir ifade yer almamaktadır.",
+      "status": "pending",
+      "title": "How to Attend the One Young World Summit 2027 in Tokyo: Scholarships, Funding and Applications",
+      "ts": "2026-11-14T11:25:56.600668+00:00"
     },
     "79818efb00a9": {
       "reason": "",
@@ -6211,6 +6304,9 @@
     "mısır hükûmeti bursları",
     "bayer foundation 2026 araştırma ve staj bursu",
     "mısır'da oyun temelli gençlik katılımı ve sosyal girişimcilik eğitimi",
-    "ucd iseult honohan doktora bursu 2027"
+    "ucd iseult honohan doktora bursu 2027",
+    "council of europe 2027 genç delege programı",
+    "cern 2027 yaz staj programı",
+    "one young world zirvesi 2027 tokyo katılım fırsatları"
   ]
 }
