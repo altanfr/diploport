@@ -1058,37 +1058,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://www.planthealth.upv.es/web/programme/the-master-programme/",
-      "category": "burs",
-      "country_tr": "Çok ülkeli",
-      "deadline": "2026-12-31",
-      "eligibility_evidence": "The Scholarship is open to Nationals of all countries.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (öğrenim ücreti, sigorta ve aylık 1400 Euro)",
-      "highlights_tr": [
-        "Tüm ülkelerden başvurulara açık",
-        "24 ay süreli tam burslu program",
-        "İki farklı Avrupa üniversitesinden çift diploma"
-      ],
-      "id": "56a1b38aff04",
-      "image_queries": [
-        "European university campus",
-        "Europe agriculture research",
-        "students in laboratory"
-      ],
-      "is_opportunity": true,
-      "organization": "Universitat Politècnica de València",
-      "organization_domain": "upv.es",
-      "queued_at": "2026-10-31T19:13:52.642417+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/erasmus-planthealth3-scholarship/",
-      "summary_tr": "Avrupa Birliği tarafından finanse edilen Erasmus Mundus PlantHealth3 programı, bitki sağlığı alanında 2 yıllık tam burslu yüksek lisans imkanı sunmaktadır.",
-      "title_tr": "Erasmus PlantHealth3 Yüksek Lisans Bursu 2027/29",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://www.sbs.ox.ac.uk/oxford-experience/scholarships-and-funding/oxford-pershing-square-graduate-scholarships",
       "category": "burs",
       "country_tr": "Birleşik Krallık",
@@ -4904,10 +4873,10 @@
       "ts": "2026-11-10T01:30:47.431548+00:00"
     },
     "56a1b38aff04": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Erasmus PlantHealth3 Yüksek Lisans Bursu 2027/29",
-      "ts": "2026-10-31T19:13:52.642434+00:00"
+      "ts": "2026-11-14T22:18:36.825114+00:00"
     },
     "578e6d05a3d0": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5412,6 +5381,12 @@
       "status": "queued",
       "title": "HZDR Yaz Öğrenci Programı 2027 - Almanya",
       "ts": "2026-11-06T21:28:58.199912+00:00"
+    },
+    "98da409ac768": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "UNICEF USA Youth Council Learning Exchange 2027: Six-Month Virtual Programme Invites U.S. City and County Leaders to Str",
+      "ts": "2026-11-14T22:19:00.459393+00:00"
     },
     "9904d4d7b663": {
       "reason": "",
