@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://form.jotform.com/243093631988972",
+    "category": "egitim",
+    "country_tr": "Türkiye",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "Ücretsiz",
+    "highlights_tr": [
+      "15-35 yaş arası tüm gençlere açık",
+      "İstanbul'da yüz yüze ücretsiz atölyeler",
+      "Katılım belgeli etkinlikler"
+    ],
+    "id": "043d92636a09",
+    "image": "images/043d92636a09.jpg",
+    "organization": "Toplum Gönüllüleri Vakfı",
+    "published_at": "2026-11-14T17:58:37.107562+00:00",
+    "summary_tr": "Toplum Gönüllüleri Vakfı ve Starbucks iş birliğiyle İstanbul Ümraniye'de düzenlenen, 15-35 yaş arası gençlere yönelik ücretsiz kişisel gelişim ve hobi atölyeleri.",
+    "thumb": "images/t/043d92636a09.jpg",
+    "title_tr": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri"
+  },
+  {
     "apply_url": "https://youth.europa.eu/solidarity/opportunity/55024_en",
     "category": "gonulluluk",
     "country_tr": "Yunanistan",

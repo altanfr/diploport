@@ -212,9 +212,22 @@
     "ucd.ie/spire/study/prospectivephdstudents/iseulthonohandoctoralscholarship",
     "forms.cloud.microsoft/Pages/ResponsePage.aspx?id=grBJPtViSUilsIbtUZKH0otpS3OcHcpKtPmUP-ZlXw5UQ1NQM1NQS0cwSzg4REdXTEM2TVVENlBMVS4u",
     "jobs.smartrecruiters.com/CERN/744000159603499-cern-summer-student-programme-2027-member-and-non-member-state-",
-    "oneyoungworld.com/future-summits"
+    "oneyoungworld.com/future-summits",
+    "service.humboldt-foundation.de/pls/web/pub_register.main?p_package=res&p_lang=en",
+    "admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://form.jotform.com/243093631988972",
+      "attempts": 0,
+      "caption": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri\n\nToplum Gönüllüleri Vakfı ve Starbucks iş birliğiyle İstanbul Ümraniye'de düzenlenen, 15-35 yaş arası gençlere yönelik ücretsiz kişisel gelişim ve hobi atölyeleri.\n\n- 15-35 yaş arası tüm gençlere açık\n- İstanbul'da yüz yüze ücretsiz atölyeler\n- Katılım belgeli etkinlikler\n\nBaşvuru: https://form.jotform.com/243093631988972\nTüm fırsatlar: https://diploport.dev/#043d92636a09\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "043d92636a09",
+      "photo_query": "logo: www.tog.org.tr (web sitesi (www.tog.org.tr))",
+      "source": "AB İlan",
+      "title": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri",
+      "ts": "2026-11-14T17:58:37.141797+00:00"
+    }
+  ],
   "pending": {
     "09e3fac1dcd7": {
       "apply_link_id": 2,
@@ -692,6 +705,34 @@
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "institution"
     },
+    "ed841c0b7d94": {
+      "apply_link_id": 2,
+      "apply_url": "https://service.humboldt-foundation.de/pls/web/pub_register.main?p_package=res&p_lang=en",
+      "category": "burs",
+      "country_tr": "Almanya",
+      "deadline": "2026-12-14",
+      "eligibility_evidence": "The Humboldt Residency Program 2027 in Germany is an excellent opportunity for researchers, writers, artists, and civil society practitioners from around the world.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (konaklama, seyahat ve harcırah dahil)",
+      "highlights_tr": [
+        "6 haftalık tam kapsamlı program",
+        "Araştırmacılar, sanatçılar ve STK çalışanları için",
+        "Konaklama ve seyahat masrafları karşılanır"
+      ],
+      "id": "ed841c0b7d94",
+      "is_opportunity": true,
+      "message_id": 42,
+      "organization": "Alexander von Humboldt Foundation",
+      "organization_domain": "humboldt-foundation.de",
+      "queued_at": "2026-11-14T17:58:08.807854+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/humboldt-residency-program-in-germany/",
+      "summary_tr": "Alexander von Humboldt Vakfı tarafından düzenlenen bu program, araştırmacıları, yazarları, sanatçıları ve sivil toplum çalışanlarını Almanya'da 6 haftalık bir misafir programına davet ediyor.",
+      "title_tr": "Humboldt Residency Program 2027 Almanya",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "scene"
+    },
     "ee5a5b374192": {
       "apply_link_id": 1,
       "apply_url": "https://code2work.co/",
@@ -716,6 +757,39 @@
       "source_url": "https://www.youthall.com/tr/code2work/veri-bilimci-ve-yazilimci-yetistirme-programi_12/",
       "summary_tr": "Code2Work, üniversite öğrencileri ve mezunları için 6 aylık yoğun yazılım ve veri bilimi eğitim programı sunmaktadır. Program, işe girene kadar ödeme kolaylığı ve kariyer desteği sağlamaktadır.",
       "title_tr": "Code2Work Veri Bilimci ve Yazılımcı Yetiştirme Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Katılım ücreti var.",
+      "visual_kind": "institution"
+    },
+    "ee66fcb4e386": {
+      "apply_link_id": 1,
+      "apply_url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+      "category": "burs",
+      "country_tr": "Güney Kore",
+      "deadline": "2027-01-14",
+      "eligibility_evidence": "Scholarships in South Korea are open to all international students from all countries around the world.",
+      "fee_required": true,
+      "funding_tr": "Tam burs (öğrenim ücreti, yaşam masrafları ve sağlık sigortası)",
+      "highlights_tr": [
+        "Tüm lisans bölümlerini kapsar",
+        "Tam öğrenim ücreti muafiyeti",
+        "Aylık yaşam desteği ve sağlık sigortası"
+      ],
+      "id": "ee66fcb4e386",
+      "image_queries": [
+        "KAIST university campus",
+        "South Korea university students",
+        "students walking campus"
+      ],
+      "is_opportunity": true,
+      "message_id": 43,
+      "organization": "Korea Advanced Institute of Science and Technology",
+      "organization_domain": "kaist.ac.kr",
+      "queued_at": "2026-11-14T17:58:25.431687+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/kaist-undergraduate-scholarship/",
+      "summary_tr": "Güney Kore'deki KAIST üniversitesinde lisans eğitimi için uluslararası öğrencilere yönelik tam kapsamlı burs programı.",
+      "title_tr": "KAIST Lisans Bursu 2027 - Güney Kore",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "institution"
@@ -1925,6 +1999,7 @@
       "title_tr": "27. İzmir Uluslararası Kısa Film Festivali",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
+      "visual_alerted": true,
       "visual_kind": "institution"
     },
     {
@@ -1978,34 +2053,7 @@
       "title_tr": "ILA Talks Uluslararası Gönüllüler Yılı Ücretsiz Webinar Serisi",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://form.jotform.com/243093631988972",
-      "category": "egitim",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "15-35 yaş arası tüm gençlere açık",
-        "İstanbul'da yüz yüze ücretsiz atölyeler",
-        "Katılım belgeli etkinlikler"
-      ],
-      "id": "043d92636a09",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Toplum Gönüllüleri Vakfı",
-      "organization_domain": "tog.org.tr",
-      "queued_at": "2026-11-05T10:46:28.613395+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tog-x-starbucks-ortak-alanda-kasim-ayi-etkinliklerine-davetlisiniz/",
-      "summary_tr": "Toplum Gönüllüleri Vakfı ve Starbucks iş birliğiyle İstanbul Ümraniye'de düzenlenen, 15-35 yaş arası gençlere yönelik ücretsiz kişisel gelişim ve hobi atölyeleri.",
-      "title_tr": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
+      "visual_alerted": true,
       "visual_kind": "institution"
     },
     {
@@ -4403,6 +4451,12 @@
       "title": "ILA Talks Uluslararası Gönüllüler Yılı Ücretsiz Webinar Serisi",
       "ts": "2026-11-05T02:24:34.709109+00:00"
     },
+    "1bfc3b1b524c": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "WHO Launches Together for Science and Health: A Global Movement Inviting Organizations to Strengthen Trust in Science an",
+      "ts": "2026-11-14T17:58:00.558700+00:00"
+    },
     "1e5ec320b681": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -5663,6 +5717,12 @@
       "title": "Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu",
       "ts": "2026-11-06T21:28:12.198780+00:00"
     },
+    "b94ad02d36d5": {
+      "reason": "Türkiye'ye kapalı: Applicants must be operating in, or residing within, one of the designated regions.",
+      "status": "rejected",
+      "title": "Spark Change-makers Project: Applications Open for Young Social Entrepreneurs in Ghana – Cohort One",
+      "ts": "2026-11-14T17:58:15.746746+00:00"
+    },
     "b9992d90c95e": {
       "reason": "resmî başvuru linki bulunamadı (seçilen link reddedildi: HTTP 404; sayfada 1 aday link: farkyaratanlar.org)",
       "status": "rejected",
@@ -5963,6 +6023,12 @@
       "title": "Belçika’da Erasmus+ Eğitim Kursu: Pedagogy of the Pitch",
       "ts": "2026-11-10T17:47:03.316706+00:00"
     },
+    "ed841c0b7d94": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Humboldt Residency Program 2027 in Germany",
+      "ts": "2026-11-14T17:58:08.807874+00:00"
+    },
     "ede70dd447b0": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5980,6 +6046,12 @@
       "status": "pending",
       "title": "Veri Bilimci ve Yazılımcı Yetiştirme Programı",
       "ts": "2026-11-11T21:54:57.416164+00:00"
+    },
+    "ee66fcb4e386": {
+      "reason": "Katılım ücreti var.",
+      "status": "pending",
+      "title": "KAIST Undergraduate Scholarship 2027 in South Korea | Fully Funded",
+      "ts": "2026-11-14T17:58:25.431706+00:00"
     },
     "f0aef4d3310d": {
       "reason": "",
@@ -6303,6 +6375,8 @@
     "ucd iseult honohan doktora bursu 2027",
     "council of europe 2027 genç delege programı",
     "cern 2027 yaz staj programı",
-    "one young world zirvesi 2027 tokyo katılım fırsatları"
+    "one young world zirvesi 2027 tokyo katılım fırsatları",
+    "humboldt residency program 2027 almanya",
+    "kaist lisans bursu 2027 güney kore"
   ]
 }
