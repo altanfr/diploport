@@ -274,34 +274,6 @@
       "unclear_reason_tr": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
       "visual_kind": "institution"
     },
-    "137fb7c9f331": {
-      "apply_link_id": 1,
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5438311008",
-      "category": "is",
-      "country_tr": "ABD, Birleşik Krallık veya Uzaktan",
-      "deadline": "2026-11-22",
-      "eligibility_evidence": "The Anthropic Residency is now accepting applications from experienced technical professionals, researchers, professors, founders, and engineers who want to transition into full-time artificial intelligence (AI) research.",
-      "fee_required": false,
-      "funding_tr": "Yıllık 350.000–500.000 dolar eşdeğeri ücret",
-      "highlights_tr": [
-        "Deneyimli teknik profesyonellere yöneliktir",
-        "6 hafta, 3 ay veya 6 ay süreli seçenekler",
-        "Makine öğrenimi deneyimi şart değildir"
-      ],
-      "id": "137fb7c9f331",
-      "is_opportunity": true,
-      "message_id": 19,
-      "organization": "Anthropic",
-      "organization_domain": "anthropic.com",
-      "queued_at": "2026-11-07T01:56:32.832714+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/06/anthropic-residency-2026-paid-ai-safety-research-program-for-established-technical-leaders-applications-open/",
-      "summary_tr": "Anthropic, deneyimli teknik profesyonellerin yapay zeka araştırmalarına geçiş yapmasını sağlayan, mentorluk ve ileri düzey kaynaklar sunan ücretli bir araştırma programıdır.",
-      "title_tr": "Anthropic Residency 2026: Yapay Zeka Güvenliği Araştırma Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
-      "visual_kind": "institution"
-    },
     "3319c88778df": {
       "apply_link_id": 1,
       "apply_url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
@@ -4277,10 +4249,10 @@
       "ts": "2026-11-06T21:29:22.592042+00:00"
     },
     "137fb7c9f331": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
-      "status": "pending",
-      "title": "Anthropic Residency 2026: Paid AI Safety Research Program for Established Technical Leaders – Applications Open",
-      "ts": "2026-11-07T01:56:32.832733+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Anthropic Residency 2026: Yapay Zeka Güvenliği Araştırma Programı",
+      "ts": "2026-11-14T03:08:48.762359+00:00"
     },
     "14122dea7017": {
       "reason": "fırsat değil (haber/liste/reklam)",
