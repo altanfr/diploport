@@ -216,18 +216,7 @@
     "service.humboldt-foundation.de/pls/web/pub_register.main?p_package=res&p_lang=en",
     "admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://form.jotform.com/243093631988972",
-      "attempts": 0,
-      "caption": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri\n\nToplum Gönüllüleri Vakfı ve Starbucks iş birliğiyle İstanbul Ümraniye'de düzenlenen, 15-35 yaş arası gençlere yönelik ücretsiz kişisel gelişim ve hobi atölyeleri.\n\n- 15-35 yaş arası tüm gençlere açık\n- İstanbul'da yüz yüze ücretsiz atölyeler\n- Katılım belgeli etkinlikler\n\nBaşvuru: https://form.jotform.com/243093631988972\nTüm fırsatlar: https://diploport.dev/#043d92636a09\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "043d92636a09",
-      "photo_query": "logo: www.tog.org.tr (web sitesi (www.tog.org.tr))",
-      "source": "AB İlan",
-      "title": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri",
-      "ts": "2026-11-14T17:58:37.141797+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "09e3fac1dcd7": {
       "apply_link_id": 2,
@@ -1031,6 +1020,13 @@
       "photo_query": "Athens Greece city",
       "source": "Erasmusgram",
       "ts": "2026-11-14T11:26:32.746208+00:00"
+    },
+    {
+      "id": "043d92636a09",
+      "official": "https://form.jotform.com/243093631988972",
+      "photo_query": "logo: www.tog.org.tr (web sitesi (www.tog.org.tr))",
+      "source": "AB İlan",
+      "ts": "2026-11-14T17:59:10.875662+00:00"
     }
   ],
   "queue": [
@@ -4261,9 +4257,9 @@
     },
     "043d92636a09": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "TOG X Starbucks Ortak Alan Kasım Ayı Atölyeleri",
-      "ts": "2026-11-05T10:46:28.613415+00:00"
+      "ts": "2026-11-14T17:59:10.875682+00:00"
     },
     "04ba2f3a3abe": {
       "reason": "",
