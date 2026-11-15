@@ -216,10 +216,55 @@
     "service.humboldt-foundation.de/pls/web/pub_register.main?p_package=res&p_lang=en",
     "admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
     "carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2",
-    "oist.jp/admissions/research-internship/apply-research-internship"
+    "oist.jp/admissions/research-internship/apply-research-internship",
+    "ifa.de/en/research/research-programmes",
+    "docs.google.com/forms/d/e/1FAIpQLSc1NODkcd2dY5jejj_eGVLR2yvEeRtlvOc645MQ0naMRES7PQ/viewform",
+    "afs.org/global-stem/academies",
+    "burakozguner.com/2027-burak-ozguner-burs-basvurulari-acildi",
+    "studyat.nwpu.edu.cn/info/1011/2120.htm",
+    "docs.google.com/forms/d/e/1FAIpQLSe_q8zDZeQZmd8-3BBE6uFEDstlarUrEX27-rRKAuW5OXqZjw/viewform?fbzx=1894055990057895455"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
+      "attempts": 0,
+      "caption": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı\n\nAydın Adnan Menderes Üniversitesi Rektörlüğü bünyesinde eski hükümlü veya TMY statüsünde tarım işçisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilmektedir.\n\n- Türkiye Cumhuriyeti vatandaşı olma şartı\n- Eski hükümlü veya TMY statüsü\n- Kariyer Kapısı üzerinden başvuru\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755\nTüm fırsatlar: https://diploport.dev/#2c49f34b9c7b\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "2c49f34b9c7b",
+      "photo_query": "logo: www.adu.edu.tr (web sitesi (www.adu.edu.tr))",
+      "source": "Kariyer Kapısı",
+      "title": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
+      "ts": "2026-11-15T17:43:33.601962+00:00"
+    }
+  ],
   "pending": {
+    "05cb5b7818c7": {
+      "apply_link_id": 2,
+      "apply_url": "https://afs.org/global-stem/academies/",
+      "category": "burs",
+      "country_tr": "Brezilya, Mısır veya Hindistan",
+      "deadline": "2027-01-17",
+      "eligibility_evidence": "The program specifies nationality, citizenship, or country of legal residence requirements for 12 countries.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (uçak bileti, konaklama, yemek, sigorta dahil)",
+      "highlights_tr": [
+        "STEM ve sürdürülebilirlik odaklı eğitim",
+        "12 hafta online, 4 hafta yurt dışı deneyimi",
+        "Ulaşım, konaklama ve yemek masrafları karşılanır"
+      ],
+      "id": "05cb5b7818c7",
+      "is_opportunity": true,
+      "message_id": 48,
+      "organization": "AFS Intercultural Programs",
+      "organization_domain": "afs.org",
+      "queued_at": "2026-11-15T17:42:38.945313+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/14/afs-global-stem-academies-2027-fully-funded-international-study-abroad-scholarship-for-students-from-12-countries/",
+      "summary_tr": "AFS Global STEM Academies, gençlere 12 haftalık çevrimiçi eğitim ve Brezilya, Mısır veya Hindistan'da 4 haftalık uluslararası deneyim sunan, STEM ve sürdürülebilirlik odaklı tam burslu bir programdır.",
+      "title_tr": "AFS Global STEM Academies 2027 Bursu",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metinde Türkiye'nin dahil olduğu 12 ülkelik liste açıkça belirtilmemiştir.",
+      "visual_kind": "scene"
+    },
     "09e3fac1dcd7": {
       "apply_link_id": 2,
       "apply_url": "https://www.bayer-foundation.com/en/science/fellowships",
@@ -584,34 +629,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "ac66c283400b": {
-      "apply_link_id": 2,
-      "apply_url": "https://www.vcla.at/helmut-veith-stipend/",
-      "category": "burs",
-      "country_tr": "Avusturya",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "The Helmut Veith Scholarship 2026-2027 in Austria offers international women pursuing a master’s degree at TU Wien.",
-      "fee_required": false,
-      "funding_tr": "Tam eğitim ücreti muafiyeti ve yıllık 7.000 EUR burs",
-      "highlights_tr": [
-        "Sadece kadın öğrencilere açıktır",
-        "Bilgisayar Bilimleri yüksek lisansı için",
-        "Yıllık 7.000 EUR ve eğitim ücreti desteği"
-      ],
-      "id": "ac66c283400b",
-      "is_opportunity": true,
-      "message_id": 22,
-      "organization": "TU Wien",
-      "organization_domain": "tuwien.at",
-      "queued_at": "2026-11-08T15:07:41.351522+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/helmut-veith-scholarship/",
-      "summary_tr": "TU Wien'de Bilgisayar Bilimleri alanında yüksek lisans yapacak başarılı kadın öğrencilere yönelik, eğitim ücretini karşılayan ve yıllık 7.000 EUR destek sağlayan uluslararası bir burs programıdır.",
-      "title_tr": "TU Wien Helmut Veith Yüksek Lisans Bursu",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "ad4b5aaac255": {
       "apply_link_id": 1,
       "apply_url": "https://stemgateway.nasa.gov/s/course-offering/a0BSJ0000049icD/open-science-essentials",
@@ -638,6 +655,34 @@
       "title_tr": "NASA Open Science Essentials 2026 Çevrimiçi Eğitim Programı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
+      "visual_kind": "institution"
+    },
+    "ae7295ef4fba": {
+      "apply_link_id": 2,
+      "apply_url": "https://www.ifa.de/en/research/research-programmes/",
+      "category": "hibe",
+      "country_tr": "Almanya",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "The Institute for Foreign Cultural Relations (ifa), also known as Institut für Auslandsbeziehungen, is inviting applications from qualified researchers, academics, and experts for its 2026 Research Programme on Culture and Foreign Policy.",
+      "fee_required": false,
+      "funding_tr": "9.000 Euro brüt araştırma ücreti",
+      "highlights_tr": [
+        "Lisansüstü araştırmacılar ve uzmanlar için",
+        "6 aya kadar süren araştırma projesi",
+        "9.000 Euro brüt araştırma desteği"
+      ],
+      "id": "ae7295ef4fba",
+      "is_opportunity": true,
+      "message_id": 47,
+      "organization": "Institute for Foreign Cultural Relations (ifa)",
+      "organization_domain": "ifa.de",
+      "queued_at": "2026-11-15T17:42:04.954024+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/15/ifa-research-programme-2026-e9000-research-opportunity-on-culture-and-foreign-policy-apply-by-30-november-2026/",
+      "summary_tr": "ifa (Institut für Auslandsbeziehungen), kültür ve dış politika alanında uzman araştırmacılar için 6 aylık bir araştırma programı sunuyor. Seçilen adaylar, kültürün sürdürülebilir kalkınmadaki rolü üzerine çalışacak.",
+      "title_tr": "ifa 2026 Kültür ve Dış Politika Araştırma Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
     "c2965177b6a1": {
@@ -1041,32 +1086,6 @@
   "queue": [
     {
       "apply_link_id": 1,
-      "apply_url": "https://www.governance.ai/post/uk-summer-fellowship-2027-research-track",
-      "category": "diger",
-      "country_tr": "İngiltere",
-      "deadline": "2026-11-22",
-      "eligibility_evidence": "The Fellowship is open to all nationals.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (14.000 £ burs, ulaşım ve yemek dahil)",
-      "highlights_tr": [
-        "14.000 £ tutarında burs desteği",
-        "Ulaşım ve yemek masrafları karşılanır",
-        "Tüm ülkelerden başvurulara açık"
-      ],
-      "id": "dde79a3b0121",
-      "is_opportunity": true,
-      "organization": "GovAI",
-      "organization_domain": "governance.ai",
-      "queued_at": "2026-11-01T13:11:15.411217+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/govai-summer-fellowship-2027-in-london/",
-      "summary_tr": "Londra'da gerçekleşecek 3 aylık GovAI Yaz Araştırma Bursu, yapay zeka yönetişimi alanında çalışmak isteyen tüm dünyadan adaylara açıktır. Program tam kapsamlı finansal destek ve vize sponsorluğu sunmaktadır.",
-      "title_tr": "GovAI Yaz Araştırma Bursu 2027 - Londra",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://www.sbs.ox.ac.uk/oxford-experience/scholarships-and-funding/oxford-pershing-square-graduate-scholarships",
       "category": "burs",
       "country_tr": "Birleşik Krallık",
@@ -1088,32 +1107,6 @@
       "source_url": "https://www.opportunitiescircle.com/oxford-pershing-square-graduate-scholarships-in-uk/",
       "summary_tr": "Oxford Üniversitesi'nde 1+1 MBA programı kapsamında sunulan, dünya genelinden öğrencilere açık, tam kapsamlı yüksek lisans ve MBA burs programıdır.",
       "title_tr": "Oxford Pershing Square Yüksek Lisans Bursu 2027-2028",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 3,
-      "apply_url": "https://admission.vistec.ac.th/",
-      "category": "burs",
-      "country_tr": "Tayland",
-      "deadline": "2027-02-15",
-      "eligibility_evidence": "International students from all over the world are eligible to apply for VISTEC Scholarships 2027 in Thailand.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (öğrenim ücreti muafiyeti, aylık burs, konaklama ve araştırma desteği)",
-      "highlights_tr": [
-        "Fen ve mühendislik alanlarında lisansüstü eğitim",
-        "Aylık 20.000 THB'ye varan yaşam desteği",
-        "Ücretsiz kampüs içi konaklama imkanı"
-      ],
-      "id": "7cd5d6c89e36",
-      "is_opportunity": true,
-      "organization": "Vidyasirimedhi Institute of Science and Technology",
-      "organization_domain": "vistec.ac.th",
-      "queued_at": "2026-11-01T13:11:09.097530+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/vidyasirimedhi-institute-scholarship/",
-      "summary_tr": "Tayland'daki Vidyasirimedhi Bilim ve Teknoloji Enstitüsü (VISTEC), fen ve mühendislik alanlarında yüksek lisans ve doktora yapmak isteyen uluslararası öğrenciler için tam burslu programlar sunmaktadır.",
-      "title_tr": "Vidyasirimedhi Institute (VISTEC) Yüksek Lisans ve Doktora Bursu",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -1140,33 +1133,6 @@
       "source_url": "https://opportunitiescorners.com/caltech-summer-research-program-2027/",
       "summary_tr": "California Institute of Technology (Caltech) bünyesinde 10 hafta sürecek, lisans öğrencilerine yönelik tam kapsamlı yaz araştırma staj programı.",
       "title_tr": "Caltech Yaz Araştırma Programı (SURF) 2027",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşı olma şartı",
-        "Eski hükümlü veya TMY statüsü",
-        "Kariyer Kapısı üzerinden başvuru"
-      ],
-      "icon": "landmark",
-      "id": "2c49f34b9c7b",
-      "is_opportunity": true,
-      "organization": "AYDIN ADNAN MENDERES ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-      "organization_domain": "adu.edu.tr",
-      "queued_at": "2026-11-02T00:32:16.767736+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
-      "summary_tr": "Aydın Adnan Menderes Üniversitesi Rektörlüğü bünyesinde eski hükümlü veya TMY statüsünde tarım işçisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilmektedir.",
-      "title_tr": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -4176,6 +4142,118 @@
       "title_tr": "OIST Japonya Araştırma Stajı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSc1NODkcd2dY5jejj_eGVLR2yvEeRtlvOc645MQ0naMRES7PQ/viewform",
+      "category": "gonulluluk",
+      "country_tr": "İspanya, Kuzey Makedonya",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek, ulaşım ve vize masrafları karşılanır",
+      "highlights_tr": [
+        "18-30 yaş arası gençler başvurabilir",
+        "Konaklama, yemek ve ulaşım masrafları karşılanır",
+        "Katılımcılara Youthpass sertifikası verilir"
+      ],
+      "id": "de8c794be5fa",
+      "image_queries": [
+        "Malaga Spain street",
+        "Spain youth volunteers",
+        "volunteers working together"
+      ],
+      "is_opportunity": true,
+      "organization": "e-gençlik Derneği",
+      "organization_domain": "",
+      "queued_at": "2026-11-15T17:42:11.566441+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/ispanya-ve-k-makedonyada-kisa-donem-erasmus-projeleri/",
+      "summary_tr": "e-gençlik Derneği, İspanya ve Kuzey Makedonya'da gerçekleştirilecek Avrupa Dayanışma Programı (ESC) gönüllülük projeleri için 18-30 yaş arası katılımcılar arıyor.",
+      "title_tr": "İspanya ve Kuzey Makedonya'da ESC Gönüllülük Projeleri",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.burakozguner.com/2027-burak-ozguner-burs-basvurulari-acildi/",
+      "category": "burs",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-27",
+      "eligibility_evidence": "Vatandaşlık şartı: Herhangi bir sınırlama uygulanmıyor",
+      "fee_required": false,
+      "funding_tr": "Aylık 5.000 TL geri ödemesiz burs",
+      "highlights_tr": [
+        "Aylık 5.000 TL geri ödemesiz destek",
+        "Hayvan hakları alanında aktif çalışma şartı",
+        "12 ay boyunca düzenli ödeme"
+      ],
+      "id": "d5038f2688f1",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "Burak Özgüner",
+      "organization_domain": "burakozguner.com",
+      "queued_at": "2026-11-15T17:42:47.068789+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/burak-ozguner-ogrenci-tesvik-burs-duyurusu/",
+      "summary_tr": "Hayvan hakları alanında aktif çalışmalar yürüten üniversite öğrencilerine yönelik, 12 ay boyunca aylık 5.000 TL tutarında geri ödemesiz eğitim desteği sağlanacaktır.",
+      "title_tr": "2027 Burak Özgüner Öğrenci Teşvik Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://studyat.nwpu.edu.cn/info/1011/2120.htm",
+      "category": "burs",
+      "country_tr": "Çin",
+      "deadline": "2027-05-20",
+      "eligibility_evidence": "The Northwestern Polytechnical University offers this scholarship in China to students from all around the world.",
+      "fee_required": false,
+      "funding_tr": "Tam veya kısmi burs (öğrenim ücreti, konaklama ve aylık harçlık)",
+      "highlights_tr": [
+        "Lisans, yüksek lisans ve doktora seviyeleri",
+        "Farklı burs seviyeleri ile tam veya kısmi destek",
+        "Yaş sınırı: Lisans 23, Yüksek Lisans 30, Doktora 35"
+      ],
+      "id": "5af3ba4b1bbe",
+      "is_opportunity": true,
+      "organization": "Northwestern Polytechnical University",
+      "organization_domain": "nwpu.edu.cn",
+      "queued_at": "2026-11-15T17:42:54.701632+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/npu-president-scholarship-in-china/",
+      "summary_tr": "Northwestern Polytechnical University (NPU) tarafından uluslararası öğrencilere sunulan, lisans, yüksek lisans ve doktora seviyelerinde eğitim imkanı sağlayan burs programıdır.",
+      "title_tr": "NPU President Bursu 2027 - Çin",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe_q8zDZeQZmd8-3BBE6uFEDstlarUrEX27-rRKAuW5OXqZjw/viewform?fbzx=1894055990057895455",
+      "category": "egitim",
+      "country_tr": "İspanya",
+      "deadline": "",
+      "eligibility_evidence": "Türkiye’de ikamet ediyor olmak.",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek ve 400 Euro'ya kadar seyahat desteği",
+      "highlights_tr": [
+        "Yaş aralığı: 18-26",
+        "Tarih: 25 Ocak – 2 Şubat 2027",
+        "Konu: Belgesel yapımı ve göç"
+      ],
+      "id": "c4c357fce635",
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-15T17:43:03.293476+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/ispanya-madrid-7-gun-erasmus-projesi/",
+      "summary_tr": "Madrid'de düzenlenecek Erasmus+ KA152-YOU projesi, belgesel yapımı ve göç temaları üzerine 18-26 yaş arası gençlere yönelik uluslararası bir eğitim deneyimi sunuyor.",
+      "title_tr": "İspanya'da Erasmus+ Gençlik Değişimi: RE-FRAME",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4232,6 +4310,12 @@
       "status": "queued",
       "title": "Tsinghua Amgen Yaz Stajı Programı 2027 - Çin",
       "ts": "2026-11-11T21:55:39.856002+00:00"
+    },
+    "05cb5b7818c7": {
+      "reason": "Metinde Türkiye'nin dahil olduğu 12 ülkelik liste açıkça belirtilmemiştir.",
+      "status": "pending",
+      "title": "AFS Global STEM Academies 2027: Fully Funded International Study Abroad Scholarship for Students from 12 Countries",
+      "ts": "2026-11-15T17:42:38.945327+00:00"
     },
     "0833644949f7": {
       "reason": "",
@@ -4893,6 +4977,12 @@
       "title": "New Graduates 2027: Purchases Manager",
       "ts": "2026-11-05T18:43:51.066890+00:00"
     },
+    "5af3ba4b1bbe": {
+      "reason": "",
+      "status": "queued",
+      "title": "NPU President Bursu 2027 - Çin",
+      "ts": "2026-11-15T17:42:54.701645+00:00"
+    },
     "5b650481d03b": {
       "reason": "Türkiye'ye kapalı: ITCILO is offering partial scholarships of €600 to eligible applicants who are nationals of countries included in the OE",
       "status": "rejected",
@@ -5200,10 +5290,10 @@
       "ts": "2026-10-31T12:10:58.356933+00:00"
     },
     "7cd5d6c89e36": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Vidyasirimedhi Institute (VISTEC) Yüksek Lisans ve Doktora Bursu",
-      "ts": "2026-11-01T13:11:09.097547+00:00"
+      "ts": "2026-11-15T17:41:33.568022+00:00"
     },
     "7e64af0459a8": {
       "reason": "bekleme süresi doldu",
@@ -5306,6 +5396,12 @@
       "status": "expired",
       "title": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu 2027 Burs Desteği",
       "ts": "2026-11-10T23:14:22.263981+00:00"
+    },
+    "8be8bfb24efd": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Purdue University Summer Fellowship 2027 in USA | Fully Funded",
+      "ts": "2026-11-15T17:42:24.095985+00:00"
     },
     "8cc51e5ccb3b": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -5572,10 +5668,10 @@
       "ts": "2026-11-10T09:43:20.820690+00:00"
     },
     "ac66c283400b": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Helmut Veith Scholarship 2027 in Austria",
-      "ts": "2026-11-08T15:07:41.351541+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "TU Wien Helmut Veith Yüksek Lisans Bursu",
+      "ts": "2026-11-15T17:41:33.568435+00:00"
     },
     "acddf474fad2": {
       "reason": "",
@@ -5594,6 +5690,12 @@
       "status": "pending",
       "title": "NASA Open Science Essentials 2026 (Free Online Course with Certificate)",
       "ts": "2026-11-12T10:58:33.813863+00:00"
+    },
+    "ae7295ef4fba": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "ifa Research Programme 2026: €9,000 Research Opportunity on Culture and Foreign Policy – Apply by 30 November 2026",
+      "ts": "2026-11-15T17:42:04.954041+00:00"
     },
     "ae80b0962a3f": {
       "reason": "",
@@ -5691,6 +5793,12 @@
       "title": "Asr-ı Saadet Derneği 2026-2027 Eğitim Dönemi Bursu",
       "ts": "2026-11-06T21:28:12.198780+00:00"
     },
+    "b8f7b0890e60": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Japonya Yerel Projelere Hibe Programı 2026-2027 Başvuruları Açıldı",
+      "ts": "2026-11-15T17:42:30.547290+00:00"
+    },
     "b94ad02d36d5": {
       "reason": "Türkiye'ye kapalı: Applicants must be operating in, or residing within, one of the designated regions.",
       "status": "rejected",
@@ -5756,6 +5864,12 @@
       "status": "expired",
       "title": "CEPS İklim Liderliği Programı 2027",
       "ts": "2026-11-10T23:14:22.263726+00:00"
+    },
+    "c4c357fce635": {
+      "reason": "",
+      "status": "queued",
+      "title": "İspanya'da Erasmus+ Gençlik Değişimi: RE-FRAME",
+      "ts": "2026-11-15T17:43:03.293489+00:00"
     },
     "c4e86cb18736": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -5859,6 +5973,12 @@
       "title": "R. Howard Dobbs Foundation Winter 2027 Grantmaking Cycle: Applications Open for Nonprofit Organisations Supporting Healt",
       "ts": "2026-11-13T00:17:04.745096+00:00"
     },
+    "d5038f2688f1": {
+      "reason": "",
+      "status": "queued",
+      "title": "2027 Burak Özgüner Öğrenci Teşvik Bursu",
+      "ts": "2026-11-15T17:42:47.068803+00:00"
+    },
     "d757d2a29201": {
       "reason": "",
       "status": "queued",
@@ -5896,10 +6016,16 @@
       "ts": "2026-11-11T21:53:54.523236+00:00"
     },
     "dde79a3b0121": {
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "GovAI Yaz Araştırma Bursu 2027 - Londra",
+      "ts": "2026-11-15T17:41:33.567995+00:00"
+    },
+    "de8c794be5fa": {
       "reason": "",
       "status": "queued",
-      "title": "GovAI Yaz Araştırma Bursu 2027 - Londra",
-      "ts": "2026-11-01T13:11:15.411232+00:00"
+      "title": "İspanya ve Kuzey Makedonya'da ESC Gönüllülük Projeleri",
+      "ts": "2026-11-15T17:42:11.566454+00:00"
     },
     "de9101036334": {
       "reason": "",
@@ -6002,6 +6128,12 @@
       "status": "pending",
       "title": "Humboldt Residency Program 2027 in Germany",
       "ts": "2026-11-14T17:58:08.807874+00:00"
+    },
+    "edcb3e8997a7": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "HZDR Summer Student Program 2027 in Germany (Fully Funded)",
+      "ts": "2026-11-15T17:41:55.603572+00:00"
     },
     "ede70dd447b0": {
       "reason": "bekleme süresi doldu",
@@ -6353,6 +6485,12 @@
     "humboldt residency program 2027 almanya",
     "kaist lisans bursu 2027 güney kore",
     "mülteciler için 2026 2027 yükseköğrenim burs fırsatları",
-    "oist japonya araştırma stajı"
+    "oist japonya araştırma stajı",
+    "ifa 2026 kültür ve dış politika araştırma programı",
+    "i spanya ve kuzey makedonya'da esc gönüllülük projeleri",
+    "afs global stem academies 2027 bursu",
+    "2027 burak özgüner öğrenci teşvik bursu",
+    "npu president bursu 2027 çin",
+    "i spanya'da erasmus gençlik değişimi re frame"
   ]
 }
