@@ -218,18 +218,7 @@
     "carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2",
     "oist.jp/admissions/research-internship/apply-research-internship"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119/",
-      "attempts": 0,
-      "caption": "AbbVie Uzun Dönem Staj Programı\n\nAbbVie Türkiye bünyesinde, müşteri ve omnichannel pazarlama stratejilerine destek verecek 3. veya 4. sınıf lisans ya da yüksek lisans öğrencileri için uzun dönem staj programı.\n\n- Haftada en az 3 gün çalışma imkanı\n- 3. veya 4. sınıf lisans/yüksek lisans öğrencileri\n- İyi derecede İngilizce bilgisi\n\nBaşvuru: https://www.youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119/\nTüm fırsatlar: https://diploport.dev/#2ff19304ace3\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
-      "id": "2ff19304ace3",
-      "photo_query": "logo: AbbVie (Vikipedi (en) sayfa logosu)",
-      "source": "Youthall",
-      "title": "AbbVie Uzun Dönem Staj Programı",
-      "ts": "2026-11-15T10:45:07.906138+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "09e3fac1dcd7": {
       "apply_link_id": 2,
@@ -1040,6 +1029,13 @@
       "photo_query": "logo: www.tog.org.tr (web sitesi (www.tog.org.tr))",
       "source": "AB İlan",
       "ts": "2026-11-14T17:59:10.875662+00:00"
+    },
+    {
+      "id": "2ff19304ace3",
+      "official": "https://www.youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119/",
+      "photo_query": "logo: AbbVie (Vikipedi (en) sayfa logosu)",
+      "source": "Youthall",
+      "ts": "2026-11-15T10:45:41.068571+00:00"
     }
   ],
   "queue": [
@@ -4563,9 +4559,9 @@
     },
     "2ff19304ace3": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "AbbVie Uzun Dönem Staj Programı",
-      "ts": "2026-11-02T10:55:11.485349+00:00"
+      "ts": "2026-11-15T10:45:41.068589+00:00"
     },
     "3319c88778df": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi sayfada doğrulanamadı.",
