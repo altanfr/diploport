@@ -214,7 +214,8 @@
     "jobs.smartrecruiters.com/CERN/744000159603499-cern-summer-student-programme-2027-member-and-non-member-state-",
     "oneyoungworld.com/future-summits",
     "service.humboldt-foundation.de/pls/web/pub_register.main?p_package=res&p_lang=en",
-    "admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline"
+    "admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+    "carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2"
   ],
   "outbox": [],
   "pending": {
@@ -428,6 +429,35 @@
       "title_tr": "Purdue University Yaz Lisans Araştırma Bursu (SURF) 2027",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "73a8ca465439": {
+      "apply_link_id": 1,
+      "apply_url": "https://carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2/",
+      "category": "burs",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2027-01-31",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Lisans, yüksek lisans ve doktora seviyeleri",
+        "Farklı ülkelerde 9 farklı üniversite seçeneği",
+        "Başvuru tarihleri 16 Kasım 2026 - 31 Ocak 2027 arası"
+      ],
+      "id": "73a8ca465439",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 46,
+      "organization": "Local Engagement Refugee Research Network",
+      "organization_domain": "carleton.ca",
+      "queued_at": "2026-11-15T02:37:44.668874+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/15/9-scholarship-opportunities-for-refugees-in-2026-2027-undergraduate-masters-and-phd-funding-in-africa-europe-north-america-and-latin-america/",
+      "summary_tr": "LERRN tarafından paylaşılan, mülteci öğrencilere yönelik Afrika, Avrupa, Kuzey Amerika ve Latin Amerika'daki üniversitelerde sunulan 9 farklı yükseköğrenim burs programı listesi.",
+      "title_tr": "Mülteciler için 2026-2027 Yükseköğrenim Burs Fırsatları",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Bursların mülteci statüsündeki Türk vatandaşlarına açık olup olmadığına dair genel bir ifade bulunmamaktadır; her üniversitenin kendi kriterleri geçerlidir.",
       "visual_kind": "institution"
     },
     "794fc7d24d45": {
@@ -1131,31 +1161,6 @@
       "source_url": "https://opportunitiescorners.com/caltech-summer-research-program-2027/",
       "summary_tr": "California Institute of Technology (Caltech) bünyesinde 10 hafta sürecek, lisans öğrencilerine yönelik tam kapsamlı yaz araştırma staj programı.",
       "title_tr": "Caltech Yaz Araştırma Programı (SURF) 2027",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/OtokocOtomotiv/uzun-donem-genel-stajyer-ilani_31/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Ücretli staj",
-      "highlights_tr": [
-        "Haftada en az 3 gün çalışma imkanı",
-        "3. sınıf, 4. sınıf veya yüksek lisans öğrencileri",
-        "Farklı departmanlarda kariyer deneyimi"
-      ],
-      "id": "777402a5a29b",
-      "is_opportunity": true,
-      "organization": "Otokoç Otomotiv",
-      "organization_domain": "otokocotomotiv.com.tr",
-      "queued_at": "2026-11-01T00:02:02.697178+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/OtokocOtomotiv/uzun-donem-genel-stajyer-ilani_31/",
-      "summary_tr": "Otokoç Otomotiv bünyesinde farklı departmanlarda görev alacak, haftada en az 3 gün çalışabilecek 3. ve 4. sınıf veya yüksek lisans öğrencileri için uzun dönem staj programı.",
-      "title_tr": "Otokoç Otomotiv Uzun Dönem Genel Stajyer İlanı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -5124,6 +5129,12 @@
       "title": "UNIL Summer Research Program 2027 in Switzerland",
       "ts": "2026-11-12T02:56:28.556783+00:00"
     },
+    "73a8ca465439": {
+      "reason": "Bursların mülteci statüsündeki Türk vatandaşlarına açık olup olmadığına dair genel bir ifade bulunmamaktadır; her üniversitenin kendi kriterleri geçerlidir.",
+      "status": "pending",
+      "title": "9 Scholarship Opportunities for Refugees in 2026–2027: Undergraduate, Master’s and PhD Funding in Africa, Europe, North ",
+      "ts": "2026-11-15T02:37:44.668893+00:00"
+    },
     "74208b18be4b": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -5155,10 +5166,10 @@
       "ts": "2026-11-09T17:26:46.782886+00:00"
     },
     "777402a5a29b": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Otokoç Otomotiv Uzun Dönem Genel Stajyer İlanı",
-      "ts": "2026-11-01T00:02:02.697194+00:00"
+      "ts": "2026-11-15T02:37:18.791509+00:00"
     },
     "794fc7d24d45": {
       "reason": "Bursların ve programların Türkiye'den katılımcılara açık olup olmadığı her bir özel programın kendi kriterlerine bağlıdır, metinde genel bir ifade yer almamaktadır.",
@@ -6348,6 +6359,7 @@
     "cern 2027 yaz staj programı",
     "one young world zirvesi 2027 tokyo katılım fırsatları",
     "humboldt residency program 2027 almanya",
-    "kaist lisans bursu 2027 güney kore"
+    "kaist lisans bursu 2027 güney kore",
+    "mülteciler için 2026 2027 yükseköğrenim burs fırsatları"
   ]
 }
