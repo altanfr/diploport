@@ -224,18 +224,7 @@
     "studyat.nwpu.edu.cn/info/1011/2120.htm",
     "docs.google.com/forms/d/e/1FAIpQLSe_q8zDZeQZmd8-3BBE6uFEDstlarUrEX27-rRKAuW5OXqZjw/viewform?fbzx=1894055990057895455"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
-      "attempts": 0,
-      "caption": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı\n\nAydın Adnan Menderes Üniversitesi Rektörlüğü bünyesinde eski hükümlü veya TMY statüsünde tarım işçisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilmektedir.\n\n- Türkiye Cumhuriyeti vatandaşı olma şartı\n- Eski hükümlü veya TMY statüsü\n- Kariyer Kapısı üzerinden başvuru\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755\nTüm fırsatlar: https://diploport.dev/#2c49f34b9c7b\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
-      "id": "2c49f34b9c7b",
-      "photo_query": "logo: www.adu.edu.tr (web sitesi (www.adu.edu.tr))",
-      "source": "Kariyer Kapısı",
-      "title": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
-      "ts": "2026-11-15T17:43:33.601962+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1081,6 +1070,13 @@
       "photo_query": "logo: AbbVie (Vikipedi (en) sayfa logosu)",
       "source": "Youthall",
       "ts": "2026-11-15T10:45:41.068571+00:00"
+    },
+    {
+      "id": "2c49f34b9c7b",
+      "official": "https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
+      "photo_query": "logo: www.adu.edu.tr (web sitesi (www.adu.edu.tr))",
+      "source": "Kariyer Kapısı",
+      "ts": "2026-11-15T17:44:09.227512+00:00"
     }
   ],
   "queue": [
@@ -4613,9 +4609,9 @@
     },
     "2c49f34b9c7b": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
-      "ts": "2026-11-02T00:32:16.767753+00:00"
+      "ts": "2026-11-15T17:44:09.227528+00:00"
     },
     "2cc5823a258e": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
