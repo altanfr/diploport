@@ -215,9 +215,21 @@
     "oneyoungworld.com/future-summits",
     "service.humboldt-foundation.de/pls/web/pub_register.main?p_package=res&p_lang=en",
     "admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
-    "carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2"
+    "carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2",
+    "oist.jp/admissions/research-internship/apply-research-internship"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119/",
+      "attempts": 0,
+      "caption": "AbbVie Uzun Dönem Staj Programı\n\nAbbVie Türkiye bünyesinde, müşteri ve omnichannel pazarlama stratejilerine destek verecek 3. veya 4. sınıf lisans ya da yüksek lisans öğrencileri için uzun dönem staj programı.\n\n- Haftada en az 3 gün çalışma imkanı\n- 3. veya 4. sınıf lisans/yüksek lisans öğrencileri\n- İyi derecede İngilizce bilgisi\n\nBaşvuru: https://www.youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119/\nTüm fırsatlar: https://diploport.dev/#2ff19304ace3\n\n#diploport #fırsat #türkgençler #staj #yurtdışıstaj #stajilanları",
+      "id": "2ff19304ace3",
+      "photo_query": "logo: AbbVie (Vikipedi (en) sayfa logosu)",
+      "source": "Youthall",
+      "title": "AbbVie Uzun Dönem Staj Programı",
+      "ts": "2026-11-15T10:45:07.906138+00:00"
+    }
+  ],
   "pending": {
     "09e3fac1dcd7": {
       "apply_link_id": 2,
@@ -663,35 +675,6 @@
       "source_url": "https://www.opportunitiescircle.com/obama-foundation-leaders-program/",
       "summary_tr": "Obama Vakfı tarafından düzenlenen, dünya genelinden liderleri bir araya getiren, değer odaklı liderlik becerilerini geliştirmeyi amaçlayan çevrimiçi bir eğitim programıdır.",
       "title_tr": "Obama Foundation Leaders Program 2027-2028",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
-    "caf1cd166127": {
-      "apply_link_id": 1,
-      "apply_url": "https://anthropic.skilljar.com/ai-fluency-for-students",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "The free courses for international students also emphasize responsible AI collaboration, ensuring that students maintain control and take responsibility for their work rather than relying entirely on AI tools.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Tamamen ücretsiz çevrimiçi eğitim",
-        "5 derslik müfredat",
-        "Yapay zeka ile iş birliği becerileri"
-      ],
-      "id": "caf1cd166127",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 21,
-      "organization": "Anthropic",
-      "organization_domain": "anthropic.com",
-      "queued_at": "2026-11-08T07:16:56.797823+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/anthropic-ai-fluency-for-students-online-course/",
-      "summary_tr": "Anthropic tarafından sunulan bu ücretsiz çevrimiçi kurs, öğrencilere yapay zekayı akademik çalışmalarında ve kariyer planlamalarında nasıl sorumlu ve etkili bir şekilde kullanacaklarını öğretmeyi amaçlamaktadır.",
-      "title_tr": "Anthropic AI Fluency for Students Çevrimiçi Kursu",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -1188,31 +1171,6 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=afb4d2b7-f217-46ec-8cef-efff28451755",
       "summary_tr": "Aydın Adnan Menderes Üniversitesi Rektörlüğü bünyesinde eski hükümlü veya TMY statüsünde tarım işçisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilmektedir.",
       "title_tr": "Aydın Adnan Menderes Üniversitesi Eski Hükümlü Tarım İşçisi Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "If you are interested in being part of AbbVie Turkey Customer Exellence Team, leave your application here.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Haftada en az 3 gün çalışma imkanı",
-        "3. veya 4. sınıf lisans/yüksek lisans öğrencileri",
-        "İyi derecede İngilizce bilgisi"
-      ],
-      "id": "2ff19304ace3",
-      "is_opportunity": true,
-      "organization": "AbbVie",
-      "organization_domain": "abbvie.com",
-      "queued_at": "2026-11-02T10:55:11.485333+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/en/abbvie/abbvie-xperience-long-term-internship-program-bi-omnichannel-consumer-marketing_119/",
-      "summary_tr": "AbbVie Türkiye bünyesinde, müşteri ve omnichannel pazarlama stratejilerine destek verecek 3. veya 4. sınıf lisans ya da yüksek lisans öğrencileri için uzun dönem staj programı.",
-      "title_tr": "AbbVie Uzun Dönem Staj Programı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -4196,6 +4154,32 @@
       "title_tr": "CERN 2027 Yaz Staj Programı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
+      "category": "staj",
+      "country_tr": "Japonya",
+      "deadline": "2027-04-15",
+      "eligibility_evidence": "Students can be from any country. There is no restriction on nationality.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (konaklama, ulaşım ve günlük harçlık dahil)",
+      "highlights_tr": [
+        "STEM alanlarında 3-6 ay süreli staj",
+        "Lisans, yüksek lisans ve yeni mezunlara açık",
+        "Dil puanı şartı aranmıyor"
+      ],
+      "id": "7143ff6c115e",
+      "is_opportunity": true,
+      "organization": "Okinawa Institute of Science and Technology",
+      "organization_domain": "oist.jp",
+      "queued_at": "2026-11-15T10:44:56.499787+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/oist-internship-in-japan-fall-2027/",
+      "summary_tr": "Okinawa Bilim ve Teknoloji Enstitüsü (OIST), STEM alanlarında lisans ve yüksek lisans öğrencileri ile yeni mezunlar için Japonya'da 3-6 aylık tam burslu araştırma stajı imkanı sunmaktadır.",
+      "title_tr": "OIST Japonya Araştırma Stajı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4462,6 +4446,12 @@
       "status": "rejected",
       "title": "İtalya’da Uzun Dönem ESC Gönüllülük Projesi Katılımcı Çağrısı",
       "ts": "2026-11-02T10:56:40.902884+00:00"
+    },
+    "214e82be24ea": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "NASA Open Science Essentials Online Course 2026 with Certificate",
+      "ts": "2026-11-15T10:45:02.551023+00:00"
     },
     "21c74fe967ae": {
       "reason": "Türkiye'ye kapalı: Eligible Countries for the SI Global Scholarship 33 Countries: Armenia, Azerbaijan, Bangladesh, Belarus, Bolivia, Brazil",
@@ -5122,6 +5112,12 @@
       "status": "queued",
       "title": "Nusuk App Challenge 2026 - Ücretsiz Umre Seyahati",
       "ts": "2026-11-07T15:39:18.524214+00:00"
+    },
+    "7143ff6c115e": {
+      "reason": "",
+      "status": "queued",
+      "title": "OIST Japonya Araştırma Stajı",
+      "ts": "2026-11-15T10:44:56.499800+00:00"
     },
     "73974b159d85": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5796,10 +5792,10 @@
       "ts": "2026-11-13T16:16:24.477864+00:00"
     },
     "caf1cd166127": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Anthropic AI Fluency for Students Online Course",
-      "ts": "2026-11-08T07:16:56.797841+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Anthropic AI Fluency for Students Çevrimiçi Kursu",
+      "ts": "2026-11-15T10:44:34.731107+00:00"
     },
     "ccc0ad57ab44": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -6360,6 +6356,7 @@
     "one young world zirvesi 2027 tokyo katılım fırsatları",
     "humboldt residency program 2027 almanya",
     "kaist lisans bursu 2027 güney kore",
-    "mülteciler için 2026 2027 yükseköğrenim burs fırsatları"
+    "mülteciler için 2026 2027 yükseköğrenim burs fırsatları",
+    "oist japonya araştırma stajı"
   ]
 }

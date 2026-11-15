@@ -1,9 +1,10 @@
-# Son çalışma (2026-11-15 05:37 TR)
+# Son çalışma (2026-11-15 13:44 TR)
 
-Kuyruk: 115 · Onay bekleyen: 22 · Hazırlanan: -
-Bulunan yeni ilan: 1 · Bu çalışmada işlenmesi planlanan: 1 · Raporlanan: 1
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 1 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 25 kayıt
+Kuyruk: 115 · Onay bekleyen: 21 · Hazırlanan: 2ff19304ace3
+Bulunan yeni ilan: 2 · Bu çalışmada işlenmesi planlanan: 2 · Raporlanan: 2
+Kaynaklar: Opportunities Corners: 1 yeni / 6 kayıt · Opportunities For Youth: 0 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 25 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| onayda | Opportunities For Youth | Mülteciler için 2026-2027 Yükseköğrenim Burs Fırsatları | Bursların mülteci statüsündeki Türk vatandaşlarına açık olup olmadığına dair genel bir ifade bulunmamaktadır; her üniversitenin kendi kriterleri geçerlidir. · son tarih: 2027-01-31 · link: https://carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2/ · görsel: kurum logosu aranacak (Local Engagement Refugee Research Network; stok foto yok) |
+| kuyrukta | Opportunities Corners | OIST Japonya Araştırma Stajı | kanıt: Students can be from any country. There is no restriction on nationality. · son tarih: 2027-04-15 · link: https://www.oist.jp/admissions/research-internship/apply-research-internship · görsel: kurum logosu aranacak (Okinawa Institute of Science and Technology; stok foto yok) |
+| elendi | Opportunities Circle | NASA Open Science Essentials Online Course 2026 with Certificate | tekrar |
