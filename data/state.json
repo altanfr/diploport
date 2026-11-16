@@ -231,18 +231,7 @@
     "youthall.com/tr/Eczacibasi/gel-bi-kesfet_17",
     "kariyerkapisi.gov.tr/IlanDetay?i=8892720e-d38e-46f8-994e-138c6d4b7d81"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform",
-      "attempts": 0,
-      "caption": "Kuzey Makedonya'da Erasmus+ Gençlik Değişimi\n\nKuzey Makedonya'nın Gostivar şehrinde 1-7 Şubat 2027 tarihleri arasında düzenlenecek, kültür ve kent yaşamı temalı Erasmus+ gençlik değişimi projesi için Türkiye'den katılımcılar aranıyor.\n\n- 18-29 yaş arası gençler başvurabilir\n- Konaklama, yemek ve ulaşım masrafları karşılanır\n- 7 günlük uluslararası gençlik değişimi\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform\nTüm fırsatlar: https://diploport.dev/#33515330ea08\n\nGörsel: Nikola Mihajloski / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "33515330ea08",
-      "photo_query": "Gostivar North Macedonia",
-      "source": "Erasmusgram",
-      "title": "Kuzey Makedonya'da Erasmus+ Gençlik Değişimi",
-      "ts": "2026-11-16T11:05:43.871098+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1151,6 +1140,13 @@
       "photo_query": "logo: www.adu.edu.tr (web sitesi (www.adu.edu.tr))",
       "source": "Kariyer Kapısı",
       "ts": "2026-11-15T17:44:09.227512+00:00"
+    },
+    {
+      "id": "33515330ea08",
+      "official": "https://docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform",
+      "photo_query": "Gostivar North Macedonia",
+      "source": "Erasmusgram",
+      "ts": "2026-11-16T11:06:22.006207+00:00"
     }
   ],
   "queue": [
@@ -4647,9 +4643,9 @@
     },
     "33515330ea08": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Kuzey Makedonya'da Erasmus+ Gençlik Değişimi",
-      "ts": "2026-11-04T21:51:20.815399+00:00"
+      "ts": "2026-11-16T11:06:22.006226+00:00"
     },
     "34a97395a09a": {
       "reason": "",
