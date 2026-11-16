@@ -225,9 +225,24 @@
     "docs.google.com/forms/d/e/1FAIpQLSe_q8zDZeQZmd8-3BBE6uFEDstlarUrEX27-rRKAuW5OXqZjw/viewform?fbzx=1894055990057895455",
     "lnkd.in/dfvTusDd",
     "kinship.earth/nature-culture-fellowship",
-    "carib-export.com/en/opportunities/consultancy-capacity-building-events-and-policy-roundtables-on-social-innovation"
+    "carib-export.com/en/opportunities/consultancy-capacity-building-events-and-policy-roundtables-on-social-innovation",
+    "apps.adm.s.u-tokyo.ac.jp/UTRIP",
+    "coe.int/en/web/portal/-/you-can-change-european-politics-for-the-next-generation.-get-involved-",
+    "youthall.com/tr/Eczacibasi/gel-bi-kesfet_17",
+    "kariyerkapisi.gov.tr/IlanDetay?i=8892720e-d38e-46f8-994e-138c6d4b7d81"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform",
+      "attempts": 0,
+      "caption": "Kuzey Makedonya'da Erasmus+ Gençlik Değişimi\n\nKuzey Makedonya'nın Gostivar şehrinde 1-7 Şubat 2027 tarihleri arasında düzenlenecek, kültür ve kent yaşamı temalı Erasmus+ gençlik değişimi projesi için Türkiye'den katılımcılar aranıyor.\n\n- 18-29 yaş arası gençler başvurabilir\n- Konaklama, yemek ve ulaşım masrafları karşılanır\n- 7 günlük uluslararası gençlik değişimi\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform\nTüm fırsatlar: https://diploport.dev/#33515330ea08\n\nGörsel: Nikola Mihajloski / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "33515330ea08",
+      "photo_query": "Gostivar North Macedonia",
+      "source": "Erasmusgram",
+      "title": "Kuzey Makedonya'da Erasmus+ Gençlik Değişimi",
+      "ts": "2026-11-16T11:05:43.871098+00:00"
+    }
+  ],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1141,86 +1156,6 @@
   "queue": [
     {
       "apply_link_id": 1,
-      "apply_url": "https://www.sbs.ox.ac.uk/oxford-experience/scholarships-and-funding/oxford-pershing-square-graduate-scholarships",
-      "category": "burs",
-      "country_tr": "Birleşik Krallık",
-      "deadline": "2027-01-08",
-      "eligibility_evidence": "Students from all over the world with any nationality can apply for the Oxford University Pershing scholarship.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (öğrenim ücreti ve yaşam masrafları)",
-      "highlights_tr": [
-        "Tam burslu eğitim imkanı",
-        "MBA ve yüksek lisans birleşimi",
-        "Dünya genelinden tüm öğrencilere açık"
-      ],
-      "id": "e4a654486ed3",
-      "is_opportunity": true,
-      "organization": "University of Oxford",
-      "organization_domain": "ox.ac.uk",
-      "queued_at": "2026-11-02T10:54:52.623866+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/oxford-pershing-square-graduate-scholarships-in-uk/",
-      "summary_tr": "Oxford Üniversitesi'nde 1+1 MBA programı kapsamında sunulan, dünya genelinden öğrencilere açık, tam kapsamlı yüksek lisans ve MBA burs programıdır.",
-      "title_tr": "Oxford Pershing Square Yüksek Lisans Bursu 2027-2028",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bb1814b5-f9dd-47b3-8006-900a7b8098c5",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına açık",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Sözleşmeli personel statüsü"
-      ],
-      "icon": "landmark",
-      "id": "99a520eb1bf3",
-      "is_opportunity": true,
-      "organization": "JANDARMA VE SAHİL GÜVENLİK AKADEMİSİ BAŞKANLIĞI",
-      "organization_domain": "jsga.edu.tr",
-      "queued_at": "2026-11-02T10:55:43.891210+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bb1814b5-f9dd-47b3-8006-900a7b8098c5",
-      "summary_tr": "Jandarma Genel Komutanlığı bünyesinde sözleşmeli devlet memuru alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
-      "title_tr": "Jandarma ve Sahil Güvenlik Akademisi Devlet Memuru Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Sözleşmeli personel statüsü",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Türkiye Cumhuriyeti vatandaşlarına açık"
-      ],
-      "icon": "landmark",
-      "id": "04ebc83cc50c",
-      "is_opportunity": true,
-      "organization": "YILDIZ TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-      "organization_domain": "yildiz.edu.tr",
-      "queued_at": "2026-11-02T10:56:27.547532+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd",
-      "summary_tr": "Yıldız Teknik Üniversitesi Rektörlüğü tarafından sözleşmeli bilişim personeli alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
-      "title_tr": "Yıldız Teknik Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://www.mpiib-berlin.mpg.de/mpiib-isi?s=09",
       "category": "staj",
       "country_tr": "Almanya",
@@ -1806,37 +1741,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfbwMcbEg6909pYh26g4p0g0UZIEEhrX8uLdPPqUcJZ3xfKAg/viewform",
-      "category": "egitim",
-      "country_tr": "Kuzey Makedonya",
-      "deadline": "",
-      "eligibility_evidence": "Kuzey Makedonya’nın Gostivar şehrinde gerçekleştirilecek Erasmus+ gençlik değişimi projesi için Türkiye’den katılımcı başvuruları alınmaktadır.",
-      "fee_required": false,
-      "funding_tr": "Konaklama, yemek ve seyahat masrafları karşılanır",
-      "highlights_tr": [
-        "18-29 yaş arası gençler başvurabilir",
-        "Konaklama, yemek ve ulaşım masrafları karşılanır",
-        "7 günlük uluslararası gençlik değişimi"
-      ],
-      "id": "33515330ea08",
-      "image_queries": [
-        "Gostivar North Macedonia",
-        "North Macedonia youth exchange",
-        "international youth project"
-      ],
-      "is_opportunity": true,
-      "organization": "Sosyal Atlas Gençlik Derneği",
-      "organization_domain": "",
-      "queued_at": "2026-11-04T21:51:20.815387+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/k-makedonya-gostivar-7-gun-erasmus-genclik-degisimi/",
-      "summary_tr": "Kuzey Makedonya'nın Gostivar şehrinde 1-7 Şubat 2027 tarihleri arasında düzenlenecek, kültür ve kent yaşamı temalı Erasmus+ gençlik değişimi projesi için Türkiye'den katılımcılar aranıyor.",
-      "title_tr": "Kuzey Makedonya'da Erasmus+ Gençlik Değişimi",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -4197,9 +4101,130 @@
       "title_tr": "Caribbean Export Sosyal İnovasyon Danışmanlığı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://apps.adm.s.u-tokyo.ac.jp/UTRIP/",
+      "category": "staj",
+      "country_tr": "Japonya",
+      "deadline": "2026-12-25",
+      "eligibility_evidence": "International students from all around the world are eligible to apply for the University of Tokyo Summer Internship.",
+      "fee_required": false,
+      "funding_tr": "Konaklama ve kısmi burs desteği sağlanır",
+      "highlights_tr": [
+        "Lisans öğrencileri için 6 haftalık araştırma stajı",
+        "Doğa bilimleri ve ilgili alanlarda eğitim şartı",
+        "Konaklama desteği ve burs imkanı sağlanmaktadır"
+      ],
+      "id": "e056024b994d",
+      "image_queries": [
+        "University of Tokyo campus",
+        "Japan university students",
+        "science research laboratory"
+      ],
+      "is_opportunity": true,
+      "organization": "University of Tokyo",
+      "organization_domain": "u-tokyo.ac.jp",
+      "queued_at": "2026-11-16T11:04:16.148622+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/utrip-summer-internship-in-japan/",
+      "summary_tr": "Tokyo Üniversitesi'nin UTRIP programı, doğa bilimleri alanında lisans öğrencilerine 6 haftalık tam zamanlı bir araştırma stajı deneyimi sunmaktadır.",
+      "title_tr": "University of Tokyo UTRIP Yaz Araştırma Stajı",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.coe.int/en/web/portal/-/you-can-change-european-politics-for-the-next-generation.-get-involved-",
+      "category": "diger",
+      "country_tr": "Fransa",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Avrupa Konseyi üye ülkelerinden 18–30 yaş arasındaki gençlerin başvurularını bekliyor.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "18-30 yaş arası gençlere açık",
+        "Strazburg'da iki oturuma katılım",
+        "Yerel düzeyde proje geliştirme imkanı"
+      ],
+      "id": "8b43360bb216",
+      "image_queries": [
+        "Strasbourg Council of Europe building",
+        "France youth conference",
+        "young people discussing politics"
+      ],
+      "is_opportunity": true,
+      "organization": "Avrupa Konseyi Yerel ve Bölgesel Yönetimler Kongresi",
+      "organization_domain": "coe.int",
+      "queued_at": "2026-11-16T11:04:28.930231+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/avrupa-konseyi-2027-genclik-delegeleri-programi-basvurulari-acildi/",
+      "summary_tr": "Avrupa Konseyi, 18-30 yaş arası gençlerin yerel ve bölgesel yönetim süreçlerine katılımını sağlamak amacıyla 2027 Gençlik Delegeleri Programı için başvuruları kabul ediyor.",
+      "title_tr": "Avrupa Konseyi 2027 Gençlik Delegeleri Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Eczacibasi/gel-bi-kesfet_17/",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "3 günlük online kariyer etkinliği",
+        "İnsan kaynakları ile soru-cevap imkanı",
+        "Katılım sertifikası kazanma şansı"
+      ],
+      "id": "0164c1253066",
+      "is_opportunity": true,
+      "organization": "Eczacıbaşı",
+      "organization_domain": "eczacibasi.com.tr",
+      "queued_at": "2026-11-16T11:04:38.598356+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/Eczacibasi/gel-bi-kesfet_17/",
+      "summary_tr": "Eczacıbaşı Topluluğu'nun düzenlediği, profesyonellerle tanışma, kariyer ve genç yetenek programları hakkında bilgi edinme fırsatı sunan 3 günlük online webinar serisi.",
+      "title_tr": "Eczacıbaşı Gel Bi‘ Keşfet Webinar Serisi",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=8892720e-d38e-46f8-994e-138c6d4b7d81",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "A Grubu kariyer meslek pozisyonu",
+        "Kariyer Kapısı üzerinden başvuru",
+        "T.C. vatandaşlarına özel"
+      ],
+      "icon": "landmark",
+      "id": "fbe06e0388f2",
+      "is_opportunity": true,
+      "organization": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI (AFAD)",
+      "organization_domain": "afad.gov.tr",
+      "queued_at": "2026-11-16T11:05:01.595098+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=8892720e-d38e-46f8-994e-138c6d4b7d81",
+      "summary_tr": "AFAD bünyesinde görevlendirilmek üzere Afet ve Acil Durum Yönetimi Uzman Yardımcısı alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilecektir.",
+      "title_tr": "AFAD Afet ve Acil Durum Yönetimi Uzman Yardımcısı Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
+    "0164c1253066": {
+      "reason": "",
+      "status": "queued",
+      "title": "Eczacıbaşı Gel Bi‘ Keşfet Webinar Serisi",
+      "ts": "2026-11-16T11:04:38.598371+00:00"
+    },
     "024a83bbca8c": {
       "reason": "son başvuru geçti",
       "status": "expired",
@@ -4243,10 +4268,10 @@
       "ts": "2026-11-10T17:47:28.368339+00:00"
     },
     "04ebc83cc50c": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Yıldız Teknik Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
-      "ts": "2026-11-02T10:56:27.547551+00:00"
+      "ts": "2026-11-16T11:03:41.061545+00:00"
     },
     "04f80b135475": {
       "reason": "",
@@ -4265,6 +4290,12 @@
       "status": "published",
       "title": "Sefine SKY Uzun Dönem Staj Programı",
       "ts": "2026-11-08T15:08:19.198815+00:00"
+    },
+    "08ccea13929e": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI (AFAD) - Afet ve Acil Durum Yönetimi Denetçi Yardımcısı Giriş Sınavı İlanı (2026)",
+      "ts": "2026-11-16T11:05:20.407612+00:00"
     },
     "093f17f46a64": {
       "reason": "",
@@ -4289,6 +4320,12 @@
       "status": "rejected",
       "title": "Summer Internship 2027: Finance & Accounting",
       "ts": "2026-11-04T21:54:27.573489+00:00"
+    },
+    "0a9599d4b6da": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "ANADOLU ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIMI İLANI 2026 - 2",
+      "ts": "2026-11-16T11:05:41.304086+00:00"
     },
     "0ae1f90d4e4d": {
       "reason": "şirket/KOBİ hibesi, gençlere yönelik değil",
@@ -4337,6 +4374,12 @@
       "status": "rejected",
       "title": "Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı Yapacak",
       "ts": "2026-11-06T21:29:22.592042+00:00"
+    },
+    "12e5521357c5": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "AFAD Afet ve Acil Durum Yönetimi Denetçi Yardımcısı Alımı Yapacak",
+      "ts": "2026-11-16T11:05:12.998686+00:00"
     },
     "137fb7c9f331": {
       "reason": "bekleme süresi doldu",
@@ -5352,6 +5395,12 @@
       "title": "Karabağlar Belediyesi Çevre Mühendisi Alımı",
       "ts": "2026-11-04T15:26:10.092197+00:00"
     },
+    "8b43360bb216": {
+      "reason": "",
+      "status": "queued",
+      "title": "Avrupa Konseyi 2027 Gençlik Delegeleri Programı",
+      "ts": "2026-11-16T11:04:28.930246+00:00"
+    },
     "8bd808bd7c66": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5461,10 +5510,10 @@
       "ts": "2026-11-06T15:54:52.097440+00:00"
     },
     "99a520eb1bf3": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Jandarma ve Sahil Güvenlik Akademisi Devlet Memuru Alımı",
-      "ts": "2026-11-02T10:55:43.891228+00:00"
+      "ts": "2026-11-16T11:03:41.061533+00:00"
     },
     "99f41e030db1": {
       "reason": "",
@@ -5826,6 +5875,12 @@
       "title": "Obama Foundation Leaders Program 2027-2028",
       "ts": "2026-11-13T16:15:41.163710+00:00"
     },
+    "c337963fbb56": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "AFAD Afet ve Acil Durum Yönetimi Uzman Yardımcısı Alımı Duyurusu",
+      "ts": "2026-11-16T11:05:31.487023+00:00"
+    },
     "c34383a99636": {
       "reason": "",
       "status": "queued",
@@ -6012,6 +6067,12 @@
       "title": "TEV-ŞÖLEN Almanya-İtalya Yüksek Lisans Bursu",
       "ts": "2026-11-10T01:29:43.724089+00:00"
     },
+    "e056024b994d": {
+      "reason": "",
+      "status": "queued",
+      "title": "University of Tokyo UTRIP Yaz Araştırma Stajı",
+      "ts": "2026-11-16T11:04:16.148640+00:00"
+    },
     "e05bd07d94e4": {
       "reason": "",
       "status": "queued",
@@ -6037,10 +6098,10 @@
       "ts": "2026-11-07T01:56:15.957858+00:00"
     },
     "e4a654486ed3": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Oxford Pershing Square Yüksek Lisans Bursu 2027-2028",
-      "ts": "2026-11-02T10:54:52.623880+00:00"
+      "ts": "2026-11-16T11:03:41.061515+00:00"
     },
     "e4da285b4a60": {
       "reason": "Katılım ücreti var.",
@@ -6209,6 +6270,12 @@
       "status": "expired",
       "title": "Henkel Step Up Inclusive Uzun Dönemli Staj Programı",
       "ts": "2026-11-13T22:34:34.615969+00:00"
+    },
+    "fbe06e0388f2": {
+      "reason": "",
+      "status": "queued",
+      "title": "AFAD Afet ve Acil Durum Yönetimi Uzman Yardımcısı Alımı",
+      "ts": "2026-11-16T11:05:01.595117+00:00"
     },
     "fcd078c82efe": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -6473,6 +6540,10 @@
     "i spanya'da erasmus gençlik değişimi re frame",
     "humboldt universität zu berlin araştırma stajı 2027",
     "2027 nature culture fellowship programı",
-    "caribbean export sosyal i novasyon danışmanlığı"
+    "caribbean export sosyal i novasyon danışmanlığı",
+    "university of tokyo utrip yaz araştırma stajı",
+    "avrupa konseyi 2027 gençlik delegeleri programı",
+    "eczacıbaşı gel bi' keşfet webinar serisi",
+    "afad afet ve acil durum yönetimi uzman yardımcısı alımı"
   ]
 }
