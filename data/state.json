@@ -237,7 +237,13 @@
     "egesaglikvakfi.com.tr",
     "docs.google.com/forms/d/e/1FAIpQLSeRClZMfdWCVnGZlUL30w_cETpGB5_b-TYpwRC1qN7lUAl_3Q/viewform?usp=send_form",
     "salto-youth.net/tools/european-training-calendar/training/ai-and-it-tools-for-youth-workers.15517",
-    "form.jotform.com/263133946059967"
+    "form.jotform.com/263133946059967",
+    "docs.google.com/forms/d/e/1FAIpQLSe3foBpw6_bWriIqQc34CgpQuvE6OGBbmEVJIrXTxQiLZzYEg/viewform",
+    "aiesec.org/opportunity/global-volunteer/1334286",
+    "docs.google.com/forms/d/e/1FAIpQLSeTAVCKpqBhdswyZqXT_9xWHPHYF0khilwVW2btTgCHAPxyYA/viewform",
+    "yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+    "careers.chathamhouse.org/pages/research-fellow-us-and-north-america-programme",
+    "thelegofoundation.teamtailor.com/jobs/8671092-student-worker-strategy"
   ],
   "outbox": [],
   "pending": {
@@ -330,6 +336,34 @@
       "unclear_reason_tr": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
       "visual_kind": "institution"
     },
+    "157026c06bbd": {
+      "apply_link_id": 2,
+      "apply_url": "https://aiesec.org/opportunity/global-volunteer/1334286",
+      "category": "gonulluluk",
+      "country_tr": "Tunus",
+      "deadline": "",
+      "eligibility_evidence": "AIESEC’s Global Volunteer programme provides young people with opportunities to participate in international social-impact projects.",
+      "fee_required": true,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "4 haftalık gönüllülük süresi",
+        "STK'lar için kapasite geliştirme",
+        "Hafta içi 09:00-14:00 çalışma saatleri"
+      ],
+      "id": "157026c06bbd",
+      "is_opportunity": true,
+      "message_id": 53,
+      "organization": "AIESEC",
+      "organization_domain": "aiesec.org",
+      "queued_at": "2026-11-17T03:47:41.857563+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/16/aiesec-scale-up-global-volunteer-opportunity-in-tunisia-2026-join-a-four-week-ngo-development-and-community-impact-project/",
+      "summary_tr": "AIESEC'in Tunus'un Ariana şehrinde düzenlediği 4 haftalık bu gönüllülük projesi, yerel STK'ların kapasitelerini geliştirmeye ve sosyal projelerine destek olmaya odaklanmaktadır.",
+      "title_tr": "AIESEC Scale Up! Tunus Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
+      "visual_kind": "scene"
+    },
     "415a59cdb88b": {
       "apply_link_id": 1,
       "apply_url": "https://www.k.u-tokyo.ac.jp/en/education/for_undergraduate/how_to_apply/",
@@ -354,6 +388,35 @@
       "source_url": "https://opportunitiescorners.com/university-of-tokyo-summer-internship-2027/",
       "summary_tr": "University of Tokyo tarafından düzenlenen 47 günlük uluslararası araştırma stajı programı, lisans öğrencilerine laboratuvar deneyimi ve akademik çalışma imkanı sunuyor.",
       "title_tr": "University of Tokyo Yaz Stajı (UTSIP Kashiwa) 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "47a7f83b5bcd": {
+      "apply_link_id": 2,
+      "apply_url": "https://thelegofoundation.teamtailor.com/jobs/8671092-student-worker-strategy",
+      "category": "is",
+      "country_tr": "Danimarka",
+      "deadline": "2026-11-20",
+      "eligibility_evidence": "The LEGO Foundation is an international philanthropic organization committed to improving the lives of children by supporting the families, schools and communities that shape childhood.",
+      "fee_required": false,
+      "funding_tr": "Ücretli pozisyon",
+      "highlights_tr": [
+        "Haftalık 10-20 saat çalışma süresi",
+        "Stratejik araştırma ve analiz deneyimi",
+        "Danimarka'da uluslararası çalışma ortamı"
+      ],
+      "id": "47a7f83b5bcd",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 55,
+      "organization": "LEGO Foundation",
+      "organization_domain": "thelegofoundation.com",
+      "queued_at": "2026-11-17T03:48:27.958590+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/16/lego-foundation-student-worker-strategy-2026-international-student-job-opportunity-in-denmark-apply-before-20-november-2026/",
+      "summary_tr": "LEGO Foundation, Billund, Danimarka'da stratejik araştırma, analiz ve proje yönetimi süreçlerinde destek verecek bir öğrenci çalışanı arıyor.",
+      "title_tr": "LEGO Foundation Strateji Departmanı Öğrenci Çalışanı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -627,6 +690,35 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "scene"
     },
+    "8640b59fba4f": {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe3foBpw6_bWriIqQc34CgpQuvE6OGBbmEVJIrXTxQiLZzYEg/viewform",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-12-14",
+      "eligibility_evidence": "The application form asks whether applicants are Canadian citizens, but it does not explicitly state that citizenship is compulsory. Applicants who are not Canadian citizens should confirm their eligibility with the organisers.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "8 haftalık çevrimiçi eğitim programı",
+        "Haftada yaklaşık 1 saatlik katılım",
+        "Öğrenciler ve yeni mezunlar için uygun"
+      ],
+      "id": "8640b59fba4f",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 52,
+      "organization": "United Nations Association in Canada",
+      "organization_domain": "unac.org",
+      "queued_at": "2026-11-17T03:47:19.896929+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/16/sdg-5-gender-equality-fellowship-2027-apply-for-the-united-nations-association-in-canada-educational-and-leadership-programme/",
+      "summary_tr": "Birleşmiş Milletler Kanada Derneği tarafından düzenlenen, toplumsal cinsiyet eşitliği, uluslararası hukuk ve diplomasi konularına odaklanan 8 haftalık çevrimiçi eğitim ve liderlik programı.",
+      "title_tr": "SDG 5 Toplumsal Cinsiyet Eşitliği Burs Programı 2027",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Programın Kanada dışından katılımcılara açık olup olmadığı metinde net bir şekilde belirtilmemiştir.",
+      "visual_kind": "institution"
+    },
     "9c8f58444ef6": {
       "apply_link_id": 1,
       "apply_url": "https://www.eventbrite.ca/e/leadership-and-peace-summit-morocco-2027-tickets-2001166056545?aff=oddtdtcreator",
@@ -768,34 +860,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "e4da285b4a60": {
-      "apply_link_id": 2,
-      "apply_url": "https://abakademi.com.tr/",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "2026-11-27",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": true,
-      "funding_tr": "Ücretli (Öğrenci indirimi mevcut)",
-      "highlights_tr": [
-        "1,5 gün süren canlı Zoom eğitimi",
-        "Proje Döngüsü Yönetimi (PCM) katılım belgesi",
-        "Öğrencilere özel indirimli katılım ücreti"
-      ],
-      "id": "e4da285b4a60",
-      "is_opportunity": true,
-      "message_id": 24,
-      "organization": "AB Akademi",
-      "organization_domain": "abakademi.com.tr",
-      "queued_at": "2026-11-10T01:31:40.018898+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/ab-hibe-programlarina-yonelik-proje-hazirlama-egitimi/",
-      "summary_tr": "AB ve kalkınma ajansı hibe programlarına yönelik Proje Döngüsü Yönetimi (PCM) ve yapay zeka destekli proje yazımı üzerine 1,5 günlük çevrim içi uygulamalı eğitim.",
-      "title_tr": "AB Hibe Programlarına Yönelik Proje Hazırlama Eğitimi (Online)",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Katılım ücreti var.",
-      "visual_kind": "institution"
-    },
     "ed841c0b7d94": {
       "apply_link_id": 2,
       "apply_url": "https://service.humboldt-foundation.de/pls/web/pub_register.main?p_package=res&p_lang=en",
@@ -883,6 +947,35 @@
       "title_tr": "KAIST Lisans Bursu 2027 - Güney Kore",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Katılım ücreti var.",
+      "visual_kind": "institution"
+    },
+    "f4bd68191c7a": {
+      "apply_link_id": 2,
+      "apply_url": "https://careers.chathamhouse.org/pages/research-fellow-us-and-north-america-programme",
+      "category": "is",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Uluslararası ilişkiler alanında kariyer fırsatı",
+        "Londra merkezli prestijli düşünce kuruluşu",
+        "Araştırma, politika analizi ve proje yönetimi"
+      ],
+      "id": "f4bd68191c7a",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 54,
+      "organization": "Chatham House",
+      "organization_domain": "chathamhouse.org",
+      "queued_at": "2026-11-17T03:48:19.207507+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/16/chatham-house-research-fellow-us-and-north-america-programme-2026-research-career-opportunity-in-international-relations-foreign-policy-and-global-affairs/",
+      "summary_tr": "Chatham House, ABD ve Kuzey Amerika Programı kapsamında uluslararası ilişkiler, dış politika ve küresel meseleler üzerine çalışacak bir araştırma görevlisi arıyor.",
+      "title_tr": "Chatham House Araştırma Görevlisi Pozisyonu",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir bilgi verilmemiştir.",
       "visual_kind": "institution"
     },
     "f7303decc9f0": {
@@ -1319,33 +1412,6 @@
       "visual_kind": "institution"
     },
     {
-      "apply_link_id": 1,
-      "apply_url": "https://airtable.com/appZDMolWcd5LKQrF/pagNRmRNSfnea9G6n/form",
-      "category": "diger",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-16",
-      "eligibility_evidence": "Nurol Holding ve Türkiye Girişimcilik Vakfı iş birliğiyle hayata geçirilen Terra Future Labs’in yeni dönem başvuruları devam ediyor!",
-      "fee_required": false,
-      "funding_tr": "Mentorluk, iş geliştirme ve yatırım hazırlığı desteği",
-      "highlights_tr": [
-        "8 aylık girişimcilik destek programı",
-        "Tarım ve gıda teknolojilerine odaklanıyor",
-        "Kadın hissedar veya yönetici şartı bulunuyor"
-      ],
-      "id": "6b6f56694b5f",
-      "is_opportunity": true,
-      "organization": "Terra Future Labs",
-      "organization_domain": "",
-      "queued_at": "2026-11-03T23:16:18.398237+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/terra-future-labs-basvurulari-devam-ediyor/",
-      "summary_tr": "Tarım, gıda ve döngüsel üretim teknolojileri alanında çözüm geliştiren, MVP aşamasını tamamlamış girişimlere yönelik 8 aylık destek programı.",
-      "title_tr": "Terra Future Labs Girişimcilik Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0",
       "category": "is",
       "country_tr": "Türkiye",
@@ -1491,32 +1557,6 @@
       "title_tr": "Nükleer Düzenleme Kurumu: Sözleşmeli Bilişim Personeli Giriş Sınavı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
-      "category": "burs",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-16",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Burs desteği",
-      "highlights_tr": [
-        "Lisans öğrencileri ve öğretmenlere açık",
-        "Araştırma projelerinde görev alma imkanı",
-        "Son başvuru tarihi 16 Kasım 2026"
-      ],
-      "id": "61c45a1ae54b",
-      "is_opportunity": true,
-      "organization": "TÜBİTAK",
-      "organization_domain": "tubitak.gov.tr",
-      "queued_at": "2026-11-04T21:52:24.384449+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tubitak-2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-basvurularinizi-bekliyor/",
-      "summary_tr": "TÜBİTAK tarafından yürütülen STAR programı kapsamında, lisans öğrencileri ve öğretmenler araştırma projelerinde görev almak üzere bursiyer olarak başvuruda bulunabilirler.",
-      "title_tr": "TÜBİTAK 2247-C STAR Lisans ve Öğretmen Burs Programı",
-      "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
     {
@@ -4157,6 +4197,63 @@
       "title_tr": "Güçlü STK Güçlü Yapı Semineri",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeTAVCKpqBhdswyZqXT_9xWHPHYF0khilwVW2btTgCHAPxyYA/viewform",
+      "category": "egitim",
+      "country_tr": "Almanya",
+      "deadline": "",
+      "eligibility_evidence": "Katılımcı Ülkeler: Almanya, Kuzey Makedonya, Bulgaristan, İtalya, İspanya ve Türkiye",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
+      "highlights_tr": [
+        "8 gün sürecek tiyatro odaklı eğitim",
+        "Türkiye'den 8 kişilik kontenjan",
+        "Kültürlerarası iletişim ve sosyal kapsayıcılık"
+      ],
+      "id": "9da11c96033c",
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-17T03:47:48.657545+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/almanya-osterholz-8-gun-erasmus-programi/",
+      "summary_tr": "Almanya'nın Osterholz-Scharmbeck şehrinde düzenlenecek olan tiyatro, kültürlerarası iletişim ve sosyal kapsayıcılık temalı 8 günlük Erasmus+ Gençlik Değişimi projesine Türkiye'den 7 katılımcı ve 1 grup lideri seçilecektir.",
+      "title_tr": "Almanya'da 8 Günlük Erasmus+ Gençlik Değişimi Projesi",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+      "category": "burs",
+      "country_tr": "Çin",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Yenching Academy of Peking University invites international students worldwide to apply for the Yenching Academy Scholarship for the academic year 2027.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti, konaklama, aylık burs, seyahat masrafları)",
+      "highlights_tr": [
+        "Tam burslu yüksek lisans programı",
+        "İki yıllık eğitim süresi",
+        "İngilizce yeterlilik şartı"
+      ],
+      "id": "77b0d4b64c3d",
+      "image_queries": [
+        "Peking University campus",
+        "China university students",
+        "students walking campus"
+      ],
+      "is_opportunity": true,
+      "organization": "Yenching Academy of Peking University",
+      "organization_domain": "yenchingacademy.pku.edu.cn",
+      "queued_at": "2026-11-17T03:47:56.713307+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/yenching-academy-scholarship-in-china/",
+      "summary_tr": "Pekin Üniversitesi bünyesindeki Yenching Academy, uluslararası öğrencilere Çin'de iki yıllık tam burslu yüksek lisans programı sunmaktadır.",
+      "title_tr": "Yenching Academy 2027 Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4351,6 +4448,12 @@
       "status": "queued",
       "title": "Yunanistan’da GreenSteps Gönüllülük Projesi",
       "ts": "2026-11-13T16:15:52.258451+00:00"
+    },
+    "157026c06bbd": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
+      "status": "pending",
+      "title": "AIESEC Scale Up! Global Volunteer Opportunity in Tunisia 2026: Join a Four-Week NGO Development and Community Impact Pro",
+      "ts": "2026-11-17T03:47:41.857581+00:00"
     },
     "1571e08017b2": {
       "reason": "bekleme süresi doldu",
@@ -4796,6 +4899,12 @@
       "title": "Çimsa Global Build-On Plus Staj Programı",
       "ts": "2026-11-10T01:29:54.251287+00:00"
     },
+    "47a7f83b5bcd": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "LEGO Foundation Student Worker – Strategy 2026: International Student Job Opportunity in Denmark | Apply Before 20 Novem",
+      "ts": "2026-11-17T03:48:27.958611+00:00"
+    },
     "48299a758094": {
       "reason": "Türkiye'ye kapalı: Applicants must be US citizens or hold valid visas that allow them to receive paid work during the summer.",
       "status": "rejected",
@@ -5000,6 +5109,12 @@
       "title": "Marc de Montalembert 2027 Araştırma Ödülü",
       "ts": "2026-11-16T20:59:14.686197+00:00"
     },
+    "6167d1ae36cb": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Fas , Larache : Kısa Dönem Erasmus+ Projesi",
+      "ts": "2026-11-17T03:47:26.709286+00:00"
+    },
     "619bd2caab31": {
       "reason": "",
       "status": "queued",
@@ -5007,10 +5122,10 @@
       "ts": "2026-11-05T02:22:30.239361+00:00"
     },
     "61c45a1ae54b": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "TÜBİTAK 2247-C STAR Lisans ve Öğretmen Burs Programı",
-      "ts": "2026-11-04T21:52:24.384461+00:00"
+      "ts": "2026-11-17T03:46:54.668995+00:00"
     },
     "61f030b0b9d4": {
       "reason": "",
@@ -5109,10 +5224,10 @@
       "ts": "2026-11-12T02:55:59.308845+00:00"
     },
     "6b6f56694b5f": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Terra Future Labs Girişimcilik Programı",
-      "ts": "2026-11-03T23:16:18.398257+00:00"
+      "ts": "2026-11-17T03:46:54.668975+00:00"
     },
     "6c461f707486": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -5222,6 +5337,12 @@
       "title": "Otokoç Otomotiv Uzun Dönem Genel Stajyer İlanı",
       "ts": "2026-11-15T02:37:18.791509+00:00"
     },
+    "77b0d4b64c3d": {
+      "reason": "",
+      "status": "queued",
+      "title": "Yenching Academy 2027 Yüksek Lisans Bursu",
+      "ts": "2026-11-17T03:47:56.713327+00:00"
+    },
     "794fc7d24d45": {
       "reason": "Bursların ve programların Türkiye'den katılımcılara açık olup olmadığı her bir özel programın kendi kriterlerine bağlıdır, metinde genel bir ifade yer almamaktadır.",
       "status": "pending",
@@ -5294,6 +5415,12 @@
       "title": "Commonwealth Shared Scholarships 2027-2028 in the UK | Fully Funded",
       "ts": "2026-11-11T21:55:25.230143+00:00"
     },
+    "82b2f63dc118": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "The Hand Foundation Organizational Grants 2026: Apply for Up to $100,000 in Nonprofit Funding and Transformational Capit",
+      "ts": "2026-11-17T03:48:02.859241+00:00"
+    },
     "82da24732b9b": {
       "reason": "Metin, Türkiye'nin uygun ülkeler listesinde olup olmadığını belirtmemiştir; resmi web sitesinden kontrol edilmelidir.",
       "status": "pending",
@@ -5323,6 +5450,12 @@
       "status": "expired",
       "title": "Kültür ve Turizm Bakanlığı 162 Sözleşmeli Kütüphaneci Alımı",
       "ts": "2026-11-16T20:59:14.686209+00:00"
+    },
+    "8640b59fba4f": {
+      "reason": "Programın Kanada dışından katılımcılara açık olup olmadığı metinde net bir şekilde belirtilmemiştir.",
+      "status": "pending",
+      "title": "SDG 5 Gender Equality Fellowship 2027: Apply for the United Nations Association in Canada Educational and Leadership Pro",
+      "ts": "2026-11-17T03:47:19.896950+00:00"
     },
     "86ca8e8f911f": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -5527,6 +5660,12 @@
       "status": "expired",
       "title": "Almanya'da ESC Gönüllülük Projesi",
       "ts": "2026-11-10T23:14:22.263749+00:00"
+    },
+    "9da11c96033c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Almanya'da 8 Günlük Erasmus+ Gençlik Değişimi Projesi",
+      "ts": "2026-11-17T03:47:48.657566+00:00"
     },
     "9e01cd88d970": {
       "reason": "",
@@ -6099,10 +6238,16 @@
       "ts": "2026-11-16T11:03:41.061515+00:00"
     },
     "e4da285b4a60": {
-      "reason": "Katılım ücreti var.",
-      "status": "pending",
-      "title": "AB Hibe Programlarına Yönelik Proje Hazırlama Eğitimi (ONLINE) | 12-13 Aralık 2026",
-      "ts": "2026-11-10T01:31:40.018920+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "AB Hibe Programlarına Yönelik Proje Hazırlama Eğitimi (Online)",
+      "ts": "2026-11-17T03:46:54.669129+00:00"
+    },
+    "e63b709752e4": {
+      "reason": "Türkiye'ye kapalı: Applicants must be resident in the UK, Channel Islands, Isle of Man or Republic of Ireland.",
+      "status": "rejected",
+      "title": "BBC Writers Open Call 2026–2027: Submit Your Original Drama or Comedy-Drama Script for BBC Writing Development Opportuni",
+      "ts": "2026-11-17T03:48:11.043779+00:00"
     },
     "e7739ad2c3aa": {
       "reason": "Türkiye'ye kapalı: However, an important eligibility restriction applies: applicants must be United States citizens or permanent residents ",
@@ -6218,6 +6363,12 @@
       "title": "Almanya'da Uzun Dönem ESC Gönüllülük Projesi",
       "ts": "2026-11-02T18:25:57.575666+00:00"
     },
+    "f4bd68191c7a": {
+      "reason": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir bilgi verilmemiştir.",
+      "status": "pending",
+      "title": "Chatham House Research Fellow – US and North America Programme 2026: Research Career Opportunity in International Relati",
+      "ts": "2026-11-17T03:48:19.207536+00:00"
+    },
     "f5df4f33636b": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -6313,6 +6464,12 @@
       "status": "rejected",
       "title": "DOĞU KARADENİZ KALKINMA AJANSI - PERSONEL ALIM İLANI-2026",
       "ts": "2026-11-02T00:32:10.205321+00:00"
+    },
+    "ff827ef13661": {
+      "reason": "Türkiye'ye kapalı: Applicants must be citizens and residents of one of the eleven eligible YSEALI countries: Brunei, Burma, Cambodia, Indon",
+      "status": "rejected",
+      "title": "YSEALI Professional Fellows Program 2027 in the USA | Fully Funded",
+      "ts": "2026-11-17T03:47:33.015855+00:00"
     }
   },
   "tg_offset": 85657187,
@@ -6553,6 +6710,12 @@
     "ege sağlık vakfı 2026 2027 burs programı",
     "sisterslab adıyaman yapay zeka ve algoritma eğitimi",
     "slovakya'da yapay zeka ve bt araçları eğitim kursu",
-    "güçlü stk güçlü yapı semineri"
+    "güçlü stk güçlü yapı semineri",
+    "sdg 5 toplumsal cinsiyet eşitliği burs programı 2027",
+    "aiesec scale up tunus gönüllülük projesi",
+    "almanya'da 8 günlük erasmus gençlik değişimi projesi",
+    "yenching academy 2027 yüksek lisans bursu",
+    "chatham house araştırma görevlisi pozisyonu",
+    "lego foundation strateji departmanı öğrenci çalışanı"
   ]
 }
