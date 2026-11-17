@@ -247,18 +247,7 @@
     "emle.org/application-2",
     "dika.org.tr/duyuru/ajansimiza-dort-uzman-personel-alimi/322"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://geleceginikurangenckadinlar.org/kariyer-danismanligi/",
-      "attempts": 0,
-      "caption": "Geleceğini Kuran Genç Kadınlar Kariyer Danışmanlığı\n\nNEET durumundaki 18-35 yaş arası genç kadınlara yönelik, CV hazırlama, mülakat simülasyonları ve kariyer planlama desteği sunan online danışmanlık programı.\n\n- 18-35 yaş arası genç kadınlar için\n- Online kariyer danışmanlığı hizmeti\n- CV, mülakat ve iş arama desteği\n\nBaşvuru: https://geleceginikurangenckadinlar.org/kariyer-danismanligi/\nTüm fırsatlar: https://diploport.dev/#e3ab2862dfe6\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "e3ab2862dfe6",
-      "photo_query": "logo: geleceginikurangenckadinlar.org (web sitesi (geleceginikurangenckadinlar.org))",
-      "source": "AB İlan",
-      "title": "Geleceğini Kuran Genç Kadınlar Kariyer Danışmanlığı",
-      "ts": "2026-11-17T13:16:36.037547+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1256,6 +1245,13 @@
       "photo_query": "Gostivar North Macedonia",
       "source": "Erasmusgram",
       "ts": "2026-11-16T11:06:22.006207+00:00"
+    },
+    {
+      "id": "e3ab2862dfe6",
+      "official": "https://geleceginikurangenckadinlar.org/kariyer-danismanligi/",
+      "photo_query": "logo: geleceginikurangenckadinlar.org (web sitesi (geleceginikurangenckadinlar.org))",
+      "source": "AB İlan",
+      "ts": "2026-11-17T13:17:09.349711+00:00"
     }
   ],
   "queue": [
@@ -6251,9 +6247,9 @@
     },
     "e3ab2862dfe6": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Geleceğini Kuran Genç Kadınlar Kariyer Danışmanlığı",
-      "ts": "2026-11-07T01:56:15.957858+00:00"
+      "ts": "2026-11-17T13:17:09.349732+00:00"
     },
     "e4a654486ed3": {
       "reason": "bekleme süresi doldu",
