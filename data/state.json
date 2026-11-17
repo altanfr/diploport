@@ -245,7 +245,10 @@
     "careers.chathamhouse.org/pages/research-fellow-us-and-north-america-programme",
     "thelegofoundation.teamtailor.com/jobs/8671092-student-worker-strategy",
     "emle.org/application-2",
-    "dika.org.tr/duyuru/ajansimiza-dort-uzman-personel-alimi/322"
+    "dika.org.tr/duyuru/ajansimiza-dort-uzman-personel-alimi/322",
+    "ksj.mit.edu/fellowships/academic-year-fellowship",
+    "youthall.com/tr/Shell/it-infrastructure-internship_1330",
+    "kariyerkapisi.gov.tr/IlanDetay?i=069150d6-ad89-4973-9410-25ae1fa56d67"
   ],
   "outbox": [],
   "pending": {
@@ -626,39 +629,6 @@
       "unclear_reason_tr": "Bursların ve programların Türkiye'den katılımcılara açık olup olmadığı her bir özel programın kendi kriterlerine bağlıdır, metinde genel bir ifade yer almamaktadır.",
       "visual_kind": "scene"
     },
-    "82da24732b9b": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.irex.org/program/community-solutions-program-application-information",
-      "category": "diger",
-      "country_tr": "ABD",
-      "deadline": "2026-11-24",
-      "eligibility_evidence": "Candidates must be citizens of one of the eligible countries specified in the program.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu",
-      "highlights_tr": [
-        "27-39 yaş aralığı şartı",
-        "3-4 ay ABD'de değişim süreci",
-        "Tam kapsamlı finansal destek"
-      ],
-      "id": "82da24732b9b",
-      "image_queries": [
-        "Washington DC city",
-        "USA professional office",
-        "leadership workshop meeting"
-      ],
-      "is_opportunity": true,
-      "message_id": 26,
-      "organization": "IREX",
-      "organization_domain": "irex.org",
-      "queued_at": "2026-11-10T17:46:44.307874+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/community-solutions-program-in-usa/",
-      "summary_tr": "IREX tarafından düzenlenen Community Solutions Program, topluluk liderlerine ABD'de 3-4 aylık değişim programı ve profesyonel gelişim imkanı sunan, tam kapsamlı bir liderlik fellowship programıdır.",
-      "title_tr": "Community Solutions Program 2027 ABD Liderlik Programı",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Metin, Türkiye'nin uygun ülkeler listesinde olup olmadığını belirtmemiştir; resmi web sitesinden kontrol edilmelidir.",
-      "visual_kind": "institution"
-    },
     "842209e57e54": {
       "apply_link_id": 1,
       "apply_url": "https://theogpd.org/wlc-2027/",
@@ -1012,34 +982,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
-    },
-    "fce6f1db14d4": {
-      "apply_link_id": 1,
-      "apply_url": "https://thecda.co/european-youth-summit-2027-madrid/ref/78/",
-      "category": "egitim",
-      "country_tr": "İspanya",
-      "deadline": "2027-01-20",
-      "eligibility_evidence": "Applicants from all nationalities can apply.",
-      "fee_required": true,
-      "funding_tr": "Tam ve kısmi burs seçenekleri mevcut",
-      "highlights_tr": [
-        "18-50 yaş arası başvuru imkanı",
-        "İngilizce dil yeterliliği gereklidir",
-        "13-16 Nisan 2027 tarihleri arasında"
-      ],
-      "id": "fce6f1db14d4",
-      "is_opportunity": true,
-      "message_id": 25,
-      "organization": "Centre for Diplomatic Advancement (CDA)",
-      "organization_domain": "thecda.co",
-      "queued_at": "2026-11-10T17:45:32.999795+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/european-youth-summit-2027-in-spain/",
-      "summary_tr": "Madrid'de düzenlenecek olan European Youth Summit 2027, 300 katılımcıya burs imkanı sunan uluslararası bir gençlik konferansıdır. 18-50 yaş arası tüm milletlerden başvurular kabul edilmektedir.",
-      "title_tr": "European Youth Summit 2027 - Madrid, İspanya",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Katılım ücreti var.",
-      "visual_kind": "scene"
     }
   },
   "published": [
@@ -1255,118 +1197,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55080_en",
-      "category": "gonulluluk",
-      "country_tr": "Almanya",
-      "deadline": "2028-01-14",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
-      "fee_required": false,
-      "funding_tr": "Konaklama, yemek, cep harçlığı ve ulaşım desteği",
-      "highlights_tr": [
-        "52 hafta süreli gönüllülük projesi",
-        "Konaklama, yemek ve cep harçlığı karşılanır",
-        "Almanca dil kursu desteği sağlanır"
-      ],
-      "id": "ab2e390d8fda",
-      "image_queries": [
-        "Osnabrück Germany city",
-        "Germany youth center",
-        "volunteers working with youth"
-      ],
-      "is_opportunity": true,
-      "organization": "Heinz-Fitschen-Haus",
-      "organization_domain": "",
-      "queued_at": "2026-11-03T17:49:26.285184+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/almanya-osnabruck-uzun-donem-erasmus-programi/",
-      "summary_tr": "Almanya'nın Osnabrück kentindeki Heinz-Fitschen-Haus merkezinde, çocuk ve gençlerle sosyal faaliyetler yürütmek üzere 52 haftalık ESC gönüllülük projesi.",
-      "title_tr": "Almanya Osnabrück'te Uzun Dönem ESC Gönüllülük Projesi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.ertegun.ox.ac.uk/scholarships",
-      "category": "burs",
-      "country_tr": "Birleşik Krallık",
-      "deadline": "2027-01-01",
-      "eligibility_evidence": "Students from all countries and backgrounds are eligible to apply for the Ertegun Scholarship.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (öğrenim ücreti ve yaşam masrafları)",
-      "highlights_tr": [
-        "Beşeri bilimler alanında yüksek lisans ve doktora",
-        "Tam öğrenim ücreti ve yıllık yaşam desteği",
-        "Oxford Üniversitesi'nde araştırma imkanı"
-      ],
-      "id": "093f17f46a64",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "University of Oxford",
-      "organization_domain": "ox.ac.uk",
-      "queued_at": "2026-11-03T17:49:35.116775+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/oxford-ertegun-scholarship-program/",
-      "summary_tr": "Oxford Üniversitesi'nde beşeri bilimler alanında yüksek lisans veya doktora yapmak isteyen uluslararası öğrenciler için sunulan, öğrenim ücretini ve yaşam masraflarını karşılayan prestijli bir burs programıdır.",
-      "title_tr": "Oxford Ertegun Lisansüstü Burs Programı 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.tev.org.tr/burs/tr/29/fransa-buyukelciligi-fransa-burslari",
-      "category": "burs",
-      "country_tr": "Fransa",
-      "deadline": "2027-02-08",
-      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
-      "fee_required": false,
-      "funding_tr": "Aylık 900 Euro burs ve kısmi kayıt ücreti desteği",
-      "highlights_tr": [
-        "35 yaş altı T.C. vatandaşları başvurabilir",
-        "Aylık 900 Euro burs desteği",
-        "İngilizce veya Fransızca dil yeterliliği şartı"
-      ],
-      "id": "49bd515fd3d4",
-      "is_opportunity": true,
-      "organization": "Türk Eğitim Vakfı",
-      "organization_domain": "tev.org.tr",
-      "queued_at": "2026-11-03T17:49:45.572572+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tev-fransa-buyukelciligi-fransa-burslari-basvurulari-basliyor/",
-      "summary_tr": "TEV ve Fransa Büyükelçiliği iş birliğiyle, Fransa'da yüksek lisans eğitimi alacak başarılı öğrencilere yönelik 22 aya kadar burs desteği sağlanmaktadır.",
-      "title_tr": "TEV-Fransa Büyükelçiliği Yüksek Lisans Bursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.dbs.nus.edu.sg/outreach/amgen-scholars-program/",
-      "category": "staj",
-      "country_tr": "Singapur",
-      "deadline": "2027-02-01",
-      "eligibility_evidence": "Western Asia: Armenia; Azerbaijan; Bahrain; Cyprus; Georgia; Iraq; Israel; Jordan; Kuwait; Lebanon; Oman; Qatar; Saudi Arabia; State of Palestine; Syrian Arab Republic; Türkiye; United Arab Emirates; Yemen.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (konaklama, ulaşım ve harçlık dahil)",
-      "highlights_tr": [
-        "8 haftalık tam burslu staj",
-        "6.000 SGD tutarında staj ücreti",
-        "Ulaşım, konaklama ve vize masrafları karşılanır"
-      ],
-      "id": "fd4a76690f14",
-      "is_opportunity": true,
-      "organization": "National University of Singapore",
-      "organization_domain": "nus.edu.sg",
-      "queued_at": "2026-11-03T17:49:55.714685+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/nus-amgen-scholars-program-2027/",
-      "summary_tr": "Singapur'daki National University of Singapore'da 8 haftalık tam burslu yaz stajı programı. Katılımcılar biyolojik bilimler alanında araştırma projelerinde yer alacak ve Japonya'daki sempozyuma katılacaklardır.",
-      "title_tr": "NUS Amgen Scholars Program 2027 - Singapur",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0",
       "category": "is",
@@ -4238,6 +4068,84 @@
       "title_tr": "Dicle Kalkınma Ajansı (DİKA) Uzman Personel Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://ksj.mit.edu/fellowships/academic-year-fellowship/",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2027-01-09",
+      "eligibility_evidence": "The fellowship is available to journalists from all over the world.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (87.500$ burs, seyahat ve konaklama desteği)",
+      "highlights_tr": [
+        "9 aylık tam zamanlı araştırma programı",
+        "87.500$ stipend ve ek yan haklar",
+        "Bilim gazetecileri için profesyonel gelişim"
+      ],
+      "id": "caa345c5486f",
+      "is_opportunity": true,
+      "organization": "Massachusetts Institute of Technology",
+      "organization_domain": "mit.edu",
+      "queued_at": "2026-11-17T22:16:22.088137+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/knight-science-journalism-fellowship/",
+      "summary_tr": "MIT bünyesinde düzenlenen Knight Science Journalism Fellowship, bilim gazetecilerine 9 aylık bir araştırma ve mesleki gelişim imkanı sunan tam burslu bir programdır.",
+      "title_tr": "Knight Science Journalism Fellowship 2027 - MIT",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Shell/it-infrastructure-internship_1330/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Eligibility to work in Turkiye.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "En az 3 ay çalışma süresi",
+        "Kış döneminde haftada en az 3 gün",
+        "İyi derecede İngilizce bilgisi"
+      ],
+      "id": "34da27eef738",
+      "is_opportunity": true,
+      "organization": "Shell",
+      "organization_domain": "shell.com.tr",
+      "queued_at": "2026-11-17T22:16:29.688815+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/Shell/it-infrastructure-internship_1330/",
+      "summary_tr": "Shell bünyesinde IT altyapısı, kurulum, destek ve ağ yapılandırma süreçlerinde görev alacak stajyer aranmaktadır. Adayların üniversite tarafından SGK desteği sağlanması gerekmektedir.",
+      "title_tr": "IT Infrastructure Stajı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=069150d6-ad89-4973-9410-25ae1fa56d67",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "df49766dec45",
+      "is_opportunity": true,
+      "organization": "SAHİL GÜVENLİK KOMUTANLIĞI",
+      "organization_domain": "sg.gov.tr",
+      "queued_at": "2026-11-17T22:16:45.159586+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=069150d6-ad89-4973-9410-25ae1fa56d67",
+      "summary_tr": "Sahil Güvenlik Komutanlığı bünyesinde sözleşmeli devlet memuru alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Sahil Güvenlik Komutanlığı 2026 Yılı Devlet Memuru Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4332,10 +4240,10 @@
       "ts": "2026-11-16T11:05:20.407612+00:00"
     },
     "093f17f46a64": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Oxford Ertegun Lisansüstü Burs Programı 2027",
-      "ts": "2026-11-03T17:49:35.116796+00:00"
+      "ts": "2026-11-17T22:16:02.556729+00:00"
     },
     "099418aa1fe4": {
       "reason": "",
@@ -4715,6 +4623,12 @@
       "title": "Birbirini Geliştiren Kadınlar Programı",
       "ts": "2026-11-16T20:59:14.686203+00:00"
     },
+    "34da27eef738": {
+      "reason": "",
+      "status": "queued",
+      "title": "IT Infrastructure Stajı",
+      "ts": "2026-11-17T22:16:29.688833+00:00"
+    },
     "354cd17f23c1": {
       "reason": "Türkiye'ye kapalı: The stated eligibility requirement is US citizenship and possession of a US passport.",
       "status": "rejected",
@@ -4920,10 +4834,10 @@
       "ts": "2026-11-13T22:34:34.615965+00:00"
     },
     "49bd515fd3d4": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "TEV-Fransa Büyükelçiliği Yüksek Lisans Bursu",
-      "ts": "2026-11-03T17:49:45.572591+00:00"
+      "ts": "2026-11-17T22:16:02.556742+00:00"
     },
     "49bfd213c6d7": {
       "reason": "",
@@ -5430,10 +5344,10 @@
       "ts": "2026-11-17T03:48:02.859241+00:00"
     },
     "82da24732b9b": {
-      "reason": "Metin, Türkiye'nin uygun ülkeler listesinde olup olmadığını belirtmemiştir; resmi web sitesinden kontrol edilmelidir.",
-      "status": "pending",
-      "title": "Community Solutions Program 2027 in USA | Fully Funde",
-      "ts": "2026-11-10T17:46:44.307893+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Community Solutions Program 2027 ABD Liderlik Programı",
+      "ts": "2026-11-17T22:16:02.557094+00:00"
     },
     "83104f3e3d94": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5802,10 +5716,10 @@
       "ts": "2026-11-06T00:19:53.598434+00:00"
     },
     "ab2e390d8fda": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Almanya Osnabrück'te Uzun Dönem ESC Gönüllülük Projesi",
-      "ts": "2026-11-03T17:49:26.285205+00:00"
+      "ts": "2026-11-17T22:16:02.556704+00:00"
     },
     "abb13cfcdf1f": {
       "reason": "Türkiye'ye kapalı: The applicants must reside in Cameroon.",
@@ -6089,6 +6003,12 @@
       "title": "University of Notre Dame Sürdürülebilir Kalkınma Doktora Bursu",
       "ts": "2026-11-13T16:16:24.477864+00:00"
     },
+    "caa345c5486f": {
+      "reason": "",
+      "status": "queued",
+      "title": "Knight Science Journalism Fellowship 2027 - MIT",
+      "ts": "2026-11-17T22:16:22.088158+00:00"
+    },
     "caf1cd166127": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6220,6 +6140,12 @@
       "status": "queued",
       "title": "TEV-ŞÖLEN Almanya-İtalya Yüksek Lisans Bursu",
       "ts": "2026-11-10T01:29:43.724089+00:00"
+    },
+    "df49766dec45": {
+      "reason": "",
+      "status": "queued",
+      "title": "Sahil Güvenlik Komutanlığı 2026 Yılı Devlet Memuru Alımı",
+      "ts": "2026-11-17T22:16:45.159602+00:00"
     },
     "e056024b994d": {
       "reason": "",
@@ -6468,10 +6394,10 @@
       "ts": "2026-11-10T17:47:59.290080+00:00"
     },
     "fce6f1db14d4": {
-      "reason": "Katılım ücreti var.",
-      "status": "pending",
-      "title": "European Youth Summit 2027 in Spain | Fully Funded Conference",
-      "ts": "2026-11-10T17:45:32.999814+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "European Youth Summit 2027 - Madrid, İspanya",
+      "ts": "2026-11-17T22:16:02.557119+00:00"
     },
     "fcf39bc2a802": {
       "reason": "",
@@ -6480,10 +6406,10 @@
       "ts": "2026-11-06T00:17:45.930089+00:00"
     },
     "fd4a76690f14": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "NUS Amgen Scholars Program 2027 - Singapur",
-      "ts": "2026-11-03T17:49:55.714703+00:00"
+      "ts": "2026-11-17T22:16:02.556753+00:00"
     },
     "ff6568bdf019": {
       "reason": "Türkiye'ye kapalı: Applicants must be nationals of one of the 44 Least Developed Countries listed by the programme.",
@@ -6750,6 +6676,9 @@
     "chatham house araştırma görevlisi pozisyonu",
     "lego foundation strateji departmanı öğrenci çalışanı",
     "erasmus mundus emle hukuk ve ekonomi yüksek lisans bursu",
-    "dicle kalkınma ajansı di ka uzman personel alımı"
+    "dicle kalkınma ajansı di ka uzman personel alımı",
+    "knight science journalism fellowship 2027 mit",
+    "it infrastructure stajı",
+    "sahil güvenlik komutanlığı 2026 yılı devlet memuru alımı"
   ]
 }
