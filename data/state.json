@@ -243,9 +243,22 @@
     "docs.google.com/forms/d/e/1FAIpQLSeTAVCKpqBhdswyZqXT_9xWHPHYF0khilwVW2btTgCHAPxyYA/viewform",
     "yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
     "careers.chathamhouse.org/pages/research-fellow-us-and-north-america-programme",
-    "thelegofoundation.teamtailor.com/jobs/8671092-student-worker-strategy"
+    "thelegofoundation.teamtailor.com/jobs/8671092-student-worker-strategy",
+    "emle.org/application-2",
+    "dika.org.tr/duyuru/ajansimiza-dort-uzman-personel-alimi/322"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://geleceginikurangenckadinlar.org/kariyer-danismanligi/",
+      "attempts": 0,
+      "caption": "Geleceğini Kuran Genç Kadınlar Kariyer Danışmanlığı\n\nNEET durumundaki 18-35 yaş arası genç kadınlara yönelik, CV hazırlama, mülakat simülasyonları ve kariyer planlama desteği sunan online danışmanlık programı.\n\n- 18-35 yaş arası genç kadınlar için\n- Online kariyer danışmanlığı hizmeti\n- CV, mülakat ve iş arama desteği\n\nBaşvuru: https://geleceginikurangenckadinlar.org/kariyer-danismanligi/\nTüm fırsatlar: https://diploport.dev/#e3ab2862dfe6\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "e3ab2862dfe6",
+      "photo_query": "logo: geleceginikurangenckadinlar.org (web sitesi (geleceginikurangenckadinlar.org))",
+      "source": "AB İlan",
+      "title": "Geleceğini Kuran Genç Kadınlar Kariyer Danışmanlığı",
+      "ts": "2026-11-17T13:16:36.037547+00:00"
+    }
+  ],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1248,59 +1261,6 @@
   "queue": [
     {
       "apply_link_id": 1,
-      "apply_url": "https://careers.bat.com/en/why-bat",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "British American Tobacco Türkiye has an exciting opportunity for an Internship in Operations in Samsun.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Mühendislik öğrencileri için",
-        "Haftada en az 3 gün çalışma",
-        "Samsun lokasyonunda"
-      ],
-      "id": "440932cc6804",
-      "is_opportunity": true,
-      "organization": "British American Tobacco",
-      "organization_domain": "bat.com",
-      "queued_at": "2026-11-03T09:28:42.767981+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/en/batturkeycareers/production-intern_173/",
-      "summary_tr": "British American Tobacco Türkiye, Samsun lokasyonunda görevlendirilmek üzere mühendislik bölümlerinde 3. sınıfı tamamlamış öğrencilere yönelik üretim stajı programı sunuyor.",
-      "title_tr": "British American Tobacco Türkiye Üretim Stajı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=51fd7921-cfbe-482f-8e2f-b8a569a605d0",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına açık",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Sözleşmeli personel pozisyonu"
-      ],
-      "icon": "landmark",
-      "id": "657bed6f5141",
-      "is_opportunity": true,
-      "organization": "DOKUZ EYLÜL ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-      "organization_domain": "deu.edu.tr",
-      "queued_at": "2026-11-03T09:29:23.373353+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=51fd7921-cfbe-482f-8e2f-b8a569a605d0",
-      "summary_tr": "Dokuz Eylül Üniversitesi Rektörlüğü tarafından yayımlanan sözleşmeli personel alım ilanıdır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile yapılmaktadır.",
-      "title_tr": "Dokuz Eylül Üniversitesi Sözleşmeli Personel Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://youth.europa.eu/solidarity/opportunity/55080_en",
       "category": "gonulluluk",
       "country_tr": "Almanya",
@@ -1972,6 +1932,7 @@
       "summary_tr": "OpenLearn tarafından sunulan bu 48 saatlik online kurs, İngilizce okuma, yazma ve konuşma becerilerini geliştirmek isteyen herkese açıktır. Kurs sonunda katılım belgesi verilmektedir.",
       "title_tr": "Everyday English Ücretsiz Online Kursu 2027",
       "turkey_eligible": "yes",
+      "visual_alerted": true,
       "visual_kind": "institution"
     },
     {
@@ -2321,32 +2282,6 @@
       "source_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-human-resources_59/",
       "summary_tr": "Büyükçekmece ofisinde görevlendirilmek üzere, İnsan Kaynakları süreçlerinde destek verecek uzun dönemli stajyer aranmaktadır.",
       "title_tr": "Long-Term Intern – Human Resources",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://geleceginikurangenckadinlar.org/kariyer-danismanligi/",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "18-35 yaş arası genç kadınlar için",
-        "Online kariyer danışmanlığı hizmeti",
-        "CV, mülakat ve iş arama desteği"
-      ],
-      "id": "e3ab2862dfe6",
-      "is_opportunity": true,
-      "organization": "Geleceğini Kuran Genç Kadınlar",
-      "organization_domain": "geleceginikurangenckadinlar.org",
-      "queued_at": "2026-11-07T01:56:15.957840+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/gelecegini-kuran-genc-kadinlar-kariyer-danismanligi-aralik-grubu-basvurularinizi-bekliyor/",
-      "summary_tr": "NEET durumundaki 18-35 yaş arası genç kadınlara yönelik, CV hazırlama, mülakat simülasyonları ve kariyer planlama desteği sunan online danışmanlık programı.",
-      "title_tr": "Geleceğini Kuran Genç Kadınlar Kariyer Danışmanlığı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -4254,6 +4189,59 @@
       "title_tr": "Yenching Academy 2027 Yüksek Lisans Bursu",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://emle.org/application-2/",
+      "category": "burs",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2026-12-31",
+      "eligibility_evidence": "The Scholarship is open to all Nationalities.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti, seyahat, vize, sigorta ve aylık 1400 EUR ödeme)",
+      "highlights_tr": [
+        "Aylık 1400 EUR burs desteği",
+        "Farklı ülkelerde eğitim imkanı",
+        "Hukuk veya ekonomi mezunlarına öncelik"
+      ],
+      "id": "8162981a9ca5",
+      "is_opportunity": true,
+      "organization": "Erasmus Commission",
+      "organization_domain": "emle.org",
+      "queued_at": "2026-11-17T13:15:36.968069+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/erasmus-mundus-emle-scholarship-2027/",
+      "summary_tr": "Erasmus Mundus kapsamında sunulan, Avrupa ve dünya genelindeki üniversitelerde bir yıl süren Hukuk ve Ekonomi alanında yüksek lisans programı ve tam burs imkanı.",
+      "title_tr": "Erasmus Mundus EMLE Hukuk ve Ekonomi Yüksek Lisans Bursu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.dika.org.tr/duyuru/ajansimiza-dort-uzman-personel-alimi/322",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-18",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Maaşlı pozisyon",
+      "highlights_tr": [
+        "Mardin, Batman, Siirt ve Şırnak'ta görev",
+        "4 uzman personel alımı",
+        "Başvuru dönemi: 4-18 Aralık 2026"
+      ],
+      "id": "54f447688403",
+      "is_opportunity": true,
+      "organization": "Dicle Kalkınma Ajansı",
+      "organization_domain": "dika.org.tr",
+      "queued_at": "2026-11-17T13:16:18.284686+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/dicle-kalkinma-ajansi-dika-personel-alimi-duyurusu/",
+      "summary_tr": "Dicle Kalkınma Ajansı (DİKA), Mardin, Batman, Siirt ve Şırnak illerinde görevlendirilmek üzere 4 uzman personel alımı yapacağını duyurdu.",
+      "title_tr": "Dicle Kalkınma Ajansı (DİKA) Uzman Personel Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4298,6 +4286,12 @@
       "status": "queued",
       "title": "Bursa Teknik Üniversitesi Sözleşmeli Psikolog Alımı",
       "ts": "2026-11-13T00:16:49.459670+00:00"
+    },
+    "0420d3141e13": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Çukurova Kalkınma Ajansı’ndan 2026 Yılı Yönetim Danışmanlığı Teknik Destek Programı",
+      "ts": "2026-11-17T13:16:08.691222+00:00"
     },
     "043d92636a09": {
       "reason": "",
@@ -4713,6 +4707,12 @@
       "title": "Kuzey Makedonya'da Erasmus+ Gençlik Değişimi",
       "ts": "2026-11-16T11:06:22.006226+00:00"
     },
+    "344fea861f36": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "İspanya’da ESC Gönüllülük Projesi Fırsatı",
+      "ts": "2026-11-17T13:16:01.488825+00:00"
+    },
     "34a97395a09a": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -4870,10 +4870,10 @@
       "ts": "2026-11-09T17:27:23.841739+00:00"
     },
     "440932cc6804": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "British American Tobacco Türkiye Üretim Stajı",
-      "ts": "2026-11-03T09:28:42.767993+00:00"
+      "ts": "2026-11-17T13:14:55.055279+00:00"
     },
     "443b84c5b02b": {
       "reason": "",
@@ -5000,6 +5000,12 @@
       "status": "queued",
       "title": "CERN Beamline for Schools 2027 Fizik Deneyi Yarışması",
       "ts": "2026-11-06T00:19:20.348785+00:00"
+    },
+    "54f447688403": {
+      "reason": "",
+      "status": "queued",
+      "title": "Dicle Kalkınma Ajansı (DİKA) Uzman Personel Alımı",
+      "ts": "2026-11-17T13:16:18.284702+00:00"
     },
     "561e95f77dc4": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5164,10 +5170,10 @@
       "ts": "2026-11-05T18:42:56.404340+00:00"
     },
     "657bed6f5141": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Dokuz Eylül Üniversitesi Sözleşmeli Personel Alımı",
-      "ts": "2026-11-03T09:29:23.373372+00:00"
+      "ts": "2026-11-17T13:14:55.055307+00:00"
     },
     "65cebc911b56": {
       "reason": "Türkiye'ye kapalı: Applicants must hold citizenship in an African country.",
@@ -5402,6 +5408,12 @@
       "status": "queued",
       "title": "Pusula: Çocuklar için Sporla Katılım Destek Programı",
       "ts": "2026-11-10T17:48:11.062801+00:00"
+    },
+    "8162981a9ca5": {
+      "reason": "",
+      "status": "queued",
+      "title": "Erasmus Mundus EMLE Hukuk ve Ekonomi Yüksek Lisans Bursu",
+      "ts": "2026-11-17T13:15:36.968086+00:00"
     },
     "81ace53e56f6": {
       "reason": "",
@@ -5991,6 +6003,12 @@
       "title": "EYWEP and African Union Opportunities 2026: Youth and Women Entrepreneurship, COYWA Programme, Scholarships, Fellowships",
       "ts": "2026-11-13T00:17:43.872281+00:00"
     },
+    "bed8c9190028": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Kamu Denetçiliği Kurumu (Ombudsmanlık) Kamu Denetçiliği Uzman Yardımcısı Alımı Yapacak",
+      "ts": "2026-11-17T13:15:49.104742+00:00"
+    },
     "bf1d24059375": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6038,6 +6056,12 @@
       "status": "rejected",
       "title": "Yunanistan , Selanik : Kısa Dönem Erasmus+ Projesi",
       "ts": "2026-10-31T19:14:19.113586+00:00"
+    },
+    "c5476615365a": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "KOSGEB Yeşil Sanayi Destek Programı İlan Edildi",
+      "ts": "2026-11-17T13:16:24.805539+00:00"
     },
     "c64ff63a6a94": {
       "reason": "",
@@ -6261,6 +6285,12 @@
       "title": "Dubai Government Free AI Course with Free Certificate | One Million Prompters",
       "ts": "2026-11-12T10:59:10.190188+00:00"
     },
+    "e7b95692399a": {
+      "reason": "Türkiye'ye kapalı: Applicants must be high school seniors currently enrolled in the US.",
+      "status": "rejected",
+      "title": "Amazon Future Engineer Scholarship 2027",
+      "ts": "2026-11-17T13:15:43.122049+00:00"
+    },
     "e83b58db9b6e": {
       "reason": "",
       "status": "queued",
@@ -6422,6 +6452,12 @@
       "status": "expired",
       "title": "Henkel Step Up Inclusive Uzun Dönemli Staj Programı",
       "ts": "2026-11-13T22:34:34.615969+00:00"
+    },
+    "fa88ee4e5275": {
+      "reason": "Türkiye'ye kapalı: Applicants must be undergraduate students attending colleges or universities across the Asia region that award a bachelo",
+      "status": "rejected",
+      "title": "UTokyo Amgen Scholars Program in Japan 2027 | Fully Funded",
+      "ts": "2026-11-17T13:15:54.610015+00:00"
     },
     "fbe06e0388f2": {
       "reason": "",
@@ -6716,6 +6752,8 @@
     "almanya'da 8 günlük erasmus gençlik değişimi projesi",
     "yenching academy 2027 yüksek lisans bursu",
     "chatham house araştırma görevlisi pozisyonu",
-    "lego foundation strateji departmanı öğrenci çalışanı"
+    "lego foundation strateji departmanı öğrenci çalışanı",
+    "erasmus mundus emle hukuk ve ekonomi yüksek lisans bursu",
+    "dicle kalkınma ajansı di ka uzman personel alımı"
   ]
 }
