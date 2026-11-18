@@ -257,7 +257,15 @@
     "fikrintopragadegsin.typeform.com/to/ik9wMJFT",
     "youthall.com/tr/cimsa/cimsa-colab-undergraduate-project-mentorship-program_17",
     "youth.europa.eu/solidarity/opportunity/55263_en",
-    "linktr.ee/cya.eu"
+    "linktr.ee/cya.eu",
+    "worldagricultureforum.org/internship",
+    "docs.google.com/forms/d/e/1FAIpQLSemj1qqyh_Tet4GjJlaqPF0gb4Ded5LdHrDRW5vSLN03d5U-A/viewform",
+    "kariyerkapisi.gov.tr/IlanDetay?i=6a34cb10-0ac0-41e0-a094-3ec83e29a644",
+    "lnkd.in/dEH5yecB",
+    "docs.google.com/forms/d/e/1FAIpQLSfbbWXR6x9ppbH9wffdDKulZrzPBM07nCLYZkFq-LrJ_M134Q/viewform",
+    "climate.columbia.edu/stanley-park-climate-finance-scholarships",
+    "docs.google.com/forms/d/e/1FAIpQLSducjMwhG4tk7PnkX41orxldCAV-rHULj_71VTo52pVi6-JBA/viewform",
+    "oceanculturelife.com"
   ],
   "outbox": [],
   "pending": {
@@ -492,6 +500,34 @@
       "source_url": "https://opportunitiesforyouth.org/2026/11/16/lego-foundation-student-worker-strategy-2026-international-student-job-opportunity-in-denmark-apply-before-20-november-2026/",
       "summary_tr": "LEGO Foundation, Billund, Danimarka'da stratejik araştırma, analiz ve proje yönetimi süreçlerinde destek verecek bir öğrenci çalışanı arıyor.",
       "title_tr": "LEGO Foundation Strateji Departmanı Öğrenci Çalışanı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "4fb76b259a82": {
+      "apply_link_id": 2,
+      "apply_url": "https://worldagricultureforum.org/internship",
+      "category": "staj",
+      "country_tr": "Online",
+      "deadline": "2026-12-15",
+      "eligibility_evidence": "The WAF Global Internship Program 2027 is inviting applications from individuals who want to gain practical experience and contribute to research and knowledge development in the global agriculture sector.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "3 ay süreli uzaktan staj",
+        "Tarım politikaları ve araştırma odaklı",
+        "Katılım sertifikası veriliyor"
+      ],
+      "id": "4fb76b259a82",
+      "is_opportunity": true,
+      "message_id": 61,
+      "organization": "World Agriculture Forum",
+      "organization_domain": "worldagricultureforum.org",
+      "queued_at": "2026-11-18T21:54:14.778643+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/18/waf-global-internship-program-2027-apply-for-a-three-month-remote-internship-in-global-agriculture-research-and-policy/",
+      "summary_tr": "World Agriculture Forum tarafından düzenlenen, tarım politikaları, araştırma ve bilgi yönetimi üzerine odaklanan 3 aylık uzaktan staj programı.",
+      "title_tr": "World Agriculture Forum (WAF) 2027 Uzaktan Staj Programı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -819,6 +855,34 @@
       "unclear_reason_tr": "Programın Kanada dışından katılımcılara açık olup olmadığı metinde net bir şekilde belirtilmemiştir.",
       "visual_kind": "institution"
     },
+    "964d6b677c88": {
+      "apply_link_id": 1,
+      "apply_url": "https://lnkd.in/dEH5yecB",
+      "category": "is",
+      "country_tr": "Gana",
+      "deadline": "2026-11-27",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Maaşlı pozisyon",
+      "highlights_tr": [
+        "Gana'da çalışma fırsatı",
+        "İlgili alanlarda lisans derecesi şart",
+        "En az 4-5 yıl deneyim gereklidir"
+      ],
+      "id": "964d6b677c88",
+      "is_opportunity": true,
+      "message_id": 62,
+      "organization": "Plan International",
+      "organization_domain": "plan-international.org",
+      "queued_at": "2026-11-18T21:54:58.832863+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/18/plan-international-ghana-announces-three-job-vacancies-for-november-2026-project-accountant-district-officer-and-supply-chain-coordinator/",
+      "summary_tr": "Plan International Gana, Cocoa Community Resilience Programme kapsamında ve ülke ofisinde çalışacak Proje Muhasebecisi, Bölge Sorumlusu ve Tedarik Zinciri Koordinatörü pozisyonları için işe alım yapmaktadır.",
+      "title_tr": "Plan International Gana İş İlanları",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "İlan, başvuru yapacak adayların uyruğu veya çalışma izni gereklilikleri hakkında bilgi vermemektedir.",
+      "visual_kind": "institution"
+    },
     "9c8f58444ef6": {
       "apply_link_id": 1,
       "apply_url": "https://www.eventbrite.ca/e/leadership-and-peace-summit-morocco-2027-tickets-2001166056545?aff=oddtdtcreator",
@@ -846,6 +910,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "a4581acb8b6a": {
+      "apply_link_id": 3,
+      "apply_url": "https://www.climate.columbia.edu/stanley-park-climate-finance-scholarships",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2027-01-15",
+      "eligibility_evidence": "It particularly seeks to expand access for individuals from emerging and developing economies who intend to contribute to the public and non-profit sectors",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti)",
+      "highlights_tr": [
+        "Tam öğrenim ücreti desteği",
+        "Gelişmekte olan ülkelerden adaylara öncelik",
+        "15 Ocak 2027 öncelikli başvuru tarihi"
+      ],
+      "id": "a4581acb8b6a",
+      "is_opportunity": true,
+      "message_id": 63,
+      "organization": "Columbia Climate School",
+      "organization_domain": "climate.columbia.edu",
+      "queued_at": "2026-11-18T21:55:13.155875+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/18/columbia-university-ms-in-climate-finance-applications-now-open-for-a-fully-funded-masters-program/",
+      "summary_tr": "Columbia Climate School, MS in Climate Finance programına başlayacak üç öğrenciye tam öğrenim ücreti bursu veriyor. Başvuru için 15 Ocak 2027 tarihine kadar lisansüstü programa başvurulması gerekmektedir.",
+      "title_tr": "Columbia University Stanley Park İklim Finansı Bursu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
     },
     "a8e2cb4c1e15": {
       "apply_link_id": 1,
@@ -1332,100 +1424,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Sözleşmeli personel alımı",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Türkiye Cumhuriyeti vatandaşı olmak"
-      ],
-      "icon": "landmark",
-      "id": "8a8db25c2bbc",
-      "image_queries": [
-        "Karabağlar municipality building",
-        "Turkey city hall",
-        "government building"
-      ],
-      "is_opportunity": true,
-      "organization": "KARABAĞLAR BELEDİYE BAŞKANLIĞI",
-      "organization_domain": "karabaglar.bel.tr",
-      "queued_at": "2026-11-04T15:26:10.092178+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
-      "summary_tr": "Karabağlar Belediye Başkanlığı, 2 adet Çevre Mühendisi alımı yapacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişiyle yapılacaktır.",
-      "title_tr": "Karabağlar Belediyesi Çevre Mühendisi Alımı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://doka.org.tr/announcement-detail.php?id=1221",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "2026-12-06",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "1 Uzman personel alımı",
-        "Başvuru: 23.11.2026-06.12.2026",
-        "Görev yeri Trabzon veya Rize"
-      ],
-      "id": "c159003011e5",
-      "is_opportunity": true,
-      "organization": "Doğu Karadeniz Kalkınma Ajansı",
-      "organization_domain": "doka.org.tr",
-      "queued_at": "2026-11-04T15:26:34.365841+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/dogu-karadeniz-kalkinma-ajansi-doka-personel-alimi-duyurusu/",
-      "summary_tr": "Doğu Karadeniz Kalkınma Ajansı (DOKA), Artvin, Giresun, Gümüşhane, Ordu, Rize ve Trabzon illerinin kalkınmasına hizmet edecek 1 Uzman personel alımı yapacaktır. Başvurular 23 Kasım - 6 Aralık 2026 tarihleri arasındadır.",
-      "title_tr": "Doğu Karadeniz Kalkınma Ajansı (DOKA) Uzman Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına yönelik",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Sınavla personel alımı"
-      ],
-      "icon": "landmark",
-      "id": "81ace53e56f6",
-      "image_queries": [
-        "nuclear regulation authority building",
-        "Turkey government building",
-        "government office interior"
-      ],
-      "is_opportunity": true,
-      "organization": "NÜKLEER DÜZENLEME KURUMU BAŞKANLIĞI",
-      "organization_domain": "ndim.gov.tr",
-      "queued_at": "2026-11-04T15:26:48.930825+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0",
-      "summary_tr": "Nükleer Düzenleme Kurumu Başkanlığı, sözleşmeli bilişim personeli alımı için giriş sınavı düzenleyecektir. Başvurular Kariyer Kapısı üzerinden e-Devlet girişiyle yapılacaktır.",
-      "title_tr": "Nükleer Düzenleme Kurumu: Sözleşmeli Bilişim Personeli Giriş Sınavı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://program.izmirkisafilm.org/",
@@ -3218,32 +3216,6 @@
       "visual_kind": "institution"
     },
     {
-      "apply_link_id": 1,
-      "apply_url": "https://www.btkakademi.gov.tr/portal/public/yapayzekaileicerikuretimiegitimiguzizmir",
-      "category": "egitim",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-18",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "30 yaş altı öğrenciler ve yeni mezunlar",
-        "İzmir'de yüz yüze eğitim",
-        "Üretken yapay zekâ uygulamaları"
-      ],
-      "id": "e83b58db9b6e",
-      "is_opportunity": true,
-      "organization": "Bilgi Teknolojileri ve İletişim Kurumu",
-      "organization_domain": "btkakademi.gov.tr",
-      "queued_at": "2026-11-12T18:53:52.595679+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/btk-akademiden-izmirde-yapay-zeka-ile-icerik-uretimi-egitimi/",
-      "summary_tr": "BTK Akademi tarafından İzmir'de düzenlenecek, üretken yapay zekâ araçlarının uygulamalı olarak kullanılacağı yüz yüze eğitim programı.",
-      "title_tr": "BTK Akademi Yapay Zekâ ile İçerik Üretimi Eğitimi",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
       "apply_url": "https://www.youthall.com/tr/somposigorta/stajyer-avukat_23/",
       "category": "staj",
       "country_tr": "Türkiye",
@@ -4358,6 +4330,154 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSemj1qqyh_Tet4GjJlaqPF0gb4Ded5LdHrDRW5vSLN03d5U-A/viewform",
+      "category": "egitim",
+      "country_tr": "Almanya",
+      "deadline": "",
+      "eligibility_evidence": "Türkiye dahil 8 farklı ülkeden toplam 48 kişiyi bir araya getirecek.",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanır",
+      "highlights_tr": [
+        "10 günlük uluslararası gençlik değişimi",
+        "Türkiye'den 5 katılımcı ve 1 grup lideri",
+        "Sosyal kapsayıcılık ve empati odaklı"
+      ],
+      "id": "db89e5ef8212",
+      "image_queries": [
+        "Dortmund Germany city",
+        "Germany youth exchange",
+        "international students workshop"
+      ],
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-18T21:54:22.233706+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/almanya-dortmund-10-gun-genclik-degisimi/",
+      "summary_tr": "Almanya'nın Dortmund şehrinde düzenlenecek 10 günlük Erasmus+ Gençlik Değişimi projesi, sosyal kapsayıcılık, empati ve psikolojik iyi oluş konularına odaklanıyor.",
+      "title_tr": "Almanya'da Erasmus+ Gençlik Değişimi: Beyond Barriers",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6a34cb10-0ac0-41e0-a094-3ec83e29a644",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "A Grubu kariyer meslek ilanı",
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru"
+      ],
+      "icon": "landmark",
+      "id": "0b6e8524b344",
+      "is_opportunity": true,
+      "organization": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI",
+      "organization_domain": "sgk.gov.tr",
+      "queued_at": "2026-11-18T21:54:51.762402+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6a34cb10-0ac0-41e0-a094-3ec83e29a644",
+      "summary_tr": "Sosyal Güvenlik Kurumu Başkanlığı tarafından açılan müfettiş yardımcılığı giriş sınavı ilanıdır. Başvurular Kariyer Kapısı üzerinden e-Devlet aracılığıyla gerçekleştirilecektir.",
+      "title_tr": "Sosyal Güvenlik Kurumu Müfettiş Yardımcılığı Giriş Sınavı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfbbWXR6x9ppbH9wffdDKulZrzPBM07nCLYZkFq-LrJ_M134Q/viewform",
+      "category": "egitim",
+      "country_tr": "Almanya",
+      "deadline": "",
+      "eligibility_evidence": "Katılımcı Ülkeler: 🇸🇰 Slovakya, 🇧🇬 Bulgaristan, 🇵🇱 Polonya, 🇨🇿 Çekya, 🇩🇪 Almanya, 🇪🇸 İspanya ve 🇹🇷 Türkiye",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanır",
+      "highlights_tr": [
+        "18-30 yaş arası katılımcılar",
+        "8 gün süreli gençlik değişimi",
+        "İklim değişikliği ve yeşil dönüşüm odaklı"
+      ],
+      "id": "237d320a94d0",
+      "image_queries": [
+        "Berlin Germany city",
+        "Germany youth exchange",
+        "students discussing environment"
+      ],
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-18T21:55:06.644788+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/almanya-berlin-8-gun-erasmus-genclik-degisimi/",
+      "summary_tr": "Berlin'de düzenlenecek olan 'Climate Generation' adlı Erasmus+ gençlik değişimi, iklim değişikliği ve sürdürülebilirlik konularında 7 ülkeden 50 genci bir araya getiriyor.",
+      "title_tr": "Berlin'de 8 Günlük Erasmus+ Gençlik Değişimi",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSducjMwhG4tk7PnkX41orxldCAV-rHULj_71VTo52pVi6-JBA/viewform",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-27",
+      "eligibility_evidence": "Türkiye Ulusal Ajansı tarafından desteklenen “Her Yerde Turizme Erişiyoruz” projesi, Erasmus+ KA154 Gençlik Katılımı programı kapsamında İzmir’de düzenlenecek toplantı için katılımcı başvurularını kabul ediyor.",
+      "fee_required": false,
+      "funding_tr": "Ulaşım, konaklama ve yemek karşılanır",
+      "highlights_tr": [
+        "18-30 yaş arası gençler",
+        "Ege veya Marmara bölgesinde ikamet",
+        "Youthpass sertifikası verilecek"
+      ],
+      "id": "073a959984db",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "Uluslararası Genç Arayış Derneği",
+      "organization_domain": "",
+      "queued_at": "2026-11-18T21:55:20.316571+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/izmir-3-gun-erasmus-programi/",
+      "summary_tr": "Uluslararası Genç Arayış Derneği tarafından düzenlenen, erişilebilir turizm politikaları üzerine odaklanan 3 günlük Erasmus+ KA154 gençlik katılımı toplantısı.",
+      "title_tr": "İzmir: Her Yerde Turizme Erişiyoruz Erasmus+ Gençlik Katılımı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 3,
+      "apply_url": "https://www.oceanculturelife.com/",
+      "category": "hibe",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "Open to members of the Ocean Culture community worldwide",
+      "fee_required": false,
+      "funding_tr": "1.000£, 3.000£ veya 5.000£ hibe desteği",
+      "highlights_tr": [
+        "Dünya çapında tüm yaratıcı bireylere açık",
+        "Film, fotoğraf, yazı ve ses projeleri destekleniyor",
+        "Ücretsiz Ocean Culture topluluğuna üyelik şart"
+      ],
+      "id": "75a93ab1d438",
+      "image_queries": [
+        "ocean conservation photography",
+        "marine life storytelling",
+        "creative storytelling project"
+      ],
+      "is_opportunity": true,
+      "organization": "Ocean Culture",
+      "organization_domain": "oceanculture.life",
+      "queued_at": "2026-11-18T21:55:27.125632+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/18/ocean-culture-storytelling-grants-2027-apply-for-up-to-5000-to-fund-film-photography-writing-and-ocean-conservation-stories-worldwide/",
+      "summary_tr": "Ocean Culture, okyanus koruma ve farkındalık temalı film, fotoğraf, yazı veya ses projeleri için dünya çapındaki yaratıcı bireylere 5.000£'a kadar hibe desteği sağlıyor.",
+      "title_tr": "Ocean Culture 2027 Hikaye Anlatıcılığı Hibeleri",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4451,6 +4571,12 @@
       "title": "AFS Global STEM Academies 2027: Fully Funded International Study Abroad Scholarship for Students from 12 Countries",
       "ts": "2026-11-15T17:42:38.945327+00:00"
     },
+    "073a959984db": {
+      "reason": "",
+      "status": "queued",
+      "title": "İzmir: Her Yerde Turizme Erişiyoruz Erasmus+ Gençlik Katılımı",
+      "ts": "2026-11-18T21:55:20.316592+00:00"
+    },
     "0833644949f7": {
       "reason": "",
       "status": "published",
@@ -4498,6 +4624,12 @@
       "status": "rejected",
       "title": "ENHANCER PRO Hibe Programları",
       "ts": "2026-10-29T23:04:17.957136+00:00"
+    },
+    "0b6e8524b344": {
+      "reason": "",
+      "status": "queued",
+      "title": "Sosyal Güvenlik Kurumu Müfettiş Yardımcılığı Giriş Sınavı",
+      "ts": "2026-11-18T21:54:51.762425+00:00"
     },
     "0c1216ba08b3": {
       "reason": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
@@ -4655,6 +4787,12 @@
       "title": "WHO Launches Together for Science and Health: A Global Movement Inviting Organizations to Strengthen Trust in Science an",
       "ts": "2026-11-14T17:58:00.558700+00:00"
     },
+    "1c827ae12bcc": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Nükleer Düzenleme Kurumu 8 Sözleşmeli Bilişim Personeli Alacak",
+      "ts": "2026-11-18T21:54:35.987944+00:00"
+    },
     "1e5ec320b681": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -4714,6 +4852,12 @@
       "status": "published",
       "title": "Green Games Lab Erasmus+ Eğitim Kursu",
       "ts": "2026-11-09T17:28:16.274158+00:00"
+    },
+    "237d320a94d0": {
+      "reason": "",
+      "status": "queued",
+      "title": "Berlin'de 8 Günlük Erasmus+ Gençlik Değişimi",
+      "ts": "2026-11-18T21:55:06.644810+00:00"
     },
     "2397e6feda6a": {
       "reason": "Türkiye'ye kapalı: Interested candidates from Cambodia, Indonesia, Malaysia, the Philippines, Thailand, and Viet Nam should carefully revie",
@@ -5141,6 +5285,12 @@
       "title": "The Asia Foundation Development Fellows Program 2027: Leadership Fellowship for Young Professionals Across Asia and the ",
       "ts": "2026-11-06T21:30:03.591009+00:00"
     },
+    "4fb76b259a82": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "WAF Global Internship Program 2027: Apply for a Three-Month Remote Internship in Global Agriculture, Research and Policy",
+      "ts": "2026-11-18T21:54:14.778663+00:00"
+    },
     "5107c2437858": {
       "reason": "",
       "status": "published",
@@ -5513,6 +5663,12 @@
       "title": "UNIQLO Global Management Program 2027 - Japonya",
       "ts": "2026-11-16T21:00:08.949591+00:00"
     },
+    "75a93ab1d438": {
+      "reason": "",
+      "status": "queued",
+      "title": "Ocean Culture 2027 Hikaye Anlatıcılığı Hibeleri",
+      "ts": "2026-11-18T21:55:27.125656+00:00"
+    },
     "774081d58ee3": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -5604,10 +5760,10 @@
       "ts": "2026-11-17T13:15:36.968086+00:00"
     },
     "81ace53e56f6": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Nükleer Düzenleme Kurumu: Sözleşmeli Bilişim Personeli Giriş Sınavı",
-      "ts": "2026-11-04T15:26:48.930846+00:00"
+      "ts": "2026-11-18T21:53:41.150146+00:00"
     },
     "81b44511dbd4": {
       "reason": "Türkiye'ye kapalı: Applicants must be citizens of an eligible Commonwealth country or have refugee status granted by an eligible Commonweal",
@@ -5712,10 +5868,10 @@
       "ts": "2026-11-16T21:00:35.908137+00:00"
     },
     "8a8db25c2bbc": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Karabağlar Belediyesi Çevre Mühendisi Alımı",
-      "ts": "2026-11-04T15:26:10.092197+00:00"
+      "ts": "2026-11-18T21:53:41.150122+00:00"
     },
     "8b43360bb216": {
       "reason": "",
@@ -5806,6 +5962,12 @@
       "status": "expired",
       "title": "İstanbul Kalkınma Ajansı 5 Uzman Personel Alımı",
       "ts": "2026-11-13T16:15:07.388919+00:00"
+    },
+    "964d6b677c88": {
+      "reason": "İlan, başvuru yapacak adayların uyruğu veya çalışma izni gereklilikleri hakkında bilgi vermemektedir.",
+      "status": "pending",
+      "title": "Plan International Ghana Announces Three Job Vacancies for November 2026: Project Accountant, District Officer and Suppl",
+      "ts": "2026-11-18T21:54:58.832884+00:00"
     },
     "984b86faeb90": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -5950,6 +6112,12 @@
       "status": "rejected",
       "title": "UTokyo Amgen Scholars Program 2027 in Japan (Fully Funded Internship)",
       "ts": "2026-11-01T13:10:17.106010+00:00"
+    },
+    "a4581acb8b6a": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Columbia University Stanley Park Climate Finance Scholarships 2027: Fully Funded Tuition for Three Students in the MS in",
+      "ts": "2026-11-18T21:55:13.155894+00:00"
     },
     "a493a6f9fbf5": {
       "reason": "",
@@ -6234,10 +6402,10 @@
       "ts": "2026-11-12T02:55:59.308856+00:00"
     },
     "c159003011e5": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Doğu Karadeniz Kalkınma Ajansı (DOKA) Uzman Alımı",
-      "ts": "2026-11-04T15:26:34.365860+00:00"
+      "ts": "2026-11-18T21:53:41.150141+00:00"
     },
     "c2965177b6a1": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -6419,6 +6587,12 @@
       "title": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım",
       "ts": "2026-11-18T13:56:58.881407+00:00"
     },
+    "db89e5ef8212": {
+      "reason": "",
+      "status": "queued",
+      "title": "Almanya'da Erasmus+ Gençlik Değişimi: Beyond Barriers",
+      "ts": "2026-11-18T21:54:22.233726+00:00"
+    },
     "dbc179fb2253": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -6528,10 +6702,10 @@
       "ts": "2026-11-17T13:15:43.122049+00:00"
     },
     "e83b58db9b6e": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "BTK Akademi Yapay Zekâ ile İçerik Üretimi Eğitimi",
-      "ts": "2026-11-12T18:53:52.595698+00:00"
+      "ts": "2026-11-18T21:53:41.150271+00:00"
     },
     "e8827e4a4f59": {
       "reason": "bekleme süresi doldu",
@@ -6640,6 +6814,12 @@
       "status": "pending",
       "title": "Chatham House Research Fellow – US and North America Programme 2026: Research Career Opportunity in International Relati",
       "ts": "2026-11-17T03:48:19.207536+00:00"
+    },
+    "f5c40c24839f": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "RC Trust Internship 2027 in Germany | Fully Funded",
+      "ts": "2026-11-18T21:54:28.796496+00:00"
     },
     "f5df4f33636b": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -7014,6 +7194,14 @@
     "fikrin toprağa değsin hızlandırma programı",
     "çimsa colab lisans proje mentorluk programı",
     "azerbaycan'da esc gönüllülük projesi",
-    "polonya'da erasmus eğitim kursu a laboratory for creativity"
+    "polonya'da erasmus eğitim kursu a laboratory for creativity",
+    "world agriculture forum waf 2027 uzaktan staj programı",
+    "almanya'da erasmus gençlik değişimi beyond barriers",
+    "sosyal güvenlik kurumu müfettiş yardımcılığı giriş sınavı",
+    "plan international gana i ş i lanları",
+    "berlin'de 8 günlük erasmus gençlik değişimi",
+    "columbia university stanley park i klim finansı bursu",
+    "i zmir her yerde turizme erişiyoruz erasmus gençlik katılımı",
+    "ocean culture 2027 hikaye anlatıcılığı hibeleri"
   ]
 }

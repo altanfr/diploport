@@ -1,17 +1,18 @@
-# Son çalışma (2026-11-18 16:53 TR)
+# Son çalışma (2026-11-19 00:53 TR)
 
-Kuyruk: 111 · Onay bekleyen: 29 · Hazırlanan: d993ef285a9d
-Bulunan yeni ilan: 9 · Bu çalışmada işlenmesi planlanan: 9 · Raporlanan: 9
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 2 yeni / 10 kayıt · AB İlan: 6 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 1 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 23 kayıt
+Kuyruk: 112 · Onay bekleyen: 32 · Hazırlanan: -
+Bulunan yeni ilan: 12 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 4 yeni / 10 kayıt · Erasmusgram: 5 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 1 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 24 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| elendi | Opportunities Circle | Eric Bleumink Scholarships 2027 in Netherlands / Fully Funded | Türkiye'ye kapalı: Applicants must hold the nationality of one of the eligible countries listed in the selection criteria of the Eric Bleum |
-| kuyrukta | AB İlan | Fikrin Toprağa Değsin Hızlandırma Programı | kanıt: Anadolu Efes’in ana destekçiliği, Anadolu Meraları’nın yürütücülüğü ve Türk Sanayicileri ve İş İnsanları Derneğinin (TÜSİAD) iş birliğiyle hayata geçirilen Fikrin Toprağa · son tarih: 2026-12-09 · link: https://fikrintopragadegsin.typeform.com/to/ik9wMJFT · görsel: kurum logosu aranacak (Anadolu Efes; stok foto yok) |
-| kuyrukta | Youthall | Çimsa CoLAB Lisans Proje Mentorluk Programı | kanıt: Kaynak Türkiye merkezli (Youthall) · son tarih: - · link: https://www.youthall.com/tr/cimsa/cimsa-colab-undergraduate-project-mentorship-program_17/ · görsel: kurum logosu aranacak (Çimsa; stok foto yok) |
-| elendi | Opportunities Circle | Global Management Program 2027 in Japan / Fully Funded | tekrar |
-| kuyrukta | AB İlan | Azerbaycan'da ESC Gönüllülük Projesi | kanıt: AB üyesi ülkelerden birinde, Kuzey Makedonya’da, İzlanda’da, Lihtenştayn’da veya Türkiye’de ikamet etmesi · son tarih: - · link: https://youth.europa.eu/solidarity/opportunity/55263_en |
-| elendi | AB İlan | Almanya’da Uzun Dönem ESC Gönüllülük Projesi Fırsatı | tekrar |
-| elendi | AB İlan | Sayıştay Başkanlığı Sözleşmeli Çözümleyici ve Programcı Alımı Duyurusu | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link) |
-| kuyrukta | AB İlan | Polonya'da Erasmus+ Eğitim Kursu: A Laboratory for Creativity | kanıt: Katılımcıların Türkiye’den gelip tekrar Türkiye’ye dönmeleri gerekmektedir. · son tarih: 2026-11-22 · link: https://linktr.ee/cya.eu |
-| elendi | AB İlan | EWA 2027–2028 Programı: Kadın Girişimcilere 120.000 Avroya Kadar Destek | fırsat değil (haber/liste/reklam) |
+| onayda | Opportunities For Youth | World Agriculture Forum (WAF) 2027 Uzaktan Staj Programı | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2026-12-15 · link: https://worldagricultureforum.org/internship · görsel: kurum logosu aranacak (World Agriculture Forum; stok foto yok) |
+| kuyrukta | Erasmusgram | Almanya'da Erasmus+ Gençlik Değişimi: Beyond Barriers | kanıt: Türkiye dahil 8 farklı ülkeden toplam 48 kişiyi bir araya getirecek. · son tarih: - · link: https://docs.google.com/forms/d/e/1FAIpQLSemj1qqyh_Tet4GjJlaqPF0gb4Ded5LdHrDRW5vSLN03d5U-A/viewform · foto: Dortmund Germany city / Germany youth exchange / international students workshop |
+| elendi | Opportunities Circle | RC Trust Internship 2027 in Germany / Fully Funded | tekrar |
+| elendi | AB İlan | Nükleer Düzenleme Kurumu 8 Sözleşmeli Bilişim Personeli Alacak | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link) |
+| kuyrukta | Kariyer Kapısı | Sosyal Güvenlik Kurumu Müfettiş Yardımcılığı Giriş Sınavı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=6a34cb10-0ac0-41e0-a094-3ec83e29a644 · görsel: kurum logosu aranacak (SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI; stok foto yok) |
+| onayda | Opportunities For Youth | Plan International Gana İş İlanları | İlan, başvuru yapacak adayların uyruğu veya çalışma izni gereklilikleri hakkında bilgi vermemektedir. · son tarih: 2026-11-27 · link: https://lnkd.in/dEH5yecB · görsel: kurum logosu aranacak (Plan International; stok foto yok) |
+| kuyrukta | Erasmusgram | Berlin'de 8 Günlük Erasmus+ Gençlik Değişimi | kanıt: Katılımcı Ülkeler: 🇸🇰 Slovakya, 🇧🇬 Bulgaristan, 🇵🇱 Polonya, 🇨🇿 Çekya, 🇩🇪 Almanya, 🇪🇸 İspanya ve 🇹🇷 Türkiye · son tarih: - · link: https://docs.google.com/forms/d/e/1FAIpQLSfbbWXR6x9ppbH9wffdDKulZrzPBM07nCLYZkFq-LrJ_M134Q/viewform · foto: Berlin Germany city / Germany youth exchange / students discussing environment |
+| onayda | Opportunities For Youth | Columbia University Stanley Park İklim Finansı Bursu | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2027-01-15 · link: https://www.climate.columbia.edu/stanley-park-climate-finance-scholarships · görsel: kurum logosu aranacak (Columbia Climate School; stok foto yok) |
+| kuyrukta | Erasmusgram | İzmir: Her Yerde Turizme Erişiyoruz Erasmus+ Gençlik Katılımı | kanıt: Türkiye Ulusal Ajansı tarafından desteklenen “Her Yerde Turizme Erişiyoruz” projesi, Erasmus+ KA154 Gençlik Katılımı programı kapsamında İzmir’de düzenlenecek toplantı iç · son tarih: 2026-11-27 · link: https://docs.google.com/forms/d/e/1FAIpQLSducjMwhG4tk7PnkX41orxldCAV-rHULj_71VTo52pVi6-JBA/viewform · görsel: kurum logosu aranacak (Uluslararası Genç Arayış Derneği; stok foto yok) |
+| kuyrukta | Opportunities For Youth | Ocean Culture 2027 Hikaye Anlatıcılığı Hibeleri | kanıt: Open to members of the Ocean Culture community worldwide · son tarih: 2026-12-01 · link: https://www.oceanculturelife.com/ · görsel: kurum logosu aranacak (Ocean Culture; stok foto yok) |
