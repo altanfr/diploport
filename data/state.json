@@ -248,7 +248,12 @@
     "dika.org.tr/duyuru/ajansimiza-dort-uzman-personel-alimi/322",
     "ksj.mit.edu/fellowships/academic-year-fellowship",
     "youthall.com/tr/Shell/it-infrastructure-internship_1330",
-    "kariyerkapisi.gov.tr/IlanDetay?i=069150d6-ad89-4973-9410-25ae1fa56d67"
+    "kariyerkapisi.gov.tr/IlanDetay?i=069150d6-ad89-4973-9410-25ae1fa56d67",
+    "kaplanpathways.com/bia-future-makers-challenge",
+    "apply.evensfoundation.eu",
+    "aji.org/apply",
+    "workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1beaa927-d6fd-4da0-86c3-381c751ea13b&ccId=19000101_000001&jobId=637654&source=CC2&lang=en_US",
+    "app.beapplied.com/apply/ozkamij8t9"
   ],
   "outbox": [],
   "pending": {
@@ -369,6 +374,67 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "scene"
     },
+    "3114e2690125": {
+      "apply_link_id": 1,
+      "apply_url": "https://aji.org/apply/",
+      "category": "is",
+      "country_tr": "ABD",
+      "deadline": "2027-01-31",
+      "eligibility_evidence": "The recruitment information also identifies authorization to work in the United States as a requirement.",
+      "fee_required": false,
+      "funding_tr": "Yıllık 60.000 USD maaş ve yan haklar",
+      "highlights_tr": [
+        "Yıllık 60.000 USD maaş ve yan haklar",
+        "ABD çalışma izni şartı aranmaktadır",
+        "Washington D.C.'de yüz yüze çalışma"
+      ],
+      "id": "3114e2690125",
+      "is_opportunity": true,
+      "message_id": 58,
+      "organization": "Allbritton Journalism Institute",
+      "organization_domain": "aji.org",
+      "queued_at": "2026-11-18T04:15:20.582042+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/17/allbritton-journalism-institute-reporting-fellowship-2027-2029-earn-60000-per-year-through-a-fully-paid-two-year-journalism-fellowship-in-washington-d-c/",
+      "summary_tr": "Allbritton Journalism Institute, Washington D.C.'de The Washington Sun bünyesinde iki yıllık ücretli gazetecilik programı sunuyor. Program, uygulamalı eğitim ve profesyonel haber odası deneyimini birleştiriyor.",
+      "title_tr": "Allbritton Journalism Institute 2027-2029 Gazetecilik Bursu",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Başvuru için ABD çalışma izni şartı bulunmaktadır; Türk vatandaşlarının bu izne sahip olup olamayacağı belirtilmemiştir.",
+      "visual_kind": "institution"
+    },
+    "31a3cf802fdd": {
+      "apply_link_id": 2,
+      "apply_url": "https://www.kaplanpathways.com/bia-future-makers-challenge/",
+      "category": "yarisma",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "2026-12-15",
+      "eligibility_evidence": "For ambitious international students who aspire to make a meaningful difference in the world, the Birmingham International Academy (BIA) Future Makers Challenge 2027 presents an exciting opportunity",
+      "fee_required": false,
+      "funding_tr": "5.000 GBP burs",
+      "highlights_tr": [
+        "5.000 GBP değerinde eğitim bursu",
+        "Video veya yazılı başvuru seçeneği",
+        "University of Birmingham pathway programı"
+      ],
+      "id": "31a3cf802fdd",
+      "image_queries": [
+        "Birmingham University campus",
+        "United Kingdom university students",
+        "students studying library"
+      ],
+      "is_opportunity": true,
+      "message_id": 57,
+      "organization": "Birmingham International Academy",
+      "organization_domain": "kaplanpathways.com",
+      "queued_at": "2026-11-18T04:15:03.524766+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/17/birmingham-international-academy-future-makers-challenge-2027/",
+      "summary_tr": "Birmingham International Academy tarafından düzenlenen bu yarışma, küresel sorunlara yenilikçi çözümler sunan öğrencilere 5.000 GBP değerinde eğitim bursu kazanma fırsatı sunmaktadır.",
+      "title_tr": "Birmingham International Academy Future Makers Challenge 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
     "415a59cdb88b": {
       "apply_link_id": 1,
       "apply_url": "https://www.k.u-tokyo.ac.jp/en/education/for_undergraduate/how_to_apply/",
@@ -424,6 +490,35 @@
       "title_tr": "LEGO Foundation Strateji Departmanı Öğrenci Çalışanı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "5943d9ac4b3f": {
+      "apply_link_id": 1,
+      "apply_url": "https://app.beapplied.com/apply/ozkamij8t9",
+      "category": "is",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "2026-11-22",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Yıllık 47.699 GBP maaş",
+      "highlights_tr": [
+        "Yıllık 47.699 GBP maaş",
+        "Londra merkezli hibrit çalışma",
+        "Deneyimli profesyoneller için uygun"
+      ],
+      "id": "5943d9ac4b3f",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 60,
+      "organization": "UK Youth",
+      "organization_domain": "",
+      "queued_at": "2026-11-18T04:16:44.108713+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/17/uk-youth-is-hiring-youth-sector-development-partnership-manager-in-london-47699-salary-2026/",
+      "summary_tr": "UK Youth, Londra merkezli hibrit çalışma düzenine sahip, gençlik sektörü geliştirme ortaklığı yöneticisi arıyor. Pozisyon, ulusal düzeyde gençlik çalışmalarının kalitesini ve sürdürülebilirliğini artırmayı hedeflemektedir.",
+      "title_tr": "UK Youth: Youth Sector Development Partnership Manager",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
       "visual_kind": "institution"
     },
     "5c3d11ff6613": {
@@ -661,6 +756,35 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "8529ed92dfdc": {
+      "apply_link_id": 1,
+      "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1beaa927-d6fd-4da0-86c3-381c751ea13b&ccId=19000101_000001&jobId=637654&source=CC2&lang=en_US",
+      "category": "staj",
+      "country_tr": "ABD",
+      "deadline": "",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Lisansüstü öğrencilere ve profesyonellere açık",
+        "Gizlilik, yapay zeka ve teknoloji politikası odaklı",
+        "Hibrit ve uzaktan çalışma seçenekleri mevcut"
+      ],
+      "id": "8529ed92dfdc",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 59,
+      "organization": "Future of Privacy Forum",
+      "organization_domain": "fpf.org",
+      "queued_at": "2026-11-18T04:16:35.506927+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/17/future-of-privacy-forum-fpf-u-s-policy-internships-2027-apply-for-summer-fall-and-spring-internship-opportunities-in-privacy-artificial-intelligence-and-technology-policy/",
+      "summary_tr": "Future of Privacy Forum, lisansüstü öğrencileri ve profesyoneller için gizlilik politikası, yapay zeka ve teknoloji düzenlemeleri alanlarında staj imkanı sunmaktadır.",
+      "title_tr": "Future of Privacy Forum (FPF) ABD Politika Staj Programı",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metinde başvuru için gerekli vatandaşlık veya çalışma izni şartlarına dair bir bilgi bulunmamaktadır.",
+      "visual_kind": "institution"
     },
     "8640b59fba4f": {
       "apply_link_id": 1,
@@ -4146,6 +4270,32 @@
       "title_tr": "Sahil Güvenlik Komutanlığı 2026 Yılı Devlet Memuru Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://apply.evensfoundation.eu/",
+      "category": "hibe",
+      "country_tr": "İskoçya",
+      "deadline": "2026-12-03",
+      "eligibility_evidence": "The Digital Democracy Edinburgh 2027 Travel Stipend Program represents an outstanding opportunity for young people worldwide to participate in one of the leading international gatherings",
+      "fee_required": false,
+      "funding_tr": "300 Euro'ya kadar seyahat, konaklama ve kayıt masrafı desteği",
+      "highlights_tr": [
+        "Dünya genelinden gençlere açık",
+        "10 kişiye 300 Euro'ya kadar destek",
+        "Konferans tarihi: 11-12 Mart 2027"
+      ],
+      "id": "35a4616df660",
+      "is_opportunity": true,
+      "organization": "Evens Foundation",
+      "organization_domain": "evensfoundation.eu",
+      "queued_at": "2026-11-18T04:15:11.386619+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/17/digital-democracy-edinburgh-2027-travel-stipends-for-young-civic-technology-and-digital-democracy-leaders-worldwide/",
+      "summary_tr": "Evens Foundation, Edinburgh'da düzenlenecek Digital Democracy 2027 konferansına katılacak gençlere 300 Euro'ya kadar seyahat ve katılım desteği sunuyor.",
+      "title_tr": "Digital Democracy Edinburgh 2027 Seyahat Desteği",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4172,6 +4322,12 @@
       "status": "rejected",
       "title": "RIKEN CBS Summer Program 2027 in Japan",
       "ts": "2026-11-12T18:53:45.107423+00:00"
+    },
+    "02f47e091978": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "DAAD Heilbronn AI Fellowships 2026/2027: €2,800 Monthly Funding for International AI PhD Researchers and Postdoctoral Fe",
+      "ts": "2026-11-18T04:16:14.385304+00:00"
     },
     "03936430eeab": {
       "reason": "Türkiye'ye kapalı: The 2027 programme will take place in selected locations across the United Kingdom, including London, Birmingham, Manche",
@@ -4220,6 +4376,12 @@
       "status": "queued",
       "title": "Tsinghua Amgen Yaz Stajı Programı 2027 - Çin",
       "ts": "2026-11-11T21:55:39.856002+00:00"
+    },
+    "054cbda30e24": {
+      "reason": "Türkiye'ye kapalı: Eligible applicants must be full-time students enrolled at an accredited college or university in North Carolina.",
+      "status": "rejected",
+      "title": "John M. Belk Impact Fellowship 2027–2028: Apply for a Paid 10-Month Fellowship in Education Policy, Research and Social ",
+      "ts": "2026-11-18T04:16:03.799293+00:00"
     },
     "05cb5b7818c7": {
       "reason": "Metinde Türkiye'nin dahil olduğu 12 ülkelik liste açıkça belirtilmemiştir.",
@@ -4599,6 +4761,18 @@
       "title": "AbbVie Uzun Dönem Staj Programı",
       "ts": "2026-11-15T10:45:41.068589+00:00"
     },
+    "3114e2690125": {
+      "reason": "Başvuru için ABD çalışma izni şartı bulunmaktadır; Türk vatandaşlarının bu izne sahip olup olamayacağı belirtilmemiştir.",
+      "status": "pending",
+      "title": "Allbritton Journalism Institute Reporting Fellowship 2027–2029: Earn $60,000 Per Year Through a Fully Paid Two-Year Jour",
+      "ts": "2026-11-18T04:15:20.582060+00:00"
+    },
+    "31a3cf802fdd": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Birmingham International Academy, Future Makers Challenge 2027",
+      "ts": "2026-11-18T04:15:03.524783+00:00"
+    },
     "3319c88778df": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -4634,6 +4808,12 @@
       "status": "rejected",
       "title": "Fulbright UK Summer Institutes 2027: Fully Funded 2–4 Week UK Study Abroad Programme for US Undergraduate Students",
       "ts": "2026-11-13T22:35:27.324130+00:00"
+    },
+    "35a4616df660": {
+      "reason": "",
+      "status": "queued",
+      "title": "Digital Democracy Edinburgh 2027 Seyahat Desteği",
+      "ts": "2026-11-18T04:15:11.386638+00:00"
     },
     "35edced7d461": {
       "reason": "Türkiye'ye kapalı: The programme is intended to help participants understand the different functions of a modern banking institution while ",
@@ -4887,6 +5067,12 @@
       "title": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
       "ts": "2026-11-03T09:30:20.967628+00:00"
     },
+    "52077fa88042": {
+      "reason": "Türkiye'ye kapalı: Applications and nominations are open to eligible young people across the African continent.",
+      "status": "rejected",
+      "title": "Africa Climate Collaborative Young Leaders’ Committee 2026: Apply to Join a 15-Member Team of African Climate Leaders",
+      "ts": "2026-11-18T04:16:21.373381+00:00"
+    },
     "52ff6e17902d": {
       "reason": "",
       "status": "queued",
@@ -4934,6 +5120,12 @@
       "status": "rejected",
       "title": "Fransa Büyükelçiliği FSMP Yüksek Lisans Bursu Başvurularınızı Bekliyor",
       "ts": "2026-11-03T17:50:04.889232+00:00"
+    },
+    "5943d9ac4b3f": {
+      "reason": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
+      "status": "pending",
+      "title": "UK Youth Is Hiring: Youth Sector Development Partnership Manager in London – £47,699 Salary (2026)",
+      "ts": "2026-11-18T04:16:44.108730+00:00"
     },
     "597559930cd7": {
       "reason": "bekleme süresi doldu",
@@ -5151,6 +5343,12 @@
       "title": "2027 Fully Funded Youth Delegate Programme: Apply for the Council of Europe Congress in Strasbourg",
       "ts": "2026-11-14T11:25:36.399690+00:00"
     },
+    "6e7a6c7f9e00": {
+      "reason": "Türkiye'ye kapalı: The CitizensNYC Community Leaders Grants 2027 programme is now accepting applications from New York City residents and g",
+      "status": "rejected",
+      "title": "CitizensNYC Community Leaders Grants 2027: Apply for Up to $5,000 in Funding for Community Development Projects in New Y",
+      "ts": "2026-11-18T04:16:28.889879+00:00"
+    },
     "6e8e91735eb0": {
       "reason": "",
       "status": "queued",
@@ -5366,6 +5564,12 @@
       "status": "pending",
       "title": "World Leaders Convention 2027 in Austria (Fully Funded)",
       "ts": "2026-11-12T18:54:07.177302+00:00"
+    },
+    "8529ed92dfdc": {
+      "reason": "Metinde başvuru için gerekli vatandaşlık veya çalışma izni şartlarına dair bir bilgi bulunmamaktadır.",
+      "status": "pending",
+      "title": "Future of Privacy Forum (FPF) U.S. Policy Internships 2027: Apply for Summer, Fall, and Spring Internship Opportunities ",
+      "ts": "2026-11-18T04:16:35.506943+00:00"
     },
     "856bbd4d4028": {
       "reason": "bekleme süresi doldu",
@@ -5840,6 +6044,12 @@
       "status": "rejected",
       "title": "The Allstate Foundation College Service Grants 2027–2028: Apply for $10,000 to Support Student-Led Community Service Pro",
       "ts": "2026-11-13T00:17:26.536825+00:00"
+    },
+    "b5c375b38d32": {
+      "reason": "Türkiye'ye kapalı: This initiative seeks to increase access to quality technical and vocational education for deserving and vulnerable youn",
+      "status": "rejected",
+      "title": "Wings to Fly – Promotion of Young People Through TVET Scholarships Program 2026 in Kenya",
+      "ts": "2026-11-18T04:14:51.430890+00:00"
     },
     "b67a02db7bff": {
       "reason": "son başvuru geçti",
@@ -6679,6 +6889,11 @@
     "dicle kalkınma ajansı di ka uzman personel alımı",
     "knight science journalism fellowship 2027 mit",
     "it infrastructure stajı",
-    "sahil güvenlik komutanlığı 2026 yılı devlet memuru alımı"
+    "sahil güvenlik komutanlığı 2026 yılı devlet memuru alımı",
+    "birmingham international academy future makers challenge 2027",
+    "digital democracy edinburgh 2027 seyahat desteği",
+    "allbritton journalism institute 2027 2029 gazetecilik bursu",
+    "future of privacy forum fpf abd politika staj programı",
+    "uk youth youth sector development partnership manager"
   ]
 }
