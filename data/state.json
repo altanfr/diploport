@@ -253,9 +253,24 @@
     "apply.evensfoundation.eu",
     "aji.org/apply",
     "workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1beaa927-d6fd-4da0-86c3-381c751ea13b&ccId=19000101_000001&jobId=637654&source=CC2&lang=en_US",
-    "app.beapplied.com/apply/ozkamij8t9"
+    "app.beapplied.com/apply/ozkamij8t9",
+    "fikrintopragadegsin.typeform.com/to/ik9wMJFT",
+    "youthall.com/tr/cimsa/cimsa-colab-undergraduate-project-mentorship-program_17",
+    "youth.europa.eu/solidarity/opportunity/55263_en",
+    "linktr.ee/cya.eu"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.pgcareers.com/global/en/hiring-process",
+      "attempts": 0,
+      "caption": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım\n\nProcter & Gamble, 2027'de mezun olacak veya yeni mezun olmuş, iyi derecede İngilizce bilen, analitik düşünme ve liderlik becerilerine sahip adaylar için İnsan Kaynakları Yöneticisi pozisyonu açıyor. İşe alım süreci başvuru, online değerlendirmeler ve mülakatlardan oluşuyor.\n\n- 2027 mezunları veya yeni mezunlar\n- Mükemmel yazılı ve sözlü İngilizce\n- Liderlik ve analitik düşünme becerileri\n\nBaşvuru: https://www.pgcareers.com/global/en/hiring-process\nTüm fırsatlar: https://diploport.dev/#d993ef285a9d\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "d993ef285a9d",
+      "photo_query": "logo: P&G (ilan sayfasındaki şirket logosu)",
+      "source": "Youthall",
+      "title": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım",
+      "ts": "2026-11-18T13:56:25.446396+00:00"
+    }
+  ],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1321,60 +1336,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına açık",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Sözleşmeli personel statüsü"
-      ],
-      "icon": "landmark",
-      "id": "178db66dd187",
-      "is_opportunity": true,
-      "organization": "ZAFER KALKINMA AJANSI",
-      "organization_domain": "zafer.gov.tr",
-      "queued_at": "2026-11-04T06:08:28.518422+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0",
-      "summary_tr": "Zafer Kalkınma Ajansı tarafından sözleşmeli uzman personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilecektir.",
-      "title_tr": "Zafer Kalkınma Ajansı Uzman Personel Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.pgcareers.com/global/en/hiring-process",
-      "category": "is",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "We put our mark on brands you know, sold in hundreds of countries around the world.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "2027 mezunları veya yeni mezunlar",
-        "Mükemmel yazılı ve sözlü İngilizce",
-        "Liderlik ve analitik düşünme becerileri"
-      ],
-      "id": "d993ef285a9d",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Procter & Gamble",
-      "organization_domain": "pgcareers.com",
-      "queued_at": "2026-11-04T15:25:55.310134+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/en/pgcareersturkey/new-graduates-2027-human-resources-manager_111/",
-      "summary_tr": "Procter & Gamble, 2027'de mezun olacak veya yeni mezun olmuş, iyi derecede İngilizce bilen, analitik düşünme ve liderlik becerilerine sahip adaylar için İnsan Kaynakları Yöneticisi pozisyonu açıyor. İşe alım süreci başvuru, online değerlendirmeler ve mülakatlardan oluşuyor.",
-      "title_tr": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
@@ -4296,6 +4257,111 @@
       "title_tr": "Digital Democracy Edinburgh 2027 Seyahat Desteği",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://fikrintopragadegsin.typeform.com/to/ik9wMJFT",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-09",
+      "eligibility_evidence": "Anadolu Efes’in ana destekçiliği, Anadolu Meraları’nın yürütücülüğü ve Türk Sanayicileri ve İş İnsanları Derneğinin (TÜSİAD) iş birliğiyle hayata geçirilen Fikrin Toprağa Değsin Hızlandırma Programı için başvurular başladı.",
+      "fee_required": false,
+      "funding_tr": "Eğitim, mentorluk ve saha denemesi desteği",
+      "highlights_tr": [
+        "18-30 yaş arası üniversite öğrencileri ve mezunları",
+        "2-6 kişilik ekipler halinde başvuru zorunluluğu",
+        "6 ay süren eğitim ve mentorluk desteği"
+      ],
+      "id": "41e162b6e868",
+      "is_opportunity": true,
+      "organization": "Anadolu Efes",
+      "organization_domain": "anadoluefes.com.tr",
+      "queued_at": "2026-11-18T13:55:01.599793+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/fikrin-topraga-degsin-hizlandirma-programi-basvurulari-acildi/",
+      "summary_tr": "Tarım ve gıda sektöründe yenilikçi çözümler geliştiren 18-30 yaş arası genç ekiplere yönelik 6 aylık eğitim, mentorluk ve saha uygulama desteği sağlayan hızlandırma programı.",
+      "title_tr": "Fikrin Toprağa Değsin Hızlandırma Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/cimsa/cimsa-colab-undergraduate-project-mentorship-program_17/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "3. ve 4. sınıf lisans öğrencilerine açık",
+        "Sektör profesyonellerinden mentorluk desteği",
+        "Ar-Ge, sürdürülebilirlik ve üretim odaklı çalışma"
+      ],
+      "id": "fb93fd06c5d4",
+      "is_opportunity": true,
+      "organization": "Çimsa",
+      "organization_domain": "cimsa.com.tr",
+      "queued_at": "2026-11-18T13:55:30.215657+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/cimsa/cimsa-colab-undergraduate-project-mentorship-program_17/",
+      "summary_tr": "Çimsa, 3. ve 4. sınıf lisans öğrencilerinin bitirme veya dönem projelerini sektör profesyonellerinin mentorluğunda geliştirmelerine olanak tanıyan bir proje destek programı sunuyor.",
+      "title_tr": "Çimsa CoLAB Lisans Proje Mentorluk Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55263_en",
+      "category": "gonulluluk",
+      "country_tr": "Azerbaycan",
+      "deadline": "",
+      "eligibility_evidence": "AB üyesi ülkelerden birinde, Kuzey Makedonya’da, İzlanda’da, Lihtenştayn’da veya Türkiye’de ikamet etmesi",
+      "fee_required": false,
+      "funding_tr": "Konaklama, aylık 630 € ödenek ve seyahat desteği",
+      "highlights_tr": [
+        "18-35 yaş arası gençler başvurabilir",
+        "Konaklama ve aylık 630 € ödenek sağlanıyor",
+        "İngilizce iletişim becerisi gereklidir"
+      ],
+      "id": "d79aebde32d8",
+      "is_opportunity": true,
+      "organization": "Medicos del Mundo",
+      "organization_domain": "medicosdelmundo.org",
+      "queued_at": "2026-11-18T13:55:46.390475+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/azerbaycanda-gerceklesecek-esc-projesi-gonullulerini-ariyor/",
+      "summary_tr": "Azerbaycan'ın Sumgayıt kentinde 13 hafta sürecek, AB tarafından finanse edilen ESC gönüllülük projesi için 18-35 yaş arası katılımcılar aranıyor.",
+      "title_tr": "Azerbaycan'da ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://linktr.ee/cya.eu",
+      "category": "egitim",
+      "country_tr": "Polonya",
+      "deadline": "2026-11-22",
+      "eligibility_evidence": "Katılımcıların Türkiye’den gelip tekrar Türkiye’ye dönmeleri gerekmektedir.",
+      "fee_required": false,
+      "funding_tr": "Seyahat desteği, konaklama ve yemek karşılanır",
+      "highlights_tr": [
+        "18 yaş ve üzeri",
+        "B1-B2 seviyesinde İngilizce",
+        "Yeşil pasaport veya vize şartı"
+      ],
+      "id": "2c28fbf07cad",
+      "is_opportunity": true,
+      "organization": "Creative Youth Academy",
+      "organization_domain": "",
+      "queued_at": "2026-11-18T13:56:13.284296+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/polonyada-erasmus-egitim-kursu-katilimci-cagrisi-2/",
+      "summary_tr": "Polonya'nın Oslonino şehrinde 10-17 Aralık 2026 tarihleri arasında düzenlenecek Erasmus+ eğitim kursu için katılımcı aranıyor. Başvuru için yeşil pasaport veya geçerli vize şartı bulunmaktadır.",
+      "title_tr": "Polonya'da Erasmus+ Eğitim Kursu: A Laboratory for Creativity",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4521,6 +4587,12 @@
       "title": "EPFL Yaz Araştırma Stajı Programı 2027",
       "ts": "2026-11-12T18:52:43.527704+00:00"
     },
+    "157c1a047e2b": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Almanya’da Uzun Dönem ESC Gönüllülük Projesi Fırsatı",
+      "ts": "2026-11-18T13:55:56.126326+00:00"
+    },
     "1760f8288825": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -4528,10 +4600,10 @@
       "ts": "2026-10-30T09:53:19.421516+00:00"
     },
     "178db66dd187": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Zafer Kalkınma Ajansı Uzman Personel Alımı",
-      "ts": "2026-11-04T06:08:28.518442+00:00"
+      "ts": "2026-11-18T13:53:55.725158+00:00"
     },
     "182624f6840b": {
       "reason": "",
@@ -4718,6 +4790,12 @@
       "status": "expired",
       "title": "Güneşin Çocuklarını Üşütmeyelim Derneği Bursu",
       "ts": "2026-11-13T22:34:34.616043+00:00"
+    },
+    "2c28fbf07cad": {
+      "reason": "",
+      "status": "queued",
+      "title": "Polonya'da Erasmus+ Eğitim Kursu: A Laboratory for Creativity",
+      "ts": "2026-11-18T13:56:13.284318+00:00"
     },
     "2c35082df27e": {
       "reason": "",
@@ -4916,6 +4994,12 @@
       "status": "pending",
       "title": "University of Tokyo Summer Internship 2027 in Japan (UTSIP Kashiwa)",
       "ts": "2026-11-13T16:15:32.383368+00:00"
+    },
+    "41e162b6e868": {
+      "reason": "",
+      "status": "queued",
+      "title": "Fikrin Toprağa Değsin Hızlandırma Programı",
+      "ts": "2026-11-18T13:55:01.599812+00:00"
     },
     "41fbaa5f43c4": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -5541,6 +5625,12 @@
       "title": "The Hand Foundation Organizational Grants 2026: Apply for Up to $100,000 in Nonprofit Funding and Transformational Capit",
       "ts": "2026-11-17T03:48:02.859241+00:00"
     },
+    "82c7628a4da3": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "EWA 2027–2028 Programı: Kadın Girişimcilere 120.000 Avroya Kadar Destek",
+      "ts": "2026-11-18T13:56:22.123337+00:00"
+    },
     "82da24732b9b": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5702,6 +5792,12 @@
       "status": "expired",
       "title": "İspanya'da Erasmus+ Eğitim Kursu: Sosyal Kapsayıcılık ve Spor",
       "ts": "2026-11-13T22:34:34.615944+00:00"
+    },
+    "944605f639d0": {
+      "reason": "Türkiye'ye kapalı: Applicants must hold the nationality of one of the eligible countries listed in the selection criteria of the Eric Bleum",
+      "status": "rejected",
+      "title": "Eric Bleumink Scholarships 2027 in Netherlands | Fully Funded",
+      "ts": "2026-11-18T13:54:28.595003+00:00"
     },
     "948ce51a4fa8": {
       "reason": "",
@@ -5870,6 +5966,12 @@
       "status": "expired",
       "title": "İŞKUR Sözleşmeli Bilişim Personeli Alımı",
       "ts": "2026-11-13T22:34:34.615978+00:00"
+    },
+    "a590b31a46ca": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Global Management Program 2027 in Japan | Fully Funded",
+      "ts": "2026-11-18T13:55:37.583995+00:00"
     },
     "a5e6c90e8530": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -6303,6 +6405,12 @@
       "title": "Reagan-Fascell Demokrasi Burs Programı 2027-28",
       "ts": "2026-11-09T17:26:38.717569+00:00"
     },
+    "d79aebde32d8": {
+      "reason": "",
+      "status": "queued",
+      "title": "Azerbaycan'da ESC Gönüllülük Projesi",
+      "ts": "2026-11-18T13:55:46.390501+00:00"
+    },
     "d7bb1e4791ab": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -6471,6 +6579,12 @@
       "title": "Ege Sağlık Vakfı 2026-2027 Burs Programı",
       "ts": "2026-11-16T21:00:25.159302+00:00"
     },
+    "ed5d9ceae165": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Sayıştay Başkanlığı Sözleşmeli Çözümleyici ve Programcı Alımı Duyurusu",
+      "ts": "2026-11-18T13:56:04.373197+00:00"
+    },
     "ed841c0b7d94": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "pending",
@@ -6590,6 +6704,12 @@
       "status": "rejected",
       "title": "UTokyo Amgen Scholars Program in Japan 2027 | Fully Funded",
       "ts": "2026-11-17T13:15:54.610015+00:00"
+    },
+    "fb93fd06c5d4": {
+      "reason": "",
+      "status": "queued",
+      "title": "Çimsa CoLAB Lisans Proje Mentorluk Programı",
+      "ts": "2026-11-18T13:55:30.215697+00:00"
     },
     "fbe06e0388f2": {
       "reason": "",
@@ -6894,6 +7014,10 @@
     "digital democracy edinburgh 2027 seyahat desteği",
     "allbritton journalism institute 2027 2029 gazetecilik bursu",
     "future of privacy forum fpf abd politika staj programı",
-    "uk youth youth sector development partnership manager"
+    "uk youth youth sector development partnership manager",
+    "fikrin toprağa değsin hızlandırma programı",
+    "çimsa colab lisans proje mentorluk programı",
+    "azerbaycan'da esc gönüllülük projesi",
+    "polonya'da erasmus eğitim kursu a laboratory for creativity"
   ]
 }
