@@ -259,18 +259,7 @@
     "youth.europa.eu/solidarity/opportunity/55263_en",
     "linktr.ee/cya.eu"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.pgcareers.com/global/en/hiring-process",
-      "attempts": 0,
-      "caption": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım\n\nProcter & Gamble, 2027'de mezun olacak veya yeni mezun olmuş, iyi derecede İngilizce bilen, analitik düşünme ve liderlik becerilerine sahip adaylar için İnsan Kaynakları Yöneticisi pozisyonu açıyor. İşe alım süreci başvuru, online değerlendirmeler ve mülakatlardan oluşuyor.\n\n- 2027 mezunları veya yeni mezunlar\n- Mükemmel yazılı ve sözlü İngilizce\n- Liderlik ve analitik düşünme becerileri\n\nBaşvuru: https://www.pgcareers.com/global/en/hiring-process\nTüm fırsatlar: https://diploport.dev/#d993ef285a9d\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
-      "id": "d993ef285a9d",
-      "photo_query": "logo: P&G (ilan sayfasındaki şirket logosu)",
-      "source": "Youthall",
-      "title": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım",
-      "ts": "2026-11-18T13:56:25.446396+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1333,6 +1322,13 @@
       "photo_query": "logo: geleceginikurangenckadinlar.org (web sitesi (geleceginikurangenckadinlar.org))",
       "source": "AB İlan",
       "ts": "2026-11-17T13:17:09.349711+00:00"
+    },
+    {
+      "id": "d993ef285a9d",
+      "official": "https://www.pgcareers.com/global/en/hiring-process",
+      "photo_query": "logo: P&G (ilan sayfasındaki şirket logosu)",
+      "source": "Youthall",
+      "ts": "2026-11-18T13:56:58.881383+00:00"
     }
   ],
   "queue": [
@@ -6419,9 +6415,9 @@
     },
     "d993ef285a9d": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım",
-      "ts": "2026-11-04T15:25:55.310154+00:00"
+      "ts": "2026-11-18T13:56:58.881407+00:00"
     },
     "dbc179fb2253": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
