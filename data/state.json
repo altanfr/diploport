@@ -273,18 +273,7 @@
     "eraseindifference.org/challenge/apply",
     "view.monday.com/18439182670-6965991a2c2c689b8760566aa18ef618?r=use1"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be",
-      "attempts": 0,
-      "caption": "Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı\n\nSosyal Güvenlik Kurumu Başkanlığı tarafından Hukuk, Siyasal Bilgiler, İktisadi ve İdari Bilimler, İktisat ve İşletme mezunlarına yönelik Sosyal Güvenlik Denetmen Yardımcılığı alımı yapılacaktır.\n\n- Kariyer meslek statüsünde alım\n- İlgili lisans bölümleri için geçerli\n- Başvurular e-Devlet üzerinden yapılacak\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be\nTüm fırsatlar: https://diploport.dev/#fcf39bc2a802\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
-      "id": "fcf39bc2a802",
-      "photo_query": "logo: Sosyal Güvenlik Kurumu (Vikipedi (tr))",
-      "source": "Kariyer Kapısı",
-      "title": "Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı",
-      "ts": "2026-11-19T12:59:54.888199+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1468,6 +1457,13 @@
       "photo_query": "logo: P&G (ilan sayfasındaki şirket logosu)",
       "source": "Youthall",
       "ts": "2026-11-18T13:56:58.881383+00:00"
+    },
+    {
+      "id": "fcf39bc2a802",
+      "official": "https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be",
+      "photo_query": "logo: Sosyal Güvenlik Kurumu (Vikipedi (tr))",
+      "source": "Kariyer Kapısı",
+      "ts": "2026-11-19T13:00:28.179669+00:00"
     }
   ],
   "queue": [
@@ -6985,9 +6981,9 @@
     },
     "fcf39bc2a802": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı",
-      "ts": "2026-11-06T00:17:45.930089+00:00"
+      "ts": "2026-11-19T13:00:28.179689+00:00"
     },
     "fd4a76690f14": {
       "reason": "bekleme süresi doldu",
