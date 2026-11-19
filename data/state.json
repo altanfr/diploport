@@ -271,7 +271,13 @@
     "fao.org/fao-awards/achievement/apply-now/en",
     "youth.europa.eu/solidarity/opportunity/55271_en",
     "eraseindifference.org/challenge/apply",
-    "view.monday.com/18439182670-6965991a2c2c689b8760566aa18ef618?r=use1"
+    "view.monday.com/18439182670-6965991a2c2c689b8760566aa18ef618?r=use1",
+    "idcs-950009d4c7154de7b9a4acb69ea50742.identity.oraclecloud.com/sso/v1/user/login",
+    "youth.europa.eu/solidarity/opportunity/55261_en",
+    "e-recruitment.unitar.org/user/login?destination=%2Fvacancies%2Ftraineeship-multimedia-communications-graphic-design",
+    "tudelft.nl/onderwijs/studievoorlichting/praktische-zaken/scholarships",
+    "lnkd.in/d3DbSEA9",
+    "lajf.org/crs2027"
   ],
   "outbox": [],
   "pending": {
@@ -302,6 +308,35 @@
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metinde Türkiye'nin dahil olduğu 12 ülkelik liste açıkça belirtilmemiştir.",
       "visual_kind": "scene"
+    },
+    "0904abee1ecd": {
+      "apply_link_id": 2,
+      "apply_url": "https://lnkd.in/d3DbSEA9",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "9 ay süren liderlik ve mentorluk programı",
+        "Yeni ekonomi alanında çalışan profesyonellere açık",
+        "Farklı nesillerden profesyonellerle ağ kurma imkanı"
+      ],
+      "id": "0904abee1ecd",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 70,
+      "organization": "Common Purpose",
+      "organization_domain": "commonpurpose.org",
+      "queued_at": "2026-11-19T21:28:47.830370+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/19/new-economy-leaders-academy-2026-applications-now-open/",
+      "summary_tr": "Common Purpose tarafından düzenlenen, yeni ekonomi alanında çalışan profesyonellere yönelik 9 aylık uluslararası liderlik ve mentorluk programı.",
+      "title_tr": "New Economy Leaders Academy 2027 Liderlik ve Mentorluk Programı",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Programın hangi ülkelerden katılımcıları kabul ettiği metinde belirtilmemiştir.",
+      "visual_kind": "institution"
     },
     "09e3fac1dcd7": {
       "apply_link_id": 2,
@@ -421,6 +456,34 @@
       "unclear_reason_tr": "Metinde başvuru için gerekli çalışma izni veya vatandaşlık şartlarına dair bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
     },
+    "22d670f20a19": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.tudelft.nl/onderwijs/studievoorlichting/praktische-zaken/scholarships",
+      "category": "burs",
+      "country_tr": "Hollanda",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "Applicants must be excellent international candidates (conditionally) admitted to one of the two-year regular TU Delft MSc programmes.",
+      "fee_required": false,
+      "funding_tr": "Tam öğrenim ücreti ve yaşam masrafları desteği",
+      "highlights_tr": [
+        "İki yıllık yüksek lisans programlarını kapsar",
+        "Tam öğrenim ücreti desteği sağlar",
+        "Akademik başarı şartı aranır"
+      ],
+      "id": "22d670f20a19",
+      "is_opportunity": true,
+      "message_id": 69,
+      "organization": "Delft University of Technology",
+      "organization_domain": "tudelft.nl",
+      "queued_at": "2026-11-19T21:28:32.743332+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/tu-delft-excellence-scholarships/",
+      "summary_tr": "Delft Teknoloji Üniversitesi'nde yüksek lisans eğitimi almak isteyen uluslararası öğrenciler için sunulan, öğrenim ücretini ve yaşam masraflarını kapsayan kısmi burs programıdır.",
+      "title_tr": "TU Delft Excellence Bursları 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "scene"
+    },
     "3114e2690125": {
       "apply_link_id": 1,
       "apply_url": "https://aji.org/apply/",
@@ -539,6 +602,39 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
+    "4a3b05f444f3": {
+      "apply_link_id": 2,
+      "apply_url": "https://www.lajf.org/crs2027",
+      "category": "egitim",
+      "country_tr": "ABD",
+      "deadline": "2026-12-31",
+      "eligibility_evidence": "Camp Rising Sun accepts applications from around the world.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (eğitim ücreti karşılanır)",
+      "highlights_tr": [
+        "15-17 yaş aralığı (2010-2012 doğumlular)",
+        "İngilizce dil yeterliliği şart",
+        "Dört haftalık tam burslu program"
+      ],
+      "id": "4a3b05f444f3",
+      "image_queries": [
+        "upstate New York landscape",
+        "USA summer camp students",
+        "international youth leadership program"
+      ],
+      "is_opportunity": true,
+      "message_id": 71,
+      "organization": "Louis August Jonas Foundation",
+      "organization_domain": "lajf.org",
+      "queued_at": "2026-11-19T21:29:03.361090+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/19/camp-rising-sun-by-the-louis-august-jonas-foundation-fully-funded-summer-leadership-program-in-new-york/",
+      "summary_tr": "New York'ta düzenlenen, 15-17 yaş arası gençlere yönelik dört haftalık uluslararası liderlik ve kültürel değişim programı.",
+      "title_tr": "Camp Rising Sun 2027 Uluslararası Liderlik Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "scene"
+    },
     "4fb76b259a82": {
       "apply_link_id": 2,
       "apply_url": "https://worldagricultureforum.org/internship",
@@ -565,6 +661,35 @@
       "title_tr": "World Agriculture Forum (WAF) 2027 Uzaktan Staj Programı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "5796cb457355": {
+      "apply_link_id": 1,
+      "apply_url": "https://e-recruitment.unitar.org/user/login?destination=%2Fvacancies%2Ftraineeship-multimedia-communications-graphic-design",
+      "category": "staj",
+      "country_tr": "İsviçre",
+      "deadline": "2026-12-06",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Aylık 900 CHF ödenek",
+      "highlights_tr": [
+        "Lisans veya lisansüstü öğrencileri ve yeni mezunlar",
+        "Cenevre, İsviçre'de 4-6 aylık staj imkanı",
+        "İyi derecede İngilizce bilgisi gereklidir"
+      ],
+      "id": "5796cb457355",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 68,
+      "organization": "United Nations Institute for Training and Research",
+      "organization_domain": "unitar.org",
+      "queued_at": "2026-11-19T21:28:09.590674+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/unitar-communications-and-graphic-design-traineeship/",
+      "summary_tr": "UNITAR, Cenevre'deki merkezinde iletişim, grafik tasarım ve multimedya içerik üretimi alanlarında 4-6 aylık ücretli staj programı sunmaktadır.",
+      "title_tr": "UNITAR İletişim ve Grafik Tasarım Stajı 2027",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında açık bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
     },
     "5943d9ac4b3f": {
@@ -797,39 +922,6 @@
       "title_tr": "One Young World Zirvesi 2027 Tokyo Katılım Fırsatları",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Bursların ve programların Türkiye'den katılımcılara açık olup olmadığı her bir özel programın kendi kriterlerine bağlıdır, metinde genel bir ifade yer almamaktadır.",
-      "visual_kind": "scene"
-    },
-    "842209e57e54": {
-      "apply_link_id": 1,
-      "apply_url": "https://theogpd.org/wlc-2027/",
-      "category": "egitim",
-      "country_tr": "Avusturya",
-      "deadline": "2026-11-29",
-      "eligibility_evidence": "The World Leaders Convention welcomes young people from diverse academic and professional backgrounds",
-      "fee_required": true,
-      "funding_tr": "Tam burslu (uçak bileti, konaklama ve yemekler dahil)",
-      "highlights_tr": [
-        "Viyana'da 4 günlük liderlik programı",
-        "Uçak bileti ve konaklama dahil tam burs imkanı",
-        "Genç liderler ve profesyoneller için ağ kurma"
-      ],
-      "id": "842209e57e54",
-      "image_queries": [
-        "Vienna Austria city",
-        "Austria university students",
-        "international youth conference"
-      ],
-      "is_opportunity": true,
-      "message_id": 31,
-      "organization": "Organization for Global Policy & Dialogue",
-      "organization_domain": "theogpd.org",
-      "queued_at": "2026-11-12T18:54:07.177282+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/world-leaders-convention-2027-in-austria/",
-      "summary_tr": "Viyana'da düzenlenecek olan World Leaders Convention 2027, genç liderleri, öğrencileri ve girişimcileri dört günlük liderlik gelişimi, ağ kurma ve politika tartışmaları için bir araya getiriyor.",
-      "title_tr": "World Leaders Convention 2027 - Viyana, Avusturya",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "scene"
     },
     "8529ed92dfdc": {
@@ -1088,6 +1180,35 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
+    "d483e60348a9": {
+      "apply_link_id": 10,
+      "apply_url": "https://idcs-950009d4c7154de7b9a4acb69ea50742.identity.oraclecloud.com/sso/v1/user/login",
+      "category": "is",
+      "country_tr": "Online",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "The United Nations Volunteers (UNV) Programme is inviting individual consultants to apply for its Roster for Training Designers and Training Facilitators for UNV Learning Programmes.",
+      "fee_required": false,
+      "funding_tr": "Ücretli danışmanlık",
+      "highlights_tr": [
+        "3 yıllık çerçeve anlaşma",
+        "Evden çalışma imkanı",
+        "İleri düzey İngilizce gereklidir"
+      ],
+      "id": "d483e60348a9",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 67,
+      "organization": "United Nations Volunteers (UNV)",
+      "organization_domain": "unv.org",
+      "queued_at": "2026-11-19T21:27:55.011025+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/19/unv-training-designers-and-training-facilitators-roster-2027-apply-for-a-three-year-individual-consultancy-with-the-united-nations-volunteers-programme/",
+      "summary_tr": "UNV, dünya genelindeki gönüllüler için eğitim programları tasarlayacak, yürütecek ve değerlendirecek uzmanlardan oluşan 3 yıllık bir danışman havuzu oluşturuyor. Çalışma evden yürütülecek olup gerektiğinde seyahat içerebilir.",
+      "title_tr": "UNV Eğitim Tasarımcısı ve Kolaylaştırıcı Havuzu 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
     "ed841c0b7d94": {
       "apply_link_id": 2,
       "apply_url": "https://service.humboldt-foundation.de/pls/web/pub_register.main?p_package=res&p_lang=en",
@@ -1176,39 +1297,6 @@
       "title_tr": "Chatham House Araştırma Görevlisi Pozisyonu",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir bilgi verilmemiştir.",
-      "visual_kind": "institution"
-    },
-    "f7303decc9f0": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/deakin-vice-chancellors-international-scholarship",
-      "category": "burs",
-      "country_tr": "Avustralya",
-      "deadline": "",
-      "eligibility_evidence": "The applicants must be prospective international students.",
-      "fee_required": false,
-      "funding_tr": "%50 veya %100 öğrenim ücreti muafiyeti",
-      "highlights_tr": [
-        "Lisans ve lisansüstü eğitim için geçerli",
-        "%50 veya %100 öğrenim ücreti desteği",
-        "Akademik başarı şartı (%85 ortalama)"
-      ],
-      "id": "f7303decc9f0",
-      "image_queries": [
-        "Deakin University campus",
-        "Australia university students",
-        "students walking campus"
-      ],
-      "is_opportunity": true,
-      "message_id": 32,
-      "organization": "Deakin University",
-      "organization_domain": "deakin.edu.au",
-      "queued_at": "2026-11-12T18:54:13.787173+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/deakin-vice-chancellors-international-scholarship/",
-      "summary_tr": "Deakin Üniversitesi, lisans ve lisansüstü programlarına başvuran uluslararası öğrenciler için %50 veya %100 oranında öğrenim ücreti bursu ve profesyonel gelişim programı desteği sunmaktadır.",
-      "title_tr": "Deakin Vice-Chancellor’s International Scholarship 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
     "f91bd76cb7ca": {
@@ -1467,97 +1555,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://mcwglobal.org/young-leaders-fellowship-2027/",
-      "category": "egitim",
-      "country_tr": "ABD",
-      "deadline": "2026-12-03",
-      "eligibility_evidence": "Young leaders from all around the world are eligible.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu",
-      "highlights_tr": [
-        "18-26 yaş arası gençler başvurabilir",
-        "Tam burslu (uçak, konaklama, yemek dahil)",
-        "Eğitim, sağlık ve ekonomi odaklı"
-      ],
-      "id": "6497bb987276",
-      "is_opportunity": true,
-      "organization": "MCW Global",
-      "organization_domain": "mcwglobal.org",
-      "queued_at": "2026-11-05T18:42:56.404321+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/mcw-young-leaders-fellowship-2027/",
-      "summary_tr": "ABD'de gerçekleşecek 10 günlük liderlik programı; eğitim, sağlık ve ekonomik güvenlik alanlarında projeler geliştiren 18-26 yaş arası gençlere açıktır.",
-      "title_tr": "MCW Young Leaders Fellowship 2027 (ABD)",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/let-s-dare-the-inner-journey-from-self-to-us-training-course.14943/",
-      "category": "egitim",
-      "country_tr": "Fransa",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
-      "fee_required": false,
-      "funding_tr": "Erasmus+ kapsamında karşılanır",
-      "highlights_tr": [
-        "Tarih: 15-26 Şubat 2027",
-        "Ezilenlerin Tiyatrosu yöntemleri",
-        "Erasmus+ destekli eğitim"
-      ],
-      "id": "eb2badf96fd9",
-      "image_queries": [
-        "Piegros-la-Clastre France landscape",
-        "France youth training course",
-        "theatre workshop students"
-      ],
-      "is_opportunity": true,
-      "organization": "SALTO-Youth",
-      "organization_domain": "salto-youth.net",
-      "queued_at": "2026-11-05T18:43:03.888222+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/fransa-9-gun-erasmus-projesi/",
-      "summary_tr": "Fransa'nın Piegros-la-Clastre kentinde düzenlenecek olan Erasmus+ eğitim kursu, tiyatro teknikleri ve kişisel farkındalık çalışmaları aracılığıyla toplumsal dönüşümü hedeflemektedir.",
-      "title_tr": "Fransa'da Erasmus+ Eğitim Kursu: Ezilenlerin Tiyatrosu",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.santafe.edu/engage/learn/programs/undergraduate-complexity-research",
-      "category": "staj",
-      "country_tr": "ABD",
-      "deadline": "2027-01-13",
-      "eligibility_evidence": "The SFI UCR welcomes applicants from any country.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (yol, konaklama, yemek ve 7.000$ burs)",
-      "highlights_tr": [
-        "Lisans öğrencilerine açık",
-        "10 hafta süreli araştırma deneyimi",
-        "Tam burslu ve 7.000$ ödenekli"
-      ],
-      "id": "948ce51a4fa8",
-      "image_queries": [
-        "Santa Fe New Mexico",
-        "USA university research lab",
-        "students working in laboratory"
-      ],
-      "is_opportunity": true,
-      "organization": "Santa Fe Institute",
-      "organization_domain": "santafe.edu",
-      "queued_at": "2026-11-05T18:44:01.957783+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/santa-fe-institute-summer-program-2027/",
-      "summary_tr": "Santa Fe Institute tarafından düzenlenen 10 haftalık bu tam burslu araştırma programı, lisans öğrencilerine karmaşıklık bilimi alanında projeler yürütme imkanı sunuyor.",
-      "title_tr": "Santa Fe Institute UCR Yaz Araştırma Programı 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
     {
       "apply_link_id": 2,
       "apply_url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-residency-programme/humboldt-residency-programme-call-for-applications",
@@ -4474,6 +4471,33 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55261_en",
+      "category": "gonulluluk",
+      "country_tr": "Fransa",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek ve ulaşım karşılanır",
+      "highlights_tr": [
+        "Konaklama, yemek ve ulaşım ücretsiz",
+        "Engelli bireylerle sosyal çalışmalar",
+        "AB proje yönetimi deneyimi"
+      ],
+      "id": "95ed379ceaa3",
+      "is_opportunity": true,
+      "organization": "CRM",
+      "organization_domain": "",
+      "queued_at": "2026-11-19T21:28:02.148430+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/fransa-mulhouse-kisa-donem-erasmus-projesi/",
+      "summary_tr": "Fransa'nın Mulhouse şehrindeki rehabilitasyon merkezinde engelli bireylerle sosyal etkinlikler ve AB proje yönetimi üzerine kısa dönem ESC gönüllülük fırsatı.",
+      "title_tr": "Fransa, Mulhouse: Kısa Dönem Erasmus+ ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4585,6 +4609,12 @@
       "title": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI (AFAD) - Afet ve Acil Durum Yönetimi Denetçi Yardımcısı Giriş Sınavı İlanı (2026)",
       "ts": "2026-11-16T11:05:20.407612+00:00"
     },
+    "0904abee1ecd": {
+      "reason": "Programın hangi ülkelerden katılımcıları kabul ettiği metinde belirtilmemiştir.",
+      "status": "pending",
+      "title": "New Economy Leaders Academy 2027: 9-Month International Leadership and Mentoring Programme for Professionals",
+      "ts": "2026-11-19T21:28:47.830386+00:00"
+    },
     "093f17f46a64": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -4602,6 +4632,12 @@
       "status": "pending",
       "title": "Bayer Foundation Fellowships 2026: Apply for Up to €10,000 in International Research and Internship Funding",
       "ts": "2026-11-13T22:35:07.560008+00:00"
+    },
+    "0a426758a166": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "North Star Fund Grants 2026: Funding for Grassroots Organizations in New York City and Hudson Valley",
+      "ts": "2026-11-19T21:28:25.158243+00:00"
     },
     "0a8ba774fa41": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4860,6 +4896,12 @@
       "status": "published",
       "title": "Green Games Lab Erasmus+ Eğitim Kursu",
       "ts": "2026-11-09T17:28:16.274158+00:00"
+    },
+    "22d670f20a19": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "TU Delft Excellence Scholarships 2027 in Netherlands | Study in Europe",
+      "ts": "2026-11-19T21:28:32.743348+00:00"
     },
     "237d320a94d0": {
       "reason": "",
@@ -5227,6 +5269,12 @@
       "title": "Çimsa Global Build-On Plus Staj Programı",
       "ts": "2026-11-10T01:29:54.251287+00:00"
     },
+    "476f3a945d79": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "SGK Başkanlığı 50 Müfettiş Yardımcısı Alımı Duyurusu",
+      "ts": "2026-11-19T21:28:17.323671+00:00"
+    },
     "47a7f83b5bcd": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "status": "pending",
@@ -5268,6 +5316,12 @@
       "status": "queued",
       "title": "Çin Hükumeti Bursu 2027-2028",
       "ts": "2026-11-10T09:43:28.375796+00:00"
+    },
+    "4a3b05f444f3": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Camp Rising Sun 2027: Fully Funded International Leadership Summer Program in New York",
+      "ts": "2026-11-19T21:29:03.361105+00:00"
     },
     "4d25d0a24135": {
       "reason": "",
@@ -5364,6 +5418,12 @@
       "status": "rejected",
       "title": "Fransa Büyükelçiliği FSMP Yüksek Lisans Bursu Başvurularınızı Bekliyor",
       "ts": "2026-11-03T17:50:04.889232+00:00"
+    },
+    "5796cb457355": {
+      "reason": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında açık bir bilgi bulunmamaktadır.",
+      "status": "pending",
+      "title": "UNITAR Communications and Graphic Design Traineeship 2027",
+      "ts": "2026-11-19T21:28:09.590692+00:00"
     },
     "5943d9ac4b3f": {
       "reason": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
@@ -5510,10 +5570,10 @@
       "ts": "2026-11-06T21:29:50.648432+00:00"
     },
     "6497bb987276": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "MCW Young Leaders Fellowship 2027 (ABD)",
-      "ts": "2026-11-05T18:42:56.404340+00:00"
+      "ts": "2026-11-19T21:27:26.708810+00:00"
     },
     "651a9d28845c": {
       "reason": "",
@@ -5822,10 +5882,10 @@
       "ts": "2026-11-12T18:53:59.903601+00:00"
     },
     "842209e57e54": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
-      "status": "pending",
-      "title": "World Leaders Convention 2027 in Austria (Fully Funded)",
-      "ts": "2026-11-12T18:54:07.177302+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "World Leaders Convention 2027 - Viyana, Avusturya",
+      "ts": "2026-11-19T21:27:26.709051+00:00"
     },
     "8529ed92dfdc": {
       "reason": "Metinde başvuru için gerekli vatandaşlık veya çalışma izni şartlarına dair bir bilgi bulunmamaktadır.",
@@ -5978,10 +6038,16 @@
       "ts": "2026-11-18T13:54:28.595003+00:00"
     },
     "948ce51a4fa8": {
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Santa Fe Institute UCR Yaz Araştırma Programı 2027",
+      "ts": "2026-11-19T21:27:26.708839+00:00"
+    },
+    "95ed379ceaa3": {
       "reason": "",
       "status": "queued",
-      "title": "Santa Fe Institute UCR Yaz Araştırma Programı 2027",
-      "ts": "2026-11-05T18:44:01.957803+00:00"
+      "title": "Fransa, Mulhouse: Kısa Dönem Erasmus+ ESC Gönüllülük Projesi",
+      "ts": "2026-11-19T21:28:02.148451+00:00"
     },
     "9620e2d42ee9": {
       "reason": "bekleme süresi doldu",
@@ -6313,6 +6379,12 @@
       "title": "Marmara Üniversitesi Sözleşmeli Personel Alımı",
       "ts": "2026-11-13T22:34:34.615986+00:00"
     },
+    "b1aa77db5732": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "CERN Summer Student Programme 2027 in Switzerland: Earn CHF 94 Daily While Gaining International Research Experience in ",
+      "ts": "2026-11-19T21:28:56.475878+00:00"
+    },
     "b1ac19ebc66e": {
       "reason": "",
       "status": "queued",
@@ -6360,6 +6432,12 @@
       "status": "rejected",
       "title": "Polonya’da Kısa Dönem ESC Projesi Gönüllülerini Bekliyor",
       "ts": "2026-11-12T02:56:49.747290+00:00"
+    },
+    "b6dd0f8340d7": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Together in Purpose Initiative 2026–2027: $26 Million in Grants for Community-Led Organisations Across the United States",
+      "ts": "2026-11-19T21:28:39.351313+00:00"
     },
     "b6fbd91a219a": {
       "reason": "bekleme süresi doldu",
@@ -6601,6 +6679,12 @@
       "title": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-11-07T08:43:17.499206+00:00"
     },
+    "d483e60348a9": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "UNV Training Designers and Training Facilitators Roster 2027: Apply for a Three-Year Individual Consultancy with the Uni",
+      "ts": "2026-11-19T21:27:55.011042+00:00"
+    },
     "d4e3097a675b": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -6794,10 +6878,10 @@
       "ts": "2026-11-13T07:52:37.571173+00:00"
     },
     "eb2badf96fd9": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Fransa'da Erasmus+ Eğitim Kursu: Ezilenlerin Tiyatrosu",
-      "ts": "2026-11-05T18:43:03.888242+00:00"
+      "ts": "2026-11-19T21:27:26.708827+00:00"
     },
     "ebc946645452": {
       "reason": "",
@@ -6896,10 +6980,10 @@
       "ts": "2026-11-13T22:34:34.615898+00:00"
     },
     "f7303decc9f0": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Deakin Vice-Chancellor’s International Scholarship 2027",
-      "ts": "2026-11-12T18:54:13.787192+00:00"
+      "ts": "2026-11-19T21:27:26.709075+00:00"
     },
     "f8ca5d4840e8": {
       "reason": "bekleme süresi doldu",
@@ -7282,6 +7366,12 @@
     "un fao başarı ödülü 2027",
     "portekiz'de esc gönüllülük projesi",
     "erase indifference challenge 2026",
-    "pbs accelerator fellowship 2027 2028"
+    "pbs accelerator fellowship 2027 2028",
+    "unv eğitim tasarımcısı ve kolaylaştırıcı havuzu 2027",
+    "fransa mulhouse kısa dönem erasmus esc gönüllülük projesi",
+    "unitar i letişim ve grafik tasarım stajı 2027",
+    "tu delft excellence bursları 2027",
+    "new economy leaders academy 2027 liderlik ve mentorluk programı",
+    "camp rising sun 2027 uluslararası liderlik programı"
   ]
 }
