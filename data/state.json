@@ -265,7 +265,9 @@
     "docs.google.com/forms/d/e/1FAIpQLSfbbWXR6x9ppbH9wffdDKulZrzPBM07nCLYZkFq-LrJ_M134Q/viewform",
     "climate.columbia.edu/stanley-park-climate-finance-scholarships",
     "docs.google.com/forms/d/e/1FAIpQLSducjMwhG4tk7PnkX41orxldCAV-rHULj_71VTo52pVi6-JBA/viewform",
-    "oceanculturelife.com"
+    "oceanculturelife.com",
+    "jpmorganchase.com/careers/explore-opportunities/programs/reentry-program",
+    "docs.google.com/forms/d/e/1FAIpQLSdjhIgHr30KxEXVPHo_P9uFfFRphIJr2nrzNTRdhMSPEtDptQ/viewform"
   ],
   "outbox": [],
   "pending": {
@@ -968,6 +970,35 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
+    "a93633dac2f3": {
+      "apply_link_id": 3,
+      "apply_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/reentry-program",
+      "category": "is",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2027-02-28",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Ücretli fellowship",
+      "highlights_tr": [
+        "En az 2 yıl kariyer molası şartı",
+        "15 haftalık ücretli fellowship",
+        "Mentorluk ve mesleki eğitim desteği"
+      ],
+      "id": "a93633dac2f3",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 64,
+      "organization": "JPMorganChase",
+      "organization_domain": "jpmorganchase.com",
+      "queued_at": "2026-11-19T03:20:06.905770+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/18/jpmorgan-chase-reentry-program-2026-applications-now-open-for-returning-professionals/",
+      "summary_tr": "JPMorganChase, en az iki yıllık kariyer molası vermiş deneyimli profesyoneller için 15 haftalık ücretli bir işe dönüş programı sunmaktadır. Program, katılımcılara eğitim, mentorluk ve tam zamanlı istihdam imkanı sağlar.",
+      "title_tr": "JPMorganChase ReEntry Program 2027: 15 Haftalık Ücretli Fellowship",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metinde programın hangi ülkelerdeki ofisler için açık olduğu belirtilmiş ancak Türkiye'nin bu kapsama dahil olup olmadığına dair net bir ifade yer almamaktadır.",
+      "visual_kind": "institution"
+    },
     "ad4b5aaac255": {
       "apply_link_id": 1,
       "apply_url": "https://stemgateway.nasa.gov/s/course-offering/a0BSJ0000049icD/open-science-essentials",
@@ -1079,34 +1110,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "scene"
-    },
-    "ee5a5b374192": {
-      "apply_link_id": 1,
-      "apply_url": "https://code2work.co/",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "Code2Work son 3 yılda 210 sıfırdan yazılımcı yetiştirmiş ve işe yerleştirmiş bir ekiple, Türkiye'nin en iddialı eğitim içeriğini,  sıfırdan yazılımcılar ve veri bilimciler yetiştiren öncü teknoloji okuludur.",
-      "fee_required": true,
-      "funding_tr": "İşe girene kadar ödeme erteleme imkanı",
-      "highlights_tr": [
-        "Üniversite öğrencisi veya mezunu olma şartı",
-        "İşe girene kadar ödeme erteleme modeli",
-        "6 ay süreli teknik eğitim ve kariyer desteği"
-      ],
-      "id": "ee5a5b374192",
-      "is_opportunity": true,
-      "message_id": 28,
-      "organization": "Code2Work",
-      "organization_domain": "code2work.co",
-      "queued_at": "2026-11-11T21:54:57.416147+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/code2work/veri-bilimci-ve-yazilimci-yetistirme-programi_12/",
-      "summary_tr": "Code2Work, üniversite öğrencileri ve mezunları için 6 aylık yoğun yazılım ve veri bilimi eğitim programı sunmaktadır. Program, işe girene kadar ödeme kolaylığı ve kariyer desteği sağlamaktadır.",
-      "title_tr": "Code2Work Veri Bilimci ve Yazılımcı Yetiştirme Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Katılım ücreti var.",
-      "visual_kind": "institution"
     },
     "ee66fcb4e386": {
       "apply_link_id": 1,
@@ -1424,89 +1427,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://program.izmirkisafilm.org/",
-      "category": "yarisma",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "İzmir Sinema Kültür ve Eğitim Derneği tarafından düzenlenen festival, farklı ülkelerden yönetmenlerin ve kısa film üreticilerinin çalışmalarını İzmir’de bir araya getiriyor.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz katılım",
-      "highlights_tr": [
-        "Ulusal ve uluslararası film yarışmaları",
-        "Genç sinemacılar için mentorluk ve atölyeler",
-        "Tüm film gösterimleri ücretsiz"
-      ],
-      "id": "3b25ca31b3cb",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "İzmir Sinema Kültür ve Eğitim Derneği",
-      "organization_domain": "izmirkisafilm.org",
-      "queued_at": "2026-11-04T21:54:40.704282+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/27-izmir-uluslararasi-kisa-film-festivali-basladi/",
-      "summary_tr": "İzmir'de düzenlenen 27. Uluslararası Kısa Film Festivali, film gösterimleri, yarışmalar ve genç sinemacılara yönelik İzmir Film Lab etkinlikleri ile sinemaseverleri bir araya getiriyor.",
-      "title_tr": "27. İzmir Uluslararası Kısa Film Festivali",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_alerted": true,
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.crg.eu/en/node/1414765",
-      "category": "egitim",
-      "country_tr": "İspanya",
-      "deadline": "2026-11-22",
-      "eligibility_evidence": "The CRG International PhD Programme is open to candidates of all nationalities who satisfy the academic, research and language requirements.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı ve sigortalı dört yıllık iş sözleşmesi",
-      "highlights_tr": [
-        "Tüm milletlerden adaylara açık",
-        "Dört yıllık maaşlı iş sözleşmesi",
-        "Barselona'da araştırma imkanı"
-      ],
-      "id": "619bd2caab31",
-      "is_opportunity": true,
-      "organization": "Centre for Genomic Regulation",
-      "organization_domain": "crg.eu",
-      "queued_at": "2026-11-05T02:22:30.239343+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/04/crg-international-phd-programme-2027/",
-      "summary_tr": "Barselona'daki Centre for Genomic Regulation (CRG) bünyesinde biyomedikal bilimler ve genomik alanlarında tam zamanlı, maaşlı dört yıllık doktora pozisyonları.",
-      "title_tr": "CRG Uluslararası Doktora Programı 2027",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://ilatalks.com/webinars",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Ücretsiz katılım ve belge",
-        "Her oturum 60 dakika",
-        "Türkçe ve İngilizce katılım belgesi"
-      ],
-      "id": "1bd5aca751b2",
-      "is_opportunity": true,
-      "organization": "ILA Talks",
-      "organization_domain": "ilatalks.com",
-      "queued_at": "2026-11-05T02:24:34.709092+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/davetlisiniz-ila-talks-uluslararasi-gonulluler-yili-ucretsiz-surekli-webinar-serisi/",
-      "summary_tr": "ILA Talks, Uluslararası Gönüllüler Yılı kapsamında gönüllülüğün toplumsal dayanışma, sosyal kapsayıcılık, eğitimde fırsat eşitliği ve koruyucu sağlık alanlarındaki rolünü ele alan ücretsiz webinar serisi düzenliyor. Katılımcılara Türkçe-İngilizce dijital katılım belgesi verilecek.",
-      "title_tr": "ILA Talks Uluslararası Gönüllüler Yılı Ücretsiz Webinar Serisi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_alerted": true,
-      "visual_kind": "institution"
-    },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3",
       "category": "is",
@@ -4478,6 +4398,38 @@
       "title_tr": "Ocean Culture 2027 Hikaye Anlatıcılığı Hibeleri",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdjhIgHr30KxEXVPHo_P9uFfFRphIJr2nrzNTRdhMSPEtDptQ/viewform",
+      "category": "gonulluluk",
+      "country_tr": "Portekiz",
+      "deadline": "2026-11-23",
+      "eligibility_evidence": "Kuruluş, Erasmus+ ve Avrupa Dayanışma Programı aracılığıyla gerçekleştirdiği çalışmalarla farklı ülkelerden bireylerin bir araya gelmesine ve kültürlerarası iletişim becerilerini geliştirmesine katkıda bulunuyor.",
+      "fee_required": false,
+      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
+      "highlights_tr": [
+        "Proje tarihleri: 1 Aralık 2026 – 20 Ocak 2027",
+        "Portekiz'de uluslararası gönüllülük deneyimi",
+        "İnsan hakları ve sosyal girişimcilik odaklı"
+      ],
+      "id": "651a9d28845c",
+      "image_queries": [
+        "Barcelos Portugal city",
+        "Portugal youth volunteers",
+        "volunteers working abroad"
+      ],
+      "is_opportunity": true,
+      "organization": "IAFA (Intercultural Association for All)",
+      "organization_domain": "",
+      "queued_at": "2026-11-19T03:20:33.497488+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/portekiz-barcelos-kisa-donem-erasmus-projesi/",
+      "summary_tr": "Portekiz'in Barcelos şehrinde IAFA bünyesinde gerçekleştirilecek, insan hakları, sosyal kapsayıcılık ve çevre konularını kapsayan kısa dönem Avrupa Dayanışma Programı projesi.",
+      "title_tr": "Portekiz, Barcelos: Kısa Dönem Avrupa Dayanışma Programı Projesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4776,10 +4728,10 @@
       "ts": "2026-11-09T17:27:16.099614+00:00"
     },
     "1bd5aca751b2": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "ILA Talks Uluslararası Gönüllüler Yılı Ücretsiz Webinar Serisi",
-      "ts": "2026-11-05T02:24:34.709109+00:00"
+      "ts": "2026-11-19T03:19:44.523325+00:00"
     },
     "1bfc3b1b524c": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -5088,10 +5040,10 @@
       "ts": "2026-11-03T17:48:25.269737+00:00"
     },
     "3b25ca31b3cb": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "27. İzmir Uluslararası Kısa Film Festivali",
-      "ts": "2026-11-04T21:54:40.704296+00:00"
+      "ts": "2026-11-19T03:19:44.523294+00:00"
     },
     "3ba044acba21": {
       "reason": "",
@@ -5454,10 +5406,10 @@
       "ts": "2026-11-17T03:47:26.709286+00:00"
     },
     "619bd2caab31": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "CRG Uluslararası Doktora Programı 2027",
-      "ts": "2026-11-05T02:22:30.239361+00:00"
+      "ts": "2026-11-19T03:19:44.523318+00:00"
     },
     "61c45a1ae54b": {
       "reason": "son başvuru geçti",
@@ -5500,6 +5452,12 @@
       "status": "queued",
       "title": "MCW Young Leaders Fellowship 2027 (ABD)",
       "ts": "2026-11-05T18:42:56.404340+00:00"
+    },
+    "651a9d28845c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Portekiz, Barcelos: Kısa Dönem Avrupa Dayanışma Programı Projesi",
+      "ts": "2026-11-19T03:20:33.497508+00:00"
     },
     "657bed6f5141": {
       "reason": "bekleme süresi doldu",
@@ -6179,6 +6137,12 @@
       "title": "XPRIZE Accelerate Learning Competition 2026–2029: $6 Million Global Challenge to Transform Foundational Literacy and Num",
       "ts": "2026-11-13T07:53:06.942869+00:00"
     },
+    "a93633dac2f3": {
+      "reason": "Metinde programın hangi ülkelerdeki ofisler için açık olduğu belirtilmiş ancak Türkiye'nin bu kapsama dahil olup olmadığına dair net bir ifade yer almamaktadır.",
+      "status": "pending",
+      "title": "JPMorganChase ReEntry Program 2027: Apply for a 15-Week Paid Fellowship to Relaunch Your Career After a Career Break",
+      "ts": "2026-11-19T03:20:06.905790+00:00"
+    },
     "ab17b962f612": {
       "reason": "",
       "status": "published",
@@ -6780,10 +6744,10 @@
       "ts": "2026-11-08T15:07:25.293210+00:00"
     },
     "ee5a5b374192": {
-      "reason": "Katılım ücreti var.",
-      "status": "pending",
-      "title": "Veri Bilimci ve Yazılımcı Yetiştirme Programı",
-      "ts": "2026-11-11T21:54:57.416164+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Code2Work Veri Bilimci ve Yazılımcı Yetiştirme Programı",
+      "ts": "2026-11-19T03:19:44.523562+00:00"
     },
     "ee66fcb4e386": {
       "reason": "Katılım ücreti var.",
@@ -6880,6 +6844,12 @@
       "status": "rejected",
       "title": "UTokyo Amgen Scholars Program in Japan 2027 | Fully Funded",
       "ts": "2026-11-17T13:15:54.610015+00:00"
+    },
+    "faf9b071e217": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Almanya , Aurich : Uzun Dönem Erasmus+ Projesi",
+      "ts": "2026-11-19T03:20:13.735334+00:00"
     },
     "fb93fd06c5d4": {
       "reason": "",
@@ -7202,6 +7172,8 @@
     "berlin'de 8 günlük erasmus gençlik değişimi",
     "columbia university stanley park i klim finansı bursu",
     "i zmir her yerde turizme erişiyoruz erasmus gençlik katılımı",
-    "ocean culture 2027 hikaye anlatıcılığı hibeleri"
+    "ocean culture 2027 hikaye anlatıcılığı hibeleri",
+    "jpmorganchase reentry program 2027 15 haftalık ücretli fellowship",
+    "portekiz barcelos kısa dönem avrupa dayanışma programı projesi"
   ]
 }
