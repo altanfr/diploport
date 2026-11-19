@@ -267,9 +267,24 @@
     "docs.google.com/forms/d/e/1FAIpQLSducjMwhG4tk7PnkX41orxldCAV-rHULj_71VTo52pVi6-JBA/viewform",
     "oceanculturelife.com",
     "jpmorganchase.com/careers/explore-opportunities/programs/reentry-program",
-    "docs.google.com/forms/d/e/1FAIpQLSdjhIgHr30KxEXVPHo_P9uFfFRphIJr2nrzNTRdhMSPEtDptQ/viewform"
+    "docs.google.com/forms/d/e/1FAIpQLSdjhIgHr30KxEXVPHo_P9uFfFRphIJr2nrzNTRdhMSPEtDptQ/viewform",
+    "fao.org/fao-awards/achievement/apply-now/en",
+    "youth.europa.eu/solidarity/opportunity/55271_en",
+    "eraseindifference.org/challenge/apply",
+    "view.monday.com/18439182670-6965991a2c2c689b8760566aa18ef618?r=use1"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be",
+      "attempts": 0,
+      "caption": "Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı\n\nSosyal Güvenlik Kurumu Başkanlığı tarafından Hukuk, Siyasal Bilgiler, İktisadi ve İdari Bilimler, İktisat ve İşletme mezunlarına yönelik Sosyal Güvenlik Denetmen Yardımcılığı alımı yapılacaktır.\n\n- Kariyer meslek statüsünde alım\n- İlgili lisans bölümleri için geçerli\n- Başvurular e-Devlet üzerinden yapılacak\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be\nTüm fırsatlar: https://diploport.dev/#fcf39bc2a802\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "fcf39bc2a802",
+      "photo_query": "logo: Sosyal Güvenlik Kurumu (Vikipedi (tr))",
+      "source": "Kariyer Kapısı",
+      "title": "Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı",
+      "ts": "2026-11-19T12:59:54.888199+00:00"
+    }
+  ],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -387,6 +402,35 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "1d2ca2849d02": {
+      "apply_link_id": 3,
+      "apply_url": "https://view.monday.com/18439182670-6965991a2c2c689b8760566aa18ef618?r=use1",
+      "category": "is",
+      "country_tr": "ABD",
+      "deadline": "2026-12-06",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Maaş ve yan haklar",
+      "highlights_tr": [
+        "5-8 yıl arası deneyim şartı",
+        "Bir yıllık tam zamanlı ücretli çalışma",
+        "Mentorluk ve profesyonel ağ desteği"
+      ],
+      "id": "1d2ca2849d02",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 66,
+      "organization": "PBS",
+      "organization_domain": "pbs.org",
+      "queued_at": "2026-11-19T12:59:32.374820+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/19/pbs-accelerator-fellowship-2027-2028-paid-one-year-media-fellowship-for-producers-journalists-editors-and-creative-media-professionals/",
+      "summary_tr": "PBS Accelerator Fellowship, medya sektöründe kariyer yapmak isteyen orta seviye profesyoneller için bir yıllık ücretli çalışma ve mentorluk programıdır.",
+      "title_tr": "PBS Accelerator Fellowship 2027–2028",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metinde başvuru için gerekli çalışma izni veya vatandaşlık şartlarına dair bir bilgi bulunmamaktadır.",
+      "visual_kind": "institution"
     },
     "3114e2690125": {
       "apply_link_id": 1,
@@ -999,34 +1043,6 @@
       "unclear_reason_tr": "Metinde programın hangi ülkelerdeki ofisler için açık olduğu belirtilmiş ancak Türkiye'nin bu kapsama dahil olup olmadığına dair net bir ifade yer almamaktadır.",
       "visual_kind": "institution"
     },
-    "ad4b5aaac255": {
-      "apply_link_id": 1,
-      "apply_url": "https://stemgateway.nasa.gov/s/course-offering/a0BSJ0000049icD/open-science-essentials",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "2026-12-01",
-      "eligibility_evidence": "The citizenship requirement is listed as unrestricted.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Tamamen ücretsiz ve çevrimiçi",
-        "Yaklaşık 2 saatlik eğitim süresi",
-        "Katılım sertifikası ve dijital rozet"
-      ],
-      "id": "ad4b5aaac255",
-      "is_opportunity": true,
-      "message_id": 30,
-      "organization": "NASA",
-      "organization_domain": "nasa.gov",
-      "queued_at": "2026-11-12T10:58:33.813843+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/nasa-open-science-essentials/",
-      "summary_tr": "NASA tarafından sunulan, açık bilim ilkeleri ve uygulamaları üzerine odaklanan, katılımcılara dijital rozet ve sertifika kazandıran ücretsiz çevrimiçi eğitim programı.",
-      "title_tr": "NASA Open Science Essentials 2026 Çevrimiçi Eğitim Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
-      "visual_kind": "institution"
-    },
     "ae7295ef4fba": {
       "apply_link_id": 2,
       "apply_url": "https://www.ifa.de/en/research/research-programmes/",
@@ -1202,6 +1218,34 @@
       "source_url": "https://www.opportunitiescircle.com/deakin-vice-chancellors-international-scholarship/",
       "summary_tr": "Deakin Üniversitesi, lisans ve lisansüstü programlarına başvuran uluslararası öğrenciler için %50 veya %100 oranında öğrenim ücreti bursu ve profesyonel gelişim programı desteği sunmaktadır.",
       "title_tr": "Deakin Vice-Chancellor’s International Scholarship 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "f91bd76cb7ca": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.eraseindifference.org/challenge/apply/",
+      "category": "yarisma",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2026-12-04",
+      "eligibility_evidence": "The Erase Indifference Challenge is a global initiative established to recognise and reward projects that are actively working to reduce indifference towards discrimination.",
+      "fee_required": false,
+      "funding_tr": "Toplam 90.000 Euro ödül havuzu",
+      "highlights_tr": [
+        "Toplam 90.000 Euro ödül desteği",
+        "Halihazırda yürütülen projeler için",
+        "Küresel başvuruya açık"
+      ],
+      "id": "f91bd76cb7ca",
+      "is_opportunity": true,
+      "message_id": 65,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-19T12:59:03.057700+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/19/erase-indifference-challenge-2026-apply-for-e90000-in-awards-for-innovative-projects-combating-discrimination-hate-and-social-indifference/",
+      "summary_tr": "Erase Indifference Challenge, ayrımcılığa karşı kayıtsızlığı azaltmayı amaçlayan, halihazırda yürütülen yenilikçi sosyal projeleri ödüllendiren küresel bir girişimdir.",
+      "title_tr": "Erase Indifference Challenge 2026",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -1428,33 +1472,6 @@
   ],
   "queue": [
     {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Sözleşmeli personel statüsü",
-        "Mühendis ve tekniker pozisyonları",
-        "Kariyer Kapısı üzerinden başvuru"
-      ],
-      "icon": "landmark",
-      "id": "536a82b273b9",
-      "is_opportunity": true,
-      "organization": "TÜRKİYE ŞEKER FABRİKALARI A.Ş. GENEL MÜDÜRLÜĞÜ",
-      "organization_domain": "turkseker.gov.tr",
-      "queued_at": "2026-11-05T10:46:50.381071+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=06fcbe8a-50bf-4b51-9ba1-9cc4ad6501f3",
-      "summary_tr": "Türkiye Şeker Fabrikaları A.Ş. taşra teşkilatında istihdam edilmek üzere sözleşmeli mühendis ve tekniker alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet ile gerçekleştirilecektir.",
-      "title_tr": "Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
       "apply_link_id": 1,
       "apply_url": "https://mcwglobal.org/young-leaders-fellowship-2027/",
       "category": "egitim",
@@ -1624,33 +1641,6 @@
       "source_url": "https://www.youthall.com/tr/hupalupamagaza/satis-danismani_3/",
       "summary_tr": "HUPALUPA STORE, mağazalarında görevlendirmek üzere müşteri deneyimine önem veren, perakende sektöründe çalışmaya istekli satış danışmanları arıyor.",
       "title_tr": "HUPALUPA STORE Mağaza Satış Danışmanı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı kadrolu pozisyon",
-      "highlights_tr": [
-        "Kariyer meslek statüsünde alım",
-        "İlgili lisans bölümleri için geçerli",
-        "Başvurular e-Devlet üzerinden yapılacak"
-      ],
-      "icon": "landmark",
-      "id": "fcf39bc2a802",
-      "is_opportunity": true,
-      "organization": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI",
-      "organization_domain": "sgk.gov.tr",
-      "queued_at": "2026-11-06T00:17:45.930068+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=724294dd-2cf3-4df3-8cd5-615baea623be",
-      "summary_tr": "Sosyal Güvenlik Kurumu Başkanlığı tarafından Hukuk, Siyasal Bilgiler, İktisadi ve İdari Bilimler, İktisat ve İşletme mezunlarına yönelik Sosyal Güvenlik Denetmen Yardımcılığı alımı yapılacaktır.",
-      "title_tr": "Sosyal Güvenlik Kurumu Sosyal Güvenlik Denetmen Yardımcılığı Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -4430,6 +4420,64 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.fao.org/fao-awards/achievement/apply-now/en",
+      "category": "yarisma",
+      "country_tr": "Online",
+      "deadline": "2026-12-31",
+      "eligibility_evidence": "The international competition is open to individuals, institutions, FAO teams, and employees who have made a meaningful impact through their work.",
+      "fee_required": false,
+      "funding_tr": "10.000 USD nakit ödül ve Roma'ya seyahat desteği",
+      "highlights_tr": [
+        "10.000 USD nakit ödül",
+        "18 yaşından büyük olma şartı",
+        "Roma'da ödül törenine katılım imkanı"
+      ],
+      "id": "e7a463aadadc",
+      "is_opportunity": true,
+      "organization": "Food and Agriculture Organization",
+      "organization_domain": "fao.org",
+      "queued_at": "2026-11-19T12:56:50.204160+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/un-fao-award-for-achievement/",
+      "summary_tr": "Birleşmiş Milletler Gıda ve Tarım Örgütü (FAO), tarım, gıda güvenliği ve sürdürülebilir kalkınma alanlarında önemli katkılarda bulunan birey ve kurumları 10.000 USD ödüllü bu yarışma ile onurlandırmaktadır.",
+      "title_tr": "UN FAO Başarı Ödülü 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55271_en",
+      "category": "gonulluluk",
+      "country_tr": "Portekiz",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek, cep harçlığı ve seyahat desteği",
+      "highlights_tr": [
+        "1 Şubat - 31 Temmuz 2027 tarihleri arasında",
+        "Konaklama, yemek ve seyahat desteği sağlanıyor",
+        "Dijital üretim ve onarım atölyelerinde çalışma imkanı"
+      ],
+      "id": "c574f771d3fc",
+      "image_queries": [
+        "Messejana Portugal village",
+        "Portugal rural landscape",
+        "volunteers working together"
+      ],
+      "is_opportunity": true,
+      "organization": "Buinho",
+      "organization_domain": "buinho.pt",
+      "queued_at": "2026-11-19T12:56:59.791320+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/portekizde-esc-gonulluluk-projesi-firsati-5/",
+      "summary_tr": "Portekiz'in Messejana köyünde, sürdürülebilirlik, onarım kültürü ve dijital üretim odaklı 6 aylık Avrupa Dayanışma Programı (ESC) gönüllülük projesi.",
+      "title_tr": "Portekiz'de ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4745,6 +4793,12 @@
       "title": "Nükleer Düzenleme Kurumu 8 Sözleşmeli Bilişim Personeli Alacak",
       "ts": "2026-11-18T21:54:35.987944+00:00"
     },
+    "1d2ca2849d02": {
+      "reason": "Metinde başvuru için gerekli çalışma izni veya vatandaşlık şartlarına dair bir bilgi bulunmamaktadır.",
+      "status": "pending",
+      "title": "PBS Accelerator Fellowship 2027–2028: Paid One-Year Media Fellowship for Producers, Journalists, Editors and Creative Me",
+      "ts": "2026-11-19T12:59:32.374839+00:00"
+    },
     "1e5ec320b681": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -4786,6 +4840,12 @@
       "status": "rejected",
       "title": "İtalya’da Uzun Dönem ESC Gönüllülük Projesi Katılımcı Çağrısı",
       "ts": "2026-11-02T10:56:40.902884+00:00"
+    },
+    "2113940437e3": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Katılımcı Çağrısı: Almanya’da Uzun Dönem ESC Gönüllülük Projesi",
+      "ts": "2026-11-19T12:59:09.783418+00:00"
     },
     "214e82be24ea": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5051,6 +5111,12 @@
       "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli",
       "ts": "2026-11-13T16:18:35.696994+00:00"
     },
+    "3c4be6ea6f1a": {
+      "reason": "Türkiye'ye kapalı: The award celebrates individuals who are making a positive difference in Central Europe through responsible citizenship,",
+      "status": "rejected",
+      "title": "Aspen CE Madeleine K. Albright Leadership Award 2026: Recognizing Young Emerging Leaders Driving Positive Social Change ",
+      "ts": "2026-11-19T12:56:37.696662+00:00"
+    },
     "3c5f9496a75e": {
       "reason": "sadece öğretmenlere yönelik",
       "status": "rejected",
@@ -5268,10 +5334,10 @@
       "ts": "2026-11-10T01:31:13.946043+00:00"
     },
     "536a82b273b9": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Türkiye Şeker Fabrikaları A.Ş. Sözleşmeli Mühendis ve Tekniker Alımı",
-      "ts": "2026-11-05T10:46:50.381092+00:00"
+      "ts": "2026-11-19T12:55:54.872162+00:00"
     },
     "5484b42a3419": {
       "reason": "",
@@ -5897,6 +5963,12 @@
       "title": "Stanford Fisher Family Yaz Bursiyerleri Programı 2027",
       "ts": "2026-11-13T07:52:37.571144+00:00"
     },
+    "90fa5671da3c": {
+      "reason": "Türkiye'ye kapalı: They must be university students, remain enrolled for the entire internship and hold citizenship in an ESA Member State,",
+      "status": "rejected",
+      "title": "ESA Student Internship Programme 2027: Apply for Paid International Space Sector Internship Opportunities Across Science",
+      "ts": "2026-11-19T12:57:08.366683+00:00"
+    },
     "91ce4022bba5": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6180,10 +6252,10 @@
       "ts": "2026-11-13T22:36:43.281703+00:00"
     },
     "ad4b5aaac255": {
-      "reason": "Resmî başvuru linki bizden açılamadı (bağlantı hatası: SSLError); tarayıcıda kontrol et.",
-      "status": "pending",
-      "title": "NASA Open Science Essentials 2026 (Free Online Course with Certificate)",
-      "ts": "2026-11-12T10:58:33.813863+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "NASA Open Science Essentials 2026 Çevrimiçi Eğitim Programı",
+      "ts": "2026-11-19T12:55:54.872380+00:00"
     },
     "ae7295ef4fba": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -6347,6 +6419,12 @@
       "title": "UNDP İklim ve Enerji Staj Programı 2026",
       "ts": "2026-11-13T22:34:34.616261+00:00"
     },
+    "beb2e5da78f2": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "İzmir Kalkınma Ajansı 2026 Yılı Teknik Destek Programları Başvuruları Devam Ediyor",
+      "ts": "2026-11-19T12:59:52.636704+00:00"
+    },
     "bebf544eb292": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -6413,11 +6491,23 @@
       "title": "KOSGEB Yeşil Sanayi Destek Programı İlan Edildi",
       "ts": "2026-11-17T13:16:24.805539+00:00"
     },
+    "c574f771d3fc": {
+      "reason": "",
+      "status": "queued",
+      "title": "Portekiz'de ESC Gönüllülük Projesi",
+      "ts": "2026-11-19T12:56:59.791346+00:00"
+    },
     "c64ff63a6a94": {
       "reason": "",
       "status": "queued",
       "title": "BEBKA TechUP 2026 Teknoloji Odaklı Hızlandırıcı Programı",
       "ts": "2026-11-12T02:56:37.812268+00:00"
+    },
+    "c6968f35ef41": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "BeMed 2026 Mikro Girişimler Hibe Programı: 15.000 Avro Destek",
+      "ts": "2026-11-19T12:59:45.765976+00:00"
     },
     "c75316d002fa": {
       "reason": "Türkiye'ye kapalı: They must be nationals or permanent residents of a Sub-Saharan African country.",
@@ -6575,6 +6665,12 @@
       "title": "Google People Analytics Staj Programı 2027",
       "ts": "2026-11-11T21:53:54.523236+00:00"
     },
+    "ddc7050c113a": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "2027 Yılı Erasmus+ Teklif Çağrısı ve Program Rehberi Yayınlandı",
+      "ts": "2026-11-19T12:58:54.261775+00:00"
+    },
     "dde79a3b0121": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6658,6 +6754,12 @@
       "status": "rejected",
       "title": "Dubai Government Free AI Course with Free Certificate | One Million Prompters",
       "ts": "2026-11-12T10:59:10.190188+00:00"
+    },
+    "e7a463aadadc": {
+      "reason": "",
+      "status": "queued",
+      "title": "UN FAO Başarı Ödülü 2027",
+      "ts": "2026-11-19T12:56:50.204181+00:00"
     },
     "e7b95692399a": {
       "reason": "Türkiye'ye kapalı: Applicants must be high school seniors currently enrolled in the US.",
@@ -6820,6 +6922,12 @@
       "status": "queued",
       "title": "Sayıştay Başkanlığı Sözleşmeli Personel Alımı",
       "ts": "2026-11-10T01:30:18.014732+00:00"
+    },
+    "f91bd76cb7ca": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Erase Indifference Challenge 2026: Apply for €90,000 in Awards for Innovative Projects Combating Discrimination, Hate an",
+      "ts": "2026-11-19T12:59:03.057720+00:00"
     },
     "f969288f4d9b": {
       "reason": "son başvuru geçti",
@@ -7174,6 +7282,10 @@
     "i zmir her yerde turizme erişiyoruz erasmus gençlik katılımı",
     "ocean culture 2027 hikaye anlatıcılığı hibeleri",
     "jpmorganchase reentry program 2027 15 haftalık ücretli fellowship",
-    "portekiz barcelos kısa dönem avrupa dayanışma programı projesi"
+    "portekiz barcelos kısa dönem avrupa dayanışma programı projesi",
+    "un fao başarı ödülü 2027",
+    "portekiz'de esc gönüllülük projesi",
+    "erase indifference challenge 2026",
+    "pbs accelerator fellowship 2027 2028"
   ]
 }
