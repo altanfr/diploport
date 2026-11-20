@@ -279,9 +279,25 @@
     "lnkd.in/d3DbSEA9",
     "lajf.org/crs2027",
     "forms.cloud.microsoft/pages/responsepage.aspx?id=12TkI-YEh0uRPCS9iSGf03Ez9rx-WdFDjrVAKPw8dzRUMEVWQlpGNlgxUDcwRUxBUENYUzdNODJMNyQlQCN0PWcu&route=shorturl",
-    "careers.bankofcanada.ca/job/Ottawa-(Downtown)-PhD-Researcher-(2026-2027-PhD-Job-Market)-ON/606660617"
+    "careers.bankofcanada.ca/job/Ottawa-(Downtown)-PhD-Researcher-(2026-2027-PhD-Job-Market)-ON/606660617",
+    "youth.europa.eu/solidarity/opportunity/55291_en",
+    "youthall.com/en/efturkey/sales-marketing-intern_5",
+    "kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
+    "fcdo.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/spa-1/candidate/so/pm/4/pl/1/opp/27823-Internship-Opportunities-Humanitarian-Affairs-Migration-and-Forced-Displacement-CHEG26-023255/en-GB",
+    "youthall.com/tr/bilimvirusu/gelecegi-yeniliyoruz-sosyal-donusum-toplumsal-adalet-ve-katilim_15"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeKREpNJW8p-FkP3N-Qn8aiVPq4v7gsfDSFxRtk2qe5qWCDwA/viewform",
+      "attempts": 0,
+      "caption": "Almanya'da Erasmus+ Gençlik Değişimi: From Scroll to Soul\n\nAlmanya'nın Rheinbach şehrinde düzenlenecek olan siber zorbalıkla mücadele konulu Erasmus+ gençlik değişimi projesi. Katılımcılar dijital güvenlik ve akran desteği üzerine çalışmalar yapacaktır.\n\n- Erasmus+ Gençlik Değişimi\n- 20-29 Mart 2027 tarihleri arasında\n- Siber zorbalıkla mücadele odaklı\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSeKREpNJW8p-FkP3N-Qn8aiVPq4v7gsfDSFxRtk2qe5qWCDwA/viewform\nTüm fırsatlar: https://diploport.dev/#4dc4253c3d9c\n\nGörsel: Dwayne joe / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "4dc4253c3d9c",
+      "photo_query": "classroom workshop students",
+      "source": "Erasmusgram",
+      "title": "Almanya'da Erasmus+ Gençlik Değişimi: From Scroll to Soul",
+      "ts": "2026-11-20T11:37:28.548036+00:00"
+    }
+  ],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -779,35 +795,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "66b6695bf145": {
-      "apply_link_id": 1,
-      "apply_url": "https://explore.jobs.netflix.net/careers?query=intern&pid=790318904468&domain=netflix.com&sort_by=relevance&triggerGoButton=true",
-      "category": "staj",
-      "country_tr": "ABD, Hindistan, Polonya, Japonya",
-      "deadline": "",
-      "eligibility_evidence": "Moreover, the Netflix Internship 2027 welcomes students from around the world enrolled in a university.",
-      "fee_required": false,
-      "funding_tr": "Ücretli staj",
-      "highlights_tr": [
-        "Dünya genelinden üniversite öğrencilerine açık",
-        "En az 12 hafta süren ücretli staj",
-        "Teknoloji, içerik, finans ve pazarlama alanları"
-      ],
-      "id": "66b6695bf145",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 36,
-      "organization": "Netflix",
-      "organization_domain": "netflix.com",
-      "queued_at": "2026-11-13T07:53:13.579229+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/netflix-internship-program/",
-      "summary_tr": "Netflix, dünya genelindeki üniversite öğrencileri için teknoloji, iş ve eğlence alanlarında 12 haftalık ücretli yaz stajı programları sunmaktadır.",
-      "title_tr": "Netflix 2027 Yaz Staj Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "6c461f707486": {
       "apply_link_id": 2,
       "apply_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=grBJPtViSUilsIbtUZKH0otpS3OcHcpKtPmUP-ZlXw5UQ1NQM1NQS0cwSzg4REdXTEM2TVVENlBMVS4u",
@@ -1069,35 +1056,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "a8e2cb4c1e15": {
-      "apply_link_id": 1,
-      "apply_url": "https://pop.xprize.org/prizes/xprize_accelerated_learning/",
-      "category": "yarisma",
-      "country_tr": "Çok ülkeli",
-      "deadline": "",
-      "eligibility_evidence": "XPRIZE Accelerate Learning is a global education innovation competition focused on improving foundational literacy and numeracy among children, particularly first-graders.",
-      "fee_required": false,
-      "funding_tr": "6 milyon dolar toplam ödül havuzu",
-      "highlights_tr": [
-        "Toplam 6 milyon dolar ödül havuzu",
-        "Eğitim teknolojileri ve inovasyon odaklı",
-        "Bireysel veya takım olarak katılım imkanı"
-      ],
-      "id": "a8e2cb4c1e15",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 35,
-      "organization": "XPRIZE",
-      "organization_domain": "xprize.org",
-      "queued_at": "2026-11-13T07:53:06.942848+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/12/xprize-accelerate-learning-competition-2026-2029-6-million-global-challenge-to-transform-foundational-literacy-and-numeracy-for-children-in-africa-and-india/",
-      "summary_tr": "XPRIZE, Sahra Altı Afrika ve Hindistan'daki çocukların temel okuryazarlık ve matematik becerilerini geliştirmek için yenilikçi eğitim çözümleri arayan 6 milyon dolarlık bir yarışma düzenliyor.",
-      "title_tr": "XPRIZE Accelerate Learning Eğitim İnovasyonu Yarışması",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "a93633dac2f3": {
       "apply_link_id": 3,
       "apply_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/reentry-program",
@@ -1153,6 +1111,35 @@
       "title_tr": "ifa 2026 Kültür ve Dış Politika Araştırma Programı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "b923fbd6eb7e": {
+      "apply_link_id": 1,
+      "apply_url": "https://fcdo.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/spa-1/candidate/so/pm/4/pl/1/opp/27823-Internship-Opportunities-Humanitarian-Affairs-Migration-and-Forced-Displacement-CHEG26-023255/en-GB",
+      "category": "staj",
+      "country_tr": "İsviçre",
+      "deadline": "2026-11-26",
+      "eligibility_evidence": "Applications are open to suitably qualified graduates who have the legal right to live and work in Switzerland.",
+      "fee_required": false,
+      "funding_tr": "Aylık 1.450 CHF eğitim ödeneği",
+      "highlights_tr": [
+        "Aylık 1.450 CHF ödenek",
+        "C2 seviyesinde İngilizce şartı",
+        "İsviçre'de yasal çalışma izni zorunluluğu"
+      ],
+      "id": "b923fbd6eb7e",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 74,
+      "organization": "UK Mission to the United Nations and World Trade Organization in Geneva",
+      "organization_domain": "",
+      "queued_at": "2026-11-20T11:36:55.532917+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/20/internship-opportunities-at-the-uk-mission-to-the-un-in-geneva-2027-humanitarian-affairs-migration-and-forced-displacement-chf-1450-monthly-stipend/",
+      "summary_tr": "Cenevre'deki Birleşik Krallık Daimi Temsilciliği, insani yardım ve göç alanlarında çalışacak iki stajyer arıyor. Başvuru sahiplerinin İsviçre'de yasal çalışma iznine sahip olması zorunludur.",
+      "title_tr": "UK Mission Geneva İnsani Yardım ve Göç Staj Programı",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metin, İsviçre'de yasal çalışma izni olan herkesin başvurabileceğini belirtmekte ancak Türk vatandaşlarının bu izni nasıl alabileceğine dair bir bilgi vermemektedir.",
       "visual_kind": "institution"
     },
     "c2965177b6a1": {
@@ -1558,33 +1545,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.open.edu/openlearn/languages/everyday-english-1/content-section-overview?active-tab=description-tab",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "Individuals from all nationalities are eligible for the Everyday English Free Course 2027.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Tüm milliyetlere açık",
-        "48 saatlik online eğitim",
-        "Katılım belgesi veriliyor"
-      ],
-      "id": "420ee3f3cd01",
-      "is_opportunity": true,
-      "organization": "OpenLearn",
-      "organization_domain": "open.edu",
-      "queued_at": "2026-11-06T07:53:50.000321+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/everyday-english-free-course/",
-      "summary_tr": "OpenLearn tarafından sunulan bu 48 saatlik online kurs, İngilizce okuma, yazma ve konuşma becerilerini geliştirmek isteyen herkese açıktır. Kurs sonunda katılım belgesi verilmektedir.",
-      "title_tr": "Everyday English Ücretsiz Online Kursu 2027",
-      "turkey_eligible": "yes",
-      "visual_alerted": true,
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://www.ned.org/fellowships/hurford-youth-fellows-program/",
@@ -2496,33 +2456,6 @@
       "title_tr": "TEV-TEV UK-Imperial College London Yüksek Lisans Bursu",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeKREpNJW8p-FkP3N-Qn8aiVPq4v7gsfDSFxRtk2qe5qWCDwA/viewform",
-      "category": "egitim",
-      "country_tr": "Almanya",
-      "deadline": "",
-      "eligibility_evidence": "Ortak Ülkeler: Türkiye, Almanya, Letonya, Polonya, Romanya ve İspanya",
-      "fee_required": false,
-      "funding_tr": "Erasmus+ kapsamında karşılanır",
-      "highlights_tr": [
-        "Erasmus+ Gençlik Değişimi",
-        "20-29 Mart 2027 tarihleri arasında",
-        "Siber zorbalıkla mücadele odaklı"
-      ],
-      "id": "4dc4253c3d9c",
-      "is_opportunity": true,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-11-10T17:45:40.511709+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/almanya-8-gun-genclik-degisimi-2/",
-      "summary_tr": "Almanya'nın Rheinbach şehrinde düzenlenecek olan siber zorbalıkla mücadele konulu Erasmus+ gençlik değişimi projesi. Katılımcılar dijital güvenlik ve akran desteği üzerine çalışmalar yapacaktır.",
-      "title_tr": "Almanya'da Erasmus+ Gençlik Değişimi: From Scroll to Soul",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -4340,6 +4273,110 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55291_en",
+      "category": "gonulluluk",
+      "country_tr": "Brezilya",
+      "deadline": "2026-12-06",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek, ulaşım ve cep harçlığı karşılanır",
+      "highlights_tr": [
+        "6 ay süreli gönüllülük projesi",
+        "Konaklama, yemek ve ulaşım desteği",
+        "İyi düzeyde İspanyolca veya Portekizce şartı"
+      ],
+      "id": "f60865a3d9e5",
+      "is_opportunity": true,
+      "organization": "WeWorld",
+      "organization_domain": "weworld.it",
+      "queued_at": "2026-11-20T11:36:24.740482+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/brezilyada-esc-gonulluluk-projesi-firsati-2/",
+      "summary_tr": "WeWorld, Brezilya'nın Fortaleza kentinde 6 ay sürecek, toplumsal cinsiyet eşitliği ve sürdürülebilir kalkınma odaklı bir Avrupa Dayanışma Programı (ESC) gönüllülük projesi için katılımcı arıyor.",
+      "title_tr": "Brezilya'da ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/en/efturkey/sales-marketing-intern_5/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "3. ve 4. sınıf öğrencileri ve yeni mezunlar",
+        "1, 2 veya 3 aylık esnek süre",
+        "Her hafta birebir mentorluk desteği"
+      ],
+      "id": "aecd449abb52",
+      "is_opportunity": true,
+      "organization": "EF Education First",
+      "organization_domain": "ef.com",
+      "queued_at": "2026-11-20T11:36:32.105236+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/en/efturkey/sales-marketing-intern_5/",
+      "summary_tr": "EF Education First'ün İstanbul ofisinde, 3. ve 4. sınıf öğrencileri veya yeni mezunlar için satış ve pazarlama departmanlarında yıl boyu süren esnek staj programı.",
+      "title_tr": "EF Education First İstanbul Satış ve Pazarlama Stajı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "66fc3cd15d4c",
+      "is_opportunity": true,
+      "organization": "ADLİ TIP KURUMU BAŞKANLIĞI",
+      "organization_domain": "atk.gov.tr",
+      "queued_at": "2026-11-20T11:36:48.744440+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
+      "summary_tr": "Adli Tıp Kurumu Başkanlığı tarafından yayımlanan 2026/2 sözleşmeli personel alım ilanıdır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/bilimvirusu/gelecegi-yeniliyoruz-sosyal-donusum-toplumsal-adalet-ve-katilim_15/",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-12-20",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "8 kapsamlı eğitim ve 1 uygulama atölyesi",
+        "Hak temelli düşünme ve proje tasarımı",
+        "Online katılım imkanı"
+      ],
+      "id": "6869539c66fe",
+      "is_opportunity": true,
+      "organization": "Geleceği Yeniliyoruz",
+      "organization_domain": "",
+      "queued_at": "2026-11-20T11:37:13.072591+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/bilimvirusu/gelecegi-yeniliyoruz-sosyal-donusum-toplumsal-adalet-ve-katilim_15/",
+      "summary_tr": "Geleceği Yeniliyoruz programının dördüncü modülü olan Sosyal Dönüşüm: Toplumsal Adalet ve Katılım; insan hakları, toplumsal cinsiyet eşitliği ve sosyal girişimcilik gibi konularda eğitim ve proje atölyesi sunuyor.",
+      "title_tr": "Geleceği Yeniliyoruz: Sosyal Dönüşüm ve Toplumsal Adalet Modülü",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4703,6 +4740,12 @@
       "title": "Max Planck MPIIB Yaz Stajı 2027",
       "ts": "2026-11-16T20:59:14.686171+00:00"
     },
+    "1f71f4627775": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "OIST Internship Program in Japan 2027 | Fully Funded",
+      "ts": "2026-11-20T11:36:17.491315+00:00"
+    },
     "1fd939655f5e": {
       "reason": "Türkiye'ye kapalı: The European Union Delegation to Cameroon is seeking applicants who are Cameroonian citizens residing in Cameroon",
       "status": "rejected",
@@ -4889,6 +4932,12 @@
       "title": "Birmingham International Academy, Future Makers Challenge 2027",
       "ts": "2026-11-18T04:15:03.524783+00:00"
     },
+    "32812191855b": {
+      "reason": "Türkiye'ye kapalı: Eligible applicants must be aged 18 or over, have the right to reside in the United Kingdom, and live in or serve a comm",
+      "status": "rejected",
+      "title": "Afield Nature Communities Fund 2026: Apply for Up to £60,000 to Lead a Two-Year Community-Led Nature Project in London",
+      "ts": "2026-11-20T11:36:07.929012+00:00"
+    },
     "3319c88778df": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5052,10 +5101,10 @@
       "ts": "2026-11-13T22:35:46.003751+00:00"
     },
     "420ee3f3cd01": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Everyday English Ücretsiz Online Kursu 2027",
-      "ts": "2026-11-06T07:53:50.000339+00:00"
+      "ts": "2026-11-20T11:35:48.263944+00:00"
     },
     "4223ff6f1eae": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5442,16 +5491,22 @@
       "ts": "2026-10-29T09:48:29.672159+00:00"
     },
     "66b6695bf145": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Netflix Internship Program 2027",
-      "ts": "2026-11-13T07:53:13.579251+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Netflix 2027 Yaz Staj Programı",
+      "ts": "2026-11-20T11:35:48.264259+00:00"
     },
     "66bfb9cc5ea9": {
       "reason": "",
       "status": "published",
       "title": "AYFN Japonya Kış Kültür Kampı 2027",
       "ts": "2026-11-08T07:17:40.069052+00:00"
+    },
+    "66fc3cd15d4c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alımı",
+      "ts": "2026-11-20T11:36:48.744457+00:00"
     },
     "67e3ab3f0174": {
       "reason": "",
@@ -5464,6 +5519,12 @@
       "status": "queued",
       "title": "GençBizzTech 2027 Bilim ve Teknoloji Girişimcilik Programı",
       "ts": "2026-11-10T01:31:30.087860+00:00"
+    },
+    "6869539c66fe": {
+      "reason": "",
+      "status": "queued",
+      "title": "Geleceği Yeniliyoruz: Sosyal Dönüşüm ve Toplumsal Adalet Modülü",
+      "ts": "2026-11-20T11:37:13.072614+00:00"
     },
     "68a2f9b7fca4": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5482,6 +5543,12 @@
       "status": "published",
       "title": "Ready-Mix Concrete Uzun Dönem Staj Programı - Trakya",
       "ts": "2026-11-04T06:09:39.272586+00:00"
+    },
+    "6949f7ad65d5": {
+      "reason": "Türkiye'ye kapalı: African professionals and emerging leaders working in climate change, environmental management, sustainable development,",
+      "status": "rejected",
+      "title": "AGNES Africa Climate Governance, Diplomacy and Negotiations Leadership Programme 2026: Apply for Cohort XXIII Before 27 ",
+      "ts": "2026-11-20T11:37:25.158693+00:00"
     },
     "69ae4f68838d": {
       "reason": "bekleme süresi doldu",
@@ -5554,6 +5621,12 @@
       "status": "queued",
       "title": "OIST Japonya Araştırma Stajı",
       "ts": "2026-11-15T10:44:56.499800+00:00"
+    },
+    "7336429e997f": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "İstanbul Kalkınma Ajansı’ndan 2026 Yılı Yaratıcı Ekonominin Güçlendirilmesi Mali Destek Programı",
+      "ts": "2026-11-20T11:37:03.756545+00:00"
     },
     "73974b159d85": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -6126,10 +6199,10 @@
       "ts": "2026-10-28T20:13:38.305987+00:00"
     },
     "a8e2cb4c1e15": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "XPRIZE Accelerate Learning Competition 2026–2029: $6 Million Global Challenge to Transform Foundational Literacy and Num",
-      "ts": "2026-11-13T07:53:06.942869+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "XPRIZE Accelerate Learning Eğitim İnovasyonu Yarışması",
+      "ts": "2026-11-20T11:35:48.264297+00:00"
     },
     "a93633dac2f3": {
       "reason": "Metinde programın hangi ülkelerdeki ofisler için açık olduğu belirtilmiş ancak Türkiye'nin bu kapsama dahil olup olmadığına dair net bir ifade yer almamaktadır.",
@@ -6196,6 +6269,12 @@
       "status": "queued",
       "title": "İspanya'da Sürdürülebilir Liderlik Erasmus+ Eğitim Kursu",
       "ts": "2026-11-06T15:54:44.491081+00:00"
+    },
+    "aecd449abb52": {
+      "reason": "",
+      "status": "queued",
+      "title": "EF Education First İstanbul Satış ve Pazarlama Stajı",
+      "ts": "2026-11-20T11:36:32.105256+00:00"
     },
     "afb57596ed2c": {
       "reason": "",
@@ -6317,6 +6396,12 @@
       "title": "Japonya Yerel Projelere Hibe Programı 2026-2027 Başvuruları Açıldı",
       "ts": "2026-11-15T17:42:30.547290+00:00"
     },
+    "b923fbd6eb7e": {
+      "reason": "Metin, İsviçre'de yasal çalışma izni olan herkesin başvurabileceğini belirtmekte ancak Türk vatandaşlarının bu izni nasıl alabileceğine dair bir bilgi vermemektedir.",
+      "status": "pending",
+      "title": "Internship Opportunities at the UK Mission to the UN in Geneva 2027: Humanitarian Affairs, Migration and Forced Displace",
+      "ts": "2026-11-20T11:36:55.532938+00:00"
+    },
     "b94ad02d36d5": {
       "reason": "Türkiye'ye kapalı: Applicants must be operating in, or residing within, one of the designated regions.",
       "status": "rejected",
@@ -6376,6 +6461,12 @@
       "status": "expired",
       "title": "University of Nebraska at Omaha'da Kamu Yönetimi Doktora Programı",
       "ts": "2026-11-12T02:55:59.308856+00:00"
+    },
+    "c082d0e2270a": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "BARTIN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIM İLANI (2026-4)",
+      "ts": "2026-11-20T11:37:19.732109+00:00"
     },
     "c159003011e5": {
       "reason": "bekleme süresi doldu",
@@ -6833,6 +6924,12 @@
       "title": "CERN OPENLAB Summer Program 2027 in Switzerland (Fully Funded)",
       "ts": "2026-11-12T02:56:18.957777+00:00"
     },
+    "f60865a3d9e5": {
+      "reason": "",
+      "status": "queued",
+      "title": "Brezilya'da ESC Gönüllülük Projesi",
+      "ts": "2026-11-20T11:36:24.740502+00:00"
+    },
     "f71cb8b35a49": {
       "reason": "son başvuru geçti",
       "status": "expired",
@@ -7234,6 +7331,11 @@
     "new economy leaders academy 2027 liderlik ve mentorluk programı",
     "camp rising sun 2027 uluslararası liderlik programı",
     "itu genel sekreteri gençlik danışma kurulu üyeliği",
-    "bank of canada doktora araştırmacısı pozisyonları"
+    "bank of canada doktora araştırmacısı pozisyonları",
+    "brezilya'da esc gönüllülük projesi",
+    "ef education first i stanbul satış ve pazarlama stajı",
+    "adli tıp kurumu başkanlığı sözleşmeli personel alımı",
+    "uk mission geneva i nsani yardım ve göç staj programı",
+    "geleceği yeniliyoruz sosyal dönüşüm ve toplumsal adalet modülü"
   ]
 }
