@@ -286,18 +286,7 @@
     "fcdo.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/spa-1/candidate/so/pm/4/pl/1/opp/27823-Internship-Opportunities-Humanitarian-Affairs-Migration-and-Forced-Displacement-CHEG26-023255/en-GB",
     "youthall.com/tr/bilimvirusu/gelecegi-yeniliyoruz-sosyal-donusum-toplumsal-adalet-ve-katilim_15"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeKREpNJW8p-FkP3N-Qn8aiVPq4v7gsfDSFxRtk2qe5qWCDwA/viewform",
-      "attempts": 0,
-      "caption": "Almanya'da Erasmus+ Gençlik Değişimi: From Scroll to Soul\n\nAlmanya'nın Rheinbach şehrinde düzenlenecek olan siber zorbalıkla mücadele konulu Erasmus+ gençlik değişimi projesi. Katılımcılar dijital güvenlik ve akran desteği üzerine çalışmalar yapacaktır.\n\n- Erasmus+ Gençlik Değişimi\n- 20-29 Mart 2027 tarihleri arasında\n- Siber zorbalıkla mücadele odaklı\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSeKREpNJW8p-FkP3N-Qn8aiVPq4v7gsfDSFxRtk2qe5qWCDwA/viewform\nTüm fırsatlar: https://diploport.dev/#4dc4253c3d9c\n\nGörsel: Dwayne joe / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
-      "id": "4dc4253c3d9c",
-      "photo_query": "classroom workshop students",
-      "source": "Erasmusgram",
-      "title": "Almanya'da Erasmus+ Gençlik Değişimi: From Scroll to Soul",
-      "ts": "2026-11-20T11:37:28.548036+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1542,6 +1531,13 @@
       "photo_query": "logo: Sosyal Güvenlik Kurumu (Vikipedi (tr))",
       "source": "Kariyer Kapısı",
       "ts": "2026-11-19T13:00:28.179669+00:00"
+    },
+    {
+      "id": "4dc4253c3d9c",
+      "official": "https://docs.google.com/forms/d/e/1FAIpQLSeKREpNJW8p-FkP3N-Qn8aiVPq4v7gsfDSFxRtk2qe5qWCDwA/viewform",
+      "photo_query": "classroom workshop students",
+      "source": "Erasmusgram",
+      "ts": "2026-11-20T11:38:16.634822+00:00"
     }
   ],
   "queue": [
@@ -5234,9 +5230,9 @@
     },
     "4dc4253c3d9c": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "Almanya'da Erasmus+ Gençlik Değişimi: From Scroll to Soul",
-      "ts": "2026-11-10T17:45:40.511728+00:00"
+      "ts": "2026-11-20T11:38:16.634846+00:00"
     },
     "4dce148eeb23": {
       "reason": "",
