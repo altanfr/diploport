@@ -1,18 +1,18 @@
-# Son çalışma (2026-11-20 14:35 TR)
+# Son çalışma (2026-11-20 23:04 TR)
 
-Kuyruk: 104 · Onay bekleyen: 35 · Hazırlanan: 4dc4253c3d9c
-Bulunan yeni ilan: 14 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 3 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 4 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 4 yeni / 18 kayıt · Kariyer Kapısı: 2 yeni / 23 kayıt
+Kuyruk: 100 · Onay bekleyen: 34 · Hazırlanan: -
+Bulunan yeni ilan: 20 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 10 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 2 yeni / 10 kayıt · AB İlan: 6 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 2 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 23 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| elendi | Opportunities For Youth | Afield Nature Communities Fund 2026: Apply for Up to £60,000 to Lead a Two-Year  | Türkiye'ye kapalı: Eligible applicants must be aged 18 or over, have the right to reside in the United Kingdom, and live in or serve a comm |
-| elendi | Opportunities Circle | OIST Internship Program in Japan 2027 / Fully Funded | tekrar |
-| kuyrukta | AB İlan | Brezilya'da ESC Gönüllülük Projesi | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2026-12-06 · link: https://youth.europa.eu/solidarity/opportunity/55291_en |
-| kuyrukta | Youthall | EF Education First İstanbul Satış ve Pazarlama Stajı | kanıt: Kaynak Türkiye merkezli (Youthall) · son tarih: - · link: https://www.youthall.com/en/efturkey/sales-marketing-intern_5/ · görsel: kurum logosu aranacak (EF Education First; stok foto yok) |
-| kuyrukta | Kariyer Kapısı | Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alımı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e · görsel: kurum logosu aranacak (ADLİ TIP KURUMU BAŞKANLIĞI; stok foto yok) |
-| onayda | Opportunities For Youth | UK Mission Geneva İnsani Yardım ve Göç Staj Programı | Metin, İsviçre'de yasal çalışma izni olan herkesin başvurabileceğini belirtmekte ancak Türk vatandaşlarının bu izni nasıl alabileceğine dair bir bilgi vermemektedir. · son tarih: 2026-11-26 · link: https://fcdo.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/spa-1/candidate/so/pm/4/pl/1/opp/27823-Internship-Opportunities-Humanitarian-Affairs-Migration-and-Forced-Displacement-CHEG26-023255/en-GB · görsel: kurum logosu aranacak (UK Mission to the United Nations and World Trade Organization in Geneva; stok foto yok |
-| elendi | AB İlan | İstanbul Kalkınma Ajansı’ndan 2026 Yılı Yaratıcı Ekonominin Güçlendirilmesi Mali | fırsat değil (haber/liste/reklam) |
-| kuyrukta | Youthall | Geleceği Yeniliyoruz: Sosyal Dönüşüm ve Toplumsal Adalet Modülü | kanıt: Kaynak Türkiye merkezli (Youthall) · son tarih: 2026-12-20 · link: https://www.youthall.com/tr/bilimvirusu/gelecegi-yeniliyoruz-sosyal-donusum-toplumsal-adalet-ve-katilim_15/ · görsel: kurum logosu aranacak (Geleceği Yeniliyoruz; stok foto yok) |
-| elendi | Kariyer Kapısı | BARTIN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIM İLANI (2026-4) | tekrar |
-| elendi | Opportunities For Youth | AGNES Africa Climate Governance, Diplomacy and Negotiations Leadership Programme | Türkiye'ye kapalı: African professionals and emerging leaders working in climate change, environmental management, sustainable development, |
+| kuyrukta | Opportunities For Youth | Asia House 2027/2028 Araştırma Bursu | kanıt: Importantly, the programme is open to applicants of all nationalities and from all geographical locations. · son tarih: 2027-01-31 · link: https://apply.workable.com/asia-house/j/267FD33EF8 · görsel: kurum logosu aranacak (Asia House; stok foto yok) |
+| kuyrukta | Opportunities Circle | ETH Zurich Yaz Araştırma Bursu ve Staj Programı 2027 | kanıt: The ETH SSRF programme is open to Bachelor’s and Master’s students from all over the world. · son tarih: 2026-12-16 · link: https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html · görsel: kurum logosu aranacak (ETH Zurich; stok foto yok) |
+| elendi | AB İlan | Avrupa Konseyi’nden STK’lara 20 Bin Avroya Kadar Hibe Desteği | fırsat değil (haber/liste/reklam) |
+| kuyrukta | Youthall | ETS Kariyere Erken Rezervasyon Staj Programı | kanıt: Tercihen İstanbul Anadolu yakasında ikamet ediyorsan · son tarih: - · link: https://www.youthall.com/tr/etstur/kariyere-erken-rezervasyon_15/ · görsel: kurum logosu aranacak (ETS; stok foto yok) |
+| elendi | Opportunities For Youth | Clements-Archer National Security Policy Postdoctoral Fellowship 2027–2029: Earn | Türkiye'ye kapalı: Eligibility: UT Austin PhD students and recent doctoral graduates whose research focuses on security studies. |
+| elendi | Opportunities Circle | Erasmus Mundus EMLE Scholarship 2027 / Fully Funded | tekrar |
+| elendi | AB İlan | Portekiz’de Erasmus+ Gençlik Çalışanları Programına 10 Katılımcı | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link) |
+| kuyrukta | Youthall | New York Business Excellence Proje Takım Üyeliği | kanıt: Türkiye'nin liderliğinde, dünyanın dört bir yanından herkesin katılımına açık bu projede liderlik etkini ve gücünü küresel iş dünyasına gösterme fırsatı seni bekliyor. · son tarih: 2026-11-27 · link: https://www.newyorkbex.com/ · görsel: kurum logosu aranacak (New York Business Excellence; stok foto yok) |
+| onayda | Opportunities For Youth | University of Gothenburg Ekonomi Doktora Pozisyonları | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et. · son tarih: 2027-02-01 · link: https://web103.reachmee.com/ext/I005/1035/apply?site=7&lang=UK&validator=9b89bead79bb7258ad55c8d75228e5b7&job_id=41843 · görsel: kurum logosu aranacak (University of Gothenburg; stok foto yok) |
+| kuyrukta | AB İlan | Fransızca Konuşma Pratiği Atölyesi | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: - · link: https://docs.google.com/forms/d/e/1FAIpQLSc9ixbotSwEfPfPwH3cD3WIQz0kMs-_d4EUYEEpFUUHHrVSAg/viewform · görsel: kurum logosu aranacak (Gönüllü Hizmetler Derneği; stok foto yok) |

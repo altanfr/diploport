@@ -284,7 +284,13 @@
     "youthall.com/en/efturkey/sales-marketing-intern_5",
     "kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
     "fcdo.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/spa-1/candidate/so/pm/4/pl/1/opp/27823-Internship-Opportunities-Humanitarian-Affairs-Migration-and-Forced-Displacement-CHEG26-023255/en-GB",
-    "youthall.com/tr/bilimvirusu/gelecegi-yeniliyoruz-sosyal-donusum-toplumsal-adalet-ve-katilim_15"
+    "youthall.com/tr/bilimvirusu/gelecegi-yeniliyoruz-sosyal-donusum-toplumsal-adalet-ve-katilim_15",
+    "apply.workable.com/asia-house/j/267FD33EF8",
+    "inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+    "youthall.com/tr/etstur/kariyere-erken-rezervasyon_15",
+    "newyorkbex.com",
+    "web103.reachmee.com/ext/I005/1035/apply?site=7&lang=UK&validator=9b89bead79bb7258ad55c8d75228e5b7&job_id=41843",
+    "docs.google.com/forms/d/e/1FAIpQLSc9ixbotSwEfPfPwH3cD3WIQz0kMs-_d4EUYEEpFUUHHrVSAg/viewform"
   ],
   "outbox": [],
   "pending": {
@@ -548,34 +554,6 @@
       "source_url": "https://opportunitiesforyouth.org/2026/11/17/birmingham-international-academy-future-makers-challenge-2027/",
       "summary_tr": "Birmingham International Academy tarafından düzenlenen bu yarışma, küresel sorunlara yenilikçi çözümler sunan öğrencilere 5.000 GBP değerinde eğitim bursu kazanma fırsatı sunmaktadır.",
       "title_tr": "Birmingham International Academy Future Makers Challenge 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
-    "415a59cdb88b": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.k.u-tokyo.ac.jp/en/education/for_undergraduate/how_to_apply/",
-      "category": "staj",
-      "country_tr": "Japonya",
-      "deadline": "2027-01-13",
-      "eligibility_evidence": "The University of Tokyo is offering an international research internship for undergraduate students enrolled at universities outside Japan.",
-      "fee_required": false,
-      "funding_tr": "130.000 JPY burs, konaklama ve sağlık sigortası",
-      "highlights_tr": [
-        "Lisans öğrencileri için 47 günlük araştırma stajı",
-        "130.000 JPY burs ve konaklama desteği",
-        "Japonya'da laboratuvar ve akademik çalışma imkanı"
-      ],
-      "id": "415a59cdb88b",
-      "is_opportunity": true,
-      "message_id": 37,
-      "organization": "The University of Tokyo",
-      "organization_domain": "u-tokyo.ac.jp",
-      "queued_at": "2026-11-13T16:15:32.383350+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/university-of-tokyo-summer-internship-2027/",
-      "summary_tr": "University of Tokyo tarafından düzenlenen 47 günlük uluslararası araştırma stajı programı, lisans öğrencilerine laboratuvar deneyimi ve akademik çalışma imkanı sunuyor.",
-      "title_tr": "University of Tokyo Yaz Stajı (UTSIP Kashiwa) 2027",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -903,6 +881,35 @@
       "unclear_reason_tr": "Bursların ve programların Türkiye'den katılımcılara açık olup olmadığı her bir özel programın kendi kriterlerine bağlıdır, metinde genel bir ifade yer almamaktadır.",
       "visual_kind": "scene"
     },
+    "80974652f203": {
+      "apply_link_id": 1,
+      "apply_url": "https://web103.reachmee.com/ext/I005/1035/apply?site=7&lang=UK&validator=9b89bead79bb7258ad55c8d75228e5b7&job_id=41843",
+      "category": "burs",
+      "country_tr": "İsveç",
+      "deadline": "2027-02-01",
+      "eligibility_evidence": "International applicants are welcome.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu ve maaşlı",
+      "highlights_tr": [
+        "5 yıl süreli tam finansmanlı doktora",
+        "Ekonomi veya ilgili alanda yüksek lisans şartı",
+        "Uluslararası adaylara açık"
+      ],
+      "id": "80974652f203",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 75,
+      "organization": "University of Gothenburg",
+      "organization_domain": "gu.se",
+      "queued_at": "2026-11-20T20:06:45.136681+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/20/up-to-6-fully-funded-phd-positions-in-economics-at-the-university-of-gothenburg-sweden-2027/",
+      "summary_tr": "İsveç'teki University of Gothenburg, Ekonomi alanında 5 yıl süreli, tam finansmanlı 6 doktora pozisyonu için başvuru kabul etmektedir. Program, Eylül 2027'de başlayacaktır.",
+      "title_tr": "University of Gothenburg Ekonomi Doktora Pozisyonları",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et.",
+      "visual_kind": "institution"
+    },
     "8529ed92dfdc": {
       "apply_link_id": 1,
       "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1beaa927-d6fd-4da0-86c3-381c751ea13b&ccId=19000101_000001&jobId=637654&source=CC2&lang=en_US",
@@ -1129,34 +1136,6 @@
       "title_tr": "UK Mission Geneva İnsani Yardım ve Göç Staj Programı",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metin, İsviçre'de yasal çalışma izni olan herkesin başvurabileceğini belirtmekte ancak Türk vatandaşlarının bu izni nasıl alabileceğine dair bir bilgi vermemektedir.",
-      "visual_kind": "institution"
-    },
-    "c2965177b6a1": {
-      "apply_link_id": 2,
-      "apply_url": "https://thebarackobamafoundation.submittable.com/submit",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "2026-12-04",
-      "eligibility_evidence": "All leaders from Asia-Pacific, Europe, Africa, and the United States are welcome to apply for this Obama Foundation leaders program.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz program",
-      "highlights_tr": [
-        "24-45 yaş aralığı",
-        "İleri düzey İngilizce yeterliliği",
-        "6-8 ay süren çevrimiçi eğitim"
-      ],
-      "id": "c2965177b6a1",
-      "is_opportunity": true,
-      "message_id": 38,
-      "organization": "Obama Foundation",
-      "organization_domain": "obama.org",
-      "queued_at": "2026-11-13T16:15:41.163693+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/obama-foundation-leaders-program/",
-      "summary_tr": "Obama Vakfı tarafından düzenlenen, dünya genelinden liderleri bir araya getiren, değer odaklı liderlik becerilerini geliştirmeyi amaçlayan çevrimiçi bir eğitim programıdır.",
-      "title_tr": "Obama Foundation Leaders Program 2027-2028",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
     "d483e60348a9": {
@@ -1541,249 +1520,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.ned.org/fellowships/hurford-youth-fellows-program/",
-      "category": "burs",
-      "country_tr": "ABD",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "The fellowship is open to applicants from all countries.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (stipend, uçak bileti, sağlık sigortası)",
-      "highlights_tr": [
-        "30 yaş ve altı başvuru şartı",
-        "4 ay süreli tam burslu program",
-        "Demokrasi ve sivil toplum odaklı"
-      ],
-      "id": "7530d4fd2531",
-      "is_opportunity": true,
-      "organization": "National Endowment for Democracy",
-      "organization_domain": "ned.org",
-      "queued_at": "2026-11-06T15:54:17.280599+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/hurford-youth-fellowship-2027/",
-      "summary_tr": "ABD'de gerçekleşecek 4 aylık Hurford Youth Fellowship programı, demokrasi ve sivil toplum alanında çalışan genç liderleri desteklemektedir. Program tam kapsamlı bursludur.",
-      "title_tr": "Hurford Youth Fellowship 2027 - ABD",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.lehrbetrieb.ethz.ch/eApply/ealogin.view?lang=en",
-      "category": "burs",
-      "country_tr": "İsviçre",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "ETH Zurich Scholarship Program 2027 attracts talented students from European and non-EU countries to shine in their respective fields.",
-      "fee_required": false,
-      "funding_tr": "Öğrenim ücreti muafiyeti ve dönemlik 13.500 CHF yaşam bursu",
-      "highlights_tr": [
-        "Lisans derecesi (A notu veya ilk %10) şartı",
-        "Dönemlik 13.500 CHF yaşam desteği",
-        "Öğrenim ücreti muafiyeti"
-      ],
-      "id": "099418aa1fe4",
-      "image_queries": [
-        "ETH Zurich campus",
-        "Switzerland university students",
-        "students walking campus"
-      ],
-      "is_opportunity": true,
-      "organization": "ETH Zurich",
-      "organization_domain": "ethz.ch",
-      "queued_at": "2026-11-06T15:54:36.661155+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/eth-zurich-excellence-scholarship/",
-      "summary_tr": "ETH Zurich, başarılı uluslararası öğrencilere yüksek lisans eğitimi için burs ve yaşam desteği sunan Excellence Scholarship & Opportunity Programme (ESOP) başvurularını kabul ediyor.",
-      "title_tr": "ETH Zurich Excellence Bursu ve Fırsat Programı (ESOP) 2027",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/sustainable-leadership.15152/",
-      "category": "egitim",
-      "country_tr": "İspanya",
-      "deadline": "2027-02-04",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
-      "highlights_tr": [
-        "16-23 Nisan 2027 tarihleri arasında",
-        "Gençlik çalışanlarına yönelik",
-        "Erasmus+ destekli eğitim"
-      ],
-      "id": "aec648b9ab8d",
-      "image_queries": [
-        "Tortosa Catalonia Spain",
-        "Spain nature landscape",
-        "outdoor leadership training"
-      ],
-      "is_opportunity": true,
-      "organization": "SALTO-YOUTH",
-      "organization_domain": "salto-youth.net",
-      "queued_at": "2026-11-06T15:54:44.491063+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/ispanyada-7-gunluk-erasmus-egitim-kursu-firsati/",
-      "summary_tr": "İspanya'nın Katalonya bölgesinde düzenlenecek olan bu Erasmus+ eğitim kursu, gençlik çalışanlarının sürdürülebilir liderlik becerilerini geliştirmeyi ve gençlik değişim projelerine hazırlamayı amaçlamaktadır.",
-      "title_tr": "İspanya'da Sürdürülebilir Liderlik Erasmus+ Eğitim Kursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_url": "https://www.youthall.com/en/heloland/video-ai-content-creator-intern_20/",
-      "category": "staj",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "2-3 ay süreli uzaktan staj",
-        "Video düzenleme ve yapay zeka araçları deneyimi",
-        "Üniversite öğrencisi veya yeni mezun"
-      ],
-      "id": "992b05b17e6a",
-      "is_opportunity": true,
-      "organization": "helo.land",
-      "organization_domain": "",
-      "queued_at": "2026-11-06T15:54:52.097422+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/en/heloland/video-ai-content-creator-intern_20/",
-      "summary_tr": "helo.land platformu için video düzenleme, yapay zeka araçlarıyla içerik üretimi ve sosyal medya görsel tasarımı süreçlerinde görev alacak stajyer aranıyor.",
-      "title_tr": "helo.land Video ve Yapay Zeka İçerik Üreticisi Stajyeri",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "İlanın hangi ülkelerden başvurulara açık olduğu belirtilmemiştir.",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.kyoto-u.ac.jp/en/news/2026-11-02",
-      "category": "staj",
-      "country_tr": "Japonya",
-      "deadline": "2027-02-01",
-      "eligibility_evidence": "Western Asia: Armenia; Azerbaijan; Bahrain; Cyprus; Georgia; Iraq; Israel; Jordan; Kuwait; Lebanon; Oman; Qatar; Saudi Arabia; the State of Palestine; the Syrian Arab Republic; Turkey; United Arab Emirates; and Yemen.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (uçak bileti, konaklama ve harçlık dahil)",
-      "highlights_tr": [
-        "Tam burslu: Uçak, konaklama ve harçlık karşılanır",
-        "8 haftalık yaz dönemi araştırma programı",
-        "Lisans öğrencilerine açık"
-      ],
-      "id": "90484ef16c3c",
-      "is_opportunity": true,
-      "organization": "Kyoto University",
-      "organization_domain": "kyoto-u.ac.jp",
-      "queued_at": "2026-11-06T15:55:19.384583+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/kyoto-university-amgen-internship-2027-in-japan/",
-      "summary_tr": "Kyoto Üniversitesi'nde 8 haftalık tam burslu yaz araştırma stajı. Lisans öğrencilerine yönelik program, biyokimya ve biyoteknoloji gibi alanlarda uygulamalı araştırma deneyimi sunmaktadır.",
-      "title_tr": "Kyoto University Amgen Yaz Araştırma Stajı 2027",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.tev.org.tr/burs/tr/27/fiat-tofas-italya-burslari",
-      "category": "burs",
-      "country_tr": "İtalya",
-      "deadline": "2027-03-01",
-      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
-      "fee_required": false,
-      "funding_tr": "26.335 Avro toplam burs desteği",
-      "highlights_tr": [
-        "35 yaş altı T.C. vatandaşları başvurabilir",
-        "Mühendislik alanlarında yüksek lisans",
-        "26.335 Avro toplam burs desteği"
-      ],
-      "id": "9e01cd88d970",
-      "is_opportunity": true,
-      "organization": "Türk Eğitim Vakfı",
-      "organization_domain": "tev.org.tr",
-      "queued_at": "2026-11-06T15:55:39.622863+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tev-fiat-tofas-italya-yuksek-lisans-bursu-basvurulari-devam-ediyor/",
-      "summary_tr": "TEV-FIAT-TOFAŞ iş birliğiyle İtalya'daki üniversitelerde mühendislik alanlarında yüksek lisans yapacak 2 öğrenciye burs desteği sağlanmaktadır.",
-      "title_tr": "TEV-FIAT-TOFAŞ İtalya Yüksek Lisans Bursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/Akcansa/sahaya-ilk-adim-stajyer-laborant-tekirdag-buyukkaristiran-cerkezkoy-silivri_61/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "8 ay süreli yetiştirme programı",
-        "Lise ve ön lisans mezunlarına uygun",
-        "Tekirdağ, Çerkezköy ve Silivri lokasyonları"
-      ],
-      "id": "6f6f5318a853",
-      "is_opportunity": true,
-      "organization": "Akçansa",
-      "organization_domain": "akcansa.com.tr",
-      "queued_at": "2026-11-06T15:55:47.116445+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/Akcansa/sahaya-ilk-adim-stajyer-laborant-tekirdag-buyukkaristiran-cerkezkoy-silivri_61/",
-      "summary_tr": "Akçansa'nın Tekirdağ ve çevresindeki tesislerinde 8 ay sürecek, laboratuvar ve kalite kontrol süreçlerini kapsayan uygulamalı yetiştirme ve staj programı.",
-      "title_tr": "Akçansa Sahaya İlk Adım Yetiştirme Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/en/toyotaboshoku/career-dojo-long-term-internship-programme_2/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "At Toyota Boshoku Türkiye, we're looking for curious, motivated, and ambitious students to join Career Dojo—our long-term internship program at our plant in Sakarya, Arifiye.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "3. ve 4. sınıf lisans öğrencileri için",
-        "Haftada en az 3 gün çalışma zorunluluğu",
-        "İyi derecede İngilizce yetkinliği"
-      ],
-      "id": "7ea6cb792700",
-      "is_opportunity": true,
-      "organization": "Toyota Boshoku Türkiye",
-      "organization_domain": "toyota-boshoku.com",
-      "queued_at": "2026-11-06T15:56:04.125732+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/en/toyotaboshoku/career-dojo-long-term-internship-programme_2/",
-      "summary_tr": "Toyota Boshoku Türkiye'nin Sakarya Arifiye'deki fabrikasında gerçekleşecek, 3. ve 4. sınıf lisans öğrencilerine yönelik uzun dönem staj programı.",
-      "title_tr": "Toyota Boshoku Türkiye Career Dojo Uzun Dönem Staj Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 2,
-      "apply_url": "https://www.tev.org.tr/burs/tr/28/daad-almanya-burslari",
-      "category": "burs",
-      "country_tr": "Almanya",
-      "deadline": "2027-02-08",
-      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
-      "fee_required": false,
-      "funding_tr": "2 yıl için ortalama 25.000 Avro",
-      "highlights_tr": [
-        "35 yaş altı T.C. vatandaşları başvurabilir",
-        "Tıp ve Performans Sanatları hariç tüm alanlar",
-        "Minimum 3.0/4.0 not ortalaması şartı"
-      ],
-      "id": "6e8e91735eb0",
-      "is_opportunity": true,
-      "organization": "Türk Eğitim Vakfı",
-      "organization_domain": "tev.org.tr",
-      "queued_at": "2026-11-06T15:56:12.021887+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tev-daad-almanya-yuksek-lisans-bursu-basvurulari-basladi/",
-      "summary_tr": "TEV ve DAAD iş birliğiyle Almanya'daki devlet üniversitelerinde yüksek lisans yapmak isteyen T.C. vatandaşı öğrencilere yönelik burs programıdır.",
-      "title_tr": "TEV-DAAD Almanya Yüksek Lisans Bursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScvO2wVYMAxxb3n12PVC4CF8os8heNgRfa3JtMAMEZZA1GvNw/viewform",
@@ -4373,6 +4109,142 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://apply.workable.com/asia-house/j/267FD33EF8",
+      "category": "hibe",
+      "country_tr": "Online",
+      "deadline": "2027-01-31",
+      "eligibility_evidence": "Importantly, the programme is open to applicants of all nationalities and from all geographical locations.",
+      "fee_required": false,
+      "funding_tr": "24.000 Sterlin burs",
+      "highlights_tr": [
+        "12 ay süreli araştırma programı",
+        "24.000 Sterlin değerinde burs",
+        "Tüm dünyadan başvurulara açık"
+      ],
+      "id": "1af09e8408f0",
+      "is_opportunity": true,
+      "organization": "Asia House",
+      "organization_domain": "asiahouse.org",
+      "queued_at": "2026-11-20T20:05:23.822895+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/20/asia-house-fellowship-2027-2028-apply-for-a-fully-funded-12-month-research-fellowship-with-a-24000-stipend/",
+      "summary_tr": "Asia House, Asya ve Orta Doğu üzerine odaklanan, 12 ay sürecek ve 24.000 Sterlin burs imkanı sunan uzaktan çalışma modeline sahip bir araştırma programı için başvuruları kabul ediyor.",
+      "title_tr": "Asia House 2027/2028 Araştırma Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+      "category": "staj",
+      "country_tr": "İsviçre",
+      "deadline": "2026-12-16",
+      "eligibility_evidence": "The ETH SSRF programme is open to Bachelor’s and Master’s students from all over the world.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (4.000 CHF burs, konaklama, seyahat ve vize masrafları)",
+      "highlights_tr": [
+        "Lisans ve yüksek lisans öğrencilerine açık",
+        "2 ay süreli (Temmuz-Ağustos 2027)",
+        "4.000 CHF burs ve tüm masraflar karşılanıyor"
+      ],
+      "id": "9220b9bd1202",
+      "image_queries": [
+        "ETH Zurich campus",
+        "Switzerland university students",
+        "research laboratory students"
+      ],
+      "is_opportunity": true,
+      "organization": "ETH Zurich",
+      "organization_domain": "ethz.ch",
+      "queued_at": "2026-11-20T20:05:34.053572+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/eth-student-summer-research-fellowship/",
+      "summary_tr": "ETH Zurich bünyesinde bilgisayar bilimi ve ilgili alanlarda lisans ve yüksek lisans öğrencilerine yönelik 2 aylık tam kapsamlı yaz araştırma stajı ve burs programı.",
+      "title_tr": "ETH Zurich Yaz Araştırma Bursu ve Staj Programı 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/etstur/kariyere-erken-rezervasyon_15/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Tercihen İstanbul Anadolu yakasında ikamet ediyorsan",
+      "fee_required": false,
+      "funding_tr": "Kahvaltı, öğle yemeği ve sosyal imkanlar",
+      "highlights_tr": [
+        "Üniversite 2, 3 veya 4. sınıf öğrencileri için",
+        "İstanbul Anadolu yakasında ikamet tercihi",
+        "Turizm sektöründe profesyonel eğitim imkanı"
+      ],
+      "id": "56ea7ba6911c",
+      "is_opportunity": true,
+      "organization": "ETS",
+      "organization_domain": "etstur.com",
+      "queued_at": "2026-11-20T20:05:50.281210+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/etstur/kariyere-erken-rezervasyon_15/",
+      "summary_tr": "ETS'nin turizm sektörüne yönelik staj programı; üniversite öğrencilerine eğitim içerikleri, online eğitim fırsatları ve çeşitli sosyal imkanlar sunmaktadır.",
+      "title_tr": "ETS Kariyere Erken Rezervasyon Staj Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.newyorkbex.com/",
+      "category": "gonulluluk",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-27",
+      "eligibility_evidence": "Türkiye'nin liderliğinde, dünyanın dört bir yanından herkesin katılımına açık bu projede liderlik etkini ve gücünü küresel iş dünyasına gösterme fırsatı seni bekliyor.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz kariyer planlama programı ve etkinliklere katılım",
+      "highlights_tr": [
+        "1-26 Aralık 2026 tarihleri arasında",
+        "Fiziksel veya uzaktan çalışma imkanı",
+        "Global proje deneyimi ve CV desteği"
+      ],
+      "id": "44534ff61465",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "New York Business Excellence",
+      "organization_domain": "newyorkbex.com",
+      "queued_at": "2026-11-20T20:06:23.688486+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/nybexcellence/proje-takim-uyesi_13/",
+      "summary_tr": "New York Business Excellence ve MAX ENERGY tarafından yürütülen, COP31 vizyonu odaklı küresel projede takım üyesi olarak yer alma fırsatı.",
+      "title_tr": "New York Business Excellence Proje Takım Üyeliği",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSc9ixbotSwEfPfPwH3cD3WIQz0kMs-_d4EUYEEpFUUHHrVSAg/viewform",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "A2 ve B1+ Fransızca seviyesi gereklidir",
+        "İstanbul'da yüz yüze eğitim",
+        "Her salı 17.00-18.00 saatleri arasında"
+      ],
+      "id": "7a66decdcbc9",
+      "is_opportunity": true,
+      "organization": "Gönüllü Hizmetler Derneği",
+      "organization_domain": "",
+      "queued_at": "2026-11-20T20:06:53.532248+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/a2-b1-seviye-fransizca-konusma-pratigi-atolyesi/",
+      "summary_tr": "Gönüllü Hizmetler Derneği tarafından İstanbul'da düzenlenen, A2 ve B1+ seviyesinde Fransızca bilenlere yönelik ücretsiz yüz yüze konuşma pratiği atölyesi.",
+      "title_tr": "Fransızca Konuşma Pratiği Atölyesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4478,6 +4350,12 @@
       "title": "Sefine SKY Uzun Dönem Staj Programı",
       "ts": "2026-11-08T15:08:19.198815+00:00"
     },
+    "0861922f0bcf": {
+      "reason": "Türkiye'ye kapalı: Eligibility: UT Austin PhD students and recent doctoral graduates whose research focuses on security studies.",
+      "status": "rejected",
+      "title": "Clements-Archer National Security Policy Postdoctoral Fellowship 2027–2029: Earn an $80,000 Stipend Through a Fully Fund",
+      "ts": "2026-11-20T20:05:56.588351+00:00"
+    },
     "08ccea13929e": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -4497,10 +4375,10 @@
       "ts": "2026-11-17T22:16:02.556729+00:00"
     },
     "099418aa1fe4": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "ETH Zurich Excellence Bursu ve Fırsat Programı (ESOP) 2027",
-      "ts": "2026-11-06T15:54:36.661172+00:00"
+      "ts": "2026-11-20T20:04:55.177778+00:00"
     },
     "09e3fac1dcd7": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -4681,6 +4559,12 @@
       "status": "rejected",
       "title": "Orman Genel Müdürlüğü Müfettiş Yardımcısı Alımı Duyurusu",
       "ts": "2026-10-30T00:48:44.059536+00:00"
+    },
+    "1af09e8408f0": {
+      "reason": "",
+      "status": "queued",
+      "title": "Asia House 2027/2028 Araştırma Bursu",
+      "ts": "2026-11-20T20:05:23.822916+00:00"
     },
     "1b67dbcb75a2": {
       "reason": "",
@@ -5079,10 +4963,10 @@
       "ts": "2026-10-29T09:48:17.218454+00:00"
     },
     "415a59cdb88b": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "University of Tokyo Summer Internship 2027 in Japan (UTSIP Kashiwa)",
-      "ts": "2026-11-13T16:15:32.383368+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "University of Tokyo Yaz Stajı (UTSIP Kashiwa) 2027",
+      "ts": "2026-11-20T20:04:55.177989+00:00"
     },
     "41e162b6e868": {
       "reason": "",
@@ -5143,6 +5027,12 @@
       "status": "queued",
       "title": "TEV-TEV UK-Imperial College London Yüksek Lisans Bursu",
       "ts": "2026-11-10T09:43:46.091374+00:00"
+    },
+    "44534ff61465": {
+      "reason": "",
+      "status": "queued",
+      "title": "New York Business Excellence Proje Takım Üyeliği",
+      "ts": "2026-11-20T20:06:23.688506+00:00"
     },
     "455ec206e4ec": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5305,6 +5195,12 @@
       "status": "expired",
       "title": "Erasmus PlantHealth3 Yüksek Lisans Bursu 2027/29",
       "ts": "2026-11-14T22:18:36.825114+00:00"
+    },
+    "56ea7ba6911c": {
+      "reason": "",
+      "status": "queued",
+      "title": "ETS Kariyere Erken Rezervasyon Staj Programı",
+      "ts": "2026-11-20T20:05:50.281229+00:00"
     },
     "578e6d05a3d0": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5571,16 +5467,16 @@
       "ts": "2026-11-18T04:16:28.889879+00:00"
     },
     "6e8e91735eb0": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "TEV-DAAD Almanya Yüksek Lisans Bursu",
-      "ts": "2026-11-06T15:56:12.021905+00:00"
+      "ts": "2026-11-20T20:04:55.177814+00:00"
     },
     "6f6f5318a853": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Akçansa Sahaya İlk Adım Yetiştirme Programı",
-      "ts": "2026-11-06T15:55:47.116462+00:00"
+      "ts": "2026-11-20T20:04:55.177806+00:00"
     },
     "6fa619234ecc": {
       "reason": "",
@@ -5643,10 +5539,10 @@
       "ts": "2026-11-05T10:47:23.820229+00:00"
     },
     "7530d4fd2531": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Hurford Youth Fellowship 2027 - ABD",
-      "ts": "2026-11-06T15:54:17.280618+00:00"
+      "ts": "2026-11-20T20:04:55.177761+00:00"
     },
     "754797dd13a2": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5714,6 +5610,12 @@
       "title": "Orta Anadolu Kalkınma Ajansı Personel Alımı 2026",
       "ts": "2026-11-09T06:14:49.310292+00:00"
     },
+    "7a66decdcbc9": {
+      "reason": "",
+      "status": "queued",
+      "title": "Fransızca Konuşma Pratiği Atölyesi",
+      "ts": "2026-11-20T20:06:53.532266+00:00"
+    },
     "7ad102b9787d": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -5745,16 +5647,22 @@
       "ts": "2026-11-12T10:57:52.603635+00:00"
     },
     "7ea6cb792700": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Toyota Boshoku Türkiye Career Dojo Uzun Dönem Staj Programı",
-      "ts": "2026-11-06T15:56:04.125755+00:00"
+      "ts": "2026-11-20T20:04:55.177810+00:00"
     },
     "7ffbe6fb4e3b": {
       "reason": "",
       "status": "queued",
       "title": "Pusula: Çocuklar için Sporla Katılım Destek Programı",
       "ts": "2026-11-10T17:48:11.062801+00:00"
+    },
+    "80974652f203": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et.",
+      "status": "pending",
+      "title": "Up to 6 Fully Funded PhD Positions in Economics at the University of Gothenburg, Sweden – 2027",
+      "ts": "2026-11-20T20:06:45.136701+00:00"
     },
     "8162981a9ca5": {
       "reason": "",
@@ -5931,10 +5839,10 @@
       "ts": "2026-11-13T16:17:22.250709+00:00"
     },
     "90484ef16c3c": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Kyoto University Amgen Yaz Araştırma Stajı 2027",
-      "ts": "2026-11-06T15:55:19.384601+00:00"
+      "ts": "2026-11-20T20:04:55.177797+00:00"
     },
     "90b299851cba": {
       "reason": "bekleme süresi doldu",
@@ -5953,6 +5861,12 @@
       "status": "expired",
       "title": "İspanya'da Erasmus+ Eğitim Kursu: Sosyal Kapsayıcılık ve Spor",
       "ts": "2026-11-13T22:34:34.615944+00:00"
+    },
+    "9220b9bd1202": {
+      "reason": "",
+      "status": "queued",
+      "title": "ETH Zurich Yaz Araştırma Bursu ve Staj Programı 2027",
+      "ts": "2026-11-20T20:05:34.053599+00:00"
     },
     "944605f639d0": {
       "reason": "Türkiye'ye kapalı: Applicants must hold the nationality of one of the eligible countries listed in the selection criteria of the Eric Bleum",
@@ -6009,10 +5923,10 @@
       "ts": "2026-11-12T02:56:57.698094+00:00"
     },
     "992b05b17e6a": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "helo.land Video ve Yapay Zeka İçerik Üreticisi Stajyeri",
-      "ts": "2026-11-06T15:54:52.097440+00:00"
+      "ts": "2026-11-20T20:04:55.177791+00:00"
     },
     "995bd0c51e2a": {
       "reason": "Türkiye'ye kapalı: The 2027 Digital Governance Incubator is specifically focused on young leaders from the following three African countrie",
@@ -6069,10 +5983,10 @@
       "ts": "2026-11-17T03:47:48.657566+00:00"
     },
     "9e01cd88d970": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "TEV-FIAT-TOFAŞ İtalya Yüksek Lisans Bursu",
-      "ts": "2026-11-06T15:55:39.622881+00:00"
+      "ts": "2026-11-20T20:04:55.177802+00:00"
     },
     "9e068ebdd446": {
       "reason": "",
@@ -6261,10 +6175,10 @@
       "ts": "2026-11-04T15:27:56.392317+00:00"
     },
     "aec648b9ab8d": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "İspanya'da Sürdürülebilir Liderlik Erasmus+ Eğitim Kursu",
-      "ts": "2026-11-06T15:54:44.491081+00:00"
+      "ts": "2026-11-20T20:04:55.177785+00:00"
     },
     "aecd449abb52": {
       "reason": "",
@@ -6471,10 +6385,10 @@
       "ts": "2026-11-18T21:53:41.150141+00:00"
     },
     "c2965177b6a1": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Obama Foundation Leaders Program 2027-2028",
-      "ts": "2026-11-13T16:15:41.163710+00:00"
+      "ts": "2026-11-20T20:04:55.178021+00:00"
     },
     "c337963fbb56": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -6590,6 +6504,12 @@
       "title": "Dubai Hükümeti Ücretsiz Yapay Zeka Kursu: One Million Prompters",
       "ts": "2026-11-11T21:54:28.158730+00:00"
     },
+    "cda264a9527e": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Portekiz’de Erasmus+ Gençlik Çalışanları Programına 10 Katılımcı",
+      "ts": "2026-11-20T20:06:15.351477+00:00"
+    },
     "ce58ab356365": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -6661,6 +6581,12 @@
       "status": "rejected",
       "title": "Summer Internship 2027: Purchases",
       "ts": "2026-11-05T10:47:30.413733+00:00"
+    },
+    "d965cb027e63": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Avrupa Konseyi’nden STK’lara 20 Bin Avroya Kadar Hibe Desteği",
+      "ts": "2026-11-20T20:05:42.271153+00:00"
     },
     "d993ef285a9d": {
       "reason": "",
@@ -6829,6 +6755,12 @@
       "status": "expired",
       "title": "Fransa'da Erasmus+ Eğitim Kursu: Ezilenlerin Tiyatrosu",
       "ts": "2026-11-19T21:27:26.708827+00:00"
+    },
+    "eb62e08ec3f5": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Erasmus Mundus EMLE Scholarship 2027 | Fully Funded",
+      "ts": "2026-11-20T20:06:03.789014+00:00"
     },
     "ebc946645452": {
       "reason": "",
@@ -7332,6 +7264,12 @@
     "ef education first i stanbul satış ve pazarlama stajı",
     "adli tıp kurumu başkanlığı sözleşmeli personel alımı",
     "uk mission geneva i nsani yardım ve göç staj programı",
-    "geleceği yeniliyoruz sosyal dönüşüm ve toplumsal adalet modülü"
+    "geleceği yeniliyoruz sosyal dönüşüm ve toplumsal adalet modülü",
+    "asia house 2027 2028 araştırma bursu",
+    "eth zurich yaz araştırma bursu ve staj programı 2027",
+    "ets kariyere erken rezervasyon staj programı",
+    "new york business excellence proje takım üyeliği",
+    "university of gothenburg ekonomi doktora pozisyonları",
+    "fransızca konuşma pratiği atölyesi"
   ]
 }
