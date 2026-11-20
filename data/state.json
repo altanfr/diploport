@@ -277,7 +277,9 @@
     "e-recruitment.unitar.org/user/login?destination=%2Fvacancies%2Ftraineeship-multimedia-communications-graphic-design",
     "tudelft.nl/onderwijs/studievoorlichting/praktische-zaken/scholarships",
     "lnkd.in/d3DbSEA9",
-    "lajf.org/crs2027"
+    "lajf.org/crs2027",
+    "forms.cloud.microsoft/pages/responsepage.aspx?id=12TkI-YEh0uRPCS9iSGf03Ez9rx-WdFDjrVAKPw8dzRUMEVWQlpGNlgxUDcwRUxBUENYUzdNODJMNyQlQCN0PWcu&route=shorturl",
+    "careers.bankofcanada.ca/job/Ottawa-(Downtown)-PhD-Researcher-(2026-2027-PhD-Job-Market)-ON/606660617"
   ],
   "outbox": [],
   "pending": {
@@ -371,34 +373,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "0c1216ba08b3": {
-      "apply_link_id": 1,
-      "apply_url": "https://form.jotform.com/Michigan_Justice/program-manager-application",
-      "category": "is",
-      "country_tr": "ABD",
-      "deadline": "2026-12-14",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Ceza adaleti reformu odaklı çalışma",
-        "Program yönetimi ve hibe desteği",
-        "Michigan, ABD merkezli pozisyon"
-      ],
-      "id": "0c1216ba08b3",
-      "is_opportunity": true,
-      "message_id": 33,
-      "organization": "Michigan Justice Fund",
-      "organization_domain": "",
-      "queued_at": "2026-11-13T00:16:57.698055+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/12/michigan-justice-fund-program-manager-job-2026-apply-for-a-justice-reform-and-economic-mobility-position-in-michigan-usa/",
-      "summary_tr": "Michigan Justice Fund, ceza adaleti reformu ve ekonomik hareketlilik üzerine çalışan, program yönetimi ve hibe süreçlerini destekleyecek bir Program Müdürü arıyor.",
-      "title_tr": "Michigan Justice Fund Program Manager Pozisyonu",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
-      "visual_kind": "institution"
-    },
     "157026c06bbd": {
       "apply_link_id": 2,
       "apply_url": "https://aiesec.org/opportunity/global-volunteer/1334286",
@@ -426,6 +400,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
       "visual_kind": "scene"
+    },
+    "1697d270e90c": {
+      "apply_link_id": 1,
+      "apply_url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=12TkI-YEh0uRPCS9iSGf03Ez9rx-WdFDjrVAKPw8dzRUMEVWQlpGNlgxUDcwRUxBUENYUzdNODJMNyQlQCN0PWcu&route=shorturl",
+      "category": "diger",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2027-01-15",
+      "eligibility_evidence": "For the second cohort of the YAB, we are looking for twelve young leaders from across the world",
+      "fee_required": false,
+      "funding_tr": "Tam burslu seyahat imkanı",
+      "highlights_tr": [
+        "18-28 yaş arası gençler başvurabilir",
+        "İki yıllık danışmanlık süreci",
+        "Cenevre'ye tam destekli seyahat imkanı"
+      ],
+      "id": "1697d270e90c",
+      "is_opportunity": true,
+      "message_id": 72,
+      "organization": "International Telecommunication Union",
+      "organization_domain": "itu.int",
+      "queued_at": "2026-11-20T03:06:38.888916+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/19/itu-secretary-generals-youth-advisory-board-second-cohort-2027/",
+      "summary_tr": "ITU Genel Sekreteri'ne dijital kalkınma konularında tavsiyelerde bulunacak 12 genç liderden oluşan ikinci dönem Gençlik Danışma Kurulu'na başvurular başladı.",
+      "title_tr": "ITU Genel Sekreteri Gençlik Danışma Kurulu Üyeliği",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
     },
     "1d2ca2849d02": {
       "apply_link_id": 3,
@@ -839,34 +841,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "scene"
     },
-    "6fe9257d8cf9": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F12%2Fpurdue-university-summer-undergraduate-research-fellowship-surf-2027-fully-funded-10-week-research-fellowship-for-undergraduate-students-worldwide%2F&title=Purdue+University+Summer+Undergraduate+Research+Fellowship+%28SURF%29+2027%3A+Fully+Funded+10-Week+Research+Fellowship+for+Undergraduate+Students+Worldwide",
-      "category": "staj",
-      "country_tr": "ABD",
-      "deadline": "2026-12-15",
-      "eligibility_evidence": "The programme welcomes applications from eligible undergraduate students studying at Purdue University, other universities and colleges in the United States, and international institutions.",
-      "fee_required": false,
-      "funding_tr": "6.500$ burs ve 2.500$ konaklama desteği",
-      "highlights_tr": [
-        "10 haftalık tam zamanlı araştırma deneyimi",
-        "6.500$ stipend ve 2.500$ konaklama desteği",
-        "Uluslararası lisans öğrencilerine açık"
-      ],
-      "id": "6fe9257d8cf9",
-      "is_opportunity": true,
-      "message_id": 34,
-      "organization": "Purdue University",
-      "organization_domain": "purdue.edu",
-      "queued_at": "2026-11-13T00:17:32.864592+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/12/purdue-university-summer-undergraduate-research-fellowship-surf-2027-fully-funded-10-week-research-fellowship-for-undergraduate-students-worldwide/",
-      "summary_tr": "Purdue Üniversitesi'nde lisans öğrencilerine yönelik 10 haftalık uygulamalı araştırma programı. Öğrenciler, akademik mentorlar eşliğinde projelerde çalışarak araştırma deneyimi kazanır ve profesyonel gelişim faaliyetlerine katılırlar.",
-      "title_tr": "Purdue University Yaz Lisans Araştırma Bursu (SURF) 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "73a8ca465439": {
       "apply_link_id": 1,
       "apply_url": "https://carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2/",
@@ -894,6 +868,35 @@
       "title_tr": "Mülteciler için 2026-2027 Yükseköğrenim Burs Fırsatları",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Bursların mülteci statüsündeki Türk vatandaşlarına açık olup olmadığına dair genel bir ifade bulunmamaktadır; her üniversitenin kendi kriterleri geçerlidir.",
+      "visual_kind": "institution"
+    },
+    "779fb2e0d713": {
+      "apply_link_id": 3,
+      "apply_url": "https://careers.bankofcanada.ca/job/Ottawa-(Downtown)-PhD-Researcher-(2026-2027-PhD-Job-Market)-ON/606660617/",
+      "category": "is",
+      "country_tr": "Kanada",
+      "deadline": "2027-04-30",
+      "eligibility_evidence": "The recruitment announcement states that priority will be given to Canadian citizens and permanent residents.",
+      "fee_required": false,
+      "funding_tr": "Yıllık 114.952 - 156.778 CAD maaş",
+      "highlights_tr": [
+        "Ekonomi alanında doktora derecesi şartı",
+        "Ottawa merkezli hibrit çalışma modeli",
+        "Yıllık 114.952 - 156.778 CAD maaş"
+      ],
+      "id": "779fb2e0d713",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 73,
+      "organization": "Bank of Canada",
+      "organization_domain": "bankofcanada.ca",
+      "queued_at": "2026-11-20T03:06:46.189392+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/19/bank-of-canada-phd-researcher-jobs-2026-2027-earn-up-to-cad-156778-annually-in-ottawa-apply-for-up-to-8-research-positions/",
+      "summary_tr": "Kanada Merkez Bankası, ekonomi alanında doktora derecesine sahip veya 2027'de mezun olacak araştırmacılar için 8 kişilik tam zamanlı ve kalıcı pozisyon açmıştır.",
+      "title_tr": "Bank of Canada Doktora Araştırmacısı Pozisyonları",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "İlan Kanada vatandaşlarına ve daimi ikamet izni olanlara öncelik vermektedir; diğer adayların başvuru şartlarını dikkatle incelemesi gerektiği belirtilmiştir.",
       "visual_kind": "institution"
     },
     "794fc7d24d45": {
@@ -1555,167 +1558,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 2,
-      "apply_url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-residency-programme/humboldt-residency-programme-call-for-applications",
-      "category": "egitim",
-      "country_tr": "Almanya",
-      "deadline": "2026-12-14",
-      "eligibility_evidence": "The programme welcomes applicants from different countries and disciplines, subject to the eligibility requirements of their respective participant categories.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (yol, konaklama, aylık ödenek)",
-      "highlights_tr": [
-        "Almanya'da 6 haftalık tam kapsamlı program",
-        "Araştırmacılar, sanatçılar ve STK çalışanları için",
-        "Okyanus sağlığı ve sürdürülebilirlik temalı"
-      ],
-      "id": "5df74c20436c",
-      "image_queries": [
-        "Brandenburg Germany landscape",
-        "Germany research residency",
-        "international academic collaboration"
-      ],
-      "is_opportunity": true,
-      "organization": "Alexander von Humboldt Foundation",
-      "organization_domain": "humboldt-foundation.de",
-      "queued_at": "2026-11-06T00:17:07.305433+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/05/humboldt-residency-programme-2027-fully-funded-six-week-international-residency-in-germany-for-researchers-creatives-and-civil-society-practitioners/",
-      "summary_tr": "Alexander von Humboldt Vakfı tarafından düzenlenen, araştırmacılar, sanatçılar ve sivil toplum çalışanlarına yönelik 6 haftalık disiplinlerarası uluslararası misafir programı.",
-      "title_tr": "Humboldt Residency Programme 2027: Almanya'da Araştırma Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://kariyer.aa.com.tr/jobs",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-27",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Lisans 3. veya 4. sınıf öğrencisi olma şartı",
-        "Zorunlu staj veya sigorta desteği belgesi gerekli",
-        "En fazla 30 iş günü staj imkanı"
-      ],
-      "id": "acddf474fad2",
-      "is_opportunity": true,
-      "organization": "Anadolu Ajansı",
-      "organization_domain": "aa.com.tr",
-      "queued_at": "2026-11-06T00:17:16.193090+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/anadolu-ajansi-ajans-staj-ve-yurt-staj-programi-basvurulari-acildi-2/",
-      "summary_tr": "Anadolu Ajansı, Ankara, İstanbul ve 14 farklı bölge müdürlüğünde lisans 3. ve 4. sınıf öğrencileri için kış dönemi staj programı başvurularını başlattı.",
-      "title_tr": "Anadolu Ajansı Kış Dönemi Staj Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/hupalupamagaza/satis-danismani_3/",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Maaş belirtilmemiş",
-      "highlights_tr": [
-        "En az lise mezunu olma şartı",
-        "Perakende sektöründe kariyer imkanı",
-        "Dinamik ve enerjik çalışma ortamı"
-      ],
-      "id": "27b1a060f399",
-      "is_opportunity": true,
-      "organization": "HUPALUPA STORE",
-      "organization_domain": "",
-      "queued_at": "2026-11-06T00:17:23.722020+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/hupalupamagaza/satis-danismani_3/",
-      "summary_tr": "HUPALUPA STORE, mağazalarında görevlendirmek üzere müşteri deneyimine önem veren, perakende sektöründe çalışmaya istekli satış danışmanları arıyor.",
-      "title_tr": "HUPALUPA STORE Mağaza Satış Danışmanı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://upsallinternational.com/jobs/manger-of-people-and-culture/",
-      "category": "is",
-      "country_tr": "Online",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "The position offers an exciting opportunity for an experienced HR professional to join an international, youth-led organization supporting climate justice movements worldwide.",
-      "fee_required": false,
-      "funding_tr": "Yıllık 65.000 USD maaş ve yan haklar",
-      "highlights_tr": [
-        "Tam zamanlı ve tamamen uzaktan çalışma imkanı",
-        "Yıllık 65.000 USD maaş ve yan haklar",
-        "En az 5 yıl profesyonel deneyim şartı"
-      ],
-      "id": "182624f6840b",
-      "is_opportunity": true,
-      "organization": "Youth Climate Justice Fund",
-      "organization_domain": "",
-      "queued_at": "2026-11-06T00:18:01.499461+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/05/youth-climate-justice-fund-manager-of-people-and-culture-2026/",
-      "summary_tr": "Youth Climate Justice Fund, dünya genelinde uzaktan çalışacak, insan kaynakları ve organizasyonel gelişim alanında en az beş yıl deneyimli bir İnsan ve Kültür Müdürü arıyor.",
-      "title_tr": "Youth Climate Justice Fund İnsan ve Kültür Müdürü Pozisyonu",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 3,
-      "apply_url": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships",
-      "category": "burs",
-      "country_tr": "Singapur",
-      "deadline": "2026-12-31",
-      "eligibility_evidence": "It is open to applicants of all nationalities, making it an opportunity for qualified international students",
-      "fee_required": false,
-      "funding_tr": "Tam burs, aylık yaşam desteği ve ek ödenekler",
-      "highlights_tr": [
-        "Tam doktora bursu ve aylık 4.300 S$ yaşam desteği",
-        "Tüm milletlerden adaylara açık",
-        "Akademik başarı ve araştırma potansiyeli şartı"
-      ],
-      "id": "900cd1adb7cb",
-      "is_opportunity": true,
-      "organization": "Nanyang Technological University",
-      "organization_domain": "ntu.edu.sg",
-      "queued_at": "2026-11-06T00:18:25.226754+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/05/nanyang-presidents-graduate-scholarship-2027-2028-in-singapore-fully-funded-phd-scholarship-at-ntu-for-international-students/",
-      "summary_tr": "Nanyang Technological University (NTU) tarafından sunulan bu doktora bursu, uluslararası öğrencilere tam eğitim ücreti muafiyeti, aylık 4.300 S$ yaşam desteği ve çeşitli araştırma ödenekleri sağlamaktadır.",
-      "title_tr": "Nanyang President’s Graduate Scholarship (NPGS) 2027–2028",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 4,
-      "apply_url": "https://beamlineforschools.cern/",
-      "category": "yarisma",
-      "country_tr": "İsviçre ve Almanya",
-      "deadline": "2027-03-12",
-      "eligibility_evidence": "The competition is open to high-school and secondary-school students from around the world.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (yol, konaklama ve yemekler karşılanır)",
-      "highlights_tr": [
-        "Lise öğrencilerine açık",
-        "Uluslararası katılım",
-        "Tam kapsamlı seyahat desteği"
-      ],
-      "id": "5484b42a3419",
-      "is_opportunity": true,
-      "organization": "CERN",
-      "organization_domain": "cern.ch",
-      "queued_at": "2026-11-06T00:19:20.348766+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/05/cern-beamline-for-schools-competition-2027-high-school-students-worldwide-invited-to-propose-physics-experiments-at-cern-desy-and-elsa/",
-      "summary_tr": "Lise öğrencilerinin parçacık hızlandırıcılarında gerçekleştirilecek fizik deneyi projeleri tasarlayıp sunduğu uluslararası bir yarışmadır. Kazanan takımlar CERN veya DESY'de deney yapma şansı kazanır.",
-      "title_tr": "CERN Beamline for Schools 2027 Fizik Deneyi Yarışması",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://www.open.edu/openlearn/languages/everyday-english-1/content-section-overview?active-tab=description-tab",
@@ -4664,10 +4506,10 @@
       "ts": "2026-11-18T21:54:51.762425+00:00"
     },
     "0c1216ba08b3": {
-      "reason": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
-      "status": "pending",
-      "title": "Michigan Justice Fund Program Manager Job 2026: Apply for a Justice Reform and Economic Mobility Position in Michigan, U",
-      "ts": "2026-11-13T00:16:57.698082+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Michigan Justice Fund Program Manager Pozisyonu",
+      "ts": "2026-11-20T03:06:15.153580+00:00"
     },
     "0c635f447437": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -4753,6 +4595,12 @@
       "title": "Almanya’da Uzun Dönem ESC Gönüllülük Projesi Fırsatı",
       "ts": "2026-11-18T13:55:56.126326+00:00"
     },
+    "1697d270e90c": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "ITU Secretary-General’s Youth Advisory Board – Second Cohort 2027",
+      "ts": "2026-11-20T03:06:38.888937+00:00"
+    },
     "1760f8288825": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -4766,10 +4614,10 @@
       "ts": "2026-11-18T13:53:55.725158+00:00"
     },
     "182624f6840b": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Youth Climate Justice Fund İnsan ve Kültür Müdürü Pozisyonu",
-      "ts": "2026-11-06T00:18:01.499480+00:00"
+      "ts": "2026-11-20T03:06:15.153413+00:00"
     },
     "18609da22e53": {
       "reason": "",
@@ -4940,10 +4788,10 @@
       "ts": "2026-11-07T15:39:54.146899+00:00"
     },
     "27b1a060f399": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "HUPALUPA STORE Mağaza Satış Danışmanı",
-      "ts": "2026-11-06T00:17:23.722038+00:00"
+      "ts": "2026-11-20T03:06:15.153406+00:00"
     },
     "280517e39857": {
       "reason": "Türkiye'ye kapalı: Applicants must be United States citizens or hold a valid US work permit.",
@@ -5390,10 +5238,10 @@
       "ts": "2026-11-19T12:55:54.872162+00:00"
     },
     "5484b42a3419": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "CERN Beamline for Schools 2027 Fizik Deneyi Yarışması",
-      "ts": "2026-11-06T00:19:20.348785+00:00"
+      "ts": "2026-11-20T03:06:15.153428+00:00"
     },
     "54f447688403": {
       "reason": "",
@@ -5492,10 +5340,10 @@
       "ts": "2026-11-05T10:46:35.281773+00:00"
     },
     "5df74c20436c": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Humboldt Residency Programme 2027: Almanya'da Araştırma Programı",
-      "ts": "2026-11-06T00:17:07.305453+00:00"
+      "ts": "2026-11-20T03:06:15.153380+00:00"
     },
     "5ee0d91f06c3": {
       "reason": "bekleme süresi doldu",
@@ -5678,10 +5526,10 @@
       "ts": "2026-11-12T11:00:50.168056+00:00"
     },
     "6fe9257d8cf9": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Purdue University Summer Undergraduate Research Fellowship (SURF) 2027: Fully Funded 10-Week Research Fellowship for Und",
-      "ts": "2026-11-13T00:17:32.864616+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Purdue University Yaz Lisans Araştırma Bursu (SURF) 2027",
+      "ts": "2026-11-20T03:06:15.153604+00:00"
     },
     "70fa11467998": {
       "reason": "bekleme süresi doldu",
@@ -5766,6 +5614,12 @@
       "status": "expired",
       "title": "Otokoç Otomotiv Uzun Dönem Genel Stajyer İlanı",
       "ts": "2026-11-15T02:37:18.791509+00:00"
+    },
+    "779fb2e0d713": {
+      "reason": "İlan Kanada vatandaşlarına ve daimi ikamet izni olanlara öncelik vermektedir; diğer adayların başvuru şartlarını dikkatle incelemesi gerektiği belirtilmiştir.",
+      "status": "pending",
+      "title": "Bank of Canada PhD Researcher Jobs 2026–2027: Earn Up to CAD $156,778 Annually in Ottawa – Apply for Up to 8 Research Po",
+      "ts": "2026-11-20T03:06:46.189411+00:00"
     },
     "77b0d4b64c3d": {
       "reason": "",
@@ -5990,10 +5844,10 @@
       "ts": "2026-11-11T21:54:49.962564+00:00"
     },
     "900cd1adb7cb": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Nanyang President’s Graduate Scholarship (NPGS) 2027–2028",
-      "ts": "2026-11-06T00:18:25.226776+00:00"
+      "ts": "2026-11-20T03:06:15.153418+00:00"
     },
     "90315cde71f6": {
       "reason": "son başvuru geçti",
@@ -6090,6 +5944,12 @@
       "status": "queued",
       "title": "helo.land Video ve Yapay Zeka İçerik Üreticisi Stajyeri",
       "ts": "2026-11-06T15:54:52.097440+00:00"
+    },
+    "995bd0c51e2a": {
+      "reason": "Türkiye'ye kapalı: The 2027 Digital Governance Incubator is specifically focused on young leaders from the following three African countrie",
+      "status": "rejected",
+      "title": "Accountability Lab 2027 Digital Governance and Climate Justice Incubators: Apply for Two Transformative Programmes Suppo",
+      "ts": "2026-11-20T03:06:52.336569+00:00"
     },
     "99a520eb1bf3": {
       "reason": "bekleme süresi doldu",
@@ -6302,10 +6162,10 @@
       "ts": "2026-11-15T17:41:33.568435+00:00"
     },
     "acddf474fad2": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Anadolu Ajansı Kış Dönemi Staj Programı",
-      "ts": "2026-11-06T00:17:16.193109+00:00"
+      "ts": "2026-11-20T03:06:15.153397+00:00"
     },
     "ad341943162f": {
       "reason": "Türkiye'ye kapalı: The fellowship welcomes applicants from diverse academic and personal backgrounds across the United States and U.S. terr",
@@ -7372,6 +7232,8 @@
     "unitar i letişim ve grafik tasarım stajı 2027",
     "tu delft excellence bursları 2027",
     "new economy leaders academy 2027 liderlik ve mentorluk programı",
-    "camp rising sun 2027 uluslararası liderlik programı"
+    "camp rising sun 2027 uluslararası liderlik programı",
+    "itu genel sekreteri gençlik danışma kurulu üyeliği",
+    "bank of canada doktora araştırmacısı pozisyonları"
   ]
 }
