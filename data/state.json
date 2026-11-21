@@ -300,18 +300,7 @@
     "youthall.com/tr/aselsan/a-yetenek-3_10",
     "scholars.richmond.edu"
   ],
-  "outbox": [
-    {
-      "apply_url": "https://www.youthall.com/en/yeo/purchasing-specialist_15/",
-      "attempts": 0,
-      "caption": "YEO - Purchasing Specialist\n\nYEO, İstanbul ofisinde görevlendirilmek üzere, mühendislik bölümlerinden mezun ve teknik satın alma alanında en az 2 yıl deneyimli bir Satın Alma Uzmanı arıyor.\n\n- İstanbul lokasyonlu\n- Mühendislik mezuniyeti şartı\n- En az 2 yıl deneyim\n\nBaşvuru: https://www.youthall.com/en/yeo/purchasing-specialist_15/\nTüm fırsatlar: https://diploport.dev/#43b12c9fe2a6\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
-      "id": "43b12c9fe2a6",
-      "photo_query": "logo: yeo.com.tr (web sitesi (yeo.com.tr))",
-      "source": "Youthall",
-      "title": "YEO - Purchasing Specialist",
-      "ts": "2026-11-21T17:26:50.984666+00:00"
-    }
-  ],
+  "outbox": [],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -1537,6 +1526,13 @@
       "photo_query": "kurum fotoğrafı: Ministry of Education, Culture and Science (Netherlands) (Vikipedi (en) fotoğraf)",
       "source": "Opportunities Circle",
       "ts": "2026-11-21T09:46:52.088308+00:00"
+    },
+    {
+      "id": "43b12c9fe2a6",
+      "official": "https://www.youthall.com/en/yeo/purchasing-specialist_15/",
+      "photo_query": "logo: yeo.com.tr (web sitesi (yeo.com.tr))",
+      "source": "Youthall",
+      "ts": "2026-11-21T17:27:23.309785+00:00"
     }
   ],
   "queue": [
@@ -4886,9 +4882,9 @@
     },
     "43b12c9fe2a6": {
       "reason": "",
-      "status": "queued",
+      "status": "published",
       "title": "YEO - Purchasing Specialist",
-      "ts": "2026-11-09T17:27:23.841739+00:00"
+      "ts": "2026-11-21T17:27:23.309807+00:00"
     },
     "440932cc6804": {
       "reason": "bekleme süresi doldu",
