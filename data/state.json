@@ -298,7 +298,8 @@
     "reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F20%2Fworld-economic-forum-early-careers-programme-2027-paid-graduate-roles-in-switzerland-china-and-usa%2F&title=World+Economic+Forum+Early+Careers+Programme+2027%3A+Paid+Graduate+Roles+in+Switzerland%2C+China+and+USA",
     "emich.edu/admissions/scholarships/psc.php",
     "youthall.com/tr/aselsan/a-yetenek-3_10",
-    "scholars.richmond.edu"
+    "scholars.richmond.edu",
+    "yucelkulturvakfi.org/yabanci-dil-burslari"
   ],
   "outbox": [],
   "pending": {
@@ -1167,67 +1168,6 @@
       "title_tr": "UNV Eğitim Tasarımcısı ve Kolaylaştırıcı Havuzu 2027",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
-    "ed841c0b7d94": {
-      "apply_link_id": 2,
-      "apply_url": "https://service.humboldt-foundation.de/pls/web/pub_register.main?p_package=res&p_lang=en",
-      "category": "burs",
-      "country_tr": "Almanya",
-      "deadline": "2026-12-14",
-      "eligibility_evidence": "The Humboldt Residency Program 2027 in Germany is an excellent opportunity for researchers, writers, artists, and civil society practitioners from around the world.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (konaklama, seyahat ve harcırah dahil)",
-      "highlights_tr": [
-        "6 haftalık tam kapsamlı program",
-        "Araştırmacılar, sanatçılar ve STK çalışanları için",
-        "Konaklama ve seyahat masrafları karşılanır"
-      ],
-      "id": "ed841c0b7d94",
-      "is_opportunity": true,
-      "message_id": 42,
-      "organization": "Alexander von Humboldt Foundation",
-      "organization_domain": "humboldt-foundation.de",
-      "queued_at": "2026-11-14T17:58:08.807854+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/humboldt-residency-program-in-germany/",
-      "summary_tr": "Alexander von Humboldt Vakfı tarafından düzenlenen bu program, araştırmacıları, yazarları, sanatçıları ve sivil toplum çalışanlarını Almanya'da 6 haftalık bir misafir programına davet ediyor.",
-      "title_tr": "Humboldt Residency Program 2027 Almanya",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "scene"
-    },
-    "ee66fcb4e386": {
-      "apply_link_id": 1,
-      "apply_url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
-      "category": "burs",
-      "country_tr": "Güney Kore",
-      "deadline": "2027-01-14",
-      "eligibility_evidence": "Scholarships in South Korea are open to all international students from all countries around the world.",
-      "fee_required": true,
-      "funding_tr": "Tam burs (öğrenim ücreti, yaşam masrafları ve sağlık sigortası)",
-      "highlights_tr": [
-        "Tüm lisans bölümlerini kapsar",
-        "Tam öğrenim ücreti muafiyeti",
-        "Aylık yaşam desteği ve sağlık sigortası"
-      ],
-      "id": "ee66fcb4e386",
-      "image_queries": [
-        "KAIST university campus",
-        "South Korea university students",
-        "students walking campus"
-      ],
-      "is_opportunity": true,
-      "message_id": 43,
-      "organization": "Korea Advanced Institute of Science and Technology",
-      "organization_domain": "kaist.ac.kr",
-      "queued_at": "2026-11-14T17:58:25.431687+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/kaist-undergraduate-scholarship/",
-      "summary_tr": "Güney Kore'deki KAIST üniversitesinde lisans eğitimi için uluslararası öğrencilere yönelik tam kapsamlı burs programı.",
-      "title_tr": "KAIST Lisans Bursu 2027 - Güney Kore",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "institution"
     },
     "f4bd68191c7a": {
@@ -4067,6 +4007,32 @@
       "title_tr": "ASELSAN a Yetenek 3 Programı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.yucelkulturvakfi.org/yabanci-dil-burslari",
+      "category": "burs",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
+      "fee_required": false,
+      "funding_tr": "Ücretin bir bölümü karşılanır",
+      "highlights_tr": [
+        "Üniversite öğrencisi olma şartı yok",
+        "Yıl boyu başvuru imkanı",
+        "Kendi seçtiğiniz dil okulunda eğitim"
+      ],
+      "id": "c23111b46e55",
+      "is_opportunity": true,
+      "organization": "Yücel Kültür Vakfı",
+      "organization_domain": "yucelkulturvakfi.org",
+      "queued_at": "2026-11-21T23:08:57.957610+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/yucel-kultur-vakfi-yabanci-dil-bursu/",
+      "summary_tr": "Yücel Kültür Vakfı tarafından sağlanan yabancı dil bursu, öğrencilerin seçtikleri dil kursu ücretlerinin bir kısmını karşılamaktadır. Başvurular yıl boyunca devam etmektedir.",
+      "title_tr": "Yücel Kültür Vakfı Yabancı Dil Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -6296,6 +6262,12 @@
       "title": "Doğu Karadeniz Kalkınma Ajansı (DOKA) Uzman Alımı",
       "ts": "2026-11-18T21:53:41.150141+00:00"
     },
+    "c23111b46e55": {
+      "reason": "",
+      "status": "queued",
+      "title": "Yücel Kültür Vakfı Yabancı Dil Bursu",
+      "ts": "2026-11-21T23:08:57.957626+00:00"
+    },
     "c2965177b6a1": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6524,6 +6496,12 @@
       "title": "Oyak Renault 4 Seasons Proje Stajyerliği",
       "ts": "2026-11-13T07:52:37.571165+00:00"
     },
+    "dd40b00aab0e": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Microsoft Excel – Temel ve İleri Seviye | Ücretsiz Eğitim",
+      "ts": "2026-11-21T23:08:49.209071+00:00"
+    },
     "ddb447c307ab": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6705,10 +6683,10 @@
       "ts": "2026-11-18T13:56:04.373197+00:00"
     },
     "ed841c0b7d94": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Humboldt Residency Program 2027 in Germany",
-      "ts": "2026-11-14T17:58:08.807874+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Humboldt Residency Program 2027 Almanya",
+      "ts": "2026-11-21T23:08:28.025931+00:00"
     },
     "edcb3e8997a7": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -6735,10 +6713,10 @@
       "ts": "2026-11-19T03:19:44.523562+00:00"
     },
     "ee66fcb4e386": {
-      "reason": "Katılım ücreti var.",
-      "status": "pending",
-      "title": "KAIST Undergraduate Scholarship 2027 in South Korea | Fully Funded",
-      "ts": "2026-11-14T17:58:25.431706+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "KAIST Lisans Bursu 2027 - Güney Kore",
+      "ts": "2026-11-21T23:08:28.025944+00:00"
     },
     "f0aef4d3310d": {
       "reason": "",
@@ -7208,6 +7186,7 @@
     "world economic forum erken kariyer programı 2027",
     "google makine mühendisliği stajı 2027 tayvan",
     "aselsan a yetenek 3 programı",
-    "university of richmond lisans burs programı 2027"
+    "university of richmond lisans burs programı 2027",
+    "yücel kültür vakfı yabancı dil bursu"
   ]
 }
