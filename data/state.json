@@ -295,9 +295,23 @@
     "youth.europa.eu/solidarity/opportunity/55290_en",
     "docs.google.com/forms/d/e/1FAIpQLSfh-t7TYUQYZTTgHhWMm67tg9J6Nj_HWIifoPhuLvZ8MUmWIA/viewform",
     "unitar.org/vacancy-announcements",
-    "reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F20%2Fworld-economic-forum-early-careers-programme-2027-paid-graduate-roles-in-switzerland-china-and-usa%2F&title=World+Economic+Forum+Early+Careers+Programme+2027%3A+Paid+Graduate+Roles+in+Switzerland%2C+China+and+USA"
+    "reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F20%2Fworld-economic-forum-early-careers-programme-2027-paid-graduate-roles-in-switzerland-china-and-usa%2F&title=World+Economic+Forum+Early+Careers+Programme+2027%3A+Paid+Graduate+Roles+in+Switzerland%2C+China+and+USA",
+    "emich.edu/admissions/scholarships/psc.php",
+    "youthall.com/tr/aselsan/a-yetenek-3_10",
+    "scholars.richmond.edu"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.youthall.com/en/yeo/purchasing-specialist_15/",
+      "attempts": 0,
+      "caption": "YEO - Purchasing Specialist\n\nYEO, İstanbul ofisinde görevlendirilmek üzere, mühendislik bölümlerinden mezun ve teknik satın alma alanında en az 2 yıl deneyimli bir Satın Alma Uzmanı arıyor.\n\n- İstanbul lokasyonlu\n- Mühendislik mezuniyeti şartı\n- En az 2 yıl deneyim\n\nBaşvuru: https://www.youthall.com/en/yeo/purchasing-specialist_15/\nTüm fırsatlar: https://diploport.dev/#43b12c9fe2a6\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "43b12c9fe2a6",
+      "photo_query": "logo: yeo.com.tr (web sitesi (yeo.com.tr))",
+      "source": "Youthall",
+      "title": "YEO - Purchasing Specialist",
+      "ts": "2026-11-21T17:26:50.984666+00:00"
+    }
+  ],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -354,6 +368,34 @@
       "title_tr": "New Economy Leaders Academy 2027 Liderlik ve Mentorluk Programı",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Programın hangi ülkelerden katılımcıları kabul ettiği metinde belirtilmemiştir.",
+      "visual_kind": "institution"
+    },
+    "100d8b4dbae2": {
+      "apply_link_id": 3,
+      "apply_url": "https://scholars.richmond.edu/",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "The USA scholarships for international students follow a competitive selection process.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (öğrenim ücreti, yemek ve konaklama)",
+      "highlights_tr": [
+        "Tam eğitim, konaklama ve yemek desteği",
+        "4 yıllık lisans eğitimi süresince geçerli",
+        "5.500 dolara kadar ek zenginleştirme hibesi"
+      ],
+      "id": "100d8b4dbae2",
+      "is_opportunity": true,
+      "message_id": 80,
+      "organization": "University of Richmond",
+      "organization_domain": "richmond.edu",
+      "queued_at": "2026-11-21T17:26:42.703551+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/richmond-scholars-program/",
+      "summary_tr": "University of Richmond tarafından sunulan bu lisans burs programı, akademik başarısı yüksek ve liderlik potansiyeli olan uluslararası öğrencilere tam eğitim, konaklama ve yemek desteği sağlar.",
+      "title_tr": "University of Richmond Lisans Burs Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
     "157026c06bbd": {
@@ -468,6 +510,34 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "scene"
+    },
+    "2b6f06743729": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.emich.edu/admissions/scholarships/psc.php",
+      "category": "staj",
+      "country_tr": "Tayvan",
+      "deadline": "2027-03-31",
+      "eligibility_evidence": "The international internship is based in Taipei, Taiwan, and applicants must remain in Taiwan throughout the program.",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "Doktora öğrencileri için",
+        "10-12 hafta süreli",
+        "Tayvan'da tam zamanlı çalışma"
+      ],
+      "id": "2b6f06743729",
+      "is_opportunity": true,
+      "message_id": 79,
+      "organization": "Google",
+      "organization_domain": "google.com",
+      "queued_at": "2026-11-21T17:26:30.101599+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/google-mechanical-engineer-internship/",
+      "summary_tr": "Google Tayvan ofisinde, makine mühendisliği veya ilgili alanlarda doktora yapan öğrencilere yönelik 10-12 haftalık tam zamanlı ücretli staj programı.",
+      "title_tr": "Google Makine Mühendisliği Stajı 2027 - Tayvan",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
     },
     "3114e2690125": {
       "apply_link_id": 1,
@@ -766,39 +836,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "6c461f707486": {
-      "apply_link_id": 2,
-      "apply_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=grBJPtViSUilsIbtUZKH0otpS3OcHcpKtPmUP-ZlXw5UQ1NQM1NQS0cwSzg4REdXTEM2TVVENlBMVS4u",
-      "category": "diger",
-      "country_tr": "Fransa",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "live in and hold the passport of one of the 46 Council of Europe member States",
-      "fee_required": false,
-      "funding_tr": "Yol, konaklama ve harcırah karşılanır",
-      "highlights_tr": [
-        "18-30 yaş arası başvuru",
-        "İyi derecede İngilizce şartı",
-        "Strazburg'da iki oturuma katılım"
-      ],
-      "id": "6c461f707486",
-      "image_queries": [
-        "Strasbourg France European Parliament",
-        "France youth conference",
-        "students debating in parliament"
-      ],
-      "is_opportunity": true,
-      "message_id": 40,
-      "organization": "Congress of Local and Regional Authorities",
-      "organization_domain": "coe.int",
-      "queued_at": "2026-11-14T11:25:36.399678+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/14/2027-fully-funded-youth-delegate-programme-apply-for-the-council-of-europe-congress-in-strasbourg/",
-      "summary_tr": "Avrupa Konseyi Yerel ve Bölgesel Yönetimler Kongresi, 18-30 yaş arası gençleri 2027 yılındaki oturumlara delege olarak katılmaya ve yerel projeler geliştirmeye davet ediyor.",
-      "title_tr": "Council of Europe 2027 Genç Delege Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "scene"
-    },
     "73a8ca465439": {
       "apply_link_id": 1,
       "apply_url": "https://carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2/",
@@ -856,34 +893,6 @@
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "İlan Kanada vatandaşlarına ve daimi ikamet izni olanlara öncelik vermektedir; diğer adayların başvuru şartlarını dikkatle incelemesi gerektiği belirtilmiştir.",
       "visual_kind": "institution"
-    },
-    "794fc7d24d45": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.oneyoungworld.com/future-summits",
-      "category": "diger",
-      "country_tr": "Japonya",
-      "deadline": "",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Burs, sponsorluk ve ödül programları mevcuttur",
-      "highlights_tr": [
-        "18-35 yaş arası genç liderlere açık",
-        "Tokyo International Forum'da gerçekleşecek",
-        "Burs ve sponsorluk imkanları sunuluyor"
-      ],
-      "id": "794fc7d24d45",
-      "is_opportunity": true,
-      "message_id": 41,
-      "organization": "One Young World",
-      "organization_domain": "oneyoungworld.com",
-      "queued_at": "2026-11-14T11:25:56.600655+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/14/how-to-attend-one-young-world-summit-2026-scholarships-lead2030-challenges-and-fully-funded-opportunities/",
-      "summary_tr": "28 Eylül - 1 Ekim 2027 tarihleri arasında Tokyo'da düzenlenecek One Young World Zirvesi'ne katılım için burs, kurumsal sponsorluk ve ödül programları gibi çeşitli finansman yolları bulunmaktadır.",
-      "title_tr": "One Young World Zirvesi 2027 Tokyo Katılım Fırsatları",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Bursların ve programların Türkiye'den katılımcılara açık olup olmadığı her bir özel programın kendi kriterlerine bağlıdır, metinde genel bir ifade yer almamaktadır.",
-      "visual_kind": "scene"
     },
     "80974652f203": {
       "apply_link_id": 1,
@@ -1533,38 +1542,6 @@
   "queue": [
     {
       "apply_link_id": 1,
-      "apply_url": "https://www.nusuk.sa/",
-      "category": "yarisma",
-      "country_tr": "Suudi Arabistan",
-      "deadline": "2026-12-20",
-      "eligibility_evidence": "The competition is open to muslim people living anywhere in the world.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (Uçuş, konaklama ve vize dahil)",
-      "highlights_tr": [
-        "Dünya genelinde tüm Müslümanlara açık",
-        "Ücretsiz Umre vizesi, uçuş ve konaklama",
-        "Nusuk uygulaması üzerinden katılım"
-      ],
-      "id": "710ea78edf00",
-      "image_queries": [
-        "Makkah Grand Mosque",
-        "Saudi Arabia travel",
-        "Islamic architecture travel"
-      ],
-      "is_opportunity": true,
-      "organization": "Saudi Ministry of Hajj and Umrah",
-      "organization_domain": "nusuk.sa",
-      "queued_at": "2026-11-07T15:39:18.524196+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/nusuk-app-challenge-2026/",
-      "summary_tr": "Nusuk uygulaması üzerinden düzenlenen bilgi yarışması, kazananlara bir refakatçi ile birlikte ücretsiz Umre seyahati ve çeşitli ödüller kazanma şansı sunuyor.",
-      "title_tr": "Nusuk App Challenge 2026 - Ücretsiz Umre Seyahati",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form",
       "category": "gonulluluk",
       "country_tr": "Türkiye",
@@ -1744,31 +1721,6 @@
       "source_url": "https://ab-ilan.com/tubitak-2244-sanayi-doktora-programi-2026-yili-cagrisi-basvurularinizi-bekliyor/",
       "summary_tr": "TÜBİTAK tarafından yürütülen 2244 Sanayi Doktora Programı, üniversite-sanayi iş birliğiyle doktora derecesine sahip nitelikli insan kaynağı yetiştirmeyi ve sanayide araştırmacı istihdamını teşvik etmeyi amaçlamaktadır.",
       "title_tr": "TÜBİTAK 2244 Sanayi Doktora Programı 2026 Çağrısı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/en/yeo/purchasing-specialist_15/",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Founded in 2004, YEO is one of Türkiye’s leading companies providing engineering, technology, manufacturing, and renewable energy solutions for the energy sector.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı pozisyon",
-      "highlights_tr": [
-        "İstanbul lokasyonlu",
-        "Mühendislik mezuniyeti şartı",
-        "En az 2 yıl deneyim"
-      ],
-      "id": "43b12c9fe2a6",
-      "is_opportunity": true,
-      "organization": "YEO",
-      "organization_domain": "yeo.com.tr",
-      "queued_at": "2026-11-09T17:27:23.841722+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/en/yeo/purchasing-specialist_15/",
-      "summary_tr": "YEO, İstanbul ofisinde görevlendirilmek üzere, mühendislik bölümlerinden mezun ve teknik satın alma alanında en az 2 yıl deneyimli bir Satın Alma Uzmanı arıyor.",
-      "title_tr": "YEO - Purchasing Specialist",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -4094,6 +4046,31 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/aselsan/a-yetenek-3_10/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Asgari ücretin yarısı, yemek ve servis imkanı",
+      "highlights_tr": [
+        "Haftada 1 gün çalışma",
+        "Asgari ücretin yarısı ödeme",
+        "Teknik ve kişisel gelişim eğitimleri"
+      ],
+      "id": "54c03f8b0de1",
+      "is_opportunity": true,
+      "organization": "ASELSAN",
+      "organization_domain": "aselsan.com",
+      "queued_at": "2026-11-21T17:26:36.482834+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/aselsan/a-yetenek-3_10/",
+      "summary_tr": "ASELSAN tarafından düzenlenen a Yetenek 3 programı, ilgili mühendislik bölümlerinde 3. sınıf öğrencisi olan genç yeteneklere 4 aylık profesyonel deneyim, eğitim ve mentörlük imkanı sunmaktadır.",
+      "title_tr": "ASELSAN a Yetenek 3 Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4295,6 +4272,12 @@
       "title": "DİTİB 2026-2027 Eğitim Öğretim Dönemi Öğrenim Yardımı",
       "ts": "2026-11-15T22:45:43.244908+00:00"
     },
+    "100d8b4dbae2": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Richmond Scholars Program 2027 in USA | Fully Funded",
+      "ts": "2026-11-21T17:26:42.703569+00:00"
+    },
     "1105e45c1d83": {
       "reason": "",
       "status": "queued",
@@ -4336,6 +4319,12 @@
       "status": "queued",
       "title": "TEV Avrupa Ülkeleri Yüksek Lisans Bursu",
       "ts": "2026-11-12T10:59:50.412854+00:00"
+    },
+    "15413e41dc96": {
+      "reason": "Türkiye'ye kapalı: ActionSA has announced recruitment for three positions as it seeks patriotic and talented South Africans to become part ",
+      "status": "rejected",
+      "title": "ActionSA Parliament Jobs 2026: 3 Exciting Parliamentary Vacancies for South Africans – Apply by 3 December 2026",
+      "ts": "2026-11-21T17:26:24.262352+00:00"
     },
     "1568064f95b2": {
       "reason": "",
@@ -4594,6 +4583,12 @@
       "status": "expired",
       "title": "New York Times Gazetecilik Bursu ve Fellowship Programı 2026",
       "ts": "2026-11-16T20:59:14.686189+00:00"
+    },
+    "2b6f06743729": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Google Mechanical Engineer Internship 2027 | Paid",
+      "ts": "2026-11-21T17:26:30.101621+00:00"
     },
     "2b93f398a0fc": {
       "reason": "bekleme süresi doldu",
@@ -5063,6 +5058,12 @@
       "title": "CERN Beamline for Schools 2027 Fizik Deneyi Yarışması",
       "ts": "2026-11-20T03:06:15.153428+00:00"
     },
+    "54c03f8b0de1": {
+      "reason": "",
+      "status": "queued",
+      "title": "ASELSAN a Yetenek 3 Programı",
+      "ts": "2026-11-21T17:26:36.482852+00:00"
+    },
     "54f447688403": {
       "reason": "",
       "status": "queued",
@@ -5346,10 +5347,10 @@
       "ts": "2026-11-17T03:46:54.668975+00:00"
     },
     "6c461f707486": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "2027 Fully Funded Youth Delegate Programme: Apply for the Council of Europe Congress in Strasbourg",
-      "ts": "2026-11-14T11:25:36.399690+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Council of Europe 2027 Genç Delege Programı",
+      "ts": "2026-11-21T17:26:05.925258+00:00"
     },
     "6cf6c684d4af": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5406,10 +5407,10 @@
       "ts": "2026-11-05T18:43:10.290431+00:00"
     },
     "710ea78edf00": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Nusuk App Challenge 2026 - Ücretsiz Umre Seyahati",
-      "ts": "2026-11-07T15:39:18.524214+00:00"
+      "ts": "2026-11-21T17:26:05.925029+00:00"
     },
     "7143ff6c115e": {
       "reason": "",
@@ -5496,10 +5497,10 @@
       "ts": "2026-11-17T03:47:56.713327+00:00"
     },
     "794fc7d24d45": {
-      "reason": "Bursların ve programların Türkiye'den katılımcılara açık olup olmadığı her bir özel programın kendi kriterlerine bağlıdır, metinde genel bir ifade yer almamaktadır.",
-      "status": "pending",
-      "title": "How to Attend the One Young World Summit 2027 in Tokyo: Scholarships, Funding and Applications",
-      "ts": "2026-11-14T11:25:56.600668+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "One Young World Zirvesi 2027 Tokyo Katılım Fırsatları",
+      "ts": "2026-11-21T17:26:05.925270+00:00"
     },
     "79818efb00a9": {
       "reason": "",
@@ -7208,6 +7209,9 @@
     "sırbistan'da adra serbia ile esc gönüllülük projesi",
     "portekiz évora 8 günlük erasmus gençlik değişimi",
     "unitar 2026 dönemi staj programları",
-    "world economic forum erken kariyer programı 2027"
+    "world economic forum erken kariyer programı 2027",
+    "google makine mühendisliği stajı 2027 tayvan",
+    "aselsan a yetenek 3 programı",
+    "university of richmond lisans burs programı 2027"
   ]
 }
