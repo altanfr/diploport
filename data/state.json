@@ -290,7 +290,11 @@
     "youthall.com/tr/etstur/kariyere-erken-rezervasyon_15",
     "newyorkbex.com",
     "web103.reachmee.com/ext/I005/1035/apply?site=7&lang=UK&validator=9b89bead79bb7258ad55c8d75228e5b7&job_id=41843",
-    "docs.google.com/forms/d/e/1FAIpQLSc9ixbotSwEfPfPwH3cD3WIQz0kMs-_d4EUYEEpFUUHHrVSAg/viewform"
+    "docs.google.com/forms/d/e/1FAIpQLSc9ixbotSwEfPfPwH3cD3WIQz0kMs-_d4EUYEEpFUUHHrVSAg/viewform",
+    "jobs.smartrecruiters.com/OECD/744000161803898-temporary-junior-policy-analyst-research-and-statistics-?trid=3b3fd07c-0791-4ac8-9ea8-cc2477730cb5",
+    "youth.europa.eu/solidarity/opportunity/55290_en",
+    "docs.google.com/forms/d/e/1FAIpQLSfh-t7TYUQYZTTgHhWMm67tg9J6Nj_HWIifoPhuLvZ8MUmWIA/viewform",
+    "unitar.org/vacancy-announcements"
   ],
   "outbox": [],
   "pending": {
@@ -349,39 +353,6 @@
       "title_tr": "New Economy Leaders Academy 2027 Liderlik ve Mentorluk Programı",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Programın hangi ülkelerden katılımcıları kabul ettiği metinde belirtilmemiştir.",
-      "visual_kind": "institution"
-    },
-    "09e3fac1dcd7": {
-      "apply_link_id": 2,
-      "apply_url": "https://www.bayer-foundation.com/en/science/fellowships",
-      "category": "burs",
-      "country_tr": "Almanya",
-      "deadline": "",
-      "eligibility_evidence": "Students studying outside Germany must undertake their fellowships at a research institution in Germany, subject to the programme’s other eligibility conditions.",
-      "fee_required": false,
-      "funding_tr": "10.000 Euro'ya kadar destek",
-      "highlights_tr": [
-        "Yüksek lisans, doktora ve tıp öğrencilerine açık",
-        "6 aya kadar araştırma ve staj imkanı",
-        "10.000 Euro'ya kadar finansal destek"
-      ],
-      "id": "09e3fac1dcd7",
-      "image_queries": [
-        "scientific research laboratory",
-        "Germany university research",
-        "students working in lab"
-      ],
-      "is_opportunity": true,
-      "message_id": 39,
-      "organization": "Bayer Foundation",
-      "organization_domain": "bayer-foundation.com",
-      "queued_at": "2026-11-13T22:35:07.559993+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/13/bayer-foundation-fellowships-2026-apply-for-up-to-e10000-in-international-research-and-internship-funding/",
-      "summary_tr": "Bayer Foundation, yüksek lisans, doktora ve tıp öğrencilerine Almanya'da veya Almanya dışındaki bir ülkede yapacakları bilimsel araştırma ve staj projeleri için 10.000 Euro'ya kadar finansal destek sağlamaktadır.",
-      "title_tr": "Bayer Foundation 2026 Araştırma ve Staj Bursu",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
     "157026c06bbd": {
@@ -558,35 +529,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "47a7f83b5bcd": {
-      "apply_link_id": 2,
-      "apply_url": "https://thelegofoundation.teamtailor.com/jobs/8671092-student-worker-strategy",
-      "category": "is",
-      "country_tr": "Danimarka",
-      "deadline": "2026-11-20",
-      "eligibility_evidence": "The LEGO Foundation is an international philanthropic organization committed to improving the lives of children by supporting the families, schools and communities that shape childhood.",
-      "fee_required": false,
-      "funding_tr": "Ücretli pozisyon",
-      "highlights_tr": [
-        "Haftalık 10-20 saat çalışma süresi",
-        "Stratejik araştırma ve analiz deneyimi",
-        "Danimarka'da uluslararası çalışma ortamı"
-      ],
-      "id": "47a7f83b5bcd",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 55,
-      "organization": "LEGO Foundation",
-      "organization_domain": "thelegofoundation.com",
-      "queued_at": "2026-11-17T03:48:27.958590+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/16/lego-foundation-student-worker-strategy-2026-international-student-job-opportunity-in-denmark-apply-before-20-november-2026/",
-      "summary_tr": "LEGO Foundation, Billund, Danimarka'da stratejik araştırma, analiz ve proje yönetimi süreçlerinde destek verecek bir öğrenci çalışanı arıyor.",
-      "title_tr": "LEGO Foundation Strateji Departmanı Öğrenci Çalışanı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "4a3b05f444f3": {
       "apply_link_id": 2,
       "apply_url": "https://www.lajf.org/crs2027",
@@ -758,6 +700,39 @@
       "source_url": "https://opportunitiesforyouth.org/2026/11/15/apply-for-the-2027-nature-culture-fellowship-global-fellowship-offering-1000-2000-micro-grants-and-professional-mentorship-for-social-and-environmental-change-makers/",
       "summary_tr": "Kinship tarafından düzenlenen bu uluslararası program, sosyal ve çevresel değişim yaratmak isteyen sanatçı, hikaye anlatıcısı ve aktivistlere yönelik çevrimiçi bir eğitim ve proje uygulama sürecidir.",
       "title_tr": "2027 Nature Culture Fellowship Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "697a8815f7f8": {
+      "apply_link_id": 3,
+      "apply_url": "https://unitar.org/vacancy-announcements",
+      "category": "staj",
+      "country_tr": "ABD ve İsviçre",
+      "deadline": "2026-12-06",
+      "eligibility_evidence": "The United Nations Institute for Training and Research (UNITAR) has announced new traineeship opportunities for individuals interested in gaining professional experience in the United Nations system.",
+      "fee_required": false,
+      "funding_tr": "Cüzi katkı payı (Geneva için CHF 900)",
+      "highlights_tr": [
+        "Öğrenciler ve yeni mezunlar için",
+        "3-6 ay süreli tam zamanlı staj",
+        "İleri düzeyde İngilizce şartı"
+      ],
+      "id": "697a8815f7f8",
+      "image_queries": [
+        "United Nations headquarters New York",
+        "Switzerland Geneva international organization",
+        "international students office campus"
+      ],
+      "is_opportunity": true,
+      "message_id": 76,
+      "organization": "United Nations Institute for Training and Research",
+      "organization_domain": "unitar.org",
+      "queued_at": "2026-11-21T01:30:05.351142+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/20/unitar-traineeships-2026-apply-for-3-6-month-training-opportunities-in-new-york-and-geneva-switzerland/",
+      "summary_tr": "UNITAR, New York ve Cenevre ofislerinde 3-6 ay süreli, uluslararası ilişkiler ve grafik tasarım alanlarında staj imkanları sunuyor. Program, öğrenciler ve yeni mezunlara açıktır.",
+      "title_tr": "UNITAR 2026 Dönemi Staj Programları",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -1521,113 +1496,6 @@
   ],
   "queue": [
     {
-      "apply_link_id": 1,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScvO2wVYMAxxb3n12PVC4CF8os8heNgRfa3JtMAMEZZA1GvNw/viewform",
-      "category": "egitim",
-      "country_tr": "İtalya",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "İtalya, Çekya, Yunanistan, Litvanya, Romanya, Türkiye, Fas ve Ürdün’ün dahil olduğu uluslararası proje, dijital dönüşüm sürecinde ihtiyaç duyulan bilgi ve becerilerin geliştirilmesini amaçlıyor.",
-      "fee_required": false,
-      "funding_tr": "Konaklama, yemek, eğitim ve seyahat masrafları karşılanır",
-      "highlights_tr": [
-        "11-17 Aralık tarihleri arasında gerçekleşecek",
-        "Konaklama, yemek ve seyahat masrafları karşılanıyor",
-        "Dijital araçlar ve yapay zeka üzerine uygulamalı eğitim"
-      ],
-      "id": "9add69831c2e",
-      "is_opportunity": true,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-11-06T21:28:49.529886+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/italya-cervia-6-gun-erasmus-projesi/",
-      "summary_tr": "İtalya'nın Cervia şehrinde düzenlenecek olan Erasmus+ projesi, gençlik çalışmalarında dijital teknolojilerin kullanımı, yapay zeka ve sosyal medya stratejileri üzerine uygulamalı eğitimler sunmaktadır.",
-      "title_tr": "İtalya'da Erasmus+ Gençlik Eğitimi Projesi",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.hzdr.de/db/!Conference.SummerStudents.Registration?pLang=en&pNid=2535",
-      "category": "staj",
-      "country_tr": "Almanya",
-      "deadline": "2027-01-24",
-      "eligibility_evidence": "The HZDR Summer Student Program in Germany 2027 is an excellent opportunity for international students from all around the world to pursue research.",
-      "fee_required": false,
-      "funding_tr": "Maaş ve konaklama desteği sağlanır",
-      "highlights_tr": [
-        "Doğa bilimleri öğrencileri için 8 haftalık staj",
-        "Maaş ve konaklama desteği sağlanmaktadır",
-        "İyi derecede İngilizce yeterliliği gereklidir"
-      ],
-      "id": "98ac995497c7",
-      "image_queries": [
-        "Dresden Germany research laboratory",
-        "Germany university science students",
-        "students working in laboratory"
-      ],
-      "is_opportunity": true,
-      "organization": "Helmholtz-Zentrum Dresden-Rossendorf",
-      "organization_domain": "hzdr.de",
-      "queued_at": "2026-11-06T21:28:58.199895+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/hzdr-summer-student-program-in-germany/",
-      "summary_tr": "HZDR, doğa bilimleri ve ilgili alanlarda okuyan lisans öğrencileri için Almanya'da 8 haftalık bir yaz araştırma stajı programı sunmaktadır.",
-      "title_tr": "HZDR Yaz Öğrenci Programı 2027 - Almanya",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-corporate-communications_60/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Ücretli staj",
-      "highlights_tr": [
-        "Büyükçekmece ofisinde tam zamanlı çalışma",
-        "İletişim ve pazarlama öğrencilerine uygun",
-        "Canva ve MS Office programlarına hakimiyet"
-      ],
-      "id": "4d25d0a24135",
-      "is_opportunity": true,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-11-06T21:29:30.098709+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-corporate-communications_60/",
-      "summary_tr": "Büyükçekmece ofisinde görev alacak, kurumsal iletişim ekibine destek verecek, içerik üretimi ve sosyal medya yönetimi süreçlerinde yer alacak uzun dönem stajyer aranıyor.",
-      "title_tr": "Kurumsal İletişim Uzun Dönem Stajyeri",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-human-resources_59/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Ücretli staj",
-      "highlights_tr": [
-        "Büyükçekmece ofisinde haftada 5 gün çalışma",
-        "İnsan Kaynakları, İşletme veya ilgili bölümler",
-        "İleri seviye Excel ve Canva bilgisi"
-      ],
-      "id": "38ac74c6cae6",
-      "is_opportunity": true,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-11-06T21:29:57.781325+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/Akcansa/long-term-intern-human-resources_59/",
-      "summary_tr": "Büyükçekmece ofisinde görevlendirilmek üzere, İnsan Kaynakları süreçlerinde destek verecek uzun dönemli stajyer aranmaktadır.",
-      "title_tr": "Long-Term Intern – Human Resources",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5",
       "category": "is",
       "country_tr": "Türkiye",
@@ -1816,34 +1684,6 @@
       "summary_tr": "ABD'de 5 ay süren, demokrasi alanında çalışan profesyoneller ve akademisyenler için tam kapsamlı bir araştırma ve değişim programıdır.",
       "title_tr": "Reagan-Fascell Demokrasi Burs Programı 2027-28",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 4,
-      "apply_url": "https://interregtesimnext.eu/events/",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "2026-11-20",
-      "eligibility_evidence": "Türkiye’den Interreg NEXT projelerinde görev alan proje koordinatörleri, mali yönetim ve iletişim personeli ile diğer proje çalışanları da eğitimlerin hedef kitlesi arasında yer alıyor.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Proje personeline yönelik ücretsiz eğitim",
-        "Proje yönetimi, mali yönetim ve iletişim başlıkları",
-        "Kasım ve Aralık 2026 tarihlerinde çevrim içi"
-      ],
-      "id": "77530b32ec52",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "TESIM",
-      "organization_domain": "interregtesimnext.eu",
-      "queued_at": "2026-11-09T17:26:46.782865+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/interreg-next-proje-ortaklarina-yonelik-goforcooperation-weeks-egitimlerine-kayitlar-basladi/",
-      "summary_tr": "Interreg NEXT projelerinde görev alan personele yönelik proje yönetimi, mali yönetim ve iletişim konularında düzenlenen çevrim içi eğitim serisi.",
-      "title_tr": "Interreg NEXT Proje Personeli İçin GoForCooperation Weeks Eğitimleri",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
       "visual_kind": "institution"
     },
     {
@@ -3398,32 +3238,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://form.jotform.com/263133946059967",
-      "category": "egitim",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-20",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Prof. Dr. Nihat Erdoğmuş katılımıyla",
-        "Sivil toplum yönetimi odaklı",
-        "21 Kasım 2026 tarihinde gerçekleşecek"
-      ],
-      "id": "a493a6f9fbf5",
-      "is_opportunity": true,
-      "organization": "İLKE Vakfı",
-      "organization_domain": "ilke.org.tr",
-      "queued_at": "2026-11-16T21:01:02.955191+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/guclu-stk-guclu-yapi-sivil-toplumda-kurumsal-yonetim-neden-onemli-seminerine-davetlisiniz/",
-      "summary_tr": "İLKE Vakfı tarafından düzenlenen, sivil toplum kuruluşlarında kurumsal yönetimin öneminin ele alınacağı Prof. Dr. Nihat Erdoğmuş'un katılımıyla gerçekleşecek seminer.",
-      "title_tr": "Güçlü STK Güçlü Yapı Semineri",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeTAVCKpqBhdswyZqXT_9xWHPHYF0khilwVW2btTgCHAPxyYA/viewform",
       "category": "egitim",
       "country_tr": "Almanya",
@@ -4245,6 +4059,90 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://jobs.smartrecruiters.com/OECD/744000161803898-temporary-junior-policy-analyst-research-and-statistics-?trid=3b3fd07c-0791-4ac8-9ea8-cc2477730cb5",
+      "category": "is",
+      "country_tr": "Fransa",
+      "deadline": "2026-12-20",
+      "eligibility_evidence": "Temporary appointments are open to applicants irrespective of nationality.",
+      "fee_required": false,
+      "funding_tr": "Aylık 3.240 Euro maaş",
+      "highlights_tr": [
+        "İleri düzey üniversite derecesi şart",
+        "En az 1 yıl araştırma deneyimi gerekli",
+        "İngilizce veya Fransızca akıcılığı şart"
+      ],
+      "id": "4459916101cb",
+      "is_opportunity": true,
+      "organization": "Organisation for Economic Co-operation and Development",
+      "organization_domain": "oecd.org",
+      "queued_at": "2026-11-21T01:28:55.836317+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/20/oecd-temporary-junior-policy-analyst-research-and-statistics-2027-in-france-apply-for-an-international-education-policy-research-job-in-paris/",
+      "summary_tr": "OECD, Paris'teki Eğitim ve Beceriler Direktörlüğü bünyesinde eğitim politikası araştırmaları, istatistiksel analiz ve raporlama yapacak geçici Junior Politika Analistleri arıyor.",
+      "title_tr": "OECD Geçici Genç Politika Analisti Pozisyonu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55290_en",
+      "category": "gonulluluk",
+      "country_tr": "Sırbistan",
+      "deadline": "2026-11-29",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, aylık 500 avro destek ve ücretsiz ulaşım",
+      "highlights_tr": [
+        "52 hafta süreli gönüllülük projesi",
+        "Aylık 500 avro cep harçlığı ve konaklama",
+        "Daha önce ESC/EVS programına katılmamış olmak"
+      ],
+      "id": "405630d9298e",
+      "is_opportunity": true,
+      "organization": "ADRA Serbia",
+      "organization_domain": "adra.org.rs",
+      "queued_at": "2026-11-21T01:29:13.139905+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/sirbistanda-gerceklesecek-esc-projesi-gonullulerini-ariyor-2/",
+      "summary_tr": "ADRA Serbia bünyesinde Belgrad'da gerçekleşecek, sosyal içerme ve proje yönetimi odaklı 52 haftalık Avrupa Dayanışma Programı (ESC) gönüllülük fırsatı.",
+      "title_tr": "Sırbistan'da ADRA Serbia ile ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfh-t7TYUQYZTTgHhWMm67tg9J6Nj_HWIifoPhuLvZ8MUmWIA/viewform",
+      "category": "egitim",
+      "country_tr": "Portekiz",
+      "deadline": "",
+      "eligibility_evidence": "Katılımcı Ülkeler: 🇵🇹 Portekiz, 🇧🇪 Belçika, 🇪🇸 İspanya, 🇹🇷 Türkiye, 🇨🇾 Kıbrıs ve 🇭🇷 Hırvatistan",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek ve 580 Euro'ya kadar ulaşım desteği",
+      "highlights_tr": [
+        "18-30 yaş arası katılımcılar için",
+        "Konaklama ve yemek masrafları karşılanıyor",
+        "580 Euro'ya kadar ulaşım desteği"
+      ],
+      "id": "09546f056e56",
+      "image_queries": [
+        "Evora Portugal city",
+        "Portugal youth exchange",
+        "international youth workshop"
+      ],
+      "is_opportunity": true,
+      "organization": "",
+      "organization_domain": "",
+      "queued_at": "2026-11-21T01:29:48.838498+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/portekiz-evora-8-gun-genclik-degisimi/",
+      "summary_tr": "Portekiz'in Évora şehrinde 13-20 Aralık 2026 tarihleri arasında düzenlenecek, Avrupa Birliği değerleri ve aktif vatandaşlık konularına odaklanan 8 günlük Erasmus+ Gençlik Değişimi projesi.",
+      "title_tr": "Portekiz, Évora: 8 Günlük Erasmus+ Gençlik Değişimi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4374,6 +4272,12 @@
       "title": "Oxford Ertegun Lisansüstü Burs Programı 2027",
       "ts": "2026-11-17T22:16:02.556729+00:00"
     },
+    "09546f056e56": {
+      "reason": "",
+      "status": "queued",
+      "title": "Portekiz, Évora: 8 Günlük Erasmus+ Gençlik Değişimi",
+      "ts": "2026-11-21T01:29:48.838516+00:00"
+    },
     "099418aa1fe4": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -4381,10 +4285,10 @@
       "ts": "2026-11-20T20:04:55.177778+00:00"
     },
     "09e3fac1dcd7": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Bayer Foundation Fellowships 2026: Apply for Up to €10,000 in International Research and Internship Funding",
-      "ts": "2026-11-13T22:35:07.560008+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Bayer Foundation 2026 Araştırma ve Staj Bursu",
+      "ts": "2026-11-21T01:28:27.540908+00:00"
     },
     "0a426758a166": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -4866,6 +4770,12 @@
       "title": "GCB Bank Eaglet Management Trainee Programme 2026: Apply for a 24-Month Graduate Development Opportunity in Ghana",
       "ts": "2026-11-05T02:25:04.653696+00:00"
     },
+    "36e6b091b696": {
+      "reason": "Türkiye'ye kapalı: The announcement specifically emphasizes that applicants must be local to one of the listed countries.",
+      "status": "rejected",
+      "title": "SHE WINS Rapid Response Fund (RRF): Small Grants for Women-Led Initiatives in 70+ Eligible Countries",
+      "ts": "2026-11-21T01:29:41.389766+00:00"
+    },
     "36e80af2e4c0": {
       "reason": "son başvuru geçti",
       "status": "expired",
@@ -4879,10 +4789,10 @@
       "ts": "2026-11-12T02:55:59.308832+00:00"
     },
     "38ac74c6cae6": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Long-Term Intern – Human Resources",
-      "ts": "2026-11-06T21:29:57.781342+00:00"
+      "ts": "2026-11-21T01:28:27.540748+00:00"
     },
     "3940e7140baf": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4938,6 +4848,12 @@
       "title": "Öğretmenlere Yönelik Akran Zorbalığı Semineri",
       "ts": "2026-10-29T23:04:17.957158+00:00"
     },
+    "3d61e35187e0": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Benden Olsun Akademi Burs Duyurusu",
+      "ts": "2026-11-21T01:29:27.258585+00:00"
+    },
     "3d89b0d2c276": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -4961,6 +4877,12 @@
       "status": "rejected",
       "title": "Özkaraduman İnşaat Burs Başvuru Duyurusu",
       "ts": "2026-10-29T09:48:17.218454+00:00"
+    },
+    "405630d9298e": {
+      "reason": "",
+      "status": "queued",
+      "title": "Sırbistan'da ADRA Serbia ile ESC Gönüllülük Projesi",
+      "ts": "2026-11-21T01:29:13.139926+00:00"
     },
     "415a59cdb88b": {
       "reason": "bekleme süresi doldu",
@@ -5034,6 +4956,12 @@
       "title": "New York Business Excellence Proje Takım Üyeliği",
       "ts": "2026-11-20T20:06:23.688506+00:00"
     },
+    "4459916101cb": {
+      "reason": "",
+      "status": "queued",
+      "title": "OECD Geçici Genç Politika Analisti Pozisyonu",
+      "ts": "2026-11-21T01:28:55.836338+00:00"
+    },
     "455ec206e4ec": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -5059,10 +4987,10 @@
       "ts": "2026-11-19T21:28:17.323671+00:00"
     },
     "47a7f83b5bcd": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "LEGO Foundation Student Worker – Strategy 2026: International Student Job Opportunity in Denmark | Apply Before 20 Novem",
-      "ts": "2026-11-17T03:48:27.958611+00:00"
+      "reason": "son başvuru geçti",
+      "status": "expired",
+      "title": "LEGO Foundation Strateji Departmanı Öğrenci Çalışanı",
+      "ts": "2026-11-21T01:28:27.540920+00:00"
     },
     "48299a758094": {
       "reason": "Türkiye'ye kapalı: Applicants must be US citizens or hold valid visas that allow them to receive paid work during the summer.",
@@ -5107,10 +5035,10 @@
       "ts": "2026-11-19T21:29:03.361105+00:00"
     },
     "4d25d0a24135": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Kurumsal İletişim Uzun Dönem Stajyeri",
-      "ts": "2026-11-06T21:29:30.098724+00:00"
+      "ts": "2026-11-21T01:28:27.540742+00:00"
     },
     "4db405661b62": {
       "reason": "bekleme süresi doldu",
@@ -5442,6 +5370,12 @@
       "title": "AGNES Africa Climate Governance, Diplomacy and Negotiations Leadership Programme 2026: Apply for Cohort XXIII Before 27 ",
       "ts": "2026-11-20T11:37:25.158693+00:00"
     },
+    "697a8815f7f8": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "UNITAR Traineeships 2026: Apply for 3–6 Month Training Opportunities in New York and Geneva, Switzerland",
+      "ts": "2026-11-21T01:30:05.351159+00:00"
+    },
     "69ae4f68838d": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5459,6 +5393,12 @@
       "status": "pending",
       "title": "2027 Fully Funded Youth Delegate Programme: Apply for the Council of Europe Congress in Strasbourg",
       "ts": "2026-11-14T11:25:36.399690+00:00"
+    },
+    "6cf6c684d4af": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Polonya’da Uzun Dönem ESC Gönüllülük Projesi Katılımcı Çağrısı",
+      "ts": "2026-11-21T01:29:57.386871+00:00"
     },
     "6e7a6c7f9e00": {
       "reason": "Türkiye'ye kapalı: The CitizensNYC Community Leaders Grants 2027 programme is now accepting applications from New York City residents and g",
@@ -5489,6 +5429,12 @@
       "status": "expired",
       "title": "Purdue University Yaz Lisans Araştırma Bursu (SURF) 2027",
       "ts": "2026-11-20T03:06:15.153604+00:00"
+    },
+    "70c2eb3f09a3": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alımı Duyurusu",
+      "ts": "2026-11-21T01:29:35.589590+00:00"
     },
     "70fa11467998": {
       "reason": "bekleme süresi doldu",
@@ -5569,10 +5515,10 @@
       "ts": "2026-11-09T17:27:39.218569+00:00"
     },
     "77530b32ec52": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Interreg NEXT Proje Personeli İçin GoForCooperation Weeks Eğitimleri",
-      "ts": "2026-11-09T17:26:46.782886+00:00"
+      "ts": "2026-11-21T01:28:27.540770+00:00"
     },
     "777402a5a29b": {
       "reason": "bekleme süresi doldu",
@@ -5651,6 +5597,12 @@
       "status": "expired",
       "title": "Toyota Boshoku Türkiye Career Dojo Uzun Dönem Staj Programı",
       "ts": "2026-11-20T20:04:55.177810+00:00"
+    },
+    "7f428ccf0bd0": {
+      "reason": "Türkiye'ye kapalı: Applicants must be working on a project that impacts at least one state in the United States and directly benefits the c",
+      "status": "rejected",
+      "title": "Rockefeller Foundation Big Bets Fellowship 2027 in the United States | Applications Open for Community Leaders and Socia",
+      "ts": "2026-11-21T01:29:19.067539+00:00"
     },
     "7ffbe6fb4e3b": {
       "reason": "",
@@ -5905,10 +5857,10 @@
       "ts": "2026-11-03T17:49:03.106022+00:00"
     },
     "98ac995497c7": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "HZDR Yaz Öğrenci Programı 2027 - Almanya",
-      "ts": "2026-11-06T21:28:58.199912+00:00"
+      "ts": "2026-11-21T01:28:27.540735+00:00"
     },
     "98da409ac768": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -5953,10 +5905,10 @@
       "ts": "2026-11-13T00:17:10.555433+00:00"
     },
     "9add69831c2e": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "İtalya'da Erasmus+ Gençlik Eğitimi Projesi",
-      "ts": "2026-11-06T21:28:49.529901+00:00"
+      "ts": "2026-11-21T01:28:27.540717+00:00"
     },
     "9c4b77d0e397": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -6055,10 +6007,10 @@
       "ts": "2026-11-18T21:55:13.155894+00:00"
     },
     "a493a6f9fbf5": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Güçlü STK Güçlü Yapı Semineri",
-      "ts": "2026-11-16T21:01:02.955205+00:00"
+      "ts": "2026-11-21T01:28:27.540848+00:00"
     },
     "a52c02979e31": {
       "reason": "bekleme süresi doldu",
@@ -6822,6 +6774,12 @@
       "title": "Kamu Denetçiliği Kurumu Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-11-09T06:14:10.932447+00:00"
     },
+    "f0bd6fdd73b6": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "THY stajyer alımı yapacak",
+      "ts": "2026-11-21T01:29:04.288969+00:00"
+    },
     "f27eef681eab": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -7270,6 +7228,10 @@
     "ets kariyere erken rezervasyon staj programı",
     "new york business excellence proje takım üyeliği",
     "university of gothenburg ekonomi doktora pozisyonları",
-    "fransızca konuşma pratiği atölyesi"
+    "fransızca konuşma pratiği atölyesi",
+    "oecd geçici genç politika analisti pozisyonu",
+    "sırbistan'da adra serbia ile esc gönüllülük projesi",
+    "portekiz évora 8 günlük erasmus gençlik değişimi",
+    "unitar 2026 dönemi staj programları"
   ]
 }

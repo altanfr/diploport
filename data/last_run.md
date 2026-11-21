@@ -1,18 +1,18 @@
-# Son çalışma (2026-11-20 23:04 TR)
+# Son çalışma (2026-11-21 04:28 TR)
 
-Kuyruk: 100 · Onay bekleyen: 34 · Hazırlanan: -
-Bulunan yeni ilan: 20 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 10 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 2 yeni / 10 kayıt · AB İlan: 6 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 2 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 23 kayıt
+Kuyruk: 97 · Onay bekleyen: 33 · Hazırlanan: -
+Bulunan yeni ilan: 13 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 7 yeni / 10 kayıt · Erasmusgram: 3 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 3 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 22 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| kuyrukta | Opportunities For Youth | Asia House 2027/2028 Araştırma Bursu | kanıt: Importantly, the programme is open to applicants of all nationalities and from all geographical locations. · son tarih: 2027-01-31 · link: https://apply.workable.com/asia-house/j/267FD33EF8 · görsel: kurum logosu aranacak (Asia House; stok foto yok) |
-| kuyrukta | Opportunities Circle | ETH Zurich Yaz Araştırma Bursu ve Staj Programı 2027 | kanıt: The ETH SSRF programme is open to Bachelor’s and Master’s students from all over the world. · son tarih: 2026-12-16 · link: https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html · görsel: kurum logosu aranacak (ETH Zurich; stok foto yok) |
-| elendi | AB İlan | Avrupa Konseyi’nden STK’lara 20 Bin Avroya Kadar Hibe Desteği | fırsat değil (haber/liste/reklam) |
-| kuyrukta | Youthall | ETS Kariyere Erken Rezervasyon Staj Programı | kanıt: Tercihen İstanbul Anadolu yakasında ikamet ediyorsan · son tarih: - · link: https://www.youthall.com/tr/etstur/kariyere-erken-rezervasyon_15/ · görsel: kurum logosu aranacak (ETS; stok foto yok) |
-| elendi | Opportunities For Youth | Clements-Archer National Security Policy Postdoctoral Fellowship 2027–2029: Earn | Türkiye'ye kapalı: Eligibility: UT Austin PhD students and recent doctoral graduates whose research focuses on security studies. |
-| elendi | Opportunities Circle | Erasmus Mundus EMLE Scholarship 2027 / Fully Funded | tekrar |
-| elendi | AB İlan | Portekiz’de Erasmus+ Gençlik Çalışanları Programına 10 Katılımcı | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link) |
-| kuyrukta | Youthall | New York Business Excellence Proje Takım Üyeliği | kanıt: Türkiye'nin liderliğinde, dünyanın dört bir yanından herkesin katılımına açık bu projede liderlik etkini ve gücünü küresel iş dünyasına gösterme fırsatı seni bekliyor. · son tarih: 2026-11-27 · link: https://www.newyorkbex.com/ · görsel: kurum logosu aranacak (New York Business Excellence; stok foto yok) |
-| onayda | Opportunities For Youth | University of Gothenburg Ekonomi Doktora Pozisyonları | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et. · son tarih: 2027-02-01 · link: https://web103.reachmee.com/ext/I005/1035/apply?site=7&lang=UK&validator=9b89bead79bb7258ad55c8d75228e5b7&job_id=41843 · görsel: kurum logosu aranacak (University of Gothenburg; stok foto yok) |
-| kuyrukta | AB İlan | Fransızca Konuşma Pratiği Atölyesi | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: - · link: https://docs.google.com/forms/d/e/1FAIpQLSc9ixbotSwEfPfPwH3cD3WIQz0kMs-_d4EUYEEpFUUHHrVSAg/viewform · görsel: kurum logosu aranacak (Gönüllü Hizmetler Derneği; stok foto yok) |
+| kuyrukta | Opportunities For Youth | OECD Geçici Genç Politika Analisti Pozisyonu | kanıt: Temporary appointments are open to applicants irrespective of nationality. · son tarih: 2026-12-20 · link: https://jobs.smartrecruiters.com/OECD/744000161803898-temporary-junior-policy-analyst-research-and-statistics-?trid=3b3fd07c-0791-4ac8-9ea8-cc2477730cb5 · görsel: kurum logosu aranacak (Organisation for Economic Co-operation and Development; stok foto yok) |
+| elendi | Erasmusgram | THY stajyer alımı yapacak | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link) |
+| kuyrukta | AB İlan | Sırbistan'da ADRA Serbia ile ESC Gönüllülük Projesi | kanıt: Kaynak Türkiye merkezli (AB İlan) · son tarih: 2026-11-29 · link: https://youth.europa.eu/solidarity/opportunity/55290_en |
+| elendi | Opportunities For Youth | Rockefeller Foundation Big Bets Fellowship 2027 in the United States / Applicati | Türkiye'ye kapalı: Applicants must be working on a project that impacts at least one state in the United States and directly benefits the c |
+| elendi | Erasmusgram | Benden Olsun Akademi Burs Duyurusu | tekrar |
+| elendi | AB İlan | Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alımı Duyurusu | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link) |
+| elendi | Opportunities For Youth | SHE WINS Rapid Response Fund (RRF): Small Grants for Women-Led Initiatives in 70 | Türkiye'ye kapalı: The announcement specifically emphasizes that applicants must be local to one of the listed countries. |
+| kuyrukta | Erasmusgram | Portekiz, Évora: 8 Günlük Erasmus+ Gençlik Değişimi | kanıt: Katılımcı Ülkeler: 🇵🇹 Portekiz, 🇧🇪 Belçika, 🇪🇸 İspanya, 🇹🇷 Türkiye, 🇨🇾 Kıbrıs ve 🇭🇷 Hırvatistan · son tarih: - · link: https://docs.google.com/forms/d/e/1FAIpQLSfh-t7TYUQYZTTgHhWMm67tg9J6Nj_HWIifoPhuLvZ8MUmWIA/viewform · foto: Evora Portugal city / Portugal youth exchange / international youth workshop |
+| elendi | AB İlan | Polonya’da Uzun Dönem ESC Gönüllülük Projesi Katılımcı Çağrısı | tekrar |
+| onayda | Opportunities For Youth | UNITAR 2026 Dönemi Staj Programları | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2026-12-06 · link: https://unitar.org/vacancy-announcements · görsel: kurum logosu aranacak (United Nations Institute for Training and Research; stok foto yok) |
