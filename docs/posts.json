@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://www.studyinnl.org/finances/nl-scholarship",
+    "category": "burs",
+    "country_tr": "Hollanda",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "5.000 Euro destek",
+    "highlights_tr": [
+      "5.000 Euro tutarında finansal destek",
+      "Lisans ve yüksek lisans öğrencileri için",
+      "Avrupa Ekonomik Alanı dışından öğrencilere açık"
+    ],
+    "id": "04ba2f3a3abe",
+    "image": "images/04ba2f3a3abe.jpg",
+    "organization": "Dutch Ministry of Education, Culture and Science",
+    "published_at": "2026-11-21T09:46:18.877489+00:00",
+    "summary_tr": "Hollanda'daki üniversitelerde lisans veya yüksek lisans eğitimi almak isteyen, Avrupa Ekonomik Alanı dışından gelen uluslararası öğrenciler için sunulan kısmi burs programıdır.",
+    "thumb": "images/t/04ba2f3a3abe.jpg",
+    "title_tr": "NL Scholarship 2027-2028 Hollanda Bursu"
+  },
+  {
     "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSeKREpNJW8p-FkP3N-Qn8aiVPq4v7gsfDSFxRtk2qe5qWCDwA/viewform",
     "category": "egitim",
     "country_tr": "Almanya",

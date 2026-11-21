@@ -294,9 +294,21 @@
     "jobs.smartrecruiters.com/OECD/744000161803898-temporary-junior-policy-analyst-research-and-statistics-?trid=3b3fd07c-0791-4ac8-9ea8-cc2477730cb5",
     "youth.europa.eu/solidarity/opportunity/55290_en",
     "docs.google.com/forms/d/e/1FAIpQLSfh-t7TYUQYZTTgHhWMm67tg9J6Nj_HWIifoPhuLvZ8MUmWIA/viewform",
-    "unitar.org/vacancy-announcements"
+    "unitar.org/vacancy-announcements",
+    "reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F20%2Fworld-economic-forum-early-careers-programme-2027-paid-graduate-roles-in-switzerland-china-and-usa%2F&title=World+Economic+Forum+Early+Careers+Programme+2027%3A+Paid+Graduate+Roles+in+Switzerland%2C+China+and+USA"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://www.studyinnl.org/finances/nl-scholarship",
+      "attempts": 0,
+      "caption": "NL Scholarship 2027-2028 Hollanda Bursu\n\nHollanda'daki üniversitelerde lisans veya yüksek lisans eğitimi almak isteyen, Avrupa Ekonomik Alanı dışından gelen uluslararası öğrenciler için sunulan kısmi burs programıdır.\n\n- 5.000 Euro tutarında finansal destek\n- Lisans ve yüksek lisans öğrencileri için\n- Avrupa Ekonomik Alanı dışından öğrencilere açık\n\nBaşvuru: https://www.studyinnl.org/finances/nl-scholarship\nTüm fırsatlar: https://diploport.dev/#04ba2f3a3abe\n\nGörsel: No machine-readable author provided. Joris assumed (based on / Wikimedia Commons (Public domain)\n\n#diploport #fırsat #türkgençler #burs #yurtdışıburs #üniversiteöğrencisi",
+      "id": "04ba2f3a3abe",
+      "photo_query": "kurum fotoğrafı: Ministry of Education, Culture and Science (Netherlands) (Vikipedi (en) fotoğraf)",
+      "source": "Opportunities Circle",
+      "title": "NL Scholarship 2027-2028 Hollanda Bursu",
+      "ts": "2026-11-21T09:46:18.921920+00:00"
+    }
+  ],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -527,6 +539,34 @@
       "title_tr": "Birmingham International Academy Future Makers Challenge 2027",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "3efa04693e60": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F20%2Fworld-economic-forum-early-careers-programme-2027-paid-graduate-roles-in-switzerland-china-and-usa%2F&title=World+Economic+Forum+Early+Careers+Programme+2027%3A+Paid+Graduate+Roles+in+Switzerland%2C+China+and+USA",
+      "category": "is",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2026-12-02",
+      "eligibility_evidence": "Candidates should review the location-specific listing for any additional eligibility requirements.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "1-2 yıl iş deneyimi gerekli",
+        "6 aylık tam zamanlı program",
+        "Maaşlı pozisyonlar"
+      ],
+      "id": "3efa04693e60",
+      "is_opportunity": true,
+      "message_id": 77,
+      "organization": "World Economic Forum",
+      "organization_domain": "weforum.org",
+      "queued_at": "2026-11-21T09:46:05.716824+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/20/world-economic-forum-early-careers-programme-2027-paid-graduate-roles-in-switzerland-china-and-usa/",
+      "summary_tr": "World Economic Forum, mezunlar için 6 aylık tam zamanlı Erken Kariyer Programı'na başvuruyor. Program, Cenevre, Pekin, New York ve San Francisco'da paydaş yönetimi, proje yönetimi, kamu katılımı ve etkinlikler alanlarında fırsatlar sunuyor.",
+      "title_tr": "World Economic Forum Erken Kariyer Programı 2027",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Türkiye vatandaşlarının başvuru yapıp yapamayacağına dair net bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
     },
     "4a3b05f444f3": {
@@ -1496,60 +1536,6 @@
   ],
   "queue": [
     {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "38 sözleşmeli personel alımı",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Türkiye Cumhuriyeti vatandaşlarına açık"
-      ],
-      "icon": "landmark",
-      "id": "86f9affb387b",
-      "is_opportunity": true,
-      "organization": "MİLLİ SARAYLAR İDARESİ BAŞKANLIĞI",
-      "organization_domain": "millisaraylar.gov.tr",
-      "queued_at": "2026-11-07T08:42:32.886494+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5",
-      "summary_tr": "Milli Saraylar İdaresi Başkanlığı bünyesinde görevlendirilmek üzere 38 sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
-      "title_tr": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Personel Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşı olma şartı",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Sözleşmeli personel statüsü"
-      ],
-      "icon": "landmark",
-      "id": "2c35082df27e",
-      "is_opportunity": true,
-      "organization": "İZMİR DEMOKRASİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-      "organization_domain": "idu.edu.tr",
-      "queued_at": "2026-11-07T08:42:40.034005+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
-      "summary_tr": "İzmir Demokrasi Üniversitesi Rektörlüğü bünyesinde görevlendirilmek üzere sözleşmeli avukat alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
-      "title_tr": "İzmir Demokrasi Üniversitesi Sözleşmeli Avukat Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
       "apply_link_id": 1,
       "apply_url": "https://www.nusuk.sa/",
       "category": "yarisma",
@@ -1919,6 +1905,7 @@
       "title_tr": "GençBizzTech 2027 Bilim ve Teknoloji Girişimcilik Programı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
+      "visual_alerted": true,
       "visual_kind": "institution"
     },
     {
@@ -2083,38 +2070,6 @@
       "source_url": "https://opportunitiescorners.com/cern-summer-student-program-2027/",
       "summary_tr": "CERN tarafından İsviçre'de düzenlenen, lisans ve yüksek lisans öğrencilerine yönelik 8-13 hafta süren teknik proje ve eğitim odaklı yaz staj programıdır.",
       "title_tr": "CERN 2027 Yaz Öğrenci Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.studyinnl.org/finances/nl-scholarship",
-      "category": "burs",
-      "country_tr": "Hollanda",
-      "deadline": "",
-      "eligibility_evidence": "The Holland scholarship is open to international students from around the world.",
-      "fee_required": false,
-      "funding_tr": "5.000 Euro destek",
-      "highlights_tr": [
-        "5.000 Euro tutarında finansal destek",
-        "Lisans ve yüksek lisans öğrencileri için",
-        "Avrupa Ekonomik Alanı dışından öğrencilere açık"
-      ],
-      "id": "04ba2f3a3abe",
-      "image_queries": [
-        "Netherlands university campus",
-        "Netherlands student life",
-        "students studying library"
-      ],
-      "is_opportunity": true,
-      "organization": "Dutch Ministry of Education, Culture and Science",
-      "organization_domain": "studyinnl.org",
-      "queued_at": "2026-11-10T17:47:28.368320+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/nl-scholarship/",
-      "summary_tr": "Hollanda'daki üniversitelerde lisans veya yüksek lisans eğitimi almak isteyen, Avrupa Ekonomik Alanı dışından gelen uluslararası öğrenciler için sunulan kısmi burs programıdır.",
-      "title_tr": "NL Scholarship 2027-2028 Hollanda Bursu",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
@@ -4663,10 +4618,10 @@
       "ts": "2026-11-18T13:56:13.284318+00:00"
     },
     "2c35082df27e": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "İzmir Demokrasi Üniversitesi Sözleşmeli Avukat Alımı",
-      "ts": "2026-11-07T08:42:40.034023+00:00"
+      "ts": "2026-11-21T09:42:13.917838+00:00"
     },
     "2c49f34b9c7b": {
       "reason": "",
@@ -4871,6 +4826,12 @@
       "status": "rejected",
       "title": "NUS Amgen Scholars Program 2027 in Singapore and Japan",
       "ts": "2026-11-04T15:26:26.864994+00:00"
+    },
+    "3efa04693e60": {
+      "reason": "Türkiye vatandaşlarının başvuru yapıp yapamayacağına dair net bir bilgi bulunmamaktadır.",
+      "status": "pending",
+      "title": "World Economic Forum Early Careers Programme 2027: Paid Graduate Roles in Switzerland, China and USA",
+      "ts": "2026-11-21T09:46:05.716848+00:00"
     },
     "3f549960b55b": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -5695,10 +5656,10 @@
       "ts": "2026-11-05T18:43:30.958304+00:00"
     },
     "86f9affb387b": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Milli Saraylar İdaresi Başkanlığı Sözleşmeli Personel Alımı",
-      "ts": "2026-11-07T08:42:32.886514+00:00"
+      "ts": "2026-11-21T09:42:13.917824+00:00"
     },
     "8765d0866515": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -6047,6 +6008,12 @@
       "status": "expired",
       "title": "Berlin School of Economics Doktora Programı 2027",
       "ts": "2026-11-11T21:53:54.523214+00:00"
+    },
+    "a741c5d353d2": {
+      "reason": "Türkiye'ye kapalı: Eligible countries and regions include Afghanistan (only applicants based in the USA), Bangladesh, Bhutan, Cambodia, Ind",
+      "status": "rejected",
+      "title": "Asia Foundation Development Fellows Program 2027 | Funded",
+      "ts": "2026-11-21T09:43:32.025931+00:00"
     },
     "a84f71057241": {
       "reason": "",
@@ -6594,6 +6561,12 @@
       "title": "TEV-ŞÖLEN Almanya-İtalya Yüksek Lisans Bursu",
       "ts": "2026-11-10T01:29:43.724089+00:00"
     },
+    "debb937039d4": {
+      "reason": "son başvuru geçmiş (2026-01-31)",
+      "status": "rejected",
+      "title": "2026 JSPS–UNU Postdoctoral Fellowship in Japan: Fully Funded 24-Month Research Opportunity for International Scholars",
+      "ts": "2026-11-21T09:43:23.397385+00:00"
+    },
     "df49766dec45": {
       "reason": "",
       "status": "queued",
@@ -6611,6 +6584,12 @@
       "status": "queued",
       "title": "CERN OPENLAB Yaz Stajı Programı 2027",
       "ts": "2026-11-11T21:54:41.419610+00:00"
+    },
+    "e17422aaa482": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Erasmus+ UK 2026: Over £400 Million in Funding for International Study, Training, Youth and Sports Opportunities Across ",
+      "ts": "2026-11-21T09:43:42.763667+00:00"
     },
     "e29ed9b23db2": {
       "reason": "",
@@ -7232,6 +7211,7 @@
     "oecd geçici genç politika analisti pozisyonu",
     "sırbistan'da adra serbia ile esc gönüllülük projesi",
     "portekiz évora 8 günlük erasmus gençlik değişimi",
-    "unitar 2026 dönemi staj programları"
+    "unitar 2026 dönemi staj programları",
+    "world economic forum erken kariyer programı 2027"
   ]
 }
