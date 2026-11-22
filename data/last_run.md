@@ -1,12 +1,12 @@
-# Son çalışma (2026-11-22 18:14 TR)
+# Son çalışma (2026-11-23 00:44 TR)
 
-Kuyruk: 92 · Onay bekleyen: 33 · Hazırlanan: cd60844ef905
-Logosu bulunamadığı için bekleyen ilanlar (assets/org_logos/ altına logo eklenebilir): Genç Başarı Eğitim Vakfı — GençBizzTech 2027 Bilim ve Teknoloji Girişimcilik Programı
-Bulunan yeni ilan: 3 · Bu çalışmada işlenmesi planlanan: 3 · Raporlanan: 3
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 1 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 2 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 22 kayıt
+Kuyruk: 93 · Onay bekleyen: 30 · Hazırlanan: -
+Bulunan yeni ilan: 4 · Bu çalışmada işlenmesi planlanan: 4 · Raporlanan: 4
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 1 yeni / 10 kayıt · Erasmusgram: 1 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 19 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| onayda | Opportunities For Youth | AAPM DREAM 2027 Tıbbi Fizik Araştırma Bursu | Metin, başvuru için gerekli vatandaşlık veya oturum izni şartlarını belirtmemiş, sadece bu şartların kontrol edilmesi gerektiğini ifade etmiştir. · son tarih: 2027-02-09 · link: https://aapm.secure-platform.com/gaf/page/dream · foto: medical physics laboratory / USA university campus / science research students |
-| onayda | Opportunities Circle | ANSO-CAS-TWAS/UNESCO Doktora Bursu | Türkiye'nin TWAS tarafından tanımlanan 'gelişmekte olan ülkeler' listesinde olup olmadığı metinde belirtilmemiştir. · son tarih: 2027-02-28 · link: https://twas.org/opportunity/anso-cas-twasunesco-phd-scholarship · görsel: kurum logosu aranacak (ANSO; stok foto yok) |
-| kuyrukta | Opportunities Circle | University of Bergen Ücretsiz Online Kursları | kanıt: Applicants from all countries can explore these online courses. · son tarih: - · link: https://www.futurelearn.com/partners/bergen · görsel: kurum logosu aranacak (University of Bergen; stok foto yok) |
+| elendi | Opportunities For Youth | Amnesty International USA International Rule of Law and Human Rights Fellowship  | Türkiye'ye kapalı: Candidates must live near Washington, D.C. and be able to attend meetings in the city. |
+| kuyrukta | Erasmusgram | Anthropic Almanya Münih Ofisi İş İlanları | kanıt: Kaynak Türkiye merkezli (Erasmusgram) · son tarih: - · link: https://www.anthropic.com/careers/jobs?office=4049620008 · görsel: kurum logosu aranacak (Anthropic; stok foto yok) |
+| elendi | Opportunities Circle | RIPS Summer Internship 2027 in USA / Fully Funded | Türkiye'ye kapalı: International students currently studying at universities in the United States can apply for the RIPS-LA Program. Studen |
+| kuyrukta | Kariyer Kapısı | Türk Akreditasyon Kurumu Sözleşmeli Koruma ve Güvenlik Görevlisi Alımı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48 · görsel: kurum logosu aranacak (TÜRK AKREDİTASYON KURUMU GENEL SEKRETERLİĞİ; stok foto yok) |

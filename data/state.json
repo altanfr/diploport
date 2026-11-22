@@ -302,7 +302,9 @@
     "yucelkulturvakfi.org/yabanci-dil-burslari",
     "aapm.secure-platform.com/gaf/page/dream",
     "twas.org/opportunity/anso-cas-twasunesco-phd-scholarship",
-    "futurelearn.com/partners/bergen"
+    "futurelearn.com/partners/bergen",
+    "anthropic.com/careers/jobs?office=4049620008",
+    "kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48"
   ],
   "outbox": [
     {
@@ -327,34 +329,6 @@
     }
   ],
   "pending": {
-    "05cb5b7818c7": {
-      "apply_link_id": 2,
-      "apply_url": "https://afs.org/global-stem/academies/",
-      "category": "burs",
-      "country_tr": "Brezilya, Mısır veya Hindistan",
-      "deadline": "2027-01-17",
-      "eligibility_evidence": "The program specifies nationality, citizenship, or country of legal residence requirements for 12 countries.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (uçak bileti, konaklama, yemek, sigorta dahil)",
-      "highlights_tr": [
-        "STEM ve sürdürülebilirlik odaklı eğitim",
-        "12 hafta online, 4 hafta yurt dışı deneyimi",
-        "Ulaşım, konaklama ve yemek masrafları karşılanır"
-      ],
-      "id": "05cb5b7818c7",
-      "is_opportunity": true,
-      "message_id": 48,
-      "organization": "AFS Intercultural Programs",
-      "organization_domain": "afs.org",
-      "queued_at": "2026-11-15T17:42:38.945313+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/14/afs-global-stem-academies-2027-fully-funded-international-study-abroad-scholarship-for-students-from-12-countries/",
-      "summary_tr": "AFS Global STEM Academies, gençlere 12 haftalık çevrimiçi eğitim ve Brezilya, Mısır veya Hindistan'da 4 haftalık uluslararası deneyim sunan, STEM ve sürdürülebilirlik odaklı tam burslu bir programdır.",
-      "title_tr": "AFS Global STEM Academies 2027 Bursu",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Metinde Türkiye'nin dahil olduğu 12 ülkelik liste açıkça belirtilmemiştir.",
-      "visual_kind": "scene"
-    },
     "0904abee1ecd": {
       "apply_link_id": 2,
       "apply_url": "https://lnkd.in/d3DbSEA9",
@@ -798,35 +772,6 @@
       "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında açık bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
     },
-    "5943d9ac4b3f": {
-      "apply_link_id": 1,
-      "apply_url": "https://app.beapplied.com/apply/ozkamij8t9",
-      "category": "is",
-      "country_tr": "Birleşik Krallık",
-      "deadline": "2026-11-22",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Yıllık 47.699 GBP maaş",
-      "highlights_tr": [
-        "Yıllık 47.699 GBP maaş",
-        "Londra merkezli hibrit çalışma",
-        "Deneyimli profesyoneller için uygun"
-      ],
-      "id": "5943d9ac4b3f",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 60,
-      "organization": "UK Youth",
-      "organization_domain": "",
-      "queued_at": "2026-11-18T04:16:44.108713+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/17/uk-youth-is-hiring-youth-sector-development-partnership-manager-in-london-47699-salary-2026/",
-      "summary_tr": "UK Youth, Londra merkezli hibrit çalışma düzenine sahip, gençlik sektörü geliştirme ortaklığı yöneticisi arıyor. Pozisyon, ulusal düzeyde gençlik çalışmalarının kalitesini ve sürdürülebilirliğini artırmayı hedeflemektedir.",
-      "title_tr": "UK Youth: Youth Sector Development Partnership Manager",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
-      "visual_kind": "institution"
-    },
     "5c3d11ff6613": {
       "apply_link_id": 2,
       "apply_url": "https://lnkd.in/dfvTusDd",
@@ -1143,34 +1088,6 @@
       "title_tr": "JPMorganChase ReEntry Program 2027: 15 Haftalık Ücretli Fellowship",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metinde programın hangi ülkelerdeki ofisler için açık olduğu belirtilmiş ancak Türkiye'nin bu kapsama dahil olup olmadığına dair net bir ifade yer almamaktadır.",
-      "visual_kind": "institution"
-    },
-    "ae7295ef4fba": {
-      "apply_link_id": 2,
-      "apply_url": "https://www.ifa.de/en/research/research-programmes/",
-      "category": "hibe",
-      "country_tr": "Almanya",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "The Institute for Foreign Cultural Relations (ifa), also known as Institut für Auslandsbeziehungen, is inviting applications from qualified researchers, academics, and experts for its 2026 Research Programme on Culture and Foreign Policy.",
-      "fee_required": false,
-      "funding_tr": "9.000 Euro brüt araştırma ücreti",
-      "highlights_tr": [
-        "Lisansüstü araştırmacılar ve uzmanlar için",
-        "6 aya kadar süren araştırma projesi",
-        "9.000 Euro brüt araştırma desteği"
-      ],
-      "id": "ae7295ef4fba",
-      "is_opportunity": true,
-      "message_id": 47,
-      "organization": "Institute for Foreign Cultural Relations (ifa)",
-      "organization_domain": "ifa.de",
-      "queued_at": "2026-11-15T17:42:04.954024+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/15/ifa-research-programme-2026-e9000-research-opportunity-on-culture-and-foreign-policy-apply-by-30-november-2026/",
-      "summary_tr": "ifa (Institut für Auslandsbeziehungen), kültür ve dış politika alanında uzman araştırmacılar için 6 aylık bir araştırma programı sunuyor. Seçilen adaylar, kültürün sürdürülebilir kalkınmadaki rolü üzerine çalışacak.",
-      "title_tr": "ifa 2026 Kültür ve Dış Politika Araştırma Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
     "b923fbd6eb7e": {
@@ -3351,33 +3268,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://linktr.ee/cya.eu",
-      "category": "egitim",
-      "country_tr": "Polonya",
-      "deadline": "2026-11-22",
-      "eligibility_evidence": "Katılımcıların Türkiye’den gelip tekrar Türkiye’ye dönmeleri gerekmektedir.",
-      "fee_required": false,
-      "funding_tr": "Seyahat desteği, konaklama ve yemek karşılanır",
-      "highlights_tr": [
-        "18 yaş ve üzeri",
-        "B1-B2 seviyesinde İngilizce",
-        "Yeşil pasaport veya vize şartı"
-      ],
-      "id": "2c28fbf07cad",
-      "is_opportunity": true,
-      "organization": "Creative Youth Academy",
-      "organization_domain": "",
-      "queued_at": "2026-11-18T13:56:13.284296+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/polonyada-erasmus-egitim-kursu-katilimci-cagrisi-2/",
-      "summary_tr": "Polonya'nın Oslonino şehrinde 10-17 Aralık 2026 tarihleri arasında düzenlenecek Erasmus+ eğitim kursu için katılımcı aranıyor. Başvuru için yeşil pasaport veya geçerli vize şartı bulunmaktadır.",
-      "title_tr": "Polonya'da Erasmus+ Eğitim Kursu: A Laboratory for Creativity",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSemj1qqyh_Tet4GjJlaqPF0gb4Ded5LdHrDRW5vSLN03d5U-A/viewform",
       "category": "egitim",
       "country_tr": "Almanya",
@@ -4041,6 +3931,59 @@
       "title_tr": "University of Bergen Ücretsiz Online Kursları",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.anthropic.com/careers/jobs?office=4049620008",
+      "category": "is",
+      "country_tr": "Almanya",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
+      "fee_required": false,
+      "funding_tr": "Yüksek maaşlı profesyonel iş pozisyonu",
+      "highlights_tr": [
+        "Münih ofisinde hibrit çalışma modeli",
+        "Uygun adaylar için vize sponsorluğu desteği",
+        "Deneyimli profesyoneller için yüksek maaş paketleri"
+      ],
+      "id": "b7889ba2234e",
+      "is_opportunity": true,
+      "organization": "Anthropic",
+      "organization_domain": "anthropic.com",
+      "queued_at": "2026-11-22T21:44:59.554077+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/almanya-munih-vize-sponsorlu-9-is-pozisyonu/",
+      "summary_tr": "Yapay zeka şirketi Anthropic, Münih ofisi için çeşitli teknik ve ticari pozisyonlarda uluslararası adaylara iş imkanı sunuyor. Uygun adaylar için vize sponsorluğu desteği sağlanabiliyor.",
+      "title_tr": "Anthropic Almanya Münih Ofisi İş İlanları",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı pozisyon",
+      "highlights_tr": [
+        "Sözleşmeli personel statüsü",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Türkiye Cumhuriyeti vatandaşlarına özel"
+      ],
+      "icon": "landmark",
+      "id": "182441921d08",
+      "is_opportunity": true,
+      "organization": "TÜRK AKREDİTASYON KURUMU GENEL SEKRETERLİĞİ",
+      "organization_domain": "turkak.org.tr",
+      "queued_at": "2026-11-22T21:45:21.893161+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48",
+      "summary_tr": "Türk Akreditasyon Kurumu Genel Sekreterliği bünyesinde sözleşmeli koruma ve güvenlik görevlisi alımı için giriş sınavı düzenlenmektedir.",
+      "title_tr": "Türk Akreditasyon Kurumu Sözleşmeli Koruma ve Güvenlik Görevlisi Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4129,10 +4072,10 @@
       "ts": "2026-11-18T04:16:03.799293+00:00"
     },
     "05cb5b7818c7": {
-      "reason": "Metinde Türkiye'nin dahil olduğu 12 ülkelik liste açıkça belirtilmemiştir.",
-      "status": "pending",
-      "title": "AFS Global STEM Academies 2027: Fully Funded International Study Abroad Scholarship for Students from 12 Countries",
-      "ts": "2026-11-15T17:42:38.945327+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "AFS Global STEM Academies 2027 Bursu",
+      "ts": "2026-11-22T21:44:30.248324+00:00"
     },
     "073a959984db": {
       "reason": "",
@@ -4343,6 +4286,12 @@
       "status": "expired",
       "title": "Zafer Kalkınma Ajansı Uzman Personel Alımı",
       "ts": "2026-11-18T13:53:55.725158+00:00"
+    },
+    "182441921d08": {
+      "reason": "",
+      "status": "queued",
+      "title": "Türk Akreditasyon Kurumu Sözleşmeli Koruma ve Güvenlik Görevlisi Alımı",
+      "ts": "2026-11-22T21:45:21.893182+00:00"
     },
     "182624f6840b": {
       "reason": "bekleme süresi doldu",
@@ -4585,10 +4534,10 @@
       "ts": "2026-11-13T22:34:34.616043+00:00"
     },
     "2c28fbf07cad": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Polonya'da Erasmus+ Eğitim Kursu: A Laboratory for Creativity",
-      "ts": "2026-11-18T13:56:13.284318+00:00"
+      "ts": "2026-11-22T21:44:30.248267+00:00"
     },
     "2c35082df27e": {
       "reason": "bekleme süresi doldu",
@@ -5089,10 +5038,10 @@
       "ts": "2026-11-19T21:28:09.590692+00:00"
     },
     "5943d9ac4b3f": {
-      "reason": "İlan, başvuru sahiplerinin çalışma izni veya vatandaşlık durumu hakkında herhangi bir kısıtlama veya açıklama içermemektedir.",
-      "status": "pending",
-      "title": "UK Youth Is Hiring: Youth Sector Development Partnership Manager in London – £47,699 Salary (2026)",
-      "ts": "2026-11-18T04:16:44.108730+00:00"
+      "reason": "son başvuru geçti",
+      "status": "expired",
+      "title": "UK Youth: Youth Sector Development Partnership Manager",
+      "ts": "2026-11-22T21:44:30.248354+00:00"
     },
     "597559930cd7": {
       "reason": "bekleme süresi doldu",
@@ -6054,6 +6003,12 @@
       "title": "Anadolu Ajansı Kış Dönemi Staj Programı",
       "ts": "2026-11-20T03:06:15.153397+00:00"
     },
+    "ad1f6f9d1e0f": {
+      "reason": "Türkiye'ye kapalı: International students currently studying at universities in the United States can apply for the RIPS-LA Program. Studen",
+      "status": "rejected",
+      "title": "RIPS Summer Internship 2027 in USA | Fully Funded",
+      "ts": "2026-11-22T21:45:06.757354+00:00"
+    },
     "ad341943162f": {
       "reason": "Türkiye'ye kapalı: The fellowship welcomes applicants from diverse academic and personal backgrounds across the United States and U.S. terr",
       "status": "rejected",
@@ -6067,10 +6022,10 @@
       "ts": "2026-11-19T12:55:54.872380+00:00"
     },
     "ae7295ef4fba": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "ifa Research Programme 2026: €9,000 Research Opportunity on Culture and Foreign Policy – Apply by 30 November 2026",
-      "ts": "2026-11-15T17:42:04.954041+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "ifa 2026 Kültür ve Dış Politika Araştırma Programı",
+      "ts": "2026-11-22T21:44:30.248376+00:00"
     },
     "ae80b0962a3f": {
       "reason": "",
@@ -6197,6 +6152,12 @@
       "status": "expired",
       "title": "New Generation Leaders Summit 2027 - Tayland",
       "ts": "2026-11-11T21:53:54.523227+00:00"
+    },
+    "b7889ba2234e": {
+      "reason": "",
+      "status": "queued",
+      "title": "Anthropic Almanya Münih Ofisi İş İlanları",
+      "ts": "2026-11-22T21:44:59.554093+00:00"
     },
     "b8d9757ae6b2": {
       "reason": "son başvuru geçti",
@@ -6527,6 +6488,12 @@
       "status": "rejected",
       "title": "Microsoft Excel – Temel ve İleri Seviye | Ücretsiz Eğitim",
       "ts": "2026-11-21T23:08:49.209071+00:00"
+    },
+    "dd6cb073fb22": {
+      "reason": "Türkiye'ye kapalı: Candidates must live near Washington, D.C. and be able to attend meetings in the city.",
+      "status": "rejected",
+      "title": "Amnesty International USA International Rule of Law and Human Rights Fellowship 2026: Apply for the $75,000 Policy Advoc",
+      "ts": "2026-11-22T21:44:51.646626+00:00"
     },
     "ddb447c307ab": {
       "reason": "bekleme süresi doldu",
@@ -7216,6 +7183,8 @@
     "yücel kültür vakfı yabancı dil bursu",
     "aapm dream 2027 tıbbi fizik araştırma bursu",
     "anso cas twas unesco doktora bursu",
-    "university of bergen ücretsiz online kursları"
+    "university of bergen ücretsiz online kursları",
+    "anthropic almanya münih ofisi i ş i lanları",
+    "türk akreditasyon kurumu sözleşmeli koruma ve güvenlik görevlisi alımı"
   ]
 }
