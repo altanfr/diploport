@@ -301,7 +301,18 @@
     "scholars.richmond.edu",
     "yucelkulturvakfi.org/yabanci-dil-burslari"
   ],
-  "outbox": [],
+  "outbox": [
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
+      "attempts": 0,
+      "caption": "Kamu Denetçiliği Kurumu Uzman Yardımcılığı Giriş Sınavı\n\nKamu Denetçiliği Kurumu (Ombudsmanlık) bünyesinde A Grubu kariyer meslek personeli olarak görevlendirilmek üzere uzman yardımcılığı giriş sınavı düzenlenmektedir.\n\n- A Grubu kariyer meslek pozisyonu\n- Türkiye Cumhuriyeti vatandaşlarına açık\n- Kariyer Kapısı üzerinden başvuru\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b\nTüm fırsatlar: https://diploport.dev/#f0aef4d3310d\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "f0aef4d3310d",
+      "photo_query": "logo: Türkiye Cumhuriyeti Kamu Denetçiliği Kurumu (Vikipedi (tr))",
+      "source": "Kariyer Kapısı",
+      "title": "Kamu Denetçiliği Kurumu Uzman Yardımcılığı Giriş Sınavı",
+      "ts": "2026-11-22T06:38:22.360539+00:00"
+    }
+  ],
   "pending": {
     "05cb5b7818c7": {
       "apply_link_id": 2,
@@ -824,35 +835,6 @@
       "title_tr": "UNITAR 2026 Dönemi Staj Programları",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
-    "73a8ca465439": {
-      "apply_link_id": 1,
-      "apply_url": "https://carleton.ca/lerrn/education-scholarship-opportunities-for-refugees-2/",
-      "category": "burs",
-      "country_tr": "Çok ülkeli",
-      "deadline": "2027-01-31",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Lisans, yüksek lisans ve doktora seviyeleri",
-        "Farklı ülkelerde 9 farklı üniversite seçeneği",
-        "Başvuru tarihleri 16 Kasım 2026 - 31 Ocak 2027 arası"
-      ],
-      "id": "73a8ca465439",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 46,
-      "organization": "Local Engagement Refugee Research Network",
-      "organization_domain": "carleton.ca",
-      "queued_at": "2026-11-15T02:37:44.668874+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/15/9-scholarship-opportunities-for-refugees-in-2026-2027-undergraduate-masters-and-phd-funding-in-africa-europe-north-america-and-latin-america/",
-      "summary_tr": "LERRN tarafından paylaşılan, mülteci öğrencilere yönelik Afrika, Avrupa, Kuzey Amerika ve Latin Amerika'daki üniversitelerde sunulan 9 farklı yükseköğrenim burs programı listesi.",
-      "title_tr": "Mülteciler için 2026-2027 Yükseköğrenim Burs Fırsatları",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Bursların mülteci statüsündeki Türk vatandaşlarına açık olup olmadığına dair genel bir ifade bulunmamaktadır; her üniversitenin kendi kriterleri geçerlidir.",
       "visual_kind": "institution"
     },
     "779fb2e0d713": {
@@ -1499,33 +1481,6 @@
       "source_url": "https://ab-ilan.com/genc-basari-egitim-vakfi-2027-mentorluk-basvurulari-acik/",
       "summary_tr": "Genç Başarı Eğitim Vakfı, lise öğrencilerine girişimcilik projelerinde rehberlik edecek profesyoneller arıyor. En az 3 yıl iş deneyimi olan mentorlar, Ocak-Mayıs 2027 döneminde ayda 1 saat destek verecek.",
       "title_tr": "Genç Başarı Eğitim Vakfı Mentorluk Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı kadro",
-      "highlights_tr": [
-        "A Grubu kariyer meslek pozisyonu",
-        "Türkiye Cumhuriyeti vatandaşlarına açık",
-        "Kariyer Kapısı üzerinden başvuru"
-      ],
-      "icon": "landmark",
-      "id": "f0aef4d3310d",
-      "is_opportunity": true,
-      "organization": "KAMU DENETÇİLİĞİ KURUMU (OMBUDSMANLIK)",
-      "organization_domain": "ombudsman.gov.tr",
-      "queued_at": "2026-11-09T06:14:10.932431+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
-      "summary_tr": "Kamu Denetçiliği Kurumu (Ombudsmanlık) bünyesinde A Grubu kariyer meslek personeli olarak görevlendirilmek üzere uzman yardımcılığı giriş sınavı düzenlenmektedir.",
-      "title_tr": "Kamu Denetçiliği Kurumu Uzman Yardımcılığı Giriş Sınavı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -5393,10 +5348,10 @@
       "ts": "2026-11-12T02:56:28.556783+00:00"
     },
     "73a8ca465439": {
-      "reason": "Bursların mülteci statüsündeki Türk vatandaşlarına açık olup olmadığına dair genel bir ifade bulunmamaktadır; her üniversitenin kendi kriterleri geçerlidir.",
-      "status": "pending",
-      "title": "9 Scholarship Opportunities for Refugees in 2026–2027: Undergraduate, Master’s and PhD Funding in Africa, Europe, North ",
-      "ts": "2026-11-15T02:37:44.668893+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Mülteciler için 2026-2027 Yükseköğrenim Burs Fırsatları",
+      "ts": "2026-11-22T06:38:06.718822+00:00"
     },
     "74208b18be4b": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
