@@ -299,7 +299,10 @@
     "emich.edu/admissions/scholarships/psc.php",
     "youthall.com/tr/aselsan/a-yetenek-3_10",
     "scholars.richmond.edu",
-    "yucelkulturvakfi.org/yabanci-dil-burslari"
+    "yucelkulturvakfi.org/yabanci-dil-burslari",
+    "aapm.secure-platform.com/gaf/page/dream",
+    "twas.org/opportunity/anso-cas-twasunesco-phd-scholarship",
+    "futurelearn.com/partners/bergen"
   ],
   "outbox": [
     {
@@ -311,6 +314,16 @@
       "source": "Kariyer Kapısı",
       "title": "Kamu Denetçiliği Kurumu Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-11-22T06:38:22.360539+00:00"
+    },
+    {
+      "apply_url": "https://dub.ai/en/omp/",
+      "attempts": 0,
+      "caption": "Dubai Hükümeti Ücretsiz Yapay Zeka Kursu: One Million Prompters\n\nDubai Gelecek Vakfı tarafından sunulan, yapay zeka temelleri, üretken yapay zeka ve istem mühendisliği konularını kapsayan, herkesin katılımına açık ücretsiz çevrimiçi eğitim programı.\n\n- Tüm ülkelerden katılıma açık\n- Dört modüllük çevrimiçi eğitim\n- Prompt Okuryazarlık Sertifikası verilir\n\nBaşvuru: https://dub.ai/en/omp/\nTüm fırsatlar: https://diploport.dev/#cd60844ef905\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "cd60844ef905",
+      "photo_query": "logo: www.dubaifuture.ae (web sitesi (www.dubaifuture.ae))",
+      "source": "Opportunities Corners",
+      "title": "Dubai Hükümeti Ücretsiz Yapay Zeka Kursu: One Million Prompters",
+      "ts": "2026-11-22T15:15:48.320331+00:00"
     }
   ],
   "pending": {
@@ -453,6 +466,39 @@
       "title_tr": "ITU Genel Sekreteri Gençlik Danışma Kurulu Üyeliği",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "16d960be27d0": {
+      "apply_link_id": 1,
+      "apply_url": "https://twas.org/opportunity/anso-cas-twasunesco-phd-scholarship",
+      "category": "burs",
+      "country_tr": "Çin",
+      "deadline": "2027-02-28",
+      "eligibility_evidence": "Candidates must be citizens of eligible developing countries in the Southern Hemisphere, as defined by TWAS.",
+      "fee_required": false,
+      "funding_tr": "Tam burs",
+      "highlights_tr": [
+        "4 yıla kadar tam burslu doktora eğitimi",
+        "Aylık 6.000-7.000 CNY yaşam desteği",
+        "35 yaş sınırı (1 Ocak 1992 ve sonrası doğumlu)"
+      ],
+      "id": "16d960be27d0",
+      "image_queries": [
+        "University of Chinese Academy of Sciences",
+        "China university campus",
+        "students studying library"
+      ],
+      "is_opportunity": true,
+      "message_id": 82,
+      "organization": "ANSO",
+      "organization_domain": "anso.org.cn",
+      "queued_at": "2026-11-22T15:15:36.023156+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/anso-cas-twas-unesco-phd-scholarship/",
+      "summary_tr": "ANSO-CAS-TWAS/UNESCO, gelişmekte olan ülkelerden gelen öğrencilere Çin'de doktora eğitimi için tam burslu program sunmaktadır.",
+      "title_tr": "ANSO-CAS-TWAS/UNESCO Doktora Bursu",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Türkiye'nin TWAS tarafından tanımlanan 'gelişmekte olan ülkeler' listesinde olup olmadığı metinde belirtilmemiştir.",
       "visual_kind": "institution"
     },
     "1d2ca2849d02": {
@@ -660,6 +706,39 @@
       "title_tr": "Camp Rising Sun 2027 Uluslararası Liderlik Programı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "scene"
+    },
+    "4cddf0e2a362": {
+      "apply_link_id": 3,
+      "apply_url": "https://aapm.secure-platform.com/gaf/page/dream",
+      "category": "staj",
+      "country_tr": "ABD ve Kanada",
+      "deadline": "2027-02-09",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "6.000$ burs desteği",
+      "highlights_tr": [
+        "10 haftalık yaz araştırma programı",
+        "6.000$ tutarında burs desteği",
+        "Tıbbi fizik alanında mentorluk imkanı"
+      ],
+      "id": "4cddf0e2a362",
+      "image_queries": [
+        "medical physics laboratory",
+        "USA university campus",
+        "science research students"
+      ],
+      "is_opportunity": true,
+      "message_id": 81,
+      "organization": "American Association of Physicists in Medicine",
+      "organization_domain": "aapm.org",
+      "queued_at": "2026-11-22T15:15:28.086887+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/22/aapm-dream-fellowship-2027-in-the-usa-and-canada-6000-stipend-10-week-medical-physics-research-programme-and-mentorship-for-undergraduate-students/",
+      "summary_tr": "AAPM DREAM Fellowship, lisans öğrencilerine ABD ve Kanada'daki kurumlarda 10 haftalık tıbbi fizik araştırma ve mentorluk deneyimi sunan bir programdır.",
+      "title_tr": "AAPM DREAM 2027 Tıbbi Fizik Araştırma Bursu",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metin, başvuru için gerekli vatandaşlık veya oturum izni şartlarını belirtmemiş, sadece bu şartların kontrol edilmesi gerektiğini ifade etmiştir.",
       "visual_kind": "scene"
     },
     "4fb76b259a82": {
@@ -1460,32 +1539,6 @@
   "queue": [
     {
       "apply_link_id": 1,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfOmx5zw3Ki-pYNwss8GG92kTNbiaT0dij1h5UQjUNeqVzIRw/viewform?usp=send_form",
-      "category": "gonulluluk",
-      "country_tr": "Türkiye",
-      "deadline": "2026-12-10",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Gönüllülük esasına dayalı",
-      "highlights_tr": [
-        "En az 3 yıl profesyonel iş deneyimi şartı",
-        "Ocak-Mayıs 2027 döneminde ayda 1 saat katılım",
-        "Çevrim içi veya yüz yüze mentorluk imkanı"
-      ],
-      "id": "426a5be58382",
-      "is_opportunity": true,
-      "organization": "Genç Başarı Eğitim Vakfı",
-      "organization_domain": "gencbasari.org",
-      "queued_at": "2026-11-08T07:17:04.013199+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/genc-basari-egitim-vakfi-2027-mentorluk-basvurulari-acik/",
-      "summary_tr": "Genç Başarı Eğitim Vakfı, lise öğrencilerine girişimcilik projelerinde rehberlik edecek profesyoneller arıyor. En az 3 yıl iş deneyimi olan mentorlar, Ocak-Mayıs 2027 döneminde ayda 1 saat destek verecek.",
-      "title_tr": "Genç Başarı Eğitim Vakfı Mentorluk Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://cbs.riken.jp/en/summer/index.html",
       "category": "staj",
       "country_tr": "Japonya",
@@ -1963,32 +2016,6 @@
       "source_url": "https://ab-ilan.com/pusula-cocuklar-icin-sporla-katilim-destek-programi-basvurulari-basladi/",
       "summary_tr": "Antalya'da kız çocuklarının spora katılımını artırmayı hedefleyen proje ve bireysel sporcu destek programı başvuruları başladı.",
       "title_tr": "Pusula: Çocuklar için Sporla Katılım Destek Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://dub.ai/en/omp/",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "The course is open to learners from all countries.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Tüm ülkelerden katılıma açık",
-        "Dört modüllük çevrimiçi eğitim",
-        "Prompt Okuryazarlık Sertifikası verilir"
-      ],
-      "id": "cd60844ef905",
-      "is_opportunity": true,
-      "organization": "Dubai Future Foundation",
-      "organization_domain": "dubaifuture.ae",
-      "queued_at": "2026-11-11T21:54:28.158713+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/one-million-prompters/",
-      "summary_tr": "Dubai Gelecek Vakfı tarafından sunulan, yapay zeka temelleri, üretken yapay zeka ve istem mühendisliği konularını kapsayan, herkesin katılımına açık ücretsiz çevrimiçi eğitim programı.",
-      "title_tr": "Dubai Hükümeti Ücretsiz Yapay Zeka Kursu: One Million Prompters",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -3988,6 +4015,32 @@
       "title_tr": "Yücel Kültür Vakfı Yabancı Dil Bursu",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.futurelearn.com/partners/bergen",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "Applicants from all countries can explore these online courses.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Dünyanın her yerinden katılıma açık",
+        "3-7 hafta arası esnek süre",
+        "Ücretsiz dijital sertifika imkanı"
+      ],
+      "id": "195f052dec81",
+      "is_opportunity": true,
+      "organization": "University of Bergen",
+      "organization_domain": "uib.no",
+      "queued_at": "2026-11-22T15:15:41.873390+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/university-of-bergen-online-courses/",
+      "summary_tr": "University of Bergen tarafından sunulan, sağlık, iklim değişikliği ve sürdürülebilirlik gibi alanlarda 7 farklı ücretsiz online kursa dünyanın her yerinden katılım sağlanabilir.",
+      "title_tr": "University of Bergen Ücretsiz Online Kursları",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4273,6 +4326,12 @@
       "title": "ITU Secretary-General’s Youth Advisory Board – Second Cohort 2027",
       "ts": "2026-11-20T03:06:38.888937+00:00"
     },
+    "16d960be27d0": {
+      "reason": "Türkiye'nin TWAS tarafından tanımlanan 'gelişmekte olan ülkeler' listesinde olup olmadığı metinde belirtilmemiştir.",
+      "status": "pending",
+      "title": "ANSO-CAS-TWAS/UNESCO PhD Scholarship in China 2027",
+      "ts": "2026-11-22T15:15:36.023167+00:00"
+    },
     "1760f8288825": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -4308,6 +4367,12 @@
       "status": "rejected",
       "title": "Erasmus Mundus GEM Scholarship 2027-29 | Fully Funded",
       "ts": "2026-11-07T15:39:11.256443+00:00"
+    },
+    "195f052dec81": {
+      "reason": "",
+      "status": "queued",
+      "title": "University of Bergen Ücretsiz Online Kursları",
+      "ts": "2026-11-22T15:15:41.873401+00:00"
     },
     "1a09fc4eeebd": {
       "reason": "bekleme süresi doldu",
@@ -4790,10 +4855,10 @@
       "ts": "2026-11-13T00:16:04.392545+00:00"
     },
     "426a5be58382": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Genç Başarı Eğitim Vakfı Mentorluk Programı",
-      "ts": "2026-11-08T07:17:04.013218+00:00"
+      "ts": "2026-11-22T15:14:44.492617+00:00"
     },
     "42a4ca291da4": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -4902,6 +4967,12 @@
       "status": "pending",
       "title": "Camp Rising Sun 2027: Fully Funded International Leadership Summer Program in New York",
       "ts": "2026-11-19T21:29:03.361105+00:00"
+    },
+    "4cddf0e2a362": {
+      "reason": "Metin, başvuru için gerekli vatandaşlık veya oturum izni şartlarını belirtmemiş, sadece bu şartların kontrol edilmesi gerektiğini ifade etmiştir.",
+      "status": "pending",
+      "title": "AAPM DREAM Fellowship 2027 in the USA and Canada: $6,000 Stipend, 10-Week Medical Physics Research Programme and Mentors",
+      "ts": "2026-11-22T15:15:28.086899+00:00"
     },
     "4d25d0a24135": {
       "reason": "bekleme süresi doldu",
@@ -7142,6 +7213,9 @@
     "google makine mühendisliği stajı 2027 tayvan",
     "aselsan a yetenek 3 programı",
     "university of richmond lisans burs programı 2027",
-    "yücel kültür vakfı yabancı dil bursu"
+    "yücel kültür vakfı yabancı dil bursu",
+    "aapm dream 2027 tıbbi fizik araştırma bursu",
+    "anso cas twas unesco doktora bursu",
+    "university of bergen ücretsiz online kursları"
   ]
 }

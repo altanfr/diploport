@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://dub.ai/en/omp/",
+    "category": "egitim",
+    "country_tr": "Online",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "Ücretsiz",
+    "highlights_tr": [
+      "Tüm ülkelerden katılıma açık",
+      "Dört modüllük çevrimiçi eğitim",
+      "Prompt Okuryazarlık Sertifikası verilir"
+    ],
+    "id": "cd60844ef905",
+    "image": "images/cd60844ef905.jpg",
+    "organization": "Dubai Future Foundation",
+    "published_at": "2026-11-22T15:15:48.296096+00:00",
+    "summary_tr": "Dubai Gelecek Vakfı tarafından sunulan, yapay zeka temelleri, üretken yapay zeka ve istem mühendisliği konularını kapsayan, herkesin katılımına açık ücretsiz çevrimiçi eğitim programı.",
+    "thumb": "images/t/cd60844ef905.jpg",
+    "title_tr": "Dubai Hükümeti Ücretsiz Yapay Zeka Kursu: One Million Prompters"
+  },
+  {
     "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
     "category": "is",
     "country_tr": "Türkiye",
