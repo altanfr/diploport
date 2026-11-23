@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdw3P9MOzzQWTR2RQjyq9kkIuqjgfGigkCRRUiGaBN33r6-Gg/viewform",
+    "category": "egitim",
+    "country_tr": "Almanya",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "Konaklama, yemek ve seyahat desteği sağlanır",
+    "highlights_tr": [
+      "16-30 yaş arası gençlere açık",
+      "Konaklama ve yemek masrafları karşılanıyor",
+      "Kültürlerarası atölye ve eğitim çalışmaları"
+    ],
+    "id": "8e011d739f29",
+    "image": "images/8e011d739f29.jpg",
+    "organization": "",
+    "published_at": "2026-11-23T12:24:05.782581+00:00",
+    "summary_tr": "Almanya'nın Düsseldorf kentinde Kasım-Aralık 2026 tarihlerinde düzenlenecek, yemek kültürü ve sosyal uyum konularına odaklanan iki farklı Erasmus+ gençlik projesi için katılımcılar aranıyor.",
+    "thumb": "images/t/8e011d739f29.jpg",
+    "title_tr": "Almanya'da Erasmus+ Gençlik Projeleri: Düsseldorf"
+  },
+  {
     "apply_url": "https://dub.ai/en/omp/",
     "category": "egitim",
     "country_tr": "Online",

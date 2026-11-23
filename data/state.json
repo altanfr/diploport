@@ -304,7 +304,13 @@
     "twas.org/opportunity/anso-cas-twasunesco-phd-scholarship",
     "futurelearn.com/partners/bergen",
     "anthropic.com/careers/jobs?office=4049620008",
-    "kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48"
+    "kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48",
+    "docs.google.com/forms/d/e/1FAIpQLSe7b5gHsik5Pm1TslNhbmDcgGuaMGTcxKviB8auHTswqpN-8A/viewform?usp=send_form",
+    "kariyerkapisi.gov.tr/IlanDetay?i=667b7787-181b-4063-af99-0f8f07ba1293",
+    "forms.cloud.microsoft/Pages/ResponsePage.aspx?id=t8AQ9iS9OUuBCz3CgK-1kLG_fJJji8tHqxiaqtL1zZxUMDAzRVM0QUJNQlU1VFdBOFBURVdVVlFZUy4u",
+    "kariyerkapisi.gov.tr/IlanDetay?i=a75fb51f-19e0-4d1e-95fe-1e52774310c2",
+    "gov.uk/seasonal-worker-visa",
+    "campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel"
   ],
   "outbox": [
     {
@@ -326,6 +332,16 @@
       "source": "Opportunities Corners",
       "title": "Dubai Hükümeti Ücretsiz Yapay Zeka Kursu: One Million Prompters",
       "ts": "2026-11-22T15:15:48.320331+00:00"
+    },
+    {
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdw3P9MOzzQWTR2RQjyq9kkIuqjgfGigkCRRUiGaBN33r6-Gg/viewform",
+      "attempts": 0,
+      "caption": "Almanya'da Erasmus+ Gençlik Projeleri: Düsseldorf\n\nAlmanya'nın Düsseldorf kentinde Kasım-Aralık 2026 tarihlerinde düzenlenecek, yemek kültürü ve sosyal uyum konularına odaklanan iki farklı Erasmus+ gençlik projesi için katılımcılar aranıyor.\n\n- 16-30 yaş arası gençlere açık\n- Konaklama ve yemek masrafları karşılanıyor\n- Kültürlerarası atölye ve eğitim çalışmaları\n\nBaşvuru: https://docs.google.com/forms/d/e/1FAIpQLSdw3P9MOzzQWTR2RQjyq9kkIuqjgfGigkCRRUiGaBN33r6-Gg/viewform\nTüm fırsatlar: https://diploport.dev/#8e011d739f29\n\nGörsel: Louis Droege / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "8e011d739f29",
+      "photo_query": "Düsseldorf Germany city",
+      "source": "Erasmusgram",
+      "title": "Almanya'da Erasmus+ Gençlik Projeleri: Düsseldorf",
+      "ts": "2026-11-23T12:24:05.842505+00:00"
     }
   ],
   "pending": {
@@ -743,6 +759,34 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
+    "5148fd60d2b0": {
+      "apply_link_id": 5,
+      "apply_url": "https://www.gov.uk/seasonal-worker-visa",
+      "category": "is",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "",
+      "eligibility_evidence": "The information provided by the UK government identifies the visa as the route for eligible overseas seasonal workers. However, the overview does not provide a complete list of nationalities that can apply",
+      "fee_required": true,
+      "funding_tr": "Ücretli (Vize ücreti 340 GBP)",
+      "highlights_tr": [
+        "Hortikültür için 6 aya kadar çalışma izni",
+        "Onaylı bir işveren sponsorluğu zorunludur",
+        "Vize başvuru ücreti 340 GBP"
+      ],
+      "id": "5148fd60d2b0",
+      "is_opportunity": true,
+      "message_id": 87,
+      "organization": "UK Government",
+      "organization_domain": "gov.uk",
+      "queued_at": "2026-11-23T12:23:53.900203+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/23/uk-seasonal-worker-visa-2026-2027-eligibility-application-process-requirements-fees-and-how-to-work-temporarily-in-the-united-kingdom/",
+      "summary_tr": "Birleşik Krallık'ta tarım ve kümes hayvancılığı sektörlerinde geçici çalışma imkanı sağlayan vize programı. Başvuru için onaylı bir işveren sponsorluğu gereklidir.",
+      "title_tr": "Birleşik Krallık Mevsimlik İşçi Vizesi",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metin, Türkiye vatandaşlarının başvuru yapıp yapamayacağına dair net bir liste veya ifade içermemektedir. Katılım ücreti var.",
+      "visual_kind": "institution"
+    },
     "5796cb457355": {
       "apply_link_id": 1,
       "apply_url": "https://e-recruitment.unitar.org/user/login?destination=%2Fvacancies%2Ftraineeship-multimedia-communications-graphic-design",
@@ -770,6 +814,35 @@
       "title_tr": "UNITAR İletişim ve Grafik Tasarım Stajı 2027",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında açık bir bilgi bulunmamaktadır.",
+      "visual_kind": "institution"
+    },
+    "65ea2cf6c0ed": {
+      "apply_link_id": 3,
+      "apply_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=t8AQ9iS9OUuBCz3CgK-1kLG_fJJji8tHqxiaqtL1zZxUMDAzRVM0QUJNQlU1VFdBOFBURVdVVlFZUy4u",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "2026-12-02",
+      "eligibility_evidence": "WHO/Europe describes knowledge communities as informal, time-bound forums that bring together multidisciplinary expertise to support the analysis of complex issues in the WHO European Region.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "18-30 yaş arası gençlere özel teşvik",
+        "8 haftalık çevrimiçi forum ve webinar",
+        "Multidisipliner bilgi paylaşımı"
+      ],
+      "id": "65ea2cf6c0ed",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 86,
+      "organization": "WHO/Europe",
+      "organization_domain": "who.int",
+      "queued_at": "2026-11-23T12:23:09.628258+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/23/who-europe-knowledge-community-on-social-media-ai-and-youth-mental-health-2026-call-for-participants-to-help-shape-safer-digital-environments-for-young-people/",
+      "summary_tr": "WHO/Europe, sosyal medya ve yapay zekanın gençlerin ruh sağlığı üzerindeki etkilerini tartışmak ve daha güvenli dijital ortamlar oluşturmak için 8 haftalık çevrimiçi bir çalışma grubu oluşturuyor.",
+      "title_tr": "WHO/Europe Sosyal Medya, Yapay Zeka ve Gençlik Ruh Sağlığı Topluluğu",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
     "697a8815f7f8": {
@@ -1879,37 +1952,6 @@
       "title_tr": "Pusula: Çocuklar için Sporla Katılım Destek Programı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdw3P9MOzzQWTR2RQjyq9kkIuqjgfGigkCRRUiGaBN33r6-Gg/viewform",
-      "category": "egitim",
-      "country_tr": "Almanya",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
-      "fee_required": false,
-      "funding_tr": "Konaklama, yemek ve seyahat desteği sağlanır",
-      "highlights_tr": [
-        "16-30 yaş arası gençlere açık",
-        "Konaklama ve yemek masrafları karşılanıyor",
-        "Kültürlerarası atölye ve eğitim çalışmaları"
-      ],
-      "id": "8e011d739f29",
-      "image_queries": [
-        "Düsseldorf Germany city",
-        "Germany youth exchange",
-        "international students workshop"
-      ],
-      "is_opportunity": true,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-11-11T21:54:35.103799+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/almanya-dusseldorf-2-farkli-erasmus-projesi/",
-      "summary_tr": "Almanya'nın Düsseldorf kentinde Kasım-Aralık 2026 tarihlerinde düzenlenecek, yemek kültürü ve sosyal uyum konularına odaklanan iki farklı Erasmus+ gençlik projesi için katılımcılar aranıyor.",
-      "title_tr": "Almanya'da Erasmus+ Gençlik Projeleri: Düsseldorf",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -3928,6 +3970,118 @@
       "title_tr": "Türk Akreditasyon Kurumu Sözleşmeli Koruma ve Güvenlik Görevlisi Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe7b5gHsik5Pm1TslNhbmDcgGuaMGTcxKviB8auHTswqpN-8A/viewform?usp=send_form",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "24 Kasım 2026 Salı, 19.30–20.30 (Türkiye saati)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "24 Kasım 2026 tarihinde gerçekleşecek",
+        "Zoom üzerinden çevrimiçi katılım",
+        "İklim adaleti ve kadın hakları odaklı"
+      ],
+      "id": "c08adbdbc064",
+      "is_opportunity": true,
+      "organization": "FEMPACT",
+      "organization_domain": "",
+      "queued_at": "2026-11-23T12:22:17.444833+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/cop31in-ardindan-kadinlar-iklim-adaleti-ve-adil-gecis/",
+      "summary_tr": "COP31 sonrası iklim politikalarında kadınların rolü, adil geçiş ve yerel siyasetteki deneyimlerin tartışılacağı çevrimiçi bir buluşmadır.",
+      "title_tr": "COP31’in Ardından: Kadınlar, İklim Adaleti ve Adil Geçiş",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=667b7787-181b-4063-af99-0f8f07ba1293",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "1f41993dc1b8",
+      "is_opportunity": true,
+      "organization": "İÇİŞLERİ BAKANLIĞI",
+      "organization_domain": "icisleri.gov.tr",
+      "queued_at": "2026-11-23T12:23:02.723020+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=667b7787-181b-4063-af99-0f8f07ba1293",
+      "summary_tr": "İçişleri Bakanlığı merkez ve taşra teşkilatında görevlendirilmek üzere 4/B sözleşmeli personel alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "İçişleri Bakanlığı 4/B Sözleşmeli Personel Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a75fb51f-19e0-4d1e-95fe-1e52774310c2",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli bilişim personeli pozisyonu"
+      ],
+      "icon": "landmark",
+      "id": "47ad7a03e60c",
+      "is_opportunity": true,
+      "organization": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+      "organization_domain": "aybu.edu.tr",
+      "queued_at": "2026-11-23T12:23:46.588379+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a75fb51f-19e0-4d1e-95fe-1e52774310c2",
+      "summary_tr": "Ankara Yıldırım Beyazıt Üniversitesi Rektörlüğü bünyesinde sözleşmeli bilişim personeli alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Ankara Yıldırım Beyazıt Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel",
+      "category": "burs",
+      "country_tr": "Fransa",
+      "deadline": "2027-01-06",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Tam burs",
+      "highlights_tr": [
+        "Yüksek lisans için 29, doktora için 35 yaş sınırı",
+        "Başvurular Fransız üniversiteleri üzerinden yapılır",
+        "Fransa'da lisansüstü eğitim imkanı"
+      ],
+      "id": "d7a2c2af354f",
+      "image_queries": [
+        "Paris university campus",
+        "France international students",
+        "students studying library"
+      ],
+      "is_opportunity": true,
+      "organization": "Ministère de l'Europe et des Affaires étrangères",
+      "organization_domain": "campusfrance.org",
+      "queued_at": "2026-11-23T12:24:02.016914+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/eiffel-burs-programi-2027-fransada-yuksek-lisans-ve-doktora-firsati/",
+      "summary_tr": "Fransa Dışişleri Bakanlığı tarafından yürütülen Eiffel Burs Programı, başarılı uluslararası öğrencilere Fransa'da yüksek lisans ve doktora eğitimi desteği sunmaktadır.",
+      "title_tr": "Eiffel Burs Programı 2027: Fransa’da Yüksek Lisans ve Doktora",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4339,6 +4493,12 @@
       "title": "Max Planck MPIIB Yaz Stajı 2027",
       "ts": "2026-11-16T20:59:14.686171+00:00"
     },
+    "1f41993dc1b8": {
+      "reason": "",
+      "status": "queued",
+      "title": "İçişleri Bakanlığı 4/B Sözleşmeli Personel Alımı",
+      "ts": "2026-11-23T12:23:02.723037+00:00"
+    },
     "1f71f4627775": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -4392,6 +4552,12 @@
       "status": "pending",
       "title": "TU Delft Excellence Scholarships 2027 in Netherlands | Study in Europe",
       "ts": "2026-11-19T21:28:32.743348+00:00"
+    },
+    "236d325023ec": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Proje Yönetici Yardımcısı",
+      "ts": "2026-11-23T12:22:25.271026+00:00"
     },
     "237d320a94d0": {
       "reason": "",
@@ -4711,6 +4877,12 @@
       "title": "Sırbistan'da ADRA Serbia ile ESC Gönüllülük Projesi",
       "ts": "2026-11-21T01:29:13.139926+00:00"
     },
+    "4074db4d200b": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Öğretmenler için Oyun ve Öğrenme Maratonu: Gameathon",
+      "ts": "2026-11-23T12:23:39.017130+00:00"
+    },
     "415a59cdb88b": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -4819,6 +4991,12 @@
       "title": "LEGO Foundation Strateji Departmanı Öğrenci Çalışanı",
       "ts": "2026-11-21T01:28:27.540920+00:00"
     },
+    "47ad7a03e60c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Ankara Yıldırım Beyazıt Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
+      "ts": "2026-11-23T12:23:46.588392+00:00"
+    },
     "48299a758094": {
       "reason": "Türkiye'ye kapalı: Applicants must be US citizens or hold valid visas that allow them to receive paid work during the summer.",
       "status": "rejected",
@@ -4908,6 +5086,12 @@
       "status": "published",
       "title": "İspanya, Alicante: Erasmus+ Gençlik Değişimi",
       "ts": "2026-11-03T09:30:20.967628+00:00"
+    },
+    "5148fd60d2b0": {
+      "reason": "Metin, Türkiye vatandaşlarının başvuru yapıp yapamayacağına dair net bir liste veya ifade içermemektedir. Katılım ücreti var.",
+      "status": "pending",
+      "title": "UK Seasonal Worker Visa 2026–2027: Eligibility, Application Process, Requirements, Fees and How to Work Temporarily in t",
+      "ts": "2026-11-23T12:23:53.900217+00:00"
     },
     "52077fa88042": {
       "reason": "Türkiye'ye kapalı: Applications and nominations are open to eligible young people across the African continent.",
@@ -5148,6 +5332,12 @@
       "status": "rejected",
       "title": "Sciences Po Mastercard Foundation Scholarship 2027 in France | Fully Funded",
       "ts": "2026-10-29T09:48:29.672159+00:00"
+    },
+    "65ea2cf6c0ed": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "WHO/Europe Knowledge Community on Social Media, AI and Youth Mental Health 2026: Call for Participants to Help Shape Saf",
+      "ts": "2026-11-23T12:23:09.628274+00:00"
     },
     "66b6695bf145": {
       "reason": "bekleme süresi doldu",
@@ -6067,6 +6257,12 @@
       "title": "Nigeria Sustainability Competition 2026: Apply for ₦1 Million Prize in National Student Essay Contest and Lagos Green In",
       "ts": "2026-11-16T02:43:07.559487+00:00"
     },
+    "b41b3be8e870": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "UNESCO Internship Programme 2027",
+      "ts": "2026-11-23T12:22:01.700887+00:00"
+    },
     "b478d0878c9c": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -6192,6 +6388,12 @@
       "status": "rejected",
       "title": "BARTIN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIM İLANI (2026-4)",
       "ts": "2026-11-20T11:37:19.732109+00:00"
+    },
+    "c08adbdbc064": {
+      "reason": "",
+      "status": "queued",
+      "title": "COP31’in Ardından: Kadınlar, İklim Adaleti ve Adil Geçiş",
+      "ts": "2026-11-23T12:22:17.444849+00:00"
     },
     "c159003011e5": {
       "reason": "bekleme süresi doldu",
@@ -6355,6 +6557,12 @@
       "title": "Max Planck MPIIB Summer Internship 2027 in Germany | Fully Funded",
       "ts": "2026-11-05T10:46:22.187057+00:00"
     },
+    "d17e8984b483": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Sanofi Foundation Climate Action and Youth Resilience Grant 2026: Apply for €50,000–€100,000 Funding for Youth-Led Clima",
+      "ts": "2026-11-23T12:21:54.342036+00:00"
+    },
     "d31682b3c6e6": {
       "reason": "",
       "status": "published",
@@ -6396,6 +6604,12 @@
       "status": "queued",
       "title": "Azerbaycan'da ESC Gönüllülük Projesi",
       "ts": "2026-11-18T13:55:46.390501+00:00"
+    },
+    "d7a2c2af354f": {
+      "reason": "",
+      "status": "queued",
+      "title": "Eiffel Burs Programı 2027: Fransa’da Yüksek Lisans ve Doktora",
+      "ts": "2026-11-23T12:24:02.016928+00:00"
     },
     "d7bb1e4791ab": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -7135,6 +7349,12 @@
     "anso cas twas unesco doktora bursu",
     "university of bergen ücretsiz online kursları",
     "anthropic almanya münih ofisi i ş i lanları",
-    "türk akreditasyon kurumu sözleşmeli koruma ve güvenlik görevlisi alımı"
+    "türk akreditasyon kurumu sözleşmeli koruma ve güvenlik görevlisi alımı",
+    "cop31'in ardından kadınlar i klim adaleti ve adil geçiş",
+    "i çişleri bakanlığı 4 b sözleşmeli personel alımı",
+    "who europe sosyal medya yapay zeka ve gençlik ruh sağlığı topluluğu",
+    "ankara yıldırım beyazıt üniversitesi sözleşmeli bilişim personeli alımı",
+    "birleşik krallık mevsimlik i şçi vizesi",
+    "eiffel burs programı 2027 fransa'da yüksek lisans ve doktora"
   ]
 }
