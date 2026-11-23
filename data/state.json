@@ -772,62 +772,6 @@
       "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında açık bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
     },
-    "5c3d11ff6613": {
-      "apply_link_id": 2,
-      "apply_url": "https://lnkd.in/dfvTusDd",
-      "category": "staj",
-      "country_tr": "Almanya",
-      "deadline": "2026-12-05",
-      "eligibility_evidence": "The Humboldt Internship Program provides an opportunity for students enrolled at universities outside Germany to gain research experience at Humboldt-Universität zu Berlin.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Almanya'da uygulamalı araştırma deneyimi",
-        "İktisat ve tarım ekonomisi öğrencileri için",
-        "Çalışma dili İngilizce"
-      ],
-      "id": "5c3d11ff6613",
-      "is_opportunity": true,
-      "message_id": 49,
-      "organization": "Humboldt-Universität zu Berlin",
-      "organization_domain": "hu-berlin.de",
-      "queued_at": "2026-11-15T22:46:13.894489+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/15/humboldt-university-berlin-research-internship-2027-weather-index-insurance-and-climate-risk-research-in-west-africa-mali/",
-      "summary_tr": "Humboldt-Universität zu Berlin, tarım ekonomisi ve iklim riski üzerine araştırma projesinde görev alacak uluslararası öğrenciler için staj imkanı sunuyor. Staj, 2027 Mayıs-Eylül ayları arasında Berlin'de gerçekleşecektir.",
-      "title_tr": "Humboldt-Universität zu Berlin Araştırma Stajı 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
-    "5cc5a581782a": {
-      "apply_link_id": 3,
-      "apply_url": "https://www.kinship.earth/nature-culture-fellowship",
-      "category": "burs",
-      "country_tr": "Online",
-      "deadline": "2026-12-01",
-      "eligibility_evidence": "The 2027 Nature Culture Fellowship (NCF) , an international fellowship programme designed to bring together creative thinkers, community leaders, environmental advocates, artists, storytellers, cultural practitioners and other change-makers",
-      "fee_required": false,
-      "funding_tr": "1.000-2.000 USD arası mikro hibe ve mentorluk desteği",
-      "highlights_tr": [
-        "1.000-2.000 USD arası mikro hibe desteği",
-        "Şubat-Ağustos 2027 tarihleri arasında çevrimiçi program",
-        "Profesyonel mentorluk ve küresel ağ imkanı"
-      ],
-      "id": "5cc5a581782a",
-      "is_opportunity": true,
-      "message_id": 50,
-      "organization": "Kinship",
-      "organization_domain": "kinship.earth",
-      "queued_at": "2026-11-15T22:46:31.643419+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/15/apply-for-the-2027-nature-culture-fellowship-global-fellowship-offering-1000-2000-micro-grants-and-professional-mentorship-for-social-and-environmental-change-makers/",
-      "summary_tr": "Kinship tarafından düzenlenen bu uluslararası program, sosyal ve çevresel değişim yaratmak isteyen sanatçı, hikaye anlatıcısı ve aktivistlere yönelik çevrimiçi bir eğitim ve proje uygulama sürecidir.",
-      "title_tr": "2027 Nature Culture Fellowship Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "697a8815f7f8": {
       "apply_link_id": 3,
       "apply_url": "https://unitar.org/vacancy-announcements",
@@ -5080,10 +5024,10 @@
       "ts": "2026-11-09T17:26:32.609671+00:00"
     },
     "5c3d11ff6613": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Humboldt University Berlin Research Internship 2027: Weather-Index Insurance and Climate Risk Research in West Africa (M",
-      "ts": "2026-11-15T22:46:13.894512+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Humboldt-Universität zu Berlin Araştırma Stajı 2027",
+      "ts": "2026-11-23T02:41:10.004256+00:00"
     },
     "5cba34a9a257": {
       "reason": "",
@@ -5092,10 +5036,10 @@
       "ts": "2026-11-14T11:25:49.743312+00:00"
     },
     "5cc5a581782a": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "APPLY FOR THE 2027 NATURE CULTURE FELLOWSHIP: GLOBAL FELLOWSHIP OFFERING $1,000–$2,000 MICRO-GRANTS AND PROFESSIONAL MEN",
-      "ts": "2026-11-15T22:46:31.643439+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "2027 Nature Culture Fellowship Programı",
+      "ts": "2026-11-23T02:41:10.004272+00:00"
     },
     "5db6d1139356": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5804,6 +5748,12 @@
       "status": "expired",
       "title": "İtalya'da Erasmus+ Gençlik Eğitimi Projesi",
       "ts": "2026-11-21T01:28:27.540717+00:00"
+    },
+    "9b8b5a5dd29f": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "University of Toronto India Foundation Research Catalyst Grants 2027–2028: Apply for Up to INR 15 Lakhs to Advance Urban",
+      "ts": "2026-11-23T02:41:30.042334+00:00"
     },
     "9c4b77d0e397": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
