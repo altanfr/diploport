@@ -322,7 +322,11 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=7cc8cb95-4799-4879-a104-8362bf62ca4d",
     "tubitak.gov.tr/tr/duyuru/eup-ohamr-2027-yili-ortak-uluslararasi-cagrisi-acildi",
     "genclikcalismalari.org/ilan/almanca-konusma-kulubu-a1-a2-9",
-    "build.a16z.com/fellowships/fde/apply"
+    "build.a16z.com/fellowships/fde/apply",
+    "youthall.com/tr/TEI/jet-talent_12",
+    "kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
+    "uct.ac.za/berthacentre/articles/2026-11-13-healthy-futures-mastercard-scholarship-2027",
+    "siemens.com/tr-tr"
   ],
   "outbox": [
     {
@@ -1164,6 +1168,34 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
+    "f2d7b5e93044": {
+      "apply_link_id": 1,
+      "apply_url": "https://uct.ac.za/berthacentre/articles/2026-11-13-healthy-futures-mastercard-scholarship-2027",
+      "category": "burs",
+      "country_tr": "Güney Afrika",
+      "deadline": "2026-12-10",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Kısmi burs (öğrenim ücreti ve akademik masraflar)",
+      "highlights_tr": [
+        "Yüksek lisans seviyesinde eğitim",
+        "Sosyal inovasyon ve sağlık odaklı",
+        "Öğrenim ücreti desteği sağlar"
+      ],
+      "id": "f2d7b5e93044",
+      "is_opportunity": true,
+      "message_id": 96,
+      "organization": "University of Cape Town",
+      "organization_domain": "uct.ac.za",
+      "queued_at": "2026-11-24T21:10:06.141682+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/healthy-futures-mastercard-scholarship/",
+      "summary_tr": "Güney Afrika'daki University of Cape Town'da MPhil in Inclusive Innovation programı için sunulan, sağlık sistemlerinde sosyal inovasyonu destekleyen kısmi bir yüksek lisans bursudur.",
+      "title_tr": "Healthy Futures Mastercard Bursu 2027 - Güney Afrika",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metin, bursun sadece Afrika kıtasındaki öğrencilere yönelik olduğunu ima eden ifadeler içermekte ancak Türkiye'nin uygunluğu konusunda net bir liste veya açıklama bulunmamaktadır.",
+      "visual_kind": "scene"
+    },
     "f91bd76cb7ca": {
       "apply_link_id": 1,
       "apply_url": "https://www.eraseindifference.org/challenge/apply/",
@@ -1441,117 +1473,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/pedagogy-of-the-pitch-football-as-a-tool.15479/",
-      "category": "egitim",
-      "country_tr": "Belçika",
-      "deadline": "2026-12-11",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
-      "highlights_tr": [
-        "11-15 Nisan 2027 tarihleri arasında",
-        "İyi düzeyde İngilizce gereklidir",
-        "Gençlik çalışanları ve antrenörler için"
-      ],
-      "id": "ebc946645452",
-      "image_queries": [
-        "Antwerp football pitch",
-        "Belgium youth training",
-        "youth workers workshop"
-      ],
-      "is_opportunity": true,
-      "organization": "SALTO-Youth",
-      "organization_domain": "salto-youth.net",
-      "queued_at": "2026-11-10T17:47:03.316682+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/katilimci-cagrisi-belcikada-4-gunluk-erasmus-egitim-kursu/",
-      "summary_tr": "Anvers'te düzenlenecek bu eğitim, futbolu sosyal kapsayıcılık ve gençlerin güçlendirilmesi için bir araç olarak kullanmayı amaçlayan gençlik çalışanları ve spor profesyonellerine yöneliktir.",
-      "title_tr": "Belçika’da Erasmus+ Eğitim Kursu: Pedagogy of the Pitch",
-      "turkey_eligible": "yes",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://careers.cern/jobs/",
-      "category": "staj",
-      "country_tr": "İsviçre",
-      "deadline": "2027-01-27",
-      "eligibility_evidence": "Candidates of all nationalities are welcome to apply.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (Ulaşım, konaklama, yemek ve sigorta dahil)",
-      "highlights_tr": [
-        "Lisans veya yüksek lisans öğrencileri başvurabilir",
-        "8-13 hafta süreli teknik proje stajı",
-        "IELTS şartı aranmıyor"
-      ],
-      "id": "c34383a99636",
-      "is_opportunity": true,
-      "organization": "CERN",
-      "organization_domain": "cern.ch",
-      "queued_at": "2026-11-10T17:47:21.702646+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/cern-summer-student-program-2027/",
-      "summary_tr": "CERN tarafından İsviçre'de düzenlenen, lisans ve yüksek lisans öğrencilerine yönelik 8-13 hafta süren teknik proje ve eğitim odaklı yaz staj programıdır.",
-      "title_tr": "CERN 2027 Yaz Öğrenci Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/digital-and-innovative-smart-youth-work-training-for-the-future-youth-workers.15502/",
-      "category": "egitim",
-      "country_tr": "İtalya",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
-      "highlights_tr": [
-        "11-17 Aralık 2026 tarihleri arasında",
-        "Gençlik çalışanları ve liderlerine yönelik",
-        "Youthpass sertifikası verilecektir"
-      ],
-      "id": "396215c48b67",
-      "is_opportunity": true,
-      "organization": "SALTO-YOUTH",
-      "organization_domain": "salto-youth.net",
-      "queued_at": "2026-11-10T17:47:39.228305+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/italyada-erasmus-egitim-kursuna-katilma-firsati-2/",
-      "summary_tr": "İtalya'nın Pinarella di Cervia kentinde düzenlenecek olan, gençlik çalışanlarına yönelik dijital araçlar ve yenilikçi yöntemler odaklı Erasmus+ eğitim kursu.",
-      "title_tr": "İtalya'da Dijital ve Yenilikçi Gençlik Çalışmaları Eğitimi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.kizcocuklarinadestek.org/pusula-cocuklar-icin-sporla-katilim-destek-programinin-yeni-donem-basvurulari-basladi/",
-      "category": "hibe",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-25",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Ayni destek (50.000 TL - 125.000 TL arası)",
-      "highlights_tr": [
-        "Antalya'da yaşayan 6-18 yaş arası kız sporcular",
-        "Proje ve bireysel sporcu destek türleri",
-        "Toplam 600.000 TL ayni destek bütçesi"
-      ],
-      "id": "7ffbe6fb4e3b",
-      "is_opportunity": true,
-      "organization": "Kız Çocuklarına Destek Derneği",
-      "organization_domain": "kizcocuklarinadestek.org",
-      "queued_at": "2026-11-10T17:48:11.062779+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/pusula-cocuklar-icin-sporla-katilim-destek-programi-basvurulari-basladi/",
-      "summary_tr": "Antalya'da kız çocuklarının spora katılımını artırmayı hedefleyen proje ve bireysel sporcu destek programı başvuruları başladı.",
-      "title_tr": "Pusula: Çocuklar için Sporla Katılım Destek Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://jobs.smartrecruiters.com/CERN/744000159596524-cern-openlab-summer-student-programme-2027",
@@ -2200,33 +2121,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://carib-export.com/en/opportunities/consultancy-capacity-building-events-and-policy-roundtables-on-social-innovation",
-      "category": "is",
-      "country_tr": "Jamaika, Dominik Cumhuriyeti, Barbados, Trinidad ve Tobago",
-      "deadline": "2026-11-24",
-      "eligibility_evidence": "Applications are open to individuals and organisations with substantial professional experience in social innovation, social entrepreneurship, innovation policy or ecosystem development.",
-      "fee_required": false,
-      "funding_tr": "Ücretli danışmanlık",
-      "highlights_tr": [
-        "En az 6 yıl mesleki deneyim şartı",
-        "İngilizce ve İspanyolca yetkinliği zorunlu",
-        "AB deneyimi ve uzmanlığı gereklidir"
-      ],
-      "id": "afb57596ed2c",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Caribbean Export Development Agency",
-      "organization_domain": "carib-export.com",
-      "queued_at": "2026-11-15T22:46:40.292289+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/15/caribbean-export-consultancy-2026-applications-reopened-for-social-innovation-capacity-building-experts-in-four-caribbean-countries/",
-      "summary_tr": "Caribbean Export, dört Karayip ülkesinde sosyal inovasyon kapasite geliştirme atölyeleri ve politika yuvarlak masa toplantıları düzenleyecek uzman veya kuruluşlar arıyor.",
-      "title_tr": "Caribbean Export Sosyal İnovasyon Danışmanlığı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
     },
     {
       "apply_link_id": 2,
@@ -3887,6 +3781,85 @@
       "title_tr": "a16z FDE Fellowship 2027: Yapay Zeka Liderleri İçin 8 Haftalık Burs",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/TEI/jet-talent_12/",
+      "category": "yarisma",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Para ödülü, ulaşım ve konaklama karşılanır",
+      "highlights_tr": [
+        "İlgili bölümlerde 4. sınıf öğrencisi olma şartı",
+        "İyi seviyede İngilizce yeterliliği",
+        "Dereceye giren takımlara para ödülü"
+      ],
+      "id": "2305ed45472a",
+      "is_opportunity": true,
+      "organization": "TEI",
+      "organization_domain": "tei.com.tr",
+      "queued_at": "2026-11-24T21:09:26.196259+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/TEI/jet-talent_12/",
+      "summary_tr": "TEI tarafından düzenlenen Jet Talent Ideathon yarışması, üniversitelerin ilgili bölümlerinde 4. sınıf öğrencisi olan gençlere vaka çalışması, mentörlük ve işe alım fırsatları sunuyor.",
+      "title_tr": "TEI Jet Talent Ideathon Yarışması",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı kadrolu pozisyon",
+      "highlights_tr": [
+        "A Grubu kariyer meslek statüsü",
+        "Kariyer Kapısı üzerinden başvuru",
+        "T.C. vatandaşlarına özel"
+      ],
+      "icon": "landmark",
+      "id": "01b14b3f7260",
+      "is_opportunity": true,
+      "organization": "REKABET KURUMU BAŞKANLIĞI",
+      "organization_domain": "rekabet.gov.tr",
+      "queued_at": "2026-11-24T21:09:44.437621+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
+      "summary_tr": "Rekabet Kurumu Başkanlığı bünyesinde A Grubu kariyer meslek statüsünde Rekabet Uzman Yardımcısı alımı için giriş sınavı düzenlenecektir.",
+      "title_tr": "Rekabet Kurumu Rekabet Uzman Yardımcılığı Giriş Sınavı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://www.siemens.com/tr-tr/",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "At Siemens Türkiye, we strive to ensure full participation for all people, regardless of ability, through our policies, communities, and advocacy efforts.",
+      "fee_required": false,
+      "funding_tr": "Ücretli",
+      "highlights_tr": [
+        "En az %40 engel raporu şartı",
+        "2., 3. veya 4. sınıf lisans/lisansüstü öğrencisi",
+        "Haftada 2-3 gün çalışma imkanı"
+      ],
+      "id": "1c7bfb57a8c4",
+      "is_opportunity": true,
+      "organization": "Siemens Türkiye",
+      "organization_domain": "siemens.com",
+      "queued_at": "2026-11-24T21:10:34.892079+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/siemens/part-time-working-student-talents-with-disabilities_9/",
+      "summary_tr": "Siemens Türkiye, İstanbul, Ankara ve Kocaeli'deki departmanlarında görevlendirilmek üzere, en az %40 engel raporu bulunan lisans veya lisansüstü öğrencileri için yarı zamanlı yetenek havuzu oluşturuyor.",
+      "title_tr": "Siemens Türkiye Engelli Öğrenciler İçin Yarı Zamanlı Çalışma",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -3895,6 +3868,12 @@
       "status": "queued",
       "title": "Eczacıbaşı Gel Bi‘ Keşfet Webinar Serisi",
       "ts": "2026-11-16T11:04:38.598371+00:00"
+    },
+    "01b14b3f7260": {
+      "reason": "",
+      "status": "queued",
+      "title": "Rekabet Kurumu Rekabet Uzman Yardımcılığı Giriş Sınavı",
+      "ts": "2026-11-24T21:09:44.437647+00:00"
     },
     "024a83bbca8c": {
       "reason": "son başvuru geçti",
@@ -4274,6 +4253,12 @@
       "title": "WHO Launches Together for Science and Health: A Global Movement Inviting Organizations to Strengthen Trust in Science an",
       "ts": "2026-11-14T17:58:00.558700+00:00"
     },
+    "1c7bfb57a8c4": {
+      "reason": "",
+      "status": "queued",
+      "title": "Siemens Türkiye Engelli Öğrenciler İçin Yarı Zamanlı Çalışma",
+      "ts": "2026-11-24T21:10:34.892102+00:00"
+    },
     "1c827ae12bcc": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -4375,6 +4360,12 @@
       "status": "pending",
       "title": "TU Delft Excellence Scholarships 2027 in Netherlands | Study in Europe",
       "ts": "2026-11-19T21:28:32.743348+00:00"
+    },
+    "2305ed45472a": {
+      "reason": "",
+      "status": "queued",
+      "title": "TEI Jet Talent Ideathon Yarışması",
+      "ts": "2026-11-24T21:09:26.196282+00:00"
     },
     "236d325023ec": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4508,11 +4499,23 @@
       "title": "MIT Summer Research Program 2027 in USA | Fully Funded",
       "ts": "2026-11-03T17:48:41.970855+00:00"
     },
+    "2fb397d66096": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Almanya’da Uzun Dönem ESC Gönüllülük Projesine Katılma Fırsatı",
+      "ts": "2026-11-24T21:10:20.900780+00:00"
+    },
     "2ff19304ace3": {
       "reason": "",
       "status": "published",
       "title": "AbbVie Uzun Dönem Staj Programı",
       "ts": "2026-11-15T10:45:41.068589+00:00"
+    },
+    "2ffe6ddfb762": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "IOM’den Türkiye’deki STK’lara 125 Bin Avroya Kadar Proje Desteği",
+      "ts": "2026-11-24T21:09:14.793724+00:00"
     },
     "3114e2690125": {
       "reason": "Başvuru için ABD çalışma izni şartı bulunmaktadır; Türk vatandaşlarının bu izne sahip olup olamayacağı belirtilmemiştir.",
@@ -4598,6 +4601,12 @@
       "title": "Youthall Grafik Tasarım Stajyeri",
       "ts": "2026-11-10T01:28:57.623154+00:00"
     },
+    "3707f9f02e9e": {
+      "reason": "Türkiye'ye kapalı: Applicants must currently hold a position at a higher education institution or research institute based in the Global So",
+      "status": "rejected",
+      "title": "University of Cambridge CRASSH Visiting Fellowships 2027-28",
+      "ts": "2026-11-24T21:09:01.870769+00:00"
+    },
     "37f1e19e7d56": {
       "reason": "",
       "status": "queued",
@@ -4623,10 +4632,10 @@
       "ts": "2026-11-05T10:47:04.167445+00:00"
     },
     "396215c48b67": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "İtalya'da Dijital ve Yenilikçi Gençlik Çalışmaları Eğitimi",
-      "ts": "2026-11-10T17:47:39.228324+00:00"
+      "ts": "2026-11-24T21:08:21.930259+00:00"
     },
     "3983e03f5c2b": {
       "reason": "ücretli program reklamı",
@@ -5456,6 +5465,12 @@
       "title": "İspanya , Tortosa : 7 Gün Erasmus+ Projesi",
       "ts": "2026-11-06T21:29:44.389637+00:00"
     },
+    "7b0dfd565ce4": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "Portekiz , Madeira Adası : 5 Gün Erasmus+ Projesi",
+      "ts": "2026-11-24T21:08:49.341173+00:00"
+    },
     "7b299bf87f25": {
       "reason": "",
       "status": "queued",
@@ -5499,10 +5514,10 @@
       "ts": "2026-11-21T01:29:19.067539+00:00"
     },
     "7ffbe6fb4e3b": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Pusula: Çocuklar için Sporla Katılım Destek Programı",
-      "ts": "2026-11-10T17:48:11.062801+00:00"
+      "ts": "2026-11-24T21:08:21.930264+00:00"
     },
     "80974652f203": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et.",
@@ -6069,10 +6084,10 @@
       "ts": "2026-11-20T11:36:32.105256+00:00"
     },
     "afb57596ed2c": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Caribbean Export Sosyal İnovasyon Danışmanlığı",
-      "ts": "2026-11-15T22:46:40.292311+00:00"
+      "ts": "2026-11-24T21:08:21.930301+00:00"
     },
     "afd91a34aeb6": {
       "reason": "son başvuru geçti",
@@ -6321,10 +6336,10 @@
       "ts": "2026-11-16T11:05:31.487023+00:00"
     },
     "c34383a99636": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "CERN 2027 Yaz Öğrenci Programı",
-      "ts": "2026-11-10T17:47:21.702666+00:00"
+      "ts": "2026-11-24T21:08:21.930252+00:00"
     },
     "c47d8d3864f4": {
       "reason": "son başvuru geçti",
@@ -6427,6 +6442,12 @@
       "status": "queued",
       "title": "Dubai Hükümeti Ücretsiz Yapay Zeka Kursu: One Million Prompters",
       "ts": "2026-11-11T21:54:28.158730+00:00"
+    },
+    "cd708a795a40": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "İçişleri Bakanlığı 1.170 Sözleşmeli Personel Alımı Duyurusu",
+      "ts": "2026-11-24T21:11:05.671998+00:00"
     },
     "cda264a9527e": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -6741,10 +6762,10 @@
       "ts": "2026-11-20T20:06:03.789014+00:00"
     },
     "ebc946645452": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Belçika’da Erasmus+ Eğitim Kursu: Pedagogy of the Pitch",
-      "ts": "2026-11-10T17:47:03.316706+00:00"
+      "ts": "2026-11-24T21:08:21.930238+00:00"
     },
     "ec30fed390dc": {
       "reason": "",
@@ -6817,6 +6838,12 @@
       "status": "rejected",
       "title": "TÜBİTAK 4005-Yenilikçi Eğitim Uygulamaları Destekleme Programı’nın 14. Çağrısı Açıldı",
       "ts": "2026-11-13T16:16:55.055017+00:00"
+    },
+    "f2d7b5e93044": {
+      "reason": "Metin, bursun sadece Afrika kıtasındaki öğrencilere yönelik olduğunu ima eden ifadeler içermekte ancak Türkiye'nin uygunluğu konusunda net bir liste veya açıklama bulunmamaktadır.",
+      "status": "pending",
+      "title": "Healthy Futures Mastercard Scholarship 2027 in South Africa",
+      "ts": "2026-11-24T21:10:06.141703+00:00"
     },
     "f3e9a405a88c": {
       "reason": "",
@@ -7292,6 +7319,10 @@
     "türk alman üniversitesi bilişim personeli alımı",
     "eup ohamr 2027 yılı ortak uluslararası çağrısı başvuruları",
     "a1 a2 seviye almanca konuşma kulübü",
-    "a16z fde fellowship 2027 yapay zeka liderleri i çin 8 haftalık burs"
+    "a16z fde fellowship 2027 yapay zeka liderleri i çin 8 haftalık burs",
+    "tei jet talent ideathon yarışması",
+    "rekabet kurumu rekabet uzman yardımcılığı giriş sınavı",
+    "healthy futures mastercard bursu 2027 güney afrika",
+    "siemens türkiye engelli öğrenciler i çin yarı zamanlı çalışma"
   ]
 }
