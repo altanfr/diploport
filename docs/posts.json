@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://www.youthall.com/tr/somposigorta/stajyer-avukat_23/",
+    "category": "staj",
+    "country_tr": "Türkiye",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "Belirtilmemiş",
+    "highlights_tr": [
+      "Hukuk fakültesi mezuniyeti şartı",
+      "Sigorta, ticaret ve borçlar hukuku odaklı",
+      "UYAP ve MS Office bilgisi gereklidir"
+    ],
+    "id": "8347a05642c5",
+    "image": "images/8347a05642c5.jpg",
+    "organization": "Sompo Sigorta",
+    "published_at": "2026-11-24T10:55:57.903701+00:00",
+    "summary_tr": "Sompo Sigorta, hukuk fakültesi mezunu, avukatlık stajına başlamış veya başlayacak olan stajyer avukatlar arıyor.",
+    "thumb": "images/t/8347a05642c5.jpg",
+    "title_tr": "Sompo Sigorta Stajyer Avukat Alımı"
+  },
+  {
     "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdw3P9MOzzQWTR2RQjyq9kkIuqjgfGigkCRRUiGaBN33r6-Gg/viewform",
     "category": "egitim",
     "country_tr": "Almanya",
