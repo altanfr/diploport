@@ -310,7 +310,12 @@
     "forms.cloud.microsoft/Pages/ResponsePage.aspx?id=t8AQ9iS9OUuBCz3CgK-1kLG_fJJji8tHqxiaqtL1zZxUMDAzRVM0QUJNQlU1VFdBOFBURVdVVlFZUy4u",
     "kariyerkapisi.gov.tr/IlanDetay?i=a75fb51f-19e0-4d1e-95fe-1e52774310c2",
     "gov.uk/seasonal-worker-visa",
-    "campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel"
+    "campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel",
+    "sekav.org/2026/10/26/sekav-burs-basvurulari-basladi-hemen-basvur",
+    "training.vbc.ac.at/how-to-apply",
+    "theliveabilitychallenge.org",
+    "youth.europa.eu/news/young-people-driving-solidarity-discover-new-european-solidarity-corps-call-2027_en",
+    "ru.nl/en/education/scholarships/radboud-scholarship-programme"
   ],
   "outbox": [
     {
@@ -816,6 +821,35 @@
       "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında açık bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
     },
+    "591dc6cbbb02": {
+      "apply_link_id": 2,
+      "apply_url": "https://www.theliveabilitychallenge.org/",
+      "category": "yarisma",
+      "country_tr": "Singapur",
+      "deadline": "2027-02-12",
+      "eligibility_evidence": "The Liveability Challenge 2027 (TLC 2027) is inviting innovators, entrepreneurs, start-ups, researchers and sustainability-focused organisations from around the world to submit groundbreaking solutions",
+      "fee_required": false,
+      "funding_tr": "5.5 milyon S$ toplam fon ve destek",
+      "highlights_tr": [
+        "Küresel çapta tüm yenilikçilere açık",
+        "Dekarbonizasyon, Cool Earth ve Okyanuslar temaları",
+        "Finalistler Singapur'da canlı sunum yapacak"
+      ],
+      "id": "591dc6cbbb02",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 90,
+      "organization": "Temasek Foundation",
+      "organization_domain": "theliveabilitychallenge.org",
+      "queued_at": "2026-11-24T00:48:56.125456+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/23/the-liveability-challenge-2027-global-call-for-innovative-sustainability-solutions-with-s5-5-million-in-catalytic-funding-and-support/",
+      "summary_tr": "Temasek Foundation tarafından düzenlenen bu yarışma, tropikal bölgelerdeki kentsel ve çevresel sorunlara yönelik yenilikçi sürdürülebilirlik çözümleri geliştiren girişimcileri ve araştırmacıları desteklemeyi amaçlıyor.",
+      "title_tr": "The Liveability Challenge 2027: Sürdürülebilirlik Yarışması",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
     "65ea2cf6c0ed": {
       "apply_link_id": 3,
       "apply_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=t8AQ9iS9OUuBCz3CgK-1kLG_fJJji8tHqxiaqtL1zZxUMDAzRVM0QUJNQlU1VFdBOFBURVdVVlFZUy4u",
@@ -1021,34 +1055,6 @@
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "İlan, başvuru yapacak adayların uyruğu veya çalışma izni gereklilikleri hakkında bilgi vermemektedir.",
       "visual_kind": "institution"
-    },
-    "9c8f58444ef6": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.eventbrite.ca/e/leadership-and-peace-summit-morocco-2027-tickets-2001166056545?aff=oddtdtcreator",
-      "category": "egitim",
-      "country_tr": "Fas",
-      "deadline": "2026-12-01",
-      "eligibility_evidence": "an international summit bringing together emerging leaders, young professionals, students, changemakers, and peace advocates from around the world.",
-      "fee_required": true,
-      "funding_tr": "Tam ve kısmi burs seçenekleri mevcut",
-      "highlights_tr": [
-        "Dünya genelinden 150 katılımcı",
-        "Liderlik ve barış inşası odaklı",
-        "Tam ve kısmi burs imkanları"
-      ],
-      "id": "9c8f58444ef6",
-      "is_opportunity": true,
-      "message_id": 51,
-      "organization": "Voice for Rights International",
-      "organization_domain": "",
-      "queued_at": "2026-11-16T20:59:37.760911+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/leadership-and-peace-summit-morocco/",
-      "summary_tr": "Fas'ta düzenlenecek olan Leadership & Peace Summit, dünya genelinden genç liderleri, öğrencileri ve profesyonelleri liderlik, barış inşası ve diplomasi konularında bir araya getiren uluslararası bir zirvedir.",
-      "title_tr": "Leadership & Peace Summit Morocco 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
-      "visual_kind": "scene"
     },
     "a4581acb8b6a": {
       "apply_link_id": 3,
@@ -1471,137 +1477,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://cbs.riken.jp/en/summer/index.html",
-      "category": "staj",
-      "country_tr": "Japonya",
-      "deadline": "2027-01-08",
-      "eligibility_evidence": "Candidates from all countries are eligible.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (Uçak bileti, konaklama ve aylık maaş)",
-      "highlights_tr": [
-        "Tam burslu (uçak, konaklama, maaş)",
-        "Nörobilim alanında staj veya ders",
-        "Dünyanın her yerinden başvuruya açık"
-      ],
-      "id": "5bba70dfe33a",
-      "is_opportunity": true,
-      "organization": "RIKEN Center for Brain Science",
-      "organization_domain": "riken.jp",
-      "queued_at": "2026-11-09T17:26:32.609652+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/riken-cbs-summer-program-2027/",
-      "summary_tr": "Japonya'daki RIKEN Beyin Bilimleri Merkezi'nde düzenlenen, nörobilim alanında staj veya ders programı içeren tam burslu bir yaz programıdır.",
-      "title_tr": "RIKEN CBS Yaz Programı 2027 - Japonya",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 3,
-      "apply_url": "https://www.nedfellowships.org/",
-      "category": "burs",
-      "country_tr": "ABD",
-      "deadline": "2027-01-05",
-      "eligibility_evidence": "The Reagan-Fascell Democracy Fellowship 2027-28 in the USA offers an excellent fellowship for individuals worldwide, including activists, journalists, civil society leaders, and scholars.",
-      "fee_required": false,
-      "funding_tr": "Tam burs",
-      "highlights_tr": [
-        "5 ay süreli tam kapsamlı burs",
-        "Washington D.C.'de araştırma imkanı",
-        "İleri düzey İngilizce zorunluluğu"
-      ],
-      "id": "d757d2a29201",
-      "is_opportunity": true,
-      "organization": "National Endowment for Democracy",
-      "organization_domain": "ned.org",
-      "queued_at": "2026-11-09T17:26:38.717549+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/reagan-fascell-democracy-fellowship/",
-      "summary_tr": "ABD'de 5 ay süren, demokrasi alanında çalışan profesyoneller ve akademisyenler için tam kapsamlı bir araştırma ve değişim programıdır.",
-      "title_tr": "Reagan-Fascell Demokrasi Burs Programı 2027-28",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/opet/opet-kampus-uzun-donem-staj-programi_9/",
-      "category": "staj",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-24",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Yemek kartı, servis ve yan haklar",
-      "highlights_tr": [
-        "Haftada en az 3 gün çalışma zorunluluğu",
-        "11 ay süren uzun dönem staj programı",
-        "Özel sağlık sigortası ve yemek kartı imkanı"
-      ],
-      "id": "52ff6e17902d",
-      "is_opportunity": true,
-      "organization": "Opet",
-      "organization_domain": "opet.com.tr",
-      "queued_at": "2026-11-09T17:26:54.425764+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/opet/opet-kampus-uzun-donem-staj-programi_9/",
-      "summary_tr": "Opet'in 11 ay sürecek uzun dönem staj programı, üniversite 3. veya 4. sınıf öğrencileri ile yüksek lisans öğrencilerine gerçek iş deneyimi ve projelerde yer alma imkanı sunuyor.",
-      "title_tr": "Opet Kampüs Uzun Dönem Staj Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.icann.org/fellowshipprogram",
-      "category": "burs",
-      "country_tr": "Kanada",
-      "deadline": "2026-12-05",
-      "eligibility_evidence": "Candidates from all countries and regions are encouraged to apply.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (Ulaşım, konaklama ve harcırah)",
-      "highlights_tr": [
-        "21 yaş ve üzeri başvuru şartı",
-        "Tam kapsamlı seyahat ve konaklama desteği",
-        "İnternet yönetişimi üzerine profesyonel eğitim"
-      ],
-      "id": "119f78638187",
-      "is_opportunity": true,
-      "organization": "Internet Corporation for Assigned Names and Numbers (ICANN)",
-      "organization_domain": "icann.org",
-      "queued_at": "2026-11-09T17:27:01.402895+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/icann89-policy-forum-2027-in-canada/",
-      "summary_tr": "Vancouver'da düzenlenecek ICANN89 Policy Forum için dünya genelinden katılımcılara açık, tam kapsamlı bir burs programıdır.",
-      "title_tr": "ICANN89 Policy Forum 2027 Kanada Bursu",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://tubitak.gov.tr/tr/duyuru/2244-sanayi-doktora-programi-2026-yili-cagrisi-acildi-0",
-      "category": "burs",
-      "country_tr": "Türkiye",
-      "deadline": "2026-12-22",
-      "eligibility_evidence": "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK) 2244–Sanayi Doktora Programı 2026 Yılı Çağrısı için başvurular başladı.",
-      "fee_required": false,
-      "funding_tr": "Doktoralı araştırmacı istihdam desteği",
-      "highlights_tr": [
-        "Üniversite-sanayi iş birliği odaklı",
-        "Doktoralı araştırmacı istihdamı desteği",
-        "TÜBİTAK BİDEB tarafından yürütülmektedir"
-      ],
-      "id": "1b67dbcb75a2",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "TÜBİTAK",
-      "organization_domain": "tubitak.gov.tr",
-      "queued_at": "2026-11-09T17:27:16.099594+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tubitak-2244-sanayi-doktora-programi-2026-yili-cagrisi-basvurularinizi-bekliyor/",
-      "summary_tr": "TÜBİTAK tarafından yürütülen 2244 Sanayi Doktora Programı, üniversite-sanayi iş birliğiyle doktora derecesine sahip nitelikli insan kaynağı yetiştirmeyi ve sanayide araştırmacı istihdamını teşvik etmeyi amaçlamaktadır.",
-      "title_tr": "TÜBİTAK 2244 Sanayi Doktora Programı 2026 Çağrısı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 2,
       "apply_url": "https://www.tev.org.tr/burs/tr/52/tev-solen-yuksek-lisans-bursu",
@@ -2266,33 +2141,6 @@
       "summary_tr": "Bursa Teknik Üniversitesi Rektörlüğü bünyesinde görevlendirilmek üzere 1 sözleşmeli psikolog alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
       "title_tr": "Bursa Teknik Üniversitesi Sözleşmeli Psikolog Alımı",
       "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 3,
-      "apply_url": "https://wipo.taleo.net/careersection/wp_2_fel/jobdetail.ftl?job=26331-FEL",
-      "category": "burs",
-      "country_tr": "İsviçre",
-      "deadline": "2026-11-23",
-      "eligibility_evidence": "The vacancy does not identify a specific list of eligible countries or restrict applications to particular continents.",
-      "fee_required": false,
-      "funding_tr": "Aylık 6.000 CHF burs, seyahat ve sigorta desteği",
-      "highlights_tr": [
-        "Aylık 6.000 CHF burs desteği",
-        "Hukuk alanında lisans derecesi şartı",
-        "En az 2 yıl fikri mülkiyet deneyimi"
-      ],
-      "id": "03d6bd7b5b98",
-      "is_opportunity": true,
-      "organization": "World Intellectual Property Organization (WIPO)",
-      "organization_domain": "wipo.int",
-      "queued_at": "2026-11-13T00:17:19.594435+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/12/wipo-ip-and-women-fellowship-2027-in-switzerland-earn-chf-6000-monthly-and-gain-international-intellectual-property-experience-in-geneva/",
-      "summary_tr": "WIPO, hukuk alanında lisans derecesine ve en az iki yıl fikri mülkiyet deneyimine sahip adaylar için Cenevre'de 12 aylık profesyonel gelişim bursu sunmaktadır.",
-      "title_tr": "WIPO IP and Women Fellowship 2027 - Cenevre, İsviçre",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
       "visual_kind": "institution"
     },
     {
@@ -3402,38 +3250,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdjhIgHr30KxEXVPHo_P9uFfFRphIJr2nrzNTRdhMSPEtDptQ/viewform",
-      "category": "gonulluluk",
-      "country_tr": "Portekiz",
-      "deadline": "2026-11-23",
-      "eligibility_evidence": "Kuruluş, Erasmus+ ve Avrupa Dayanışma Programı aracılığıyla gerçekleştirdiği çalışmalarla farklı ülkelerden bireylerin bir araya gelmesine ve kültürlerarası iletişim becerilerini geliştirmesine katkıda bulunuyor.",
-      "fee_required": false,
-      "funding_tr": "Erasmus+ kapsamında karşılanmaktadır",
-      "highlights_tr": [
-        "Proje tarihleri: 1 Aralık 2026 – 20 Ocak 2027",
-        "Portekiz'de uluslararası gönüllülük deneyimi",
-        "İnsan hakları ve sosyal girişimcilik odaklı"
-      ],
-      "id": "651a9d28845c",
-      "image_queries": [
-        "Barcelos Portugal city",
-        "Portugal youth volunteers",
-        "volunteers working abroad"
-      ],
-      "is_opportunity": true,
-      "organization": "IAFA (Intercultural Association for All)",
-      "organization_domain": "",
-      "queued_at": "2026-11-19T03:20:33.497488+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/portekiz-barcelos-kisa-donem-erasmus-projesi/",
-      "summary_tr": "Portekiz'in Barcelos şehrinde IAFA bünyesinde gerçekleştirilecek, insan hakları, sosyal kapsayıcılık ve çevre konularını kapsayan kısa dönem Avrupa Dayanışma Programı projesi.",
-      "title_tr": "Portekiz, Barcelos: Kısa Dönem Avrupa Dayanışma Programı Projesi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://www.fao.org/fao-awards/achievement/apply-now/en",
       "category": "yarisma",
       "country_tr": "Online",
@@ -4082,6 +3898,116 @@
       "title_tr": "Eiffel Burs Programı 2027: Fransa’da Yüksek Lisans ve Doktora",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://sekav.org/2026/10/26/sekav-burs-basvurulari-basladi-hemen-basvur/",
+      "category": "burs",
+      "country_tr": "Türkiye",
+      "deadline": "2026-11-26",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Ön lisans ve lisans öğrencileri için",
+        "En az 2,75 not ortalaması şartı",
+        "Şiran doğumlulara öncelik tanınır"
+      ],
+      "id": "40a33256dbb2",
+      "is_opportunity": true,
+      "organization": "Şiran Eğitim ve Kalkınma Vakfı",
+      "organization_domain": "sekav.org",
+      "queued_at": "2026-11-24T00:48:26.651215+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/sekav-burs-duyurusu/",
+      "summary_tr": "Şiran Eğitim ve Kalkınma Vakfı (ŞEKAV), Türkiye'deki üniversitelerde ön lisans ve lisans eğitimi alan en az 300 öğrenciye burs desteği sağlayacaktır.",
+      "title_tr": "ŞEKAV 2026-2027 Eğitim Yılı Burs Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://training.vbc.ac.at/how-to-apply/",
+      "category": "staj",
+      "country_tr": "Avusturya",
+      "deadline": "2027-01-11",
+      "eligibility_evidence": "Applicants from any gender, race, religion and nationality can apply.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (konaklama, ulaşım, aylık harçlık ve sigorta dahil)",
+      "highlights_tr": [
+        "Yaşam bilimleri öğrencileri için 9 haftalık araştırma",
+        "Konaklama, ulaşım ve aylık 820 Euro harçlık desteği",
+        "Lisans veya yüksek lisans öğrencisi olma şartı"
+      ],
+      "id": "1f6ba3eeb89e",
+      "image_queries": [
+        "Vienna BioCenter laboratory",
+        "Austria university research lab",
+        "science students in laboratory"
+      ],
+      "is_opportunity": true,
+      "organization": "Vienna BioCenter",
+      "organization_domain": "vbc.ac.at",
+      "queued_at": "2026-11-24T00:48:42.025661+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/vienna-biocenter-summer-school/",
+      "summary_tr": "Vienna BioCenter, yaşam bilimleri alanında lisans veya yüksek lisans öğrencileri için 9 haftalık tam kapsamlı bir yaz araştırma programı sunmaktadır.",
+      "title_tr": "Vienna BioCenter Yaz Okulu 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/news/young-people-driving-solidarity-discover-new-european-solidarity-corps-call-2027_en",
+      "category": "gonulluluk",
+      "country_tr": "Çok ülkeli",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Proje bazlı finansman desteği",
+      "highlights_tr": [
+        "18-30 yaş arası gençler için uygun",
+        "Gönüllülük ve dayanışma projeleri",
+        "Uluslararası deneyim ve beceri gelişimi"
+      ],
+      "id": "0a9a978c4288",
+      "is_opportunity": true,
+      "organization": "Avrupa Komisyonu",
+      "organization_domain": "europa.eu",
+      "queued_at": "2026-11-24T00:49:29.228140+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/avrupa-dayanisma-programi-esc-2027-yili-teklif-cagrisi-ve-program-rehberi-yayinlandi/",
+      "summary_tr": "Avrupa Dayanışma Programı (ESC) 2027 yılı teklif çağrısı kapsamında gençler, gönüllülük faaliyetlerine katılabilir veya kendi yerel dayanışma projelerini geliştirerek finansman desteği alabilirler.",
+      "title_tr": "Avrupa Dayanışma Programı (ESC) 2027 Gönüllülük Çağrısı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.ru.nl/en/education/scholarships/radboud-scholarship-programme",
+      "category": "burs",
+      "country_tr": "Hollanda",
+      "deadline": "2027-01-31",
+      "eligibility_evidence": "Applicants must be from non-EU/EEA countries and must hold a non-EU/EEU passport to be eligible for the Radboud University Scholarship 2027 for international students.",
+      "fee_required": false,
+      "funding_tr": "Kısmi burs (öğrenim ücreti indirimi, vize, oturum ve sigorta)",
+      "highlights_tr": [
+        "AB/EEA dışı ülke vatandaşlarına açık",
+        "Yüksek lisans programları için geçerli",
+        "Öğrenim ücreti indirimi ve vize desteği"
+      ],
+      "id": "edaaab22fd7f",
+      "is_opportunity": true,
+      "organization": "Radboud University",
+      "organization_domain": "ru.nl",
+      "queued_at": "2026-11-24T00:49:41.795833+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/radboud-scholarship-program/",
+      "summary_tr": "Hollanda'daki Radboud Üniversitesi, AB/EEA dışından gelen başarılı yüksek lisans öğrencileri için kısmi burs imkanı sunmaktadır. Burs, öğrenim ücreti indirimi ile vize, oturum izni ve sağlık sigortası masraflarını kapsamaktadır.",
+      "title_tr": "Radboud Üniversitesi Yüksek Lisans Burs Programı 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4122,10 +4048,10 @@
       "ts": "2026-11-13T22:36:03.843117+00:00"
     },
     "03d6bd7b5b98": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "WIPO IP and Women Fellowship 2027 - Cenevre, İsviçre",
-      "ts": "2026-11-13T00:17:19.594453+00:00"
+      "ts": "2026-11-24T00:47:29.533254+00:00"
     },
     "03fde0751135": {
       "reason": "",
@@ -4247,6 +4173,12 @@
       "title": "ANADOLU ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIMI İLANI 2026 - 2",
       "ts": "2026-11-16T11:05:41.304086+00:00"
     },
+    "0a9a978c4288": {
+      "reason": "",
+      "status": "queued",
+      "title": "Avrupa Dayanışma Programı (ESC) 2027 Gönüllülük Çağrısı",
+      "ts": "2026-11-24T00:49:29.228152+00:00"
+    },
     "0ae1f90d4e4d": {
       "reason": "şirket/KOBİ hibesi, gençlere yönelik değil",
       "status": "rejected",
@@ -4296,10 +4228,10 @@
       "ts": "2026-11-10T09:43:36.472472+00:00"
     },
     "119f78638187": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "ICANN89 Policy Forum 2027 Kanada Bursu",
-      "ts": "2026-11-09T17:27:01.402914+00:00"
+      "ts": "2026-11-24T00:47:29.533214+00:00"
     },
     "123e080bd5e1": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -4440,10 +4372,10 @@
       "ts": "2026-11-20T20:05:23.822916+00:00"
     },
     "1b67dbcb75a2": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "TÜBİTAK 2244 Sanayi Doktora Programı 2026 Çağrısı",
-      "ts": "2026-11-09T17:27:16.099614+00:00"
+      "ts": "2026-11-24T00:47:29.533218+00:00"
     },
     "1bd5aca751b2": {
       "reason": "bekleme süresi doldu",
@@ -4498,6 +4430,12 @@
       "status": "queued",
       "title": "İçişleri Bakanlığı 4/B Sözleşmeli Personel Alımı",
       "ts": "2026-11-23T12:23:02.723037+00:00"
+    },
+    "1f6ba3eeb89e": {
+      "reason": "",
+      "status": "queued",
+      "title": "Vienna BioCenter Yaz Okulu 2027",
+      "ts": "2026-11-24T00:48:42.025674+00:00"
     },
     "1f71f4627775": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -4883,6 +4821,12 @@
       "title": "Öğretmenler için Oyun ve Öğrenme Maratonu: Gameathon",
       "ts": "2026-11-23T12:23:39.017130+00:00"
     },
+    "40a33256dbb2": {
+      "reason": "",
+      "status": "queued",
+      "title": "ŞEKAV 2026-2027 Eğitim Yılı Burs Programı",
+      "ts": "2026-11-24T00:48:26.651227+00:00"
+    },
     "415a59cdb88b": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5100,10 +5044,10 @@
       "ts": "2026-11-18T04:16:21.373381+00:00"
     },
     "52ff6e17902d": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Opet Kampüs Uzun Dönem Staj Programı",
-      "ts": "2026-11-09T17:26:54.425781+00:00"
+      "ts": "2026-11-24T00:47:29.533210+00:00"
     },
     "531ccde62795": {
       "reason": "",
@@ -5165,6 +5109,12 @@
       "title": "UNITAR Communications and Graphic Design Traineeship 2027",
       "ts": "2026-11-19T21:28:09.590692+00:00"
     },
+    "591dc6cbbb02": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "The Liveability Challenge 2027: Global Call for Innovative Sustainability Solutions with S$5.5 Million in Catalytic Fund",
+      "ts": "2026-11-24T00:48:56.125467+00:00"
+    },
     "5943d9ac4b3f": {
       "reason": "son başvuru geçti",
       "status": "expired",
@@ -5202,10 +5152,10 @@
       "ts": "2026-11-13T22:36:14.005033+00:00"
     },
     "5bba70dfe33a": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "RIKEN CBS Yaz Programı 2027 - Japonya",
-      "ts": "2026-11-09T17:26:32.609671+00:00"
+      "ts": "2026-11-24T00:47:29.533192+00:00"
     },
     "5c3d11ff6613": {
       "reason": "bekleme süresi doldu",
@@ -5315,11 +5265,17 @@
       "title": "MCW Young Leaders Fellowship 2027 (ABD)",
       "ts": "2026-11-19T21:27:26.708810+00:00"
     },
+    "65126b522618": {
+      "reason": "Türkiye'ye kapalı: This opportunity is particularly relevant for African academics who have obtained their PhD within the last ten years, a",
+      "status": "rejected",
+      "title": "African Futures Research Leadership Program 2027 (Cohort 7): Fully Funded Visiting Scholar Opportunity at Michigan State",
+      "ts": "2026-11-24T00:47:55.299182+00:00"
+    },
     "651a9d28845c": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "Portekiz, Barcelos: Kısa Dönem Avrupa Dayanışma Programı Projesi",
-      "ts": "2026-11-19T03:20:33.497508+00:00"
+      "ts": "2026-11-24T00:47:29.533286+00:00"
     },
     "657bed6f5141": {
       "reason": "bekleme süresi doldu",
@@ -5952,10 +5908,10 @@
       "ts": "2026-11-05T02:24:57.200729+00:00"
     },
     "9c8f58444ef6": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Katılım ücreti var.",
-      "status": "pending",
-      "title": "Leadership and Peace Summit Morocco 2027 (Fully Funded)",
-      "ts": "2026-11-16T20:59:37.760931+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Leadership & Peace Summit Morocco 2027",
+      "ts": "2026-11-24T00:47:29.533336+00:00"
     },
     "9cd5e42b6401": {
       "reason": "son başvuru geçti",
@@ -5980,6 +5936,12 @@
       "status": "published",
       "title": "UNICEF 2026 Ücretli Staj Programı",
       "ts": "2026-11-03T17:50:45.283464+00:00"
+    },
+    "9e68922a7f99": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Almanya , Witten : Uzun Dönem Erasmus+ Projesi",
+      "ts": "2026-11-24T00:49:04.849531+00:00"
     },
     "9ed7989e5167": {
       "reason": "Türkiye'ye kapalı: The international scholarship is open to students from 25 developing countries, including Africa, Asia, and Latin Americ",
@@ -6269,6 +6231,12 @@
       "title": "The Allstate Foundation College Service Grants 2027–2028: Apply for $10,000 to Support Student-Led Community Service Pro",
       "ts": "2026-11-13T00:17:26.536825+00:00"
     },
+    "b4b0c3d5693f": {
+      "reason": "Türkiye'ye kapalı: Nalafem is a multigenerational platform of women political leaders working towards the liberation, empowerment and advan",
+      "status": "rejected",
+      "title": "Nalafem Project Coordinator Job Opportunity 2026: Apply for a Fully Remote Programme Coordination Role in Gender Equalit",
+      "ts": "2026-11-24T00:49:35.016089+00:00"
+    },
     "b5c375b38d32": {
       "reason": "Türkiye'ye kapalı: This initiative seeks to increase access to quality technical and vocational education for deserving and vulnerable youn",
       "status": "rejected",
@@ -6346,6 +6314,12 @@
       "status": "queued",
       "title": "Macaristan'da 12 Günlük Erasmus+ Gençlik Değişimi Projesi",
       "ts": "2026-11-16T20:59:45.459909+00:00"
+    },
+    "be3713b64986": {
+      "reason": "resmî başvuru linki bulunamadı (seçilen link reddedildi: aggregator/sosyal medya alan adı (t.me); sayfada 4 aday link: claude.com, opcircleacademy.com, nextgenyouthcamp.com, bit.ly)",
+      "status": "rejected",
+      "title": "Google Student Researcher Internship 2026-27 | Paid Internships",
+      "ts": "2026-11-24T00:49:21.289963+00:00"
     },
     "be8c3aac8640": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -6533,6 +6507,12 @@
       "title": "Portekiz’de Erasmus+ Gençlik Çalışanları Programına 10 Katılımcı",
       "ts": "2026-11-20T20:06:15.351477+00:00"
     },
+    "ce2239287f5d": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "ASELSAN a Yetenek 3 Programı Başvuruları Başladı",
+      "ts": "2026-11-24T00:48:49.907127+00:00"
+    },
     "ce58ab356365": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -6594,10 +6574,10 @@
       "ts": "2026-11-15T17:42:47.068803+00:00"
     },
     "d757d2a29201": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Reagan-Fascell Demokrasi Burs Programı 2027-28",
-      "ts": "2026-11-09T17:26:38.717569+00:00"
+      "ts": "2026-11-24T00:47:29.533204+00:00"
     },
     "d79aebde32d8": {
       "reason": "",
@@ -6844,6 +6824,12 @@
       "status": "expired",
       "title": "Humboldt Residency Program 2027 Almanya",
       "ts": "2026-11-21T23:08:28.025931+00:00"
+    },
+    "edaaab22fd7f": {
+      "reason": "",
+      "status": "queued",
+      "title": "Radboud Üniversitesi Yüksek Lisans Burs Programı 2027",
+      "ts": "2026-11-24T00:49:41.795845+00:00"
     },
     "edcb3e8997a7": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -7355,6 +7341,11 @@
     "who europe sosyal medya yapay zeka ve gençlik ruh sağlığı topluluğu",
     "ankara yıldırım beyazıt üniversitesi sözleşmeli bilişim personeli alımı",
     "birleşik krallık mevsimlik i şçi vizesi",
-    "eiffel burs programı 2027 fransa'da yüksek lisans ve doktora"
+    "eiffel burs programı 2027 fransa'da yüksek lisans ve doktora",
+    "şekav 2026 2027 eğitim yılı burs programı",
+    "vienna biocenter yaz okulu 2027",
+    "the liveability challenge 2027 sürdürülebilirlik yarışması",
+    "avrupa dayanışma programı esc 2027 gönüllülük çağrısı",
+    "radboud üniversitesi yüksek lisans burs programı 2027"
   ]
 }
