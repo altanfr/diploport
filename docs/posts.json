@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
+    "category": "is",
+    "country_tr": "Türkiye",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "Maaşlı",
+    "highlights_tr": [
+      "T.C. vatandaşlarına özel",
+      "Kariyer Kapısı üzerinden başvuru",
+      "Proje bazlı sözleşmeli pozisyon"
+    ],
+    "id": "ea14ddd7543c",
+    "image": "images/ea14ddd7543c.jpg",
+    "organization": "SAVUNMA SANAYİİ BAŞKANLIĞI",
+    "published_at": "2026-11-25T15:33:50.299519+00:00",
+    "summary_tr": "Savunma Sanayii Başkanlığı tarafından proje bazlı sözleşmeli personel alımı için giriş sınavı düzenlenecektir. Başvurular Kariyer Kapısı üzerinden e-Devlet ile yapılacaktır.",
+    "thumb": "images/t/ea14ddd7543c.jpg",
+    "title_tr": "Savunma Sanayii Başkanlığı Sözleşmeli Personel Alımı"
+  },
+  {
     "apply_url": "https://www.youthall.com/tr/somposigorta/stajyer-avukat_23/",
     "category": "staj",
     "country_tr": "Türkiye",

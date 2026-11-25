@@ -332,7 +332,17 @@
     "estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38115",
     "svri.org/svri-early-career-research-fellowships",
     "forms.monday.com/forms/12bd21a2ac16a98231d1808ba0e3ad58?r=use1",
-    "unicef.org.uk/jobs/sport-advisory-board-member"
+    "unicef.org.uk/jobs/sport-advisory-board-member",
+    "chaberlin.org/en/news/call-for-applications-policy-fellow-predoc-postdoc",
+    "emjm-imaging.eu/application-and-admission",
+    "toepfer-stiftung.de/en/what-we-do/you-and-europe",
+    "youthall.com/tr/normholding/digiconnect-online-gelisim-programi-2027-kis-donemi_67",
+    "careers.microsoft.com/v2/global/en/datacenteracademy.html",
+    "coursera.org/collections/goldman-sachs-10000-women",
+    "salto-youth.net/tools/european-training-calendar/training/2ethic-con-ethical-conversation-from-opinion-to-dialogue.15576",
+    "youthall.com/tr/aygazdakariyer/otogaz-satis-yoneticisi-ege-bolge_77",
+    "lnkd.in/gtRgDADK",
+    "salto-youth.net/tools/european-training-calendar/training/volunteering-for-all-norway-2027.15539"
   ],
   "outbox": [
     {
@@ -374,6 +384,16 @@
       "source": "Youthall",
       "title": "Sompo Sigorta Stajyer Avukat Alımı",
       "ts": "2026-11-24T10:55:57.934878+00:00"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
+      "attempts": 0,
+      "caption": "Savunma Sanayii Başkanlığı Sözleşmeli Personel Alımı\n\nSavunma Sanayii Başkanlığı tarafından proje bazlı sözleşmeli personel alımı için giriş sınavı düzenlenecektir. Başvurular Kariyer Kapısı üzerinden e-Devlet ile yapılacaktır.\n\n- T.C. vatandaşlarına özel\n- Kariyer Kapısı üzerinden başvuru\n- Proje bazlı sözleşmeli pozisyon\n\nBaşvuru: https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54\nTüm fırsatlar: https://diploport.dev/#ea14ddd7543c\n\n#diploport #fırsat #türkgençler #işilanı #kariyer #yeniMezun",
+      "id": "ea14ddd7543c",
+      "photo_query": "logo: Savunma Sanayii Başkanlığı (Vikipedi (tr) sayfa logosu)",
+      "source": "Kariyer Kapısı",
+      "title": "Savunma Sanayii Başkanlığı Sözleşmeli Personel Alımı",
+      "ts": "2026-11-25T15:33:50.345861+00:00"
     }
   ],
   "pending": {
@@ -403,6 +423,34 @@
       "title_tr": "Nestlé MILE 2027 Liderlik ve Öğrenme Deneyimi",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Programın sadece Filipinler'deki öğrenciler için mi yoksa uluslararası katılıma açık mı olduğu metinde belirtilmemiştir.",
+      "visual_kind": "institution"
+    },
+    "01f8891e9b75": {
+      "apply_link_id": 4,
+      "apply_url": "https://lnkd.in/gtRgDADK",
+      "category": "is",
+      "country_tr": "Çok ülkeli",
+      "deadline": "",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Deneyimli liderlik pozisyonları",
+        "Halk sağlığı ve sağlık sistemleri odaklı",
+        "Başvuru için resmi linkleri kontrol edin"
+      ],
+      "id": "01f8891e9b75",
+      "is_opportunity": true,
+      "message_id": 106,
+      "organization": "Vital Strategies",
+      "organization_domain": "",
+      "queued_at": "2026-11-25T15:33:40.292272+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/25/vital-strategies-vision-access-program-jobs-regional-deputy-directors-in-africa-and-asia-and-global-program-director-opportunities/",
+      "summary_tr": "Vital Strategies, göz sağlığına erişimi iyileştirmeyi amaçlayan Vision Access programı için Afrika ve Asya'da Bölge Direktörleri ve Küresel Program Direktörü arıyor. Deneyimli liderler başvurabilir.",
+      "title_tr": "Vital Strategies: Bölge Direktörleri ve Küresel Program Direktörü İş İlanları",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Türkiye'den başvuru yapılıp yapılamayacağına dair bilgi metinde bulunmamaktadır.",
       "visual_kind": "institution"
     },
     "03011450c78c": {
@@ -696,6 +744,39 @@
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Türkiye vatandaşlarının başvuru yapıp yapamayacağına dair net bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
+    },
+    "4875371e543d": {
+      "apply_link_id": 2,
+      "apply_url": "https://www.chaberlin.org/en/news/call-for-applications-policy-fellow-predoc-postdoc/",
+      "category": "egitim",
+      "country_tr": "Almanya",
+      "deadline": "",
+      "eligibility_evidence": "The announcement invites prospective fellows to start planning for 2027 and explore the possibility of joining CHA in Berlin for a visiting research experience.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Doktora öncesi/sonrası araştırmacılara yönelik",
+        "Berlin'de iki aylık ziyaretçi bursu",
+        "İnsani yardım araştırmaları ve politikaları"
+      ],
+      "id": "4875371e543d",
+      "image_queries": [
+        "Berlin Germany city",
+        "Germany humanitarian research",
+        "researchers discussing policy"
+      ],
+      "is_opportunity": true,
+      "message_id": 105,
+      "organization": "Centre for Humanitarian Action (CHA)",
+      "organization_domain": "cha-berlin.de",
+      "queued_at": "2026-11-25T15:32:48.762641+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/25/visiting-fellowship-in-berlin-germany-2027-network-humanitarian-research-nhf-recruiting-two-policy-research-fellows-at-cha/",
+      "summary_tr": "Network Humanitarian Research (NHF), CHA bünyesinde iki doktora öncesi/sonrası araştırmacı için iki aylık ziyaretçi bursu arıyor. Berlin'de insani yardım araştırmaları ve politikaları üzerine odaklanılacaktır.",
+      "title_tr": "Berlin'de İnsani Yardım Araştırma Bursu 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "scene"
     },
     "4a3b05f444f3": {
       "apply_link_id": 2,
@@ -1552,33 +1633,6 @@
       "title_tr": "46. İstanbul Film Festivali Film Başvuruları",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "T.C. vatandaşlarına özel",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Proje bazlı sözleşmeli pozisyon"
-      ],
-      "icon": "landmark",
-      "id": "ea14ddd7543c",
-      "is_opportunity": true,
-      "organization": "SAVUNMA SANAYİİ BAŞKANLIĞI",
-      "organization_domain": "ssb.gov.tr",
-      "queued_at": "2026-11-11T21:55:12.448310+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
-      "summary_tr": "Savunma Sanayii Başkanlığı tarafından proje bazlı sözleşmeli personel alımı için giriş sınavı düzenlenecektir. Başvurular Kariyer Kapısı üzerinden e-Devlet ile yapılacaktır.",
-      "title_tr": "Savunma Sanayii Başkanlığı Sözleşmeli Personel Alımı",
-      "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
     {
@@ -3942,6 +3996,231 @@
       "title_tr": "SVRI Doktora ve Doktora Sonrası Araştırma Bursu",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.emjm-imaging.eu/application-and-admission/",
+      "category": "egitim",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2027-01-12",
+      "eligibility_evidence": "The international scholarship program is open to students from all over the world.",
+      "fee_required": false,
+      "funding_tr": "Tam burs",
+      "highlights_tr": [
+        "Tam burslu yüksek lisans programı",
+        "Avrupa'da 3 ülkede eğitim",
+        "Aylık 1400 Euro harçlık"
+      ],
+      "id": "7f3e885e0b36",
+      "is_opportunity": true,
+      "organization": "Erasmus Mundus Joint Masters in Imaging Programme",
+      "organization_domain": "emjm-imaging.eu",
+      "queued_at": "2026-11-25T15:32:55.106180+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/erasmus-mundus-imaging-scholarship/",
+      "summary_tr": "Erasmus Mundus Imaging Master programı, makine öğrenmesi ve derin öğrenme tekniklerine odaklanarak çok boyutlu görüntü ve video işlemede kapsamlı bir eğitim sunar. Avrupa Birliği tarafından finanse edilen bu burs, katılımcı maliyetlerini, tıbbi sigortayı, seyahat ve kurulum masraflarını karşılar.",
+      "title_tr": "Erasmus Mundus Imaging Scholarship 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.toepfer-stiftung.de/en/what-we-do/you-and-europe",
+      "category": "burs",
+      "country_tr": "Almanya",
+      "deadline": "2027-01-04",
+      "eligibility_evidence": "2027 güz dönemine yönelik burs çağrısı aşağıdaki 22 ülkeye açık olacak: Arnavutluk, Belçika, Bosna-Hersek, Bulgaristan, Hırvatistan, Danimarka, Estonya, Fransa, Gürcistan, İrlanda, İsrail, İtalya, Kosova, Hollanda, Kuzey Makedonya, Polonya, Portekiz, Romanya, İspanya, İsviçre, İsveç ve Türkiye.",
+      "fee_required": false,
+      "funding_tr": "Aylık 300-1.155 avro, sağlık sigortası ve aile yardımı",
+      "highlights_tr": [
+        "Aylık 300-1.155 avro burs desteği",
+        "Akıcı İngilizce yeterli, Almanca şart değil",
+        "Başvuru son tarihi: 4 Ocak 2027"
+      ],
+      "id": "d797ca85858a",
+      "is_opportunity": true,
+      "organization": "Alfred Toepfer Stiftung F.V.S.",
+      "organization_domain": "toepfer-stiftung.de",
+      "queued_at": "2026-11-25T15:33:02.145866+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/almanyada-you-and-europe-2027-yuksek-lisans-bursu/",
+      "summary_tr": "Almanya'da yüksek lisans eğitimi almak isteyen öğrencilere yönelik You and Europe Burs Programı'nın 2027 dönemi başvuruları açıldı. Türkiye'nin de dahil olduğu 22 ülkeden öğrenci kabul ediliyor.",
+      "title_tr": "Almanya'da You and Europe Yüksek Lisans Bursu 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/normholding/digiconnect-online-gelisim-programi-2027-kis-donemi_67/",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "Türkiye, ABD ve Fas'taki üretim, satış ve lojistik merkezlerimizin yanı sıra Almanya, Birleşik Krallık, Fransa, Polonya, Romanya ve Çin'deki satış ve lojistik merkezlerimiz aracılığıyla ürünlerimizi 50’nin üzerinde ülkeye ulaştırıyoruz.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Online eğitim ve vizyoner sohbetler",
+        "Dijital iş becerileri geliştirme",
+        "Öğrenciyken network oluşturma"
+      ],
+      "id": "f20b857a5596",
+      "is_opportunity": true,
+      "organization": "Norm Holding",
+      "organization_domain": "",
+      "queued_at": "2026-11-25T15:33:08.921823+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/normholding/digiconnect-online-gelisim-programi-2027-kis-donemi_67/",
+      "summary_tr": "Norm Holding, üniversite öğrencilerine yönelik Brandon Hall ödüllü DigiConnect Online Gelişim Programı'nı sunuyor. Program, dijital iş becerilerini, inovasyon ve yaratıcılık yetkinliklerini geliştirmeyi amaçlıyor.",
+      "title_tr": "Norm Holding DigiConnect Online Gelişim Programı 2027 Kış",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://careers.microsoft.com/v2/global/en/datacenteracademy.html",
+      "category": "egitim",
+      "country_tr": "Çok ülkeli",
+      "deadline": "",
+      "eligibility_evidence": "The Datacenter Academy operates through a network of participating institutions and locations worldwide",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Ücretsiz BT eğitimi ve pratik deneyim",
+        "Mentorluk ve kariyer fırsatları",
+        "Dünya çapında katılımcı kurumlar"
+      ],
+      "id": "345990a0e1d4",
+      "image_queries": [
+        "Microsoft datacenter interior",
+        "Worldwide IT training",
+        "Technology education"
+      ],
+      "is_opportunity": true,
+      "organization": "Microsoft",
+      "organization_domain": "microsoft.com",
+      "queued_at": "2026-11-25T15:33:14.587872+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/25/microsoft-datacenter-academy-2026-free-it-training-hands-on-datacenter-experience-mentorship-internships-scholarships-and-career-opportunities/",
+      "summary_tr": "Microsoft Datacenter Academy, BT, bulut bilişim ve veri merkezi operasyonlarında kariyer hedefleyenlere yönelik ücretsiz eğitim, mentorluk ve staj fırsatları sunar. Program, pratik laboratuvar deneyimi ve sektörle bağlantı kurma imkanı sağlar.",
+      "title_tr": "Microsoft Datacenter Academy ile Ücretsiz BT Eğitimi",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.coursera.org/collections/goldman-sachs-10000-women",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "This program is open to women entrepreneurs from around the world.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz kurslar",
+      "highlights_tr": [
+        "Kadın girişimcilere yönelik",
+        "20 hafta süreli online eğitim",
+        "İşletme ve liderlik becerileri"
+      ],
+      "id": "69bf51187f2b",
+      "image_queries": [
+        "online business course",
+        "online education women",
+        "business skills learning"
+      ],
+      "is_opportunity": true,
+      "organization": "Goldman Sachs",
+      "organization_domain": "goldmansachs.com",
+      "queued_at": "2026-11-25T15:33:20.525933+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/goldman-sachs-10000-women-online-program/",
+      "summary_tr": "Goldman Sachs, kadın girişimciler için iş ve liderlik becerilerini geliştirmeyi amaçlayan 20 haftalık ücretsiz bir online eğitim programı sunuyor. Program, dünya çapındaki kadınların işletmelerini büyütmelerine yardımcı olmayı hedefliyor.",
+      "title_tr": "Goldman Sachs 10000 Kadın Online Programı 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/2ethic-con-ethical-conversation-from-opinion-to-dialogue.15576/",
+      "category": "egitim",
+      "country_tr": "Çekya",
+      "deadline": "2026-12-13",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Etik iletişim becerileri geliştirme",
+        "3-7 Şubat 2027 tarihleri arasında",
+        "Çekya'da düzenlenecek"
+      ],
+      "id": "8ce25573684c",
+      "is_opportunity": true,
+      "organization": "SALTO-YOUTH",
+      "organization_domain": "salto-youth.net",
+      "queued_at": "2026-11-25T15:33:27.629973+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/cekyada-erasmus-egitim-kursuna-davetlisiniz-2/",
+      "summary_tr": "Bu eğitim kursu, bireylerin etik iletişim becerilerini geliştirmeyi, önyargıları sorgulamayı ve farklı görüşlere sahip kişilerle yapıcı diyalog kurmayı amaçlamaktadır. Kurs, 3-7 Şubat 2027 tarihleri arasında Çekya'da düzenlenecektir.",
+      "title_tr": "Çekya'da Etik İletişim Eğitim Kursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.youthall.com/tr/aygazdakariyer/otogaz-satis-yoneticisi-ege-bolge_77/",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Balıkesir veya İzmir'de ikamet eden / edebilecek olan.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "0-3 yıl arası tecrübe",
+        "SAP bilgisi tercih sebebidir",
+        "Balıkesir veya İzmir'de ikamet"
+      ],
+      "id": "c6bf8f08729e",
+      "image_queries": [
+        "Aegean region Turkey landscape",
+        "Turkey sales team working",
+        "business meeting office"
+      ],
+      "is_opportunity": true,
+      "organization": "Youthall",
+      "organization_domain": "youthall.com",
+      "queued_at": "2026-11-25T15:33:34.171297+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/aygazdakariyer/otogaz-satis-yoneticisi-ege-bolge_77/",
+      "summary_tr": "Ege Bölgesi'nde otogaz bayilerini yönetecek, satış ve pazar payı artışı faaliyetleri yürütecek satış yöneticisi aranıyor. İşletme, İktisat veya Mühendislik mezunları başvurabilir.",
+      "title_tr": "Otogaz Satış Yöneticisi (Ege Bölge)",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/volunteering-for-all-norway-2027.15539/",
+      "category": "egitim",
+      "country_tr": "Norveç",
+      "deadline": "2026-12-07",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Eğitim kursu Bergen, Norveç'te gerçekleşecek",
+        "Avrupa Dayanışma Programı (ESC) kapsamında",
+        "Son başvuru tarihi 7 Aralık 2026"
+      ],
+      "id": "6859c86979c6",
+      "is_opportunity": true,
+      "organization": "SALTO-YOUTH",
+      "organization_domain": "salto-youth.net",
+      "queued_at": "2026-11-25T15:33:47.282478+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/norvecte-erasmus-egitim-kursu-firsati-2/",
+      "summary_tr": "Norveç'in Bergen şehrinde 1-5 Şubat 2027 tarihleri arasında düzenlenecek bu eğitim kursu, daha az imkâna sahip gençlere yönelik gönüllülük projeleri hakkında bilgi vermeyi amaçlamaktadır. Avrupa Dayanışma Programı (ESC) kapsamında kapsayıcı gönüllülük faaliyetlerine odaklanacaktır.",
+      "title_tr": "Norveç'te Erasmus+ Kapsayıcı Gönüllülük Eğitim Kursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -3962,6 +4241,12 @@
       "status": "queued",
       "title": "Rekabet Kurumu Rekabet Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-11-24T21:09:44.437647+00:00"
+    },
+    "01f8891e9b75": {
+      "reason": "Türkiye'den başvuru yapılıp yapılamayacağına dair bilgi metinde bulunmamaktadır.",
+      "status": "pending",
+      "title": "Vital Strategies Vision Access Program Jobs: Regional Deputy Directors in Africa and Asia and Global Program Director Op",
+      "ts": "2026-11-25T15:33:40.292293+00:00"
     },
     "024a83bbca8c": {
       "reason": "son başvuru geçti",
@@ -4653,6 +4938,12 @@
       "title": "İspanya’da ESC Gönüllülük Projesi Fırsatı",
       "ts": "2026-11-17T13:16:01.488825+00:00"
     },
+    "345990a0e1d4": {
+      "reason": "",
+      "status": "queued",
+      "title": "Microsoft Datacenter Academy ile Ücretsiz BT Eğitimi",
+      "ts": "2026-11-25T15:33:14.587888+00:00"
+    },
     "34a97395a09a": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -4952,6 +5243,12 @@
       "status": "queued",
       "title": "TohumLab Future Builders Öğrenci ve Mentör Programı",
       "ts": "2026-11-12T18:54:20.816552+00:00"
+    },
+    "4875371e543d": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Visiting Fellowship in Berlin, Germany 2027: Network Humanitarian Research (NHF) Recruiting Two Policy Research Fellows ",
+      "ts": "2026-11-25T15:32:48.762661+00:00"
     },
     "4964de0862b8": {
       "reason": "bekleme süresi doldu",
@@ -5343,6 +5640,12 @@
       "title": "GençBizzTech 2027 Bilim ve Teknoloji Girişimcilik Programı",
       "ts": "2026-11-24T10:52:10.747968+00:00"
     },
+    "6859c86979c6": {
+      "reason": "",
+      "status": "queued",
+      "title": "Norveç'te Erasmus+ Kapsayıcı Gönüllülük Eğitim Kursu",
+      "ts": "2026-11-25T15:33:47.282498+00:00"
+    },
     "6869539c66fe": {
       "reason": "",
       "status": "queued",
@@ -5384,6 +5687,12 @@
       "status": "expired",
       "title": "NYU Küresel Burs Programları 2027-2028",
       "ts": "2026-11-12T02:55:59.308845+00:00"
+    },
+    "69bf51187f2b": {
+      "reason": "",
+      "status": "queued",
+      "title": "Goldman Sachs 10000 Kadın Online Programı 2027",
+      "ts": "2026-11-25T15:33:20.525955+00:00"
     },
     "6b6f56694b5f": {
       "reason": "son başvuru geçti",
@@ -5619,6 +5928,12 @@
       "title": "Toyota Boshoku Türkiye Career Dojo Uzun Dönem Staj Programı",
       "ts": "2026-11-20T20:04:55.177810+00:00"
     },
+    "7f3e885e0b36": {
+      "reason": "",
+      "status": "queued",
+      "title": "Erasmus Mundus Imaging Scholarship 2027",
+      "ts": "2026-11-25T15:32:55.106201+00:00"
+    },
     "7f428ccf0bd0": {
       "reason": "Türkiye'ye kapalı: Applicants must be working on a project that impacts at least one state in the United States and directly benefits the c",
       "status": "rejected",
@@ -5792,6 +6107,12 @@
       "status": "rejected",
       "title": "Aranan meslekler AI Developer ve Data Scientist…",
       "ts": "2026-10-29T09:47:54.685040+00:00"
+    },
+    "8ce25573684c": {
+      "reason": "",
+      "status": "queued",
+      "title": "Çekya'da Etik İletişim Eğitim Kursu",
+      "ts": "2026-11-25T15:33:27.629992+00:00"
     },
     "8e011d739f29": {
       "reason": "",
@@ -6519,6 +6840,12 @@
       "title": "BeMed 2026 Mikro Girişimler Hibe Programı: 15.000 Avro Destek",
       "ts": "2026-11-19T12:59:45.765976+00:00"
     },
+    "c6bf8f08729e": {
+      "reason": "",
+      "status": "queued",
+      "title": "Otogaz Satış Yöneticisi (Ege Bölge)",
+      "ts": "2026-11-25T15:33:34.171317+00:00"
+    },
     "c75316d002fa": {
       "reason": "Türkiye'ye kapalı: They must be nationals or permanent residents of a Sub-Saharan African country.",
       "status": "rejected",
@@ -6668,6 +6995,12 @@
       "status": "expired",
       "title": "Reagan-Fascell Demokrasi Burs Programı 2027-28",
       "ts": "2026-11-24T00:47:29.533204+00:00"
+    },
+    "d797ca85858a": {
+      "reason": "",
+      "status": "queued",
+      "title": "Almanya'da You and Europe Yüksek Lisans Bursu 2027",
+      "ts": "2026-11-25T15:33:02.145887+00:00"
     },
     "d79aebde32d8": {
       "reason": "",
@@ -6974,6 +7307,12 @@
       "status": "rejected",
       "title": "THY stajyer alımı yapacak",
       "ts": "2026-11-21T01:29:04.288969+00:00"
+    },
+    "f20b857a5596": {
+      "reason": "",
+      "status": "queued",
+      "title": "Norm Holding DigiConnect Online Gelişim Programı 2027 Kış",
+      "ts": "2026-11-25T15:33:08.921844+00:00"
     },
     "f27eef681eab": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -7471,6 +7810,16 @@
     "undp destek analisti pozisyonu bonn almanya",
     "svri doktora ve doktora sonrası araştırma bursu",
     "giving women project circle 2027 kapasite geliştirme programı",
-    "unicef uk spor danışma kurulu üyeliği"
+    "unicef uk spor danışma kurulu üyeliği",
+    "berlin'de i nsani yardım araştırma bursu 2027",
+    "erasmus mundus imaging scholarship 2027",
+    "almanya'da you and europe yüksek lisans bursu 2027",
+    "norm holding digiconnect online gelişim programı 2027 kış",
+    "microsoft datacenter academy ile ücretsiz bt eğitimi",
+    "goldman sachs 10000 kadın online programı 2027",
+    "çekya'da etik i letişim eğitim kursu",
+    "otogaz satış yöneticisi ege bölge",
+    "vital strategies bölge direktörleri ve küresel program direktörü i ş i lanları",
+    "norveç'te erasmus kapsayıcı gönüllülük eğitim kursu"
   ]
 }
