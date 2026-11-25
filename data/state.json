@@ -326,7 +326,13 @@
     "youthall.com/tr/TEI/jet-talent_12",
     "kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
     "uct.ac.za/berthacentre/articles/2026-11-13-healthy-futures-mastercard-scholarship-2027",
-    "siemens.com/tr-tr"
+    "siemens.com/tr-tr",
+    "app.unv.org/opportunities/1784888021274152",
+    "jobdetails.nestle.com/job/Makati-Nestl%C3%A9-MILE-1224/1453709933",
+    "estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38115",
+    "svri.org/svri-early-career-research-fellowships",
+    "forms.monday.com/forms/12bd21a2ac16a98231d1808ba0e3ad58?r=use1",
+    "unicef.org.uk/jobs/sport-advisory-board-member"
   ],
   "outbox": [
     {
@@ -371,6 +377,34 @@
     }
   ],
   "pending": {
+    "006eff01e7d9": {
+      "apply_link_id": 1,
+      "apply_url": "https://jobdetails.nestle.com/job/Makati-Nestl%C3%A9-MILE-1224/1453709933/",
+      "category": "egitim",
+      "country_tr": "Filipinler",
+      "deadline": "",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "3 günlük yoğun liderlik kampı",
+        "Üniversite öğrencilerine özel",
+        "Gerçek iş vakaları ve mentorluk"
+      ],
+      "id": "006eff01e7d9",
+      "is_opportunity": true,
+      "message_id": 100,
+      "organization": "Nestlé",
+      "organization_domain": "nestle.com",
+      "queued_at": "2026-11-25T04:53:39.556746+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/25/nestle-mile-2027-apply-for-nestles-3-day-leadership-immersion-and-learning-experience-in-the-philippines-unlock-career-opportunities-with-a-global-company/",
+      "summary_tr": "Nestlé Filipinler tarafından düzenlenen, üniversite öğrencilerinin liderlik becerilerini geliştirmeyi ve iş dünyasını yakından tanımalarını hedefleyen 3 günlük yoğun bir eğitim programıdır.",
+      "title_tr": "Nestlé MILE 2027 Liderlik ve Öğrenme Deneyimi",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Programın sadece Filipinler'deki öğrenciler için mi yoksa uluslararası katılıma açık mı olduğu metinde belirtilmemiştir.",
+      "visual_kind": "institution"
+    },
     "03011450c78c": {
       "apply_link_id": 1,
       "apply_url": "https://www.edx.org/school/lse",
@@ -607,65 +641,32 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "3114e2690125": {
-      "apply_link_id": 1,
-      "apply_url": "https://aji.org/apply/",
-      "category": "is",
-      "country_tr": "ABD",
-      "deadline": "2027-01-31",
-      "eligibility_evidence": "The recruitment information also identifies authorization to work in the United States as a requirement.",
-      "fee_required": false,
-      "funding_tr": "Yıllık 60.000 USD maaş ve yan haklar",
-      "highlights_tr": [
-        "Yıllık 60.000 USD maaş ve yan haklar",
-        "ABD çalışma izni şartı aranmaktadır",
-        "Washington D.C.'de yüz yüze çalışma"
-      ],
-      "id": "3114e2690125",
-      "is_opportunity": true,
-      "message_id": 58,
-      "organization": "Allbritton Journalism Institute",
-      "organization_domain": "aji.org",
-      "queued_at": "2026-11-18T04:15:20.582042+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/17/allbritton-journalism-institute-reporting-fellowship-2027-2029-earn-60000-per-year-through-a-fully-paid-two-year-journalism-fellowship-in-washington-d-c/",
-      "summary_tr": "Allbritton Journalism Institute, Washington D.C.'de The Washington Sun bünyesinde iki yıllık ücretli gazetecilik programı sunuyor. Program, uygulamalı eğitim ve profesyonel haber odası deneyimini birleştiriyor.",
-      "title_tr": "Allbritton Journalism Institute 2027-2029 Gazetecilik Bursu",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Başvuru için ABD çalışma izni şartı bulunmaktadır; Türk vatandaşlarının bu izne sahip olup olamayacağı belirtilmemiştir.",
-      "visual_kind": "institution"
-    },
-    "31a3cf802fdd": {
-      "apply_link_id": 2,
-      "apply_url": "https://www.kaplanpathways.com/bia-future-makers-challenge/",
-      "category": "yarisma",
+    "2efbda7c0630": {
+      "apply_link_id": 3,
+      "apply_url": "https://www.unicef.org.uk/jobs/sport-advisory-board-member/",
+      "category": "gonulluluk",
       "country_tr": "Birleşik Krallık",
-      "deadline": "2026-12-15",
-      "eligibility_evidence": "For ambitious international students who aspire to make a meaningful difference in the world, the Birmingham International Academy (BIA) Future Makers Challenge 2027 presents an exciting opportunity",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "",
       "fee_required": false,
-      "funding_tr": "5.000 GBP burs",
+      "funding_tr": "Gönüllülük esasına dayalı, ücretsiz",
       "highlights_tr": [
-        "5.000 GBP değerinde eğitim bursu",
-        "Video veya yazılı başvuru seçeneği",
-        "University of Birmingham pathway programı"
+        "Ayda 2-3 saatlik gönüllü çalışma",
+        "Spor, marka veya dijital teknoloji deneyimi",
+        "Londra ofisi veya çevrimiçi toplantılar"
       ],
-      "id": "31a3cf802fdd",
-      "image_queries": [
-        "Birmingham University campus",
-        "United Kingdom university students",
-        "students studying library"
-      ],
+      "id": "2efbda7c0630",
       "is_opportunity": true,
-      "message_id": 57,
-      "organization": "Birmingham International Academy",
-      "organization_domain": "kaplanpathways.com",
-      "queued_at": "2026-11-18T04:15:03.524766+00:00",
+      "message_id": 102,
+      "organization": "UNICEF UK",
+      "organization_domain": "unicef.org.uk",
+      "queued_at": "2026-11-25T04:54:46.520345+00:00",
       "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/17/birmingham-international-academy-future-makers-challenge-2027/",
-      "summary_tr": "Birmingham International Academy tarafından düzenlenen bu yarışma, küresel sorunlara yenilikçi çözümler sunan öğrencilere 5.000 GBP değerinde eğitim bursu kazanma fırsatı sunmaktadır.",
-      "title_tr": "Birmingham International Academy Future Makers Challenge 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/24/unicef-uk-sport-advisory-board-member-2026-volunteer-opportunity-for-leaders-in-sport-brands-and-digital-technology/",
+      "summary_tr": "UNICEF UK, spor, marka yönetimi veya dijital teknoloji alanlarında deneyimli profesyonelleri, çocuk haklarını desteklemek amacıyla Spor Danışma Kurulu'na üye olmaya davet ediyor.",
+      "title_tr": "UNICEF UK Spor Danışma Kurulu Üyeliği",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir kısıtlama veya açıklama bulunmamaktadır.",
       "visual_kind": "institution"
     },
     "3efa04693e60": {
@@ -996,35 +997,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et.",
       "visual_kind": "institution"
     },
-    "8529ed92dfdc": {
-      "apply_link_id": 1,
-      "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1beaa927-d6fd-4da0-86c3-381c751ea13b&ccId=19000101_000001&jobId=637654&source=CC2&lang=en_US",
-      "category": "staj",
-      "country_tr": "ABD",
-      "deadline": "",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Lisansüstü öğrencilere ve profesyonellere açık",
-        "Gizlilik, yapay zeka ve teknoloji politikası odaklı",
-        "Hibrit ve uzaktan çalışma seçenekleri mevcut"
-      ],
-      "id": "8529ed92dfdc",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 59,
-      "organization": "Future of Privacy Forum",
-      "organization_domain": "fpf.org",
-      "queued_at": "2026-11-18T04:16:35.506927+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/17/future-of-privacy-forum-fpf-u-s-policy-internships-2027-apply-for-summer-fall-and-spring-internship-opportunities-in-privacy-artificial-intelligence-and-technology-policy/",
-      "summary_tr": "Future of Privacy Forum, lisansüstü öğrencileri ve profesyoneller için gizlilik politikası, yapay zeka ve teknoloji düzenlemeleri alanlarında staj imkanı sunmaktadır.",
-      "title_tr": "Future of Privacy Forum (FPF) ABD Politika Staj Programı",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Metinde başvuru için gerekli vatandaşlık veya çalışma izni şartlarına dair bir bilgi bulunmamaktadır.",
-      "visual_kind": "institution"
-    },
     "964d6b677c88": {
       "apply_link_id": 1,
       "apply_url": "https://lnkd.in/dEH5yecB",
@@ -1110,6 +1082,34 @@
       "unclear_reason_tr": "Metinde programın hangi ülkelerdeki ofisler için açık olduğu belirtilmiş ancak Türkiye'nin bu kapsama dahil olup olmadığına dair net bir ifade yer almamaktadır.",
       "visual_kind": "institution"
     },
+    "b22ad837d4f8": {
+      "apply_link_id": 1,
+      "apply_url": "https://app.unv.org/opportunities/1784888021274152",
+      "category": "gonulluluk",
+      "country_tr": "Online",
+      "deadline": "2026-12-03",
+      "eligibility_evidence": "The United Nations Development Programme (UNDP), in collaboration with the United Nations Volunteers (UNV) programme, is inviting applications for an exciting online volunteer opportunity",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz gönüllülük",
+      "highlights_tr": [
+        "12 hafta süreli online gönüllülük",
+        "Haftalık 1-5 saatlik esnek çalışma",
+        "En az lise mezunu olma şartı"
+      ],
+      "id": "b22ad837d4f8",
+      "is_opportunity": true,
+      "message_id": 99,
+      "organization": "United Nations Development Programme",
+      "organization_domain": "undp.org",
+      "queued_at": "2026-11-25T04:53:29.646609+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/25/undp-online-volunteer-opportunity-2026-100-digital-advocates-wanted-to-fight-gender-based-violence-in-cameroon-apply-for-this-12-week-international-volunteer-assignment/",
+      "summary_tr": "UNDP ve UNV, Kamerun'da toplumsal cinsiyete dayalı şiddetle mücadele kampanyası için 100 online gönüllü arıyor. 12 hafta sürecek programda haftalık 1-5 saatlik dijital içerik üretimi ve savunuculuk çalışmaları beklenmektedir.",
+      "title_tr": "UNDP Kamerun İçin Online Gönüllü Dijital Savunucular Arıyor",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
     "b923fbd6eb7e": {
       "apply_link_id": 1,
       "apply_url": "https://fcdo.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/spa-1/candidate/so/pm/4/pl/1/opp/27823-Internship-Opportunities-Humanitarian-Affairs-Migration-and-Forced-Displacement-CHEG26-023255/en-GB",
@@ -1137,6 +1137,34 @@
       "title_tr": "UK Mission Geneva İnsani Yardım ve Göç Staj Programı",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metin, İsviçre'de yasal çalışma izni olan herkesin başvurabileceğini belirtmekte ancak Türk vatandaşlarının bu izni nasıl alabileceğine dair bir bilgi vermemektedir.",
+      "visual_kind": "institution"
+    },
+    "bf9c4786c8f7": {
+      "apply_link_id": 2,
+      "apply_url": "https://forms.monday.com/forms/12bd21a2ac16a98231d1808ba0e3ad58?r=use1",
+      "category": "diger",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2026-12-22",
+      "eligibility_evidence": "International initiative coordinated by Giving Women, based in Geneva, Switzerland",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz profesyonel danışmanlık ve mentorluk",
+      "highlights_tr": [
+        "Kadın odaklı sivil toplum kuruluşlarına açık",
+        "12 ay süren ücretsiz profesyonel mentorluk",
+        "Kurumsal kapasite ve strateji geliştirme desteği"
+      ],
+      "id": "bf9c4786c8f7",
+      "is_opportunity": true,
+      "message_id": 101,
+      "organization": "Giving Women",
+      "organization_domain": "givingwomen.ch",
+      "queued_at": "2026-11-25T04:54:19.333222+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/24/giving-women-project-circle-2027-applications-open-for-grassroots-organisations-supporting-women-and-girls-receive-free-expert-guidance-and-capacity-building-support/",
+      "summary_tr": "Giving Women, kadın ve kız çocuklarını destekleyen taban örgütlerine stratejik destek, mentorluk ve kurumsal kapasite geliştirme alanlarında 12 aylık ücretsiz profesyonel danışmanlık sunmaktadır.",
+      "title_tr": "Giving Women Project Circle 2027 Kapasite Geliştirme Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
     "d483e60348a9": {
@@ -3860,9 +3888,69 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 3,
+      "apply_url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38115",
+      "category": "is",
+      "country_tr": "Almanya",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "This vacancy is open to eligible external candidates as well as specified categories of existing UNDP and United Nations personnel, subject to the organization’s tiered recruitment approach.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı pozisyon",
+      "highlights_tr": [
+        "Bonn, Almanya merkezli çalışma",
+        "Oracle Fusion ERP ve IAM deneyimi gereklidir",
+        "Bilgisayar Bilimleri veya ilgili alan mezuniyeti"
+      ],
+      "id": "5354643dfdb5",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "United Nations Development Programme",
+      "organization_domain": "undp.org",
+      "queued_at": "2026-11-25T04:53:54.506372+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/25/undp-support-analyst-job-2026-apply-for-the-identity-and-access-management-position-in-germany/",
+      "summary_tr": "Birleşmiş Milletler Kalkınma Programı (UNDP), Bonn'da görevlendirilmek üzere Kimlik ve Erişim Yönetimi (IDAM) ekibinde çalışacak bir Destek Analisti arıyor.",
+      "title_tr": "UNDP Destek Analisti Pozisyonu - Bonn, Almanya",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://www.svri.org/svri-early-career-research-fellowships/",
+      "category": "burs",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2027-01-15",
+      "eligibility_evidence": "Applications are open to eligible researchers from low- and middle-income countries",
+      "fee_required": false,
+      "funding_tr": "17.000$ - 20.500$ arası destek",
+      "highlights_tr": [
+        "Doktora ve doktora sonrası araştırmacılar için",
+        "2 yıla kadar süreli araştırma desteği",
+        "Kadın ve çocuklara yönelik şiddet odaklı"
+      ],
+      "id": "7bc29adf8325",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "Sexual Violence Research Initiative",
+      "organization_domain": "svri.org",
+      "queued_at": "2026-11-25T04:54:07.774682+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/25/svri-early-career-research-fellowships-2027-fully-funded-doctoral-and-postdoctoral-research-opportunities-worth-up-to-20500-for-researchers-in-low-and-middle-income-countries/",
+      "summary_tr": "SVRI, düşük ve orta gelirli ülkelerdeki araştırmacılar için kadın ve çocuklara yönelik şiddet üzerine doktora ve doktora sonrası araştırma bursları sunmaktadır.",
+      "title_tr": "SVRI Doktora ve Doktora Sonrası Araştırma Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
+    "006eff01e7d9": {
+      "reason": "Programın sadece Filipinler'deki öğrenciler için mi yoksa uluslararası katılıma açık mı olduğu metinde belirtilmemiştir.",
+      "status": "pending",
+      "title": "Nestlé MILE 2027: Apply for Nestlé’s 3-Day Leadership Immersion and Learning Experience in the Philippines – Unlock Care",
+      "ts": "2026-11-25T04:53:39.556762+00:00"
+    },
     "0164c1253066": {
       "reason": "",
       "status": "queued",
@@ -4499,6 +4587,12 @@
       "title": "MIT Summer Research Program 2027 in USA | Fully Funded",
       "ts": "2026-11-03T17:48:41.970855+00:00"
     },
+    "2efbda7c0630": {
+      "reason": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir kısıtlama veya açıklama bulunmamaktadır.",
+      "status": "pending",
+      "title": "UNICEF UK Sport Advisory Board Member 2026: Volunteer Opportunity for Leaders in Sport, Brands, and Digital Technology",
+      "ts": "2026-11-25T04:54:46.520362+00:00"
+    },
     "2fb397d66096": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -4518,16 +4612,16 @@
       "ts": "2026-11-24T21:09:14.793724+00:00"
     },
     "3114e2690125": {
-      "reason": "Başvuru için ABD çalışma izni şartı bulunmaktadır; Türk vatandaşlarının bu izne sahip olup olamayacağı belirtilmemiştir.",
-      "status": "pending",
-      "title": "Allbritton Journalism Institute Reporting Fellowship 2027–2029: Earn $60,000 Per Year Through a Fully Paid Two-Year Jour",
-      "ts": "2026-11-18T04:15:20.582060+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Allbritton Journalism Institute 2027-2029 Gazetecilik Bursu",
+      "ts": "2026-11-25T04:53:01.087985+00:00"
     },
     "31a3cf802fdd": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Birmingham International Academy, Future Makers Challenge 2027",
-      "ts": "2026-11-18T04:15:03.524783+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Birmingham International Academy Future Makers Challenge 2027",
+      "ts": "2026-11-25T04:53:01.088001+00:00"
     },
     "32812191855b": {
       "reason": "Türkiye'ye kapalı: Eligible applicants must be aged 18 or over, have the right to reside in the United Kingdom, and live in or serve a comm",
@@ -4967,6 +5061,12 @@
       "title": "TEV-Garring Vakfı Danimarka Yüksek Lisans Bursu",
       "ts": "2026-11-24T10:52:10.747962+00:00"
     },
+    "5354643dfdb5": {
+      "reason": "",
+      "status": "queued",
+      "title": "UNDP Destek Analisti Pozisyonu - Bonn, Almanya",
+      "ts": "2026-11-25T04:53:54.506394+00:00"
+    },
     "536a82b273b9": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5164,6 +5264,12 @@
       "status": "rejected",
       "title": "New Graduates 2027: Commercial Sales Manager",
       "ts": "2026-11-05T02:25:25.935748+00:00"
+    },
+    "6369f2a4c542": {
+      "reason": "Türkiye'ye kapalı: The programme is open to Kenyan candidates.",
+      "status": "rejected",
+      "title": "Central Bank of Kenya Internship Program 2026: Apply for a One-Year Banking and Financial Sector Internship",
+      "ts": "2026-11-25T04:54:28.261022+00:00"
     },
     "647b747ef73d": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -5477,6 +5583,12 @@
       "title": "UCD Iseult Honohan Doktora Bursu 2027",
       "ts": "2026-11-13T22:35:53.615440+00:00"
     },
+    "7bc29adf8325": {
+      "reason": "",
+      "status": "queued",
+      "title": "SVRI Doktora ve Doktora Sonrası Araştırma Bursu",
+      "ts": "2026-11-25T04:54:07.774703+00:00"
+    },
     "7c8d8300e79e": {
       "reason": "Türkiye'ye kapalı: The Community Solutions Program is open to the following countries:",
       "status": "rejected",
@@ -5580,10 +5692,10 @@
       "ts": "2026-11-19T21:27:26.709051+00:00"
     },
     "8529ed92dfdc": {
-      "reason": "Metinde başvuru için gerekli vatandaşlık veya çalışma izni şartlarına dair bir bilgi bulunmamaktadır.",
-      "status": "pending",
-      "title": "Future of Privacy Forum (FPF) U.S. Policy Internships 2027: Apply for Summer, Fall, and Spring Internship Opportunities ",
-      "ts": "2026-11-18T04:16:35.506943+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Future of Privacy Forum (FPF) ABD Politika Staj Programı",
+      "ts": "2026-11-25T04:53:01.088039+00:00"
     },
     "856bbd4d4028": {
       "reason": "bekleme süresi doldu",
@@ -5621,6 +5733,12 @@
       "title": "Summer Internship 2027: Information Technology",
       "ts": "2026-11-04T21:55:46.098561+00:00"
     },
+    "87ce72690e45": {
+      "reason": "Türkiye'ye kapalı: HSEMA states that applicants must be U.S. citizens to apply.",
+      "status": "rejected",
+      "title": "HSEMA Spring 2027 Internship Program: Paid Emergency Management and Homeland Security Internships in Washington, DC",
+      "ts": "2026-11-25T04:54:39.597315+00:00"
+    },
     "883ec17a80da": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5644,6 +5762,12 @@
       "status": "expired",
       "title": "Karabağlar Belediyesi Çevre Mühendisi Alımı",
       "ts": "2026-11-18T21:53:41.150122+00:00"
+    },
+    "8a90bc27ffa7": {
+      "reason": "Türkiye'ye kapalı: The programme is specifically intended for undergraduate students who are U.S. citizens or nationals and are children or",
+      "status": "rejected",
+      "title": "Gilman-McCain Scholarship 2027: Receive a $5,000 Award to Study or Intern Abroad – Applications Now Open for U.S. Milita",
+      "ts": "2026-11-25T04:53:45.304999+00:00"
     },
     "8b43360bb216": {
       "reason": "",
@@ -6149,6 +6273,12 @@
       "title": "Satış Yöneticisi (Adana)",
       "ts": "2026-11-06T07:54:43.364830+00:00"
     },
+    "b22ad837d4f8": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "UNDP Online Volunteer Opportunity 2026: 100 Digital Advocates Wanted to Fight Gender-Based Violence in Cameroon – Apply ",
+      "ts": "2026-11-25T04:53:29.646636+00:00"
+    },
     "b30430c23166": {
       "reason": "Türkiye'ye kapalı: The fellowship is open to applicants from the following countries and regions: Afghanistan (only applicants based in the",
       "status": "rejected",
@@ -6298,6 +6428,12 @@
       "status": "expired",
       "title": "University of Nebraska at Omaha'da Kamu Yönetimi Doktora Programı",
       "ts": "2026-11-12T02:55:59.308856+00:00"
+    },
+    "bf9c4786c8f7": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Giving Women Project Circle 2027: Applications Open for Grassroots Organisations Supporting Women and Girls – Receive Fr",
+      "ts": "2026-11-25T04:54:19.333240+00:00"
     },
     "c082d0e2270a": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -6694,6 +6830,12 @@
       "status": "rejected",
       "title": "BBC Writers Open Call 2026–2027: Submit Your Original Drama or Comedy-Drama Script for BBC Writing Development Opportuni",
       "ts": "2026-11-17T03:48:11.043779+00:00"
+    },
+    "e722d24486fd": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 1 aday link: reddit.com)",
+      "status": "rejected",
+      "title": "University of Ghana–University of Manchester Fully Funded Dual PhD Scholarships 2027 in Development Studies: 9 Scholarsh",
+      "ts": "2026-11-25T04:54:34.035713+00:00"
     },
     "e7739ad2c3aa": {
       "reason": "Türkiye'ye kapalı: However, an important eligibility restriction applies: applicants must be United States citizens or permanent residents ",
@@ -7323,6 +7465,12 @@
     "tei jet talent ideathon yarışması",
     "rekabet kurumu rekabet uzman yardımcılığı giriş sınavı",
     "healthy futures mastercard bursu 2027 güney afrika",
-    "siemens türkiye engelli öğrenciler i çin yarı zamanlı çalışma"
+    "siemens türkiye engelli öğrenciler i çin yarı zamanlı çalışma",
+    "undp kamerun i çin online gönüllü dijital savunucular arıyor",
+    "nestlé mile 2027 liderlik ve öğrenme deneyimi",
+    "undp destek analisti pozisyonu bonn almanya",
+    "svri doktora ve doktora sonrası araştırma bursu",
+    "giving women project circle 2027 kapasite geliştirme programı",
+    "unicef uk spor danışma kurulu üyeliği"
   ]
 }

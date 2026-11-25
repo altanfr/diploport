@@ -1,17 +1,18 @@
-# Son çalışma (2026-11-25 00:08 TR)
+# Son çalışma (2026-11-25 07:53 TR)
 
-Kuyruk: 87 · Onay bekleyen: 29 · Hazırlanan: -
-Bulunan yeni ilan: 9 · Bu çalışmada işlenmesi planlanan: 9 · Raporlanan: 9
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: okunamadı: HTTP 403 · Erasmusgram: 1 yeni / 8 kayıt · Opportunities Circle: 2 yeni / 10 kayıt · AB İlan: 3 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 2 yeni / 18 kayıt · Kariyer Kapısı: 1 yeni / 22 kayıt
+Kuyruk: 89 · Onay bekleyen: 30 · Hazırlanan: -
+Bulunan yeni ilan: 10 · Bu çalışmada işlenmesi planlanan: 10 · Raporlanan: 10
+Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 10 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 0 yeni / 10 kayıt · AB İlan: 0 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 22 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| elendi | Erasmusgram | Portekiz , Madeira Adası : 5 Gün Erasmus+ Projesi | fırsat değil (haber/liste/reklam) |
-| elendi | Opportunities Circle | University of Cambridge CRASSH Visiting Fellowships 2027-28 | Türkiye'ye kapalı: Applicants must currently hold a position at a higher education institution or research institute based in the Global So |
-| elendi | AB İlan | IOM’den Türkiye’deki STK’lara 125 Bin Avroya Kadar Proje Desteği | fırsat değil (haber/liste/reklam) |
-| kuyrukta | Youthall | TEI Jet Talent Ideathon Yarışması | kanıt: Kaynak Türkiye merkezli (Youthall) · son tarih: 2026-12-01 · link: https://www.youthall.com/tr/TEI/jet-talent_12/ · görsel: kurum logosu aranacak (TEI; stok foto yok) |
-| kuyrukta | Kariyer Kapısı | Rekabet Kurumu Rekabet Uzman Yardımcılığı Giriş Sınavı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385 · görsel: kurum logosu aranacak (REKABET KURUMU BAŞKANLIĞI; stok foto yok) |
-| onayda | Opportunities Circle | Healthy Futures Mastercard Bursu 2027 - Güney Afrika | Metin, bursun sadece Afrika kıtasındaki öğrencilere yönelik olduğunu ima eden ifadeler içermekte ancak Türkiye'nin uygunluğu konusunda net bir liste veya açıklama bulunmamaktadır. · son tarih: 2026-12-10 · link: https://uct.ac.za/berthacentre/articles/2026-11-13-healthy-futures-mastercard-scholarship-2027 |
-| elendi | AB İlan | Almanya’da Uzun Dönem ESC Gönüllülük Projesine Katılma Fırsatı | tekrar |
-| kuyrukta | Youthall | Siemens Türkiye Engelli Öğrenciler İçin Yarı Zamanlı Çalışma | kanıt: At Siemens Türkiye, we strive to ensure full participation for all people, regardless of ability, through our policies, communities, and advocacy efforts. · son tarih: - · link: https://www.siemens.com/tr-tr/ · görsel: kurum logosu aranacak (Siemens Türkiye; stok foto yok) |
-| elendi | AB İlan | İçişleri Bakanlığı 1.170 Sözleşmeli Personel Alımı Duyurusu | tekrar |
+| onayda | Opportunities For Youth | UNDP Kamerun İçin Online Gönüllü Dijital Savunucular Arıyor | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2026-12-03 · link: https://app.unv.org/opportunities/1784888021274152 · görsel: kurum logosu aranacak (United Nations Development Programme; stok foto yok) |
+| onayda | Opportunities For Youth | Nestlé MILE 2027 Liderlik ve Öğrenme Deneyimi | Programın sadece Filipinler'deki öğrenciler için mi yoksa uluslararası katılıma açık mı olduğu metinde belirtilmemiştir. · son tarih: - · link: https://jobdetails.nestle.com/job/Makati-Nestl%C3%A9-MILE-1224/1453709933/ · görsel: kurum logosu aranacak (Nestlé; stok foto yok) |
+| elendi | Opportunities For Youth | Gilman-McCain Scholarship 2027: Receive a $5,000 Award to Study or Intern Abroad | Türkiye'ye kapalı: The programme is specifically intended for undergraduate students who are U.S. citizens or nationals and are children or |
+| kuyrukta | Opportunities For Youth | UNDP Destek Analisti Pozisyonu - Bonn, Almanya | kanıt: This vacancy is open to eligible external candidates as well as specified categories of existing UNDP and United Nations personnel, subject to the organization’s tiered r · son tarih: 2026-12-01 · link: https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38115 · görsel: kurum logosu aranacak (United Nations Development Programme; stok foto yok) |
+| kuyrukta | Opportunities For Youth | SVRI Doktora ve Doktora Sonrası Araştırma Bursu | kanıt: Applications are open to eligible researchers from low- and middle-income countries · son tarih: 2027-01-15 · link: https://www.svri.org/svri-early-career-research-fellowships/ · görsel: kurum logosu aranacak (Sexual Violence Research Initiative; stok foto yok) |
+| onayda | Opportunities For Youth | Giving Women Project Circle 2027 Kapasite Geliştirme Programı | Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. · son tarih: 2026-12-22 · link: https://forms.monday.com/forms/12bd21a2ac16a98231d1808ba0e3ad58?r=use1 · görsel: kurum logosu aranacak (Giving Women; stok foto yok) |
+| elendi | Opportunities For Youth | Central Bank of Kenya Internship Program 2026: Apply for a One-Year Banking and  | Türkiye'ye kapalı: The programme is open to Kenyan candidates. |
+| elendi | Opportunities For Youth | University of Ghana–University of Manchester Fully Funded Dual PhD Scholarships  | resmî başvuru linki bulunamadı (model link seçmedi; sayfada 1 aday link: reddit.com) |
+| elendi | Opportunities For Youth | HSEMA Spring 2027 Internship Program: Paid Emergency Management and Homeland Sec | Türkiye'ye kapalı: HSEMA states that applicants must be U.S. citizens to apply. |
+| onayda | Opportunities For Youth | UNICEF UK Spor Danışma Kurulu Üyeliği | Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir kısıtlama veya açıklama bulunmamaktadır. · son tarih: 2026-11-30 · link: https://www.unicef.org.uk/jobs/sport-advisory-board-member/ · görsel: kurum logosu aranacak (UNICEF UK; stok foto yok) |
