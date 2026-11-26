@@ -342,7 +342,14 @@
     "salto-youth.net/tools/european-training-calendar/training/2ethic-con-ethical-conversation-from-opinion-to-dialogue.15576",
     "youthall.com/tr/aygazdakariyer/otogaz-satis-yoneticisi-ege-bolge_77",
     "lnkd.in/gtRgDADK",
-    "salto-youth.net/tools/european-training-calendar/training/volunteering-for-all-norway-2027.15539"
+    "salto-youth.net/tools/european-training-calendar/training/volunteering-for-all-norway-2027.15539",
+    "idabwellssociety.org/news/2027-investigative-reporting-fellowship-applications-are-live",
+    "law.yale.edu/schell/fellowships/post-graduate-fellowships/bernstein-fellowships",
+    "culture-civic.org/duyurular/sanatsal-uretim-besinci-acik-cagri-icin-basvurular-basladi",
+    "kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
+    "docs.google.com/forms/d/e/1FAIpQLSdPnlQ4Jx8w7NaalhqODvebZlCjFk8sLehtiMM4yuRLKwTbaQ/viewform",
+    "youthall.com/tr/aygazdakariyer/otogaz-satis-yoneticisi-marmara-bolge_75",
+    "kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e"
   ],
   "outbox": [
     {
@@ -844,34 +851,6 @@
       "unclear_reason_tr": "Metin, başvuru için gerekli vatandaşlık veya oturum izni şartlarını belirtmemiş, sadece bu şartların kontrol edilmesi gerektiğini ifade etmiştir.",
       "visual_kind": "scene"
     },
-    "4fb76b259a82": {
-      "apply_link_id": 2,
-      "apply_url": "https://worldagricultureforum.org/internship",
-      "category": "staj",
-      "country_tr": "Online",
-      "deadline": "2026-12-15",
-      "eligibility_evidence": "The WAF Global Internship Program 2027 is inviting applications from individuals who want to gain practical experience and contribute to research and knowledge development in the global agriculture sector.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "3 ay süreli uzaktan staj",
-        "Tarım politikaları ve araştırma odaklı",
-        "Katılım sertifikası veriliyor"
-      ],
-      "id": "4fb76b259a82",
-      "is_opportunity": true,
-      "message_id": 61,
-      "organization": "World Agriculture Forum",
-      "organization_domain": "worldagricultureforum.org",
-      "queued_at": "2026-11-18T21:54:14.778643+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/18/waf-global-internship-program-2027-apply-for-a-three-month-remote-internship-in-global-agriculture-research-and-policy/",
-      "summary_tr": "World Agriculture Forum tarafından düzenlenen, tarım politikaları, araştırma ve bilgi yönetimi üzerine odaklanan 3 aylık uzaktan staj programı.",
-      "title_tr": "World Agriculture Forum (WAF) 2027 Uzaktan Staj Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "5148fd60d2b0": {
       "apply_link_id": 5,
       "apply_url": "https://www.gov.uk/seasonal-worker-visa",
@@ -1078,62 +1057,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et.",
       "visual_kind": "institution"
     },
-    "964d6b677c88": {
-      "apply_link_id": 1,
-      "apply_url": "https://lnkd.in/dEH5yecB",
-      "category": "is",
-      "country_tr": "Gana",
-      "deadline": "2026-11-27",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Maaşlı pozisyon",
-      "highlights_tr": [
-        "Gana'da çalışma fırsatı",
-        "İlgili alanlarda lisans derecesi şart",
-        "En az 4-5 yıl deneyim gereklidir"
-      ],
-      "id": "964d6b677c88",
-      "is_opportunity": true,
-      "message_id": 62,
-      "organization": "Plan International",
-      "organization_domain": "plan-international.org",
-      "queued_at": "2026-11-18T21:54:58.832863+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/18/plan-international-ghana-announces-three-job-vacancies-for-november-2026-project-accountant-district-officer-and-supply-chain-coordinator/",
-      "summary_tr": "Plan International Gana, Cocoa Community Resilience Programme kapsamında ve ülke ofisinde çalışacak Proje Muhasebecisi, Bölge Sorumlusu ve Tedarik Zinciri Koordinatörü pozisyonları için işe alım yapmaktadır.",
-      "title_tr": "Plan International Gana İş İlanları",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "İlan, başvuru yapacak adayların uyruğu veya çalışma izni gereklilikleri hakkında bilgi vermemektedir.",
-      "visual_kind": "institution"
-    },
-    "a4581acb8b6a": {
-      "apply_link_id": 3,
-      "apply_url": "https://www.climate.columbia.edu/stanley-park-climate-finance-scholarships",
-      "category": "burs",
-      "country_tr": "ABD",
-      "deadline": "2027-01-15",
-      "eligibility_evidence": "It particularly seeks to expand access for individuals from emerging and developing economies who intend to contribute to the public and non-profit sectors",
-      "fee_required": false,
-      "funding_tr": "Tam burs (öğrenim ücreti)",
-      "highlights_tr": [
-        "Tam öğrenim ücreti desteği",
-        "Gelişmekte olan ülkelerden adaylara öncelik",
-        "15 Ocak 2027 öncelikli başvuru tarihi"
-      ],
-      "id": "a4581acb8b6a",
-      "is_opportunity": true,
-      "message_id": 63,
-      "organization": "Columbia Climate School",
-      "organization_domain": "climate.columbia.edu",
-      "queued_at": "2026-11-18T21:55:13.155875+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/18/columbia-university-ms-in-climate-finance-applications-now-open-for-a-fully-funded-masters-program/",
-      "summary_tr": "Columbia Climate School, MS in Climate Finance programına başlayacak üç öğrenciye tam öğrenim ücreti bursu veriyor. Başvuru için 15 Ocak 2027 tarihine kadar lisansüstü programa başvurulması gerekmektedir.",
-      "title_tr": "Columbia University Stanley Park İklim Finansı Bursu",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "a93633dac2f3": {
       "apply_link_id": 3,
       "apply_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/reentry-program",
@@ -1273,6 +1196,62 @@
       "source_url": "https://opportunitiesforyouth.org/2026/11/19/unv-training-designers-and-training-facilitators-roster-2027-apply-for-a-three-year-individual-consultancy-with-the-united-nations-volunteers-programme/",
       "summary_tr": "UNV, dünya genelindeki gönüllüler için eğitim programları tasarlayacak, yürütecek ve değerlendirecek uzmanlardan oluşan 3 yıllık bir danışman havuzu oluşturuyor. Çalışma evden yürütülecek olup gerektiğinde seyahat içerebilir.",
       "title_tr": "UNV Eğitim Tasarımcısı ve Kolaylaştırıcı Havuzu 2027",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
+    "dc65eab2da25": {
+      "apply_link_id": 1,
+      "apply_url": "https://idabwellssociety.org/news/2027-investigative-reporting-fellowship-applications-are-live/",
+      "category": "egitim",
+      "country_tr": "ABD",
+      "deadline": "2027-01-04",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz eğitim",
+      "highlights_tr": [
+        "En az 3 yıl profesyonel gazetecilik deneyimi",
+        "Atlanta'da 4 haftalık yüz yüze eğitim",
+        "İşveren desteği ve yayın taahhüdü gereklidir"
+      ],
+      "id": "dc65eab2da25",
+      "is_opportunity": true,
+      "message_id": 109,
+      "organization": "Ida B. Wells Society for Investigative Reporting",
+      "organization_domain": "idabwellssociety.org",
+      "queued_at": "2026-11-26T00:16:54.865307+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/25/ida-b-wells-society-2027-investigative-reporting-fellowship-applications-now-open-for-journalists-seeking-advanced-investigative-reporting-training/",
+      "summary_tr": "Ida B. Wells Society, deneyimli gazetecilere yönelik Atlanta'da gerçekleşecek yoğunlaştırılmış araştırmacı gazetecilik eğitim programı için başvuruları açtı.",
+      "title_tr": "Ida B. Wells Society 2027 Araştırmacı Gazetecilik Bursu",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir kısıtlama veya açıklama bulunmamaktadır.",
+      "visual_kind": "institution"
+    },
+    "eed0aad93118": {
+      "apply_link_id": 1,
+      "apply_url": "https://law.yale.edu/schell/fellowships/post-graduate-fellowships/bernstein-fellowships",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2027-02-04",
+      "eligibility_evidence": "The Yale Bernstein Fellowships for 2027 are funded international fellowships designed for graduating Yale Law School students and recent graduates.",
+      "fee_required": false,
+      "funding_tr": "60.000 USD burs desteği",
+      "highlights_tr": [
+        "Yale Hukuk Fakültesi mezunlarına özel",
+        "60.000 USD tutarında burs desteği",
+        "Bir yıl süreli insan hakları projesi"
+      ],
+      "id": "eed0aad93118",
+      "is_opportunity": true,
+      "message_id": 110,
+      "organization": "Yale Law School",
+      "organization_domain": "law.yale.edu",
+      "queued_at": "2026-11-26T00:17:01.259976+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/yale-bernstein-fellowships-in-usa/",
+      "summary_tr": "Yale Hukuk Fakültesi mezunlarına yönelik, bir yıl süreli insan hakları savunuculuğu projelerini destekleyen 60.000 USD değerinde ücretli bir araştırma bursudur.",
+      "title_tr": "Yale Bernstein İnsan Hakları Araştırma Bursu 2027",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -1582,85 +1561,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://jobs.smartrecruiters.com/CERN/744000159596524-cern-openlab-summer-student-programme-2027",
-      "category": "staj",
-      "country_tr": "İsviçre",
-      "deadline": "2027-01-21",
-      "eligibility_evidence": "Open to candidates of all nationalities.",
-      "fee_required": false,
-      "funding_tr": "Günlük 94 CHF ödenek, sağlık sigortası ve seyahat desteği",
-      "highlights_tr": [
-        "Lisans veya yüksek lisans öğrencisi olma şartı",
-        "Günlük 94 CHF vergisiz ödenek",
-        "İyi derecede İngilizce yeterliliği"
-      ],
-      "id": "e05bd07d94e4",
-      "is_opportunity": true,
-      "organization": "CERN",
-      "organization_domain": "cern.ch",
-      "queued_at": "2026-11-11T21:54:41.419593+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/cern-openlab-summer-program/",
-      "summary_tr": "CERN OPENLAB, bilişim ve bilgisayar bilimleri alanında eğitim gören lisans ve yüksek lisans öğrencileri için İsviçre'de iki aylık ücretli yaz stajı programı sunmaktadır.",
-      "title_tr": "CERN OPENLAB Yaz Stajı Programı 2027",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://film.iksv.org/tr/yonetmelikler/46-istanbul-film-festivali-basvuru-ve-katilim-kosullari",
-      "category": "yarisma",
-      "country_tr": "Türkiye",
-      "deadline": "2027-01-10",
-      "eligibility_evidence": "Festivale Türkiye’den katılacak filmler için başvurular başladı.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "1 Ocak 2026 sonrası çekilmiş filmler",
-        "Uzun ve kısa metraj kategorileri",
-        "Başvuru için son tarih 10 Ocak 2027"
-      ],
-      "id": "8f8fcff5492e",
-      "is_opportunity": true,
-      "organization": "İstanbul Kültür Sanat Vakfı",
-      "organization_domain": "iksv.org",
-      "queued_at": "2026-11-11T21:54:49.962547+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/46-istanbul-film-festivali-basvurulari-basladi/",
-      "summary_tr": "İstanbul Kültür Sanat Vakfı tarafından düzenlenen 46. İstanbul Film Festivali için Türkiye yapımı film başvuruları başladı. Kurmaca, belgesel ve animasyon türündeki filmler için son başvuru tarihi 10 Ocak 2027.",
-      "title_tr": "46. İstanbul Film Festivali Film Başvuruları",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://tsinghuaamgenscholars.com/Program_Overview.html",
-      "category": "staj",
-      "country_tr": "Çin",
-      "deadline": "2027-03-15",
-      "eligibility_evidence": "Western Asia: Armenia; Azerbaijan; Bahrain; Cyprus; Georgia; Iraq; Israel; Jordan; Kuwait; Lebanon; Oman; Qatar; Saudi Arabia; State of Palestine; Syrian Arab Republic; Türkiye; United Arab Emirates; Yemen.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (konaklama, uçak bileti, harçlık ve yemek dahil)",
-      "highlights_tr": [
-        "Tam burslu: Konaklama, uçak ve harçlık dahil",
-        "8 hafta süreli yaz stajı",
-        "Lisans öğrencileri için araştırma fırsatı"
-      ],
-      "id": "04f80b135475",
-      "is_opportunity": true,
-      "organization": "Tsinghua University",
-      "organization_domain": "tsinghua.edu.cn",
-      "queued_at": "2026-11-11T21:55:39.855986+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/tsinghua-amgen-internship-2027-in-china/",
-      "summary_tr": "Tsinghua Üniversitesi'nde 8 hafta sürecek, bilimsel araştırma odaklı tam burslu yaz stajı programıdır. Lisans öğrencilerine açıktır.",
-      "title_tr": "Tsinghua Amgen Yaz Stajı Programı 2027 - Çin",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://bebka.org.tr/techup-2026-teknoloji-odakli-hizlandirici-programi-basvurulari-basladi/",
@@ -4221,6 +4121,154 @@
       "title_tr": "Norveç'te Erasmus+ Kapsayıcı Gönüllülük Eğitim Kursu",
       "turkey_eligible": "yes",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.culture-civic.org/duyurular/sanatsal-uretim-besinci-acik-cagri-icin-basvurular-basladi",
+      "category": "hibe",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-22",
+      "eligibility_evidence": "Sanatsal Üretim Fonu, sadece Türkiye’de ikamet eden sanatçıların başvurusuna açık.",
+      "fee_required": false,
+      "funding_tr": "Maksimum 6.000 avroya kadar destek",
+      "highlights_tr": [
+        "25-45 yaş arası sanatçılar başvurabilir",
+        "Maksimum 6.000 avro hibe",
+        "22 Aralık 2026'da sona eriyor"
+      ],
+      "id": "66fd4c259d71",
+      "is_opportunity": true,
+      "organization": "CultureCIVIC",
+      "organization_domain": "culture-civic.org",
+      "queued_at": "2026-11-26T00:17:45.854562+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/culturecivic-sanatsal-uretim-fonunun-besinci-acik-cagrisi-icin-basvurular-devam-ediyor/",
+      "summary_tr": "CultureCIVIC Sanatsal Üretim Fonu, görsel sanatçılara proje üretimi için hibe desteği sağlıyor. 2026'da sona erecek çağrı, 25-45 yaş arası sanatçıların başvurularına açık.",
+      "title_tr": "CultureCIVIC Sanatsal Üretim Fonu 5. Çağrı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 0,
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Sözleşmeli bilişim personeli alımı",
+        "Başvurular e-Devlet ile yapılacak",
+        "Son başvuru tarihi ilan sayfasında"
+      ],
+      "icon": "landmark",
+      "id": "8b73252d5782",
+      "image_queries": [
+        "Mersin University campus",
+        "Turkey university staff recruitment",
+        "Turkish public institution"
+      ],
+      "is_opportunity": true,
+      "organization": "MERSİN ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+      "organization_domain": "",
+      "queued_at": "2026-11-26T00:18:08.899700+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
+      "summary_tr": "Mersin Üniversitesi Rektörlüğü, 1 adet sözleşmeli bilişim personeli alımı yapacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişiyle yapılacaktır.",
+      "title_tr": "Mersin Üniversitesi Rektörlüğü - Bilişim Personel Alımı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdPnlQ4Jx8w7NaalhqODvebZlCjFk8sLehtiMM4yuRLKwTbaQ/viewform",
+      "category": "egitim",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Ücretsiz atölye",
+        "Ankara'da gerçekleşecek",
+        "Dizüstü bilgisayar gereklidir"
+      ],
+      "id": "0b38db86e2c6",
+      "image_queries": [
+        "Ankara city center",
+        "Turkey data visualization",
+        "online learning workshop"
+      ],
+      "is_opportunity": true,
+      "organization": "Veri Kaynağı",
+      "organization_domain": "",
+      "queued_at": "2026-11-26T00:18:21.892332+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/veri-gorsellestirme-ve-hikaye-anlaticiligi-atolyesi-katilimlarinizi-bekliyor/",
+      "summary_tr": "Veri Kaynağı, Ankara'da 5 Aralık 2026'da düzenlenecek ücretsiz Veri Görselleştirme ve Hikaye Anlatıcılığı Atölyesi için kayıtları başlattı. Katılımcılar veri bulma, grafik türleri ve yapay zeka araçlarını öğrenecek.",
+      "title_tr": "Veri Görselleştirme ve Hikaye Anlatıcılığı Atölyesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/aygazdakariyer/otogaz-satis-yoneticisi-marmara-bolge_75/",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "İstanbul Asya veya Kocaeli'nde ikamet eden / edebilecek olan.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "0-3 yıl tecrübe",
+        "SAP bilgisi tercih sebebidir",
+        "Seyahat engeli olmamalı"
+      ],
+      "id": "814a78dad81f",
+      "is_opportunity": true,
+      "organization": "Youthall",
+      "organization_domain": "youthall.com",
+      "queued_at": "2026-11-26T00:18:28.568717+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/aygazdakariyer/otogaz-satis-yoneticisi-marmara-bolge_75/",
+      "summary_tr": "Marmara Bölgesi'ndeki otogaz bayilerini yönetmek, satış ve pazar payını artırmak için faaliyetler yürütmek üzere Satış Yöneticisi aranıyor. İstanbul Asya veya Kocaeli'nde ikamet edenler başvurabilir.",
+      "title_tr": "Otogaz Satış Yöneticisi (Marmara Bölge)",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Sözleşmeli personel alımı",
+        "Bilgisayar Mühendisi pozisyonu",
+        "İstanbul'da istihdam"
+      ],
+      "icon": "landmark",
+      "id": "91e67ead240a",
+      "is_opportunity": true,
+      "organization": "TÜRKİYE SU ENSTİTÜSÜ BAŞKANLIĞI",
+      "organization_domain": "",
+      "queued_at": "2026-11-26T00:18:34.548804+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e",
+      "summary_tr": "Türkiye Su Enstitüsü Başkanlığı, İstanbul'da istihdam edilmek üzere sözleşmeli bilgisayar mühendisi alımı yapacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişiyle yapılacaktır.",
+      "title_tr": "Türkiye Su Enstitüsü Başkanlığı - Bilgisayar Mühendisi Alımı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4321,10 +4369,10 @@
       "ts": "2026-11-16T11:03:41.061545+00:00"
     },
     "04f80b135475": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Tsinghua Amgen Yaz Stajı Programı 2027 - Çin",
-      "ts": "2026-11-11T21:55:39.856002+00:00"
+      "ts": "2026-11-26T00:16:32.419567+00:00"
     },
     "054cbda30e24": {
       "reason": "Türkiye'ye kapalı: Eligible applicants must be full-time students enrolled at an accredited college or university in North Carolina.",
@@ -4421,6 +4469,12 @@
       "status": "rejected",
       "title": "ENHANCER PRO Hibe Programları",
       "ts": "2026-10-29T23:04:17.957136+00:00"
+    },
+    "0b38db86e2c6": {
+      "reason": "",
+      "status": "queued",
+      "title": "Veri Görselleştirme ve Hikaye Anlatıcılığı Atölyesi",
+      "ts": "2026-11-26T00:18:21.892351+00:00"
     },
     "0b6e8524b344": {
       "reason": "",
@@ -4757,6 +4811,12 @@
       "status": "rejected",
       "title": "UNDP Online Volunteer Opportunity 2026: 12 Research Support Positions in Biodiversity and Ecosystem Services Across Sout",
       "ts": "2026-10-30T09:52:27.706218+00:00"
+    },
+    "23f7c0759c0e": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Tüplügaz Satış Yöneticisi (Ege Bölge)",
+      "ts": "2026-11-26T00:17:52.717472+00:00"
     },
     "255b1a20120d": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -5323,10 +5383,10 @@
       "ts": "2026-11-24T10:54:58.797110+00:00"
     },
     "4fb76b259a82": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "WAF Global Internship Program 2027: Apply for a Three-Month Remote Internship in Global Agriculture, Research and Policy",
-      "ts": "2026-11-18T21:54:14.778663+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "World Agriculture Forum (WAF) 2027 Uzaktan Staj Programı",
+      "ts": "2026-11-26T00:16:32.419791+00:00"
     },
     "5107c2437858": {
       "reason": "",
@@ -5627,6 +5687,12 @@
       "status": "queued",
       "title": "Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alımı",
       "ts": "2026-11-20T11:36:48.744457+00:00"
+    },
+    "66fd4c259d71": {
+      "reason": "",
+      "status": "queued",
+      "title": "CultureCIVIC Sanatsal Üretim Fonu 5. Çağrı",
+      "ts": "2026-11-26T00:17:45.854580+00:00"
     },
     "67e3ab3f0174": {
       "reason": "",
@@ -5952,6 +6018,12 @@
       "title": "Up to 6 Fully Funded PhD Positions in Economics at the University of Gothenburg, Sweden – 2027",
       "ts": "2026-11-20T20:06:45.136701+00:00"
     },
+    "814a78dad81f": {
+      "reason": "",
+      "status": "queued",
+      "title": "Otogaz Satış Yöneticisi (Marmara Bölge)",
+      "ts": "2026-11-26T00:18:28.568735+00:00"
+    },
     "8162981a9ca5": {
       "reason": "",
       "status": "queued",
@@ -6005,6 +6077,12 @@
       "status": "expired",
       "title": "World Leaders Convention 2027 - Viyana, Avusturya",
       "ts": "2026-11-19T21:27:26.709051+00:00"
+    },
+    "8464a04b118e": {
+      "reason": "Türkiye'ye kapalı: You must be a UK resident.",
+      "status": "rejected",
+      "title": "Santander Research Grants 2026-2027: Apply for One of 50 £1,000 Awards for UK Postgraduate Students and University Staff",
+      "ts": "2026-11-26T00:18:40.075428+00:00"
     },
     "8529ed92dfdc": {
       "reason": "bekleme süresi doldu",
@@ -6090,6 +6168,12 @@
       "title": "Avrupa Konseyi 2027 Gençlik Delegeleri Programı",
       "ts": "2026-11-16T11:04:28.930246+00:00"
     },
+    "8b73252d5782": {
+      "reason": "",
+      "status": "queued",
+      "title": "Mersin Üniversitesi Rektörlüğü - Bilişim Personel Alımı",
+      "ts": "2026-11-26T00:18:08.899720+00:00"
+    },
     "8bd808bd7c66": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6121,10 +6205,10 @@
       "ts": "2026-11-11T21:54:35.103817+00:00"
     },
     "8f8fcff5492e": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "46. İstanbul Film Festivali Film Başvuruları",
-      "ts": "2026-11-11T21:54:49.962564+00:00"
+      "ts": "2026-11-26T00:16:32.419559+00:00"
     },
     "900cd1adb7cb": {
       "reason": "bekleme süresi doldu",
@@ -6168,6 +6252,12 @@
       "title": "İspanya'da Erasmus+ Eğitim Kursu: Sosyal Kapsayıcılık ve Spor",
       "ts": "2026-11-13T22:34:34.615944+00:00"
     },
+    "91e67ead240a": {
+      "reason": "",
+      "status": "queued",
+      "title": "Türkiye Su Enstitüsü Başkanlığı - Bilgisayar Mühendisi Alımı",
+      "ts": "2026-11-26T00:18:34.548823+00:00"
+    },
     "9220b9bd1202": {
       "reason": "",
       "status": "queued",
@@ -6199,10 +6289,10 @@
       "ts": "2026-11-13T16:15:07.388919+00:00"
     },
     "964d6b677c88": {
-      "reason": "İlan, başvuru yapacak adayların uyruğu veya çalışma izni gereklilikleri hakkında bilgi vermemektedir.",
-      "status": "pending",
-      "title": "Plan International Ghana Announces Three Job Vacancies for November 2026: Project Accountant, District Officer and Suppl",
-      "ts": "2026-11-18T21:54:58.832884+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Plan International Gana İş İlanları",
+      "ts": "2026-11-26T00:16:32.419812+00:00"
     },
     "984b86faeb90": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -6373,10 +6463,10 @@
       "ts": "2026-11-01T13:10:17.106010+00:00"
     },
     "a4581acb8b6a": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Columbia University Stanley Park Climate Finance Scholarships 2027: Fully Funded Tuition for Three Students in the MS in",
-      "ts": "2026-11-18T21:55:13.155894+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Columbia University Stanley Park İklim Finansı Bursu",
+      "ts": "2026-11-26T00:16:32.419819+00:00"
     },
     "a493a6f9fbf5": {
       "reason": "son başvuru geçti",
@@ -6954,6 +7044,12 @@
       "title": "Sanofi Foundation Climate Action and Youth Resilience Grant 2026: Apply for €50,000–€100,000 Funding for Youth-Led Clima",
       "ts": "2026-11-23T12:21:54.342036+00:00"
     },
+    "d27d35c2d88b": {
+      "reason": "Türkiye'ye kapalı: This centralized recruitment initiative serves as a gateway for talented professionals, recent graduates, policy enthusi",
+      "status": "rejected",
+      "title": "2026 U.S. Senators-Elect Resume Collection: Comprehensive Guide to Applying for Career Opportunities in New U.S. Senate ",
+      "ts": "2026-11-26T00:18:14.518595+00:00"
+    },
     "d31682b3c6e6": {
       "reason": "",
       "status": "published",
@@ -7044,6 +7140,12 @@
       "title": "Kültür ve Turizm Bakanlığı Sözleşmeli Kütüphaneci Alımı Duyurusu",
       "ts": "2026-11-02T10:55:34.759482+00:00"
     },
+    "dc65eab2da25": {
+      "reason": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir kısıtlama veya açıklama bulunmamaktadır.",
+      "status": "pending",
+      "title": "Ida B. Wells Society 2027 Investigative Reporting Fellowship: Applications Now Open for Journalists Seeking Advanced Inv",
+      "ts": "2026-11-26T00:16:54.865325+00:00"
+    },
     "dc852ae18f0a": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -7117,10 +7219,10 @@
       "ts": "2026-11-16T11:04:16.148640+00:00"
     },
     "e05bd07d94e4": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "CERN OPENLAB Yaz Stajı Programı 2027",
-      "ts": "2026-11-11T21:54:41.419610+00:00"
+      "ts": "2026-11-26T00:16:32.419540+00:00"
     },
     "e17422aaa482": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -7295,6 +7397,12 @@
       "status": "expired",
       "title": "KAIST Lisans Bursu 2027 - Güney Kore",
       "ts": "2026-11-21T23:08:28.025944+00:00"
+    },
+    "eed0aad93118": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Yale Bernstein Fellowships 2027 in USA",
+      "ts": "2026-11-26T00:17:01.259994+00:00"
     },
     "f0aef4d3310d": {
       "reason": "",
@@ -7820,6 +7928,13 @@
     "çekya'da etik i letişim eğitim kursu",
     "otogaz satış yöneticisi ege bölge",
     "vital strategies bölge direktörleri ve küresel program direktörü i ş i lanları",
-    "norveç'te erasmus kapsayıcı gönüllülük eğitim kursu"
+    "norveç'te erasmus kapsayıcı gönüllülük eğitim kursu",
+    "ida b wells society 2027 araştırmacı gazetecilik bursu",
+    "yale bernstein i nsan hakları araştırma bursu 2027",
+    "culturecivic sanatsal üretim fonu 5 çağrı",
+    "mersin üniversitesi rektörlüğü bilişim personel alımı",
+    "veri görselleştirme ve hikaye anlatıcılığı atölyesi",
+    "otogaz satış yöneticisi marmara bölge",
+    "türkiye su enstitüsü başkanlığı bilgisayar mühendisi alımı"
   ]
 }
