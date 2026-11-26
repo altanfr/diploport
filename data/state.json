@@ -349,7 +349,13 @@
     "kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
     "docs.google.com/forms/d/e/1FAIpQLSdPnlQ4Jx8w7NaalhqODvebZlCjFk8sLehtiMM4yuRLKwTbaQ/viewform",
     "youthall.com/tr/aygazdakariyer/otogaz-satis-yoneticisi-marmara-bolge_75",
-    "kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e"
+    "kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e",
+    "waikato.ac.nz/study/scholarships/find-a-scholarship/vice-chancellors-international-excellence-scholarship",
+    "youthall.com/tr/sanipak/sanipak-kampus-elcisi-programi_18",
+    "customervoice.microsoft.com/Pages/ResponsePage.aspx?id=sH2RfPJxjkOVVDiP_KuHZA3q96izpO5DvxEp0unbmHtUQlk1UUxBS1JGNU9CRU5US0c0Mkg2NlBNQy4u",
+    "whoacademy.org",
+    "web103.reachmee.com/ext/I021/1690/apply?site=7&lang=UK&validator=9c16162aeec1b1c78db51d0c3e4163a1&job_id=149",
+    "hhs.se/news/hoi-news/2026/phd-positions-at-the-house-of-innovation-for-2027"
   ],
   "outbox": [
     {
@@ -401,6 +407,16 @@
       "source": "Kariyer Kapısı",
       "title": "Savunma Sanayii Başkanlığı Sözleşmeli Personel Alımı",
       "ts": "2026-11-25T15:33:50.345861+00:00"
+    },
+    {
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55263_en",
+      "attempts": 0,
+      "caption": "Azerbaycan'da ESC Gönüllülük Projesi\n\nAzerbaycan'ın Sumgayıt kentinde 13 hafta sürecek, AB tarafından finanse edilen ESC gönüllülük projesi için 18-35 yaş arası katılımcılar aranıyor.\n\n- 18-35 yaş arası gençler başvurabilir\n- Konaklama ve aylık 630 € ödenek sağlanıyor\n- İngilizce iletişim becerisi gereklidir\n\nBaşvuru: https://youth.europa.eu/solidarity/opportunity/55263_en\nTüm fırsatlar: https://diploport.dev/#d79aebde32d8\n\nGörsel: Kim Ampie / Unsplash\n\n#diploport #fırsat #türkgençler #gönüllülük #erasmus #avrupagönüllülükhizmeti",
+      "id": "d79aebde32d8",
+      "photo_query": "volunteers community outdoor",
+      "source": "AB İlan",
+      "title": "Azerbaycan'da ESC Gönüllülük Projesi",
+      "ts": "2026-11-26T09:33:30.392380+00:00"
     }
   ],
   "pending": {
@@ -966,6 +982,35 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
+    "6684ea835adb": {
+      "apply_link_id": 2,
+      "apply_url": "https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=sH2RfPJxjkOVVDiP_KuHZA3q96izpO5DvxEp0unbmHtUQlk1UUxBS1JGNU9CRU5US0c0Mkg2NlBNQy4u",
+      "category": "egitim",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "2026-12-14",
+      "eligibility_evidence": "Businesses from anywhere in the world can apply, provided they can travel to York in the United Kingdom and participate in the required in-person activities.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz katılım",
+      "highlights_tr": [
+        "12 haftalık ücretsiz hızlandırma programı",
+        "Yaşam bilimleri alanındaki tüm girişimlere açık",
+        "York, Birleşik Krallık'ta yüz yüze katılım zorunluluğu"
+      ],
+      "id": "6684ea835adb",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 114,
+      "organization": "University of York and NatWest",
+      "organization_domain": "york.ac.uk",
+      "queued_at": "2026-11-26T09:30:52.678705+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/26/university-of-york-natwest-life-sciences-accelerator-2027-free-12-week-programme-in-the-uk-for-global-life-sciences-businesses/",
+      "summary_tr": "University of York ve NatWest tarafından düzenlenen, yaşam bilimleri alanındaki girişimciler ve şirketler için 12 haftalık ücretsiz iş geliştirme ve hızlandırma programı.",
+      "title_tr": "University of York & NatWest Yaşam Bilimleri Hızlandırma Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
     "697a8815f7f8": {
       "apply_link_id": 3,
       "apply_url": "https://unitar.org/vacancy-announcements",
@@ -1055,35 +1100,6 @@
       "title_tr": "University of Gothenburg Ekonomi Doktora Pozisyonları",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et.",
-      "visual_kind": "institution"
-    },
-    "a93633dac2f3": {
-      "apply_link_id": 3,
-      "apply_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/reentry-program",
-      "category": "is",
-      "country_tr": "Çok ülkeli",
-      "deadline": "2027-02-28",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Ücretli fellowship",
-      "highlights_tr": [
-        "En az 2 yıl kariyer molası şartı",
-        "15 haftalık ücretli fellowship",
-        "Mentorluk ve mesleki eğitim desteği"
-      ],
-      "id": "a93633dac2f3",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 64,
-      "organization": "JPMorganChase",
-      "organization_domain": "jpmorganchase.com",
-      "queued_at": "2026-11-19T03:20:06.905770+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/18/jpmorgan-chase-reentry-program-2026-applications-now-open-for-returning-professionals/",
-      "summary_tr": "JPMorganChase, en az iki yıllık kariyer molası vermiş deneyimli profesyoneller için 15 haftalık ücretli bir işe dönüş programı sunmaktadır. Program, katılımcılara eğitim, mentorluk ve tam zamanlı istihdam imkanı sağlar.",
-      "title_tr": "JPMorganChase ReEntry Program 2027: 15 Haftalık Ücretli Fellowship",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Metinde programın hangi ülkelerdeki ofisler için açık olduğu belirtilmiş ancak Türkiye'nin bu kapsama dahil olup olmadığına dair net bir ifade yer almamaktadır.",
       "visual_kind": "institution"
     },
     "b22ad837d4f8": {
@@ -1228,6 +1244,34 @@
       "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir kısıtlama veya açıklama bulunmamaktadır.",
       "visual_kind": "institution"
     },
+    "ebb4635dca46": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/vice-chancellors-international-excellence-scholarship/",
+      "category": "burs",
+      "country_tr": "Yeni Zelanda",
+      "deadline": "",
+      "eligibility_evidence": "The University of Waikato International Excellence Scholarship is a wonderful opportunity for all international students.",
+      "fee_required": false,
+      "funding_tr": "Kısmi burs (2.500 - 15.000 NZD arası)",
+      "highlights_tr": [
+        "Lisans ve lisansüstü programlar için geçerli",
+        "Akademik başarıya dayalı seçim",
+        "15.000 NZD'ye varan eğitim desteği"
+      ],
+      "id": "ebb4635dca46",
+      "is_opportunity": true,
+      "message_id": 113,
+      "organization": "University of Waikato",
+      "organization_domain": "waikato.ac.nz",
+      "queued_at": "2026-11-26T09:29:25.315196+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/vice-chancellors-international-excellence-scholarship/",
+      "summary_tr": "University of Waikato tarafından uluslararası öğrencilere sunulan, lisans ve lisansüstü programları kapsayan kısmi eğitim bursu programıdır.",
+      "title_tr": "University of Waikato Vice Chancellor’s International Excellence Scholarship",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "scene"
+    },
     "eed0aad93118": {
       "apply_link_id": 1,
       "apply_url": "https://law.yale.edu/schell/fellowships/post-graduate-fellowships/bernstein-fellowships",
@@ -1283,6 +1327,35 @@
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metin, bursun sadece Afrika kıtasındaki öğrencilere yönelik olduğunu ima eden ifadeler içermekte ancak Türkiye'nin uygunluğu konusunda net bir liste veya açıklama bulunmamaktadır.",
       "visual_kind": "scene"
+    },
+    "f3069a13c678": {
+      "apply_link_id": 1,
+      "apply_url": "https://www.hhs.se/news/hoi-news/2026/phd-positions-at-the-house-of-innovation-for-2027/",
+      "category": "burs",
+      "country_tr": "İsveç",
+      "deadline": "2027-01-15",
+      "eligibility_evidence": "The general PhD opportunity is presented as an international doctoral admissions round.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu ve öğrenim ücreti yok",
+      "highlights_tr": [
+        "Tam zamanlı ve tam burslu doktora programı",
+        "İngilizce eğitim dili",
+        "4-5 yıl süreli akademik araştırma fırsatı"
+      ],
+      "id": "f3069a13c678",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 115,
+      "organization": "Stockholm School of Economics",
+      "organization_domain": "hhs.se",
+      "queued_at": "2026-11-26T09:33:25.277460+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/25/fully-funded-phd-at-stockholm-school-of-economics-2027-study-business-administration-in-sweden-with-research-opportunities-in-ai-innovation-entrepreneurship-and-sustainability/",
+      "summary_tr": "Stockholm School of Economics, İşletme alanında 4-5 yıllık tam zamanlı ve tam burslu doktora programı için başvuruları kabul ediyor. Program, yapay zeka, inovasyon ve sürdürülebilirlik gibi alanlarda araştırmaları desteklemektedir.",
+      "title_tr": "Stockholm School of Economics 2027 Doktora Pozisyonları",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
     },
     "f91bd76cb7ca": {
       "apply_link_id": 1,
@@ -1561,58 +1634,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://bebka.org.tr/techup-2026-teknoloji-odakli-hizlandirici-programi-basvurulari-basladi/",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-27",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Mentorluk, yatırım hazırlığı ve ödül fırsatları",
-      "highlights_tr": [
-        "Marmara Bölgesi'ndeki girişimlere özel",
-        "Mentorluk ve yatırım hazırlığı desteği",
-        "Demo Day ile yatırımcılarla buluşma"
-      ],
-      "id": "c64ff63a6a94",
-      "is_opportunity": true,
-      "organization": "Bursa Eskişehir Bilecik Kalkınma Ajansı",
-      "organization_domain": "bebka.org.tr",
-      "queued_at": "2026-11-12T02:56:37.812247+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/bebka-techup-2026-teknoloji-odakli-hizlandirici-programi-basvurulari-acildi/",
-      "summary_tr": "BEBKA tarafından düzenlenen TechUP 2026, Marmara Bölgesi'ndeki teknoloji girişimlerinin büyüme, ticarileşme ve yatırım süreçlerini destekleyen bir hızlandırıcı programıdır.",
-      "title_tr": "BEBKA TechUP 2026 Teknoloji Odaklı Hızlandırıcı Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.tev.org.tr/burs/tr/54/tev-abd-burslari",
-      "category": "burs",
-      "country_tr": "ABD",
-      "deadline": "2027-05-31",
-      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
-      "fee_required": false,
-      "funding_tr": "Yaklaşık 20.000 USD yaşam desteği",
-      "highlights_tr": [
-        "35 yaş altı T.C. vatandaşı olma şartı",
-        "9-21 ay arası burs süresi",
-        "İngilizce dil yeterlilik belgesi zorunluluğu"
-      ],
-      "id": "9904d4d7b663",
-      "is_opportunity": true,
-      "organization": "Türk Eğitim Vakfı",
-      "organization_domain": "tev.org.tr",
-      "queued_at": "2026-11-12T02:56:57.698079+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tev-abd-yuksek-lisans-bursu-icin-basvurular-aciliyor/",
-      "summary_tr": "Türk Eğitim Vakfı tarafından ABD'deki üniversitelerde yüksek lisans yapacak T.C. vatandaşı öğrencilere verilen burs programıdır. Tıp ve performans sanatları dışındaki tüm alanları kapsamaktadır.",
-      "title_tr": "TEV ABD Yüksek Lisans Bursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://www.tev.org.tr/burs/tr/21/yurt-disi-burslar-tip-burslari",
@@ -2350,6 +2371,7 @@
       "title_tr": "SistersLab Adıyaman Yapay Zeka ve Algoritma Eğitimi",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
+      "visual_alerted": true,
       "visual_kind": "institution"
     },
     {
@@ -2647,33 +2669,6 @@
       "title_tr": "Çimsa CoLAB Lisans Proje Mentorluk Programı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55263_en",
-      "category": "gonulluluk",
-      "country_tr": "Azerbaycan",
-      "deadline": "",
-      "eligibility_evidence": "AB üyesi ülkelerden birinde, Kuzey Makedonya’da, İzlanda’da, Lihtenştayn’da veya Türkiye’de ikamet etmesi",
-      "fee_required": false,
-      "funding_tr": "Konaklama, aylık 630 € ödenek ve seyahat desteği",
-      "highlights_tr": [
-        "18-35 yaş arası gençler başvurabilir",
-        "Konaklama ve aylık 630 € ödenek sağlanıyor",
-        "İngilizce iletişim becerisi gereklidir"
-      ],
-      "id": "d79aebde32d8",
-      "is_opportunity": true,
-      "organization": "Medicos del Mundo",
-      "organization_domain": "medicosdelmundo.org",
-      "queued_at": "2026-11-18T13:55:46.390475+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/azerbaycanda-gerceklesecek-esc-projesi-gonullulerini-ariyor/",
-      "summary_tr": "Azerbaycan'ın Sumgayıt kentinde 13 hafta sürecek, AB tarafından finanse edilen ESC gönüllülük projesi için 18-35 yaş arası katılımcılar aranıyor.",
-      "title_tr": "Azerbaycan'da ESC Gönüllülük Projesi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 1,
@@ -4269,6 +4264,89 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/sanipak/sanipak-kampus-elcisi-programi_18/",
+      "category": "diger",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Mentörlük, eğitim ve sertifika imkanı",
+      "highlights_tr": [
+        "Üniversite 2. ve 3. sınıf öğrencileri için",
+        "Profesyonellerle network ve mentörlük",
+        "Program sonunda katılım sertifikası"
+      ],
+      "id": "2b6a9790d8a8",
+      "is_opportunity": true,
+      "organization": "Sanipak",
+      "organization_domain": "sanipak.com.tr",
+      "queued_at": "2026-11-26T09:30:21.280792+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/sanipak/sanipak-kampus-elcisi-programi_18/",
+      "summary_tr": "Sanipak, üniversitelerin 2. ve 3. sınıflarında okuyan, kulüp faaliyetlerinde aktif öğrencileri kampüs elçisi olarak arıyor.",
+      "title_tr": "Sanipak Kampüs Elçisi Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://whoacademy.org/",
+      "category": "egitim",
+      "country_tr": "Online",
+      "deadline": "",
+      "eligibility_evidence": "The WHO Academy aims to build a healthier world by making world-class health education accessible to people regardless of their geographical location.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Dünya genelinde herkese açık",
+        "Tamamen ücretsiz online eğitim",
+        "Kanser önleme ve halk sağlığı odaklı"
+      ],
+      "id": "8a2d59964f97",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "World Health Organization",
+      "organization_domain": "who.int",
+      "queued_at": "2026-11-26T09:31:00.684897+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/26/who-academy-free-online-courses-2026-enroll-in-free-who-training-courses-and-gain-global-health-skills/",
+      "summary_tr": "Dünya Sağlık Örgütü (WHO) Akademisi, halk sağlığı, kanser önleme ve sağlık sistemleri gibi konularda dünya genelindeki öğrencilere ve profesyonellere yönelik ücretsiz online eğitimler sunmaktadır.",
+      "title_tr": "WHO Academy Ücretsiz Online Sağlık Kursları",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 2,
+      "apply_url": "https://web103.reachmee.com/ext/I021/1690/apply?site=7&lang=UK&validator=9c16162aeec1b1c78db51d0c3e4163a1&job_id=149",
+      "category": "staj",
+      "country_tr": "İsveç",
+      "deadline": "2026-12-02",
+      "eligibility_evidence": "The organization is committed to equal opportunities and aims to promote workforce diversity across different dimensions, including gender, nationality and cultural background.",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz (Maddi destek sağlanmamaktadır)",
+      "highlights_tr": [
+        "Üniversite staj programı kapsamında olma zorunluluğu",
+        "Uluslararası ilişkiler ve yönetim öğrencileri için uygun",
+        "Staj süresince tüm masraflar öğrenciye aittir"
+      ],
+      "id": "f302a0414afa",
+      "image_queries": [
+        "Stockholm city landscape",
+        "Sweden university students",
+        "international office internship"
+      ],
+      "is_opportunity": true,
+      "organization": "Stockholm International Peace Research Institute (SIPRI)",
+      "organization_domain": "sipri.org",
+      "queued_at": "2026-11-26T09:31:16.353807+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/26/sipri-internship-2027-in-sweden-fully-detailed-guide-to-the-directors-office-internship-in-stockholm/",
+      "summary_tr": "Stockholm Uluslararası Barış Araştırmaları Enstitüsü (SIPRI), Direktörlük Ofisi'nde görev alacak üniversite öğrencileri için staj programı sunmaktadır. Staj, 2027 başından Haziran ortasına kadar sürecektir.",
+      "title_tr": "SIPRI Direktörlük Ofisi Staj Programı 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4511,6 +4589,12 @@
       "status": "pending",
       "title": "Richmond Scholars Program 2027 in USA | Fully Funded",
       "ts": "2026-11-21T17:26:42.703569+00:00"
+    },
+    "107a2621e7fd": {
+      "reason": "Türkiye'ye kapalı: Confirm that you are the founder, co-founder, or senior-most decision-maker of an organisation that serves people in Pak",
+      "status": "rejected",
+      "title": "Friends of Pakistan Fellowship 2027: Apply for a Seven-Day Leadership and Social Impact Scaling Programme in Pakistan",
+      "ts": "2026-11-26T09:28:44.203241+00:00"
     },
     "1105e45c1d83": {
       "reason": "bekleme süresi doldu",
@@ -4871,6 +4955,12 @@
       "status": "expired",
       "title": "New York Times Gazetecilik Bursu ve Fellowship Programı 2026",
       "ts": "2026-11-16T20:59:14.686189+00:00"
+    },
+    "2b6a9790d8a8": {
+      "reason": "",
+      "status": "queued",
+      "title": "Sanipak Kampüs Elçisi Programı",
+      "ts": "2026-11-26T09:30:21.280805+00:00"
     },
     "2b6f06743729": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -5340,6 +5430,12 @@
       "title": "Camp Rising Sun 2027: Fully Funded International Leadership Summer Program in New York",
       "ts": "2026-11-19T21:29:03.361105+00:00"
     },
+    "4a4a4871ebf6": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "INTERACT-Africa Scholarships 2026/2027: Fully Funded Postgraduate Research Opportunities in Kenya, Uganda, Tanzania and ",
+      "ts": "2026-11-26T09:31:25.003389+00:00"
+    },
     "4cddf0e2a362": {
       "reason": "Metin, başvuru için gerekli vatandaşlık veya oturum izni şartlarını belirtmemiş, sadece bu şartların kontrol edilmesi gerektiğini ifade etmiştir.",
       "status": "pending",
@@ -5669,6 +5765,12 @@
       "status": "pending",
       "title": "WHO/Europe Knowledge Community on Social Media, AI and Youth Mental Health 2026: Call for Participants to Help Shape Saf",
       "ts": "2026-11-23T12:23:09.628274+00:00"
+    },
+    "6684ea835adb": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "University of York & NatWest Life Sciences Accelerator 2027 – Free 12-Week Programme in the UK for Global Life Sciences ",
+      "ts": "2026-11-26T09:30:52.678719+00:00"
     },
     "66b6695bf145": {
       "reason": "bekleme süresi doldu",
@@ -6150,6 +6252,12 @@
       "title": "SistersLab Adıyaman Yapay Zeka ve Algoritma Eğitimi",
       "ts": "2026-11-16T21:00:35.908137+00:00"
     },
+    "8a2d59964f97": {
+      "reason": "",
+      "status": "queued",
+      "title": "WHO Academy Ücretsiz Online Sağlık Kursları",
+      "ts": "2026-11-26T09:31:00.684910+00:00"
+    },
     "8a8db25c2bbc": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6313,10 +6421,10 @@
       "ts": "2026-11-14T22:19:00.459393+00:00"
     },
     "9904d4d7b663": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "TEV ABD Yüksek Lisans Bursu",
-      "ts": "2026-11-12T02:56:57.698094+00:00"
+      "ts": "2026-11-26T09:28:22.634567+00:00"
     },
     "992b05b17e6a": {
       "reason": "bekleme süresi doldu",
@@ -6535,10 +6643,10 @@
       "ts": "2026-11-20T11:35:48.264297+00:00"
     },
     "a93633dac2f3": {
-      "reason": "Metinde programın hangi ülkelerdeki ofisler için açık olduğu belirtilmiş ancak Türkiye'nin bu kapsama dahil olup olmadığına dair net bir ifade yer almamaktadır.",
-      "status": "pending",
-      "title": "JPMorganChase ReEntry Program 2027: Apply for a 15-Week Paid Fellowship to Relaunch Your Career After a Career Break",
-      "ts": "2026-11-19T03:20:06.905790+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "JPMorganChase ReEntry Program 2027: 15 Haftalık Ücretli Fellowship",
+      "ts": "2026-11-26T09:28:22.634823+00:00"
     },
     "ab17b962f612": {
       "reason": "",
@@ -6569,6 +6677,12 @@
       "status": "expired",
       "title": "TU Wien Helmut Veith Yüksek Lisans Bursu",
       "ts": "2026-11-15T17:41:33.568435+00:00"
+    },
+    "ac6c1059b7e3": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Yunanistan’da ESC Gönüllülük Projesi Katılımcı Çağrısı",
+      "ts": "2026-11-26T09:29:44.514895+00:00"
     },
     "acddf474fad2": {
       "reason": "bekleme süresi doldu",
@@ -6919,10 +7033,10 @@
       "ts": "2026-11-19T12:56:59.791346+00:00"
     },
     "c64ff63a6a94": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "BEBKA TechUP 2026 Teknoloji Odaklı Hızlandırıcı Programı",
-      "ts": "2026-11-12T02:56:37.812268+00:00"
+      "ts": "2026-11-26T09:28:22.634544+00:00"
     },
     "c6968f35ef41": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -7043,6 +7157,12 @@
       "status": "rejected",
       "title": "Sanofi Foundation Climate Action and Youth Resilience Grant 2026: Apply for €50,000–€100,000 Funding for Youth-Led Clima",
       "ts": "2026-11-23T12:21:54.342036+00:00"
+    },
+    "d1db6dc982b1": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "WHO Academy Offers 400+ Free Online Courses for Health Workers Worldwide in More Than 20 Languages",
+      "ts": "2026-11-26T09:31:58.594514+00:00"
     },
     "d27d35c2d88b": {
       "reason": "Türkiye'ye kapalı: This centralized recruitment initiative serves as a gateway for talented professionals, recent graduates, policy enthusi",
@@ -7338,6 +7458,12 @@
       "title": "Erasmus Mundus EMLE Scholarship 2027 | Fully Funded",
       "ts": "2026-11-20T20:06:03.789014+00:00"
     },
+    "ebb4635dca46": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Vice Chancellor’s International Excellence Scholarship 2027 in New Zealand",
+      "ts": "2026-11-26T09:29:25.315209+00:00"
+    },
     "ebc946645452": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -7433,6 +7559,18 @@
       "status": "pending",
       "title": "Healthy Futures Mastercard Scholarship 2027 in South Africa",
       "ts": "2026-11-24T21:10:06.141703+00:00"
+    },
+    "f302a0414afa": {
+      "reason": "",
+      "status": "queued",
+      "title": "SIPRI Direktörlük Ofisi Staj Programı 2027",
+      "ts": "2026-11-26T09:31:16.353820+00:00"
+    },
+    "f3069a13c678": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Fully Funded PhD at Stockholm School of Economics 2027: Study Business Administration in Sweden with Research Opportunit",
+      "ts": "2026-11-26T09:33:25.277475+00:00"
     },
     "f3e9a405a88c": {
       "reason": "",
@@ -7935,6 +8073,12 @@
     "mersin üniversitesi rektörlüğü bilişim personel alımı",
     "veri görselleştirme ve hikaye anlatıcılığı atölyesi",
     "otogaz satış yöneticisi marmara bölge",
-    "türkiye su enstitüsü başkanlığı bilgisayar mühendisi alımı"
+    "türkiye su enstitüsü başkanlığı bilgisayar mühendisi alımı",
+    "university of waikato vice chancellor's international excellence scholarship",
+    "sanipak kampüs elçisi programı",
+    "university of york natwest yaşam bilimleri hızlandırma programı",
+    "who academy ücretsiz online sağlık kursları",
+    "sipri direktörlük ofisi staj programı 2027",
+    "stockholm school of economics 2027 doktora pozisyonları"
   ]
 }
