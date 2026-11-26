@@ -355,7 +355,12 @@
     "customervoice.microsoft.com/Pages/ResponsePage.aspx?id=sH2RfPJxjkOVVDiP_KuHZA3q96izpO5DvxEp0unbmHtUQlk1UUxBS1JGNU9CRU5US0c0Mkg2NlBNQy4u",
     "whoacademy.org",
     "web103.reachmee.com/ext/I021/1690/apply?site=7&lang=UK&validator=9c16162aeec1b1c78db51d0c3e4163a1&job_id=149",
-    "hhs.se/news/hoi-news/2026/phd-positions-at-the-house-of-innovation-for-2027"
+    "hhs.se/news/hoi-news/2026/phd-positions-at-the-house-of-innovation-for-2027",
+    "higher.gs.com/campus?EXPERIENCE_LEVEL=Seasonal&LOCATION=Singapore%7CHong+Kong%7CTokyo%7CSydney%7CBeijing%7CSeoul%7CTaipei&page=1&sort=RELEVANCEGoldman+Sachs+Internship+2027+offers+hands-on+experience%2C+mentorship%2C+and+international+opportunities+for+students+and+graduates.",
+    "bundestag.de/europa_internationales/ips_verteiler",
+    "youthall.com/tr/BurganBank/burgan-finansal-kiralama-muhasebe-stajyeri_74",
+    "forms.cloud.microsoft/Pages/ResponsePage.aspx?id=2zWeD09UYE-9zF6kFubccP_1g7sT-6tBqgRmZzatWPlUOFRUUTFEMUVDMjhJWU1HQTg5RVMzNU9FQS4u",
+    "youth.europa.eu/solidarity/opportunity/55340_en"
   ],
   "outbox": [
     {
@@ -625,35 +630,6 @@
       "title_tr": "ANSO-CAS-TWAS/UNESCO Doktora Bursu",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Türkiye'nin TWAS tarafından tanımlanan 'gelişmekte olan ülkeler' listesinde olup olmadığı metinde belirtilmemiştir.",
-      "visual_kind": "institution"
-    },
-    "1d2ca2849d02": {
-      "apply_link_id": 3,
-      "apply_url": "https://view.monday.com/18439182670-6965991a2c2c689b8760566aa18ef618?r=use1",
-      "category": "is",
-      "country_tr": "ABD",
-      "deadline": "2026-12-06",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Maaş ve yan haklar",
-      "highlights_tr": [
-        "5-8 yıl arası deneyim şartı",
-        "Bir yıllık tam zamanlı ücretli çalışma",
-        "Mentorluk ve profesyonel ağ desteği"
-      ],
-      "id": "1d2ca2849d02",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 66,
-      "organization": "PBS",
-      "organization_domain": "pbs.org",
-      "queued_at": "2026-11-19T12:59:32.374820+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/19/pbs-accelerator-fellowship-2027-2028-paid-one-year-media-fellowship-for-producers-journalists-editors-and-creative-media-professionals/",
-      "summary_tr": "PBS Accelerator Fellowship, medya sektöründe kariyer yapmak isteyen orta seviye profesyoneller için bir yıllık ücretli çalışma ve mentorluk programıdır.",
-      "title_tr": "PBS Accelerator Fellowship 2027–2028",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Metinde başvuru için gerekli çalışma izni veya vatandaşlık şartlarına dair bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
     },
     "22d670f20a19": {
@@ -1044,6 +1020,34 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
+    "6c7005890feb": {
+      "apply_link_id": 1,
+      "apply_url": "https://higher.gs.com/campus?EXPERIENCE_LEVEL=Seasonal&LOCATION=Singapore%7CHong+Kong%7CTokyo%7CSydney%7CBeijing%7CSeoul%7CTaipei&page=1&sort=RELEVANCEGoldman+Sachs+Internship+2027+offers+hands-on+experience%2C+mentorship%2C+and+international+opportunities+for+students+and+graduates.",
+      "category": "staj",
+      "country_tr": "Çok ülkeli",
+      "deadline": "",
+      "eligibility_evidence": "Goldman Sachs Internship offers off-cycle internships to students and graduates from around the world.",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "Lisans ve yeni mezun öğrencilere açık",
+        "3-12 ay arası staj süresi",
+        "Finans sektöründe profesyonel mentorluk"
+      ],
+      "id": "6c7005890feb",
+      "is_opportunity": true,
+      "message_id": 119,
+      "organization": "Goldman Sachs",
+      "organization_domain": "goldmansachs.com",
+      "queued_at": "2026-11-26T19:35:37.108713+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/goldman-sachs-internship/",
+      "summary_tr": "Goldman Sachs, dünya genelindeki lisans ve yeni mezun öğrencilere yönelik 3-12 ay süreli, finans sektöründe pratik deneyim ve mentorluk sağlayan dönem dışı staj programları sunmaktadır.",
+      "title_tr": "Goldman Sachs 2027 Dönem Dışı Staj Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "visual_kind": "institution"
+    },
     "779fb2e0d713": {
       "apply_link_id": 3,
       "apply_url": "https://careers.bankofcanada.ca/job/Ottawa-(Downtown)-PhD-Researcher-(2026-2027-PhD-Job-Market)-ON/606660617/",
@@ -1356,34 +1360,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
-    },
-    "f91bd76cb7ca": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.eraseindifference.org/challenge/apply/",
-      "category": "yarisma",
-      "country_tr": "Çok ülkeli",
-      "deadline": "2026-12-04",
-      "eligibility_evidence": "The Erase Indifference Challenge is a global initiative established to recognise and reward projects that are actively working to reduce indifference towards discrimination.",
-      "fee_required": false,
-      "funding_tr": "Toplam 90.000 Euro ödül havuzu",
-      "highlights_tr": [
-        "Toplam 90.000 Euro ödül desteği",
-        "Halihazırda yürütülen projeler için",
-        "Küresel başvuruya açık"
-      ],
-      "id": "f91bd76cb7ca",
-      "is_opportunity": true,
-      "message_id": 65,
-      "organization": "",
-      "organization_domain": "",
-      "queued_at": "2026-11-19T12:59:03.057700+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/19/erase-indifference-challenge-2026-apply-for-e90000-in-awards-for-innovative-projects-combating-discrimination-hate-and-social-indifference/",
-      "summary_tr": "Erase Indifference Challenge, ayrımcılığa karşı kayıtsızlığı azaltmayı amaçlayan, halihazırda yürütülen yenilikçi sosyal projeleri ödüllendiren küresel bir girişimdir.",
-      "title_tr": "Erase Indifference Challenge 2026",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
     }
   },
   "published": [
@@ -1634,111 +1610,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.tev.org.tr/burs/tr/21/yurt-disi-burslar-tip-burslari",
-      "category": "burs",
-      "country_tr": "ABD ve Batı Avrupa",
-      "deadline": "2027-04-12",
-      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 40 yaş altında olmak,",
-      "fee_required": false,
-      "funding_tr": "Geri ödemeli burs (şartlı geri ödemesiz)",
-      "highlights_tr": [
-        "40 yaş altı tıp doktorları için",
-        "6 ay ile 2 yıl arası süre",
-        "İngilizce dil yeterliliği şartı"
-      ],
-      "id": "49bfd213c6d7",
-      "is_opportunity": true,
-      "organization": "Türk Eğitim Vakfı",
-      "organization_domain": "tev.org.tr",
-      "queued_at": "2026-11-12T10:59:41.644663+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tev-dr-orhan-birman-tip-arastirma-bursu-icin-basvurular-devam-ediyor/",
-      "summary_tr": "Türk Eğitim Vakfı, tıp doktorlarına ABD ve Batı Avrupa'da üst ihtisas ve araştırma çalışmaları için burs desteği sağlamaktadır.",
-      "title_tr": "TEV Dr. Orhan Birman Tıp Araştırma Bursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.tev.org.tr/burs/tr/53/tev-avrupa-burslari",
-      "category": "burs",
-      "country_tr": "Avrupa",
-      "deadline": "2027-05-31",
-      "eligibility_evidence": "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
-      "fee_required": false,
-      "funding_tr": "Yaşam masrafları için 13.000 EUR'ya kadar destek",
-      "highlights_tr": [
-        "35 yaş altı olma şartı",
-        "9-21 ay burs süresi",
-        "İngilizce dil yeterliliği şartı"
-      ],
-      "id": "14211c8e8393",
-      "is_opportunity": true,
-      "organization": "Türk Eğitim Vakfı",
-      "organization_domain": "tev.org.tr",
-      "queued_at": "2026-11-12T10:59:50.412837+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tev-avrupa-ulkeleri-yuksek-lisans-bursu-basvurulari-basliyor/",
-      "summary_tr": "Türk Eğitim Vakfı, Avrupa'daki üniversitelerde yüksek lisans yapacak 10 öğrenciye yaşam masraflarını karşılamaya yönelik burs desteği sağlamaktadır.",
-      "title_tr": "TEV Avrupa Ülkeleri Yüksek Lisans Bursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.s.u-tokyo.ac.jp/en/utrip/apply-now/",
-      "category": "staj",
-      "country_tr": "Japonya",
-      "deadline": "2026-12-25",
-      "eligibility_evidence": "The UTRIP Internship is open to all Nationalities.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (konaklama, uçak bileti, yemek ve harçlık)",
-      "highlights_tr": [
-        "Tam burslu: Ulaşım, konaklama ve yemek dahil",
-        "6 haftalık araştırma odaklı staj programı",
-        "Tüm ülkelerden lisans öğrencilerine açık"
-      ],
-      "id": "4dce148eeb23",
-      "is_opportunity": true,
-      "organization": "University of Tokyo",
-      "organization_domain": "u-tokyo.ac.jp",
-      "queued_at": "2026-11-12T18:53:31.384702+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/utrip-summer-internship-2027-in-japan/",
-      "summary_tr": "Tokyo Üniversitesi tarafından düzenlenen, lisans öğrencilerine yönelik 6 haftalık tam burslu yaz araştırma stajı programıdır.",
-      "title_tr": "UTRIP Yaz Stajı 2027 - Japonya",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://mentiguide.com/basvuru/tohumlab",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "Lise öğrencileri ve üniversite mentörleri için",
-        "Yapay zeka, finans ve girişimcilik odaklı",
-        "Eğitim süreci ve hackathon içerir"
-      ],
-      "id": "483fa1e65db4",
-      "is_opportunity": true,
-      "organization": "TohumLab",
-      "organization_domain": "mentiguide.com",
-      "queued_at": "2026-11-12T18:54:20.816524+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/tohumlabin-ilk-programi-future-builders-ogrenci-ve-mentorlerin-basvurularini-bekliyor/",
-      "summary_tr": "TohumLab, lise öğrencileri için yapay zeka, finansal okuryazarlık ve girişimcilik alanlarında eğitim ve hackathon içeren Future Builders programına başvuruları açtı.",
-      "title_tr": "TohumLab Future Builders Öğrenci ve Mentör Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
     {
       "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1",
       "category": "is",
@@ -4347,6 +4218,112 @@
       "title_tr": "SIPRI Direktörlük Ofisi Staj Programı 2027",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.bundestag.de/europa_internationales/ips_verteiler",
+      "category": "burs",
+      "country_tr": "Almanya",
+      "deadline": "2026-12-02",
+      "eligibility_evidence": "Alman Federal Meclisi, Uluslararası Parlamento Bursu kapsamında her yıl yaklaşık 50 ülkeden 120 genç üniversite mezununa, Almanya’nın parlamenter sistemini yakından tanıma fırsatı sunuyor.",
+      "fee_required": false,
+      "funding_tr": "Burs programı kapsamında karşılanmaktadır",
+      "highlights_tr": [
+        "Üniversite mezunlarına yönelik program",
+        "Almanya parlamento sistemini tanıma fırsatı",
+        "Beş ay süren burs programı"
+      ],
+      "id": "7019d2f8c451",
+      "is_opportunity": true,
+      "organization": "Alman Federal Meclisi",
+      "organization_domain": "bundestag.de",
+      "queued_at": "2026-11-26T19:35:44.176328+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/alman-federal-meclisi-2028-parlamento-bursu-bilgilendirme-toplantisi/",
+      "summary_tr": "Almanya Büyükelçiliği, 2028 Uluslararası Parlamento Bursu (IPS) programı hakkında Ankara'da bilgilendirme toplantısı düzenliyor. Toplantıya katılım için 2 Aralık 2026 tarihine kadar kayıt yaptırılması gerekmektedir.",
+      "title_tr": "Alman Federal Meclisi 2028 Uluslararası Parlamento Bursu Bilgilendirme",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/BurganBank/burgan-finansal-kiralama-muhasebe-stajyeri_74/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "Hafta içi 5 gün devam zorunluluğu",
+        "En az 6 ay süreli staj",
+        "Yeni mezunlar için uygun"
+      ],
+      "id": "7f5dede02a05",
+      "is_opportunity": true,
+      "organization": "Burgan Finansal Kiralama",
+      "organization_domain": "",
+      "queued_at": "2026-11-26T19:35:50.428291+00:00",
+      "source": "Youthall",
+      "source_url": "https://www.youthall.com/tr/BurganBank/burgan-finansal-kiralama-muhasebe-stajyeri_74/",
+      "summary_tr": "Burgan Finansal Kiralama bünyesinde, muhasebe biriminde görev alacak, hafta içi 5 gün devam edebilecek uzun dönem stajyer aranıyor.",
+      "title_tr": "Burgan Finansal Kiralama Muhasebe Stajyeri",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 3,
+      "apply_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=2zWeD09UYE-9zF6kFubccP_1g7sT-6tBqgRmZzatWPlUOFRUUTFEMUVDMjhJWU1HQTg5RVMzNU9FQS4u",
+      "category": "diger",
+      "country_tr": "Online",
+      "deadline": "2026-12-03",
+      "eligibility_evidence": "The Global Youth Network for Human Rights is open to all young people interested in human rights, regardless of their: Background or identity",
+      "fee_required": false,
+      "funding_tr": "Ücretsiz",
+      "highlights_tr": [
+        "Dünya genelinde tüm gençlere açık",
+        "Deneyim veya kurum üyeliği gerekmiyor",
+        "Anket katılımı 5-15 dakika sürüyor"
+      ],
+      "id": "6b85451952d0",
+      "image_queries": [],
+      "is_opportunity": true,
+      "organization": "United Nations Office of the High Commissioner for Human Rights",
+      "organization_domain": "ohchr.org",
+      "queued_at": "2026-11-26T19:36:18.767998+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/26/un-global-youth-network-for-human-rights-join-a-worldwide-network-and-share-your-views-on-human-rights-cities/",
+      "summary_tr": "BM İnsan Hakları Yüksek Komiserliği (OHCHR), gençleri küresel ağa katılmaya ve yerel yönetimlerde insan hakları üzerine düzenlenen anket ile görüşlerini paylaşmaya davet ediyor.",
+      "title_tr": "BM Küresel İnsan Hakları Gençlik Ağı ve İnsan Hakları Şehirleri Anketi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55340_en",
+      "category": "gonulluluk",
+      "country_tr": "Polonya",
+      "deadline": "2026-12-14",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek desteği ve cep harçlığı karşılanır",
+      "highlights_tr": [
+        "1 Nisan - 30 Eylül 2027 tarihleri arasında",
+        "Konaklama, yemek ve ulaşım desteği sağlanıyor",
+        "Doğa koruma ve çevre eğitimi alanında çalışma"
+      ],
+      "id": "2314e1f963db",
+      "is_opportunity": true,
+      "organization": "Świętokrzyskie ve Nida Nehri Peyzaj Parkları Kompleksi",
+      "organization_domain": "",
+      "queued_at": "2026-11-26T19:36:43.720929+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/katilimci-cagrisi-polonyada-6-aylik-esc-gonulluluk-projesi/",
+      "summary_tr": "Polonya'da bulunan Çevre Eğitimi Merkezi'nde doğa koruma, biyoçeşitlilik araştırmaları ve çevre eğitimi alanlarında 6 ay boyunca görev alacak 4 gönüllü aranıyor.",
+      "title_tr": "Polonya’da 6 Aylık ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
     }
   ],
   "seen": {
@@ -4355,6 +4332,12 @@
       "status": "pending",
       "title": "Nestlé MILE 2027: Apply for Nestlé’s 3-Day Leadership Immersion and Learning Experience in the Philippines – Unlock Care",
       "ts": "2026-11-25T04:53:39.556762+00:00"
+    },
+    "010eb148041f": {
+      "reason": "Türkiye'ye kapalı: Applicants must be US citizens and possess a valid US passport.",
+      "status": "rejected",
+      "title": "Fulbright UK Summer Institutes 2027 | Fully Funded",
+      "ts": "2026-11-26T19:36:04.758956+00:00"
     },
     "0164c1253066": {
       "reason": "",
@@ -4633,10 +4616,10 @@
       "ts": "2026-11-07T01:55:09.939323+00:00"
     },
     "14211c8e8393": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "TEV Avrupa Ülkeleri Yüksek Lisans Bursu",
-      "ts": "2026-11-12T10:59:50.412854+00:00"
+      "ts": "2026-11-26T19:35:10.952893+00:00"
     },
     "15413e41dc96": {
       "reason": "Türkiye'ye kapalı: ActionSA has announced recruitment for three positions as it seeks patriotic and talented South Africans to become part ",
@@ -4777,10 +4760,10 @@
       "ts": "2026-11-18T21:54:35.987944+00:00"
     },
     "1d2ca2849d02": {
-      "reason": "Metinde başvuru için gerekli çalışma izni veya vatandaşlık şartlarına dair bir bilgi bulunmamaktadır.",
-      "status": "pending",
-      "title": "PBS Accelerator Fellowship 2027–2028: Paid One-Year Media Fellowship for Producers, Journalists, Editors and Creative Me",
-      "ts": "2026-11-19T12:59:32.374839+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "PBS Accelerator Fellowship 2027–2028",
+      "ts": "2026-11-26T19:35:10.953141+00:00"
     },
     "1e5ec320b681": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -4877,6 +4860,12 @@
       "status": "queued",
       "title": "TEI Jet Talent Ideathon Yarışması",
       "ts": "2026-11-24T21:09:26.196282+00:00"
+    },
+    "2314e1f963db": {
+      "reason": "",
+      "status": "queued",
+      "title": "Polonya’da 6 Aylık ESC Gönüllülük Projesi",
+      "ts": "2026-11-26T19:36:43.720948+00:00"
     },
     "236d325023ec": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5389,10 +5378,10 @@
       "ts": "2026-10-31T12:10:38.328503+00:00"
     },
     "483fa1e65db4": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "TohumLab Future Builders Öğrenci ve Mentör Programı",
-      "ts": "2026-11-12T18:54:20.816552+00:00"
+      "ts": "2026-11-26T19:35:10.952911+00:00"
     },
     "4875371e543d": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -5413,10 +5402,10 @@
       "ts": "2026-11-17T22:16:02.556742+00:00"
     },
     "49bfd213c6d7": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "TEV Dr. Orhan Birman Tıp Araştırma Bursu",
-      "ts": "2026-11-12T10:59:41.644679+00:00"
+      "ts": "2026-11-26T19:35:10.952872+00:00"
     },
     "4a003a589fd4": {
       "reason": "bekleme süresi doldu",
@@ -5461,10 +5450,10 @@
       "ts": "2026-11-20T11:38:16.634846+00:00"
     },
     "4dce148eeb23": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "UTRIP Yaz Stajı 2027 - Japonya",
-      "ts": "2026-11-12T18:53:31.384725+00:00"
+      "ts": "2026-11-26T19:35:10.952904+00:00"
     },
     "4ef46d949125": {
       "reason": "Türkiye'ye kapalı: The Asia Foundation Development Fellows Program 2027 presents a valuable leadership development opportunity for outstand",
@@ -5573,6 +5562,12 @@
       "status": "pending",
       "title": "UNITAR Communications and Graphic Design Traineeship 2027",
       "ts": "2026-11-19T21:28:09.590692+00:00"
+    },
+    "57cc5eee1fe9": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "University of Gothenburg Opens Applications for Up to Six Fully Funded PhD Positions in Economics in Sweden for 2027",
+      "ts": "2026-11-26T19:35:30.853219+00:00"
     },
     "591dc6cbbb02": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -5868,11 +5863,23 @@
       "title": "Terra Future Labs Girişimcilik Programı",
       "ts": "2026-11-17T03:46:54.668975+00:00"
     },
+    "6b85451952d0": {
+      "reason": "",
+      "status": "queued",
+      "title": "BM Küresel İnsan Hakları Gençlik Ağı ve İnsan Hakları Şehirleri Anketi",
+      "ts": "2026-11-26T19:36:18.768018+00:00"
+    },
     "6c461f707486": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
       "title": "Council of Europe 2027 Genç Delege Programı",
       "ts": "2026-11-21T17:26:05.925258+00:00"
+    },
+    "6c7005890feb": {
+      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
+      "status": "pending",
+      "title": "Goldman Sachs Internship 2027",
+      "ts": "2026-11-26T19:35:37.108732+00:00"
     },
     "6cf6c684d4af": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5909,6 +5916,12 @@
       "status": "expired",
       "title": "Purdue University Yaz Lisans Araştırma Bursu (SURF) 2027",
       "ts": "2026-11-20T03:06:15.153604+00:00"
+    },
+    "7019d2f8c451": {
+      "reason": "",
+      "status": "queued",
+      "title": "Alman Federal Meclisi 2028 Uluslararası Parlamento Bursu Bilgilendirme",
+      "ts": "2026-11-26T19:35:44.176349+00:00"
     },
     "70c2eb3f09a3": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -6108,6 +6121,12 @@
       "title": "Rockefeller Foundation Big Bets Fellowship 2027 in the United States | Applications Open for Community Leaders and Socia",
       "ts": "2026-11-21T01:29:19.067539+00:00"
     },
+    "7f5dede02a05": {
+      "reason": "",
+      "status": "queued",
+      "title": "Burgan Finansal Kiralama Muhasebe Stajyeri",
+      "ts": "2026-11-26T19:35:50.428310+00:00"
+    },
     "7ffbe6fb4e3b": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6305,6 +6324,12 @@
       "status": "queued",
       "title": "Çekya'da Etik İletişim Eğitim Kursu",
       "ts": "2026-11-25T15:33:27.629992+00:00"
+    },
+    "8d6585902d2b": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "İKA 2026 Anadoludakiler: Yerel Değerler Teknik Destek Programı",
+      "ts": "2026-11-26T19:36:10.954704+00:00"
     },
     "8e011d739f29": {
       "reason": "",
@@ -6870,6 +6895,12 @@
       "title": "Anthropic Almanya Münih Ofisi İş İlanları",
       "ts": "2026-11-22T21:44:59.554093+00:00"
     },
+    "b8bdbe35dc5a": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "UNV Training Designers and Training Facilitators Roster 2027: Apply for a Three-Year United Nations Individual Consultan",
+      "ts": "2026-11-26T19:35:59.057363+00:00"
+    },
     "b8d9757ae6b2": {
       "reason": "son başvuru geçti",
       "status": "expired",
@@ -7187,6 +7218,12 @@
       "status": "published",
       "title": "Kamu İhale Kurumu - Kamu İhale Uzman Yardımcılığı Giriş Sınavı",
       "ts": "2026-11-07T08:43:17.499206+00:00"
+    },
+    "d4595841e910": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "University of Toronto Free Online Courses",
+      "ts": "2026-11-26T19:36:24.537046+00:00"
     },
     "d483e60348a9": {
       "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
@@ -7633,10 +7670,10 @@
       "ts": "2026-11-24T10:52:10.747956+00:00"
     },
     "f91bd76cb7ca": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Erase Indifference Challenge 2026: Apply for €90,000 in Awards for Innovative Projects Combating Discrimination, Hate an",
-      "ts": "2026-11-19T12:59:03.057720+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Erase Indifference Challenge 2026",
+      "ts": "2026-11-26T19:35:10.953206+00:00"
     },
     "f969288f4d9b": {
       "reason": "son başvuru geçti",
@@ -8079,6 +8116,11 @@
     "university of york natwest yaşam bilimleri hızlandırma programı",
     "who academy ücretsiz online sağlık kursları",
     "sipri direktörlük ofisi staj programı 2027",
-    "stockholm school of economics 2027 doktora pozisyonları"
+    "stockholm school of economics 2027 doktora pozisyonları",
+    "goldman sachs 2027 dönem dışı staj programı",
+    "alman federal meclisi 2028 uluslararası parlamento bursu bilgilendirme",
+    "burgan finansal kiralama muhasebe stajyeri",
+    "bm küresel i nsan hakları gençlik ağı ve i nsan hakları şehirleri anketi",
+    "polonya'da 6 aylık esc gönüllülük projesi"
   ]
 }
