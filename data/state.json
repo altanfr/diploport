@@ -363,7 +363,12 @@
     "youth.europa.eu/solidarity/opportunity/55340_en",
     "ifturquie.org/haber/programme-assistant-de-langue-turque-en-france-2027",
     "kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f",
-    "eit.europa.eu/our-activities/opportunities/catalyse-neb-2027-open-call"
+    "eit.europa.eu/our-activities/opportunities/catalyse-neb-2027-open-call",
+    "docs.google.com/forms/d/e/1FAIpQLSfSpiga2DZU1rw7BfrDxhOHNjjCJKabl8QFCsovgWq-NhClgg/viewform?usp=send_form",
+    "resources.rsf.org/rsf-berlin-fellowship-2027-applications-now-open",
+    "youth.europa.eu/solidarity/opportunity/55352_en",
+    "kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+    "mfa.gr/turkey/tr/consulate-general-in-izmir/news/yunanistanin-izmir-baskonsoloslugunda-ozel-sekreter-pozisyonu-icin-ilan.html"
   ],
   "outbox": [
     {
@@ -425,6 +430,16 @@
       "source": "AB İlan",
       "title": "Azerbaycan'da ESC Gönüllülük Projesi",
       "ts": "2026-11-26T09:33:30.392380+00:00"
+    },
+    {
+      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/play-your-part-games-youth-participation-and-social-entrepreneurship.15500/",
+      "attempts": 0,
+      "caption": "Mısır'da Oyun Temelli Gençlik Katılımı ve Sosyal Girişimcilik Eğitimi\n\nKahire'de düzenlenecek olan Play Your Part eğitim programı, gençlik çalışanları ve kolaylaştırıcılar için oyun temelli öğrenme ve sosyal girişimcilik yöntemlerini kapsayan uluslararası bir eğitimdir.\n\n- Gençlik çalışanlarına yönelik eğitim\n- Oyun temelli öğrenme ve sosyal girişimcilik\n- 22-28 Ocak 2027 tarihleri arasında\n\nBaşvuru: https://www.salto-youth.net/tools/european-training-calendar/training/play-your-part-games-youth-participation-and-social-entrepreneurship.15500/\nTüm fırsatlar: https://diploport.dev/#b1ac19ebc66e\n\nGörsel: Faqih Abdul / Unsplash\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "b1ac19ebc66e",
+      "photo_query": "Cairo Egypt city",
+      "source": "Erasmusgram",
+      "title": "Mısır'da Oyun Temelli Gençlik Katılımı ve Sosyal Girişimcilik Eğitimi",
+      "ts": "2026-11-27T12:08:53.081256+00:00"
     }
   ],
   "pending": {
@@ -545,34 +560,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "1697d270e90c": {
-      "apply_link_id": 1,
-      "apply_url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=12TkI-YEh0uRPCS9iSGf03Ez9rx-WdFDjrVAKPw8dzRUMEVWQlpGNlgxUDcwRUxBUENYUzdNODJMNyQlQCN0PWcu&route=shorturl",
-      "category": "diger",
-      "country_tr": "Çok ülkeli",
-      "deadline": "2027-01-15",
-      "eligibility_evidence": "For the second cohort of the YAB, we are looking for twelve young leaders from across the world",
-      "fee_required": false,
-      "funding_tr": "Tam burslu seyahat imkanı",
-      "highlights_tr": [
-        "18-28 yaş arası gençler başvurabilir",
-        "İki yıllık danışmanlık süreci",
-        "Cenevre'ye tam destekli seyahat imkanı"
-      ],
-      "id": "1697d270e90c",
-      "is_opportunity": true,
-      "message_id": 72,
-      "organization": "International Telecommunication Union",
-      "organization_domain": "itu.int",
-      "queued_at": "2026-11-20T03:06:38.888916+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/19/itu-secretary-generals-youth-advisory-board-second-cohort-2027/",
-      "summary_tr": "ITU Genel Sekreteri'ne dijital kalkınma konularında tavsiyelerde bulunacak 12 genç liderden oluşan ikinci dönem Gençlik Danışma Kurulu'na başvurular başladı.",
-      "title_tr": "ITU Genel Sekreteri Gençlik Danışma Kurulu Üyeliği",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "16d960be27d0": {
       "apply_link_id": 1,
       "apply_url": "https://twas.org/opportunity/anso-cas-twasunesco-phd-scholarship",
@@ -660,6 +647,35 @@
       "title_tr": "UNICEF UK Spor Danışma Kurulu Üyeliği",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında herhangi bir kısıtlama veya açıklama bulunmamaktadır.",
+      "visual_kind": "institution"
+    },
+    "3162d9589a39": {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfSpiga2DZU1rw7BfrDxhOHNjjCJKabl8QFCsovgWq-NhClgg/viewform?usp=send_form",
+      "category": "is",
+      "country_tr": "Kenya",
+      "deadline": "2026-12-11",
+      "eligibility_evidence": "",
+      "fee_required": false,
+      "funding_tr": "Maaşlı pozisyon",
+      "highlights_tr": [
+        "Nairobi, Kenya'da tam zamanlı çalışma",
+        "Ekonomik kalkınma alanında deneyim şart",
+        "Başvurular değerlendirme sürecine göre alınır"
+      ],
+      "id": "3162d9589a39",
+      "image_queries": [],
+      "is_opportunity": true,
+      "message_id": 124,
+      "organization": "J-PAL Africa",
+      "organization_domain": "povertyactionlab.org",
+      "queued_at": "2026-11-27T12:06:48.587413+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/27/j-pal-africa-policy-manager-firms-livelihoods-job-2026-in-kenya-apply-for-a-senior-economic-development-role/",
+      "summary_tr": "J-PAL Africa, Nairobi merkezli çalışacak, ekonomik kalkınma ve politika geliştirme süreçlerini yönetecek deneyimli bir Politika Yöneticisi arıyor.",
+      "title_tr": "J-PAL Africa Politika Yöneticisi Pozisyonu",
+      "turkey_eligible": "unclear",
+      "unclear_reason_tr": "İlan herhangi bir uyruk kısıtlamasından veya kabulünden bahsetmemektedir.",
       "visual_kind": "institution"
     },
     "3efa04693e60": {
@@ -930,35 +946,6 @@
       "title_tr": "Goldman Sachs 2027 Dönem Dışı Staj Programı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
-    "779fb2e0d713": {
-      "apply_link_id": 3,
-      "apply_url": "https://careers.bankofcanada.ca/job/Ottawa-(Downtown)-PhD-Researcher-(2026-2027-PhD-Job-Market)-ON/606660617/",
-      "category": "is",
-      "country_tr": "Kanada",
-      "deadline": "2027-04-30",
-      "eligibility_evidence": "The recruitment announcement states that priority will be given to Canadian citizens and permanent residents.",
-      "fee_required": false,
-      "funding_tr": "Yıllık 114.952 - 156.778 CAD maaş",
-      "highlights_tr": [
-        "Ekonomi alanında doktora derecesi şartı",
-        "Ottawa merkezli hibrit çalışma modeli",
-        "Yıllık 114.952 - 156.778 CAD maaş"
-      ],
-      "id": "779fb2e0d713",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 73,
-      "organization": "Bank of Canada",
-      "organization_domain": "bankofcanada.ca",
-      "queued_at": "2026-11-20T03:06:46.189392+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/19/bank-of-canada-phd-researcher-jobs-2026-2027-earn-up-to-cad-156778-annually-in-ottawa-apply-for-up-to-8-research-positions/",
-      "summary_tr": "Kanada Merkez Bankası, ekonomi alanında doktora derecesine sahip veya 2027'de mezun olacak araştırmacılar için 8 kişilik tam zamanlı ve kalıcı pozisyon açmıştır.",
-      "title_tr": "Bank of Canada Doktora Araştırmacısı Pozisyonları",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "İlan Kanada vatandaşlarına ve daimi ikamet izni olanlara öncelik vermektedir; diğer adayların başvuru şartlarını dikkatle incelemesi gerektiği belirtilmiştir.",
       "visual_kind": "institution"
     },
     "80974652f203": {
@@ -1567,38 +1554,6 @@
       "title_tr": "Mısır Hükûmeti Bursları",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/play-your-part-games-youth-participation-and-social-entrepreneurship.15500/",
-      "category": "egitim",
-      "country_tr": "Mısır",
-      "deadline": "",
-      "eligibility_evidence": "iKNOWLEDGY tarafından organize edilen program, Kahire’de farklı ülkelerden gelen katılımcıları buluşturacak.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Gençlik çalışanlarına yönelik eğitim",
-        "Oyun temelli öğrenme ve sosyal girişimcilik",
-        "22-28 Ocak 2027 tarihleri arasında"
-      ],
-      "id": "b1ac19ebc66e",
-      "image_queries": [
-        "Cairo Egypt city",
-        "Egypt youth workshop",
-        "international youth training"
-      ],
-      "is_opportunity": true,
-      "organization": "iKNOWLEDGY",
-      "organization_domain": "",
-      "queued_at": "2026-11-13T22:35:14.493246+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/misir-kahire-7-gun-erasmus-projesi/",
-      "summary_tr": "Kahire'de düzenlenecek olan Play Your Part eğitim programı, gençlik çalışanları ve kolaylaştırıcılar için oyun temelli öğrenme ve sosyal girişimcilik yöntemlerini kapsayan uluslararası bir eğitimdir.",
-      "title_tr": "Mısır'da Oyun Temelli Gençlik Katılımı ve Sosyal Girişimcilik Eğitimi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
     },
     {
       "apply_link_id": 3,
@@ -4176,6 +4131,116 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://resources.rsf.org/rsf-berlin-fellowship-2027-applications-now-open/",
+      "category": "burs",
+      "country_tr": "Almanya",
+      "deadline": "2026-12-15",
+      "eligibility_evidence": "Applicants from any country can apply if they are at significant risk due to their journalistic work.",
+      "fee_required": false,
+      "funding_tr": "Tam burs (konaklama, ulaşım, vize ve aylık ödenek)",
+      "highlights_tr": [
+        "En az 3 yıl mesleki deneyim şartı",
+        "İleri düzey İngilizce yeterliliği",
+        "6 ay süreli tam kapsamlı burs"
+      ],
+      "id": "3be563712586",
+      "image_queries": [
+        "Berlin city skyline",
+        "Germany journalism office",
+        "journalists working office"
+      ],
+      "is_opportunity": true,
+      "organization": "Reporters Without Borders",
+      "organization_domain": "rsf.org",
+      "queued_at": "2026-11-27T12:06:56.733376+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/rsf-berlin-fellowship-program/",
+      "summary_tr": "RSF Berlin, dijital güvenlik alanında uzmanlaşmak isteyen, gazetecilik faaliyetleri nedeniyle risk altında olan gazetecilere yönelik 6 aylık tam kapsamlı bir burs programıdır.",
+      "title_tr": "RSF Berlin Gazetecilik Burs Programı 2027",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://youth.europa.eu/solidarity/opportunity/55352_en",
+      "category": "gonulluluk",
+      "country_tr": "Letonya",
+      "deadline": "2026-11-30",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek, ulaşım ve cep harçlığı karşılanır",
+      "highlights_tr": [
+        "7 haftalık gönüllülük süresi",
+        "Konaklama, yemek ve ulaşım desteği",
+        "Youthpass sertifikası imkanı"
+      ],
+      "id": "035cb0daa2ff",
+      "is_opportunity": true,
+      "organization": "European Solidarity Corps",
+      "organization_domain": "youth.europa.eu",
+      "queued_at": "2026-11-27T12:07:03.972934+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/letonyada-avrupa-kultur-baskenti-2027-etkinlikleri-icin-esc-gonulluluk-projesi-katilimci-cagrisi/",
+      "summary_tr": "Letonya'nın Liepāja şehrinde düzenlenecek Avrupa Kültür Başkenti 2027 etkinliklerinde görev alacak gönüllüler aranıyor. 7 haftalık bu ESC projesi, kültürel etkinliklerin organizasyonuna destek olmayı amaçlıyor.",
+      "title_tr": "Letonya'da Avrupa Kültür Başkenti 2027 ESC Gönüllülük Projesi",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "4ff00d0971cf",
+      "is_opportunity": true,
+      "organization": "AVRUPA BİRLİĞİ BAŞKANLIĞI",
+      "organization_domain": "ab.gov.tr",
+      "queued_at": "2026-11-27T12:07:19.133793+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+      "summary_tr": "Avrupa Birliği Başkanlığı bünyesinde görevlendirilmek üzere sözleşmeli destek personeli (şoför) alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Avrupa Birliği Başkanlığı Sözleşmeli Destek Personeli (Şoför) Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.mfa.gr/turkey/tr/consulate-general-in-izmir/news/yunanistanin-izmir-baskonsoloslugunda-ozel-sekreter-pozisyonu-icin-ilan.html",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "İzmir'de çalışma imkanı",
+        "Tam zamanlı pozisyon",
+        "İki yıl süreli görev"
+      ],
+      "id": "83aaa4719f6d",
+      "is_opportunity": true,
+      "organization": "Yunanistan İzmir Başkonsolosluğu",
+      "organization_domain": "mfa.gr",
+      "queued_at": "2026-11-27T12:08:36.018177+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/yunanistan-izmir-baskonsoloslugu-ozel-sekreter-alimi/",
+      "summary_tr": "Yunanistan İzmir Başkonsolosluğu, iki yıl süreli ve tam zamanlı çalışacak özel sekreter pozisyonu için personel alımı yapacağını duyurdu.",
+      "title_tr": "Yunanistan İzmir Başkonsolosluğu Özel Sekreter Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4209,6 +4274,12 @@
       "title": "Vital Strategies Vision Access Program Jobs: Regional Deputy Directors in Africa and Asia and Global Program Director Op",
       "ts": "2026-11-25T15:33:40.292293+00:00"
     },
+    "023321e14500": {
+      "reason": "Türkiye'ye kapalı: The program is intended for eligible young people within the United States and its territories, rather than applicants f",
+      "status": "rejected",
+      "title": "2027 Congressional Leadership Academy for Foster Youth: Six-Month Leadership Program to Advocate for Child Welfare Refor",
+      "ts": "2026-11-27T12:08:26.525880+00:00"
+    },
     "024a83bbca8c": {
       "reason": "son başvuru geçti",
       "status": "expired",
@@ -4238,6 +4309,12 @@
       "status": "pending",
       "title": "London School of Economics Free Online Courses 2027 | LSE Online",
       "ts": "2026-11-24T10:54:52.043004+00:00"
+    },
+    "035cb0daa2ff": {
+      "reason": "",
+      "status": "queued",
+      "title": "Letonya'da Avrupa Kültür Başkenti 2027 ESC Gönüllülük Projesi",
+      "ts": "2026-11-27T12:07:03.972957+00:00"
     },
     "03936430eeab": {
       "reason": "Türkiye'ye kapalı: The 2027 programme will take place in selected locations across the United Kingdom, including London, Birmingham, Manche",
@@ -4473,6 +4550,12 @@
       "title": "TEV Avrupa Ülkeleri Yüksek Lisans Bursu",
       "ts": "2026-11-26T19:35:10.952893+00:00"
     },
+    "1477908f72ab": {
+      "reason": "Türkiye'ye kapalı: Are you a young entrepreneur in the United Kingdom with a creative business idea or an existing product-based venture th",
+      "status": "rejected",
+      "title": "Sara Davies Young Entrepreneurs Academy 2027: Win a £1,000 Business Development Bursary, Expert Coaching and Six Months ",
+      "ts": "2026-11-27T12:07:24.936182+00:00"
+    },
     "15413e41dc96": {
       "reason": "Türkiye'ye kapalı: ActionSA has announced recruitment for three positions as it seeks patriotic and talented South Africans to become part ",
       "status": "rejected",
@@ -4504,10 +4587,10 @@
       "ts": "2026-11-18T13:55:56.126326+00:00"
     },
     "1697d270e90c": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "ITU Secretary-General’s Youth Advisory Board – Second Cohort 2027",
-      "ts": "2026-11-20T03:06:38.888937+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "ITU Genel Sekreteri Gençlik Danışma Kurulu Üyeliği",
+      "ts": "2026-11-27T12:06:26.341037+00:00"
     },
     "16d960be27d0": {
       "reason": "Türkiye'nin TWAS tarafından tanımlanan 'gelişmekte olan ülkeler' listesinde olup olmadığı metinde belirtilmemiştir.",
@@ -4893,6 +4976,12 @@
       "title": "Allbritton Journalism Institute 2027-2029 Gazetecilik Bursu",
       "ts": "2026-11-25T04:53:01.087985+00:00"
     },
+    "3162d9589a39": {
+      "reason": "İlan herhangi bir uyruk kısıtlamasından veya kabulünden bahsetmemektedir.",
+      "status": "pending",
+      "title": "J-PAL Africa Policy Manager, Firms & Livelihoods Job 2026 in Kenya – Apply for a Senior Economic Development Role",
+      "ts": "2026-11-27T12:06:48.587433+00:00"
+    },
     "31a3cf802fdd": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5049,6 +5138,12 @@
       "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli",
       "ts": "2026-11-13T16:18:35.696994+00:00"
     },
+    "3be563712586": {
+      "reason": "",
+      "status": "queued",
+      "title": "RSF Berlin Gazetecilik Burs Programı 2027",
+      "ts": "2026-11-27T12:06:56.733397+00:00"
+    },
     "3c4be6ea6f1a": {
       "reason": "Türkiye'ye kapalı: The award celebrates individuals who are making a positive difference in Central Europe through responsible citizenship,",
       "status": "rejected",
@@ -5162,6 +5257,12 @@
       "status": "rejected",
       "title": "Summer Programs in Europe in 2027 (Fully Funded)",
       "ts": "2026-11-14T11:25:27.174830+00:00"
+    },
+    "4303d61b728c": {
+      "reason": "Türkiye'ye kapalı: The programme is available in seven pilot countries: Ghana, Italy, Kenya, Morocco, Rwanda, Tanzania, and Tunisia.",
+      "status": "rejected",
+      "title": "AI Diffusion Pathways for Agriculture 2027: Apply for the Six-Month AI Agritech Programme in Africa",
+      "ts": "2026-11-27T12:08:41.568504+00:00"
     },
     "43b12c9fe2a6": {
       "reason": "",
@@ -5336,6 +5437,12 @@
       "status": "expired",
       "title": "World Agriculture Forum (WAF) 2027 Uzaktan Staj Programı",
       "ts": "2026-11-26T00:16:32.419791+00:00"
+    },
+    "4ff00d0971cf": {
+      "reason": "",
+      "status": "queued",
+      "title": "Avrupa Birliği Başkanlığı Sözleşmeli Destek Personeli (Şoför) Alımı",
+      "ts": "2026-11-27T12:07:19.133817+00:00"
     },
     "5107c2437858": {
       "reason": "",
@@ -5884,10 +5991,10 @@
       "ts": "2026-11-15T02:37:18.791509+00:00"
     },
     "779fb2e0d713": {
-      "reason": "İlan Kanada vatandaşlarına ve daimi ikamet izni olanlara öncelik vermektedir; diğer adayların başvuru şartlarını dikkatle incelemesi gerektiği belirtilmiştir.",
-      "status": "pending",
-      "title": "Bank of Canada PhD Researcher Jobs 2026–2027: Earn Up to CAD $156,778 Annually in Ottawa – Apply for Up to 8 Research Po",
-      "ts": "2026-11-20T03:06:46.189411+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Bank of Canada Doktora Araştırmacısı Pozisyonları",
+      "ts": "2026-11-27T12:06:26.341085+00:00"
     },
     "77b0d4b64c3d": {
       "reason": "",
@@ -6056,6 +6163,12 @@
       "status": "queued",
       "title": "Sompo Sigorta Stajyer Avukat Alımı",
       "ts": "2026-11-12T18:53:59.903601+00:00"
+    },
+    "83aaa4719f6d": {
+      "reason": "",
+      "status": "queued",
+      "title": "Yunanistan İzmir Başkonsolosluğu Özel Sekreter Alımı",
+      "ts": "2026-11-27T12:08:36.018201+00:00"
     },
     "842209e57e54": {
       "reason": "bekleme süresi doldu",
@@ -7149,6 +7262,12 @@
       "title": "Summer Internship 2027: Purchases",
       "ts": "2026-11-05T10:47:30.413733+00:00"
     },
+    "d856a0655f93": {
+      "reason": "Türkiye'ye kapalı: Citizens or individuals holding refugee status in a Commonwealth country may apply.",
+      "status": "rejected",
+      "title": "Queen Elizabeth Commonwealth Scholarships 2027 – Fully Funded Master’s Scholarships in 8 Commonwealth Countries | Apply ",
+      "ts": "2026-11-27T12:08:49.085134+00:00"
+    },
     "d965cb027e63": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -7568,6 +7687,12 @@
       "status": "rejected",
       "title": "Google Forward Deployed Engineering Internship 2027 | Paid",
       "ts": "2026-10-31T19:14:04.947486+00:00"
+    },
+    "f9b6ee4c8327": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "Almanya’da Uzun Dönem ESC Gönüllülük Projesi Fırsatı",
+      "ts": "2026-11-27T12:07:31.866320+00:00"
     },
     "fa6ef29ed62d": {
       "reason": "bekleme süresi doldu",
@@ -8006,6 +8131,11 @@
     "polonya'da 6 aylık esc gönüllülük projesi",
     "fransa'da türkçe dil asistanlığı programı",
     "selçuk üniversitesi sözleşmeli bilişim personeli alımı",
-    "catalyse neb 2027 hızlandırma programı ve hibe desteği"
+    "catalyse neb 2027 hızlandırma programı ve hibe desteği",
+    "j pal africa politika yöneticisi pozisyonu",
+    "rsf berlin gazetecilik burs programı 2027",
+    "letonya'da avrupa kültür başkenti 2027 esc gönüllülük projesi",
+    "avrupa birliği başkanlığı sözleşmeli destek personeli şoför alımı",
+    "yunanistan i zmir başkonsolosluğu özel sekreter alımı"
   ]
 }

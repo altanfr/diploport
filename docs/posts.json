@@ -1,5 +1,25 @@
 [
   {
+    "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/play-your-part-games-youth-participation-and-social-entrepreneurship.15500/",
+    "category": "egitim",
+    "country_tr": "Mısır",
+    "deadline": "",
+    "fee_required": false,
+    "funding_tr": "Belirtilmemiş",
+    "highlights_tr": [
+      "Gençlik çalışanlarına yönelik eğitim",
+      "Oyun temelli öğrenme ve sosyal girişimcilik",
+      "22-28 Ocak 2027 tarihleri arasında"
+    ],
+    "id": "b1ac19ebc66e",
+    "image": "images/b1ac19ebc66e.jpg",
+    "organization": "iKNOWLEDGY",
+    "published_at": "2026-11-27T12:08:53.008286+00:00",
+    "summary_tr": "Kahire'de düzenlenecek olan Play Your Part eğitim programı, gençlik çalışanları ve kolaylaştırıcılar için oyun temelli öğrenme ve sosyal girişimcilik yöntemlerini kapsayan uluslararası bir eğitimdir.",
+    "thumb": "images/t/b1ac19ebc66e.jpg",
+    "title_tr": "Mısır'da Oyun Temelli Gençlik Katılımı ve Sosyal Girişimcilik Eğitimi"
+  },
+  {
     "apply_url": "https://youth.europa.eu/solidarity/opportunity/55263_en",
     "category": "gonulluluk",
     "country_tr": "Azerbaycan",
