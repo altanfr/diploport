@@ -368,7 +368,15 @@
     "resources.rsf.org/rsf-berlin-fellowship-2027-applications-now-open",
     "youth.europa.eu/solidarity/opportunity/55352_en",
     "kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
-    "mfa.gr/turkey/tr/consulate-general-in-izmir/news/yunanistanin-izmir-baskonsoloslugunda-ozel-sekreter-pozisyonu-icin-ilan.html"
+    "mfa.gr/turkey/tr/consulate-general-in-izmir/news/yunanistanin-izmir-baskonsoloslugunda-ozel-sekreter-pozisyonu-icin-ilan.html",
+    "docs.google.com/forms/d/e/1FAIpQLSc-Offg5X-kJCxdZpEMfuW9p9PEbG2ATMrelGpsIUnIVKGVug/viewform",
+    "amazon.jobs/en-gb/jobs/10602219/data-engineer-internship",
+    "ifturquie.org/fr/qui-sommes-nous/nos-offres-demploi-et-de-stage",
+    "kariyerkapisi.gov.tr/IlanDetay?i=01a31fb6-9c44-4e45-9d17-f47f7ed2e8bd",
+    "volteuropa.org/vacancies-ep-office",
+    "bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit",
+    "docs.google.com/forms/d/e/1FAIpQLSfqksba6ge_ZWwHACQqiQhkw06u7WOcATOFpVRzCbd4MbxiLg/viewform?usp=send_form",
+    "kariyerkapisi.gov.tr/IlanDetay?i=26bdd65d-ebb3-4070-b9d4-2b8e46fa4fa4"
   ],
   "outbox": [
     {
@@ -948,35 +956,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "80974652f203": {
-      "apply_link_id": 1,
-      "apply_url": "https://web103.reachmee.com/ext/I005/1035/apply?site=7&lang=UK&validator=9b89bead79bb7258ad55c8d75228e5b7&job_id=41843",
-      "category": "burs",
-      "country_tr": "İsveç",
-      "deadline": "2027-02-01",
-      "eligibility_evidence": "International applicants are welcome.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu ve maaşlı",
-      "highlights_tr": [
-        "5 yıl süreli tam finansmanlı doktora",
-        "Ekonomi veya ilgili alanda yüksek lisans şartı",
-        "Uluslararası adaylara açık"
-      ],
-      "id": "80974652f203",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 75,
-      "organization": "University of Gothenburg",
-      "organization_domain": "gu.se",
-      "queued_at": "2026-11-20T20:06:45.136681+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/20/up-to-6-fully-funded-phd-positions-in-economics-at-the-university-of-gothenburg-sweden-2027/",
-      "summary_tr": "İsveç'teki University of Gothenburg, Ekonomi alanında 5 yıl süreli, tam finansmanlı 6 doktora pozisyonu için başvuru kabul etmektedir. Program, Eylül 2027'de başlayacaktır.",
-      "title_tr": "University of Gothenburg Ekonomi Doktora Pozisyonları",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et.",
-      "visual_kind": "institution"
-    },
     "b22ad837d4f8": {
       "apply_link_id": 1,
       "apply_url": "https://app.unv.org/opportunities/1784888021274152",
@@ -1424,138 +1403,6 @@
   ],
   "queue": [
     {
-      "apply_link_id": 1,
-      "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/greensteps.15545/",
-      "category": "gonulluluk",
-      "country_tr": "Yunanistan",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (AB İlan)",
-      "fee_required": false,
-      "funding_tr": "Konaklama, yemek, cep harçlığı ve seyahat desteği",
-      "highlights_tr": [
-        "18-30 yaş arası gençler için",
-        "6 ay süreli gönüllülük",
-        "Konaklama, yemek ve seyahat desteği"
-      ],
-      "id": "1568064f95b2",
-      "is_opportunity": true,
-      "organization": "VERDE Research Center for Innovation and Sustainable Development",
-      "organization_domain": "",
-      "queued_at": "2026-11-13T16:15:52.258432+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/yunanistanda-greensteps-gonulluluk-projesi-firsati/",
-      "summary_tr": "Yunanistan'ın Kozani kentinde 6 ay sürecek, çevre ve sürdürülebilirlik odaklı Avrupa Dayanışma Programı (ESC) gönüllülük projesi.",
-      "title_tr": "Yunanistan’da GreenSteps Gönüllülük Projesi",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "scene"
-    },
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=2b5ee2d8-3958-4fd1-a3cb-219bcb7b536d",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Türkiye Cumhuriyeti vatandaşlarına özel",
-        "Kariyer meslek statüsünde",
-        "Kariyer Kapısı üzerinden başvuru"
-      ],
-      "icon": "landmark",
-      "id": "68c54dfdeed7",
-      "is_opportunity": true,
-      "organization": "HAZİNE VE MALİYE BAKANLIĞI",
-      "organization_domain": "hmb.gov.tr",
-      "queued_at": "2026-11-13T16:16:10.242070+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=2b5ee2d8-3958-4fd1-a3cb-219bcb7b536d",
-      "summary_tr": "Hazine ve Maliye Bakanlığı tarafından açılan Stajyer Hazine Kontrolörlüğü giriş sınavı ilanıdır. Başvurular Kariyer Kapısı üzerinden e-Devlet aracılığıyla gerçekleştirilecektir.",
-      "title_tr": "Hazine ve Maliye Bakanlığı Stajyer Hazine Kontrolörlüğü Sınavı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://rc-trust.ai/career/internship-program",
-      "category": "staj",
-      "country_tr": "Almanya",
-      "deadline": "2026-12-31",
-      "eligibility_evidence": "The RC Trust Internship Program 2027 is open to applicants from all countries.",
-      "fee_required": false,
-      "funding_tr": "Tam burs (yol, konaklama ve yaşam masrafları)",
-      "highlights_tr": [
-        "Tam burslu araştırma stajı",
-        "90 güne kadar süreli",
-        "Lisans, yüksek lisans ve doktora öğrencilerine açık"
-      ],
-      "id": "18609da22e53",
-      "is_opportunity": true,
-      "organization": "Research Center Trustworthy Data Science and Security (RC Trust)",
-      "organization_domain": "rc-trust.ai",
-      "queued_at": "2026-11-13T16:16:17.161151+00:00",
-      "source": "Opportunities Corners",
-      "source_url": "https://opportunitiescorners.com/rc-trust-internship-2027/",
-      "summary_tr": "RC Trust, Almanya'daki üniversitelerde yapay zeka alanında 90 güne kadar süren, tam burslu uluslararası bir araştırma stajı programıdır.",
-      "title_tr": "RC Trust 2027 Almanya Araştırma Stajı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://keough.nd.edu/academics/phd-program/ph-d-in-sustainable-development/",
-      "category": "burs",
-      "country_tr": "ABD",
-      "deadline": "2026-12-01",
-      "eligibility_evidence": "Applicants from diverse academic, cultural, and professional backgrounds are welcome to apply.",
-      "fee_required": false,
-      "funding_tr": "Tam eğitim bursu, yaşam masrafları için aylık ödenek ve sağlık sigortası desteği",
-      "highlights_tr": [
-        "Tam eğitim bursu ve yaşam ödeneği",
-        "Konferans ve gelişim desteği",
-        "İngilizce yeterlilik belgesi gereklidir"
-      ],
-      "id": "ca7b65d3e9b1",
-      "is_opportunity": true,
-      "organization": "University of Notre Dame",
-      "organization_domain": "nd.edu",
-      "queued_at": "2026-11-13T16:16:24.477846+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/university-of-notre-dame-phd-scholarship/",
-      "summary_tr": "University of Notre Dame, Sürdürülebilir Kalkınma alanındaki doktora programı için uluslararası öğrencilere tam burslu araştırma ve eğitim imkanı sunmaktadır.",
-      "title_tr": "University of Notre Dame Sürdürülebilir Kalkınma Doktora Bursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://abdigm.meb.gov.tr/www/misir-hukmeti-burslari-2026-2027/icerik/2900/tr",
-      "category": "burs",
-      "country_tr": "Mısır",
-      "deadline": "2026-12-01",
-      "eligibility_evidence": "Başvuracak adayların, Türkiye Cumhuriyeti vatandaşı olmaları gerekmektedir.",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "El-Ezher'de eğitim imkanı",
-        "Ortaöğretim ve lisans seviyesi",
-        "Türkiye Cumhuriyeti vatandaşı olma şartı"
-      ],
-      "id": "6064542e4dcf",
-      "is_opportunity": true,
-      "organization": "T.C. Milli Eğitim Bakanlığı",
-      "organization_domain": "meb.gov.tr",
-      "queued_at": "2026-11-13T16:16:35.823868+00:00",
-      "source": "AB İlan",
-      "source_url": "https://ab-ilan.com/misir-hukumeti-burslari-icin-basvurular-devam-ediyor/",
-      "summary_tr": "Mısır Hükûmeti tarafından El-Ezher bünyesinde 1 ortaöğretim ve 2 lisans seviyesinde burs imkanı sağlanmaktadır. Başvurular MEB üzerinden yapılmaktadır.",
-      "title_tr": "Mısır Hükûmeti Bursları",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
       "apply_link_id": 3,
       "apply_url": "https://www.ucd.ie/spire/study/prospectivephdstudents/iseulthonohandoctoralscholarship/",
       "category": "burs",
@@ -1669,33 +1516,6 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.burakozguner.com/2027-burak-ozguner-burs-basvurulari-acildi/",
-      "category": "burs",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-27",
-      "eligibility_evidence": "Vatandaşlık şartı: Herhangi bir sınırlama uygulanmıyor",
-      "fee_required": false,
-      "funding_tr": "Aylık 5.000 TL geri ödemesiz burs",
-      "highlights_tr": [
-        "Aylık 5.000 TL geri ödemesiz destek",
-        "Hayvan hakları alanında aktif çalışma şartı",
-        "12 ay boyunca düzenli ödeme"
-      ],
-      "id": "d5038f2688f1",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Burak Özgüner",
-      "organization_domain": "burakozguner.com",
-      "queued_at": "2026-11-15T17:42:47.068789+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/burak-ozguner-ogrenci-tesvik-burs-duyurusu/",
-      "summary_tr": "Hayvan hakları alanında aktif çalışmalar yürüten üniversite öğrencilerine yönelik, 12 ay boyunca aylık 5.000 TL tutarında geri ödemesiz eğitim desteği sağlanacaktır.",
-      "title_tr": "2027 Burak Özgüner Öğrenci Teşvik Bursu",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
     },
     {
       "apply_link_id": 2,
@@ -2385,34 +2205,6 @@
       "visual_kind": "scene"
     },
     {
-      "apply_link_id": 1,
-      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSducjMwhG4tk7PnkX41orxldCAV-rHULj_71VTo52pVi6-JBA/viewform",
-      "category": "egitim",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-27",
-      "eligibility_evidence": "Türkiye Ulusal Ajansı tarafından desteklenen “Her Yerde Turizme Erişiyoruz” projesi, Erasmus+ KA154 Gençlik Katılımı programı kapsamında İzmir’de düzenlenecek toplantı için katılımcı başvurularını kabul ediyor.",
-      "fee_required": false,
-      "funding_tr": "Ulaşım, konaklama ve yemek karşılanır",
-      "highlights_tr": [
-        "18-30 yaş arası gençler",
-        "Ege veya Marmara bölgesinde ikamet",
-        "Youthpass sertifikası verilecek"
-      ],
-      "id": "073a959984db",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "Uluslararası Genç Arayış Derneği",
-      "organization_domain": "",
-      "queued_at": "2026-11-18T21:55:20.316571+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/izmir-3-gun-erasmus-programi/",
-      "summary_tr": "Uluslararası Genç Arayış Derneği tarafından düzenlenen, erişilebilir turizm politikaları üzerine odaklanan 3 günlük Erasmus+ KA154 gençlik katılımı toplantısı.",
-      "title_tr": "İzmir: Her Yerde Turizme Erişiyoruz Erasmus+ Gençlik Katılımı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
       "apply_link_id": 3,
       "apply_url": "https://www.oceanculturelife.com/",
       "category": "hibe",
@@ -2711,33 +2503,6 @@
       "source_url": "https://www.youthall.com/tr/etstur/kariyere-erken-rezervasyon_15/",
       "summary_tr": "ETS'nin turizm sektörüne yönelik staj programı; üniversite öğrencilerine eğitim içerikleri, online eğitim fırsatları ve çeşitli sosyal imkanlar sunmaktadır.",
       "title_tr": "ETS Kariyere Erken Rezervasyon Staj Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
-      "apply_url": "https://www.newyorkbex.com/",
-      "category": "gonulluluk",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-27",
-      "eligibility_evidence": "Türkiye'nin liderliğinde, dünyanın dört bir yanından herkesin katılımına açık bu projede liderlik etkini ve gücünü küresel iş dünyasına gösterme fırsatı seni bekliyor.",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz kariyer planlama programı ve etkinliklere katılım",
-      "highlights_tr": [
-        "1-26 Aralık 2026 tarihleri arasında",
-        "Fiziksel veya uzaktan çalışma imkanı",
-        "Global proje deneyimi ve CV desteği"
-      ],
-      "id": "44534ff61465",
-      "image_queries": [],
-      "is_opportunity": true,
-      "organization": "New York Business Excellence",
-      "organization_domain": "newyorkbex.com",
-      "queued_at": "2026-11-20T20:06:23.688486+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/nybexcellence/proje-takim-uyesi_13/",
-      "summary_tr": "New York Business Excellence ve MAX ENERGY tarafından yürütülen, COP31 vizyonu odaklı küresel projede takım üyesi olarak yer alma fırsatı.",
-      "title_tr": "New York Business Excellence Proje Takım Üyeliği",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
@@ -4241,6 +4006,229 @@
       "title_tr": "Yunanistan İzmir Başkonsolosluğu Özel Sekreter Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSc-Offg5X-kJCxdZpEMfuW9p9PEbG2ATMrelGpsIUnIVKGVug/viewform",
+      "category": "gonulluluk",
+      "country_tr": "Mısır",
+      "deadline": "",
+      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
+      "fee_required": false,
+      "funding_tr": "Konaklama, yemek ve yerel ulaşım karşılanır",
+      "highlights_tr": [
+        "18-30 yaş arası gençler için",
+        "30 gün süreli gönüllülük projesi",
+        "Konaklama ve yemek masrafları karşılanıyor"
+      ],
+      "id": "2056826ff38d",
+      "image_queries": [
+        "Alexandria Egypt city",
+        "Egypt youth volunteering",
+        "volunteers working together"
+      ],
+      "is_opportunity": true,
+      "organization": "Bubinga Agency",
+      "organization_domain": "",
+      "queued_at": "2026-11-27T21:16:03.702185+00:00",
+      "source": "Erasmusgram",
+      "source_url": "https://www.erasmusgram.com/misir-iskenderiye-1-ay-erasmus-projesi/",
+      "summary_tr": "Mısır'ın İskenderiye şehrinde Bubinga Agency ev sahipliğinde gerçekleşecek 30 günlük ESC gönüllülük projesi; kültürlerarası iletişim, sosyal medya ve yerel topluluk etkinliklerini kapsıyor.",
+      "title_tr": "Mısır, İskenderiye: 30 Günlük Avrupa Dayanışma Programı (ESC)",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.amazon.jobs/en-gb/jobs/10602219/data-engineer-internship",
+      "category": "staj",
+      "country_tr": "Birleşik Krallık",
+      "deadline": "",
+      "eligibility_evidence": "This internship program is looking for curious individuals who want to shape the future and is open to people from around the world.",
+      "fee_required": false,
+      "funding_tr": "Ücretli staj",
+      "highlights_tr": [
+        "Ücretli staj imkanı",
+        "Bilgisayar mühendisliği öğrencileri için",
+        "SQL ve Python/Java/R bilgisi gereklidir"
+      ],
+      "id": "1701b0745250",
+      "is_opportunity": true,
+      "organization": "Amazon",
+      "organization_domain": "amazon.jobs",
+      "queued_at": "2026-11-27T21:16:22.898791+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/amazon-data-engineer-internship/",
+      "summary_tr": "Amazon, Birleşik Krallık'ta bilgisayar mühendisliği veya ilgili teknik alanlarda lisans/yüksek lisans öğrencileri için ücretli veri mühendisliği staj programı sunmaktadır.",
+      "title_tr": "Amazon 2027 Veri Mühendisliği Stajı (Birleşik Krallık)",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.ifturquie.org/fr/qui-sommes-nous/nos-offres-demploi-et-de-stage/",
+      "category": "staj",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-10",
+      "eligibility_evidence": "Institut français Türkiye (Fransız Kültür Merkezi) İstanbul şubesi, Mart 2027’de Frankofoni ayı kapsamında düzenlenecek 2027 Frankofon Film Festivali’nin hazırlık ve organizasyon çalışmalarına destek vermek üzere stajyer alımı yapacak.",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "İstanbul'da 6 ay tam zamanlı staj",
+        "Film festivali organizasyonunda deneyim",
+        "Görsel-işitsel proje yönetimi desteği"
+      ],
+      "id": "9334670a82e0",
+      "is_opportunity": true,
+      "organization": "Institut français Türkiye",
+      "organization_domain": "ifturquie.org",
+      "queued_at": "2026-11-27T21:16:49.887222+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/institut-francais-turkiyeden-ogrencilere-2027-staj-firsati/",
+      "summary_tr": "Institut français Türkiye, İstanbul şubesinde 2027 Frankofon Film Festivali hazırlıklarında görev alacak tam zamanlı stajyer arıyor. Staj süresi 6 aydır.",
+      "title_tr": "Institut français Türkiye'de Staj Fırsatı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=01a31fb6-9c44-4e45-9d17-f47f7ed2e8bd",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "91760f1bf022",
+      "is_opportunity": true,
+      "organization": "GELİR İDARESİ BAŞKANLIĞI",
+      "organization_domain": "gib.gov.tr",
+      "queued_at": "2026-11-27T21:17:05.732466+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=01a31fb6-9c44-4e45-9d17-f47f7ed2e8bd",
+      "summary_tr": "Gelir İdaresi Başkanlığı bünyesinde sözleşmeli destek personeli (hizmetli) alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilecektir.",
+      "title_tr": "Gelir İdaresi Başkanlığı Sözleşmeli Destek Personeli Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 6,
+      "apply_url": "https://volteuropa.org/vacancies-ep-office",
+      "category": "staj",
+      "country_tr": "Belçika",
+      "deadline": "2026-12-06",
+      "eligibility_evidence": "Volt Europa is a political movement active in more than 30 countries across Europe.",
+      "fee_required": false,
+      "funding_tr": "Aylık 1.856 Euro brüt ödenek",
+      "highlights_tr": [
+        "Lisans mezuniyeti şartı",
+        "Aylık 1.856 Euro brüt ödenek",
+        "İngilizce C1 seviyesi zorunlu"
+      ],
+      "id": "d99f1eb29402",
+      "is_opportunity": true,
+      "organization": "Volt Europa",
+      "organization_domain": "volteuropa.org",
+      "queued_at": "2026-11-27T21:17:13.525825+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/27/volt-europa-european-parliament-traineeships-2027-four-paid-policy-communications-and-ai-trainee-positions-in-brussels/",
+      "summary_tr": "Volt Europa, Brüksel'deki Avrupa Parlamentosu delegasyonunda politika, iletişim ve yapay zeka alanlarında 5 ay sürecek, ücretli dört farklı staj pozisyonu sunmaktadır.",
+      "title_tr": "Volt Europa Avrupa Parlamentosu Staj Programı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/",
+      "category": "burs",
+      "country_tr": "ABD",
+      "deadline": "2026-12-01",
+      "eligibility_evidence": "Applicants must be international students from any country.",
+      "fee_required": false,
+      "funding_tr": "Yıllık 25.000$ burs desteği",
+      "highlights_tr": [
+        "Yıllık 25.000$ eğitim desteği",
+        "Uluslararası öğrencilere açık",
+        "Akademik başarı ve liderlik odaklı"
+      ],
+      "id": "8b510b385226",
+      "image_queries": [
+        "Boston University campus",
+        "USA university students",
+        "students walking campus"
+      ],
+      "is_opportunity": true,
+      "organization": "Boston University",
+      "organization_domain": "bu.edu",
+      "queued_at": "2026-11-27T21:17:21.858463+00:00",
+      "source": "Opportunities Circle",
+      "source_url": "https://www.opportunitiescircle.com/boston-university-presidential-scholarship/",
+      "summary_tr": "Boston Üniversitesi, akademik başarısı yüksek ve liderlik potansiyeli olan uluslararası öğrenciler için yıllık 25.000$ değerinde lisans bursu sunmaktadır.",
+      "title_tr": "Boston University Presidential Lisans Bursu",
+      "turkey_eligible": "yes",
+      "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfqksba6ge_ZWwHACQqiQhkw06u7WOcATOFpVRzCbd4MbxiLg/viewform?usp=send_form",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "2026-12-07",
+      "eligibility_evidence": "İleri düzeyde İngilizce ve Türkçe bilen öğrencilerin başvurabileceği ilan kapsamında",
+      "fee_required": false,
+      "funding_tr": "Ücretli",
+      "highlights_tr": [
+        "Gelibolu'da çalışma imkanı",
+        "İleri düzeyde İngilizce ve Türkçe şartı",
+        "Sözlü tercümanlık ve destek personeli rolleri"
+      ],
+      "id": "7811337879be",
+      "is_opportunity": true,
+      "organization": "Avustralya Çanakkale Konsolosluğu",
+      "organization_domain": "",
+      "queued_at": "2026-11-27T21:17:29.993093+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/avustralya-konsoloslugundan-2027-anzak-gunu-icin-ogrenci-alimi/",
+      "summary_tr": "Avustralya Çanakkale Konsolosluğu, 25 Nisan 2027'de Gelibolu'da düzenlenecek Anzak Günü törenlerinde görev alacak, ileri düzeyde İngilizce ve Türkçe bilen öğrenciler arıyor.",
+      "title_tr": "Avustralya Çanakkale Konsolosluğu Anzak Günü Çalışma Fırsatı",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26bdd65d-ebb3-4070-b9d4-2b8e46fa4fa4",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "3ce29193e677",
+      "is_opportunity": true,
+      "organization": "GELİR İDARESİ BAŞKANLIĞI",
+      "organization_domain": "gib.gov.tr",
+      "queued_at": "2026-11-27T21:17:39.559076+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26bdd65d-ebb3-4070-b9d4-2b8e46fa4fa4",
+      "summary_tr": "Gelir İdaresi Başkanlığı bünyesinde sözleşmeli destek personeli (şoför) pozisyonu için giriş sınavı düzenlenecektir. Başvurular Kariyer Kapısı üzerinden e-Devlet aracılığıyla yapılacaktır.",
+      "title_tr": "Gelir İdaresi Başkanlığı Sözleşmeli Şoför Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4377,10 +4365,10 @@
       "ts": "2026-11-22T21:44:30.248324+00:00"
     },
     "073a959984db": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "İzmir: Her Yerde Turizme Erişiyoruz Erasmus+ Gençlik Katılımı",
-      "ts": "2026-11-18T21:55:20.316592+00:00"
+      "ts": "2026-11-27T21:15:29.873610+00:00"
     },
     "0833644949f7": {
       "reason": "",
@@ -4563,10 +4551,10 @@
       "ts": "2026-11-21T17:26:24.262352+00:00"
     },
     "1568064f95b2": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Yunanistan’da GreenSteps Gönüllülük Projesi",
-      "ts": "2026-11-13T16:15:52.258451+00:00"
+      "ts": "2026-11-27T21:15:29.873448+00:00"
     },
     "157026c06bbd": {
       "reason": "bekleme süresi doldu",
@@ -4598,6 +4586,12 @@
       "title": "ANSO-CAS-TWAS/UNESCO PhD Scholarship in China 2027",
       "ts": "2026-11-22T15:15:36.023167+00:00"
     },
+    "1701b0745250": {
+      "reason": "",
+      "status": "queued",
+      "title": "Amazon 2027 Veri Mühendisliği Stajı (Birleşik Krallık)",
+      "ts": "2026-11-27T21:16:22.898807+00:00"
+    },
     "1760f8288825": {
       "reason": "fırsat değil (haber/liste/reklam)",
       "status": "rejected",
@@ -4623,10 +4617,10 @@
       "ts": "2026-11-20T03:06:15.153413+00:00"
     },
     "18609da22e53": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "RC Trust 2027 Almanya Araştırma Stajı",
-      "ts": "2026-11-13T16:16:17.161171+00:00"
+      "ts": "2026-11-27T21:15:29.873478+00:00"
     },
     "18631bf4ad70": {
       "reason": "Türkiye'ye kapalı: The programme is intended for high-quality postgraduate students from eligible Least Developed and middle-income Commonw",
@@ -4753,6 +4747,12 @@
       "status": "queued",
       "title": "Uzun Dönem İnsan Kaynakları Stajyeri",
       "ts": "2026-11-16T21:00:01.064620+00:00"
+    },
+    "2056826ff38d": {
+      "reason": "",
+      "status": "queued",
+      "title": "Mısır, İskenderiye: 30 Günlük Avrupa Dayanışma Programı (ESC)",
+      "ts": "2026-11-27T21:16:03.702204+00:00"
     },
     "2112c840dffb": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -5156,6 +5156,12 @@
       "title": "Öğretmenlere Yönelik Akran Zorbalığı Semineri",
       "ts": "2026-10-29T23:04:17.957158+00:00"
     },
+    "3ce29193e677": {
+      "reason": "",
+      "status": "queued",
+      "title": "Gelir İdaresi Başkanlığı Sözleşmeli Şoför Alımı",
+      "ts": "2026-11-27T21:17:39.559090+00:00"
+    },
     "3d61e35187e0": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
       "status": "rejected",
@@ -5283,10 +5289,10 @@
       "ts": "2026-11-24T10:52:10.747999+00:00"
     },
     "44534ff61465": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "New York Business Excellence Proje Takım Üyeliği",
-      "ts": "2026-11-20T20:06:23.688506+00:00"
+      "ts": "2026-11-27T21:15:29.873646+00:00"
     },
     "4459916101cb": {
       "reason": "",
@@ -5631,10 +5637,10 @@
       "ts": "2026-11-05T18:43:44.231088+00:00"
     },
     "6064542e4dcf": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Mısır Hükûmeti Bursları",
-      "ts": "2026-11-13T16:16:35.823889+00:00"
+      "ts": "2026-11-27T21:15:29.873497+00:00"
     },
     "612f18e45782": {
       "reason": "bekleme süresi doldu",
@@ -5793,10 +5799,10 @@
       "ts": "2026-11-03T09:29:30.188310+00:00"
     },
     "68c54dfdeed7": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Hazine ve Maliye Bakanlığı Stajyer Hazine Kontrolörlüğü Sınavı",
-      "ts": "2026-11-13T16:16:10.242088+00:00"
+      "ts": "2026-11-27T21:15:29.873467+00:00"
     },
     "690b61a17c08": {
       "reason": "",
@@ -6002,6 +6008,12 @@
       "title": "Yenching Academy 2027 Yüksek Lisans Bursu",
       "ts": "2026-11-17T03:47:56.713327+00:00"
     },
+    "7811337879be": {
+      "reason": "",
+      "status": "queued",
+      "title": "Avustralya Çanakkale Konsolosluğu Anzak Günü Çalışma Fırsatı",
+      "ts": "2026-11-27T21:17:29.993108+00:00"
+    },
     "794fc7d24d45": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6105,10 +6117,10 @@
       "ts": "2026-11-24T21:08:21.930264+00:00"
     },
     "80974652f203": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor. Resmî başvuru linki bizden açılamadı (bağlantı hatası: ConnectTimeout); tarayıcıda kontrol et.",
-      "status": "pending",
-      "title": "Up to 6 Fully Funded PhD Positions in Economics at the University of Gothenburg, Sweden – 2027",
-      "ts": "2026-11-20T20:06:45.136701+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "University of Gothenburg Ekonomi Doktora Pozisyonları",
+      "ts": "2026-11-27T21:15:29.873869+00:00"
     },
     "814a78dad81f": {
       "reason": "",
@@ -6133,6 +6145,12 @@
       "status": "rejected",
       "title": "Commonwealth Shared Scholarships 2027-2028 in the UK | Fully Funded",
       "ts": "2026-11-11T21:55:25.230143+00:00"
+    },
+    "8256cacd469b": {
+      "reason": "fırsat değil (haber/liste/reklam)",
+      "status": "rejected",
+      "title": "European Investment Bank (EIB) Careers 2026: Explore International Job Opportunities, Salaries, Employee Benefits and Ho",
+      "ts": "2026-11-27T21:17:47.893425+00:00"
     },
     "82b2f63dc118": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -6272,6 +6290,12 @@
       "title": "Avrupa Konseyi 2027 Gençlik Delegeleri Programı",
       "ts": "2026-11-16T11:04:28.930246+00:00"
     },
+    "8b510b385226": {
+      "reason": "",
+      "status": "queued",
+      "title": "Boston University Presidential Lisans Bursu",
+      "ts": "2026-11-27T21:17:21.858476+00:00"
+    },
     "8b73252d5782": {
       "reason": "",
       "status": "queued",
@@ -6368,6 +6392,12 @@
       "title": "ESA Student Internship Programme 2027: Apply for Paid International Space Sector Internship Opportunities Across Science",
       "ts": "2026-11-19T12:57:08.366683+00:00"
     },
+    "91760f1bf022": {
+      "reason": "",
+      "status": "queued",
+      "title": "Gelir İdaresi Başkanlığı Sözleşmeli Destek Personeli Alımı",
+      "ts": "2026-11-27T21:17:05.732480+00:00"
+    },
     "91ce4022bba5": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6385,6 +6415,12 @@
       "status": "queued",
       "title": "ETH Zurich Yaz Araştırma Bursu ve Staj Programı 2027",
       "ts": "2026-11-20T20:05:34.053599+00:00"
+    },
+    "9334670a82e0": {
+      "reason": "",
+      "status": "queued",
+      "title": "Institut français Türkiye'de Staj Fırsatı",
+      "ts": "2026-11-27T21:16:49.887237+00:00"
     },
     "944605f639d0": {
       "reason": "Türkiye'ye kapalı: Applicants must hold the nationality of one of the eligible countries listed in the selection criteria of the Eric Bleum",
@@ -7089,10 +7125,10 @@
       "ts": "2026-11-09T17:27:31.070351+00:00"
     },
     "ca7b65d3e9b1": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "University of Notre Dame Sürdürülebilir Kalkınma Doktora Bursu",
-      "ts": "2026-11-13T16:16:24.477864+00:00"
+      "ts": "2026-11-27T21:15:29.873488+00:00"
     },
     "caa345c5486f": {
       "reason": "",
@@ -7153,6 +7189,12 @@
       "status": "rejected",
       "title": "Türk Dil Kurumu – TDK Burs Duyurusu",
       "ts": "2026-11-03T23:16:11.123345+00:00"
+    },
+    "cee45f2276c3": {
+      "reason": "Türkiye'ye kapalı: International students who do not meet either of these citizenship or residency requirements are not eligible under the ",
+      "status": "rejected",
+      "title": "Ohio State University Summer Research Opportunities Program (SROP) 2027: $6,000 Stipend, Free On-Campus Housing, Travel ",
+      "ts": "2026-11-27T21:15:53.436141+00:00"
     },
     "cfa02720b0d4": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -7227,10 +7269,10 @@
       "ts": "2026-11-13T00:17:04.745096+00:00"
     },
     "d5038f2688f1": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "2027 Burak Özgüner Öğrenci Teşvik Bursu",
-      "ts": "2026-11-15T17:42:47.068803+00:00"
+      "ts": "2026-11-27T21:15:29.873516+00:00"
     },
     "d757d2a29201": {
       "reason": "bekleme süresi doldu",
@@ -7279,6 +7321,12 @@
       "status": "published",
       "title": "Procter & Gamble: İnsan Kaynakları Yöneticisi İşe Alım",
       "ts": "2026-11-18T13:56:58.881407+00:00"
+    },
+    "d99f1eb29402": {
+      "reason": "",
+      "status": "queued",
+      "title": "Volt Europa Avrupa Parlamentosu Staj Programı",
+      "ts": "2026-11-27T21:17:13.525840+00:00"
     },
     "db89e5ef8212": {
       "reason": "",
@@ -8136,6 +8184,14 @@
     "rsf berlin gazetecilik burs programı 2027",
     "letonya'da avrupa kültür başkenti 2027 esc gönüllülük projesi",
     "avrupa birliği başkanlığı sözleşmeli destek personeli şoför alımı",
-    "yunanistan i zmir başkonsolosluğu özel sekreter alımı"
+    "yunanistan i zmir başkonsolosluğu özel sekreter alımı",
+    "mısır i skenderiye 30 günlük avrupa dayanışma programı esc",
+    "amazon 2027 veri mühendisliği stajı birleşik krallık",
+    "institut français türkiye'de staj fırsatı",
+    "gelir i daresi başkanlığı sözleşmeli destek personeli alımı",
+    "volt europa avrupa parlamentosu staj programı",
+    "boston university presidential lisans bursu",
+    "avustralya çanakkale konsolosluğu anzak günü çalışma fırsatı",
+    "gelir i daresi başkanlığı sözleşmeli şoför alımı"
   ]
 }
