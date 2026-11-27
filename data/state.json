@@ -360,7 +360,10 @@
     "bundestag.de/europa_internationales/ips_verteiler",
     "youthall.com/tr/BurganBank/burgan-finansal-kiralama-muhasebe-stajyeri_74",
     "forms.cloud.microsoft/Pages/ResponsePage.aspx?id=2zWeD09UYE-9zF6kFubccP_1g7sT-6tBqgRmZzatWPlUOFRUUTFEMUVDMjhJWU1HQTg5RVMzNU9FQS4u",
-    "youth.europa.eu/solidarity/opportunity/55340_en"
+    "youth.europa.eu/solidarity/opportunity/55340_en",
+    "ifturquie.org/haber/programme-assistant-de-langue-turque-en-france-2027",
+    "kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f",
+    "eit.europa.eu/our-activities/opportunities/catalyse-neb-2027-open-call"
   ],
   "outbox": [
     {
@@ -514,35 +517,6 @@
       "unclear_reason_tr": "Katılım ücreti var.",
       "visual_kind": "institution"
     },
-    "0904abee1ecd": {
-      "apply_link_id": 2,
-      "apply_url": "https://lnkd.in/d3DbSEA9",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "9 ay süren liderlik ve mentorluk programı",
-        "Yeni ekonomi alanında çalışan profesyonellere açık",
-        "Farklı nesillerden profesyonellerle ağ kurma imkanı"
-      ],
-      "id": "0904abee1ecd",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 70,
-      "organization": "Common Purpose",
-      "organization_domain": "commonpurpose.org",
-      "queued_at": "2026-11-19T21:28:47.830370+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/19/new-economy-leaders-academy-2026-applications-now-open/",
-      "summary_tr": "Common Purpose tarafından düzenlenen, yeni ekonomi alanında çalışan profesyonellere yönelik 9 aylık uluslararası liderlik ve mentorluk programı.",
-      "title_tr": "New Economy Leaders Academy 2027 Liderlik ve Mentorluk Programı",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Programın hangi ülkelerden katılımcıları kabul ettiği metinde belirtilmemiştir.",
-      "visual_kind": "institution"
-    },
     "100d8b4dbae2": {
       "apply_link_id": 3,
       "apply_url": "https://scholars.richmond.edu/",
@@ -631,34 +605,6 @@
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Türkiye'nin TWAS tarafından tanımlanan 'gelişmekte olan ülkeler' listesinde olup olmadığı metinde belirtilmemiştir.",
       "visual_kind": "institution"
-    },
-    "22d670f20a19": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.tudelft.nl/onderwijs/studievoorlichting/praktische-zaken/scholarships",
-      "category": "burs",
-      "country_tr": "Hollanda",
-      "deadline": "2026-12-01",
-      "eligibility_evidence": "Applicants must be excellent international candidates (conditionally) admitted to one of the two-year regular TU Delft MSc programmes.",
-      "fee_required": false,
-      "funding_tr": "Tam öğrenim ücreti ve yaşam masrafları desteği",
-      "highlights_tr": [
-        "İki yıllık yüksek lisans programlarını kapsar",
-        "Tam öğrenim ücreti desteği sağlar",
-        "Akademik başarı şartı aranır"
-      ],
-      "id": "22d670f20a19",
-      "is_opportunity": true,
-      "message_id": 69,
-      "organization": "Delft University of Technology",
-      "organization_domain": "tudelft.nl",
-      "queued_at": "2026-11-19T21:28:32.743332+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/tu-delft-excellence-scholarships/",
-      "summary_tr": "Delft Teknoloji Üniversitesi'nde yüksek lisans eğitimi almak isteyen uluslararası öğrenciler için sunulan, öğrenim ücretini ve yaşam masraflarını kapsayan kısmi burs programıdır.",
-      "title_tr": "TU Delft Excellence Bursları 2027",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "scene"
     },
     "2b6f06743729": {
       "apply_link_id": 1,
@@ -777,39 +723,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "scene"
     },
-    "4a3b05f444f3": {
-      "apply_link_id": 2,
-      "apply_url": "https://www.lajf.org/crs2027",
-      "category": "egitim",
-      "country_tr": "ABD",
-      "deadline": "2026-12-31",
-      "eligibility_evidence": "Camp Rising Sun accepts applications from around the world.",
-      "fee_required": false,
-      "funding_tr": "Tam burslu (eğitim ücreti karşılanır)",
-      "highlights_tr": [
-        "15-17 yaş aralığı (2010-2012 doğumlular)",
-        "İngilizce dil yeterliliği şart",
-        "Dört haftalık tam burslu program"
-      ],
-      "id": "4a3b05f444f3",
-      "image_queries": [
-        "upstate New York landscape",
-        "USA summer camp students",
-        "international youth leadership program"
-      ],
-      "is_opportunity": true,
-      "message_id": 71,
-      "organization": "Louis August Jonas Foundation",
-      "organization_domain": "lajf.org",
-      "queued_at": "2026-11-19T21:29:03.361090+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/19/camp-rising-sun-by-the-louis-august-jonas-foundation-fully-funded-summer-leadership-program-in-new-york/",
-      "summary_tr": "New York'ta düzenlenen, 15-17 yaş arası gençlere yönelik dört haftalık uluslararası liderlik ve kültürel değişim programı.",
-      "title_tr": "Camp Rising Sun 2027 Uluslararası Liderlik Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "scene"
-    },
     "4cddf0e2a362": {
       "apply_link_id": 3,
       "apply_url": "https://aapm.secure-platform.com/gaf/page/dream",
@@ -869,35 +782,6 @@
       "title_tr": "Birleşik Krallık Mevsimlik İşçi Vizesi",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "Metin, Türkiye vatandaşlarının başvuru yapıp yapamayacağına dair net bir liste veya ifade içermemektedir. Katılım ücreti var.",
-      "visual_kind": "institution"
-    },
-    "5796cb457355": {
-      "apply_link_id": 1,
-      "apply_url": "https://e-recruitment.unitar.org/user/login?destination=%2Fvacancies%2Ftraineeship-multimedia-communications-graphic-design",
-      "category": "staj",
-      "country_tr": "İsviçre",
-      "deadline": "2026-12-06",
-      "eligibility_evidence": "",
-      "fee_required": false,
-      "funding_tr": "Aylık 900 CHF ödenek",
-      "highlights_tr": [
-        "Lisans veya lisansüstü öğrencileri ve yeni mezunlar",
-        "Cenevre, İsviçre'de 4-6 aylık staj imkanı",
-        "İyi derecede İngilizce bilgisi gereklidir"
-      ],
-      "id": "5796cb457355",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 68,
-      "organization": "United Nations Institute for Training and Research",
-      "organization_domain": "unitar.org",
-      "queued_at": "2026-11-19T21:28:09.590674+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/unitar-communications-and-graphic-design-traineeship/",
-      "summary_tr": "UNITAR, Cenevre'deki merkezinde iletişim, grafik tasarım ve multimedya içerik üretimi alanlarında 4-6 aylık ücretli staj programı sunmaktadır.",
-      "title_tr": "UNITAR İletişim ve Grafik Tasarım Stajı 2027",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında açık bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
     },
     "591dc6cbbb02": {
@@ -1134,35 +1018,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "b923fbd6eb7e": {
-      "apply_link_id": 1,
-      "apply_url": "https://fcdo.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/spa-1/candidate/so/pm/4/pl/1/opp/27823-Internship-Opportunities-Humanitarian-Affairs-Migration-and-Forced-Displacement-CHEG26-023255/en-GB",
-      "category": "staj",
-      "country_tr": "İsviçre",
-      "deadline": "2026-11-26",
-      "eligibility_evidence": "Applications are open to suitably qualified graduates who have the legal right to live and work in Switzerland.",
-      "fee_required": false,
-      "funding_tr": "Aylık 1.450 CHF eğitim ödeneği",
-      "highlights_tr": [
-        "Aylık 1.450 CHF ödenek",
-        "C2 seviyesinde İngilizce şartı",
-        "İsviçre'de yasal çalışma izni zorunluluğu"
-      ],
-      "id": "b923fbd6eb7e",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 74,
-      "organization": "UK Mission to the United Nations and World Trade Organization in Geneva",
-      "organization_domain": "",
-      "queued_at": "2026-11-20T11:36:55.532917+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/20/internship-opportunities-at-the-uk-mission-to-the-un-in-geneva-2027-humanitarian-affairs-migration-and-forced-displacement-chf-1450-monthly-stipend/",
-      "summary_tr": "Cenevre'deki Birleşik Krallık Daimi Temsilciliği, insani yardım ve göç alanlarında çalışacak iki stajyer arıyor. Başvuru sahiplerinin İsviçre'de yasal çalışma iznine sahip olması zorunludur.",
-      "title_tr": "UK Mission Geneva İnsani Yardım ve Göç Staj Programı",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Metin, İsviçre'de yasal çalışma izni olan herkesin başvurabileceğini belirtmekte ancak Türk vatandaşlarının bu izni nasıl alabileceğine dair bir bilgi vermemektedir.",
-      "visual_kind": "institution"
-    },
     "bf9c4786c8f7": {
       "apply_link_id": 2,
       "apply_url": "https://forms.monday.com/forms/12bd21a2ac16a98231d1808ba0e3ad58?r=use1",
@@ -1187,35 +1042,6 @@
       "source_url": "https://opportunitiesforyouth.org/2026/11/24/giving-women-project-circle-2027-applications-open-for-grassroots-organisations-supporting-women-and-girls-receive-free-expert-guidance-and-capacity-building-support/",
       "summary_tr": "Giving Women, kadın ve kız çocuklarını destekleyen taban örgütlerine stratejik destek, mentorluk ve kurumsal kapasite geliştirme alanlarında 12 aylık ücretsiz profesyonel danışmanlık sunmaktadır.",
       "title_tr": "Giving Women Project Circle 2027 Kapasite Geliştirme Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
-    "d483e60348a9": {
-      "apply_link_id": 10,
-      "apply_url": "https://idcs-950009d4c7154de7b9a4acb69ea50742.identity.oraclecloud.com/sso/v1/user/login",
-      "category": "is",
-      "country_tr": "Online",
-      "deadline": "2026-11-30",
-      "eligibility_evidence": "The United Nations Volunteers (UNV) Programme is inviting individual consultants to apply for its Roster for Training Designers and Training Facilitators for UNV Learning Programmes.",
-      "fee_required": false,
-      "funding_tr": "Ücretli danışmanlık",
-      "highlights_tr": [
-        "3 yıllık çerçeve anlaşma",
-        "Evden çalışma imkanı",
-        "İleri düzey İngilizce gereklidir"
-      ],
-      "id": "d483e60348a9",
-      "image_queries": [],
-      "is_opportunity": true,
-      "message_id": 67,
-      "organization": "United Nations Volunteers (UNV)",
-      "organization_domain": "unv.org",
-      "queued_at": "2026-11-19T21:27:55.011025+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/19/unv-training-designers-and-training-facilitators-roster-2027-apply-for-a-three-year-individual-consultancy-with-the-united-nations-volunteers-programme/",
-      "summary_tr": "UNV, dünya genelindeki gönüllüler için eğitim programları tasarlayacak, yürütecek ve değerlendirecek uzmanlardan oluşan 3 yıllık bir danışman havuzu oluşturuyor. Çalışma evden yürütülecek olup gerektiğinde seyahat içerebilir.",
-      "title_tr": "UNV Eğitim Tasarımcısı ve Kolaylaştırıcı Havuzu 2027",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
@@ -1610,33 +1436,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1",
-      "category": "is",
-      "country_tr": "Türkiye",
-      "deadline": "",
-      "detail_missing": true,
-      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "Sözleşmeli personel statüsü",
-        "Kariyer Kapısı üzerinden başvuru",
-        "Türkiye Cumhuriyeti vatandaşlarına açık"
-      ],
-      "icon": "landmark",
-      "id": "03fde0751135",
-      "is_opportunity": true,
-      "organization": "BURSA TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-      "organization_domain": "btu.edu.tr",
-      "queued_at": "2026-11-13T00:16:49.459653+00:00",
-      "source": "Kariyer Kapısı",
-      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1",
-      "summary_tr": "Bursa Teknik Üniversitesi Rektörlüğü bünyesinde görevlendirilmek üzere 1 sözleşmeli psikolog alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
-      "title_tr": "Bursa Teknik Üniversitesi Sözleşmeli Psikolog Alımı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://www.salto-youth.net/tools/european-training-calendar/training/greensteps.15545/",
@@ -3342,33 +3141,6 @@
     },
     {
       "apply_link_id": 1,
-      "apply_url": "https://sekav.org/2026/10/26/sekav-burs-basvurulari-basladi-hemen-basvur/",
-      "category": "burs",
-      "country_tr": "Türkiye",
-      "deadline": "2026-11-26",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Erasmusgram)",
-      "fee_required": false,
-      "funding_tr": "Belirtilmemiş",
-      "highlights_tr": [
-        "Ön lisans ve lisans öğrencileri için",
-        "En az 2,75 not ortalaması şartı",
-        "Şiran doğumlulara öncelik tanınır"
-      ],
-      "id": "40a33256dbb2",
-      "is_opportunity": true,
-      "organization": "Şiran Eğitim ve Kalkınma Vakfı",
-      "organization_domain": "sekav.org",
-      "queued_at": "2026-11-24T00:48:26.651215+00:00",
-      "source": "Erasmusgram",
-      "source_url": "https://www.erasmusgram.com/sekav-burs-duyurusu/",
-      "summary_tr": "Şiran Eğitim ve Kalkınma Vakfı (ŞEKAV), Türkiye'deki üniversitelerde ön lisans ve lisans eğitimi alan en az 300 öğrenciye burs desteği sağlayacaktır.",
-      "title_tr": "ŞEKAV 2026-2027 Eğitim Yılı Burs Programı",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://training.vbc.ac.at/how-to-apply/",
       "category": "staj",
       "country_tr": "Avusturya",
@@ -4324,6 +4096,86 @@
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
       "visual_kind": "scene"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.ifturquie.org/haber/programme-assistant-de-langue-turque-en-france-2027/",
+      "category": "staj",
+      "country_tr": "Fransa",
+      "deadline": "2027-01-31",
+      "eligibility_evidence": "Ortaöğretim ve yükseköğrenim eğitiminin büyük bölümünü Türkiye’de tamamlamış olmak;",
+      "fee_required": false,
+      "funding_tr": "Belirtilmemiş",
+      "highlights_tr": [
+        "20-35 yaş aralığı",
+        "En az B1 düzeyinde Fransızca",
+        "1 Ekim 2027 - 30 Nisan 2028 arası"
+      ],
+      "id": "320c1306d93b",
+      "is_opportunity": true,
+      "organization": "Institut Français Türkiye",
+      "organization_domain": "ifturquie.org",
+      "queued_at": "2026-11-27T02:49:13.441255+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/fransada-turkce-dil-asistanligi-programina-katilma-firsati/",
+      "summary_tr": "Fransa'daki okullarda Türkçe dil asistanlığı yapmak isteyen, 20-35 yaş arası, lisans 3. veya 4. sınıf öğrencisi adaylar için başvuru süreci başladı.",
+      "title_tr": "Fransa'da Türkçe Dil Asistanlığı Programı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Sözleşmeli bilişim personeli pozisyonu",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Türkiye Cumhuriyeti vatandaşlarına açık"
+      ],
+      "icon": "landmark",
+      "id": "efdffad15290",
+      "is_opportunity": true,
+      "organization": "SELÇUK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+      "organization_domain": "selcuk.edu.tr",
+      "queued_at": "2026-11-27T02:49:38.408448+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f",
+      "summary_tr": "Selçuk Üniversitesi Rektörlüğü bünyesinde sözleşmeli bilişim personeli alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Selçuk Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.eit.europa.eu/our-activities/opportunities/catalyse-neb-2027-open-call",
+      "category": "hibe",
+      "country_tr": "Çok ülkeli",
+      "deadline": "2027-01-15",
+      "eligibility_evidence": "Avrupa Birliği üye ülkelerinde, programa uygun denizaşırı ülkelerde veya Horizon Europe Programı’nın 3. Sütunu kapsamında ilişkili üçüncü ülkelerde kurulmuş olmak.",
+      "fee_required": false,
+      "funding_tr": "22.000 avro hibe",
+      "highlights_tr": [
+        "22.000 avro hibe desteği",
+        "Birebir mentorluk ve atölye çalışmaları",
+        "1 Ocak 2022 sonrası kurulmuş startup şartı"
+      ],
+      "id": "8bc83071844e",
+      "is_opportunity": true,
+      "organization": "European Institute of Innovation and Technology",
+      "organization_domain": "eit.europa.eu",
+      "queued_at": "2026-11-27T02:49:46.240057+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/catalyse-neb-2027-hibe-programi-girisimlere-22-000-avro-destek/",
+      "summary_tr": "EIT bünyesindeki New European Bauhaus topluluğu tarafından yürütülen program, sürdürülebilirlik odaklı girişimlere 22.000 avro hibe ve mentorluk desteği sağlıyor.",
+      "title_tr": "Catalyse NEB 2027 Hızlandırma Programı ve Hibe Desteği",
+      "turkey_eligible": "yes",
+      "unclear_reason_tr": "",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -4400,10 +4252,10 @@
       "ts": "2026-11-24T00:47:29.533254+00:00"
     },
     "03fde0751135": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "Bursa Teknik Üniversitesi Sözleşmeli Psikolog Alımı",
-      "ts": "2026-11-13T00:16:49.459670+00:00"
+      "ts": "2026-11-27T02:48:50.751435+00:00"
     },
     "0420d3141e13": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -4472,10 +4324,10 @@
       "ts": "2026-11-16T11:05:20.407612+00:00"
     },
     "0904abee1ecd": {
-      "reason": "Programın hangi ülkelerden katılımcıları kabul ettiği metinde belirtilmemiştir.",
-      "status": "pending",
-      "title": "New Economy Leaders Academy 2027: 9-Month International Leadership and Mentoring Programme for Professionals",
-      "ts": "2026-11-19T21:28:47.830386+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "New Economy Leaders Academy 2027 Liderlik ve Mentorluk Programı",
+      "ts": "2026-11-27T02:48:50.751688+00:00"
     },
     "093f17f46a64": {
       "reason": "bekleme süresi doldu",
@@ -4850,10 +4702,10 @@
       "ts": "2026-11-09T17:28:16.274158+00:00"
     },
     "22d670f20a19": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "TU Delft Excellence Scholarships 2027 in Netherlands | Study in Europe",
-      "ts": "2026-11-19T21:28:32.743348+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "TU Delft Excellence Bursları 2027",
+      "ts": "2026-11-27T02:48:50.751699+00:00"
     },
     "2305ed45472a": {
       "reason": "",
@@ -5046,6 +4898,12 @@
       "status": "expired",
       "title": "Birmingham International Academy Future Makers Challenge 2027",
       "ts": "2026-11-25T04:53:01.088001+00:00"
+    },
+    "320c1306d93b": {
+      "reason": "",
+      "status": "queued",
+      "title": "Fransa'da Türkçe Dil Asistanlığı Programı",
+      "ts": "2026-11-27T02:49:13.441271+00:00"
     },
     "32812191855b": {
       "reason": "Türkiye'ye kapalı: Eligible applicants must be aged 18 or over, have the right to reside in the United Kingdom, and live in or serve a comm",
@@ -5252,10 +5110,10 @@
       "ts": "2026-11-23T12:23:39.017130+00:00"
     },
     "40a33256dbb2": {
-      "reason": "",
-      "status": "queued",
+      "reason": "son başvuru geçti",
+      "status": "expired",
       "title": "ŞEKAV 2026-2027 Eğitim Yılı Burs Programı",
-      "ts": "2026-11-24T00:48:26.651227+00:00"
+      "ts": "2026-11-27T02:48:50.751616+00:00"
     },
     "415a59cdb88b": {
       "reason": "bekleme süresi doldu",
@@ -5389,6 +5247,12 @@
       "title": "Visiting Fellowship in Berlin, Germany 2027: Network Humanitarian Research (NHF) Recruiting Two Policy Research Fellows ",
       "ts": "2026-11-25T15:32:48.762661+00:00"
     },
+    "488f290b72fe": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Türkiye Su Enstitüsü Başkanlığı Sözleşmeli Personel Alımı Yapacak",
+      "ts": "2026-11-27T02:49:59.202893+00:00"
+    },
     "4964de0862b8": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5414,10 +5278,10 @@
       "ts": "2026-11-24T10:52:10.747980+00:00"
     },
     "4a3b05f444f3": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "Camp Rising Sun 2027: Fully Funded International Leadership Summer Program in New York",
-      "ts": "2026-11-19T21:29:03.361105+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "Camp Rising Sun 2027 Uluslararası Liderlik Programı",
+      "ts": "2026-11-27T02:48:50.751710+00:00"
     },
     "4a4a4871ebf6": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -5558,10 +5422,10 @@
       "ts": "2026-11-03T17:50:04.889232+00:00"
     },
     "5796cb457355": {
-      "reason": "Metinde başvuru yapabilecek ülkeler veya vatandaşlık şartları hakkında açık bir bilgi bulunmamaktadır.",
-      "status": "pending",
-      "title": "UNITAR Communications and Graphic Design Traineeship 2027",
-      "ts": "2026-11-19T21:28:09.590692+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "UNITAR İletişim ve Grafik Tasarım Stajı 2027",
+      "ts": "2026-11-27T02:48:50.751718+00:00"
     },
     "57cc5eee1fe9": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -6301,6 +6165,12 @@
       "title": "Mersin Üniversitesi Rektörlüğü - Bilişim Personel Alımı",
       "ts": "2026-11-26T00:18:08.899720+00:00"
     },
+    "8bc83071844e": {
+      "reason": "",
+      "status": "queued",
+      "title": "Catalyse NEB 2027 Hızlandırma Programı ve Hibe Desteği",
+      "ts": "2026-11-27T02:49:46.240073+00:00"
+    },
     "8bd808bd7c66": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6336,6 +6206,12 @@
       "status": "queued",
       "title": "Almanya'da Erasmus+ Gençlik Projeleri: Düsseldorf",
       "ts": "2026-11-11T21:54:35.103817+00:00"
+    },
+    "8ef31ab7cfcf": {
+      "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
+      "status": "rejected",
+      "title": "Rekabet Kurumu Başkanlığı 55 Rekabet Uzman Yardımcısı Alımı Duyurusu",
+      "ts": "2026-11-27T02:50:08.431602+00:00"
     },
     "8f8fcff5492e": {
       "reason": "bekleme süresi doldu",
@@ -6914,10 +6790,10 @@
       "ts": "2026-11-15T17:42:30.547290+00:00"
     },
     "b923fbd6eb7e": {
-      "reason": "Metin, İsviçre'de yasal çalışma izni olan herkesin başvurabileceğini belirtmekte ancak Türk vatandaşlarının bu izni nasıl alabileceğine dair bir bilgi vermemektedir.",
-      "status": "pending",
-      "title": "Internship Opportunities at the UK Mission to the UN in Geneva 2027: Humanitarian Affairs, Migration and Forced Displace",
-      "ts": "2026-11-20T11:36:55.532938+00:00"
+      "reason": "son başvuru geçti",
+      "status": "expired",
+      "title": "UK Mission Geneva İnsani Yardım ve Göç Staj Programı",
+      "ts": "2026-11-27T02:48:50.751733+00:00"
     },
     "b94ad02d36d5": {
       "reason": "Türkiye'ye kapalı: Applicants must be operating in, or residing within, one of the designated regions.",
@@ -7226,10 +7102,10 @@
       "ts": "2026-11-26T19:36:24.537046+00:00"
     },
     "d483e60348a9": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "UNV Training Designers and Training Facilitators Roster 2027: Apply for a Three-Year Individual Consultancy with the Uni",
-      "ts": "2026-11-19T21:27:55.011042+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "UNV Eğitim Tasarımcısı ve Kolaylaştırıcı Havuzu 2027",
+      "ts": "2026-11-27T02:48:50.751739+00:00"
     },
     "d4e3097a675b": {
       "reason": "fırsat değil (haber/liste/reklam)",
@@ -7566,6 +7442,12 @@
       "status": "pending",
       "title": "Yale Bernstein Fellowships 2027 in USA",
       "ts": "2026-11-26T00:17:01.259994+00:00"
+    },
+    "efdffad15290": {
+      "reason": "",
+      "status": "queued",
+      "title": "Selçuk Üniversitesi Sözleşmeli Bilişim Personeli Alımı",
+      "ts": "2026-11-27T02:49:38.408465+00:00"
     },
     "f0aef4d3310d": {
       "reason": "",
@@ -8121,6 +8003,9 @@
     "alman federal meclisi 2028 uluslararası parlamento bursu bilgilendirme",
     "burgan finansal kiralama muhasebe stajyeri",
     "bm küresel i nsan hakları gençlik ağı ve i nsan hakları şehirleri anketi",
-    "polonya'da 6 aylık esc gönüllülük projesi"
+    "polonya'da 6 aylık esc gönüllülük projesi",
+    "fransa'da türkçe dil asistanlığı programı",
+    "selçuk üniversitesi sözleşmeli bilişim personeli alımı",
+    "catalyse neb 2027 hızlandırma programı ve hibe desteği"
   ]
 }
