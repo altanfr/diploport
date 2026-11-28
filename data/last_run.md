@@ -1,14 +1,11 @@
-# Son çalışma (2026-11-28 06:52 TR)
+# Son çalışma (2026-11-28 15:55 TR)
 
-Kuyruk: 105 · Onay bekleyen: 23 · Hazırlanan: -
-Bulunan yeni ilan: 6 · Bu çalışmada işlenmesi planlanan: 6 · Raporlanan: 6
-Kaynaklar: Opportunities Corners: 0 yeni / 6 kayıt · Opportunities For Youth: 2 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: okunamadı: HTTP 415 · AB İlan: 1 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 3 yeni / 27 kayıt
+Kuyruk: 105 · Onay bekleyen: 22 · Hazırlanan: 0164c1253066
+Bulunan yeni ilan: 3 · Bu çalışmada işlenmesi planlanan: 3 · Raporlanan: 3
+Kaynaklar: Opportunities Corners: 1 yeni / 6 kayıt · Opportunities For Youth: 0 yeni / 10 kayıt · Erasmusgram: 0 yeni / 8 kayıt · Opportunities Circle: 1 yeni / 10 kayıt · AB İlan: 1 yeni / 10 kayıt · SALTO-YOUTH Eğitim Takvimi: 0 yeni / 10 kayıt · Youthall: 0 yeni / 18 kayıt · Kariyer Kapısı: 0 yeni / 27 kayıt
 
 | Durum | Kaynak | İlan | Neden / kanıt / link |
 |---|---|---|---|
-| elendi | Opportunities For Youth | Eastern Partnership Civil Society Fellowship Programme 2027 | Türkiye'ye kapalı: Be a citizen of Armenia, Azerbaijan, Belarus, Georgia, Moldova, or Ukraine. |
-| kuyrukta | AB İlan | Rocket Up 2027: Kadın Girişimciler İçin Avrupa Pazarına Açılma | kanıt: Şirket, Avrupa Birliği üyesi bir ülkede veya Horizon Europe ile ilişkili bir ülkede kayıtlı ve faal olmalıdır. · son tarih: 2027-01-22 · link: https://www.eit.europa.eu/our-activities/opportunities/rocket-2027-take-your-startup-new-european-market · görsel: kurum logosu aranacak (EIT Community Supernovas; stok foto yok) |
-| kuyrukta | Kariyer Kapısı | Gelir İdaresi Başkanlığı Sözleşmeli Koruma ve Güvenlik Görevlisi | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=a72d5bb6-a2c6-4ba9-b937-0057ef8fc0ea · görsel: kurum logosu aranacak (GELİR İDARESİ BAŞKANLIĞI; stok foto yok) |
-| kuyrukta | Opportunities For Youth | ICRC Global Affairs Associate Traineeship | kanıt: The ICRC also emphasizes that it values diversity, is committed to maintaining an inclusive working environment, and welcomes applications from all qualified candidates. · son tarih: 2026-12-06 · link: https://careers.icrc.org/job/Geneva-%28GVA%29-Global-Affairs-Associate-34135/1459453533/ · görsel: kurum logosu aranacak (International Committee of the Red Cross; stok foto yok) |
-| elendi | Kariyer Kapısı | GELİR İDARESİ BAŞKANLIĞI - Sözleşmeli Avukat | tekrar |
-| kuyrukta | Kariyer Kapısı | Gelir İdaresi Başkanlığı Sözleşmeli Tekniker Giriş Sınavı | kanıt: ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir. · son tarih: - · ayrıntı metni alınamadı: özet yalnızca başlıktan · link: https://kariyerkapisi.gov.tr/IlanDetay?i=fbe6dbe7-e178-4680-8509-e91d11d9e505 · görsel: kurum logosu aranacak (GELİR İDARESİ BAŞKANLIĞI; stok foto yok) |
+| kuyrukta | Opportunities Corners | RIPS 2027 Yaz Staj Programı - ABD | kanıt: This internship in the USA is open to undergraduates, recent graduates, and international students. · son tarih: 2027-02-08 · link: https://www.ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2027-los-angeles/ · görsel: kurum logosu aranacak (Institute for Pure and Applied Mathematics; stok foto yok) |
+| elendi | Opportunities Circle | Commonwealth Study Conferences 2027 | Türkiye'ye kapalı: Applicants must be citizens and residents of a Commonwealth nation or territory. |
+| kuyrukta | AB İlan | Fulbright Eğitimde Mükemmeliyet ve Başarı Programı (TEA) | kanıt: Türkiye Fulbright Eğitim Komisyonu tarafından yürütülen Fulbright Eğitimde Mükemmeliyet ve Başarı Programı (TEA) için başvurular açıldı. · son tarih: 2027-01-15 · link: https://fulbright.org.tr/burs/17/Fulbright-E%C4%9Fitimde-M%C3%BCkemmeliyet-ve-Ba%C5%9Far%C4%B1-Program%C4%B1 · görsel: kurum logosu aranacak (Türkiye Fulbright Eğitim Komisyonu; stok foto yok) |

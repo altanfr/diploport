@@ -380,7 +380,9 @@
     "eit.europa.eu/our-activities/opportunities/rocket-2027-take-your-startup-new-european-market",
     "kariyerkapisi.gov.tr/IlanDetay?i=a72d5bb6-a2c6-4ba9-b937-0057ef8fc0ea",
     "careers.icrc.org/job/Geneva-%28GVA%29-Global-Affairs-Associate-34135/1459453533",
-    "kariyerkapisi.gov.tr/IlanDetay?i=fbe6dbe7-e178-4680-8509-e91d11d9e505"
+    "kariyerkapisi.gov.tr/IlanDetay?i=fbe6dbe7-e178-4680-8509-e91d11d9e505",
+    "ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2027-los-angeles",
+    "fulbright.org.tr/burs/17/Fulbright-E%C4%9Fitimde-M%C3%BCkemmeliyet-ve-Ba%C5%9Far%C4%B1-Program%C4%B1"
   ],
   "outbox": [
     {
@@ -452,6 +454,16 @@
       "source": "Erasmusgram",
       "title": "Mısır'da Oyun Temelli Gençlik Katılımı ve Sosyal Girişimcilik Eğitimi",
       "ts": "2026-11-27T12:08:53.081256+00:00"
+    },
+    {
+      "apply_url": "https://www.youthall.com/tr/Eczacibasi/gel-bi-kesfet_17/",
+      "attempts": 0,
+      "caption": "Eczacıbaşı Gel Bi‘ Keşfet Webinar Serisi\n\nEczacıbaşı Topluluğu'nun düzenlediği, profesyonellerle tanışma, kariyer ve genç yetenek programları hakkında bilgi edinme fırsatı sunan 3 günlük online webinar serisi.\n\n- 3 günlük online kariyer etkinliği\n- İnsan kaynakları ile soru-cevap imkanı\n- Katılım sertifikası kazanma şansı\n\nBaşvuru: https://www.youthall.com/tr/Eczacibasi/gel-bi-kesfet_17/\nTüm fırsatlar: https://diploport.dev/#0164c1253066\n\n#diploport #fırsat #türkgençler #erasmusplus #gençlikprogramı #eğitim",
+      "id": "0164c1253066",
+      "photo_query": "logo: Eczacıbaşı Holding (Vikipedi (tr) sayfa logosu)",
+      "source": "Youthall",
+      "title": "Eczacıbaşı Gel Bi‘ Keşfet Webinar Serisi",
+      "ts": "2026-11-28T12:56:04.191626+00:00"
     }
   ],
   "pending": {
@@ -688,34 +700,6 @@
       "title_tr": "J-PAL Africa Politika Yöneticisi Pozisyonu",
       "turkey_eligible": "unclear",
       "unclear_reason_tr": "İlan herhangi bir uyruk kısıtlamasından veya kabulünden bahsetmemektedir.",
-      "visual_kind": "institution"
-    },
-    "3efa04693e60": {
-      "apply_link_id": 1,
-      "apply_url": "https://www.reddit.com/submit?url=https%3A%2F%2Fopportunitiesforyouth.org%2F2026%2F11%2F20%2Fworld-economic-forum-early-careers-programme-2027-paid-graduate-roles-in-switzerland-china-and-usa%2F&title=World+Economic+Forum+Early+Careers+Programme+2027%3A+Paid+Graduate+Roles+in+Switzerland%2C+China+and+USA",
-      "category": "is",
-      "country_tr": "Çok ülkeli",
-      "deadline": "2026-12-02",
-      "eligibility_evidence": "Candidates should review the location-specific listing for any additional eligibility requirements.",
-      "fee_required": false,
-      "funding_tr": "Maaşlı",
-      "highlights_tr": [
-        "1-2 yıl iş deneyimi gerekli",
-        "6 aylık tam zamanlı program",
-        "Maaşlı pozisyonlar"
-      ],
-      "id": "3efa04693e60",
-      "is_opportunity": true,
-      "message_id": 77,
-      "organization": "World Economic Forum",
-      "organization_domain": "weforum.org",
-      "queued_at": "2026-11-21T09:46:05.716824+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/20/world-economic-forum-early-careers-programme-2027-paid-graduate-roles-in-switzerland-china-and-usa/",
-      "summary_tr": "World Economic Forum, mezunlar için 6 aylık tam zamanlı Erken Kariyer Programı'na başvuruyor. Program, Cenevre, Pekin, New York ve San Francisco'da paydaş yönetimi, proje yönetimi, kamu katılımı ve etkinlikler alanlarında fırsatlar sunuyor.",
-      "title_tr": "World Economic Forum Erken Kariyer Programı 2027",
-      "turkey_eligible": "unclear",
-      "unclear_reason_tr": "Türkiye vatandaşlarının başvuru yapıp yapamayacağına dair net bir bilgi bulunmamaktadır.",
       "visual_kind": "institution"
     },
     "4875371e543d": {
@@ -1375,32 +1359,6 @@
   "queue": [
     {
       "apply_link_id": 1,
-      "apply_url": "https://jobs.smartrecruiters.com/CERN/744000159603499-cern-summer-student-programme-2027-member-and-non-member-state-",
-      "category": "staj",
-      "country_tr": "İsviçre",
-      "deadline": "2027-01-21",
-      "eligibility_evidence": "Applicants of all nationalities are eligible for this funded CERN internship for international students",
-      "fee_required": false,
-      "funding_tr": "Ücretli ve kısmi burslu",
-      "highlights_tr": [
-        "Lisans veya yüksek lisans öğrencisi olma şartı",
-        "8-13 hafta süreli staj imkanı",
-        "İyi derecede İngilizce bilgisi gereklidir"
-      ],
-      "id": "5cba34a9a257",
-      "is_opportunity": true,
-      "organization": "CERN",
-      "organization_domain": "cern.ch",
-      "queued_at": "2026-11-14T11:25:49.743301+00:00",
-      "source": "Opportunities Circle",
-      "source_url": "https://www.opportunitiescircle.com/cern-summer-student-program-in-switzerland/",
-      "summary_tr": "CERN, fizik, bilgisayar bilimi, mühendislik veya matematik bölümlerinde okuyan lisans ve yüksek lisans öğrencileri için İsviçre'de 8-13 hafta süreli ücretli yaz staj programı sunmaktadır.",
-      "title_tr": "CERN 2027 Yaz Staj Programı",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_link_id": 1,
       "apply_url": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
       "category": "staj",
       "country_tr": "Japonya",
@@ -1571,31 +1529,6 @@
       "title_tr": "Avrupa Konseyi 2027 Gençlik Delegeleri Programı",
       "turkey_eligible": "yes",
       "unclear_reason_tr": "",
-      "visual_kind": "institution"
-    },
-    {
-      "apply_url": "https://www.youthall.com/tr/Eczacibasi/gel-bi-kesfet_17/",
-      "category": "egitim",
-      "country_tr": "Online",
-      "deadline": "",
-      "eligibility_evidence": "Kaynak Türkiye merkezli (Youthall)",
-      "fee_required": false,
-      "funding_tr": "Ücretsiz",
-      "highlights_tr": [
-        "3 günlük online kariyer etkinliği",
-        "İnsan kaynakları ile soru-cevap imkanı",
-        "Katılım sertifikası kazanma şansı"
-      ],
-      "id": "0164c1253066",
-      "is_opportunity": true,
-      "organization": "Eczacıbaşı",
-      "organization_domain": "eczacibasi.com.tr",
-      "queued_at": "2026-11-16T11:04:38.598356+00:00",
-      "source": "Youthall",
-      "source_url": "https://www.youthall.com/tr/Eczacibasi/gel-bi-kesfet_17/",
-      "summary_tr": "Eczacıbaşı Topluluğu'nun düzenlediği, profesyonellerle tanışma, kariyer ve genç yetenek programları hakkında bilgi edinme fırsatı sunan 3 günlük online webinar serisi.",
-      "title_tr": "Eczacıbaşı Gel Bi‘ Keşfet Webinar Serisi",
-      "turkey_eligible": "yes",
       "visual_kind": "institution"
     },
     {
@@ -4275,6 +4208,58 @@
       "title_tr": "Gelir İdaresi Başkanlığı Sözleşmeli Tekniker Giriş Sınavı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2027-los-angeles/",
+      "category": "staj",
+      "country_tr": "ABD",
+      "deadline": "2027-02-08",
+      "eligibility_evidence": "This internship in the USA is open to undergraduates, recent graduates, and international students.",
+      "fee_required": false,
+      "funding_tr": "Tam burslu (staj ücreti, yol ve konaklama dahil)",
+      "highlights_tr": [
+        "9 hafta süreli tam burslu staj",
+        "Matematik, istatistik ve bilgisayar bilimleri",
+        "Lisans öğrencileri ve yeni mezunlar için"
+      ],
+      "id": "9dae5ac01ca9",
+      "is_opportunity": true,
+      "organization": "Institute for Pure and Applied Mathematics",
+      "organization_domain": "ipam.ucla.edu",
+      "queued_at": "2026-11-28T12:55:30.982677+00:00",
+      "source": "Opportunities Corners",
+      "source_url": "https://opportunitiescorners.com/rips-summer-internship-2027/",
+      "summary_tr": "UCLA bünyesindeki IPAM tarafından düzenlenen RIPS, lisans ve yeni mezun öğrencilere matematik, istatistik ve bilgisayar bilimleri alanlarında 9 haftalık tam burslu bir araştırma stajı sunuyor.",
+      "title_tr": "RIPS 2027 Yaz Staj Programı - ABD",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://fulbright.org.tr/burs/17/Fulbright-E%C4%9Fitimde-M%C3%BCkemmeliyet-ve-Ba%C5%9Far%C4%B1-Program%C4%B1",
+      "category": "burs",
+      "country_tr": "Amerika Birleşik Devletleri",
+      "deadline": "2027-01-15",
+      "eligibility_evidence": "Türkiye Fulbright Eğitim Komisyonu tarafından yürütülen Fulbright Eğitimde Mükemmeliyet ve Başarı Programı (TEA) için başvurular açıldı.",
+      "fee_required": false,
+      "funding_tr": "Tam burs",
+      "highlights_tr": [
+        "6 haftalık mesleki gelişim",
+        "ABD'de eğitim fırsatı",
+        "İngilizce öğretmenlerine özel"
+      ],
+      "id": "a3b28478b1b5",
+      "is_opportunity": true,
+      "organization": "Türkiye Fulbright Eğitim Komisyonu",
+      "organization_domain": "fulbright.org.tr",
+      "queued_at": "2026-11-28T12:56:01.769310+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/fulbright-2027-egitimde-mukemmeliyet-ve-basari-bursu-tea/",
+      "summary_tr": "Ankara, İstanbul veya Mersin'de görev yapan ortaokul ve lise İngilizce öğretmenlerine yönelik ABD'de 6 haftalık mesleki gelişim burs programıdır.",
+      "title_tr": "Fulbright Eğitimde Mükemmeliyet ve Başarı Programı (TEA)",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -5233,10 +5218,10 @@
       "ts": "2026-11-04T15:26:26.864994+00:00"
     },
     "3efa04693e60": {
-      "reason": "Türkiye vatandaşlarının başvuru yapıp yapamayacağına dair net bir bilgi bulunmamaktadır.",
-      "status": "pending",
-      "title": "World Economic Forum Early Careers Programme 2027: Paid Graduate Roles in Switzerland, China and USA",
-      "ts": "2026-11-21T09:46:05.716848+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "World Economic Forum Erken Kariyer Programı 2027",
+      "ts": "2026-11-28T12:55:09.661854+00:00"
     },
     "3f549960b55b": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
@@ -5653,10 +5638,10 @@
       "ts": "2026-11-23T02:41:10.004256+00:00"
     },
     "5cba34a9a257": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "CERN 2027 Yaz Staj Programı",
-      "ts": "2026-11-14T11:25:49.743312+00:00"
+      "ts": "2026-11-28T12:55:09.661616+00:00"
     },
     "5cc5a581782a": {
       "reason": "bekleme süresi doldu",
@@ -6462,6 +6447,12 @@
       "title": "Gelir İdaresi Başkanlığı Sözleşmeli Destek Personeli Alımı",
       "ts": "2026-11-27T21:17:05.732480+00:00"
     },
+    "91a3d3468240": {
+      "reason": "Türkiye'ye kapalı: Applicants must be citizens and residents of a Commonwealth nation or territory.",
+      "status": "rejected",
+      "title": "Commonwealth Study Conferences 2027",
+      "ts": "2026-11-28T12:55:36.401248+00:00"
+    },
     "91ce4022bba5": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6612,6 +6603,12 @@
       "title": "Almanya'da 8 Günlük Erasmus+ Gençlik Değişimi Projesi",
       "ts": "2026-11-17T03:47:48.657566+00:00"
     },
+    "9dae5ac01ca9": {
+      "reason": "",
+      "status": "queued",
+      "title": "RIPS 2027 Yaz Staj Programı - ABD",
+      "ts": "2026-11-28T12:55:30.982696+00:00"
+    },
     "9e01cd88d970": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -6683,6 +6680,12 @@
       "status": "expired",
       "title": "Erasmus Mundus EMMIR 2027 Yüksek Lisans Bursu",
       "ts": "2026-11-12T18:52:43.528162+00:00"
+    },
+    "a3b28478b1b5": {
+      "reason": "",
+      "status": "queued",
+      "title": "Fulbright Eğitimde Mükemmeliyet ve Başarı Programı (TEA)",
+      "ts": "2026-11-28T12:56:01.769328+00:00"
     },
     "a3dff2a05e20": {
       "reason": "Türkiye'ye kapalı: Students from Asia can apply from here (Enrolled in an Asian university pursuing a bachelor’s degree).",
@@ -8278,6 +8281,8 @@
     "rocket up 2027 kadın girişimciler i çin avrupa pazarına açılma",
     "gelir i daresi başkanlığı sözleşmeli koruma ve güvenlik görevlisi",
     "icrc global affairs associate traineeship",
-    "gelir i daresi başkanlığı sözleşmeli tekniker giriş sınavı"
+    "gelir i daresi başkanlığı sözleşmeli tekniker giriş sınavı",
+    "rips 2027 yaz staj programı abd",
+    "fulbright eğitimde mükemmeliyet ve başarı programı tea"
   ]
 }
