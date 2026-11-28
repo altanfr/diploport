@@ -376,7 +376,11 @@
     "volteuropa.org/vacancies-ep-office",
     "bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit",
     "docs.google.com/forms/d/e/1FAIpQLSfqksba6ge_ZWwHACQqiQhkw06u7WOcATOFpVRzCbd4MbxiLg/viewform?usp=send_form",
-    "kariyerkapisi.gov.tr/IlanDetay?i=26bdd65d-ebb3-4070-b9d4-2b8e46fa4fa4"
+    "kariyerkapisi.gov.tr/IlanDetay?i=26bdd65d-ebb3-4070-b9d4-2b8e46fa4fa4",
+    "eit.europa.eu/our-activities/opportunities/rocket-2027-take-your-startup-new-european-market",
+    "kariyerkapisi.gov.tr/IlanDetay?i=a72d5bb6-a2c6-4ba9-b937-0057ef8fc0ea",
+    "careers.icrc.org/job/Geneva-%28GVA%29-Global-Affairs-Associate-34135/1459453533",
+    "kariyerkapisi.gov.tr/IlanDetay?i=fbe6dbe7-e178-4680-8509-e91d11d9e505"
   ],
   "outbox": [
     {
@@ -895,39 +899,6 @@
       "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
       "visual_kind": "institution"
     },
-    "697a8815f7f8": {
-      "apply_link_id": 3,
-      "apply_url": "https://unitar.org/vacancy-announcements",
-      "category": "staj",
-      "country_tr": "ABD ve İsviçre",
-      "deadline": "2026-12-06",
-      "eligibility_evidence": "The United Nations Institute for Training and Research (UNITAR) has announced new traineeship opportunities for individuals interested in gaining professional experience in the United Nations system.",
-      "fee_required": false,
-      "funding_tr": "Cüzi katkı payı (Geneva için CHF 900)",
-      "highlights_tr": [
-        "Öğrenciler ve yeni mezunlar için",
-        "3-6 ay süreli tam zamanlı staj",
-        "İleri düzeyde İngilizce şartı"
-      ],
-      "id": "697a8815f7f8",
-      "image_queries": [
-        "United Nations headquarters New York",
-        "Switzerland Geneva international organization",
-        "international students office campus"
-      ],
-      "is_opportunity": true,
-      "message_id": 76,
-      "organization": "United Nations Institute for Training and Research",
-      "organization_domain": "unitar.org",
-      "queued_at": "2026-11-21T01:30:05.351142+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/20/unitar-traineeships-2026-apply-for-3-6-month-training-opportunities-in-new-york-and-geneva-switzerland/",
-      "summary_tr": "UNITAR, New York ve Cenevre ofislerinde 3-6 ay süreli, uluslararası ilişkiler ve grafik tasarım alanlarında staj imkanları sunuyor. Program, öğrenciler ve yeni mezunlara açıktır.",
-      "title_tr": "UNITAR 2026 Dönemi Staj Programları",
-      "turkey_eligible": "yes",
-      "unclear_reason_tr": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "visual_kind": "institution"
-    },
     "6c7005890feb": {
       "apply_link_id": 1,
       "apply_url": "https://higher.gs.com/campus?EXPERIENCE_LEVEL=Seasonal&LOCATION=Singapore%7CHong+Kong%7CTokyo%7CSydney%7CBeijing%7CSeoul%7CTaipei&page=1&sort=RELEVANCEGoldman+Sachs+Internship+2027+offers+hands-on+experience%2C+mentorship%2C+and+international+opportunities+for+students+and+graduates.",
@@ -1402,37 +1373,6 @@
     }
   ],
   "queue": [
-    {
-      "apply_link_id": 3,
-      "apply_url": "https://www.ucd.ie/spire/study/prospectivephdstudents/iseulthonohandoctoralscholarship/",
-      "category": "burs",
-      "country_tr": "İrlanda",
-      "deadline": "2027-01-15",
-      "eligibility_evidence": "This makes the scholarship accessible to qualified applicants from Ireland, other European countries, and countries outside Europe.",
-      "fee_required": false,
-      "funding_tr": "Tam eğitim ücreti muafiyeti ve yıllık 25.000 Euro yaşam bursu",
-      "highlights_tr": [
-        "Yıllık 25.000 Euro yaşam desteği",
-        "Tam eğitim ücreti karşılanır",
-        "4 yıla kadar finansal destek"
-      ],
-      "id": "7b299bf87f25",
-      "image_queries": [
-        "University College Dublin campus",
-        "Ireland university students",
-        "students studying library"
-      ],
-      "is_opportunity": true,
-      "organization": "University College Dublin",
-      "organization_domain": "ucd.ie",
-      "queued_at": "2026-11-13T22:35:53.615424+00:00",
-      "source": "Opportunities For Youth",
-      "source_url": "https://opportunitiesforyouth.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027-in-ireland-fully-funded-phd-opportunity-with-e25000-annual-stipend-for-eu-and-international-students/",
-      "summary_tr": "University College Dublin (UCD), siyaset bilimi ve uluslararası ilişkiler alanlarında doktora yapacak öğrenciler için 4 yıla kadar tam burslu doktora programı sunmaktadır.",
-      "title_tr": "UCD Iseult Honohan Doktora Bursu 2027",
-      "turkey_eligible": "yes",
-      "visual_kind": "institution"
-    },
     {
       "apply_link_id": 1,
       "apply_url": "https://jobs.smartrecruiters.com/CERN/744000159603499-cern-summer-student-programme-2027-member-and-non-member-state-",
@@ -4229,6 +4169,112 @@
       "title_tr": "Gelir İdaresi Başkanlığı Sözleşmeli Şoför Alımı",
       "turkey_eligible": "yes",
       "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 1,
+      "apply_url": "https://www.eit.europa.eu/our-activities/opportunities/rocket-2027-take-your-startup-new-european-market",
+      "category": "is",
+      "country_tr": "Online",
+      "deadline": "2027-01-22",
+      "eligibility_evidence": "Şirket, Avrupa Birliği üyesi bir ülkede veya Horizon Europe ile ilişkili bir ülkede kayıtlı ve faal olmalıdır.",
+      "fee_required": false,
+      "funding_tr": "Eğitim ve mentorluk desteği ücretsizdir",
+      "highlights_tr": [
+        "Kadın liderliğindeki girişimlere özel",
+        "Çevrim içi eğitim ve mentorluk desteği",
+        "Horizon Europe ile ilişkili ülkelerden başvuru"
+      ],
+      "id": "ba06c92b04f0",
+      "is_opportunity": true,
+      "organization": "EIT Community Supernovas",
+      "organization_domain": "eit.europa.eu",
+      "queued_at": "2026-11-28T03:53:08.292712+00:00",
+      "source": "AB İlan",
+      "source_url": "https://ab-ilan.com/rocket-up-2027-kadin-girisimcilere-avrupa-pazarina-acilma-destegi/",
+      "summary_tr": "EIT Community Supernovas tarafından düzenlenen Rocket Up 2027, kadın liderliğindeki girişimlerin Avrupa pazarlarına açılmalarını destekleyen çevrim içi bir büyüme ve mentorluk programıdır.",
+      "title_tr": "Rocket Up 2027: Kadın Girişimciler İçin Avrupa Pazarına Açılma",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a72d5bb6-a2c6-4ba9-b937-0057ef8fc0ea",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "4c1f3ff57bf3",
+      "is_opportunity": true,
+      "organization": "GELİR İDARESİ BAŞKANLIĞI",
+      "organization_domain": "gib.gov.tr",
+      "queued_at": "2026-11-28T03:53:22.587481+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a72d5bb6-a2c6-4ba9-b937-0057ef8fc0ea",
+      "summary_tr": "Gelir İdaresi Başkanlığı bünyesinde sözleşmeli koruma ve güvenlik görevlisi alımı yapılacaktır. Başvurular Kariyer Kapısı üzerinden e-Devlet girişi ile gerçekleştirilmektedir.",
+      "title_tr": "Gelir İdaresi Başkanlığı Sözleşmeli Koruma ve Güvenlik Görevlisi",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_link_id": 3,
+      "apply_url": "https://careers.icrc.org/job/Geneva-%28GVA%29-Global-Affairs-Associate-34135/1459453533/",
+      "category": "staj",
+      "country_tr": "İsviçre",
+      "deadline": "2026-12-06",
+      "eligibility_evidence": "The ICRC also emphasizes that it values diversity, is committed to maintaining an inclusive working environment, and welcomes applications from all qualified candidates.",
+      "fee_required": false,
+      "funding_tr": "Aylık 3.957 CHF maaş",
+      "highlights_tr": [
+        "12 ay süreli tam zamanlı staj",
+        "İngilizce ve Arapça dil şartı",
+        "Yüksek lisans mezuniyeti gereklidir"
+      ],
+      "id": "8e421e8c9454",
+      "is_opportunity": true,
+      "organization": "International Committee of the Red Cross",
+      "organization_domain": "icrc.org",
+      "queued_at": "2026-11-28T03:53:38.621536+00:00",
+      "source": "Opportunities For Youth",
+      "source_url": "https://opportunitiesforyouth.org/2026/11/27/begin-your-humanitarian-career-in-geneva-inside-the-icrc-global-affairs-associate-traineeship/",
+      "summary_tr": "ICRC, Cenevre'de 12 ay sürecek, silahlı grupların analizi ve insani strateji üzerine odaklanan tam zamanlı bir staj programı sunmaktadır.",
+      "title_tr": "ICRC Global Affairs Associate Traineeship",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
+    },
+    {
+      "apply_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=fbe6dbe7-e178-4680-8509-e91d11d9e505",
+      "category": "is",
+      "country_tr": "Türkiye",
+      "deadline": "",
+      "detail_missing": true,
+      "eligibility_evidence": "ilan Türkiye Cumhuriyeti vatandaşlarına yöneliktir.",
+      "fee_required": false,
+      "funding_tr": "Maaşlı",
+      "highlights_tr": [
+        "Türkiye Cumhuriyeti vatandaşlarına açık",
+        "Kariyer Kapısı üzerinden başvuru",
+        "Sözleşmeli personel statüsü"
+      ],
+      "icon": "landmark",
+      "id": "9bfef12920c8",
+      "is_opportunity": true,
+      "organization": "GELİR İDARESİ BAŞKANLIĞI",
+      "organization_domain": "gib.gov.tr",
+      "queued_at": "2026-11-28T03:53:50.005501+00:00",
+      "source": "Kariyer Kapısı",
+      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=fbe6dbe7-e178-4680-8509-e91d11d9e505",
+      "summary_tr": "Gelir İdaresi Başkanlığı bünyesinde sözleşmeli tekniker alımı için giriş sınavı düzenlenecektir. Başvurular Kariyer Kapısı üzerinden e-Devlet ile yapılmaktadır.",
+      "title_tr": "Gelir İdaresi Başkanlığı Sözleşmeli Tekniker Giriş Sınavı",
+      "turkey_eligible": "yes",
+      "visual_kind": "institution"
     }
   ],
   "seen": {
@@ -5396,6 +5442,12 @@
       "title": "INTERACT-Africa Scholarships 2026/2027: Fully Funded Postgraduate Research Opportunities in Kenya, Uganda, Tanzania and ",
       "ts": "2026-11-26T09:31:25.003389+00:00"
     },
+    "4c1f3ff57bf3": {
+      "reason": "",
+      "status": "queued",
+      "title": "Gelir İdaresi Başkanlığı Sözleşmeli Koruma ve Güvenlik Görevlisi",
+      "ts": "2026-11-28T03:53:22.587502+00:00"
+    },
     "4cddf0e2a362": {
       "reason": "Metin, başvuru için gerekli vatandaşlık veya oturum izni şartlarını belirtmemiş, sadece bu şartların kontrol edilmesi gerektiğini ifade etmiştir.",
       "status": "pending",
@@ -5642,6 +5694,12 @@
       "title": "Mısır Hükûmeti Bursları",
       "ts": "2026-11-27T21:15:29.873497+00:00"
     },
+    "60fc631f5b84": {
+      "reason": "Türkiye'ye kapalı: Be a citizen of Armenia, Azerbaijan, Belarus, Georgia, Moldova, or Ukraine.",
+      "status": "rejected",
+      "title": "Eastern Partnership Civil Society Fellowship Programme 2027",
+      "ts": "2026-11-28T03:53:01.980168+00:00"
+    },
     "612f18e45782": {
       "reason": "bekleme süresi doldu",
       "status": "expired",
@@ -5817,10 +5875,10 @@
       "ts": "2026-11-20T11:37:25.158693+00:00"
     },
     "697a8815f7f8": {
-      "reason": "Model 'uygun' dedi ama kanıt cümlesi kimlerin başvurabileceğinden söz etmiyor.",
-      "status": "pending",
-      "title": "UNITAR Traineeships 2026: Apply for 3–6 Month Training Opportunities in New York and Geneva, Switzerland",
-      "ts": "2026-11-21T01:30:05.351159+00:00"
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
+      "title": "UNITAR 2026 Dönemi Staj Programları",
+      "ts": "2026-11-28T03:52:45.269947+00:00"
     },
     "69ae4f68838d": {
       "reason": "bekleme süresi doldu",
@@ -6051,10 +6109,10 @@
       "ts": "2026-11-24T21:08:49.341173+00:00"
     },
     "7b299bf87f25": {
-      "reason": "",
-      "status": "queued",
+      "reason": "bekleme süresi doldu",
+      "status": "expired",
       "title": "UCD Iseult Honohan Doktora Bursu 2027",
-      "ts": "2026-11-13T22:35:53.615440+00:00"
+      "ts": "2026-11-28T03:52:45.269715+00:00"
     },
     "7bc29adf8325": {
       "reason": "",
@@ -6344,6 +6402,12 @@
       "title": "Almanya'da Erasmus+ Gençlik Projeleri: Düsseldorf",
       "ts": "2026-11-11T21:54:35.103817+00:00"
     },
+    "8e421e8c9454": {
+      "reason": "",
+      "status": "queued",
+      "title": "ICRC Global Affairs Associate Traineeship",
+      "ts": "2026-11-28T03:53:38.621553+00:00"
+    },
     "8ef31ab7cfcf": {
       "reason": "resmî başvuru linki bulunamadı (model link seçmedi; sayfada 0 aday link)",
       "status": "rejected",
@@ -6517,6 +6581,12 @@
       "status": "rejected",
       "title": "University of Toronto India Foundation Research Catalyst Grants 2027–2028: Apply for Up to INR 15 Lakhs to Advance Urban",
       "ts": "2026-11-23T02:41:30.042334+00:00"
+    },
+    "9bfef12920c8": {
+      "reason": "",
+      "status": "queued",
+      "title": "Gelir İdaresi Başkanlığı Sözleşmeli Tekniker Giriş Sınavı",
+      "ts": "2026-11-28T03:53:50.005519+00:00"
     },
     "9c4b77d0e397": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -6955,6 +7025,12 @@
       "status": "rejected",
       "title": "Sabancı Vakfı, Fark Yaratanlar Programı Kapsamında Türkiye’nin Fark Yaratanları’nı Arıyor!",
       "ts": "2026-11-02T20:05:06.618182+00:00"
+    },
+    "ba06c92b04f0": {
+      "reason": "",
+      "status": "queued",
+      "title": "Rocket Up 2027: Kadın Girişimciler İçin Avrupa Pazarına Açılma",
+      "ts": "2026-11-28T03:53:08.292733+00:00"
     },
     "bb0202a353f8": {
       "reason": "tekrar (başka kaynakta zaten işlendi)",
@@ -7748,6 +7824,12 @@
       "title": "Henkel Step Up Inclusive Uzun Dönemli Staj Programı",
       "ts": "2026-11-13T22:34:34.615969+00:00"
     },
+    "fa6f5bbf88b9": {
+      "reason": "tekrar (başka kaynakta zaten işlendi)",
+      "status": "rejected",
+      "title": "GELİR İDARESİ BAŞKANLIĞI - Sözleşmeli Avukat",
+      "ts": "2026-11-28T03:53:44.340896+00:00"
+    },
     "fa88ee4e5275": {
       "reason": "Türkiye'ye kapalı: Applicants must be undergraduate students attending colleges or universities across the Asia region that award a bachelo",
       "status": "rejected",
@@ -8192,6 +8274,10 @@
     "volt europa avrupa parlamentosu staj programı",
     "boston university presidential lisans bursu",
     "avustralya çanakkale konsolosluğu anzak günü çalışma fırsatı",
-    "gelir i daresi başkanlığı sözleşmeli şoför alımı"
+    "gelir i daresi başkanlığı sözleşmeli şoför alımı",
+    "rocket up 2027 kadın girişimciler i çin avrupa pazarına açılma",
+    "gelir i daresi başkanlığı sözleşmeli koruma ve güvenlik görevlisi",
+    "icrc global affairs associate traineeship",
+    "gelir i daresi başkanlığı sözleşmeli tekniker giriş sınavı"
   ]
 }
